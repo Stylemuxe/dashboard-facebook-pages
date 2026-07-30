@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-07-30 00:03",
+  "generado": "2026-07-30 00:05",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -596,17 +596,17 @@ window.FB_PAGES_DATA = {
           {
             "label": "Sábado",
             "posts": 15,
-            "engagement_prom": 378.5
+            "engagement_prom": 378.6
           },
           {
             "label": "Jueves",
             "posts": 8,
-            "engagement_prom": 356.6
+            "engagement_prom": 356.9
           },
           {
             "label": "Martes",
             "posts": 10,
-            "engagement_prom": 297.0
+            "engagement_prom": 297.1
           },
           {
             "label": "Lunes",
@@ -633,7 +633,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 15,
-            "engagement_prom": 507.5
+            "engagement_prom": 507.8
           },
           {
             "label": "Tarde (14-18h)",
@@ -643,7 +643,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 11,
-            "engagement_prom": 318.9
+            "engagement_prom": 319.0
           },
           {
             "label": "Noche (18-21h)",
@@ -666,12 +666,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 6,
-          "engagement_prom": 1791.8
+          "engagement_prom": 1792.5
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 32,
-          "engagement_prom": 422.8
+          "engagement_prom": 423.0
         },
         {
           "label": "Educativo / Tips",
@@ -812,7 +812,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¡Atención Zona Sur! ¿Ese dolor de espalda simplemente no desaparece? 🛑\n\nSi vives o pasas por Xochimilco, Coapa o Tlalpan y el dolor ya te impide disfrutar tu día a día, es momento de ponerle un alto definitivo.\n\nEn Equil",
           "fecha": "2026-07-21T15:56:16+0000",
           "url": "https://www.facebook.com/reel/1563134522021903/",
-          "reacciones": 2627,
+          "reacciones": 2628,
           "comentarios": 54,
           "shares": 169,
           "clics": 11391,
@@ -882,7 +882,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿El dolor de espalda te frena? ⚠️ Encuentra el alivio en Plaza Las Flores.\n\nNo dejes que una molestia dicte lo que puedes o no puedes hacer. Si estás en Coacalco, ven a Equilibrio Total antes de que el problema empeore.\n",
           "fecha": "2026-07-18T19:04:12+0000",
           "url": "https://www.facebook.com/reel/1585227103270519/",
-          "reacciones": 2004,
+          "reacciones": 2005,
           "comentarios": 38,
           "shares": 87,
           "clics": 3820,
@@ -1170,7 +1170,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Vives en la zona de Balbuena y el dolor ya forma parte de tu día? 🌿\n\nSi tienes molestias en la espalda, el cuello, las rodillas o los hombros, es momento de atenderlas con un tratamiento integral.\n\nEn Equilibrio Total B",
           "fecha": "2026-07-11T18:10:14+0000",
           "url": "https://www.facebook.com/reel/1530633401878773/",
-          "reacciones": 2296,
+          "reacciones": 2297,
           "comentarios": 112,
           "shares": 169,
           "clics": 7984,
@@ -1845,7 +1845,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 6,
-            "engagement_prom": 388.5
+            "engagement_prom": 388.7
           },
           {
             "label": "Viernes",
@@ -1887,7 +1887,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Tarde (14-18h)",
             "posts": 23,
-            "engagement_prom": 219.8
+            "engagement_prom": 219.9
           },
           {
             "label": "Noche (18-21h)",
@@ -1905,7 +1905,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 4,
-          "engagement_prom": 1316.5
+          "engagement_prom": 1316.8
         },
         {
           "label": "Dolor / Padecimiento",
@@ -2009,7 +2009,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Dolor de espalda, hombro o rodilla? ⚠️ Ponle un alto hoy.\n\nSi eres de Neza, la solución está más cerca de lo que crees. En Equilibrio Total Plaza Nezahualcóyotl te ayudamos a recuperar tu movilidad de una vez por todas.",
           "fecha": "2026-07-20T20:20:34+0000",
           "url": "https://www.facebook.com/reel/2262501294521641/",
-          "reacciones": 2128,
+          "reacciones": 2129,
           "comentarios": 38,
           "shares": 96,
           "clics": 2923,
@@ -3931,7 +3931,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-07-30",
-          "valor": 10029
+          "valor": 10063
         },
         {
           "fecha": "2026-07-31",
@@ -4053,7 +4053,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-07-30",
-          "valor": 48.1
+          "valor": 48.3
         },
         {
           "fecha": "2026-07-31",
@@ -4598,7 +4598,7 @@ window.FB_PAGES_DATA = {
       "seguidores": 714,
       "engagement_28d": 32695,
       "vistas_28d": 5274,
-      "video_views_28d": 161088,
+      "video_views_28d": 161122,
       "conversaciones_28d": 477,
       "no_leidos": 354,
       "rating": 5,
