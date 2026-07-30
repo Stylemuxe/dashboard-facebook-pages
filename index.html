@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <title>Dashboard Facebook Pages | Equilibrio Total</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<script src="data_facebook_pages.js?v=8"></script>
+<script src="data_facebook_pages.js?v=9"></script>
 <style>
 :root{
   --bg:#0A0B10; --bg2:#101219;
@@ -337,6 +337,12 @@ body:not(.unlocked) #login{display:flex}
     <div id="alertBanner"></div>
     <div id="pubBanner"></div>
     <div id="quejasBanner"></div>
+
+    <div class="sec-block">
+      <div class="sec-title">Hoy vs. ayer (4 páginas)</div>
+      <div class="delta-row" id="hoyAyerResumen"></div>
+    </div>
+
     <div class="kpi-row" id="resumenKpiRow"></div>
     <div class="compare-grid">
       <div class="chart-card">
@@ -365,6 +371,11 @@ body:not(.unlocked) #login{display:flex}
 
     <div id="panelFB">
     <div class="kpi-row" id="kpiRow"></div>
+
+    <div class="sec-block">
+      <div class="sec-title">Hoy vs. ayer</div>
+      <div class="delta-row" id="hoyAyerRow"></div>
+    </div>
 
     <div class="sec-block">
       <div class="sec-title">Comparativa diaria</div>
@@ -438,6 +449,11 @@ body:not(.unlocked) #login{display:flex}
 
     <div id="panelIG" style="display:none">
       <div class="kpi-row" id="kpiRowIG"></div>
+
+      <div class="sec-block">
+        <div class="sec-title">Hoy vs. ayer</div>
+        <div class="delta-row" id="hoyAyerRowIG"></div>
+      </div>
 
       <div class="sec-block">
         <div class="sec-title">Comparativa diaria</div>
@@ -537,6 +553,51 @@ function sinHoyParcial(arr){
   return a;
 }
 
+/* ═══ HOY VS. AYER ═══ */
+function hoyVsAyer(arr){
+  // El ultimo dia con dato real (recortando los dias vacios al final, que aun
+  // no tienen datos) es "hoy" (parcial); el que le sigue hacia atras es "ayer".
+  let a = (arr||[]).slice();
+  while(a.length && a[a.length-1].valor === 0) a.pop();
+  if(!a.length) return null;
+  const ultimo = a[a.length-1];
+  const previo = a.length >= 2 ? a[a.length-2] : null;
+  return {ultimo, previo};
+}
+
+function deltaCardHoyAyer(label, icon, hv){
+  if(!hv) return `<div class="delta-card"><div class="v">${icon} —</div><div class="l">${label}</div><span class="d delta-flat">Sin datos</span></div>`;
+  // El ultimo bucket que reporta Meta siempre es el dia en curso (lo marca con
+  // la fecha en la que "cierra", que cae un dia adelante en UTC) — por eso
+  // siempre se trata como "hoy, parcial" sin comparar contra la fecha real.
+  const tituloDia = 'Hoy (parcial)';
+  const hoyVal = hv.ultimo.valor;
+  let deltaHtml = '<span class="d delta-flat">Sin día anterior para comparar</span>';
+  if(hv.previo){
+    const diff = hoyVal - hv.previo.valor;
+    const pct = hv.previo.valor>0 ? (diff/hv.previo.valor*100) : (hoyVal>0?100:0);
+    const cls = diff>0?'delta-up':(diff<0?'delta-down':'delta-flat');
+    const arrow = diff>0?'▲':(diff<0?'▼':'—');
+    deltaHtml = `<span class="d ${cls}">${arrow} ${diff>=0?'+':''}${fmt(diff)} (${pct>=0?'+':''}${pct.toFixed(0)}%) vs ayer (${fmt(hv.previo.valor)})</span>`;
+  }
+  return `<div class="delta-card"><div class="v">${icon} ${fmt(hoyVal)}</div><div class="l">${label} — ${tituloDia}</div>${deltaHtml}</div>`;
+}
+
+function renderHoyAyer(contenedorId, campos){
+  document.getElementById(contenedorId).innerHTML =
+    campos.map(c => deltaCardHoyAyer(c.label, c.icon, c.hv || hoyVsAyer(c.arr))).join('');
+}
+
+function hoyVsAyerAgregado(paginas, campo){
+  let hoyTotal = 0, ayerTotal = 0, hayAyer = true, fecha = null;
+  paginas.forEach(p => {
+    const hv = hoyVsAyer((p||{})[campo]);
+    if(hv){ hoyTotal += hv.ultimo.valor; fecha = hv.ultimo.fecha; if(hv.previo){ ayerTotal += hv.previo.valor; } else { hayAyer = false; } }
+    else { hayAyer = false; }
+  });
+  return {ultimo: {valor: hoyTotal, fecha}, previo: hayAyer ? {valor: ayerTotal} : null};
+}
+
 /* ═══ VISTA RESUMEN GENERAL ═══ */
 function renderResumen(){
   const totalSeguidores = RESUMEN.reduce((a,b)=>a+b.seguidores,0);
@@ -549,6 +610,13 @@ function renderResumen(){
   const ratingProm = ratings.length ? (ratings.reduce((a,b)=>a+b,0)/ratings.length) : null;
   const totalIgSeguidores = RESUMEN.reduce((a,b)=>a+(b.ig_seguidores||0),0);
   const totalIgEngagement = RESUMEN.reduce((a,b)=>a+(b.ig_engagement_28d||0),0);
+
+  const paginasArr = Object.values(DATA);
+  renderHoyAyer('hoyAyerResumen', [
+    {label:'Engagement', icon:'🔥', arr:null, hv:hoyVsAyerAgregado(paginasArr,'engagement_diario')},
+    {label:'Visitas a la página', icon:'👁️', arr:null, hv:hoyVsAyerAgregado(paginasArr,'vistas_diario')},
+    {label:'Reproducciones de video', icon:'🎬', arr:null, hv:hoyVsAyerAgregado(paginasArr,'video_views_diario')},
+  ]);
 
   document.getElementById('resumenKpiRow').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">👥</span>
@@ -757,6 +825,13 @@ function renderSeguidoresGrowth(p){
 }
 
 function renderComparativaDiaria(p){
+  renderHoyAyer('hoyAyerRow', [
+    {label:'Engagement', icon:'🔥', arr:p.engagement_diario},
+    {label:'Visitas a la página', icon:'👁️', arr:p.vistas_diario},
+    {label:'Reproducciones de video', icon:'🎬', arr:p.video_views_diario},
+    {label:'Conversaciones Messenger', icon:'💬', arr:(p.mensajes||{}).serie_diaria},
+  ]);
+
   const engSerie = sinHoyParcial(p.engagement_diario);
   const engMap = buildSerieMap(p.engagement_diario);
   const viewsMap = buildSerieMap(p.vistas_diario);
@@ -962,6 +1037,10 @@ function renderKpisIG(ig){
 }
 
 function renderComparativaDiariaIG(ig){
+  renderHoyAyer('hoyAyerRowIG', [
+    {label:'Alcance (reach)', icon:'👁️', arr:ig.reach_diario},
+  ]);
+
   const reachSerie = sinHoyParcial(ig.reach_diario);
   const reachMap = buildSerieMap(ig.reach_diario);
   const fechas = reachSerie.map(d=>d.fecha);
