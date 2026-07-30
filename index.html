@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <title>Dashboard Facebook Pages | Equilibrio Total</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<script src="data_facebook_pages.js?v=7"></script>
+<script src="data_facebook_pages.js?v=8"></script>
 <style>
 :root{
   --bg:#0A0B10; --bg2:#101219;
@@ -268,6 +268,20 @@ body:not(.unlocked) #login{display:flex}
   box-shadow:0 6px 18px rgba(139,92,246,.35);transition:transform .15s var(--ease)}
 #login-card button:hover{transform:translateY(-1px)}
 #login-err{font-size:11.5px;color:var(--coral);margin-top:12px;min-height:14px}
+
+/* ── Platform toggle (Facebook / Instagram) ── */
+.platform-toggle{display:flex;gap:8px;margin-bottom:22px}
+.platform-btn{padding:9px 18px;font-size:12.5px;font-weight:700;color:var(--text2);
+  background:var(--card);border:1px solid var(--border);border-radius:20px;cursor:pointer;
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+  transition:all .2s var(--ease);display:flex;align-items:center;gap:7px}
+.platform-btn:hover{color:var(--text);border-color:var(--border2)}
+.platform-btn.active[data-plat="facebook"]{color:#fff;border-color:rgba(255,255,255,.22);
+  background:linear-gradient(135deg,rgba(139,92,246,.55),rgba(255,77,109,.5));
+  box-shadow:0 1px 0 rgba(255,255,255,.3) inset,0 4px 16px rgba(139,92,246,.3)}
+.platform-btn.active[data-plat="instagram"]{color:#fff;border-color:rgba(255,255,255,.22);
+  background:linear-gradient(135deg,#f9ce34,#ee2a7b,#6228d7);
+  box-shadow:0 1px 0 rgba(255,255,255,.3) inset,0 4px 16px rgba(238,42,123,.35)}
 </style>
 </head>
 <body>
@@ -337,13 +351,19 @@ body:not(.unlocked) #login{display:flex}
     <div class="sec-title">Comparativa completa</div>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Página</th><th>Categoría</th><th>⭐ Calificación</th><th>Seguidores</th><th>Engagement 28d</th><th>Visitas 28d</th><th>Video views 28d</th><th>Conversaciones 28d</th><th>No leídos</th></tr></thead>
+        <thead><tr><th>Página</th><th>Categoría</th><th>⭐ Calificación</th><th>Seguidores FB</th><th>Engagement FB 28d</th><th>Visitas 28d</th><th>Video views 28d</th><th>Conversaciones 28d</th><th>No leídos</th><th>📸 Seguidores IG</th><th>📸 Engagement IG 28d</th></tr></thead>
         <tbody id="resumenBody"></tbody>
       </table>
     </div>
   </div>
 
   <div class="view" id="viewPagina">
+    <div class="platform-toggle" id="platformToggle">
+      <button class="platform-btn active" data-plat="facebook">📘 Facebook</button>
+      <button class="platform-btn" data-plat="instagram">📸 Instagram</button>
+    </div>
+
+    <div id="panelFB">
     <div class="kpi-row" id="kpiRow"></div>
 
     <div class="sec-block">
@@ -414,6 +434,58 @@ body:not(.unlocked) #login{display:flex}
       <div id="topPostWrap"></div>
       <div class="posts-grid" id="postsGrid"></div>
     </div>
+    </div><!-- /panelFB -->
+
+    <div id="panelIG" style="display:none">
+      <div class="kpi-row" id="kpiRowIG"></div>
+
+      <div class="sec-block">
+        <div class="sec-title">Comparativa diaria</div>
+        <div id="seguidoresGrowthIG"></div>
+        <div class="day-select-wrap">
+          <span style="font-size:12px;color:var(--text2);font-weight:600">Ver día:</span>
+          <select class="day-select" id="daySelectIG"></select>
+        </div>
+        <div class="delta-row" id="deltaRowIG"></div>
+      </div>
+
+      <div class="sec-block">
+        <div class="sec-title">Alcance (reach) — 30 días</div>
+        <div class="chart-card">
+          <div class="chart-title">Cuentas alcanzadas / día</div>
+          <div class="chart-canvas-wrap"><canvas id="chartReachIG"></canvas></div>
+        </div>
+      </div>
+
+      <div class="sec-block">
+        <div class="sec-title">Mejor momento para publicar</div>
+        <div class="rank-grid">
+          <div class="chart-card">
+            <div class="chart-title">Por día de la semana (engagement promedio/post)</div>
+            <div class="rank-list" id="rankDiaIG"></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-title">Por franja horaria (hora CDMX aprox.)</div>
+            <div class="rank-list" id="rankFranjaIG"></div>
+          </div>
+        </div>
+        <div class="freq-note" id="freqNoteIG"></div>
+      </div>
+
+      <div class="sec-block">
+        <div class="sec-title">Qué tipo de contenido funciona mejor</div>
+        <div class="chart-card">
+          <div class="chart-title">Engagement promedio por tema de la publicación</div>
+          <div class="rank-list" id="rankTemasIG"></div>
+        </div>
+      </div>
+
+      <div class="sec-block">
+        <div class="sec-title">Publicaciones recientes</div>
+        <div id="topPostWrapIG"></div>
+        <div class="posts-grid" id="postsGridIG"></div>
+      </div>
+    </div><!-- /panelIG -->
 
   </div>
 
@@ -426,6 +498,7 @@ const DATA = RAW.paginas;
 const RESUMEN = RAW.resumen || [];
 const ORDEN_PAGINAS = ["equilibrio_total","edomex","beth","autonomia"];
 let activa = "resumen";
+let platform = "facebook";
 let charts = {};
 
 function fmt(n){ return Math.round(n||0).toLocaleString('es-MX'); }
@@ -474,6 +547,8 @@ function renderResumen(){
   const totalNoLeidos = RESUMEN.reduce((a,b)=>a+(b.no_leidos||0),0);
   const ratings = RESUMEN.filter(r=>r.rating!=null).map(r=>r.rating);
   const ratingProm = ratings.length ? (ratings.reduce((a,b)=>a+b,0)/ratings.length) : null;
+  const totalIgSeguidores = RESUMEN.reduce((a,b)=>a+(b.ig_seguidores||0),0);
+  const totalIgEngagement = RESUMEN.reduce((a,b)=>a+(b.ig_engagement_28d||0),0);
 
   document.getElementById('resumenKpiRow').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">👥</span>
@@ -497,6 +572,12 @@ function renderResumen(){
     <div class="kpi-card c2"><span class="kpi-icon">⭐</span>
       <div class="kpi-val">${ratingProm!=null ? ratingProm.toFixed(1) : '—'}</div>
       <div class="kpi-label">Calificación promedio (4 páginas)</div></div>
+    <div class="kpi-card c1"><span class="kpi-icon">📸</span>
+      <div class="kpi-val">${fmt(totalIgSeguidores)}</div>
+      <div class="kpi-label">Seguidores Instagram (4 cuentas)</div></div>
+    <div class="kpi-card c2"><span class="kpi-icon">📸</span>
+      <div class="kpi-val">${fmt(totalIgEngagement)}</div>
+      <div class="kpi-label">Engagement Instagram (28 días)</div></div>
   `;
 
   const pubBanner = document.getElementById('pubBanner');
@@ -564,8 +645,10 @@ function renderResumen(){
       <td>${fmt(r.video_views_28d)}</td>
       <td>${fmt(r.conversaciones_28d)}</td>
       <td>${r.no_leidos ? `<span style="color:var(--coral);font-weight:700">${fmt(r.no_leidos)}</span>` : '0'}</td>
+      <td class="cell-num">${r.ig_seguidores!=null ? fmt(r.ig_seguidores) : '—'}</td>
+      <td>${r.ig_engagement_28d!=null ? fmt(r.ig_engagement_28d) : '—'}</td>
     </tr>
-  `).join('') || `<tr><td colspan="9" class="empty-note">Sin datos</td></tr>`;
+  `).join('') || `<tr><td colspan="11" class="empty-note">Sin datos</td></tr>`;
 }
 
 function renderQuejas(){
@@ -858,6 +941,183 @@ function toggleComments(key){
   if(el) el.classList.toggle('open');
 }
 
+/* ═══ INSTAGRAM ═══ */
+function renderKpisIG(ig){
+  document.getElementById('kpiRowIG').innerHTML = `
+    <div class="kpi-card c1"><span class="kpi-icon">📸</span>
+      <div class="kpi-val">${fmt(ig.seguidores)}</div>
+      <div class="kpi-label">Seguidores</div>
+      <div class="kpi-sub">@${ig.username} · ${fmt(ig.media_count)} posts</div></div>
+    <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
+      <div class="kpi-val">${fmt(ig.total_interactions_28d)}</div>
+      <div class="kpi-label">Interacciones (28 días)</div>
+      <div class="kpi-sub">Me gusta + comentarios + guardados + shares</div></div>
+    <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
+      <div class="kpi-val">${fmt(ig.accounts_engaged_28d)}</div>
+      <div class="kpi-label">Cuentas con interacción (28 días)</div></div>
+    <div class="kpi-card c4"><span class="kpi-icon">🧑‍💻</span>
+      <div class="kpi-val">${fmt(ig.profile_views_28d)}</div>
+      <div class="kpi-label">Visitas al perfil (28 días)</div></div>
+  `;
+}
+
+function renderComparativaDiariaIG(ig){
+  const reachSerie = sinHoyParcial(ig.reach_diario);
+  const reachMap = buildSerieMap(ig.reach_diario);
+  const fechas = reachSerie.map(d=>d.fecha);
+  const select = document.getElementById('daySelectIG');
+  select.innerHTML = fechas.slice().reverse().map(f =>
+    `<option value="${f}">${new Date(f+'T12:00:00').toLocaleDateString('es-MX',{weekday:'long',day:'2-digit',month:'short'})}</option>`
+  ).join('');
+
+  function pintar(){
+    const f = select.value;
+    const idx = fechas.indexOf(f);
+    const fPrev = idx > 0 ? fechas[idx-1] : null;
+    const hoyVal = reachMap[f] ?? 0;
+    let deltaHtml = '<span class="d delta-flat">Sin día anterior para comparar</span>';
+    if(fPrev != null){
+      const ayerVal = reachMap[fPrev] ?? 0;
+      const diff = hoyVal - ayerVal;
+      const pct = ayerVal>0 ? (diff/ayerVal*100) : (hoyVal>0?100:0);
+      const cls = diff>0?'delta-up':(diff<0?'delta-down':'delta-flat');
+      const arrow = diff>0?'▲':(diff<0?'▼':'—');
+      deltaHtml = `<span class="d ${cls}">${arrow} ${diff>=0?'+':''}${fmt(diff)} (${pct>=0?'+':''}${pct.toFixed(0)}%) vs día anterior</span>`;
+    }
+    document.getElementById('deltaRowIG').innerHTML =
+      `<div class="delta-card"><div class="v">👁️ ${fmt(hoyVal)}</div><div class="l">Alcance (reach)</div>${deltaHtml}</div>`;
+  }
+  if(fechas.length) select.value = fechas[fechas.length-1];
+  select.onchange = pintar;
+  pintar();
+
+  const hist = ig.historial_seguidores || [];
+  const el = document.getElementById('seguidoresGrowthIG');
+  if(hist.length < 2){
+    el.innerHTML = `<div class="seg-growth-note">📌 Acumulando historial de seguidores (llevamos ${hist.length} día${hist.length===1?'':'s'} registrando).</div>`;
+  } else {
+    const ultimo = hist[hist.length-1], previo = hist[hist.length-2];
+    const diff = ultimo.seguidores - previo.seguidores;
+    const cls = diff>0?'delta-up':(diff<0?'delta-down':'delta-flat');
+    const arrow = diff>0?'▲':(diff<0?'▼':'—');
+    el.innerHTML = `<div class="seg-growth-note">📸 Seguidores: <b>${fmt(ultimo.seguidores)}</b> (${ultimo.fecha}) — <span class="${cls}">${arrow} ${diff>=0?'+':''}${fmt(diff)}</span> vs ${previo.fecha} (${fmt(previo.seguidores)})</div>`;
+  }
+}
+
+function renderReachChartIG(ig){
+  const serie = sinHoyParcial(ig.reach_diario);
+  destroyChart('reachIG');
+  charts.reachIG = new Chart(document.getElementById('chartReachIG'), {
+    type:'line',
+    data:{labels:serie.map(d=>d.fecha.slice(5)), datasets:[{
+      data:serie.map(d=>d.valor), borderColor:'#ee2a7b', backgroundColor:'rgba(238,42,123,.16)',
+      borderWidth:2, pointRadius:0, fill:true, tension:.3
+    }]},
+    options:{
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{grid:{display:false}, ticks:{color:'#A6AAC2', font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
+        y:{grid:{color:'rgba(255,255,255,.07)'}, ticks:{color:'#A6AAC2', font:{size:10}}}
+      },
+      maintainAspectRatio:false
+    }
+  });
+}
+
+function renderMejorHorarioIG(ig){
+  const mh = ig.mejor_horario || {por_dia:[], por_franja:[]};
+  document.getElementById('rankDiaIG').innerHTML = barraRank(mh.por_dia);
+  document.getElementById('rankFranjaIG').innerHTML = barraRank(mh.por_franja);
+
+  const f = ig.frecuencia_publicacion || {};
+  const el = document.getElementById('freqNoteIG');
+  if(f.dias_desde_ultima == null){
+    el.textContent = ''; el.className = 'freq-note'; return;
+  }
+  const alerta = f.dias_desde_ultima >= 5;
+  el.className = 'freq-note' + (alerta ? ' freq-warn' : '');
+  el.textContent = `${alerta?'⚠️ ':''}Última publicación: hace ${f.dias_desde_ultima===0?'menos de 1 día':f.dias_desde_ultima+' día(s)'}.` +
+    (f.frecuencia_dias ? ` Ritmo habitual: ~1 post cada ${f.frecuencia_dias} días (muestra de ${f.muestra} posts recientes).` : '');
+}
+
+function renderTemasIG(ig){
+  document.getElementById('rankTemasIG').innerHTML = barraRank(ig.temas_contenido);
+}
+
+function renderTopPostIG(ig){
+  const posts = ig.posts || [];
+  const wrap = document.getElementById('topPostWrapIG');
+  if(!posts.length){ wrap.innerHTML = ''; return; }
+  const eng = post => (post.reacciones||0)+(post.comentarios||0)+(post.shares||0);
+  const top = posts.reduce((a,b) => eng(b)>eng(a) ? b : a);
+  const fecha = top.fecha ? new Date(top.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'}) : '';
+  wrap.innerHTML = `
+    <div class="post-card top-post">
+      <span class="top-post-badge">🏆 Mejor publicación reciente — ${fmt(eng(top))} de engagement</span>
+      <div class="post-top"><span class="post-badge">📸 Instagram</span><span class="post-date">${fecha}</span></div>
+      <div class="post-msg">${(top.mensaje||'').replace(/</g,'&lt;')}</div>
+      <div class="post-stats">
+        <span class="stat-chip">❤️ <b>${fmt(top.reacciones)}</b> me gusta</span>
+        <span class="stat-chip">💬 <b>${fmt(top.comentarios)}</b> comentarios</span>
+        <span class="stat-chip">🔁 <b>${fmt(top.shares)}</b> shares</span>
+        <span class="stat-chip">🔖 <b>${fmt(top.guardados)}</b> guardados</span>
+        <span class="stat-chip">👁️ <b>${fmt(top.alcance)}</b> alcance</span>
+        ${top.video_views ? `<span class="stat-chip">▶️ <b>${fmt(top.video_views)}</b> reproducciones</span>` : ''}
+      </div>
+      ${top.url ? `<div class="post-actions"><a class="post-link" href="${top.url}" target="_blank">Ver publicación ↗</a></div>` : ''}
+    </div>`;
+}
+
+function renderPostsIG(ig){
+  const grid = document.getElementById('postsGridIG');
+  grid.innerHTML = (ig.posts||[]).map((post, i) => {
+    const fecha = post.fecha ? new Date(post.fecha).toLocaleDateString('es-MX', {day:'2-digit', month:'short', year:'numeric'}) : '—';
+    const chips = [
+      `<span class="stat-chip">❤️ <b>${fmt(post.reacciones)}</b> me gusta</span>`,
+      `<span class="stat-chip">💬 <b>${fmt(post.comentarios)}</b> comentarios</span>`,
+      `<span class="stat-chip">🔁 <b>${fmt(post.shares)}</b> shares</span>`,
+      `<span class="stat-chip">🔖 <b>${fmt(post.guardados)}</b> guardados</span>`,
+      `<span class="stat-chip">👁️ <b>${fmt(post.alcance)}</b> alcance</span>`,
+    ];
+    if(post.video_views) chips.push(`<span class="stat-chip">▶️ <b>${fmt(post.video_views)}</b> reproducciones</span>`);
+
+    const comentarios = post.comentarios_preview || [];
+    const comentariosHtml = comentarios.length ? `
+      <div class="comments-box" id="comments-ig-${i}">
+        ${comentarios.map(c => `
+          <div class="comment-item">${(c.mensaje||'').replace(/</g,'&lt;')}
+            <span class="c-date">${c.fecha ? new Date(c.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short'}) : ''}</span>
+          </div>`).join('')}
+      </div>` : '';
+
+    return `<div class="post-card">
+      <div class="post-top">
+        <span class="post-badge">📸 ${post.media_type==='VIDEO'?'Reel':'Publicación'}</span>
+        <span class="post-date">${fecha}</span>
+      </div>
+      <div class="post-msg">${(post.mensaje||'').replace(/</g,'&lt;')}</div>
+      <div class="post-stats">${chips.join('')}</div>
+      <div class="post-actions">
+        ${post.url ? `<a class="post-link" href="${post.url}" target="_blank">Ver publicación ↗</a>` : ''}
+        ${comentarios.length ? `<button class="comments-toggle" onclick="toggleComments('ig-${i}')">💬 Ver comentarios reales (${comentarios.length})</button>` : ''}
+      </div>
+      ${comentariosHtml}
+    </div>`;
+  }).join('') || '<div class="empty-note">Sin publicaciones recientes</div>';
+}
+
+function renderPaginaIG(p){
+  const ig = p.instagram;
+  if(!ig) return;
+  renderKpisIG(ig);
+  renderComparativaDiariaIG(ig);
+  renderReachChartIG(ig);
+  renderMejorHorarioIG(ig);
+  renderTemasIG(ig);
+  renderTopPostIG(ig);
+  renderPostsIG(ig);
+}
+
 function renderPagina(p){
   renderKpis(p);
   renderComparativaDiaria(p);
@@ -870,6 +1130,25 @@ function renderPagina(p){
   renderPosts(p);
 }
 
+function renderPlatformToggle(p){
+  const tieneIG = !!(p && p.instagram);
+  document.querySelectorAll('.platform-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.plat === platform);
+    if(btn.dataset.plat === 'instagram'){
+      btn.style.display = tieneIG ? '' : 'none';
+    }
+  });
+  document.getElementById('panelFB').style.display = platform === 'facebook' ? '' : 'none';
+  document.getElementById('panelIG').style.display = (platform === 'instagram' && tieneIG) ? '' : 'none';
+}
+
+document.addEventListener('click', function(e){
+  const btn = e.target.closest('.platform-btn');
+  if(!btn) return;
+  platform = btn.dataset.plat;
+  renderAll();
+});
+
 function renderAll(){
   renderTabs();
   const esResumen = activa === 'resumen';
@@ -880,7 +1159,14 @@ function renderAll(){
     renderResumen();
   } else {
     const p = DATA[activa];
-    if(p) renderPagina(p);
+    if(p){
+      renderPlatformToggle(p);
+      if(platform === 'instagram' && p.instagram){
+        renderPaginaIG(p);
+      } else {
+        renderPagina(p);
+      }
+    }
   }
 
   document.getElementById('fechaGenerado').textContent = 'Actualizado: ' + (RAW.generado || '—');
