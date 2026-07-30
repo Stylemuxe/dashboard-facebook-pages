@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>Dashboard Facebook Pages | Equilibrio Total</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="data_facebook_pages.js?v=7"></script>
+<style>
+:root{
+  --bg:#0A0B10; --bg2:#101219;
+  --bg3:rgba(255,255,255,.06);
+  --card:rgba(255,255,255,.055); --card2:rgba(255,255,255,.09);
+  --border:rgba(255,255,255,0.14); --border2:rgba(255,255,255,0.26);
+  --glass-highlight:rgba(255,255,255,.5);
+  --glass-blur:blur(24px) saturate(180%);
+  --coral:#FF4D6D; --violet:#8B5CF6; --gold:#FBBF24; --teal:#2DD4BF; --pink:#F472B6;
+  --text:#F3F4F8; --text2:#9AA1B7; --text3:#5B6478;
+  --ease:cubic-bezier(0.4,0,0.2,1);
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Open Sans',system-ui,sans-serif}
+body{
+  background:
+    radial-gradient(1000px 560px at 10% -10%, rgba(139,92,246,.30), transparent 60%),
+    radial-gradient(900px 520px at 95% 5%, rgba(255,77,109,.24), transparent 58%),
+    radial-gradient(900px 500px at 15% 45%, rgba(45,212,191,.16), transparent 55%),
+    radial-gradient(1000px 560px at 90% 60%, rgba(244,114,182,.16), transparent 55%),
+    radial-gradient(900px 500px at 20% 95%, rgba(251,191,36,.13), transparent 55%),
+    var(--bg);
+  background-attachment:fixed;
+  color:var(--text);min-height:100vh}
+
+/* ── Liquid glass surfaces ── */
+.kpi-card,.chart-card,.post-card,.delta-card,.mini-stat,.table-wrap,.alert-chip,
+.queja-item,.comment-item,.stat-chip,.post-badge,.day-select,.seg-growth-note,
+.header-date,.alert-banner,.top-post{
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+  position:relative
+}
+.kpi-card::before,.chart-card::before,.post-card::before,.delta-card::before,
+.table-wrap::before,.top-post::before{
+  content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:linear-gradient(160deg,rgba(255,255,255,.10) 0%,rgba(255,255,255,0) 30%);
+  mix-blend-mode:overlay
+}
+
+.header{padding:18px 32px;background:rgba(16,18,25,.55);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+  border-bottom:1px solid var(--border);box-shadow:0 1px 0 rgba(255,255,255,.08) inset;
+  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.header-title h1{font-size:19px;font-weight:700;letter-spacing:-.2px;
+  background:linear-gradient(90deg,var(--coral),var(--violet));-webkit-background-clip:text;
+  background-clip:text;color:transparent}
+.header-title p{font-size:11px;color:var(--text2);margin-top:2px}
+.header-date{font-size:11px;color:var(--text2);border:1px solid var(--border);
+  padding:5px 12px;border-radius:20px;display:flex;align-items:center;gap:7px}
+.live-dot{width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 8px var(--teal);
+  animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
+
+.tabs-wrap{padding:9px 32px;border-bottom:1px solid var(--border);background:rgba(16,18,25,.55);
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+  display:flex;gap:5px;overflow-x:auto;position:sticky;top:0;z-index:20}
+.tab-btn{padding:9px 16px;font-size:12.5px;font-weight:700;color:var(--text3);background:none;
+  border:1px solid transparent;border-radius:20px;cursor:pointer;white-space:nowrap;
+  transition:color .2s var(--ease),background .2s var(--ease),border-color .2s;
+  letter-spacing:.02em;display:flex;align-items:center;gap:6px}
+.tab-btn:hover{color:var(--text2);background:rgba(255,255,255,.05)}
+.tab-btn.active{color:#fff;background:linear-gradient(135deg,rgba(139,92,246,.55),rgba(255,77,109,.5));
+  border-color:rgba(255,255,255,.22);box-shadow:0 1px 0 rgba(255,255,255,.3) inset,0 4px 16px rgba(139,92,246,.3);
+  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+
+.content{padding:26px 32px;max-width:1500px;margin:0 auto}
+.view{display:none}.view.active{display:block}
+
+/* ── KPI ── */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-bottom:24px}
+.kpi-card{background:var(--card);border:1px solid var(--border);border-radius:20px;
+  padding:20px 20px 18px;position:relative;overflow:hidden;
+  box-shadow:0 1px 0 rgba(255,255,255,.16) inset,0 0 0 1px rgba(255,255,255,.03) inset,0 16px 40px rgba(0,0,0,.45)}
+.kpi-card::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:20px 20px 0 0;
+  background:var(--kpi-grad,linear-gradient(90deg,var(--coral),var(--violet)));
+  box-shadow:0 0 14px 0 currentColor;opacity:.9}
+.kpi-card{transition:transform .2s var(--ease),border-color .2s var(--ease)}
+.kpi-card:hover{transform:translateY(-2px);border-color:var(--border2)}
+.kpi-card.c1{--kpi-grad:linear-gradient(90deg,var(--coral),var(--violet))}
+.kpi-card.c2{--kpi-grad:linear-gradient(90deg,var(--violet),var(--pink))}
+.kpi-card.c3{--kpi-grad:linear-gradient(90deg,var(--teal),var(--violet))}
+.kpi-card.c4{--kpi-grad:linear-gradient(90deg,var(--gold),var(--coral))}
+.kpi-icon{font-size:21px;margin-bottom:9px;display:block;opacity:.85}
+.kpi-val{font-size:28px;font-weight:700;line-height:1;color:var(--text)}
+.kpi-label{font-size:10px;font-weight:600;color:var(--text2);margin-top:7px;
+  text-transform:uppercase;letter-spacing:.06em}
+.kpi-sub{font-size:11px;margin-top:4px;color:var(--text3)}
+
+/* ── Section titles ── */
+.sec-title{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  display:flex;align-items:center;gap:10px;margin:0 0 16px;color:var(--text)}
+.sec-title::before{content:'';width:3px;height:16px;border-radius:2px;
+  background:linear-gradient(180deg,var(--coral),var(--violet))}
+.sec-block{margin-bottom:26px}
+
+/* ── Charts ── */
+.charts-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:20px;
+  box-shadow:0 1px 0 rgba(255,255,255,.16) inset,0 0 0 1px rgba(255,255,255,.03) inset,0 16px 40px rgba(0,0,0,.45)}
+.chart-title{font-size:11px;font-weight:700;color:var(--text2);margin-bottom:14px;
+  text-transform:uppercase;letter-spacing:.06em}
+.chart-canvas-wrap{position:relative;height:260px}
+.chart-canvas-wrap.tall{height:340px}
+
+/* ── Reaction breakdown ── */
+.reaction-list{display:flex;flex-direction:column;gap:10px}
+.reaction-row{display:flex;align-items:center;gap:10px}
+.reaction-emoji{font-size:16px;width:22px;text-align:center;flex-shrink:0}
+.reaction-label{font-size:11.5px;color:var(--text2);width:76px;flex-shrink:0}
+.reaction-track{flex:1;height:9px;background:var(--bg3);border-radius:5px;overflow:hidden}
+.reaction-fill{height:100%;border-radius:5px;background:linear-gradient(90deg,var(--coral),var(--pink));transition:width .6s var(--ease)}
+.reaction-val{font-size:12px;font-weight:700;color:var(--text);width:64px;text-align:right;flex-shrink:0}
+
+/* ── Comparativa (resumen general) ── */
+.compare-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:16px;margin-bottom:26px}
+
+/* ── Tables ── */
+.table-wrap{overflow-x:auto;border-radius:16px;border:1px solid var(--border);
+  background:var(--card);
+  box-shadow:0 1px 0 rgba(255,255,255,.16) inset,0 0 0 1px rgba(255,255,255,.03) inset,0 16px 40px rgba(0,0,0,.45)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead{background:var(--card2)}
+th{padding:10px 12px;text-align:left;font-size:10px;font-weight:700;color:var(--text2);
+  text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;border-bottom:1px solid var(--border)}
+td{padding:11px 12px;border-top:1px solid var(--border);vertical-align:top;color:var(--text);font-size:12.5px}
+tr:hover td{background:rgba(139,92,246,.09)}
+.cell-num{font-weight:700;color:var(--coral);white-space:nowrap}
+.cell-page{display:flex;align-items:center;gap:9px;font-weight:600}
+.page-avatar{width:26px;height:26px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;
+  justify-content:center;font-size:10px;font-weight:700;color:#fff;
+  background:linear-gradient(135deg,var(--violet),var(--coral))}
+
+/* ── Post cards ── */
+.posts-grid{display:flex;flex-direction:column;gap:12px}
+.post-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:18px 20px;
+  box-shadow:0 1px 0 rgba(255,255,255,.16) inset,0 0 0 1px rgba(255,255,255,.03) inset,0 16px 40px rgba(0,0,0,.45)}
+.post-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:10px;flex-wrap:wrap}
+.post-date{font-size:11px;color:var(--text3);font-weight:600;white-space:nowrap}
+.post-badge{display:inline-flex;align-items:center;gap:4px;padding:2px 9px;border-radius:20px;
+  font-size:10px;font-weight:700;background:rgba(139,92,246,.16);color:#B39DFF}
+.post-msg{font-size:13px;line-height:1.5;color:var(--text);margin-bottom:13px;white-space:pre-line}
+.post-stats{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:4px}
+.stat-chip{display:inline-flex;align-items:center;gap:5px;background:var(--bg3);border-radius:20px;
+  padding:5px 11px;font-size:11.5px;font-weight:700;color:var(--text2)}
+.stat-chip b{color:var(--coral);font-weight:700}
+.post-actions{display:flex;align-items:center;gap:14px;margin-top:10px}
+.post-link{color:var(--violet);text-decoration:none;font-size:11.5px;font-weight:700}
+.post-link:hover{text-decoration:underline}
+.comments-toggle{background:none;border:none;color:var(--teal);font-size:11.5px;font-weight:700;
+  cursor:pointer;padding:0;display:flex;align-items:center;gap:4px}
+.comments-toggle:hover{text-decoration:underline}
+.comments-box{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border2);display:none;
+  flex-direction:column;gap:9px}
+.comments-box.open{display:flex}
+.comment-item{background:var(--card2);border-radius:14px;padding:9px 12px;font-size:12px;
+  line-height:1.5;color:var(--text2)}
+.comment-item .c-date{display:block;font-size:10px;color:var(--text3);margin-top:3px}
+
+.footer-note{font-size:11px;color:var(--text3);text-align:center;padding:24px 0 30px}
+.empty-note{text-align:center;color:var(--text3);font-size:12px;padding:24px}
+
+/* ── Alert banner (mensajes sin responder) ── */
+.alert-banner{background:rgba(255,77,109,.10);border:1px solid rgba(255,77,109,.32);
+  border-radius:20px;padding:16px 20px;margin-bottom:22px}
+.alert-banner-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.alert-banner-head .ico{font-size:18px}
+.alert-banner-head b{font-size:13px;color:#FF7A93}
+.alert-list{display:flex;flex-wrap:wrap;gap:10px}
+.alert-chip{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);
+  border-radius:14px;padding:8px 14px}
+.alert-chip .n{font-size:16px;font-weight:700;color:var(--coral)}
+.alert-chip .l{font-size:11.5px;color:var(--text2);font-weight:600}
+
+/* ── Mini stat cards (mensajes por pagina) ── */
+.mini-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.mini-stat{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:14px 16px}
+.mini-stat .v{font-size:22px;font-weight:700;color:var(--text)}
+.mini-stat .l{font-size:10px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.05em;margin-top:4px}
+.mini-stat.warn .v{color:var(--coral)}
+
+/* ── Warn banner (quejas) ── */
+.warn-banner{background:rgba(251,191,36,.10);border-color:rgba(251,191,36,.32)}
+.warn-banner .alert-banner-head b{color:var(--gold)}
+.quejas-list{display:flex;flex-direction:column;gap:10px}
+.queja-item{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:10px 14px}
+.queja-top{display:flex;justify-content:space-between;gap:10px;font-size:11px;color:var(--text2);margin-bottom:5px}
+.queja-top b{color:var(--text)}
+.queja-txt{font-size:12.5px;color:var(--text);font-style:italic;line-height:1.5;margin-bottom:6px}
+
+/* ── Mejor horario (ranking) ── */
+.rank-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin-bottom:12px}
+.rank-list{display:flex;flex-direction:column;gap:9px}
+.rank-row{display:flex;align-items:center;gap:9px}
+.rank-pos{width:16px;font-size:11px;font-weight:700;color:var(--text3);flex-shrink:0}
+.rank-label{width:150px;flex-shrink:0;font-size:12px;color:var(--text2)}
+.rank-n{font-size:10px;color:var(--text3)}
+.rank-track{flex:1;height:8px;background:var(--bg3);border-radius:4px;overflow:hidden}
+.rank-fill{height:100%;background:linear-gradient(90deg,var(--teal),var(--violet));border-radius:4px}
+.rank-val{font-size:12px;font-weight:700;color:var(--text);width:46px;text-align:right;flex-shrink:0}
+.rank-row.best .rank-label{font-weight:700;color:var(--coral)}
+.freq-note{font-size:12px;color:var(--text2);padding:12px 4px 0}
+.freq-note.freq-warn{color:var(--coral);font-weight:600}
+
+/* ── Comparativa diaria ── */
+.day-select-wrap{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.day-select{background:var(--bg3);border:1px solid var(--border);border-radius:12px;color:var(--text);
+  padding:8px 12px;font-size:13px;cursor:pointer;outline:none;font-family:inherit;text-transform:capitalize}
+.delta-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.delta-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;
+  box-shadow:0 1px 0 rgba(255,255,255,.16) inset,0 0 0 1px rgba(255,255,255,.03) inset,0 16px 40px rgba(0,0,0,.45)}
+.delta-card .v{font-size:22px;font-weight:700;color:var(--text)}
+.delta-card .l{font-size:10px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.05em;margin-top:4px}
+.delta-card .d{display:block;font-size:11.5px;font-weight:700;margin-top:8px}
+.delta-up{color:var(--teal)}
+.delta-down{color:var(--coral)}
+.delta-flat{color:var(--text3);font-weight:600}
+.seg-growth-note{font-size:12px;color:var(--text2);margin-bottom:14px;background:var(--bg3);
+  border-radius:14px;padding:10px 14px}
+
+/* ── Top post ── */
+.top-post{border:2px solid var(--gold);position:relative;margin-bottom:14px;
+  box-shadow:0 0 0 1px rgba(251,191,36,.15),0 12px 34px rgba(251,191,36,.12)}
+.top-post-badge{display:inline-block;background:var(--gold);color:#14161F;font-size:10.5px;
+  font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+
+/* ── Hover polish ── */
+.chart-card,.post-card,.delta-card,.mini-stat,.queja-item,.alert-chip,.table-wrap{
+  transition:border-color .2s var(--ease),box-shadow .2s var(--ease)}
+.chart-card:hover,.post-card:hover,.delta-card:hover,.mini-stat:hover{border-color:var(--border2)}
+
+::-webkit-scrollbar{height:9px;width:9px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--bg3);border-radius:5px}
+::-webkit-scrollbar-thumb:hover{background:var(--border2)}
+
+/* ── Acceso ── */
+body:not(.unlocked) .header,body:not(.unlocked) .tabs-wrap,body:not(.unlocked) .content{display:none}
+#login{display:none;position:fixed;inset:0;z-index:999;align-items:center;justify-content:center;padding:20px}
+body:not(.unlocked) #login{display:flex}
+#login-card{width:100%;max-width:340px;background:var(--card);border:1px solid var(--border);
+  border-radius:20px;padding:32px 28px;text-align:center;
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+  box-shadow:0 1px 0 rgba(255,255,255,.16) inset,0 20px 50px rgba(0,0,0,.55)}
+#login-card .ico{font-size:30px;margin-bottom:6px}
+#login-card h2{font-size:16px;font-weight:700;margin-bottom:4px;
+  background:linear-gradient(90deg,var(--coral),var(--violet));-webkit-background-clip:text;
+  background-clip:text;color:transparent}
+#login-card p{font-size:11.5px;color:var(--text2);margin-bottom:20px}
+#login-card input{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:12px;
+  color:var(--text);padding:11px 14px;font-size:14px;text-align:center;outline:none;
+  font-family:inherit;letter-spacing:2px;margin-bottom:12px;transition:border-color .2s var(--ease)}
+#login-card input:focus{border-color:var(--violet)}
+#login-card button{width:100%;border:none;border-radius:12px;padding:11px 14px;font-size:13px;
+  font-weight:700;color:#fff;cursor:pointer;font-family:inherit;
+  background:linear-gradient(135deg,var(--violet),var(--coral));
+  box-shadow:0 6px 18px rgba(139,92,246,.35);transition:transform .15s var(--ease)}
+#login-card button:hover{transform:translateY(-1px)}
+#login-err{font-size:11.5px;color:var(--coral);margin-top:12px;min-height:14px}
+</style>
+</head>
+<body>
+
+<div id="login">
+  <div id="login-card">
+    <div class="ico">🔒</div>
+    <h2>Dashboard Facebook Pages</h2>
+    <p>Acceso restringido — Equilibrio Total</p>
+    <input type="password" id="loginClave" placeholder="••••••••" autocomplete="off">
+    <button onclick="intentarLogin()">Entrar</button>
+    <div id="login-err"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var CLAVE = "dimelopapi";
+  if(localStorage.getItem('fbdash_unlocked') === '1'){
+    document.body.classList.add('unlocked');
+  }
+  window.intentarLogin = function(){
+    var val = document.getElementById('loginClave').value;
+    if(val === CLAVE){
+      localStorage.setItem('fbdash_unlocked', '1');
+      document.body.classList.add('unlocked');
+    } else {
+      document.getElementById('login-err').textContent = 'Clave incorrecta';
+    }
+  };
+  document.addEventListener('DOMContentLoaded', function(){
+    var input = document.getElementById('loginClave');
+    if(input) input.addEventListener('keydown', function(e){
+      if(e.key === 'Enter') intentarLogin();
+    });
+  });
+})();
+</script>
+
+<div class="header">
+  <div class="header-title">
+    <h1>📊 Dashboard Facebook Pages</h1>
+    <p>Métricas orgánicas — Equilibrio Total</p>
+  </div>
+  <div class="header-date"><span class="live-dot"></span><span id="fechaGenerado">—</span></div>
+</div>
+
+<div class="tabs-wrap" id="tabsWrap"></div>
+
+<div class="content">
+
+  <div class="view" id="viewResumen">
+    <div id="alertBanner"></div>
+    <div id="pubBanner"></div>
+    <div id="quejasBanner"></div>
+    <div class="kpi-row" id="resumenKpiRow"></div>
+    <div class="compare-grid">
+      <div class="chart-card">
+        <div class="chart-title">Seguidores por página</div>
+        <div class="chart-canvas-wrap"><canvas id="chartCompSeguidores"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Engagement (28 días) por página</div>
+        <div class="chart-canvas-wrap"><canvas id="chartCompEngagement"></canvas></div>
+      </div>
+    </div>
+    <div class="sec-title">Comparativa completa</div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Página</th><th>Categoría</th><th>⭐ Calificación</th><th>Seguidores</th><th>Engagement 28d</th><th>Visitas 28d</th><th>Video views 28d</th><th>Conversaciones 28d</th><th>No leídos</th></tr></thead>
+        <tbody id="resumenBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="view" id="viewPagina">
+    <div class="kpi-row" id="kpiRow"></div>
+
+    <div class="sec-block">
+      <div class="sec-title">Comparativa diaria</div>
+      <div id="seguidoresGrowth"></div>
+      <div class="day-select-wrap">
+        <span style="font-size:12px;color:var(--text2);font-weight:600">Ver día:</span>
+        <select class="day-select" id="daySelect"></select>
+      </div>
+      <div class="delta-row" id="deltaRow"></div>
+    </div>
+
+    <div class="sec-block">
+      <div class="sec-title">Tendencia 30 días</div>
+      <div class="charts-row">
+        <div class="chart-card">
+          <div class="chart-title">Engagement diario (reacciones + comentarios + shares)</div>
+          <div class="chart-canvas-wrap"><canvas id="chartEngagement"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Visitas a la página / día</div>
+          <div class="chart-canvas-wrap"><canvas id="chartViews"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-block">
+      <div class="sec-title">Mejor momento para publicar</div>
+      <div class="rank-grid">
+        <div class="chart-card">
+          <div class="chart-title">Por día de la semana (engagement promedio/post)</div>
+          <div class="rank-list" id="rankDia"></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Por franja horaria (hora CDMX aprox.)</div>
+          <div class="rank-list" id="rankFranja"></div>
+        </div>
+      </div>
+      <div class="freq-note" id="freqNote"></div>
+    </div>
+
+    <div class="sec-block">
+      <div class="sec-title">Qué tipo de contenido funciona mejor</div>
+      <div class="chart-card">
+        <div class="chart-title">Engagement promedio por tema de la publicación</div>
+        <div class="rank-list" id="rankTemas"></div>
+      </div>
+    </div>
+
+    <div class="sec-block">
+      <div class="sec-title">Mensajes (Messenger)</div>
+      <div class="mini-stats" id="mensajesStats"></div>
+      <div class="chart-card">
+        <div class="chart-title">Conversaciones nuevas / día</div>
+        <div class="chart-canvas-wrap"><canvas id="chartMensajes"></canvas></div>
+      </div>
+    </div>
+
+    <div class="sec-block">
+      <div class="sec-title">Reacciones por tipo (28 días)</div>
+      <div class="chart-card" style="max-width:520px">
+        <div class="reaction-list" id="reactionList"></div>
+      </div>
+    </div>
+
+    <div class="sec-block">
+      <div class="sec-title">Publicaciones recientes</div>
+      <div id="topPostWrap"></div>
+      <div class="posts-grid" id="postsGrid"></div>
+    </div>
+
+  </div>
+
+  <div class="footer-note" id="footerNote"></div>
+</div>
+
+<script>
+const RAW = window.FB_PAGES_DATA || {paginas:{}, resumen:[]};
+const DATA = RAW.paginas;
+const RESUMEN = RAW.resumen || [];
+const ORDEN_PAGINAS = ["equilibrio_total","edomex","beth","autonomia"];
+let activa = "resumen";
+let charts = {};
+
+function fmt(n){ return Math.round(n||0).toLocaleString('es-MX'); }
+function iniciales(nombre){ return (nombre||'').split(' ').filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase(); }
+function destroyChart(id){ if(charts[id]){ charts[id].destroy(); delete charts[id]; } }
+
+const REACCIONES_META = [
+  {key:'like',  emoji:'👍', label:'Me gusta'},
+  {key:'love',  emoji:'❤️', label:'Me encanta'},
+  {key:'wow',   emoji:'😮', label:'Wow'},
+  {key:'haha',  emoji:'😆', label:'Haha'},
+  {key:'sorry', emoji:'😢', label:'Triste'},
+  {key:'anger', emoji:'😡', label:'Enojo'},
+];
+
+function renderTabs(){
+  const wrap = document.getElementById('tabsWrap');
+  const tabs = [{key:'resumen', label:'📈 Resumen General'}]
+    .concat(ORDEN_PAGINAS.filter(k => DATA[k]).map(k => ({key:k, label:DATA[k].nombre})));
+  wrap.innerHTML = tabs.map(t =>
+    `<button class="tab-btn ${t.key===activa?'active':''}" data-key="${t.key}">${t.label}</button>`
+  ).join('');
+  wrap.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => { activa = btn.dataset.key; renderAll(); });
+  });
+}
+
+function sum(arr){ return (arr||[]).reduce((a,b)=>a+(b.valor||0),0); }
+
+function sinHoyParcial(arr){
+  // Meta reporta el dia en curso (y a veces el siguiente en UTC) incompleto/en 0,
+  // lo que se ve como una caida falsa al final de la serie. Se recortan esos dias.
+  let a = (arr||[]).slice();
+  while(a.length && a[a.length-1].valor === 0) a.pop();
+  if(a.length) a.pop();
+  return a;
+}
+
+/* ═══ VISTA RESUMEN GENERAL ═══ */
+function renderResumen(){
+  const totalSeguidores = RESUMEN.reduce((a,b)=>a+b.seguidores,0);
+  const totalEng = RESUMEN.reduce((a,b)=>a+b.engagement_28d,0);
+  const totalViews = RESUMEN.reduce((a,b)=>a+b.vistas_28d,0);
+  const totalVideoViews = RESUMEN.reduce((a,b)=>a+b.video_views_28d,0);
+  const totalConversaciones = RESUMEN.reduce((a,b)=>a+(b.conversaciones_28d||0),0);
+  const totalNoLeidos = RESUMEN.reduce((a,b)=>a+(b.no_leidos||0),0);
+  const ratings = RESUMEN.filter(r=>r.rating!=null).map(r=>r.rating);
+  const ratingProm = ratings.length ? (ratings.reduce((a,b)=>a+b,0)/ratings.length) : null;
+
+  document.getElementById('resumenKpiRow').innerHTML = `
+    <div class="kpi-card c1"><span class="kpi-icon">👥</span>
+      <div class="kpi-val">${fmt(totalSeguidores)}</div>
+      <div class="kpi-label">Seguidores (4 páginas)</div></div>
+    <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
+      <div class="kpi-val">${fmt(totalEng)}</div>
+      <div class="kpi-label">Engagement total (28 días)</div></div>
+    <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
+      <div class="kpi-val">${fmt(totalViews)}</div>
+      <div class="kpi-label">Visitas totales (28 días)</div></div>
+    <div class="kpi-card c4"><span class="kpi-icon">🎬</span>
+      <div class="kpi-val">${fmt(totalVideoViews)}</div>
+      <div class="kpi-label">Video views totales (28 días)</div></div>
+    <div class="kpi-card c3"><span class="kpi-icon">💬</span>
+      <div class="kpi-val">${fmt(totalConversaciones)}</div>
+      <div class="kpi-label">Conversaciones Messenger (28 días)</div></div>
+    <div class="kpi-card c4"><span class="kpi-icon">⚠️</span>
+      <div class="kpi-val">${fmt(totalNoLeidos)}</div>
+      <div class="kpi-label">Mensajes sin leer (ahora)</div></div>
+    <div class="kpi-card c2"><span class="kpi-icon">⭐</span>
+      <div class="kpi-val">${ratingProm!=null ? ratingProm.toFixed(1) : '—'}</div>
+      <div class="kpi-label">Calificación promedio (4 páginas)</div></div>
+  `;
+
+  const pubBanner = document.getElementById('pubBanner');
+  const alertasPub = RAW.alertas_publicacion || [];
+  if(alertasPub.length){
+    pubBanner.innerHTML = `
+      <div class="alert-banner">
+        <div class="alert-banner-head"><span class="ico">📅</span>
+          <b>${alertasPub.length} página${alertasPub.length===1?'':'s'} con días sin publicar</b></div>
+        <div class="alert-list">
+          ${alertasPub.map(a => `<div class="alert-chip"><span class="n">${a.dias_desde_ultima}d</span><span class="l">${a.nombre}${a.frecuencia_dias?` (ritmo normal: ~${a.frecuencia_dias}d)`:''}</span></div>`).join('')}
+        </div>
+      </div>`;
+  } else {
+    pubBanner.innerHTML = '';
+  }
+
+  const sinResponder = RESUMEN.filter(r => (r.no_leidos||0) > 0).sort((a,b)=>b.no_leidos-a.no_leidos);
+  const banner = document.getElementById('alertBanner');
+  if(sinResponder.length){
+    banner.innerHTML = `
+      <div class="alert-banner">
+        <div class="alert-banner-head"><span class="ico">⚠️</span>
+          <b>${fmt(totalNoLeidos)} mensajes de Messenger sin leer entre las 4 páginas</b></div>
+        <div class="alert-list">
+          ${sinResponder.map(r => `<div class="alert-chip"><span class="n">${fmt(r.no_leidos)}</span><span class="l">${r.nombre}</span></div>`).join('')}
+        </div>
+      </div>`;
+  } else {
+    banner.innerHTML = '';
+  }
+
+  renderQuejas();
+
+  const orden = RESUMEN.slice().sort((a,b)=>b.seguidores-a.seguidores);
+  destroyChart('compSeg');
+  charts.compSeg = new Chart(document.getElementById('chartCompSeguidores'), {
+    type:'bar',
+    data:{labels:orden.map(r=>r.nombre), datasets:[{data:orden.map(r=>r.seguidores), backgroundColor:'#8B5CF6', borderRadius:6, maxBarThickness:34}]},
+    options:{indexAxis:'y', plugins:{legend:{display:false}},
+      scales:{x:{grid:{color:'rgba(255,255,255,.07)'},ticks:{color:'#A6AAC2',font:{size:10}}},
+               y:{grid:{display:false},ticks:{color:'#F3F4F8',font:{size:11,weight:'600'}}}},
+      maintainAspectRatio:false}
+  });
+
+  const ordenEng = RESUMEN.slice().sort((a,b)=>b.engagement_28d-a.engagement_28d);
+  destroyChart('compEng');
+  charts.compEng = new Chart(document.getElementById('chartCompEngagement'), {
+    type:'bar',
+    data:{labels:ordenEng.map(r=>r.nombre), datasets:[{data:ordenEng.map(r=>r.engagement_28d), backgroundColor:'#FF4D6D', borderRadius:6, maxBarThickness:34}]},
+    options:{indexAxis:'y', plugins:{legend:{display:false}},
+      scales:{x:{grid:{color:'rgba(255,255,255,.07)'},ticks:{color:'#A6AAC2',font:{size:10}}},
+               y:{grid:{display:false},ticks:{color:'#F3F4F8',font:{size:11,weight:'600'}}}},
+      maintainAspectRatio:false}
+  });
+
+  document.getElementById('resumenBody').innerHTML = orden.map(r => `
+    <tr>
+      <td><div class="cell-page"><span class="page-avatar">${iniciales(r.nombre)}</span>${r.nombre}</div></td>
+      <td>${(DATA[r.key]&&DATA[r.key].categoria)||'—'}</td>
+      <td>${r.rating!=null ? '⭐ '+r.rating.toFixed(1) : '—'}</td>
+      <td class="cell-num">${fmt(r.seguidores)}</td>
+      <td>${fmt(r.engagement_28d)}</td>
+      <td>${fmt(r.vistas_28d)}</td>
+      <td>${fmt(r.video_views_28d)}</td>
+      <td>${fmt(r.conversaciones_28d)}</td>
+      <td>${r.no_leidos ? `<span style="color:var(--coral);font-weight:700">${fmt(r.no_leidos)}</span>` : '0'}</td>
+    </tr>
+  `).join('') || `<tr><td colspan="9" class="empty-note">Sin datos</td></tr>`;
+}
+
+function renderQuejas(){
+  const quejas = RAW.quejas || [];
+  const wrap = document.getElementById('quejasBanner');
+  if(!quejas.length){ wrap.innerHTML = ''; return; }
+  wrap.innerHTML = `
+    <div class="alert-banner warn-banner">
+      <div class="alert-banner-head"><span class="ico">🚨</span>
+        <b>${quejas.length} posibles quejas detectadas en comentarios (revisar)</b></div>
+      <div class="quejas-list">
+        ${quejas.slice(0,8).map(q => `
+          <div class="queja-item">
+            <div class="queja-top"><b>${q.pagina}</b><span>${q.fecha ? new Date(q.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short'}) : ''}</span></div>
+            <div class="queja-txt">"${(q.comentario||'').replace(/</g,'&lt;')}"</div>
+            ${q.post_url ? `<a class="post-link" href="${q.post_url}" target="_blank">Ver publicación ↗</a>` : ''}
+          </div>`).join('')}
+      </div>
+    </div>`;
+}
+
+/* ═══ VISTA POR PÁGINA ═══ */
+function renderKpis(p){
+  const eng28 = sum(p.engagement_diario);
+  const views28 = sum(p.vistas_diario);
+  const videoViews28 = sum(p.video_views_diario);
+  const videoHoras28 = sum(p.video_view_time_horas_diario);
+  const cal = p.calificacion || {};
+  document.getElementById('kpiRow').innerHTML = `
+    <div class="kpi-card c1"><span class="kpi-icon">👥</span>
+      <div class="kpi-val">${fmt(p.seguidores)}</div>
+      <div class="kpi-label">Seguidores</div>
+      <div class="kpi-sub">${p.categoria||''}${cal.rating!=null?` · ⭐ ${cal.rating.toFixed(1)}${cal.rating_count?` (${cal.rating_count} reseñas)`:''}`:''}</div></div>
+    <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
+      <div class="kpi-val">${fmt(eng28)}</div>
+      <div class="kpi-label">Engagement (28 días)</div>
+      <div class="kpi-sub">Reacciones + comentarios + shares</div></div>
+    <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
+      <div class="kpi-val">${fmt(views28)}</div>
+      <div class="kpi-label">Visitas a la página (28 días)</div></div>
+    <div class="kpi-card c4"><span class="kpi-icon">🎬</span>
+      <div class="kpi-val">${fmt(videoViews28)}</div>
+      <div class="kpi-label">Reproducciones de video (28 días)</div></div>
+    <div class="kpi-card c3"><span class="kpi-icon">🕒</span>
+      <div class="kpi-val">${fmt(videoHoras28)}</div>
+      <div class="kpi-label">Horas de video vistas (28 días)</div></div>
+  `;
+}
+
+function renderCharts(p){
+  const eng = sinHoyParcial(p.engagement_diario);
+  const views = sinHoyParcial(p.vistas_diario);
+
+  destroyChart('eng');
+  charts.eng = new Chart(document.getElementById('chartEngagement'), {
+    type:'line',
+    data:{labels:eng.map(d=>d.fecha.slice(5)), datasets:[{
+      data:eng.map(d=>d.valor), borderColor:'#8B5CF6', backgroundColor:'rgba(139,92,246,.18)',
+      borderWidth:2, pointRadius:0, fill:true, tension:.3
+    }]},
+    options:{
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{grid:{display:false}, ticks:{color:'#A6AAC2', font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
+        y:{grid:{color:'rgba(255,255,255,.07)'}, ticks:{color:'#A6AAC2', font:{size:10}}}
+      },
+      maintainAspectRatio:false
+    }
+  });
+
+  destroyChart('views');
+  charts.views = new Chart(document.getElementById('chartViews'), {
+    type:'bar',
+    data:{labels:views.map(d=>d.fecha.slice(5)), datasets:[{
+      data:views.map(d=>d.valor), backgroundColor:'#FF4D6D', borderRadius:4, maxBarThickness:18
+    }]},
+    options:{
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{grid:{display:false}, ticks:{color:'#A6AAC2', font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
+        y:{grid:{color:'rgba(255,255,255,.07)'}, ticks:{color:'#A6AAC2', font:{size:10}}}
+      },
+      maintainAspectRatio:false
+    }
+  });
+}
+
+function buildSerieMap(arr){
+  const m = {};
+  (arr||[]).forEach(d => { m[d.fecha] = d.valor; });
+  return m;
+}
+
+function renderSeguidoresGrowth(p){
+  const hist = p.historial_seguidores || [];
+  const el = document.getElementById('seguidoresGrowth');
+  if(hist.length < 2){
+    el.innerHTML = `<div class="seg-growth-note">📌 Acumulando historial de seguidores (llevamos ${hist.length} día${hist.length===1?'':'s'} registrando) — el crecimiento día a día se va a poder ver aquí conforme pasen los días.</div>`;
+    return;
+  }
+  const ultimo = hist[hist.length-1], previo = hist[hist.length-2];
+  const diff = ultimo.seguidores - previo.seguidores;
+  const cls = diff>0?'delta-up':(diff<0?'delta-down':'delta-flat');
+  const arrow = diff>0?'▲':(diff<0?'▼':'—');
+  el.innerHTML = `<div class="seg-growth-note">👥 Seguidores: <b>${fmt(ultimo.seguidores)}</b> (${ultimo.fecha}) — <span class="${cls}">${arrow} ${diff>=0?'+':''}${fmt(diff)}</span> vs ${previo.fecha} (${fmt(previo.seguidores)})</div>`;
+}
+
+function renderComparativaDiaria(p){
+  const engSerie = sinHoyParcial(p.engagement_diario);
+  const engMap = buildSerieMap(p.engagement_diario);
+  const viewsMap = buildSerieMap(p.vistas_diario);
+  const videoMap = buildSerieMap(p.video_views_diario);
+  const msgMap = buildSerieMap((p.mensajes||{}).serie_diaria);
+
+  const fechas = engSerie.map(d=>d.fecha);
+  const select = document.getElementById('daySelect');
+  select.innerHTML = fechas.slice().reverse().map(f =>
+    `<option value="${f}">${new Date(f+'T12:00:00').toLocaleDateString('es-MX',{weekday:'long',day:'2-digit',month:'short'})}</option>`
+  ).join('');
+
+  function pintar(){
+    const f = select.value;
+    const idx = fechas.indexOf(f);
+    const fPrev = idx > 0 ? fechas[idx-1] : null;
+
+    function card(label, mapa, icon){
+      const hoyVal = mapa[f] ?? 0;
+      let deltaHtml = '<span class="d delta-flat">Sin día anterior para comparar</span>';
+      if(fPrev != null){
+        const ayerVal = mapa[fPrev] ?? 0;
+        const diff = hoyVal - ayerVal;
+        const pct = ayerVal>0 ? (diff/ayerVal*100) : (hoyVal>0?100:0);
+        const cls = diff>0?'delta-up':(diff<0?'delta-down':'delta-flat');
+        const arrow = diff>0?'▲':(diff<0?'▼':'—');
+        deltaHtml = `<span class="d ${cls}">${arrow} ${diff>=0?'+':''}${fmt(diff)} (${pct>=0?'+':''}${pct.toFixed(0)}%) vs día anterior</span>`;
+      }
+      return `<div class="delta-card"><div class="v">${icon} ${fmt(hoyVal)}</div><div class="l">${label}</div>${deltaHtml}</div>`;
+    }
+
+    document.getElementById('deltaRow').innerHTML = [
+      card('Engagement', engMap, '🔥'),
+      card('Visitas a la página', viewsMap, '👁️'),
+      card('Reproducciones video', videoMap, '🎬'),
+      card('Conversaciones Messenger', msgMap, '💬'),
+    ].join('');
+  }
+
+  if(fechas.length) select.value = fechas[fechas.length-1];
+  select.onchange = pintar;
+  pintar();
+  renderSeguidoresGrowth(p);
+}
+
+function barraRank(list){
+  if(!list || !list.length) return '<div class="empty-note">Sin datos suficientes todavía</div>';
+  const max = Math.max(...list.map(x=>x.engagement_prom), 1);
+  return list.map((x,i) => `
+    <div class="rank-row ${i===0?'best':''}">
+      <span class="rank-pos">${i+1}</span>
+      <span class="rank-label">${x.label}<br><span class="rank-n">${x.posts} posts</span></span>
+      <div class="rank-track"><div class="rank-fill" style="width:${(x.engagement_prom/max*100).toFixed(1)}%"></div></div>
+      <span class="rank-val">${x.engagement_prom}</span>
+    </div>
+  `).join('');
+}
+
+function renderMejorHorario(p){
+  const mh = p.mejor_horario || {por_dia:[], por_franja:[]};
+  document.getElementById('rankDia').innerHTML = barraRank(mh.por_dia);
+  document.getElementById('rankFranja').innerHTML = barraRank(mh.por_franja);
+
+  const f = p.frecuencia_publicacion || {};
+  const el = document.getElementById('freqNote');
+  if(f.dias_desde_ultima == null){
+    el.textContent = '';
+    el.className = 'freq-note';
+    return;
+  }
+  const alerta = f.dias_desde_ultima >= 5;
+  el.className = 'freq-note' + (alerta ? ' freq-warn' : '');
+  el.textContent = `${alerta?'⚠️ ':''}Última publicación: hace ${f.dias_desde_ultima===0?'menos de 1 día':f.dias_desde_ultima+' día(s)'}.` +
+    (f.frecuencia_dias ? ` Ritmo habitual: ~1 post cada ${f.frecuencia_dias} días (muestra de ${f.muestra} posts recientes).` : '');
+}
+
+function renderTemas(p){
+  document.getElementById('rankTemas').innerHTML = barraRank(p.temas_contenido);
+}
+
+function renderTopPost(p){
+  const posts = p.posts || [];
+  const wrap = document.getElementById('topPostWrap');
+  if(!posts.length){ wrap.innerHTML = ''; return; }
+  const eng = post => (post.reacciones||0)+(post.comentarios||0)+(post.shares||0);
+  const top = posts.reduce((a,b) => eng(b)>eng(a) ? b : a);
+  const fecha = top.fecha ? new Date(top.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'}) : '';
+  wrap.innerHTML = `
+    <div class="post-card top-post">
+      <span class="top-post-badge">🏆 Mejor publicación reciente — ${fmt(eng(top))} de engagement</span>
+      <div class="post-top"><span class="post-badge">📘 Publicación</span><span class="post-date">${fecha}</span></div>
+      <div class="post-msg">${(top.mensaje||'').replace(/</g,'&lt;')}</div>
+      <div class="post-stats">
+        <span class="stat-chip">❤️ <b>${fmt(top.reacciones)}</b> reacciones</span>
+        <span class="stat-chip">💬 <b>${fmt(top.comentarios)}</b> comentarios</span>
+        <span class="stat-chip">🔁 <b>${fmt(top.shares)}</b> shares</span>
+        ${top.video_views ? `<span class="stat-chip">▶️ <b>${fmt(top.video_views)}</b> vistas video</span>` : ''}
+      </div>
+      ${top.url ? `<div class="post-actions"><a class="post-link" href="${top.url}" target="_blank">Ver publicación ↗</a></div>` : ''}
+    </div>`;
+}
+
+function renderMensajes(p){
+  const m = p.mensajes || {conversaciones_28d:0, mensajes_28d:0, no_leidos:0, serie_diaria:[]};
+  document.getElementById('mensajesStats').innerHTML = `
+    <div class="mini-stat"><div class="v">${fmt(m.conversaciones_28d)}</div><div class="l">Conversaciones (28 días)</div></div>
+    <div class="mini-stat"><div class="v">${fmt(m.mensajes_28d)}</div><div class="l">Mensajes totales (28 días)</div></div>
+    <div class="mini-stat ${m.no_leidos>0?'warn':''}"><div class="v">${fmt(m.no_leidos)}</div><div class="l">Sin leer ahora</div></div>
+  `;
+  const serie = sinHoyParcial(m.serie_diaria);
+  destroyChart('msg');
+  charts.msg = new Chart(document.getElementById('chartMensajes'), {
+    type:'bar',
+    data:{labels:serie.map(d=>d.fecha.slice(5)), datasets:[{
+      data:serie.map(d=>d.valor), backgroundColor:'#2DD4BF', borderRadius:4, maxBarThickness:18
+    }]},
+    options:{
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{grid:{display:false}, ticks:{color:'#A6AAC2', font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:10}},
+        y:{grid:{color:'rgba(255,255,255,.07)'}, ticks:{color:'#A6AAC2', font:{size:10}}}
+      },
+      maintainAspectRatio:false
+    }
+  });
+}
+
+function renderReacciones(p){
+  const tipo = p.reacciones_tipo || {};
+  const total = Object.values(tipo).reduce((a,b)=>a+b,0) || 1;
+  const list = REACCIONES_META.map(m => ({...m, val: tipo[m.key]||0}))
+    .sort((a,b)=>b.val-a.val);
+  document.getElementById('reactionList').innerHTML = list.map(r => `
+    <div class="reaction-row">
+      <span class="reaction-emoji">${r.emoji}</span>
+      <span class="reaction-label">${r.label}</span>
+      <div class="reaction-track"><div class="reaction-fill" style="width:${(r.val/total*100).toFixed(1)}%"></div></div>
+      <span class="reaction-val">${fmt(r.val)}</span>
+    </div>
+  `).join('') || '<div class="empty-note">Sin datos de reacciones aún</div>';
+}
+
+function renderPosts(p){
+  const grid = document.getElementById('postsGrid');
+  grid.innerHTML = (p.posts||[]).map((post, i) => {
+    const fecha = post.fecha ? new Date(post.fecha).toLocaleDateString('es-MX', {day:'2-digit', month:'short', year:'numeric'}) : '—';
+    const chips = [
+      `<span class="stat-chip">❤️ <b>${fmt(post.reacciones)}</b> reacciones</span>`,
+      `<span class="stat-chip">💬 <b>${fmt(post.comentarios)}</b> comentarios</span>`,
+      `<span class="stat-chip">🔁 <b>${fmt(post.shares)}</b> shares</span>`,
+    ];
+    if(post.clics) chips.push(`<span class="stat-chip">👆 <b>${fmt(post.clics)}</b> clics</span>`);
+    if(post.video_views) chips.push(`<span class="stat-chip">▶️ <b>${fmt(post.video_views)}</b> vistas video</span>`);
+
+    const comentarios = post.comentarios_preview || [];
+    const comentariosHtml = comentarios.length ? `
+      <div class="comments-box" id="comments-${activa}-${i}">
+        ${comentarios.map(c => `
+          <div class="comment-item">${(c.mensaje||'').replace(/</g,'&lt;')}
+            <span class="c-date">${c.fecha ? new Date(c.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short'}) : ''}</span>
+          </div>`).join('')}
+      </div>` : '';
+
+    return `<div class="post-card">
+      <div class="post-top">
+        <span class="post-badge">📘 Publicación</span>
+        <span class="post-date">${fecha}</span>
+      </div>
+      <div class="post-msg">${(post.mensaje||'').replace(/</g,'&lt;')}</div>
+      <div class="post-stats">${chips.join('')}</div>
+      <div class="post-actions">
+        ${post.url ? `<a class="post-link" href="${post.url}" target="_blank">Ver publicación ↗</a>` : ''}
+        ${comentarios.length ? `<button class="comments-toggle" onclick="toggleComments('${activa}-${i}')">💬 Ver comentarios reales (${comentarios.length})</button>` : ''}
+      </div>
+      ${comentariosHtml}
+    </div>`;
+  }).join('') || '<div class="empty-note">Sin publicaciones recientes</div>';
+}
+
+function toggleComments(key){
+  const el = document.getElementById('comments-' + key);
+  if(el) el.classList.toggle('open');
+}
+
+function renderPagina(p){
+  renderKpis(p);
+  renderComparativaDiaria(p);
+  renderCharts(p);
+  renderMejorHorario(p);
+  renderTemas(p);
+  renderMensajes(p);
+  renderReacciones(p);
+  renderTopPost(p);
+  renderPosts(p);
+}
+
+function renderAll(){
+  renderTabs();
+  const esResumen = activa === 'resumen';
+  document.getElementById('viewResumen').classList.toggle('active', esResumen);
+  document.getElementById('viewPagina').classList.toggle('active', !esResumen);
+
+  if(esResumen){
+    renderResumen();
+  } else {
+    const p = DATA[activa];
+    if(p) renderPagina(p);
+  }
+
+  document.getElementById('fechaGenerado').textContent = 'Actualizado: ' + (RAW.generado || '—');
+  document.getElementById('footerNote').textContent = 'Datos vía Graph API (Meta) — page_post_engagements, page_views_total, page_video_views, page_actions_post_reactions_total, comentarios y clics reales por publicación.';
+}
+
+renderAll();
+</script>
+
+</body>
+</html>
