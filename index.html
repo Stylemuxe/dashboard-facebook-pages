@@ -22,19 +22,38 @@
   --glass-blur:blur(24px) saturate(180%);
   --coral:#FF4D6D; --violet:#8B5CF6; --gold:#FBBF24; --teal:#2DD4BF; --pink:#F472B6;
   --text:#F3F4F8; --text2:#9AA1B7; --text3:#5B6478;
+  --header-bg:rgba(16,18,25,.55);
+  --chart-grid:rgba(255,255,255,.07);
+  --chart-tick:#A6AAC2; --chart-tick-strong:#F3F4F8;
+  --glass-sheen:linear-gradient(160deg,rgba(255,255,255,.10) 0%,rgba(255,255,255,0) 30%);
+  --bg-glow-op:1;
   --ease:cubic-bezier(0.4,0,0.2,1);
+}
+body.light-theme{
+  --bg:#F0F1F6; --bg2:#E7E9F1;
+  --bg3:rgba(20,20,35,.045);
+  --card:rgba(255,255,255,.55); --card2:rgba(255,255,255,.75);
+  --border:rgba(20,20,40,0.09); --border2:rgba(20,20,40,0.16);
+  --glass-highlight:rgba(255,255,255,.85);
+  --text:#1C1E2A; --text2:#5B6072; --text3:#8A8FA3;
+  --header-bg:rgba(255,255,255,.55);
+  --chart-grid:rgba(20,20,40,.08);
+  --chart-tick:#6B7086; --chart-tick-strong:#1C1E2A;
+  --glass-sheen:linear-gradient(160deg,rgba(255,255,255,.65) 0%,rgba(255,255,255,0) 35%);
+  --bg-glow-op:.55;
 }
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Open Sans',system-ui,sans-serif}
 body{
   background:
-    radial-gradient(1000px 560px at 10% -10%, rgba(139,92,246,.30), transparent 60%),
-    radial-gradient(900px 520px at 95% 5%, rgba(255,77,109,.24), transparent 58%),
-    radial-gradient(900px 500px at 15% 45%, rgba(45,212,191,.16), transparent 55%),
-    radial-gradient(1000px 560px at 90% 60%, rgba(244,114,182,.16), transparent 55%),
-    radial-gradient(900px 500px at 20% 95%, rgba(251,191,36,.13), transparent 55%),
+    radial-gradient(1000px 560px at 10% -10%, rgba(139,92,246,calc(.30 * var(--bg-glow-op))), transparent 60%),
+    radial-gradient(900px 520px at 95% 5%, rgba(255,77,109,calc(.24 * var(--bg-glow-op))), transparent 58%),
+    radial-gradient(900px 500px at 15% 45%, rgba(45,212,191,calc(.16 * var(--bg-glow-op))), transparent 55%),
+    radial-gradient(1000px 560px at 90% 60%, rgba(244,114,182,calc(.16 * var(--bg-glow-op))), transparent 55%),
+    radial-gradient(900px 500px at 20% 95%, rgba(251,191,36,calc(.13 * var(--bg-glow-op))), transparent 55%),
     var(--bg);
   background-attachment:fixed;
-  color:var(--text);min-height:100vh}
+  color:var(--text);min-height:100vh;
+  transition:background-color .35s var(--ease),color .35s var(--ease)}
 
 /* ── Liquid glass surfaces ── */
 .kpi-card,.chart-card,.post-card,.delta-card,.mini-stat,.table-wrap,.alert-chip,
@@ -46,13 +65,14 @@ body{
 .kpi-card::before,.chart-card::before,.post-card::before,.delta-card::before,
 .table-wrap::before,.top-post::before{
   content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
-  background:linear-gradient(160deg,rgba(255,255,255,.10) 0%,rgba(255,255,255,0) 30%);
+  background:var(--glass-sheen);
   mix-blend-mode:overlay
 }
 
-.header{padding:18px 32px;background:rgba(16,18,25,.55);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+.header{padding:18px 32px;background:var(--header-bg);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
   border-bottom:1px solid var(--border);box-shadow:0 1px 0 rgba(255,255,255,.08) inset;
-  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;
+  transition:background-color .35s var(--ease),border-color .35s var(--ease)}
 .header-title h1{font-size:19px;font-weight:700;letter-spacing:-.2px;
   background:linear-gradient(90deg,var(--coral),var(--violet));-webkit-background-clip:text;
   background-clip:text;color:transparent}
@@ -63,9 +83,10 @@ body{
   animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
 
-.tabs-wrap{padding:9px 32px;border-bottom:1px solid var(--border);background:rgba(16,18,25,.55);
+.tabs-wrap{padding:9px 32px;border-bottom:1px solid var(--border);background:var(--header-bg);
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
-  display:flex;gap:5px;overflow-x:auto;position:sticky;top:0;z-index:20}
+  display:flex;gap:5px;overflow-x:auto;position:sticky;top:0;z-index:20;
+  transition:background-color .35s var(--ease),border-color .35s var(--ease)}
 .tab-btn{padding:9px 16px;font-size:12.5px;font-weight:700;color:var(--text3);background:none;
   border:1px solid transparent;border-radius:20px;cursor:pointer;white-space:nowrap;
   transition:color .2s var(--ease),background .2s var(--ease),border-color .2s;
@@ -269,6 +290,27 @@ body:not(.unlocked) #login{display:flex}
 #login-card button:hover{transform:translateY(-1px)}
 #login-err{font-size:11.5px;color:var(--coral);margin-top:12px;min-height:14px}
 
+/* ── Theme transitions on themed surfaces ── */
+.kpi-card,.chart-card,.post-card,.delta-card,.mini-stat,.table-wrap,.alert-chip,
+.queja-item,.comment-item,.tab-btn,.day-select,.seg-growth-note,#login-card,
+th,td,.header-date{transition:background-color .35s var(--ease),border-color .35s var(--ease),color .35s var(--ease),box-shadow .35s var(--ease)}
+
+/* ── Theme toggle (liquid glass pill) ── */
+.theme-toggle{position:relative;width:56px;height:30px;border-radius:20px;border:1px solid var(--border);
+  background:var(--card);cursor:pointer;flex-shrink:0;padding:0;
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+  box-shadow:0 1px 0 rgba(255,255,255,.16) inset,0 6px 16px rgba(0,0,0,.25);
+  transition:background-color .35s var(--ease),border-color .35s var(--ease)}
+.theme-toggle::before{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:var(--glass-sheen);mix-blend-mode:overlay}
+.theme-toggle .knob{position:absolute;top:2px;left:2px;width:24px;height:24px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:12px;
+  background:linear-gradient(135deg,#fff,#E5E7F2);
+  box-shadow:0 2px 6px rgba(0,0,0,.35),0 1px 0 rgba(255,255,255,.6) inset;
+  transform:translateX(0);transition:transform .35s var(--ease)}
+body.light-theme .theme-toggle .knob{transform:translateX(26px);
+  background:linear-gradient(135deg,#2A2D3E,#14161F)}
+
 /* ── Platform toggle (Facebook / Instagram) ── */
 .platform-toggle{display:flex;gap:8px;margin-bottom:22px}
 .platform-btn{padding:9px 18px;font-size:12.5px;font-weight:700;color:var(--text2);
@@ -326,7 +368,12 @@ body:not(.unlocked) #login{display:flex}
     <h1>📊 Dashboard Facebook Pages</h1>
     <p>Métricas orgánicas — Equilibrio Total</p>
   </div>
-  <div class="header-date"><span class="live-dot"></span><span id="fechaGenerado">—</span></div>
+  <div style="display:flex;align-items:center;gap:14px">
+    <div class="header-date"><span class="live-dot"></span><span id="fechaGenerado">—</span></div>
+    <button class="theme-toggle" id="themeToggle" title="Cambiar tema" aria-label="Cambiar tema claro/oscuro">
+      <span class="knob">🌙</span>
+    </button>
+  </div>
 </div>
 
 <div class="tabs-wrap" id="tabsWrap"></div>
@@ -509,6 +556,30 @@ body:not(.unlocked) #login{display:flex}
 </div>
 
 <script>
+(function(){
+  var saved = localStorage.getItem('fbdash_theme');
+  var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  var theme = saved || (prefersLight ? 'light' : 'dark');
+  function apply(t){
+    document.body.classList.toggle('light-theme', t === 'light');
+    var knob = document.getElementById('themeToggle');
+    if(knob) knob.querySelector('.knob').textContent = t === 'light' ? '☀️' : '🌙';
+  }
+  apply(theme);
+  document.addEventListener('DOMContentLoaded', function(){
+    apply(theme);
+    var btn = document.getElementById('themeToggle');
+    if(btn) btn.addEventListener('click', function(){
+      theme = theme === 'light' ? 'dark' : 'light';
+      localStorage.setItem('fbdash_theme', theme);
+      apply(theme);
+      if(typeof renderAll === 'function') renderAll();
+    });
+  });
+})();
+</script>
+
+<script>
 const RAW = window.FB_PAGES_DATA || {paginas:{}, resumen:[]};
 const DATA = RAW.paginas;
 const RESUMEN = RAW.resumen || [];
@@ -517,6 +588,14 @@ let activa = "resumen";
 let platform = "facebook";
 let charts = {};
 
+function chartColors(){
+  const cs = getComputedStyle(document.body);
+  return {
+    grid: cs.getPropertyValue('--chart-grid').trim() || 'rgba(255,255,255,.07)',
+    tick: cs.getPropertyValue('--chart-tick').trim() || '#A6AAC2',
+    tickStrong: cs.getPropertyValue('--chart-tick-strong').trim() || '#F3F4F8',
+  };
+}
 function fmt(n){ return Math.round(n||0).toLocaleString('es-MX'); }
 function iniciales(nombre){ return (nombre||'').split(' ').filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase(); }
 function destroyChart(id){ if(charts[id]){ charts[id].destroy(); delete charts[id]; } }
@@ -680,14 +759,15 @@ function renderResumen(){
 
   renderQuejas();
 
+  const CC = chartColors();
   const orden = RESUMEN.slice().sort((a,b)=>b.seguidores-a.seguidores);
   destroyChart('compSeg');
   charts.compSeg = new Chart(document.getElementById('chartCompSeguidores'), {
     type:'bar',
     data:{labels:orden.map(r=>r.nombre), datasets:[{data:orden.map(r=>r.seguidores), backgroundColor:'#8B5CF6', borderRadius:6, maxBarThickness:34}]},
     options:{indexAxis:'y', plugins:{legend:{display:false}},
-      scales:{x:{grid:{color:'rgba(255,255,255,.07)'},ticks:{color:'#A6AAC2',font:{size:10}}},
-               y:{grid:{display:false},ticks:{color:'#F3F4F8',font:{size:11,weight:'600'}}}},
+      scales:{x:{grid:{color:CC.grid},ticks:{color:CC.tick,font:{size:10}}},
+               y:{grid:{display:false},ticks:{color:CC.tickStrong,font:{size:11,weight:'600'}}}},
       maintainAspectRatio:false}
   });
 
@@ -697,8 +777,8 @@ function renderResumen(){
     type:'bar',
     data:{labels:ordenEng.map(r=>r.nombre), datasets:[{data:ordenEng.map(r=>r.engagement_28d), backgroundColor:'#FF4D6D', borderRadius:6, maxBarThickness:34}]},
     options:{indexAxis:'y', plugins:{legend:{display:false}},
-      scales:{x:{grid:{color:'rgba(255,255,255,.07)'},ticks:{color:'#A6AAC2',font:{size:10}}},
-               y:{grid:{display:false},ticks:{color:'#F3F4F8',font:{size:11,weight:'600'}}}},
+      scales:{x:{grid:{color:CC.grid},ticks:{color:CC.tick,font:{size:10}}},
+               y:{grid:{display:false},ticks:{color:CC.tickStrong,font:{size:11,weight:'600'}}}},
       maintainAspectRatio:false}
   });
 
@@ -769,6 +849,7 @@ function renderKpis(p){
 function renderCharts(p){
   const eng = sinHoyParcial(p.engagement_diario);
   const views = sinHoyParcial(p.vistas_diario);
+  const CC = chartColors();
 
   destroyChart('eng');
   charts.eng = new Chart(document.getElementById('chartEngagement'), {
@@ -780,8 +861,8 @@ function renderCharts(p){
     options:{
       plugins:{legend:{display:false}},
       scales:{
-        x:{grid:{display:false}, ticks:{color:'#A6AAC2', font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
-        y:{grid:{color:'rgba(255,255,255,.07)'}, ticks:{color:'#A6AAC2', font:{size:10}}}
+        x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
+        y:{grid:{color:CC.grid}, ticks:{color:CC.tick, font:{size:10}}}
       },
       maintainAspectRatio:false
     }
@@ -796,8 +877,8 @@ function renderCharts(p){
     options:{
       plugins:{legend:{display:false}},
       scales:{
-        x:{grid:{display:false}, ticks:{color:'#A6AAC2', font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
-        y:{grid:{color:'rgba(255,255,255,.07)'}, ticks:{color:'#A6AAC2', font:{size:10}}}
+        x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
+        y:{grid:{color:CC.grid}, ticks:{color:CC.tick, font:{size:10}}}
       },
       maintainAspectRatio:false
     }
@@ -942,6 +1023,7 @@ function renderMensajes(p){
     <div class="mini-stat ${m.no_leidos>0?'warn':''}"><div class="v">${fmt(m.no_leidos)}</div><div class="l">Sin leer ahora</div></div>
   `;
   const serie = sinHoyParcial(m.serie_diaria);
+  const CC = chartColors();
   destroyChart('msg');
   charts.msg = new Chart(document.getElementById('chartMensajes'), {
     type:'bar',
@@ -951,8 +1033,8 @@ function renderMensajes(p){
     options:{
       plugins:{legend:{display:false}},
       scales:{
-        x:{grid:{display:false}, ticks:{color:'#A6AAC2', font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:10}},
-        y:{grid:{color:'rgba(255,255,255,.07)'}, ticks:{color:'#A6AAC2', font:{size:10}}}
+        x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:10}},
+        y:{grid:{color:CC.grid}, ticks:{color:CC.tick, font:{size:10}}}
       },
       maintainAspectRatio:false
     }
@@ -1085,6 +1167,7 @@ function renderComparativaDiariaIG(ig){
 
 function renderReachChartIG(ig){
   const serie = sinHoyParcial(ig.reach_diario);
+  const CC = chartColors();
   destroyChart('reachIG');
   charts.reachIG = new Chart(document.getElementById('chartReachIG'), {
     type:'line',
@@ -1095,8 +1178,8 @@ function renderReachChartIG(ig){
     options:{
       plugins:{legend:{display:false}},
       scales:{
-        x:{grid:{display:false}, ticks:{color:'#A6AAC2', font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
-        y:{grid:{color:'rgba(255,255,255,.07)'}, ticks:{color:'#A6AAC2', font:{size:10}}}
+        x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
+        y:{grid:{color:CC.grid}, ticks:{color:CC.tick, font:{size:10}}}
       },
       maintainAspectRatio:false
     }
