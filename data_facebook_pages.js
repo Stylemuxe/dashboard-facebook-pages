@@ -1,10 +1,10 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-08-01 08:23",
+  "generado": "2026-08-01 08:28",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
       "id": "103426168998997",
-      "seguidores": 21912,
+      "seguidores": 21913,
       "categoria": "Medical & health",
       "engagement_diario": [
         {
@@ -605,7 +605,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Jueves",
             "posts": 8,
-            "engagement_prom": 407.2
+            "engagement_prom": 407.5
           },
           {
             "label": "Martes",
@@ -620,12 +620,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Miércoles",
             "posts": 10,
-            "engagement_prom": 189.7
+            "engagement_prom": 189.8
           },
           {
             "label": "Viernes",
             "posts": 5,
-            "engagement_prom": 18.2
+            "engagement_prom": 18.4
           },
           {
             "label": "Domingo",
@@ -637,12 +637,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 15,
-            "engagement_prom": 569.7
+            "engagement_prom": 569.9
           },
           {
             "label": "Tarde (14-18h)",
             "posts": 10,
-            "engagement_prom": 437.7
+            "engagement_prom": 437.8
           },
           {
             "label": "Mañana (06-11h)",
@@ -652,7 +652,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Noche (18-21h)",
             "posts": 22,
-            "engagement_prom": 30.8
+            "engagement_prom": 30.9
           },
           {
             "label": "Noche tarde (21-24h)",
@@ -670,27 +670,27 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 6,
-          "engagement_prom": 2006.2
+          "engagement_prom": 2006.5
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 31,
-          "engagement_prom": 489.9
+          "engagement_prom": 490.0
         },
         {
           "label": "Educativo / Tips",
           "posts": 6,
-          "engagement_prom": 312.5
+          "engagement_prom": 312.7
         },
         {
           "label": "Promoción / Precio",
           "posts": 4,
-          "engagement_prom": 267.5
+          "engagement_prom": 267.8
         },
         {
           "label": "Llamado a agendar",
           "posts": 6,
-          "engagement_prom": 253.0
+          "engagement_prom": 253.2
         },
         {
           "label": "Testimonio",
@@ -714,7 +714,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "Volver a moverme sin miedo no paso de la noche a la mañana, Fue confiar en los especialistas y en el proceso, escuchar a mi cuerpo y ponerme en las manos correctas. Si llevas tiempo posponiendo tu bienestar, este es tú r",
           "fecha": "2026-08-01T01:00:30+0000",
           "url": "https://www.facebook.com/reel/1869005807794704/",
-          "reacciones": 12,
+          "reacciones": 13,
           "comentarios": 1,
           "shares": 1,
           "clics": 12,
@@ -755,7 +755,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Vives con dolor en Ecatepec? 📍\nNo viajes para recibir tratamiento. 🛑\nTu evaluación física cuesta $690. 💳\nSana tus lesiones corporales hoy.\nVuelve a moverte con libertad. 🌟\nManda mensaje para agendar ahora.",
           "fecha": "2026-07-23T18:59:27+0000",
           "url": "https://www.facebook.com/reel/2000859271304298/",
-          "reacciones": 971,
+          "reacciones": 972,
           "comentarios": 39,
           "shares": 39,
           "clics": 3014,
@@ -1043,7 +1043,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Sabías que en la Alcaldía Iztacalco está el lugar ideal para recuperar tu movilidad? 🏥✨\n\nEn Equilibrio Total La Moderna entendemos que el camino a la recuperación requiere acompañamiento. No importa cuál sea tu meta, qu",
           "fecha": "2026-07-15T22:20:43+0000",
           "url": "https://www.facebook.com/reel/1685306439427499/",
-          "reacciones": 1588,
+          "reacciones": 1589,
           "comentarios": 88,
           "shares": 103,
           "clics": 8339,
@@ -1198,7 +1198,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-01",
-          "seguidores": 21912
+          "seguidores": 21913
         }
       ],
       "instagram": {
@@ -1325,7 +1325,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-01",
-            "valor": 2831
+            "valor": 3019
           }
         ],
         "profile_views_28d": 5631,
@@ -2345,22 +2345,22 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 6,
-            "engagement_prom": 430.3
+            "engagement_prom": 430.5
           },
           {
             "label": "Viernes",
             "posts": 8,
-            "engagement_prom": 361.4
+            "engagement_prom": 361.5
           },
           {
             "label": "Martes",
             "posts": 10,
-            "engagement_prom": 205.8
+            "engagement_prom": 205.9
           },
           {
             "label": "Miércoles",
             "posts": 8,
-            "engagement_prom": 162.9
+            "engagement_prom": 163.0
           },
           {
             "label": "Jueves",
@@ -2382,12 +2382,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 8,
-            "engagement_prom": 476.2
+            "engagement_prom": 476.5
           },
           {
             "label": "Tarde (14-18h)",
             "posts": 23,
-            "engagement_prom": 243.2
+            "engagement_prom": 243.3
           },
           {
             "label": "Noche (18-21h)",
@@ -2405,12 +2405,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 4,
-          "engagement_prom": 1557.5
+          "engagement_prom": 1558.0
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 42,
-          "engagement_prom": 223.5
+          "engagement_prom": 223.6
         },
         {
           "label": "Promoción / Precio",
@@ -2444,7 +2444,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "El dolor articular no desaparece solo. Actúa y recupérate en Chalco. ⚡\n\nEsa punzada en la rodilla, la tensión en los hombros o la rigidez en la espalda son alertas claras de tu cuerpo. No te acostumbres a vivir con dolor",
           "fecha": "2026-07-21T16:42:14+0000",
           "url": "https://www.facebook.com/reel/1023931530484248/",
-          "reacciones": 941,
+          "reacciones": 942,
           "comentarios": 29,
           "shares": 55,
           "clics": 3923,
@@ -2509,7 +2509,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Dolor de espalda, hombro o rodilla? ⚠️ Ponle un alto hoy.\n\nSi eres de Neza, la solución está más cerca de lo que crees. En Equilibrio Total Plaza Nezahualcóyotl te ayudamos a recuperar tu movilidad de una vez por todas.",
           "fecha": "2026-07-20T20:20:34+0000",
           "url": "https://www.facebook.com/reel/2262501294521641/",
-          "reacciones": 2359,
+          "reacciones": 2360,
           "comentarios": 49,
           "shares": 105,
           "clics": 3485,
@@ -2598,7 +2598,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "Recupera tu bienestar sin salir de Neza. 🏃‍♂️✨\n\nIgnorar una lesión o molestia en la espalda puede agravar el problema. Recibe atención especializada muy cerca de ti, con un tratamiento estructurado a tu medida para alivi",
           "fecha": "2026-07-17T16:49:43+0000",
           "url": "https://www.facebook.com/reel/2462345234189626/",
-          "reacciones": 2524,
+          "reacciones": 2525,
           "comentarios": 79,
           "shares": 136,
           "clics": 5957,
@@ -2728,7 +2728,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¡Atención, Nicolás Romero! ¿Buscas terapia de rehabilitación física de calidad?\n\nSi necesitas aliviar el dolor y recuperar tu independencia, en Equilibrio Total Nicolás Romero tenemos la solución. Nuestro equipo de espec",
           "fecha": "2026-07-15T22:38:04+0000",
           "url": "https://www.facebook.com/reel/3707578712727000/",
-          "reacciones": 1046,
+          "reacciones": 1047,
           "comentarios": 41,
           "shares": 67,
           "clics": 3078,
@@ -3022,7 +3022,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-01",
-            "valor": 2398
+            "valor": 2494
           }
         ],
         "profile_views_28d": 2106,
@@ -4614,7 +4614,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-01",
-            "valor": 256
+            "valor": 259
           }
         ],
         "profile_views_28d": 273,
@@ -5315,7 +5315,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-02",
-          "valor": 387
+          "valor": 511
         }
       ],
       "video_view_time_horas_diario": [
@@ -5437,7 +5437,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-02",
-          "valor": 1.3
+          "valor": 2.0
         }
       ],
       "calificacion": {
@@ -6057,7 +6057,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-01",
-            "valor": 44
+            "valor": 51
           }
         ],
         "profile_views_28d": 468,
@@ -6437,7 +6437,7 @@ window.FB_PAGES_DATA = {
     {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
-      "seguidores": 21912,
+      "seguidores": 21913,
       "engagement_28d": 147095,
       "vistas_28d": 39233,
       "video_views_28d": 2179358,
@@ -6488,7 +6488,7 @@ window.FB_PAGES_DATA = {
       "seguidores": 737,
       "engagement_28d": 34755,
       "vistas_28d": 5548,
-      "video_views_28d": 168715,
+      "video_views_28d": 168839,
       "conversaciones_28d": 338,
       "no_leidos": 33,
       "rating": 5,
