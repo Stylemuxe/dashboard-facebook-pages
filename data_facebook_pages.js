@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-08-03 01:58",
+  "generado": "2026-08-03 02:07",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -125,7 +125,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 65
+          "valor": 72
         }
       ],
       "vistas_diario": [
@@ -361,15 +361,15 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-02",
-          "valor": 118920
+          "valor": 118921
         },
         {
           "fecha": "2026-08-03",
-          "valor": 128905
+          "valor": 128906
         },
         {
           "fecha": "2026-08-04",
-          "valor": 1031
+          "valor": 1199
         }
       ],
       "video_view_time_horas_diario": [
@@ -491,7 +491,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 5.2
+          "valor": 5.9
         }
       ],
       "calificacion": {
@@ -726,7 +726,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 2,
           "shares": 0,
           "clics": 147,
-          "video_views": 3404,
+          "video_views": 3409,
           "comentarios_preview": [
             {
               "mensaje": "Donde se ubican xfavor gracias",
@@ -747,7 +747,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 3,
           "shares": 1,
           "clics": 36,
-          "video_views": 2109,
+          "video_views": 2113,
           "comentarios_preview": [
             {
               "mensaje": "Y es verdad!! Gracias a todos 10 de 10",
@@ -772,7 +772,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 1,
           "clics": 24,
-          "video_views": 1471,
+          "video_views": 1472,
           "comentarios_preview": []
         },
         {
@@ -784,7 +784,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 3,
           "clics": 14,
-          "video_views": 1286,
+          "video_views": 1288,
           "comentarios_preview": []
         },
         {
@@ -874,7 +874,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 76,
           "shares": 215,
           "clics": 15515,
-          "video_views": 228960,
+          "video_views": 228962,
           "comentarios_preview": [
             {
               "mensaje": "Cómo puedo agendar una cita",
@@ -927,7 +927,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 1,
           "shares": 0,
           "clics": 20,
-          "video_views": 957,
+          "video_views": 958,
           "comentarios_preview": [
             {
               "mensaje": "No sé las recomiendo son una clínica de ratas que se aprovechan de la salud y de la gente primero anuncian un precio 5900 por 10 sesiones y después que no 9000 y apagar en tra sesi",
@@ -1084,7 +1084,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 87,
           "shares": 113,
           "clics": 8973,
-          "video_views": 140822,
+          "video_views": 140827,
           "comentarios_preview": [
             {
               "mensaje": "En qué lugar se encuentra?",
@@ -1133,7 +1133,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 3,
           "shares": 0,
           "clics": 15,
-          "video_views": 990,
+          "video_views": 991,
           "comentarios_preview": [
             {
               "mensaje": "Excelente Acupunturista",
@@ -1158,7 +1158,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 51,
           "shares": 123,
           "clics": 5962,
-          "video_views": 213093,
+          "video_views": 213159,
           "comentarios_preview": [
             {
               "mensaje": "Información por favor",
@@ -1349,13 +1349,13 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-03",
-            "valor": 520
+            "valor": 550
           }
         ],
         "profile_views_28d": 5709,
         "website_clicks_28d": 125,
         "accounts_engaged_28d": 6677,
-        "total_interactions_28d": 8218,
+        "total_interactions_28d": 8221,
         "mejor_horario": {
           "por_dia": [
             {
@@ -1882,7 +1882,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 45
+          "valor": 70
         }
       ],
       "vistas_diario": [
@@ -2004,7 +2004,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 9
+          "valor": 19
         }
       ],
       "video_views_diario": [
@@ -2126,7 +2126,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 915
+          "valor": 1101
         }
       ],
       "video_view_time_horas_diario": [
@@ -2248,7 +2248,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 4.3
+          "valor": 5.3
         }
       ],
       "calificacion": {
@@ -2386,12 +2386,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Viernes",
             "posts": 8,
-            "engagement_prom": 451.6
+            "engagement_prom": 451.8
           },
           {
             "label": "Martes",
             "posts": 10,
-            "engagement_prom": 260.6
+            "engagement_prom": 260.7
           },
           {
             "label": "Miércoles",
@@ -2418,7 +2418,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 8,
-            "engagement_prom": 625.2
+            "engagement_prom": 625.5
           },
           {
             "label": "Tarde (14-18h)",
@@ -2441,7 +2441,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 4,
-          "engagement_prom": 1871.8
+          "engagement_prom": 1872.0
         },
         {
           "label": "Dolor / Padecimiento",
@@ -2492,11 +2492,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "El dolor articular no desaparece solo. Actúa y recupérate en Chalco. ⚡\n\nEsa punzada en la rodilla, la tensión en los hombros o la rigidez en la espalda son alertas claras de tu cuerpo. No te acostumbres a vivir con dolor",
           "fecha": "2026-07-21T16:42:14+0000",
           "url": "https://www.facebook.com/reel/1023931530484248/",
-          "reacciones": 1385,
+          "reacciones": 1386,
           "comentarios": 32,
           "shares": 79,
           "clics": 5721,
-          "video_views": 136738,
+          "video_views": 136796,
           "comentarios_preview": [
             {
               "mensaje": "Hola.\nPrecio de la primera cita?\nPrecio de la continuidad?",
@@ -2561,7 +2561,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 57,
           "shares": 130,
           "clics": 4664,
-          "video_views": 138986,
+          "video_views": 138987,
           "comentarios_preview": [
             {
               "mensaje": "Sirve para ARREGLAR el desgaste de rodilla producido por acido urico muy elevado por muccho tiempo?",
@@ -2651,11 +2651,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "Recupera tu bienestar sin salir de Neza. 🏃‍♂️✨\n\nIgnorar una lesión o molestia en la espalda puede agravar el problema. Recibe atención especializada muy cerca de ti, con un tratamiento estructurado a tu medida para alivi",
           "fecha": "2026-07-17T16:49:43+0000",
           "url": "https://www.facebook.com/reel/2462345234189626/",
-          "reacciones": 3193,
+          "reacciones": 3194,
           "comentarios": 95,
           "shares": 168,
           "clics": 7435,
-          "video_views": 204921,
+          "video_views": 205003,
           "comentarios_preview": [
             {
               "mensaje": "Entonces si no soy d neza m vas a negar el servicio???",
@@ -2785,7 +2785,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 44,
           "shares": 79,
           "clics": 3544,
-          "video_views": 79456,
+          "video_views": 79457,
           "comentarios_preview": [
             {
               "mensaje": "Buenas tardes que horarios tienen",
@@ -3071,13 +3071,13 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-03",
-            "valor": 533
+            "valor": 709
           }
         ],
         "profile_views_28d": 2149,
         "website_clicks_28d": 0,
         "accounts_engaged_28d": 3538,
-        "total_interactions_28d": 4224,
+        "total_interactions_28d": 4226,
         "mejor_horario": {
           "por_dia": [
             {
@@ -3560,7 +3560,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 13
+          "valor": 17
         }
       ],
       "vistas_diario": [
@@ -3800,11 +3800,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-03",
-          "valor": 35658
+          "valor": 35660
         },
         {
           "fecha": "2026-08-04",
-          "valor": 192
+          "valor": 240
         }
       ],
       "video_view_time_horas_diario": [
@@ -3926,7 +3926,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 0.8
+          "valor": 1.0
         }
       ],
       "calificacion": {
@@ -4100,7 +4100,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 38,
           "shares": 117,
           "clics": 6098,
-          "video_views": 192775,
+          "video_views": 192803,
           "comentarios_preview": [
             {
               "mensaje": "Quiero hacer una cita, me mandas número para llamar",
@@ -4675,7 +4675,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-03",
-            "valor": 58
+            "valor": 59
           }
         ],
         "profile_views_28d": 284,
@@ -5136,7 +5136,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 7
+          "valor": 9
         }
       ],
       "vistas_diario": [
@@ -5380,7 +5380,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 33
+          "valor": 41
         }
       ],
       "video_view_time_horas_diario": [
@@ -5735,7 +5735,7 @@ window.FB_PAGES_DATA = {
       "posts": [
         {
           "id": "930200630167541_122145083193112657",
-          "mensaje": "Caption)\n¿Esperando a tener 80 años para ir al gerontólogo? 🛑 Es hora de cambiar el chip.\nExiste un mito enorme de que la gerontología es exclusiva para la tercera edad avanzada. Pero el verdadero secreto para una vida l",
+          "mensaje": "¿Esperando a tener 80 años para ir al gerontólogo? 🛑 Es hora de cambiar el chip.\nExiste un mito enorme de que la gerontología es exclusiva para la tercera edad avanzada. Pero el verdadero secreto para una vida larga y ac",
           "fecha": "2026-08-02T15:01:05+0000",
           "url": "https://www.facebook.com/reel/906127612571171/",
           "reacciones": 12,
@@ -6126,7 +6126,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-03",
-            "valor": 5
+            "valor": 7
           }
         ],
         "profile_views_28d": 446,
@@ -6511,41 +6511,41 @@ window.FB_PAGES_DATA = {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
       "seguidores": 22042,
-      "engagement_28d": 155413,
+      "engagement_28d": 155420,
       "vistas_28d": 40048,
-      "video_views_28d": 2321415,
+      "video_views_28d": 2321585,
       "conversaciones_28d": 284,
       "no_leidos": 26,
       "rating": 4.7,
       "dias_desde_ultima": 1,
       "ig_seguidores": 7399,
       "ig_username": "equilibriototalmx",
-      "ig_engagement_28d": 8218,
+      "ig_engagement_28d": 8221,
       "ig_dias_desde_ultima": 1
     },
     {
       "key": "edomex",
       "nombre": "Equilibrio Total Edomex",
       "seguidores": 13909,
-      "engagement_28d": 174593,
-      "vistas_28d": 45886,
-      "video_views_28d": 3021196,
+      "engagement_28d": 174618,
+      "vistas_28d": 45896,
+      "video_views_28d": 3021382,
       "conversaciones_28d": 245,
       "no_leidos": 19,
       "rating": 4.4,
       "dias_desde_ultima": 1,
       "ig_seguidores": 2731,
       "ig_username": "equilibriototaledomex",
-      "ig_engagement_28d": 4224,
+      "ig_engagement_28d": 4226,
       "ig_dias_desde_ultima": 1
     },
     {
       "key": "beth",
       "nombre": "Ser Humano Beth",
       "seguidores": 8974,
-      "engagement_28d": 46617,
+      "engagement_28d": 46621,
       "vistas_28d": 8296,
-      "video_views_28d": 898645,
+      "video_views_28d": 898695,
       "conversaciones_28d": 27,
       "no_leidos": 24,
       "rating": 4.4,
@@ -6559,9 +6559,9 @@ window.FB_PAGES_DATA = {
       "key": "autonomia",
       "nombre": "Autonomía con Sentido",
       "seguidores": 758,
-      "engagement_28d": 35970,
+      "engagement_28d": 35972,
       "vistas_28d": 5627,
-      "video_views_28d": 175508,
+      "video_views_28d": 175516,
       "conversaciones_28d": 350,
       "no_leidos": 38,
       "rating": 5,
