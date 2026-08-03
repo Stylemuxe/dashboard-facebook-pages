@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-08-03 08:24",
+  "generado": "2026-08-03 08:28",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -121,11 +121,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-03",
-          "valor": 7839
+          "valor": 7840
         },
         {
           "fecha": "2026-08-04",
-          "valor": 920
+          "valor": 1020
         }
       ],
       "vistas_diario": [
@@ -247,7 +247,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 223
+          "valor": 239
         }
       ],
       "video_views_diario": [
@@ -613,7 +613,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Sábado",
             "posts": 16,
-            "engagement_prom": 446.8
+            "engagement_prom": 446.9
           },
           {
             "label": "Lunes",
@@ -645,7 +645,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 15,
-            "engagement_prom": 662.4
+            "engagement_prom": 662.5
           },
           {
             "label": "Tarde (14-18h)",
@@ -678,7 +678,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 6,
-          "engagement_prom": 2239.5
+          "engagement_prom": 2239.7
         },
         {
           "label": "Dolor / Padecimiento",
@@ -948,7 +948,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 47,
           "shares": 127,
           "clics": 6233,
-          "video_views": 297868,
+          "video_views": 298320,
           "comentarios_preview": [
             {
               "mensaje": "Pero la zona es peligrosa",
@@ -1231,7 +1231,7 @@ window.FB_PAGES_DATA = {
       ],
       "instagram": {
         "username": "equilibriototalmx",
-        "seguidores": 7405,
+        "seguidores": 7406,
         "sigue_a": 5,
         "media_count": 301,
         "reach_diario": [
@@ -1353,7 +1353,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-03",
-            "valor": 4880
+            "valor": 5200
           }
         ],
         "profile_views_28d": 5725,
@@ -1757,7 +1757,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-03",
-            "seguidores": 7405
+            "seguidores": 7406
           }
         ]
       }
@@ -2390,12 +2390,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Viernes",
             "posts": 8,
-            "engagement_prom": 456.5
+            "engagement_prom": 456.6
           },
           {
             "label": "Martes",
             "posts": 10,
-            "engagement_prom": 264.0
+            "engagement_prom": 264.2
           },
           {
             "label": "Miércoles",
@@ -2422,7 +2422,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 8,
-            "engagement_prom": 634.2
+            "engagement_prom": 634.6
           },
           {
             "label": "Tarde (14-18h)",
@@ -2445,12 +2445,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 4,
-          "engagement_prom": 1889.8
+          "engagement_prom": 1890.0
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 43,
-          "engagement_prom": 265.0
+          "engagement_prom": 265.1
         },
         {
           "label": "Promoción / Precio",
@@ -2496,11 +2496,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "El dolor articular no desaparece solo. Actúa y recupérate en Chalco. ⚡\n\nEsa punzada en la rodilla, la tensión en los hombros o la rigidez en la espalda son alertas claras de tu cuerpo. No te acostumbres a vivir con dolor",
           "fecha": "2026-07-21T16:42:14+0000",
           "url": "https://www.facebook.com/reel/1023931530484248/",
-          "reacciones": 1416,
+          "reacciones": 1418,
           "comentarios": 32,
           "shares": 82,
-          "clics": 5878,
-          "video_views": 140439,
+          "clics": 5892,
+          "video_views": 140780,
           "comentarios_preview": [
             {
               "mensaje": "Hola.\nPrecio de la primera cita?\nPrecio de la continuidad?",
@@ -2564,8 +2564,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 2820,
           "comentarios": 58,
           "shares": 132,
-          "clics": 4734,
-          "video_views": 140430,
+          "clics": 4742,
+          "video_views": 140616,
           "comentarios_preview": [
             {
               "mensaje": "Sirve para ARREGLAR el desgaste de rodilla producido por acido urico muy elevado por muccho tiempo?",
@@ -2655,7 +2655,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "Recupera tu bienestar sin salir de Neza. 🏃‍♂️✨\n\nIgnorar una lesión o molestia en la espalda puede agravar el problema. Recibe atención especializada muy cerca de ti, con un tratamiento estructurado a tu medida para alivi",
           "fecha": "2026-07-17T16:49:43+0000",
           "url": "https://www.facebook.com/reel/2462345234189626/",
-          "reacciones": 3229,
+          "reacciones": 3230,
           "comentarios": 95,
           "shares": 170,
           "clics": 7534,
@@ -2724,7 +2724,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 22,
           "shares": 37,
           "clics": 1909,
-          "video_views": 42371,
+          "video_views": 42372,
           "comentarios_preview": [
             {
               "mensaje": "Del hombro",
@@ -3075,10 +3075,10 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-03",
-            "valor": 5198
+            "valor": 5226
           }
         ],
-        "profile_views_28d": 2165,
+        "profile_views_28d": 2167,
         "website_clicks_28d": 0,
         "accounts_engaged_28d": 3560,
         "total_interactions_28d": 4256,
@@ -3261,7 +3261,7 @@ window.FB_PAGES_DATA = {
             "shares": 0,
             "clics": 0,
             "video_views": 492,
-            "alcance": 326,
+            "alcance": 327,
             "guardados": 12,
             "media_type": "IMAGE",
             "comentarios_preview": []
@@ -3276,7 +3276,7 @@ window.FB_PAGES_DATA = {
             "shares": 0,
             "clics": 0,
             "video_views": 751,
-            "alcance": 645,
+            "alcance": 647,
             "guardados": 1,
             "media_type": "VIDEO",
             "comentarios_preview": []
@@ -3321,7 +3321,7 @@ window.FB_PAGES_DATA = {
             "shares": 0,
             "clics": 0,
             "video_views": 502,
-            "alcance": 294,
+            "alcance": 295,
             "guardados": 2,
             "media_type": "CAROUSEL_ALBUM",
             "comentarios_preview": []
@@ -4684,7 +4684,7 @@ window.FB_PAGES_DATA = {
         ],
         "profile_views_28d": 286,
         "website_clicks_28d": 0,
-        "accounts_engaged_28d": 826,
+        "accounts_engaged_28d": 828,
         "total_interactions_28d": 934,
         "mejor_horario": {
           "por_dia": [
@@ -5384,7 +5384,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 785
+          "valor": 831
         }
       ],
       "video_view_time_horas_diario": [
@@ -5506,7 +5506,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 2.6
+          "valor": 2.7
         }
       ],
       "calificacion": {
@@ -6515,14 +6515,14 @@ window.FB_PAGES_DATA = {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
       "seguidores": 22051,
-      "engagement_28d": 156270,
-      "vistas_28d": 40259,
+      "engagement_28d": 156371,
+      "vistas_28d": 40275,
       "video_views_28d": 2336126,
       "conversaciones_28d": 284,
       "no_leidos": 26,
       "rating": 4.7,
       "dias_desde_ultima": 1,
-      "ig_seguidores": 7405,
+      "ig_seguidores": 7406,
       "ig_username": "equilibriototalmx",
       "ig_engagement_28d": 8258,
       "ig_dias_desde_ultima": 1
@@ -6565,7 +6565,7 @@ window.FB_PAGES_DATA = {
       "seguidores": 759,
       "engagement_28d": 36111,
       "vistas_28d": 5654,
-      "video_views_28d": 176264,
+      "video_views_28d": 176310,
       "conversaciones_28d": 349,
       "no_leidos": 38,
       "rating": 5,
