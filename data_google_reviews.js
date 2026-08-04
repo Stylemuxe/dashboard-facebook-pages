@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-04T15:53:09",
+ "actualizado": "2026-08-04T16:06:22",
  "sucursales": [
   {
    "nombre": "Tepeyac",
@@ -348,7 +348,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Yolanda Romero Rojas",
      "rating": 5,
      "texto": "Muy buena en todos los aspectos",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1783461476
     }
    ]
