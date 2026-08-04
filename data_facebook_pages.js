@@ -125,7 +125,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-05",
-          "valor": 829
+          "valor": 920
         }
       ],
       "vistas_diario": [
@@ -247,7 +247,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-05",
-          "valor": 151
+          "valor": 173
         }
       ],
       "video_views_diario": [
@@ -737,8 +737,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 92,
           "comentarios": 3,
           "shares": 2,
-          "clics": 295,
-          "video_views": 7822,
+          "clics": 297,
+          "video_views": 7865,
           "comentarios_preview": [
             {
               "mensaje": "Hubicacion x favor",
@@ -788,7 +788,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 1,
           "clics": 24,
-          "video_views": 1541,
+          "video_views": 1542,
           "comentarios_preview": []
         },
         {
@@ -959,8 +959,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 3004,
           "comentarios": 51,
           "shares": 148,
-          "clics": 7336,
-          "video_views": 341379,
+          "clics": 7356,
+          "video_views": 341963,
           "comentarios_preview": [
             {
               "mensaje": "Pero la zona es peligrosa",
@@ -1083,7 +1083,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 1,
           "shares": 2,
           "clics": 11,
-          "video_views": 1890,
+          "video_views": 1891,
           "comentarios_preview": [
             {
               "mensaje": "No sé las recomiendo son una clínica de ratas que se aprovechan de la salud de la gente que no respetan lo que publica yo acudo a la clínica por primera vez pagó 590 salgo y que cr",
@@ -2225,7 +2225,7 @@ window.FB_PAGES_DATA = {
       "calificacion": {
         "rating": 4.4,
         "rating_count": 2,
-        "talking_about": 7554
+        "talking_about": 7451
       },
       "reacciones_tipo": {
         "like": 31736,
@@ -2360,17 +2360,17 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 6,
-            "engagement_prom": 566.2
+            "engagement_prom": 566.3
           },
           {
             "label": "Viernes",
             "posts": 8,
-            "engagement_prom": 499.4
+            "engagement_prom": 499.5
           },
           {
             "label": "Martes",
             "posts": 10,
-            "engagement_prom": 295.9
+            "engagement_prom": 296.0
           },
           {
             "label": "Miércoles",
@@ -2397,12 +2397,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 8,
-            "engagement_prom": 705.4
+            "engagement_prom": 705.5
           },
           {
             "label": "Tarde (14-18h)",
             "posts": 23,
-            "engagement_prom": 300.1
+            "engagement_prom": 300.2
           },
           {
             "label": "Noche (18-21h)",
@@ -2420,12 +2420,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 4,
-          "engagement_prom": 2078.2
+          "engagement_prom": 2079.0
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 43,
-          "engagement_prom": 291.5
+          "engagement_prom": 291.6
         },
         {
           "label": "Promoción / Precio",
@@ -2474,8 +2474,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 1629,
           "comentarios": 36,
           "shares": 90,
-          "clics": 6928,
-          "video_views": 165267,
+          "clics": 6952,
+          "video_views": 165647,
           "comentarios_preview": [
             {
               "mensaje": "Me podrías mandar ubicación por favor",
@@ -2536,11 +2536,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Dolor de espalda, hombro o rodilla? ⚠️ Ponle un alto hoy.\n\nSi eres de Neza, la solución está más cerca de lo que crees. En Equilibrio Total Plaza Nezahualcóyotl te ayudamos a recuperar tu movilidad de una vez por todas.",
           "fecha": "2026-07-20T20:20:34+0000",
           "url": "https://www.facebook.com/reel/2262501294521641/",
-          "reacciones": 3122,
+          "reacciones": 3123,
           "comentarios": 62,
           "shares": 143,
-          "clics": 5593,
-          "video_views": 160523,
+          "clics": 5600,
+          "video_views": 160875,
           "comentarios_preview": [
             {
               "mensaje": "Sirve para ARREGLAR el desgaste de rodilla producido por acido urico muy elevado por muccho tiempo?",
@@ -2630,7 +2630,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "Recupera tu bienestar sin salir de Neza. 🏃‍♂️✨\n\nIgnorar una lesión o molestia en la espalda puede agravar el problema. Recibe atención especializada muy cerca de ti, con un tratamiento estructurado a tu medida para alivi",
           "fecha": "2026-07-17T16:49:43+0000",
           "url": "https://www.facebook.com/reel/2462345234189626/",
-          "reacciones": 3556,
+          "reacciones": 3557,
           "comentarios": 96,
           "shares": 185,
           "clics": 8322,
@@ -2830,7 +2830,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Vives en Ciudad Satélite, cerca del Parque Naucalli o Jardines de San Mateo y el dolor de espalda, hombro o rodilla no te deja en paz? Es hora de priorizar tu salud con verdaderos especialistas.\n\nEn Equilibrio Total Sat",
           "fecha": "2026-07-14T22:35:06+0000",
           "url": "https://www.facebook.com/reel/1458511089626613/",
-          "reacciones": 1047,
+          "reacciones": 1048,
           "comentarios": 29,
           "shares": 62,
           "clics": 2722,
@@ -4670,7 +4670,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-04",
-            "valor": 1105
+            "valor": 1138
           }
         ],
         "profile_views_28d": 286,
@@ -6120,7 +6120,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-04",
-            "valor": 54
+            "valor": 56
           }
         ],
         "profile_views_28d": 425,
@@ -6509,8 +6509,8 @@ window.FB_PAGES_DATA = {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
       "seguidores": 22130,
-      "engagement_28d": 161075,
-      "vistas_28d": 40847,
+      "engagement_28d": 161166,
+      "vistas_28d": 40869,
       "video_views_28d": 2422369,
       "conversaciones_28d": 289,
       "no_leidos": 2,
