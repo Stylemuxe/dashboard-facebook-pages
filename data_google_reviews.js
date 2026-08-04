@@ -1,13 +1,20 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-04T16:06:22",
+ "actualizado": "2026-08-04T16:59:41",
  "sucursales": [
   {
    "nombre": "Tepeyac",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 218,
+   "reviews": 219,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "resenas_recientes": [
+    {
+     "autor": "Sabomnim Melody",
+     "rating": 5,
+     "texto": "El Dr. Edson Gallardo en el  área de acupuntura excelente servicio, aclara todas nuestras dudas\nMuchas gracias 😊",
+     "cuando": "en la última semana",
+     "time": 1785882289
+    },
     {
      "autor": "Ximena Cecilia Dorantes Valdez",
      "rating": 5,
@@ -35,13 +42,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "La atención es muy buena y yo en lo personal me he sentido bastante mejor con los especialistas que me han dado la atención y de las señoritas de recepción muy bien lo recomiendo",
      "cuando": "Hace 3 semanas",
      "time": 1783796457
-    },
-    {
-     "autor": "Jaque Hernandez",
-     "rating": 5,
-     "texto": "Fue una atención muy linda y buena por parte de los terapeutas y el personal.\nSi me ayudaron mucho con mi molestia, termino mis secciones sin dolor y muy relajada.",
-     "cuando": "Hace 3 semanas",
-     "time": 1783628996
     }
    ]
   },
@@ -392,7 +392,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Sohe Gonzalez Martinez",
      "rating": 5,
      "texto": "En Equilibrio Total, todo tratamiento inicia con un diagnóstico. Me gustó que el abordaje fue integral: además de los las recpomendaciones de hábitos diarios. Mi postura mejoró mucho y vi cambios con respecto a mi movilidad y fortalecimiento, de manera integral. El equipo es muy amable y atento.",
-     "cuando": "Hace 6 meses",
+     "cuando": "Hace 7 meses",
      "time": 1767738554
     }
    ]
@@ -576,14 +576,14 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 13,
-  "total_resenas": 1180,
+  "total_resenas": 1181,
   "rating_promedio_ponderado": 4.72,
   "resenas_nuevas_7d": null
  },
  "historial": [
   {
    "fecha": "2026-08-04",
-   "total_resenas": 1180,
+   "total_resenas": 1181,
    "rating_prom": 4.72
   }
  ]
