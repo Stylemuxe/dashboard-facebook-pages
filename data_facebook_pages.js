@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-08-04 08:28",
+  "generado": "2026-08-04 08:30",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -365,11 +365,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "valor": 129283
+          "valor": 129288
         },
         {
           "fecha": "2026-08-05",
-          "valor": 18306
+          "valor": 19680
         }
       ],
       "video_view_time_horas_diario": [
@@ -491,13 +491,13 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-05",
-          "valor": 74.2
+          "valor": 80.1
         }
       ],
       "calificacion": {
         "rating": 4.7,
         "rating_count": 0,
-        "talking_about": 9554
+        "talking_about": 9347
       },
       "reacciones_tipo": {
         "like": 29153,
@@ -608,12 +608,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Jueves",
             "posts": 8,
-            "engagement_prom": 512.2
+            "engagement_prom": 512.4
           },
           {
             "label": "Sábado",
             "posts": 16,
-            "engagement_prom": 482.4
+            "engagement_prom": 482.5
           },
           {
             "label": "Martes",
@@ -645,7 +645,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 15,
-            "engagement_prom": 712.9
+            "engagement_prom": 713.1
           },
           {
             "label": "Mañana (06-11h)",
@@ -678,22 +678,22 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 6,
-          "engagement_prom": 2346.5
+          "engagement_prom": 2346.7
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 32,
-          "engagement_prom": 582.1
+          "engagement_prom": 582.2
         },
         {
           "label": "Promoción / Precio",
           "posts": 4,
-          "engagement_prom": 435.8
+          "engagement_prom": 436.0
         },
         {
           "label": "Llamado a agendar",
           "posts": 6,
-          "engagement_prom": 365.5
+          "engagement_prom": 365.7
         },
         {
           "label": "Educativo / Tips",
@@ -808,7 +808,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Vives con dolor en Ecatepec? 📍\nNo viajes para recibir tratamiento. 🛑\nTu evaluación física cuesta $690. 💳\nSana tus lesiones corporales hoy.\nVuelve a moverte con libertad. 🌟\nManda mensaje para agendar ahora.",
           "fecha": "2026-07-23T18:59:27+0000",
           "url": "https://www.facebook.com/reel/2000859271304298/",
-          "reacciones": 1592,
+          "reacciones": 1593,
           "comentarios": 52,
           "shares": 77,
           "clics": 5085,
@@ -1316,12 +1316,12 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-04",
-            "valor": 6395
+            "valor": 6466
           }
         ],
         "profile_views_28d": 5766,
         "website_clicks_28d": 127,
-        "accounts_engaged_28d": 6787,
+        "accounts_engaged_28d": 6789,
         "total_interactions_28d": 8437,
         "mejor_horario": {
           "por_dia": [
@@ -1442,7 +1442,7 @@ window.FB_PAGES_DATA = {
             "shares": 0,
             "clics": 0,
             "video_views": 436,
-            "alcance": 288,
+            "alcance": 292,
             "guardados": 3,
             "media_type": "VIDEO",
             "comentarios_preview": [
@@ -1853,7 +1853,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-05",
-          "valor": 942
+          "valor": 1044
         }
       ],
       "vistas_diario": [
@@ -1975,7 +1975,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-05",
-          "valor": 178
+          "valor": 190
         }
       ],
       "video_views_diario": [
@@ -2360,7 +2360,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 6,
-            "engagement_prom": 566.3
+            "engagement_prom": 566.5
           },
           {
             "label": "Viernes",
@@ -2370,7 +2370,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Martes",
             "posts": 10,
-            "engagement_prom": 296.0
+            "engagement_prom": 296.1
           },
           {
             "label": "Miércoles",
@@ -2397,7 +2397,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 8,
-            "engagement_prom": 705.5
+            "engagement_prom": 705.6
           },
           {
             "label": "Tarde (14-18h)",
@@ -2420,12 +2420,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 4,
-          "engagement_prom": 2079.0
+          "engagement_prom": 2079.2
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 43,
-          "engagement_prom": 291.6
+          "engagement_prom": 291.7
         },
         {
           "label": "Promoción / Precio",
@@ -2471,7 +2471,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "El dolor articular no desaparece solo. Actúa y recupérate en Chalco. ⚡\n\nEsa punzada en la rodilla, la tensión en los hombros o la rigidez en la espalda son alertas claras de tu cuerpo. No te acostumbres a vivir con dolor",
           "fecha": "2026-07-21T16:42:14+0000",
           "url": "https://www.facebook.com/reel/1023931530484248/",
-          "reacciones": 1629,
+          "reacciones": 1630,
           "comentarios": 36,
           "shares": 90,
           "clics": 6952,
@@ -2536,7 +2536,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Dolor de espalda, hombro o rodilla? ⚠️ Ponle un alto hoy.\n\nSi eres de Neza, la solución está más cerca de lo que crees. En Equilibrio Total Plaza Nezahualcóyotl te ayudamos a recuperar tu movilidad de una vez por todas.",
           "fecha": "2026-07-20T20:20:34+0000",
           "url": "https://www.facebook.com/reel/2262501294521641/",
-          "reacciones": 3123,
+          "reacciones": 3124,
           "comentarios": 62,
           "shares": 143,
           "clics": 5600,
@@ -3054,7 +3054,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-08-04",
-            "valor": 6699
+            "valor": 6708
           }
         ],
         "profile_views_28d": 2194,
@@ -3547,7 +3547,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-05",
-          "valor": 288
+          "valor": 321
         }
       ],
       "vistas_diario": [
@@ -3669,7 +3669,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-05",
-          "valor": 66
+          "valor": 69
         }
       ],
       "video_views_diario": [
@@ -4675,8 +4675,8 @@ window.FB_PAGES_DATA = {
         ],
         "profile_views_28d": 286,
         "website_clicks_28d": 0,
-        "accounts_engaged_28d": 883,
-        "total_interactions_28d": 994,
+        "accounts_engaged_28d": 884,
+        "total_interactions_28d": 995,
         "mejor_horario": {
           "por_dia": [
             {
@@ -6511,7 +6511,7 @@ window.FB_PAGES_DATA = {
       "seguidores": 22130,
       "engagement_28d": 161166,
       "vistas_28d": 40869,
-      "video_views_28d": 2422369,
+      "video_views_28d": 2423748,
       "conversaciones_28d": 289,
       "no_leidos": 2,
       "rating": 4.7,
@@ -6525,8 +6525,8 @@ window.FB_PAGES_DATA = {
       "key": "edomex",
       "nombre": "Equilibrio Total Edomex",
       "seguidores": 13948,
-      "engagement_28d": 178110,
-      "vistas_28d": 46395,
+      "engagement_28d": 178212,
+      "vistas_28d": 46407,
       "video_views_28d": 3075541,
       "conversaciones_28d": 256,
       "no_leidos": 46,
@@ -6541,8 +6541,8 @@ window.FB_PAGES_DATA = {
       "key": "beth",
       "nombre": "Ser Humano Beth",
       "seguidores": 8983,
-      "engagement_28d": 48618,
-      "vistas_28d": 8518,
+      "engagement_28d": 48651,
+      "vistas_28d": 8521,
       "video_views_28d": 927241,
       "conversaciones_28d": 34,
       "no_leidos": 28,
@@ -6550,7 +6550,7 @@ window.FB_PAGES_DATA = {
       "dias_desde_ultima": 21,
       "ig_seguidores": 1717,
       "ig_username": "funda_cionserhumano",
-      "ig_engagement_28d": 994,
+      "ig_engagement_28d": 995,
       "ig_dias_desde_ultima": 21
     },
     {
