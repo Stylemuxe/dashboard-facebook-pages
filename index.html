@@ -409,6 +409,23 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
         <tbody id="resumenBody"></tbody>
       </table>
     </div>
+
+    <div class="sec-block">
+      <div class="sec-title">⭐ Reseñas de Google (Maps) — sucursales</div>
+      <div class="kpi-row" id="googleKpiRow"></div>
+      <div class="compare-grid">
+        <div class="chart-card">
+          <div class="chart-title">Reseñas por sucursal</div>
+          <div class="rank-list" id="rankGoogleReviews"></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Calificación por sucursal</div>
+          <div class="rank-list" id="rankGoogleRating"></div>
+        </div>
+      </div>
+      <div class="chart-title" style="margin:18px 0 10px">Reseñas recientes</div>
+      <div class="posts-grid" id="googleReviewsFeed"></div>
+    </div>
   </div>
 
   <div class="view" id="viewPagina">
@@ -584,6 +601,7 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
 const RAW = window.FB_PAGES_DATA || {paginas:{}, resumen:[]};
 const DATA = RAW.paginas;
 const RESUMEN = RAW.resumen || [];
+const GOOGLE = window.GOOGLE_REVIEWS_DATA || {sucursales:[], resumen:{}, historial:[]};
 const ORDEN_PAGINAS = ["equilibrio_total","edomex","beth","autonomia"];
 let activa = "resumen";
 let platform = "facebook";
@@ -759,6 +777,7 @@ function renderResumen(){
   }
 
   renderQuejas();
+  renderGoogleReviews();
 
   const CC = chartColors();
   const orden = RESUMEN.slice().sort((a,b)=>b.seguidores-a.seguidores);
@@ -817,6 +836,71 @@ function renderQuejas(){
           </div>`).join('')}
       </div>
     </div>`;
+}
+
+function renderGoogleReviews(){
+  const kpiEl = document.getElementById('googleKpiRow');
+  const rankReviewsEl = document.getElementById('rankGoogleReviews');
+  const rankRatingEl = document.getElementById('rankGoogleRating');
+  const feedEl = document.getElementById('googleReviewsFeed');
+  if(!kpiEl) return;
+
+  const suc = GOOGLE.sucursales || [];
+  const res = GOOGLE.resumen || {};
+  if(!suc.length){
+    kpiEl.innerHTML = '<div class="empty-note">Sin datos de Google todavía</div>';
+    rankReviewsEl.innerHTML = '';
+    rankRatingEl.innerHTML = '';
+    feedEl.innerHTML = '';
+    return;
+  }
+
+  const nuevas7d = res.resenas_nuevas_7d;
+  kpiEl.innerHTML = `
+    <div class="kpi-card c2"><span class="kpi-icon">⭐</span>
+      <div class="kpi-val">${res.rating_promedio_ponderado!=null ? res.rating_promedio_ponderado.toFixed(1) : '—'}</div>
+      <div class="kpi-label">Calificación ponderada (${res.total_sucursales||suc.length} sucursales)</div></div>
+    <div class="kpi-card c1"><span class="kpi-icon">💬</span>
+      <div class="kpi-val">${fmt(res.total_resenas||0)}</div>
+      <div class="kpi-label">Reseñas totales en Google</div></div>
+    <div class="kpi-card c3"><span class="kpi-icon">📈</span>
+      <div class="kpi-val">${nuevas7d!=null ? (nuevas7d>=0?'+':'')+nuevas7d : '—'}</div>
+      <div class="kpi-label">Reseñas nuevas (últimos 7 días)</div></div>
+  `;
+
+  const maxReviews = Math.max(...suc.map(s=>s.reviews||0), 1);
+  rankReviewsEl.innerHTML = suc.slice().sort((a,b)=>(b.reviews||0)-(a.reviews||0)).map((s,i) => `
+    <div class="rank-row ${i===0?'best':''}">
+      <span class="rank-pos">${i+1}</span>
+      <span class="rank-label">${s.nombre}<br><span class="rank-n">${s.rating!=null ? s.rating.toFixed(1)+'★' : 'sin rating'}</span></span>
+      <div class="rank-track"><div class="rank-fill" style="width:${((s.reviews||0)/maxReviews*100).toFixed(1)}%"></div></div>
+      <span class="rank-val">${fmt(s.reviews||0)}</span>
+    </div>
+  `).join('') || '<div class="empty-note">Sin datos suficientes todavía</div>';
+
+  const conRating = suc.filter(s=>s.rating!=null).slice().sort((a,b)=>b.rating-a.rating);
+  rankRatingEl.innerHTML = conRating.map((s,i) => `
+    <div class="rank-row ${i===0?'best':''}">
+      <span class="rank-pos">${i+1}</span>
+      <span class="rank-label">${s.nombre}<br><span class="rank-n">${fmt(s.reviews||0)} reseñas</span></span>
+      <div class="rank-track"><div class="rank-fill" style="width:${(s.rating/5*100).toFixed(1)}%"></div></div>
+      <span class="rank-val">${s.rating.toFixed(1)}★</span>
+    </div>
+  `).join('') || '<div class="empty-note">Sin datos suficientes todavía</div>';
+
+  const feed = [];
+  suc.forEach(s => (s.resenas_recientes||[]).forEach(rv => feed.push(Object.assign({}, rv, {sucursal: s.nombre}))));
+  feed.sort((a,b) => (b.time||0)-(a.time||0));
+  feedEl.innerHTML = feed.slice(0,8).map(rv => `
+    <div class="post-card">
+      <div class="post-top">
+        <span class="post-badge">⭐ ${rv.rating!=null ? rv.rating+'★' : ''} · ${rv.sucursal}</span>
+        <span class="post-date">${rv.cuando||''}</span>
+      </div>
+      <div class="post-msg">${(rv.texto||'(sin comentario escrito)').replace(/</g,'&lt;')}</div>
+      <div class="post-stats"><span class="stat-chip">✍️ ${(rv.autor||'Anónimo').replace(/</g,'&lt;')}</span></div>
+    </div>
+  `).join('') || '<div class="empty-note">Sin reseñas recientes con texto</div>';
 }
 
 /* ═══ VISTA POR PÁGINA ═══ */
