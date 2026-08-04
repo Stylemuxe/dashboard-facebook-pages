@@ -1,10 +1,10 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-08-04 08:26",
+  "generado": "2026-08-04 08:28",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
       "id": "103426168998997",
-      "seguidores": 22129,
+      "seguidores": 22130,
       "categoria": "Medical & health",
       "engagement_diario": [
         {
@@ -613,7 +613,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Sábado",
             "posts": 16,
-            "engagement_prom": 482.3
+            "engagement_prom": 482.4
           },
           {
             "label": "Martes",
@@ -645,7 +645,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 15,
-            "engagement_prom": 712.8
+            "engagement_prom": 712.9
           },
           {
             "label": "Mañana (06-11h)",
@@ -678,7 +678,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 6,
-          "engagement_prom": 2346.3
+          "engagement_prom": 2346.5
         },
         {
           "label": "Dolor / Padecimiento",
@@ -956,7 +956,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿El dolor de espalda te frena? ⚠️ Encuentra el alivio en Plaza Las Flores.\n\nNo dejes que una molestia dicte lo que puedes o no puedes hacer. Si estás en Coacalco, ven a Equilibrio Total antes de que el problema empeore.\n",
           "fecha": "2026-07-18T19:04:12+0000",
           "url": "https://www.facebook.com/reel/1585227103270519/",
-          "reacciones": 3003,
+          "reacciones": 3004,
           "comentarios": 51,
           "shares": 148,
           "clics": 7336,
@@ -1189,7 +1189,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-04",
-          "seguidores": 22129
+          "seguidores": 22130
         }
       ],
       "instagram": {
@@ -1319,10 +1319,10 @@ window.FB_PAGES_DATA = {
             "valor": 6395
           }
         ],
-        "profile_views_28d": 5765,
+        "profile_views_28d": 5766,
         "website_clicks_28d": 127,
         "accounts_engaged_28d": 6787,
-        "total_interactions_28d": 8436,
+        "total_interactions_28d": 8437,
         "mejor_horario": {
           "por_dia": [
             {
@@ -2360,12 +2360,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 6,
-            "engagement_prom": 566.0
+            "engagement_prom": 566.2
           },
           {
             "label": "Viernes",
             "posts": 8,
-            "engagement_prom": 499.2
+            "engagement_prom": 499.4
           },
           {
             "label": "Martes",
@@ -2397,12 +2397,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 8,
-            "engagement_prom": 705.2
+            "engagement_prom": 705.4
           },
           {
             "label": "Tarde (14-18h)",
             "posts": 23,
-            "engagement_prom": 300.0
+            "engagement_prom": 300.1
           },
           {
             "label": "Noche (18-21h)",
@@ -2420,7 +2420,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 4,
-          "engagement_prom": 2077.8
+          "engagement_prom": 2078.2
         },
         {
           "label": "Dolor / Padecimiento",
@@ -2536,7 +2536,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Dolor de espalda, hombro o rodilla? ⚠️ Ponle un alto hoy.\n\nSi eres de Neza, la solución está más cerca de lo que crees. En Equilibrio Total Plaza Nezahualcóyotl te ayudamos a recuperar tu movilidad de una vez por todas.",
           "fecha": "2026-07-20T20:20:34+0000",
           "url": "https://www.facebook.com/reel/2262501294521641/",
-          "reacciones": 3121,
+          "reacciones": 3122,
           "comentarios": 62,
           "shares": 143,
           "clics": 5593,
@@ -2630,7 +2630,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "Recupera tu bienestar sin salir de Neza. 🏃‍♂️✨\n\nIgnorar una lesión o molestia en la espalda puede agravar el problema. Recibe atención especializada muy cerca de ti, con un tratamiento estructurado a tu medida para alivi",
           "fecha": "2026-07-17T16:49:43+0000",
           "url": "https://www.facebook.com/reel/2462345234189626/",
-          "reacciones": 3555,
+          "reacciones": 3556,
           "comentarios": 96,
           "shares": 185,
           "clics": 8322,
@@ -3978,7 +3978,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 9,
-            "engagement_prom": 701.8
+            "engagement_prom": 702.0
           },
           {
             "label": "Viernes",
@@ -4015,12 +4015,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Noche tarde (21-24h)",
             "posts": 1,
-            "engagement_prom": 2418.0
+            "engagement_prom": 2419.0
           },
           {
             "label": "Tarde (14-18h)",
             "posts": 7,
-            "engagement_prom": 556.7
+            "engagement_prom": 556.9
           },
           {
             "label": "Noche (18-21h)",
@@ -4043,7 +4043,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Dolor / Padecimiento",
           "posts": 24,
-          "engagement_prom": 321.6
+          "engagement_prom": 321.7
         },
         {
           "label": "Educativo / Tips",
@@ -4087,7 +4087,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Vives o eres de Mixquiahuala y el dolor de espalda o de hombro te detiene? 🛑\n\nRecuperar tu movimiento es recuperar tu libertad. En la Fundación Ser Humano Beth te ayudamos a vivir plenamente con especialistas en Fisiote",
           "fecha": "2026-07-14T03:30:27+0000",
           "url": "https://www.facebook.com/reel/1387701943244709/",
-          "reacciones": 2243,
+          "reacciones": 2244,
           "comentarios": 40,
           "shares": 135,
           "clics": 7009,
@@ -4141,7 +4141,7 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-07-13T20:49:37+0000",
           "url": "https://www.facebook.com/reel/2532981323880740/",
           "reacciones": 3529,
-          "comentarios": 56,
+          "comentarios": 57,
           "shares": 242,
           "clics": 12511,
           "video_views": 266172,
@@ -5634,7 +5634,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Martes",
             "posts": 8,
-            "engagement_prom": 265.8
+            "engagement_prom": 265.9
           },
           {
             "label": "Lunes",
@@ -5676,7 +5676,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Tarde (14-18h)",
             "posts": 16,
-            "engagement_prom": 47.6
+            "engagement_prom": 47.7
           },
           {
             "label": "Mediodía (11-14h)",
@@ -6508,7 +6508,7 @@ window.FB_PAGES_DATA = {
     {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
-      "seguidores": 22129,
+      "seguidores": 22130,
       "engagement_28d": 161075,
       "vistas_28d": 40847,
       "video_views_28d": 2422369,
@@ -6518,7 +6518,7 @@ window.FB_PAGES_DATA = {
       "dias_desde_ultima": 0,
       "ig_seguidores": 7471,
       "ig_username": "equilibriototalmx",
-      "ig_engagement_28d": 8436,
+      "ig_engagement_28d": 8437,
       "ig_dias_desde_ultima": 0
     },
     {
