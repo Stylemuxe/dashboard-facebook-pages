@@ -15,13 +15,13 @@
 <script src="data_facebook_pages.js?v=1785881151"></script>
 <style>
 :root{
-  --bg:#0A0B10; --bg2:#101219;
+  --bg:#0A1628; --bg2:#0E1F38;
   --bg3:rgba(255,255,255,.06);
   --card:rgba(255,255,255,.055); --card2:rgba(255,255,255,.09);
   --border:rgba(255,255,255,0.14); --border2:rgba(255,255,255,0.26);
   --glass-highlight:rgba(255,255,255,.5);
   --glass-blur:blur(24px) saturate(180%);
-  --coral:#FF4D6D; --violet:#8B5CF6; --gold:#FBBF24; --teal:#2DD4BF; --pink:#F472B6;
+  --coral:#EC1E79; --violet:#8B5CF6; --gold:#E8621A; --teal:#2DD4BF; --pink:#F472B6;
   --text:#F3F4F8; --text2:#9AA1B7; --text3:#5B6478;
   --header-bg:rgba(16,18,25,.55);
   --chart-grid:rgba(255,255,255,.07);
@@ -31,7 +31,7 @@
   --ease:cubic-bezier(0.4,0,0.2,1);
 }
 body.light-theme{
-  --bg:#F0F1F6; --bg2:#E7E9F1;
+  --bg:#EEF1F8; --bg2:#E3E8F4;
   --bg3:rgba(20,20,35,.045);
   --card:rgba(255,255,255,.55); --card2:rgba(255,255,255,.75);
   --border:rgba(20,20,40,0.09); --border2:rgba(20,20,40,0.16);
@@ -47,10 +47,10 @@ body.light-theme{
 body{
   background:
     radial-gradient(1000px 560px at 10% -10%, rgba(139,92,246,calc(.30 * var(--bg-glow-op))), transparent 60%),
-    radial-gradient(900px 520px at 95% 5%, rgba(255,77,109,calc(.24 * var(--bg-glow-op))), transparent 58%),
+    radial-gradient(900px 520px at 95% 5%, rgba(236,30,121,calc(.24 * var(--bg-glow-op))), transparent 58%),
     radial-gradient(900px 500px at 15% 45%, rgba(45,212,191,calc(.16 * var(--bg-glow-op))), transparent 55%),
     radial-gradient(1000px 560px at 90% 60%, rgba(244,114,182,calc(.16 * var(--bg-glow-op))), transparent 55%),
-    radial-gradient(900px 500px at 20% 95%, rgba(251,191,36,calc(.13 * var(--bg-glow-op))), transparent 55%),
+    radial-gradient(900px 500px at 20% 95%, rgba(232,98,26,calc(.13 * var(--bg-glow-op))), transparent 55%),
     var(--bg);
   background-attachment:fixed;
   color:var(--text);min-height:100vh;
@@ -93,7 +93,7 @@ body{
   transition:color .2s var(--ease),background .2s var(--ease),border-color .2s;
   letter-spacing:.02em;display:flex;align-items:center;gap:6px}
 .tab-btn:hover{color:var(--text2);background:rgba(255,255,255,.05)}
-.tab-btn.active{color:#fff;background:linear-gradient(135deg,rgba(139,92,246,.55),rgba(255,77,109,.5));
+.tab-btn.active{color:#fff;background:linear-gradient(135deg,rgba(139,92,246,.55),rgba(236,30,121,.5));
   border-color:rgba(255,255,255,.22);box-shadow:0 1px 0 rgba(255,255,255,.3) inset,0 4px 16px rgba(139,92,246,.3);
   -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
 
@@ -194,7 +194,7 @@ tr:hover td{background:rgba(139,92,246,.09)}
 .empty-note{text-align:center;color:var(--text3);font-size:12px;padding:24px}
 
 /* ── Alert banner (mensajes sin responder) ── */
-.alert-banner{background:rgba(255,77,109,.10);border:1px solid rgba(255,77,109,.32);
+.alert-banner{background:rgba(236,30,121,.10);border:1px solid rgba(236,30,121,.32);
   border-radius:20px;padding:16px 20px;margin-bottom:22px}
 .alert-banner-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
 .alert-banner-head .ico{font-size:18px}
@@ -213,7 +213,7 @@ tr:hover td{background:rgba(139,92,246,.09)}
 .mini-stat.warn .v{color:var(--coral)}
 
 /* ── Warn banner (quejas) ── */
-.warn-banner{background:rgba(251,191,36,.10);border-color:rgba(251,191,36,.32)}
+.warn-banner{background:rgba(232,98,26,.10);border-color:rgba(232,98,26,.32)}
 .warn-banner .alert-banner-head b{color:var(--gold)}
 .quejas-list{display:flex;flex-direction:column;gap:10px}
 .queja-item{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:10px 14px}
@@ -253,7 +253,7 @@ tr:hover td{background:rgba(139,92,246,.09)}
 
 /* ── Top post ── */
 .top-post{border:2px solid var(--gold);position:relative;margin-bottom:14px;
-  box-shadow:0 0 0 1px rgba(251,191,36,.15),0 12px 34px rgba(251,191,36,.12)}
+  box-shadow:0 0 0 1px rgba(232,98,26,.15),0 12px 34px rgba(232,98,26,.12)}
 .top-post-badge{display:inline-block;background:var(--gold);color:#14161F;font-size:10.5px;
   font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:10px}
 
@@ -310,7 +310,7 @@ th,td,.header-date{transition:background-color .35s var(--ease),border-color .35
   box-shadow:0 2px 6px rgba(0,0,0,.35),0 1px 0 rgba(255,255,255,.6) inset;
   transform:translateX(0);transition:transform .35s var(--ease)}
 body.light-theme .theme-toggle .knob{transform:translateX(26px);
-  background:linear-gradient(135deg,#2A2D3E,#14161F)}
+  background:linear-gradient(135deg,#1B2E4E,#0A1628)}
 
 /* ── Platform toggle (Facebook / Instagram) ── */
 .platform-toggle{display:flex;gap:8px;margin-bottom:22px}
@@ -320,7 +320,7 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
   transition:all .2s var(--ease);display:flex;align-items:center;gap:7px}
 .platform-btn:hover{color:var(--text);border-color:var(--border2)}
 .platform-btn.active[data-plat="facebook"]{color:#fff;border-color:rgba(255,255,255,.22);
-  background:linear-gradient(135deg,rgba(139,92,246,.55),rgba(255,77,109,.5));
+  background:linear-gradient(135deg,rgba(139,92,246,.55),rgba(236,30,121,.5));
   box-shadow:0 1px 0 rgba(255,255,255,.3) inset,0 4px 16px rgba(139,92,246,.3)}
 .platform-btn.active[data-plat="instagram"]{color:#fff;border-color:rgba(255,255,255,.22);
   background:linear-gradient(135deg,#f9ce34,#ee2a7b,#6228d7);
@@ -409,7 +409,9 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
         <tbody id="resumenBody"></tbody>
       </table>
     </div>
+  </div>
 
+  <div class="view" id="viewGoogle">
     <div class="sec-block">
       <div class="sec-title">⭐ Reseñas de Google (Maps) — sucursales</div>
       <div class="kpi-row" id="googleKpiRow"></div>
@@ -630,7 +632,7 @@ const REACCIONES_META = [
 
 function renderTabs(){
   const wrap = document.getElementById('tabsWrap');
-  const tabs = [{key:'resumen', label:'📈 Resumen General'}]
+  const tabs = [{key:'resumen', label:'📈 Resumen General'}, {key:'google', label:'⭐ Reseñas de Google'}]
     .concat(ORDEN_PAGINAS.filter(k => DATA[k]).map(k => ({key:k, label:DATA[k].nombre})));
   wrap.innerHTML = tabs.map(t =>
     `<button class="tab-btn ${t.key===activa?'active':''}" data-key="${t.key}">${t.label}</button>`
@@ -777,7 +779,6 @@ function renderResumen(){
   }
 
   renderQuejas();
-  renderGoogleReviews();
 
   const CC = chartColors();
   const orden = RESUMEN.slice().sort((a,b)=>b.seguidores-a.seguidores);
@@ -795,7 +796,7 @@ function renderResumen(){
   destroyChart('compEng');
   charts.compEng = new Chart(document.getElementById('chartCompEngagement'), {
     type:'bar',
-    data:{labels:ordenEng.map(r=>r.nombre), datasets:[{data:ordenEng.map(r=>r.engagement_28d), backgroundColor:'#FF4D6D', borderRadius:6, maxBarThickness:34}]},
+    data:{labels:ordenEng.map(r=>r.nombre), datasets:[{data:ordenEng.map(r=>r.engagement_28d), backgroundColor:'#EC1E79', borderRadius:6, maxBarThickness:34}]},
     options:{indexAxis:'y', plugins:{legend:{display:false}},
       scales:{x:{grid:{color:CC.grid},ticks:{color:CC.tick,font:{size:10}}},
                y:{grid:{display:false},ticks:{color:CC.tickStrong,font:{size:11,weight:'600'}}}},
@@ -957,7 +958,7 @@ function renderCharts(p){
   charts.views = new Chart(document.getElementById('chartViews'), {
     type:'bar',
     data:{labels:views.map(d=>d.fecha.slice(5)), datasets:[{
-      data:views.map(d=>d.valor), backgroundColor:'#FF4D6D', borderRadius:4, maxBarThickness:18
+      data:views.map(d=>d.valor), backgroundColor:'#EC1E79', borderRadius:4, maxBarThickness:18
     }]},
     options:{
       plugins:{legend:{display:false}},
@@ -1399,11 +1400,16 @@ document.addEventListener('click', function(e){
 function renderAll(){
   renderTabs();
   const esResumen = activa === 'resumen';
+  const esGoogle = activa === 'google';
+  const esPagina = !esResumen && !esGoogle;
   document.getElementById('viewResumen').classList.toggle('active', esResumen);
-  document.getElementById('viewPagina').classList.toggle('active', !esResumen);
+  document.getElementById('viewGoogle').classList.toggle('active', esGoogle);
+  document.getElementById('viewPagina').classList.toggle('active', esPagina);
 
   if(esResumen){
     renderResumen();
+  } else if(esGoogle){
+    renderGoogleReviews();
   } else {
     const p = DATA[activa];
     if(p){
