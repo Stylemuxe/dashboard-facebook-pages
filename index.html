@@ -913,6 +913,59 @@ function renderGoogleReviews(){
       <div class="post-stats"><span class="stat-chip">✍️ ${(rv.autor||'Anónimo').replace(/</g,'&lt;')}</span></div>
     </div>
   `).join('') || '<div class="empty-note">Sin reseñas recientes con texto</div>';
+
+  const selEl = document.getElementById('googleSucSelect');
+  if(selEl){
+    const sedes = suc.filter(s=>s.categoria==='sede').slice().sort((a,b)=>a.nombre.localeCompare(b.nombre));
+    const franq = suc.filter(s=>s.categoria!=='sede').slice().sort((a,b)=>a.nombre.localeCompare(b.nombre));
+    const opt = list => list.map(s => `<option value="${s.place_id}">${s.nombre} — ${fmt(s.reviews||0)} reseñas${s.rating!=null ? ' · '+s.rating.toFixed(1)+'★' : ''}</option>`).join('');
+    selEl.innerHTML = `<optgroup label="Sedes propias (${sedes.length})">${opt(sedes)}</optgroup><optgroup label="Franquicias (${franq.length})">${opt(franq)}</optgroup>`;
+    if(!googleSucSeleccionada || !suc.find(s=>s.place_id===googleSucSeleccionada)){
+      googleSucSeleccionada = (suc.slice().sort((a,b)=>(b.reviews||0)-(a.reviews||0))[0]||{}).place_id;
+    }
+    selEl.value = googleSucSeleccionada;
+    selEl.onchange = () => { googleSucSeleccionada = selEl.value; renderGoogleSucDetail(); };
+    renderGoogleSucDetail();
+  }
+}
+
+function renderGoogleSucDetail(){
+  const detailEl = document.getElementById('googleSucDetail');
+  if(!detailEl) return;
+  const suc = (GOOGLE.sucursales||[]).find(s=>s.place_id===googleSucSeleccionada);
+  if(!suc){ detailEl.innerHTML = '<div class="empty-note">Selecciona una sucursal</div>'; return; }
+  const redondeo = suc.rating!=null ? Math.round(suc.rating) : 0;
+  const estrellas = suc.rating!=null ? '★'.repeat(redondeo) + '☆'.repeat(5-redondeo) : '';
+  const catLabel = suc.categoria === 'sede' ? 'Sede propia' : 'Franquicia';
+  const resenas = suc.resenas_recientes || [];
+  detailEl.innerHTML = `
+    <div class="chart-card" style="margin-bottom:14px">
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;align-items:flex-start">
+        <div>
+          <div style="font-size:17px;font-weight:700;color:var(--text)">${suc.nombre}</div>
+          <div style="font-size:11.5px;color:var(--text2);margin-top:2px">${catLabel}${suc.direccion ? ' · '+suc.direccion.replace(/</g,'&lt;') : ''}</div>
+          ${suc.telefono ? `<div style="font-size:11.5px;color:var(--text2);margin-top:2px">📞 ${suc.telefono}</div>` : ''}
+        </div>
+        <div style="text-align:right;flex-shrink:0">
+          <div style="font-size:26px;font-weight:800;color:var(--text)">${suc.rating!=null?suc.rating.toFixed(1):'—'} <span style="color:var(--warning);font-size:16px">${estrellas}</span></div>
+          <div style="font-size:11.5px;color:var(--text2)">${fmt(suc.reviews||0)} reseñas en Google</div>
+        </div>
+      </div>
+      ${suc.maps_url ? `<div style="margin-top:12px"><a class="post-link" href="${suc.maps_url}" target="_blank">Ver en Google Maps ↗</a></div>` : ''}
+    </div>
+    <div class="posts-grid">
+      ${resenas.length ? resenas.map(rv => `
+        <div class="post-card">
+          <div class="post-top">
+            <span class="post-badge">⭐ ${rv.rating!=null ? rv.rating+'★' : ''}</span>
+            <span class="post-date">${rv.cuando||''}</span>
+          </div>
+          <div class="post-msg">${(rv.texto||'(sin comentario escrito)').replace(/</g,'&lt;')}</div>
+          <div class="post-stats"><span class="stat-chip">✍️ ${(rv.autor||'Anónimo').replace(/</g,'&lt;')}</span></div>
+        </div>
+      `).join('') : '<div class="empty-note">Esta sucursal no tiene reseñas con texto recientes</div>'}
+    </div>
+  `;
 }
 
 /* ═══ VISTA POR PÁGINA ═══ */
