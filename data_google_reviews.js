@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-05T09:04:47",
+ "actualizado": "2026-08-05T12:04:55",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -365,7 +365,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Frank Lara",
      "rating": 5,
      "texto": "Excelente lugar, tratamiento adecuado y personal capacitado",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785341489
     },
     {
@@ -560,7 +560,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Leticia Mora",
      "rating": 5,
      "texto": "Muy buen servicio excelentes terapeutas y lo mejor ya no me duele la rodilla los recomiendo ampliamente",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784136171
     }
    ]
@@ -617,11 +617,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJY7uzo4AZ0oURebWUd837fYU",
    "rating": 4.8,
-   "reviews": 62,
+   "reviews": 63,
    "maps_url": "https://maps.google.com/?cid=9619121239026349433",
    "direccion": "Av. Hidalgo 27, Hidalgo, 54434 Cdad. Nicolás Romero, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Ara Ornelas",
+     "rating": 3,
+     "texto": "Jóvenes especialistas, pero toda consulta la difieren a 10 o más citas, así que resulta costoso. La fisioterapeuta 10 de 10",
+     "cuando": "en la última semana",
+     "time": 1785942882
+    },
     {
      "autor": "Neri Aguilar",
      "rating": 5,
@@ -633,7 +640,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "adain sanchez",
      "rating": 5,
      "texto": "Después de una cirugía de húmero me quedaron secuelas en la muñeca.\nY aquí me ayudaron muchísimo, mi rehabilitación a sido muy buena he evolucionando muy bien.\nTambien me ayudaron con una lesión de rodilla y todo muy bien.\nSon excelentes personas, muy profesionales, siempre me ayudaron con las dudas que tenia sobre mi rehabilitación.\nLo recomiendo bastante.",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1783525903
     },
     {
@@ -649,13 +656,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente atención y servicios",
      "cuando": "Hace 4 semanas",
      "time": 1783467596
-    },
-    {
-     "autor": "Yolanda Romero Rojas",
-     "rating": 5,
-     "texto": "Muy buena en todos los aspectos",
-     "cuando": "Hace 4 semanas",
-     "time": 1783461476
     }
    ]
   },
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 1996,
+  "total_resenas": 1997,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1029,7 +1029,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-05",
-   "total_resenas": 1996,
+   "total_resenas": 1997,
    "rating_prom": 4.65
   }
  ]
