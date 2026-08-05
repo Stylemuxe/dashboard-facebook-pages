@@ -1,12 +1,62 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-04T16:59:41",
+ "actualizado": "2026-08-05T08:25:14",
  "sucursales": [
   {
+   "nombre": "Balbuena",
+   "categoria": "sede",
+   "place_id": "ChIJRdk0xh7_0YURftDWC1Nows8",
+   "rating": 4.5,
+   "reviews": 234,
+   "maps_url": "https://maps.google.com/?cid=14970642817223151742",
+   "direccion": "Cecilio Robelo 369, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Rubén Rodriguez L",
+     "rating": 4,
+     "texto": "Muy buena experiencia en mi primer sesión",
+     "cuando": "en la última semana",
+     "time": 1785520582
+    },
+    {
+     "autor": "Eduardo Martínez",
+     "rating": 1,
+     "texto": "Pésima experiencia; la recepcionista se siente dueña y la fisioterapeuta se sale a recibir su Starbucks mientras te atiende, de las dos lesiones que llevaba sólo quiso revisar una y la otra que a la vuelta jaja. Pésimo lugar y caro.",
+     "cuando": "en la última semana",
+     "time": 1785437823
+    },
+    {
+     "autor": "Alejandro Sandoval",
+     "rating": 5,
+     "texto": "",
+     "cuando": "Hace 1 mes",
+     "time": 1783058664
+    },
+    {
+     "autor": "Brenda Herrera",
+     "rating": 5,
+     "texto": "Llevo más de dos meses acudiendo a la clínica la cual me la recomendaron porque tuve una operación y es la primera clínica en la cual veo resultados en un corto periodo cuando en otros lugares me comentaron que no tendría mejoría puesto que aquí los especialistas son expertos en su área pues están titulados y en otros lugares no.\nRecomiendo ampliamente el lugar para aquellas personas que necesitan una rehabilitación, te realizan una valoración para conocer tu caso y poder adecuar el plan a tu medida.",
+     "cuando": "Hace 1 mes",
+     "time": 1781064447
+    },
+    {
+     "autor": "mariana cruz",
+     "rating": 5,
+     "texto": "Fui por una recomendación de una amiga, el servicio es muy eficiente y te explican muy bien, todos los especialistas son muy amables y note mejorías en la primera sesión\nSe que todos los cuerpos son diferentes pero a mí sí me ah funcionado y los recomiendo.",
+     "cuando": "Hace 1 mes",
+     "time": 1781037672
+    }
+   ]
+  },
+  {
    "nombre": "Tepeyac",
+   "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
    "reviews": 219,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
+   "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
+   "telefono": "55 6885 8200",
    "resenas_recientes": [
     {
      "autor": "Sabomnim Melody",
@@ -46,11 +96,61 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Neza",
+   "categoria": "sede",
+   "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
+   "rating": 4.6,
+   "reviews": 163,
+   "maps_url": "https://maps.google.com/?cid=7543884750487775471",
+   "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Maruca vazquez",
+     "rating": 5,
+     "texto": "CUANDO LLEGUE POR PRIMERA VEZ A EQUILIBRIO TOTAL\nNO PODÍA CAMINAR Y CON LAS TERAPIAS QUE HE RECIBIDO DURANTE ESTE TIPO HOY YA CAMINO MUCHO MEJOR  0",
+     "cuando": "en la última semana",
+     "time": 1785604231
+    },
+    {
+     "autor": "Reyna Miranda",
+     "rating": 5,
+     "texto": "Las terapias desde la valoración sentí el cambio ,  terapia tras terapia me he sentido mucho mejor y los especialistas son muy buenos  tienen un muy buen trato hacia nosotros los pacientes ,nos sacan de nuestras dudas .\nExcelente servicio 😊",
+     "cuando": "en la última semana",
+     "time": 1785604105
+    },
+    {
+     "autor": "Juan Carlos Casique González",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1785604010
+    },
+    {
+     "autor": "Fabiola Alvarado Sánchez",
+     "rating": 5,
+     "texto": "Es un lugar muy lindo y la atención es muy buena!! Si lo recomiendo!!",
+     "cuando": "en la última semana",
+     "time": 1785438975
+    },
+    {
+     "autor": "Maverik Reyes",
+     "rating": 5,
+     "texto": "Excelente servicio\nMuy buen lugar para traer a tu familiar la atención es buenísima un lugar muy limpio y bastante profesional\nAparte tiene una vista muy relajante",
+     "cuando": "en la última semana",
+     "time": 1785435575
+    }
+   ]
+  },
+  {
    "nombre": "San Juan del Rio",
+   "categoria": "franquicia",
    "place_id": "ChIJG2QUCPcL04URhm-m4WRG4RI",
    "rating": 4.9,
    "reviews": 141,
    "maps_url": "https://maps.google.com/?cid=1360445961539055494",
+   "direccion": "Fray Junípero Serra 21, Centro, 76800 San Juan del Río, Qro., México",
+   "telefono": "427 214 1092",
    "resenas_recientes": [
     {
      "autor": "Ellie Whitney",
@@ -91,10 +191,13 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "nombre": "Claveria",
+   "categoria": "franquicia",
    "place_id": "ChIJ2wPH1m350YURPdfgYcEiYNU",
    "rating": 4.7,
    "reviews": 139,
    "maps_url": "https://maps.google.com/?cid=15375327341809030973",
+   "direccion": "C. Egipto 113-Casa 1, Claveria, Azcapotzalco, 02080 Ciudad de México, CDMX, México",
+   "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
      "autor": "VICK SHALOM MARTINEZ",
@@ -135,10 +238,13 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "nombre": "Xochimilco",
+   "categoria": "franquicia",
    "place_id": "ChIJvzXjglUBzoUR7UKN4v5XSV8",
    "rating": 4.8,
    "reviews": 138,
    "maps_url": "https://maps.google.com/?cid=6866115859137250029",
+   "direccion": "Arcos Pte. 374, Jardines del Sur, Xochimilco, 16050 Ciudad de México, CDMX, México",
+   "telefono": "55 1073 3286",
    "resenas_recientes": [
     {
      "autor": "Alma Verónica Murillo",
@@ -178,11 +284,61 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Chalco",
+   "categoria": "sede",
+   "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
+   "rating": 4.4,
+   "reviews": 121,
+   "maps_url": "https://maps.google.com/?cid=15375416411117117909",
+   "direccion": "C. Arquitecto Vincente Mendiola 1, La Conchita, 56600 Chalco de Díaz Covarrubias, Méx., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Francisco Sosa",
+     "rating": 1,
+     "texto": "Llegué con  hernia de disco 15 terapias y no hubo mejoría,no hay un doctor responsable",
+     "cuando": "Hace 1 mes",
+     "time": 1781699130
+    },
+    {
+     "autor": "Trámites Varios",
+     "rating": 1,
+     "texto": "No caigan en esta estafa, su súper consulta inicial es solo 10 min de electrodos y no más. Te venden planes carísimos y se molestan cuando les das tu inconformidad.",
+     "cuando": "Hace 1 mes",
+     "time": 1780779574
+    },
+    {
+     "autor": "Jesús",
+     "rating": 5,
+     "texto": "Vale la pena hacer el esfuerzo y pagar el plan integral de N sesiones; yo tenía semanas con el dolor del nervio ciático por opresión del músculo piriforme (diagnosticado por un ortopedista traumatólogo previamente) aquí me han ayudado bastante, con sesiones de acupuntura, quiropráctica, terapias físicas e podido volver a mis actividades diarias, el trato profesional y el empeño que le ponen a su trabajo son muy dedicados, en general no me arrepiento en lo absoluto se los recomiendo",
+     "cuando": "Hace 3 meses",
+     "time": 1776943677
+    },
+    {
+     "autor": "Mario Ponce Ramos",
+     "rating": 5,
+     "texto": "",
+     "cuando": "Hace 3 meses",
+     "time": 1776117512
+    },
+    {
+     "autor": "Fernando dreww",
+     "rating": 5,
+     "texto": "",
+     "cuando": "Hace 3 meses",
+     "time": 1776104891
+    }
+   ]
+  },
+  {
    "nombre": "Pachuca",
+   "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
    "reviews": 119,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
+   "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
+   "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
      "autor": "Juan Huerta Raygoza",
@@ -223,10 +379,13 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "nombre": "Queretaro",
+   "categoria": "franquicia",
    "place_id": "ChIJk2FOrktb04URnMe5TI5ysiY",
    "rating": 4.8,
    "reviews": 91,
    "maps_url": "https://maps.google.com/?cid=2788417074793924508",
+   "direccion": "Calle Gral. Ramón Corona 19, Centro, 76000 Santiago de Querétaro, Qro., México",
+   "telefono": "442 683 5093",
    "resenas_recientes": [
     {
      "autor": "neyri casas",
@@ -266,11 +425,155 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Tlahuac",
+   "categoria": "sede",
+   "place_id": "ChIJf6FxKWsdzoURD8rGIbQo3-A",
+   "rating": 4.6,
+   "reviews": 88,
+   "maps_url": "https://maps.google.com/?cid=16203714738428234255",
+   "direccion": "Ignacio Allende 80 barrio de san mateo c.p. 13040, San Mateo, Tláhuac, 13070 Ciudad de México, CDMX, México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Etiam Mtz",
+     "rating": 5,
+     "texto": "Si esta bien la experiencia",
+     "cuando": "Hace 3 semanas",
+     "time": 1783806750
+    },
+    {
+     "autor": "Daniel Estebanes",
+     "rating": 5,
+     "texto": "Me han ayudado muchísimo, muchas gracias",
+     "cuando": "Hace 2 meses",
+     "time": 1779551687
+    },
+    {
+     "autor": "José Luis Sánchez Vega",
+     "rating": 5,
+     "texto": "Cada día mejor cuando llegue  me dolía al caminar y ahora ya estoy mucho mejor",
+     "cuando": "Hace 2 meses",
+     "time": 1779465066
+    },
+    {
+     "autor": "Lourdes Tamayo",
+     "rating": 5,
+     "texto": "La atencion recibida fue de calidad y calides en mi caso, me senti cansada en las primeras senti cansada , pero a medida que abanzo fue sentiendo mejoria. Graci\nas por su atención.",
+     "cuando": "Hace 2 meses",
+     "time": 1779307120
+    },
+    {
+     "autor": "Beatriz Olvera",
+     "rating": 5,
+     "texto": "Muy buen trato de todo el personal .\nDesde la primera sesión hubo una notable mejoría\nAcupuntura me daba miedo pero siento que es la que más me ayudó con mi lumbalgia",
+     "cuando": "Hace 2 meses",
+     "time": 1778367162
+    }
+   ]
+  },
+  {
+   "nombre": "Milpa Alta",
+   "categoria": "sede",
+   "place_id": "ChIJxzmB2ksFzoURr2aysBPw9RI",
+   "rating": 4.6,
+   "reviews": 77,
+   "maps_url": "https://maps.google.com/?cid=1366262029336340143",
+   "direccion": "Av. Jalisco Ote. 17, Villa Milpa Alta, Centro, Milpa Alta, 12000 Villa Milpa Alta, CDMX, México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "naye gonzalez",
+     "rating": 5,
+     "texto": "Éstos tratamientos integrales funcionan, hay estudios que lo corroboran, además recuerdan cita con prioridad, ampliamente recomendado, flexibilidad de horario",
+     "cuando": "Hace una semana",
+     "time": 1784850989
+    },
+    {
+     "autor": "zita roa labarrios",
+     "rating": 5,
+     "texto": "Buenas tardes mis felicitaciones a las tres doctoras fisioterapia, quiropráctico y acupuntura excelente trabajo y son muy humanas agradecida por la atención mil gracias, la señorita Pilar es muy atenta, cordial explica todo el funcionamiento del centro perfecto de nuevo mil gracias",
+     "cuando": "Hace 1 mes",
+     "time": 1782598460
+    },
+    {
+     "autor": "Mady Arenas",
+     "rating": 5,
+     "texto": "Quiero expresar mi más sincero agradecimiento y reconocimiento a esta clínica de fisioterapia por la excelente atención brindada a mi familia. Mi esposo llegó con diagnóstico de síndrome piramidal y espondiloartrosis, con un dolor tan intenso que ya no podía caminar ni 50 metros sin agotarse y presentar molestias importantes. Desde el inicio recibió atención por parte de licenciadas sumamente profesionales, amables, empáticas y comprometidas con su recuperación. Para nuestra sorpresa, desde la cuarta sesión ya mostraba una mejoría muy notable, pudiendo caminar mucho mejor, y al concluir su tratamiento, su recuperación fue prácticamente total.\n\nAsimismo, mi hija de 24 años, quien acudió con diagnóstico de mialgias, recibió el mismo trato humano y profesional, logrando una mejoría increíble en poco tiempo.\n\nQuiero destacar también la atención desde el primer contacto con la Señorita Pilar, quien siempre fue clara, educada, accesible y muy amable, haciendo todo el proceso mucho más sencillo y confiable.\n\nSin duda, encontrar un lugar donde se combine la calidad profesional con el trato humano hace toda la diferencia. Recomiendo ampliamente esta clínica a cualquier persona que busque atención fisioterapéutica de excelencia.\nGracias por todas las atenciones 🙌",
+     "cuando": "Hace 2 meses",
+     "time": 1779494273
+    },
+    {
+     "autor": "INHALOTERAPIA HOSPITAL GUSTAVO BAZ",
+     "rating": 5,
+     "texto": "",
+     "cuando": "Hace 2 meses",
+     "time": 1779493593
+    },
+    {
+     "autor": "Blanca Reyes",
+     "rating": 4,
+     "texto": "Muy buena la atencion en todas las areas",
+     "cuando": "Hace 3 meses",
+     "time": 1777479151
+    }
+   ]
+  },
+  {
+   "nombre": "Coacalco",
+   "categoria": "sede",
+   "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
+   "rating": 4.8,
+   "reviews": 77,
+   "maps_url": "https://maps.google.com/?cid=12159459607297815625",
+   "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Borreguini Garcia",
+     "rating": 5,
+     "texto": "Gracias por su buena atención  a todos son  muy atentos y profesionales que Dios los bendiga y por su  excelente puesto que regreso por qué me sentí muy bien",
+     "cuando": "en la última semana",
+     "time": 1785887857
+    },
+    {
+     "autor": "Rosario Ortiz",
+     "rating": 5,
+     "texto": "Recomiendo las terapias me ayudaron mucho el trato fue bueno",
+     "cuando": "Hace 2 semanas",
+     "time": 1784660157
+    },
+    {
+     "autor": "Selen Flores",
+     "rating": 5,
+     "texto": "Exelente servicio muy profesional",
+     "cuando": "Hace 2 semanas",
+     "time": 1784419051
+    },
+    {
+     "autor": "Abisaday Garcia Ramírez",
+     "rating": 5,
+     "texto": "Les recomiendo 100% esta clínica el personal es muy eficaz, súper profesional y empáticos. Sin duda alguna volvería mil veces, No se pierdan la oportunidad de ir.",
+     "cuando": "Hace 2 semanas",
+     "time": 1784306785
+    },
+    {
+     "autor": "Leticia Mora",
+     "rating": 5,
+     "texto": "Muy buen servicio excelentes terapeutas y lo mejor ya no me duele la rodilla los recomiendo ampliamente",
+     "cuando": "Hace 2 semanas",
+     "time": 1784136171
+    }
+   ]
+  },
+  {
    "nombre": "Ajusco",
+   "categoria": "franquicia",
    "place_id": "ChIJT2xNy6H_zYURPjpC7Y8vINU",
    "rating": 4.3,
    "reviews": 75,
    "maps_url": "https://maps.google.com/?cid=15357327024540760638",
+   "direccion": "Nunkiní 604, Jardines del Ajusco, Tlalpan, 14200 Ciudad de México, CDMX, México",
+   "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
      "autor": "Brandon Iván Hernández García",
@@ -311,10 +614,13 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "nombre": "Nicolas Romero",
+   "categoria": "franquicia",
    "place_id": "ChIJY7uzo4AZ0oURebWUd837fYU",
    "rating": 4.8,
    "reviews": 62,
    "maps_url": "https://maps.google.com/?cid=9619121239026349433",
+   "direccion": "Av. Hidalgo 27, Hidalgo, 54434 Cdad. Nicolás Romero, Méx., México",
+   "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
      "autor": "Neri Aguilar",
@@ -334,14 +640,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Federico Caballero",
      "rating": 5,
      "texto": "Los terapeutas son muy profesionales",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1783470091
     },
     {
      "autor": "Alexa Mari Paz Rosales Maldonado",
      "rating": 5,
      "texto": "Excelente atención y servicios",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1783467596
     },
     {
@@ -355,10 +661,13 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "nombre": "Satelite",
+   "categoria": "franquicia",
    "place_id": "ChIJneOQf_4D0oURYeMPCmQVj1g",
    "rating": 4.9,
    "reviews": 56,
    "maps_url": "https://maps.google.com/?cid=6381342716417008481",
+   "direccion": "Colina de Los Acónitos 11, Boulevares, 53140 Naucalpan de Juárez, Méx., México",
+   "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
      "autor": "Luisa Martinez",
@@ -399,10 +708,13 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "nombre": "La Moderna",
+   "categoria": "franquicia",
    "place_id": "ChIJ5eI3L7b_0YURAc1SHPVw8J4",
    "rating": 4.1,
    "reviews": 47,
    "maps_url": "https://maps.google.com/?cid=11452778050447658241",
+   "direccion": "Av. Andrés Molina Enríquez 174, San Pedro Iztacalco, Iztacalco, 08220 Ciudad de México, CDMX, México",
+   "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
      "autor": "Abel Badillo",
@@ -443,10 +755,13 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "nombre": "Valle Dorado",
+   "categoria": "franquicia",
    "place_id": "ChIJU3kPP2kd0oURXldj1W4J93I",
    "rating": 4.7,
    "reviews": 44,
    "maps_url": "https://maps.google.com/?cid=8284100411202426718",
+   "direccion": "Blvd. de las Naciones 128, Valle Dorado, 54020 Tlalnepantla, Méx., México",
+   "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
      "autor": "Sergio Flores",
@@ -486,11 +801,61 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Ecatepec",
+   "categoria": "sede",
+   "place_id": "ChIJ0YPscL_x0YUR2wNoqQDehrs",
+   "rating": 4.6,
+   "reviews": 36,
+   "maps_url": "https://maps.google.com/?cid=13512731826395284443",
+   "direccion": "Vía Morelos 172-Local C1 y C2, Los Laureles, 55090 Ecatepec de Morelos, Méx., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Jorge Palacios",
+     "rating": 3,
+     "texto": "Excelente atención de las terapeutas .solo que no dan la opción de pagar por sesión y solo en una exhibición por 7000 por 10 sesiones .(Al contactarlos no te anticipan esa modalidad)",
+     "cuando": "en la última semana",
+     "time": 1785349795
+    },
+    {
+     "autor": "ALEX CABALLERO",
+     "rating": 5,
+     "texto": "Muy profesionales en el servicio! 10/10! Se me quitó el dolor!!",
+     "cuando": "Hace 2 semanas",
+     "time": 1784329288
+    },
+    {
+     "autor": "Angel Juárez",
+     "rating": 5,
+     "texto": "Son muy amables buen servicio muy humano",
+     "cuando": "Hace 2 meses",
+     "time": 1780067100
+    },
+    {
+     "autor": "Xochitl hernandez",
+     "rating": 5,
+     "texto": "",
+     "cuando": "Hace 2 meses",
+     "time": 1779581048
+    },
+    {
+     "autor": "Luis Mendoza",
+     "rating": 5,
+     "texto": "Excelente conocimiento de los especialistas y gran profesionalismo.",
+     "cuando": "Hace 2 meses",
+     "time": 1778429796
+    }
+   ]
+  },
+  {
    "nombre": "Cuautla",
+   "categoria": "franquicia",
    "place_id": "ChIJhTk0Xt1vzoURRXYCJ87M6hg",
    "rating": 5,
    "reviews": 30,
    "maps_url": "https://maps.google.com/?cid=1795472587250366021",
+   "direccion": "Niño Artillero 39, Centro, 62740 Cuautla, Mor., México",
+   "telefono": "56 3702 9039",
    "resenas_recientes": [
     {
      "autor": "gloria hernandez",
@@ -531,10 +896,13 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "nombre": "Cuautitlan",
+   "categoria": "franquicia",
    "place_id": "ChIJeZmJfAAf0oURTZIKVPwgQTw",
    "rating": 4.2,
    "reviews": 20,
    "maps_url": "https://maps.google.com/?cid=4341787783875695181",
+   "direccion": "Manzana 035, Centro Urbano, 54700 Cuautitlán Izcalli, Méx., México",
+   "telefono": "56 1347 1600",
    "resenas_recientes": [
     {
      "autor": "Maria",
@@ -572,12 +940,85 @@ window.GOOGLE_REVIEWS_DATA = {
      "time": 1776026423
     }
    ]
+  },
+  {
+   "nombre": "Plaza Neza",
+   "categoria": "sede",
+   "place_id": "ChIJXeja1f_j0YURI-GkOHqilVI",
+   "rating": 4.2,
+   "reviews": 17,
+   "maps_url": "https://maps.google.com/?cid=5950841128460017955",
+   "direccion": "Plaza Nezahualcóyotl Manzana 017, Rey Neza, 57809 Cdad. Nezahualcóyotl, Méx., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "J.A Tolentino",
+     "rating": 1,
+     "texto": "Pésima atención!! Llegué por el tráfico 10 minutos tarde y ya no quisieron atenderme. Muy mal servicio por parte del encargado. Te hacen pagar todas las terapias desde un inicio para que por favor tengan cuidado. No gasten si tiempo pagando por adelantado",
+     "cuando": "Hace 2 semanas",
+     "time": 1784568540
+    },
+    {
+     "autor": "Timoteo Martinez",
+     "rating": 1,
+     "texto": "Mala atencion, mo me entraron mi valoracion y la atencion es pésima.",
+     "cuando": "Hace 3 semanas",
+     "time": 1783625274
+    },
+    {
+     "autor": "Osvaldo Rivera",
+     "rating": 1,
+     "texto": "La verdad muy mala atención yo fui a 10 cesiones y la verdad no te atienden al 100 según es de una hora la terapia y te dan como media hora y no nomás te atienden a ti atienden a dos pacientes al mismo tiempo entonces no te ponen atención al 100 a ti esmas ni te dicen que ejercicio de tarea vas a Aser yo fui porque según los comentarios estaba muy bien la atención pero no fue así y yo acabé mis 10 cesiones porque te asen que pagues por adelantado las 10 cesiones pero un punto de vista amigos no gasten su tiempo ni su diner por qué como tal no  saben atender como lo dicen bueno esa fue mi experiencia con la licenciada luz",
+     "cuando": "Hace 2 meses",
+     "time": 1779031426
+    },
+    {
+     "autor": "Cristopher Alvarez",
+     "rating": 5,
+     "texto": "Buena atención buen servicio ✌🏻",
+     "cuando": "Hace 4 meses",
+     "time": 1773181559
+    },
+    {
+     "autor": "Erik Esparza",
+     "rating": 5,
+     "texto": "Excelente atención. Fueron claros en el tratamiento",
+     "cuando": "Hace 4 meses",
+     "time": 1773173717
+    }
+   ]
+  },
+  {
+   "nombre": "Mixquiahuala",
+   "categoria": "sede",
+   "place_id": "ChIJRQuLMTbX04URA4x-VtDAT-E",
+   "rating": 5,
+   "reviews": 2,
+   "maps_url": "https://maps.google.com/?cid=16235407182730791939",
+   "direccion": "Hidalgo #83, 3ra Demarcación, 42700 Mixquiahuala de Juárez, Hgo., México",
+   "telefono": "771 385 2968",
+   "resenas_recientes": [
+    {
+     "autor": "Patricia Guadalupe Jurado",
+     "rating": 5,
+     "texto": "Excelente, muy recomendado.",
+     "cuando": "Hace 5 años",
+     "time": 1626710719
+    },
+    {
+     "autor": "Miroslava Serrano Cruz",
+     "rating": 5,
+     "texto": "Excelente atención. La mejor fisios de la zona.",
+     "cuando": "Hace 5 años",
+     "time": 1626666730
+    }
+   ]
   }
  ],
  "resumen": {
-  "total_sucursales": 13,
-  "total_resenas": 1181,
-  "rating_promedio_ponderado": 4.72,
+  "total_sucursales": 22,
+  "total_resenas": 1996,
+  "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
  "historial": [
@@ -585,6 +1026,11 @@ window.GOOGLE_REVIEWS_DATA = {
    "fecha": "2026-08-04",
    "total_resenas": 1181,
    "rating_prom": 4.72
+  },
+  {
+   "fecha": "2026-08-05",
+   "total_resenas": 1996,
+   "rating_prom": 4.65
   }
  ]
 };
