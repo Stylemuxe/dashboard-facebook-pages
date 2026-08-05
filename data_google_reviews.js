@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-05T12:04:55",
+ "actualizado": "2026-08-05T16:04:46",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -241,11 +241,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJvzXjglUBzoUR7UKN4v5XSV8",
    "rating": 4.8,
-   "reviews": 138,
+   "reviews": 139,
    "maps_url": "https://maps.google.com/?cid=6866115859137250029",
    "direccion": "Arcos Pte. 374, Jardines del Sur, Xochimilco, 16050 Ciudad de México, CDMX, México",
    "telefono": "55 1073 3286",
    "resenas_recientes": [
+    {
+     "autor": "Javier Garcia",
+     "rating": 3,
+     "texto": "No lo visite",
+     "cuando": "en la última semana",
+     "time": 1785961987
+    },
     {
      "autor": "Alma Verónica Murillo",
      "rating": 5,
@@ -273,13 +280,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio de las licenciadas\nHe visto mejorías a mis síntomas",
      "cuando": "Hace 2 meses",
      "time": 1780163434
-    },
-    {
-     "autor": "Claudia Corona",
-     "rating": 5,
-     "texto": "La experiencia personal ha sido satisfactoria excelente atención las licenciadas muy asertivas en los procedimientos con experiencia en el tratamiento a cada persona son muy amables cualquier duda la aclaran sin ningún problema yo en mi persona mi ha ayudado ya que yo llegué con alto dolor sin caminar con muchos medicamentos y con estas terapias aquí en equilibrio total estoy totalmente satisfecha ya camino dege de tomar medicamentos carísimos mi mejoría es notable y en cualquier momento si tengo algún malestar me atiende n recomiendo ampliamente equilibrio total al igual que a todo su personal en la sucursal Xochimilco muchas gracias",
-     "cuando": "Hace 2 meses",
-     "time": 1780081924
     }
    ]
   },
@@ -304,7 +304,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Trámites Varios",
      "rating": 1,
      "texto": "No caigan en esta estafa, su súper consulta inicial es solo 10 min de electrodos y no más. Te venden planes carísimos y se molestan cuando les das tu inconformidad.",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1780779574
     },
     {
@@ -358,7 +358,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Maria Elia Ortiz León",
      "rating": 5,
      "texto": "Muy profesional, el Lic. Benito he mejorado mucho.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785349248
     },
     {
@@ -412,7 +412,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Gaby Caraveo",
      "rating": 5,
      "texto": "Tuve una excelente experiencia con esta clínica de rehabilitación. Desde el primer día me hicieron sentir en un ambiente profesional, humano y de mucha confianza. Todo el personal es muy amable, atento y está realmente comprometido con el bienestar de los pacientes.\n\nLas instalaciones son limpias, cómodas y cuentan con el equipo necesario para brindar una atención de calidad. Los terapeutas demuestran un amplio conocimiento y diseñan tratamientos personalizados, explicando cada procedimiento con paciencia y resolviendo cualquier duda.\n\nGracias a su dedicación, noté una gran mejoría en mi recuperación en poco tiempo. Se nota que trabajan con vocación y que su prioridad es ayudar a cada paciente a recuperar su calidad de vida.\n\nSin duda, recomiendo esta clínica al 100%. Si buscan un lugar con atención de excelencia, profesionalismo y un trato cálido, esta es la mejor opción.",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784145228
     },
     {
@@ -579,7 +579,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Brandon Iván Hernández García",
      "rating": 1,
      "texto": "Pagué un paquete de sesiones, avisé que saldria de viaje y al regreso ya no me respetaron las sesiones restantes. Mandé mensajes y se tardaron días en responder y al final me dejaron de contestar.\n\nNo muy grata experiencia",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785360491
     },
     {
@@ -694,7 +694,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "PAVLOVA HERNANDEZ (Pav)",
      "rating": 5,
      "texto": "Excelente atención, servicio y dedicación",
-     "cuando": "Hace 6 meses",
+     "cuando": "Hace 7 meses",
      "time": 1767809207
     },
     {
@@ -814,7 +814,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jorge Palacios",
      "rating": 3,
      "texto": "Excelente atención de las terapeutas .solo que no dan la opción de pagar por sesión y solo en una exhibición por 7000 por 10 sesiones .(Al contactarlos no te anticipan esa modalidad)",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785349795
     },
     {
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 1997,
+  "total_resenas": 1998,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1029,7 +1029,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-05",
-   "total_resenas": 1997,
+   "total_resenas": 1998,
    "rating_prom": 4.65
   }
  ]
