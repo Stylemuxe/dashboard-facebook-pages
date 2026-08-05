@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-08-05 08:26",
+  "generado": "2026-08-05 08:27",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -626,7 +626,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Martes",
             "posts": 10,
-            "engagement_prom": 414.7
+            "engagement_prom": 414.8
           },
           {
             "label": "Lunes",
@@ -658,7 +658,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 9,
-            "engagement_prom": 537.3
+            "engagement_prom": 537.4
           },
           {
             "label": "Tarde (14-18h)",
@@ -686,7 +686,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 6,
-          "engagement_prom": 2495.2
+          "engagement_prom": 2495.3
         },
         {
           "label": "Dolor / Padecimiento",
@@ -906,7 +906,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¡Atención Zona Sur! ¿Ese dolor de espalda simplemente no desaparece? 🛑\n\nSi vives o pasas por Xochimilco, Coapa o Tlalpan y el dolor ya te impide disfrutar tu día a día, es momento de ponerle un alto definitivo.\n\nEn Equil",
           "fecha": "2026-07-21T15:56:16+0000",
           "url": "https://www.facebook.com/reel/1563134522021903/",
-          "reacciones": 3694,
+          "reacciones": 3695,
           "comentarios": 82,
           "shares": 228,
           "clics": 17824,
