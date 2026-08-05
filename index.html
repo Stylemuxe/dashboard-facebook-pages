@@ -86,6 +86,68 @@ body{
   animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
 
+/* ── Entrada animada de tarjetas ── */
+@keyframes cardIn{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:none}}
+.view.active .kpi-card,.view.active .chart-card,.view.active .post-card,
+.view.active .delta-card,.view.active .mini-stat,.view.active .table-wrap,
+.view.active .alert-chip,.view.active .alert-banner,.view.active .queja-item{
+  animation:cardIn .55s cubic-bezier(.2,.7,.3,1) both}
+.view.active .kpi-row>*:nth-child(1),.view.active .compare-grid>*:nth-child(1),
+.view.active .charts-row>*:nth-child(1),.view.active .delta-row>*:nth-child(1),
+.view.active .mini-stats>*:nth-child(1),.view.active .alert-list>*:nth-child(1),
+.view.active .posts-grid>*:nth-child(1){animation-delay:.02s}
+.view.active .kpi-row>*:nth-child(2),.view.active .compare-grid>*:nth-child(2),
+.view.active .charts-row>*:nth-child(2),.view.active .delta-row>*:nth-child(2),
+.view.active .mini-stats>*:nth-child(2),.view.active .alert-list>*:nth-child(2),
+.view.active .posts-grid>*:nth-child(2){animation-delay:.08s}
+.view.active .kpi-row>*:nth-child(3),.view.active .delta-row>*:nth-child(3),
+.view.active .mini-stats>*:nth-child(3),.view.active .alert-list>*:nth-child(3),
+.view.active .posts-grid>*:nth-child(3){animation-delay:.14s}
+.view.active .kpi-row>*:nth-child(4),.view.active .mini-stats>*:nth-child(4),
+.view.active .posts-grid>*:nth-child(4){animation-delay:.2s}
+.view.active .kpi-row>*:nth-child(5),.view.active .posts-grid>*:nth-child(5){animation-delay:.26s}
+.view.active .kpi-row>*:nth-child(6),.view.active .posts-grid>*:nth-child(6){animation-delay:.32s}
+.view.active .kpi-row>*:nth-child(7),.view.active .posts-grid>*:nth-child(7){animation-delay:.38s}
+.view.active .kpi-row>*:nth-child(8),.view.active .posts-grid>*:nth-child(8){animation-delay:.44s}
+.view.active .kpi-row>*:nth-child(9){animation-delay:.5s}
+@media (prefers-reduced-motion: reduce){
+  .view.active .kpi-card,.view.active .chart-card,.view.active .post-card,
+  .view.active .delta-card,.view.active .mini-stat,.view.active .table-wrap,
+  .view.active .alert-chip,.view.active .alert-banner,.view.active .queja-item{animation:none}
+}
+
+/* ── Numeros que suben al renderizar ── */
+.num-anim{font-variant-numeric:tabular-nums}
+
+/* ── Glow al pasar el mouse sobre KPIs ── */
+.kpi-card.c1:hover{box-shadow:0 14px 36px color-mix(in srgb, var(--accent) 22%, transparent),
+  0 1px 0 rgba(255,255,255,.16) inset}
+.kpi-card.c2:hover{box-shadow:0 14px 36px color-mix(in srgb, var(--primary) 22%, transparent),
+  0 1px 0 rgba(255,255,255,.16) inset}
+.kpi-card.c3:hover{box-shadow:0 14px 36px color-mix(in srgb, var(--success) 22%, transparent),
+  0 1px 0 rgba(255,255,255,.16) inset}
+.kpi-card.c4:hover{box-shadow:0 14px 36px color-mix(in srgb, var(--warning) 22%, transparent),
+  0 1px 0 rgba(255,255,255,.16) inset}
+.kpi-card{transition:transform .2s var(--ease),border-color .2s var(--ease),box-shadow .25s var(--ease)}
+.kpi-card:hover{transform:translateY(-3px) scale(1.012)}
+.kpi-card .kpi-icon{transition:transform .3s var(--ease)}
+.kpi-card:hover .kpi-icon{transform:scale(1.18) rotate(-4deg)}
+
+/* ── Chart / post cards: leve lift al pasar el mouse ── */
+.chart-card,.post-card{transition:transform .2s var(--ease),border-color .2s var(--ease),box-shadow .25s var(--ease)}
+.chart-card:hover,.post-card:hover{transform:translateY(-2px);
+  box-shadow:0 14px 34px color-mix(in srgb, var(--primary) 16%, transparent),0 1px 0 rgba(255,255,255,.16) inset}
+
+/* ── Rank bars: crecen al entrar ── */
+.rank-fill{transition:width 1s cubic-bezier(.16,.85,.32,1)}
+.rank-row{opacity:0;animation:rankRowIn .5s cubic-bezier(.2,.7,.3,1) forwards}
+@keyframes rankRowIn{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+.rank-row:nth-child(1){animation-delay:.03s}.rank-row:nth-child(2){animation-delay:.07s}
+.rank-row:nth-child(3){animation-delay:.11s}.rank-row:nth-child(4){animation-delay:.15s}
+.rank-row:nth-child(5){animation-delay:.19s}.rank-row:nth-child(6){animation-delay:.23s}
+.rank-row:nth-child(7){animation-delay:.27s}.rank-row:nth-child(8){animation-delay:.31s}
+.rank-row:nth-child(n+9){animation-delay:.34s}
+
 .tabs-wrap{padding:9px 32px;border-bottom:1px solid var(--border);background:var(--header-bg);
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
   display:flex;gap:5px;overflow-x:auto;position:sticky;top:0;z-index:20;
@@ -110,8 +172,6 @@ body{
 .kpi-card::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:20px 20px 0 0;
   background:var(--kpi-grad,linear-gradient(90deg,var(--accent),var(--primary)));
   box-shadow:0 0 14px 0 currentColor;opacity:.9}
-.kpi-card{transition:transform .2s var(--ease),border-color .2s var(--ease)}
-.kpi-card:hover{transform:translateY(-2px);border-color:var(--border2)}
 .kpi-card.c1{--kpi-grad:linear-gradient(90deg,var(--accent),var(--primary))}
 .kpi-card.c2{--kpi-grad:linear-gradient(90deg,var(--primary),var(--info))}
 .kpi-card.c3{--kpi-grad:linear-gradient(90deg,var(--success),var(--primary))}
@@ -704,7 +764,51 @@ function chartColors(){
     tickStrong: cs.getPropertyValue('--chart-tick-strong').trim() || '#F3F4F8',
   };
 }
+
+function hexToRgb(hex){
+  const h = hex.replace('#','');
+  const n = parseInt(h.length===3 ? h.split('').map(c=>c+c).join('') : h, 16);
+  return [(n>>16)&255, (n>>8)&255, n&255];
+}
+
+function fillGradient(canvas, hex, alphaTop){
+  const ctx = canvas.getContext('2d');
+  const g = ctx.createLinearGradient(0, 0, 0, canvas.height || 260);
+  const [r,gg,b] = hexToRgb(hex);
+  g.addColorStop(0, `rgba(${r},${gg},${b},${alphaTop!=null?alphaTop:.42})`);
+  g.addColorStop(1, `rgba(${r},${gg},${b},0)`);
+  return g;
+}
+
+const CHART_ANIM = {duration:900, easing:'easeOutQuart'};
 function fmt(n){ return Math.round(n||0).toLocaleString('es-MX'); }
+
+function numSpan(val, prefix){
+  const v = Number(val)||0;
+  const pre = prefix||'';
+  return `<span class="num-anim" data-target="${v}" data-prefix="${pre}">${pre}0</span>`;
+}
+
+function animateNums(){
+  document.querySelectorAll('.num-anim[data-target]').forEach(el => {
+    const target = parseFloat(el.dataset.target) || 0;
+    const prefix = el.dataset.prefix || '';
+    const decimals = (el.dataset.target.split('.')[1] || '').length;
+    if(el._numAnimRunning) return;
+    el._numAnimRunning = true;
+    const start = performance.now();
+    const dur = 800;
+    function step(t){
+      const p = Math.min((t - start) / dur, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      const val = target * eased;
+      el.textContent = prefix + (decimals ? val.toFixed(decimals) : fmt(val));
+      if(p < 1){ requestAnimationFrame(step); }
+      else { el.textContent = prefix + (decimals ? target.toFixed(decimals) : fmt(target)); el._numAnimRunning = false; }
+    }
+    requestAnimationFrame(step);
+  });
+}
 function iniciales(nombre){ return (nombre||'').split(' ').filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase(); }
 function destroyChart(id){ if(charts[id]){ charts[id].destroy(); delete charts[id]; } }
 
@@ -811,34 +915,34 @@ function renderResumen(){
 
   document.getElementById('resumenKpiRow').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">👥</span>
-      <div class="kpi-val">${fmt(totalSeguidores)}</div>
+      <div class="kpi-val">${numSpan(totalSeguidores)}</div>
       <div class="kpi-label">Seguidores (4 páginas)</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
-      <div class="kpi-val">${fmt(totalEng)}</div>
+      <div class="kpi-val">${numSpan(totalEng)}</div>
       <div class="kpi-label">Engagement total (${etiquetaRango()})</div>
       <div class="kpi-sub">${deltaPeriodoTexto(totalEng,totalEngPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
-      <div class="kpi-val">${fmt(totalViews)}</div>
+      <div class="kpi-val">${numSpan(totalViews)}</div>
       <div class="kpi-label">Visitas totales (${etiquetaRango()})</div>
       <div class="kpi-sub">${deltaPeriodoTexto(totalViews,totalViewsPrev)}</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">🎬</span>
-      <div class="kpi-val">${fmt(totalVideoViews)}</div>
+      <div class="kpi-val">${numSpan(totalVideoViews)}</div>
       <div class="kpi-label">Video views totales (${etiquetaRango()})</div>
       <div class="kpi-sub">${deltaPeriodoTexto(totalVideoViews,totalVideoViewsPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">💬</span>
-      <div class="kpi-val">${fmt(totalConversaciones)}</div>
+      <div class="kpi-val">${numSpan(totalConversaciones)}</div>
       <div class="kpi-label">Conversaciones Messenger (28 días)</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">⚠️</span>
-      <div class="kpi-val">${fmt(totalNoLeidos)}</div>
+      <div class="kpi-val">${numSpan(totalNoLeidos)}</div>
       <div class="kpi-label">Mensajes sin leer (ahora)</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">⭐</span>
-      <div class="kpi-val">${ratingProm!=null ? ratingProm.toFixed(1) : '—'}</div>
+      <div class="kpi-val">${ratingProm!=null ? numSpan(ratingProm.toFixed(1)) : '—'}</div>
       <div class="kpi-label">Calificación promedio (4 páginas)</div></div>
     <div class="kpi-card c1"><span class="kpi-icon">📸</span>
-      <div class="kpi-val">${fmt(totalIgSeguidores)}</div>
+      <div class="kpi-val">${numSpan(totalIgSeguidores)}</div>
       <div class="kpi-label">Seguidores Instagram (4 cuentas)</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">📸</span>
-      <div class="kpi-val">${fmt(totalIgEngagement)}</div>
+      <div class="kpi-val">${numSpan(totalIgEngagement)}</div>
       <div class="kpi-label">Engagement Instagram (28 días)</div></div>
   `;
 
@@ -879,8 +983,9 @@ function renderResumen(){
   destroyChart('compSeg');
   charts.compSeg = new Chart(document.getElementById('chartCompSeguidores'), {
     type:'bar',
-    data:{labels:orden.map(r=>r.nombre), datasets:[{data:orden.map(r=>r.seguidores), backgroundColor:'#4C91A4', borderRadius:6, maxBarThickness:34}]},
-    options:{indexAxis:'y', plugins:{legend:{display:false}},
+    data:{labels:orden.map(r=>r.nombre), datasets:[{data:orden.map(r=>r.seguidores), backgroundColor:'#4C91A4',
+      hoverBackgroundColor:'#61A5B8', borderRadius:6, maxBarThickness:34}]},
+    options:{indexAxis:'y', animation:CHART_ANIM, plugins:{legend:{display:false}},
       scales:{x:{grid:{color:CC.grid},ticks:{color:CC.tick,font:{size:10}}},
                y:{grid:{display:false},ticks:{color:CC.tickStrong,font:{size:11,weight:'600'}}}},
       maintainAspectRatio:false}
@@ -890,8 +995,9 @@ function renderResumen(){
   destroyChart('compEng');
   charts.compEng = new Chart(document.getElementById('chartCompEngagement'), {
     type:'bar',
-    data:{labels:ordenEng.map(r=>r.nombre), datasets:[{data:ordenEng.map(r=>r.engagement_28d), backgroundColor:'#E97949', borderRadius:6, maxBarThickness:34}]},
-    options:{indexAxis:'y', plugins:{legend:{display:false}},
+    data:{labels:ordenEng.map(r=>r.nombre), datasets:[{data:ordenEng.map(r=>r.engagement_28d), backgroundColor:'#E97949',
+      hoverBackgroundColor:'#F0955F', borderRadius:6, maxBarThickness:34}]},
+    options:{indexAxis:'y', animation:CHART_ANIM, plugins:{legend:{display:false}},
       scales:{x:{grid:{color:CC.grid},ticks:{color:CC.tick,font:{size:10}}},
                y:{grid:{display:false},ticks:{color:CC.tickStrong,font:{size:11,weight:'600'}}}},
       maintainAspectRatio:false}
@@ -953,13 +1059,13 @@ function renderGoogleReviews(){
   const nuevas7d = res.resenas_nuevas_7d;
   kpiEl.innerHTML = `
     <div class="kpi-card c2"><span class="kpi-icon">⭐</span>
-      <div class="kpi-val">${res.rating_promedio_ponderado!=null ? res.rating_promedio_ponderado.toFixed(1) : '—'}</div>
+      <div class="kpi-val">${res.rating_promedio_ponderado!=null ? numSpan(res.rating_promedio_ponderado.toFixed(1)) : '—'}</div>
       <div class="kpi-label">Calificación ponderada (${res.total_sucursales||suc.length} sucursales)</div></div>
     <div class="kpi-card c1"><span class="kpi-icon">💬</span>
-      <div class="kpi-val">${fmt(res.total_resenas||0)}</div>
+      <div class="kpi-val">${numSpan(res.total_resenas||0)}</div>
       <div class="kpi-label">Reseñas totales en Google</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">📈</span>
-      <div class="kpi-val">${nuevas7d!=null ? (nuevas7d>=0?'+':'')+nuevas7d : '—'}</div>
+      <div class="kpi-val">${nuevas7d!=null ? numSpan(nuevas7d, nuevas7d>=0?'+':'') : '—'}</div>
       <div class="kpi-label">Reseñas nuevas (últimos 7 días)</div></div>
   `;
 
@@ -1072,23 +1178,23 @@ function renderKpis(p){
   const cal = p.calificacion || {};
   document.getElementById('kpiRow').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">👥</span>
-      <div class="kpi-val">${fmt(p.seguidores)}</div>
+      <div class="kpi-val">${numSpan(p.seguidores)}</div>
       <div class="kpi-label">Seguidores</div>
       <div class="kpi-sub">${p.categoria||''}${cal.rating!=null?` · ⭐ ${cal.rating.toFixed(1)}${cal.rating_count?` (${cal.rating_count} reseñas)`:''}`:''}</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
-      <div class="kpi-val">${fmt(eng28)}</div>
+      <div class="kpi-val">${numSpan(eng28)}</div>
       <div class="kpi-label">Engagement (${etiquetaRango()})</div>
       <div class="kpi-sub">Reacciones + comentarios + shares<br>${deltaPeriodoTexto(eng28,engPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
-      <div class="kpi-val">${fmt(views28)}</div>
+      <div class="kpi-val">${numSpan(views28)}</div>
       <div class="kpi-label">Visitas a la página (${etiquetaRango()})</div>
       <div class="kpi-sub">${deltaPeriodoTexto(views28,viewsPrev)}</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">🎬</span>
-      <div class="kpi-val">${fmt(videoViews28)}</div>
+      <div class="kpi-val">${numSpan(videoViews28)}</div>
       <div class="kpi-label">Reproducciones de video (${etiquetaRango()})</div>
       <div class="kpi-sub">${deltaPeriodoTexto(videoViews28,videoViewsPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">🕒</span>
-      <div class="kpi-val">${fmt(videoHoras28)}</div>
+      <div class="kpi-val">${numSpan(videoHoras28)}</div>
       <div class="kpi-label">Horas de video vistas (${etiquetaRango()})</div></div>
   `;
 }
@@ -1101,13 +1207,17 @@ function renderCharts(p){
   const CC = chartColors();
 
   destroyChart('eng');
-  charts.eng = new Chart(document.getElementById('chartEngagement'), {
+  const engCanvas = document.getElementById('chartEngagement');
+  charts.eng = new Chart(engCanvas, {
     type:'line',
     data:{labels:eng.map(d=>d.fecha.slice(5)), datasets:[{
-      data:eng.map(d=>d.valor), borderColor:'#4C91A4', backgroundColor:'rgba(76,145,164,.18)',
-      borderWidth:2, pointRadius:0, fill:true, tension:.3
+      data:eng.map(d=>d.valor), borderColor:'#4C91A4', backgroundColor:fillGradient(engCanvas,'#4C91A4'),
+      borderWidth:2.5, pointRadius:0, pointHoverRadius:5, pointHoverBackgroundColor:'#4C91A4',
+      pointHoverBorderColor:'#fff', pointHoverBorderWidth:2, fill:true, tension:.35
     }]},
     options:{
+      animation:CHART_ANIM,
+      interaction:{intersect:false, mode:'index'},
       plugins:{legend:{display:false}},
       scales:{
         x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
@@ -1121,9 +1231,11 @@ function renderCharts(p){
   charts.views = new Chart(document.getElementById('chartViews'), {
     type:'bar',
     data:{labels:views.map(d=>d.fecha.slice(5)), datasets:[{
-      data:views.map(d=>d.valor), backgroundColor:'#E97949', borderRadius:4, maxBarThickness:18
+      data:views.map(d=>d.valor), backgroundColor:'#E97949', hoverBackgroundColor:'#F0955F',
+      borderRadius:4, maxBarThickness:18
     }]},
     options:{
+      animation:CHART_ANIM,
       plugins:{legend:{display:false}},
       scales:{
         x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
@@ -1277,9 +1389,10 @@ function renderMensajes(p){
   charts.msg = new Chart(document.getElementById('chartMensajes'), {
     type:'bar',
     data:{labels:serie.map(d=>d.fecha.slice(5)), datasets:[{
-      data:serie.map(d=>d.valor), backgroundColor:'#2C9658', borderRadius:4, maxBarThickness:18
+      data:serie.map(d=>d.valor), backgroundColor:'#2C9658', hoverBackgroundColor:'#35B36B', borderRadius:4, maxBarThickness:18
     }]},
     options:{
+      animation:CHART_ANIM,
       plugins:{legend:{display:false}},
       scales:{
         x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:10}},
@@ -1351,18 +1464,18 @@ function toggleComments(key){
 function renderKpisIG(ig){
   document.getElementById('kpiRowIG').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">📸</span>
-      <div class="kpi-val">${fmt(ig.seguidores)}</div>
+      <div class="kpi-val">${numSpan(ig.seguidores)}</div>
       <div class="kpi-label">Seguidores</div>
       <div class="kpi-sub">@${ig.username} · ${fmt(ig.media_count)} posts</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
-      <div class="kpi-val">${fmt(ig.total_interactions_28d)}</div>
+      <div class="kpi-val">${numSpan(ig.total_interactions_28d)}</div>
       <div class="kpi-label">Interacciones (28 días)</div>
       <div class="kpi-sub">Me gusta + comentarios + guardados + shares</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
-      <div class="kpi-val">${fmt(ig.accounts_engaged_28d)}</div>
+      <div class="kpi-val">${numSpan(ig.accounts_engaged_28d)}</div>
       <div class="kpi-label">Cuentas con interacción (28 días)</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">🧑‍💻</span>
-      <div class="kpi-val">${fmt(ig.profile_views_28d)}</div>
+      <div class="kpi-val">${numSpan(ig.profile_views_28d)}</div>
       <div class="kpi-label">Visitas al perfil (28 días)</div></div>
   `;
 }
@@ -1422,13 +1535,17 @@ function renderReachChartIG(ig){
   if(noteEl) noteEl.innerHTML = '· ' + deltaPeriodoTexto(sum(ultimosNDias(ig.reach_diario)), sum(periodoAnterior(ig.reach_diario)));
   const CC = chartColors();
   destroyChart('reachIG');
-  charts.reachIG = new Chart(document.getElementById('chartReachIG'), {
+  const reachCanvas = document.getElementById('chartReachIG');
+  charts.reachIG = new Chart(reachCanvas, {
     type:'line',
     data:{labels:serie.map(d=>d.fecha.slice(5)), datasets:[{
-      data:serie.map(d=>d.valor), borderColor:'#ee2a7b', backgroundColor:'rgba(238,42,123,.16)',
-      borderWidth:2, pointRadius:0, fill:true, tension:.3
+      data:serie.map(d=>d.valor), borderColor:'#ee2a7b', backgroundColor:fillGradient(reachCanvas,'#ee2a7b'),
+      borderWidth:2.5, pointRadius:0, pointHoverRadius:5, pointHoverBackgroundColor:'#ee2a7b',
+      pointHoverBorderColor:'#fff', pointHoverBorderWidth:2, fill:true, tension:.35
     }]},
     options:{
+      animation:CHART_ANIM,
+      interaction:{intersect:false, mode:'index'},
       plugins:{legend:{display:false}},
       scales:{
         x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
@@ -1621,6 +1738,7 @@ function renderAll(){
 
   document.getElementById('fechaGenerado').textContent = 'Actualizado: ' + (RAW.generado || '—');
   document.getElementById('footerNote').textContent = 'Datos vía Graph API (Meta) — page_post_engagements, page_views_total, page_video_views, page_actions_post_reactions_total, comentarios y clics reales por publicación.';
+  animateNums();
 }
 
 renderAll();
