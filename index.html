@@ -322,6 +322,9 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
 .range-toggle button:hover{color:var(--text)}
 .range-toggle button.active{color:#fff;
   background:linear-gradient(135deg,var(--primary),var(--accent))}
+.range-custom{display:flex;align-items:center;gap:6px}
+.range-custom input[type="date"]{background:var(--bg3);border:1px solid var(--border);border-radius:10px;
+  color:var(--text);padding:6px 8px;font-size:11.5px;font-family:inherit;outline:none}
 
 /* ── Platform toggle (Facebook / Instagram) ── */
 .platform-toggle{display:flex;gap:8px;margin-bottom:22px}
@@ -381,9 +384,16 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
     <p>Métricas orgánicas — Equilibrio Total</p>
   </div>
   <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">
-    <div class="range-toggle" id="rangeToggle">
-      <button data-dias="7">7 días</button>
-      <button data-dias="30" class="active">30 días</button>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <div class="range-toggle" id="rangeToggle">
+        <button data-dias="7">7 días</button>
+        <button data-dias="30" class="active">30 días</button>
+        <button data-dias="90">90 días</button>
+        <button data-dias="custom">Personalizado</button>
+      </div>
+      <div class="range-custom" id="rangeCustom" style="display:none">
+        <input type="date" id="rangeFrom"> <span style="color:var(--text3);font-size:11px">a</span> <input type="date" id="rangeTo">
+      </div>
     </div>
     <div class="header-date"><span class="live-dot"></span><span id="fechaGenerado">—</span></div>
     <button class="theme-toggle" id="themeToggle" title="Cambiar tema" aria-label="Cambiar tema claro/oscuro">
@@ -558,7 +568,7 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
       <div class="sec-block">
         <div class="sec-title" id="tendenciaTitleIG">Alcance (reach) — 30 días</div>
         <div class="chart-card">
-          <div class="chart-title">Cuentas alcanzadas / día</div>
+          <div class="chart-title">Cuentas alcanzadas / día <span id="reachCompareNote" style="font-weight:600;text-transform:none;letter-spacing:0"></span></div>
           <div class="chart-canvas-wrap"><canvas id="chartReachIG"></canvas></div>
         </div>
       </div>
@@ -629,9 +639,57 @@ const RESUMEN = RAW.resumen || [];
 const GOOGLE = window.GOOGLE_REVIEWS_DATA || {sucursales:[], resumen:{}, historial:[]};
 let googleSucSeleccionada = null;
 let rangoGlobalDias = 30;
+let rangoCustomFrom = null;
+let rangoCustomTo = null;
+
+function fechaStr(d){ return d.toISOString().slice(0,10); }
+
+function rangoFechas(){
+  if(rangoCustomFrom && rangoCustomTo){
+    return rangoCustomFrom <= rangoCustomTo ? [rangoCustomFrom, rangoCustomTo] : [rangoCustomTo, rangoCustomFrom];
+  }
+  const hasta = new Date();
+  const desde = new Date();
+  desde.setDate(desde.getDate() - (rangoGlobalDias - 1));
+  return [fechaStr(desde), fechaStr(hasta)];
+}
+
+function rangoFechasAnterior(){
+  const [desde, hasta] = rangoFechas();
+  const dDesde = new Date(desde+'T00:00:00');
+  const dHasta = new Date(hasta+'T00:00:00');
+  const dias = Math.round((dHasta - dDesde) / 86400000) + 1;
+  const prevHasta = new Date(dDesde); prevHasta.setDate(prevHasta.getDate() - 1);
+  const prevDesde = new Date(prevHasta); prevDesde.setDate(prevDesde.getDate() - (dias - 1));
+  return [fechaStr(prevDesde), fechaStr(prevHasta)];
+}
+
 function ultimosNDias(arr){
-  const a = (arr||[]).slice();
-  return rangoGlobalDias < a.length ? a.slice(-rangoGlobalDias) : a;
+  const [desde, hasta] = rangoFechas();
+  return (arr||[]).filter(d => d.fecha >= desde && d.fecha <= hasta);
+}
+
+function periodoAnterior(arr){
+  const [desde, hasta] = rangoFechasAnterior();
+  return (arr||[]).filter(d => d.fecha >= desde && d.fecha <= hasta);
+}
+
+function deltaPeriodoTexto(actual, anterior){
+  if(!anterior && !actual) return '';
+  if(!anterior) return `<span class="delta-up">▲ nuevo vs período anterior</span>`;
+  const diff = actual - anterior;
+  const pct = diff / anterior * 100;
+  const cls = diff>0?'delta-up':(diff<0?'delta-down':'delta-flat');
+  const arrow = diff>0?'▲':(diff<0?'▼':'—');
+  return `<span class="${cls}">${arrow} ${pct>=0?'+':''}${pct.toFixed(0)}% vs período anterior</span>`;
+}
+
+function etiquetaRango(){
+  if(rangoCustomFrom && rangoCustomTo){
+    const [desde, hasta] = rangoFechas();
+    return `${desde} a ${hasta}`;
+  }
+  return `${rangoGlobalDias} días`;
 }
 const ORDEN_PAGINAS = ["equilibrio_total","edomex","beth","autonomia"];
 let activa = "resumen";
@@ -734,6 +792,9 @@ function renderResumen(){
   const totalEng = paginasParaSuma.reduce((a,p)=>a+sum(ultimosNDias(p.engagement_diario)),0);
   const totalViews = paginasParaSuma.reduce((a,p)=>a+sum(ultimosNDias(p.vistas_diario)),0);
   const totalVideoViews = paginasParaSuma.reduce((a,p)=>a+sum(ultimosNDias(p.video_views_diario)),0);
+  const totalEngPrev = paginasParaSuma.reduce((a,p)=>a+sum(periodoAnterior(p.engagement_diario)),0);
+  const totalViewsPrev = paginasParaSuma.reduce((a,p)=>a+sum(periodoAnterior(p.vistas_diario)),0);
+  const totalVideoViewsPrev = paginasParaSuma.reduce((a,p)=>a+sum(periodoAnterior(p.video_views_diario)),0);
   const totalConversaciones = RESUMEN.reduce((a,b)=>a+(b.conversaciones_28d||0),0);
   const totalNoLeidos = RESUMEN.reduce((a,b)=>a+(b.no_leidos||0),0);
   const ratings = RESUMEN.filter(r=>r.rating!=null).map(r=>r.rating);
@@ -754,13 +815,16 @@ function renderResumen(){
       <div class="kpi-label">Seguidores (4 páginas)</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
       <div class="kpi-val">${fmt(totalEng)}</div>
-      <div class="kpi-label">Engagement total (${rangoGlobalDias} días)</div></div>
+      <div class="kpi-label">Engagement total (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(totalEng,totalEngPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
       <div class="kpi-val">${fmt(totalViews)}</div>
-      <div class="kpi-label">Visitas totales (${rangoGlobalDias} días)</div></div>
+      <div class="kpi-label">Visitas totales (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(totalViews,totalViewsPrev)}</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">🎬</span>
       <div class="kpi-val">${fmt(totalVideoViews)}</div>
-      <div class="kpi-label">Video views totales (${rangoGlobalDias} días)</div></div>
+      <div class="kpi-label">Video views totales (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(totalVideoViews,totalVideoViewsPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">💬</span>
       <div class="kpi-val">${fmt(totalConversaciones)}</div>
       <div class="kpi-label">Conversaciones Messenger (28 días)</div></div>
@@ -1002,6 +1066,9 @@ function renderKpis(p){
   const views28 = sum(ultimosNDias(p.vistas_diario));
   const videoViews28 = sum(ultimosNDias(p.video_views_diario));
   const videoHoras28 = sum(ultimosNDias(p.video_view_time_horas_diario));
+  const engPrev = sum(periodoAnterior(p.engagement_diario));
+  const viewsPrev = sum(periodoAnterior(p.vistas_diario));
+  const videoViewsPrev = sum(periodoAnterior(p.video_views_diario));
   const cal = p.calificacion || {};
   document.getElementById('kpiRow').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">👥</span>
@@ -1010,17 +1077,19 @@ function renderKpis(p){
       <div class="kpi-sub">${p.categoria||''}${cal.rating!=null?` · ⭐ ${cal.rating.toFixed(1)}${cal.rating_count?` (${cal.rating_count} reseñas)`:''}`:''}</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
       <div class="kpi-val">${fmt(eng28)}</div>
-      <div class="kpi-label">Engagement (${rangoGlobalDias} días)</div>
-      <div class="kpi-sub">Reacciones + comentarios + shares</div></div>
+      <div class="kpi-label">Engagement (${etiquetaRango()})</div>
+      <div class="kpi-sub">Reacciones + comentarios + shares<br>${deltaPeriodoTexto(eng28,engPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
       <div class="kpi-val">${fmt(views28)}</div>
-      <div class="kpi-label">Visitas a la página (${rangoGlobalDias} días)</div></div>
+      <div class="kpi-label">Visitas a la página (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(views28,viewsPrev)}</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">🎬</span>
       <div class="kpi-val">${fmt(videoViews28)}</div>
-      <div class="kpi-label">Reproducciones de video (${rangoGlobalDias} días)</div></div>
+      <div class="kpi-label">Reproducciones de video (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(videoViews28,videoViewsPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">🕒</span>
       <div class="kpi-val">${fmt(videoHoras28)}</div>
-      <div class="kpi-label">Horas de video vistas (${rangoGlobalDias} días)</div></div>
+      <div class="kpi-label">Horas de video vistas (${etiquetaRango()})</div></div>
   `;
 }
 
@@ -1028,7 +1097,7 @@ function renderCharts(p){
   const eng = sinHoyParcial(ultimosNDias(p.engagement_diario));
   const views = sinHoyParcial(ultimosNDias(p.vistas_diario));
   const tt = document.getElementById('tendenciaTitle');
-  if(tt) tt.textContent = `Tendencia ${rangoGlobalDias} días`;
+  if(tt) tt.textContent = `Tendencia — ${etiquetaRango()}`;
   const CC = chartColors();
 
   destroyChart('eng');
@@ -1348,7 +1417,9 @@ function renderComparativaDiariaIG(ig){
 function renderReachChartIG(ig){
   const serie = sinHoyParcial(ultimosNDias(ig.reach_diario));
   const tt = document.getElementById('tendenciaTitleIG');
-  if(tt) tt.textContent = `Alcance (reach) — ${rangoGlobalDias} días`;
+  if(tt) tt.textContent = `Alcance (reach) — ${etiquetaRango()}`;
+  const noteEl = document.getElementById('reachCompareNote');
+  if(noteEl) noteEl.innerHTML = '· ' + deltaPeriodoTexto(sum(ultimosNDias(ig.reach_diario)), sum(periodoAnterior(ig.reach_diario)));
   const CC = chartColors();
   destroyChart('reachIG');
   charts.reachIG = new Chart(document.getElementById('chartReachIG'), {
@@ -1496,8 +1567,30 @@ document.addEventListener('click', function(e){
 document.addEventListener('click', function(e){
   const btn = e.target.closest('#rangeToggle button');
   if(!btn) return;
-  rangoGlobalDias = parseInt(btn.dataset.dias, 10);
   document.querySelectorAll('#rangeToggle button').forEach(b => b.classList.toggle('active', b===btn));
+  const customEl = document.getElementById('rangeCustom');
+  if(btn.dataset.dias === 'custom'){
+    customEl.style.display = 'flex';
+    if(!rangoCustomFrom || !rangoCustomTo){
+      const [d, h] = rangoFechas();
+      rangoCustomFrom = d; rangoCustomTo = h;
+      document.getElementById('rangeFrom').value = d;
+      document.getElementById('rangeTo').value = h;
+    }
+  } else {
+    customEl.style.display = 'none';
+    rangoCustomFrom = null; rangoCustomTo = null;
+    rangoGlobalDias = parseInt(btn.dataset.dias, 10);
+  }
+  renderAll();
+});
+
+document.addEventListener('change', function(e){
+  if(e.target.id !== 'rangeFrom' && e.target.id !== 'rangeTo') return;
+  const from = document.getElementById('rangeFrom').value;
+  const to = document.getElementById('rangeTo').value;
+  if(!from || !to) return;
+  rangoCustomFrom = from; rangoCustomTo = to;
   renderAll();
 });
 
