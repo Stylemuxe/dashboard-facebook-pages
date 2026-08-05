@@ -12,7 +12,7 @@
 <title>Dashboard Facebook Pages | Equilibrio Total</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="data_google_reviews.js?v=1785939914"></script>
-<script src="data_facebook_pages.js?v=1785884354"></script>
+<script src="data_facebook_pages.js?v=1785939964"></script>
 <style>
 :root{
   --bg:#0E1315; --bg2:#19363E;
@@ -429,6 +429,14 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
       </div>
       <div class="chart-title" style="margin:18px 0 10px">Reseñas recientes</div>
       <div class="posts-grid" id="googleReviewsFeed"></div>
+    </div>
+
+    <div class="sec-block">
+      <div class="sec-title">📍 Detalle por sucursal (22)</div>
+      <div style="margin-bottom:18px">
+        <select class="day-select" id="googleSucSelect" style="width:100%;max-width:440px"></select>
+      </div>
+      <div id="googleSucDetail"></div>
     </div>
   </div>
 
