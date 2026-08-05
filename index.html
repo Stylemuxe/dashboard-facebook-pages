@@ -428,7 +428,15 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
 
   <div class="view" id="viewGoogle">
     <div class="sec-block">
-      <div class="sec-title">⭐ Reseñas de Google (Maps) — sucursales</div>
+      <div class="sec-title">📍 Elige una sucursal (22)</div>
+      <div style="margin-bottom:18px">
+        <select class="day-select" id="googleSucSelect" style="width:100%;max-width:440px"></select>
+      </div>
+      <div id="googleSucDetail"></div>
+    </div>
+
+    <div class="sec-block">
+      <div class="sec-title">⭐ Comparativo — todas las sucursales</div>
       <div class="kpi-row" id="googleKpiRow"></div>
       <div class="compare-grid">
         <div class="chart-card">
@@ -440,16 +448,8 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
           <div class="rank-list" id="rankGoogleRating"></div>
         </div>
       </div>
-      <div class="chart-title" style="margin:18px 0 10px">Reseñas recientes</div>
+      <div class="chart-title" style="margin:18px 0 10px">Reseñas recientes (todas las sucursales)</div>
       <div class="posts-grid" id="googleReviewsFeed"></div>
-    </div>
-
-    <div class="sec-block">
-      <div class="sec-title">📍 Detalle por sucursal (22)</div>
-      <div style="margin-bottom:18px">
-        <select class="day-select" id="googleSucSelect" style="width:100%;max-width:440px"></select>
-      </div>
-      <div id="googleSucDetail"></div>
     </div>
   </div>
 
@@ -901,7 +901,7 @@ function renderGoogleReviews(){
 
   const maxReviews = Math.max(...suc.map(s=>s.reviews||0), 1);
   rankReviewsEl.innerHTML = suc.slice().sort((a,b)=>(b.reviews||0)-(a.reviews||0)).map((s,i) => `
-    <div class="rank-row ${i===0?'best':''}">
+    <div class="rank-row ${i===0?'best':''}" style="cursor:pointer" onclick="irASucursalGoogle('${s.place_id}')">
       <span class="rank-pos">${i+1}</span>
       <span class="rank-label">${s.nombre}<br><span class="rank-n">${s.rating!=null ? s.rating.toFixed(1)+'★' : 'sin rating'}</span></span>
       <div class="rank-track"><div class="rank-fill" style="width:${((s.reviews||0)/maxReviews*100).toFixed(1)}%"></div></div>
@@ -911,7 +911,7 @@ function renderGoogleReviews(){
 
   const conRating = suc.filter(s=>s.rating!=null).slice().sort((a,b)=>b.rating-a.rating);
   rankRatingEl.innerHTML = conRating.map((s,i) => `
-    <div class="rank-row ${i===0?'best':''}">
+    <div class="rank-row ${i===0?'best':''}" style="cursor:pointer" onclick="irASucursalGoogle('${s.place_id}')">
       <span class="rank-pos">${i+1}</span>
       <span class="rank-label">${s.nombre}<br><span class="rank-n">${fmt(s.reviews||0)} reseñas</span></span>
       <div class="rank-track"><div class="rank-fill" style="width:${(s.rating/5*100).toFixed(1)}%"></div></div>
@@ -920,10 +920,10 @@ function renderGoogleReviews(){
   `).join('') || '<div class="empty-note">Sin datos suficientes todavía</div>';
 
   const feed = [];
-  suc.forEach(s => (s.resenas_recientes||[]).forEach(rv => feed.push(Object.assign({}, rv, {sucursal: s.nombre}))));
+  suc.forEach(s => (s.resenas_recientes||[]).forEach(rv => feed.push(Object.assign({}, rv, {sucursal: s.nombre, place_id: s.place_id}))));
   feed.sort((a,b) => (b.time||0)-(a.time||0));
   feedEl.innerHTML = feed.slice(0,8).map(rv => `
-    <div class="post-card">
+    <div class="post-card" style="cursor:pointer" onclick="irASucursalGoogle('${rv.place_id}')">
       <div class="post-top">
         <span class="post-badge">⭐ ${rv.rating!=null ? rv.rating+'★' : ''} · ${rv.sucursal}</span>
         <span class="post-date">${rv.cuando||''}</span>
@@ -946,6 +946,15 @@ function renderGoogleReviews(){
     selEl.onchange = () => { googleSucSeleccionada = selEl.value; renderGoogleSucDetail(); };
     renderGoogleSucDetail();
   }
+}
+
+function irASucursalGoogle(placeId){
+  googleSucSeleccionada = placeId;
+  const selEl = document.getElementById('googleSucSelect');
+  if(selEl) selEl.value = placeId;
+  renderGoogleSucDetail();
+  const detailEl = document.getElementById('googleSucDetail');
+  if(detailEl) detailEl.scrollIntoView({behavior:'smooth', block:'start'});
 }
 
 function renderGoogleSucDetail(){
