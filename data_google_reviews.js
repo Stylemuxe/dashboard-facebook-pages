@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-06T09:04:58",
+ "actualizado": "2026-08-06T12:05:52",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -351,7 +351,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Daniel Ramirez",
      "rating": 5,
      "texto": "Excelente servicio te dan una muy buena atención",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785432465
     },
     {
