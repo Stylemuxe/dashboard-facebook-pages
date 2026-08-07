@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-07T09:05:00",
+ "actualizado": "2026-08-07T12:08:33",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -15,7 +15,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rubén Rodriguez L",
      "rating": 4,
      "texto": "Muy buena experiencia en mi primer sesión",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785520582
     },
     {
@@ -210,7 +210,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ernesto Araiza",
      "rating": 5,
      "texto": "Muy bien éxito  sigan superándose, personal de claveria. La moderna deja mucho que desear, le falta profesionalismo.",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784308232
     },
     {
@@ -553,7 +553,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Abisaday Garcia Ramírez",
      "rating": 5,
      "texto": "Les recomiendo 100% esta clínica el personal es muy eficaz, súper profesional y empáticos. Sin duda alguna volvería mil veces, No se pierdan la oportunidad de ir.",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784306785
     },
     {
@@ -640,7 +640,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "adain sanchez",
      "rating": 5,
      "texto": "Después de una cirugía de húmero me quedaron secuelas en la muñeca.\nY aquí me ayudaron muchísimo, mi rehabilitación a sido muy buena he evolucionando muy bien.\nTambien me ayudaron con una lesión de rodilla y todo muy bien.\nSon excelentes personas, muy profesionales, siempre me ayudaron con las dudas que tenia sobre mi rehabilitación.\nLo recomiendo bastante.",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1783525903
     },
     {
