@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-06T16:04:46",
+ "actualizado": "2026-08-06T20:05:48",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -139,6 +139,53 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio\nMuy buen lugar para traer a tu familiar la atención es buenísima un lugar muy limpio y bastante profesional\nAparte tiene una vista muy relajante",
      "cuando": "Hace una semana",
      "time": 1785435575
+    }
+   ]
+  },
+  {
+   "nombre": "San Juan del Rio",
+   "categoria": "franquicia",
+   "place_id": "ChIJG2QUCPcL04URhm-m4WRG4RI",
+   "rating": 4.9,
+   "reviews": 141,
+   "maps_url": "https://maps.google.com/?cid=1360445961539055494",
+   "direccion": "Fray Junípero Serra 21, Centro, 76800 San Juan del Río, Qro., México",
+   "telefono": "427 214 1092",
+   "resenas_recientes": [
+    {
+     "autor": "Ellie Whitney",
+     "rating": 1,
+     "texto": "‼️‼️‼️Actualizo mi comentario‼️‼️‼️, no lo recomiendo mi mamá fue por un dolor de espalda y le terminaron sobando otros lados!! , solo se sentía bien en lo que estaba ahí dentro porque fuera le volvía el dolor y hasta la fecha no se compuso, nos hicieron pagar $5,000 aprox y no vimos resultados. Y tiene tantos buenos comentarios porque te hacen que los pongas según que por la “evidencia”.",
+     "cuando": "Hace 1 mes",
+     "time": 1782966954
+    },
+    {
+     "autor": "danae morán",
+     "rating": 5,
+     "texto": "Super recomendado, el personal atiende muy bien y son muy gentiles. Asistí debido a un problema que ya presentaba hace años y en el proceso que llevo me he sentido muy bien, la rehabilitación ha sido muy adaptada al problema que presento y el dolor de ello ha sido mucho menos. Muy recomendable",
+     "cuando": "Hace 4 meses",
+     "time": 1774986690
+    },
+    {
+     "autor": "ALVARO ALVAREZ VELAZQUEZ",
+     "rating": 5,
+     "texto": "Exelente atención  he visto mucha mejoría completamente recomiendo",
+     "cuando": "Hace 4 meses",
+     "time": 1774985181
+    },
+    {
+     "autor": "Lucero Romero",
+     "rating": 5,
+     "texto": "En equilibrio total eh tenido una experiencia genial 🤗,, empezamos con la recepción ,una atención increíble 👌,los Lic 🤗 han hecho un trabajo en mi, execelente en el cual la mejoría es infinita 👌la mejoría es muy notable y me siento mucho pero mucho mejor ❤️‍🩹 gracias!!! 🫂",
+     "cuando": "Hace 4 meses",
+     "time": 1774912322
+    },
+    {
+     "autor": "Elisa andrade",
+     "rating": 5,
+     "texto": "Hola buenas tardes les agradezco la atencion prestada al personal",
+     "cuando": "Hace 4 meses",
+     "time": 1774910772
     }
    ]
   },
@@ -344,7 +391,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "neyri casas",
      "rating": 5,
      "texto": "Lo recomiendo mucho , fui con un problema de mi columna y me han ayudado bastante , el trato es muy bueno por parte de todos los especialistas, muy amables y atentos.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785463391
     },
     {
@@ -438,7 +485,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "naye gonzalez",
      "rating": 5,
      "texto": "Éstos tratamientos integrales funcionan, hay estudios que lo corroboran, además recuerdan cita con prioridad, ampliamente recomendado, flexibilidad de horario",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1784850989
     },
     {
@@ -600,14 +647,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Federico Caballero",
      "rating": 5,
      "texto": "Los terapeutas son muy profesionales",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1783470091
     },
     {
      "autor": "Alexa Mari Paz Rosales Maldonado",
      "rating": 5,
      "texto": "Excelente atención y servicios",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1783467596
     }
    ]
@@ -966,23 +1013,12 @@ window.GOOGLE_REVIEWS_DATA = {
      "time": 1626666730
     }
    ]
-  },
-  {
-   "nombre": "San Juan del Rio",
-   "categoria": "franquicia",
-   "place_id": "ChIJG2QUCPcL04URhm-m4WRG4RI",
-   "rating": null,
-   "reviews": 0,
-   "maps_url": "https://maps.google.com/?cid=1360445961539055494",
-   "direccion": "Fray Junípero Serra 21, Centro, 76800 San Juan del Río, Qro., México",
-   "telefono": "427 214 1092",
-   "resenas_recientes": []
   }
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 1858,
-  "rating_promedio_ponderado": 4.63,
+  "total_resenas": 1999,
+  "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
  "historial": [
@@ -998,8 +1034,8 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-06",
-   "total_resenas": 1858,
-   "rating_prom": 4.63
+   "total_resenas": 1999,
+   "rating_prom": 4.65
   }
  ]
 };
