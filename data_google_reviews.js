@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-07T12:08:33",
+ "actualizado": "2026-08-07T16:05:54",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -100,11 +100,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 163,
+   "reviews": 164,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Angel Regules",
+     "rating": 5,
+     "texto": "Buen lugar y muy buen trabajo, si me han ayudado con mis molestias",
+     "cuando": "en la última semana",
+     "time": 1786129321
+    },
     {
      "autor": "Maruca vazquez",
      "rating": 5,
@@ -132,13 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Es un lugar muy lindo y la atención es muy buena!! Si lo recomiendo!!",
      "cuando": "Hace una semana",
      "time": 1785438975
-    },
-    {
-     "autor": "Maverik Reyes",
-     "rating": 5,
-     "texto": "Excelente servicio\nMuy buen lugar para traer a tu familiar la atención es buenísima un lugar muy limpio y bastante profesional\nAparte tiene una vista muy relajante",
-     "cuando": "Hace una semana",
-     "time": 1785435575
     }
    ]
   },
@@ -344,7 +344,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Juan Huerta Raygoza",
      "rating": 5,
      "texto": "Hola les cuento mi experiencia en Equilibrio total  yo llegue aquí con un fuerte dolor en la espalda baja y me corría hasta el tobillo del pie derecho y ya  no podía caminar, gracias a las terapias q me dieron aquí ahora después de 10 rehabilitaciones ya empiezo a correr, se las recomiendo 100%",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785524867
     },
     {
@@ -983,7 +983,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Erik Esparza",
      "rating": 5,
      "texto": "Excelente atención. Fueron claros en el tratamiento",
-     "cuando": "Hace 4 meses",
+     "cuando": "Hace 5 meses",
      "time": 1773173717
     }
    ]
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 1999,
+  "total_resenas": 2000,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1039,7 +1039,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-07",
-   "total_resenas": 1999,
+   "total_resenas": 2000,
    "rating_prom": 4.65
   }
  ]
