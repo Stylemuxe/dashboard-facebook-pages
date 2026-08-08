@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-07T20:05:41",
+ "actualizado": "2026-08-08T08:46:26",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -720,7 +720,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Abel Badillo",
      "rating": 1,
      "texto": "Pésima atención, publicidad engañosa e inconsistencia en el servicio.\n\nOfrecen en su menú la “Valoración digital de postura”, pero se la negaron a mi esposa por “falta de tiempo”, táctica evidente para vender citas posteriores. La mayor parte del tiempo pagado se fue en llenar el expediente y cotizar paquetes, la terapia real duró apenas 10 minutos.\n\nEn clínicas profesionales la parte administrativa no le quita tiempo a la atención y no tiene costo, la terapia se cobra a su precio regular. Aquí, en cambio, te cobran antes de atenderte, asegurando el dinero pese a la mala calidad del servicio.\n\nEn su folleto aseguran estar “reguladas por COFEPRIS”, pero omiten por completo el número de registro/folio del Aviso de Funcionamiento, que por ley debe aparecer de forma obligatoria tanto en publicidad como en las hojas de evaluación.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785549980
     },
     {
@@ -1039,6 +1039,11 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-07",
+   "total_resenas": 2000,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-08",
    "total_resenas": 2000,
    "rating_prom": 4.65
   }
