@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-07T16:05:54",
+ "actualizado": "2026-08-07T20:05:41",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -466,7 +466,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Beatriz Olvera",
      "rating": 5,
      "texto": "Muy buen trato de todo el personal .\nDesde la primera sesión hubo una notable mejoría\nAcupuntura me daba miedo pero siento que es la que más me ayudó con mi lumbalgia",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1778367162
     }
    ]
@@ -821,7 +821,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "ALEX CABALLERO",
      "rating": 5,
      "texto": "Muy profesionales en el servicio! 10/10! Se me quitó el dolor!!",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784329288
     },
     {
@@ -889,7 +889,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Araceli Bautista",
      "rating": 5,
      "texto": "Excelente atención y muy profesionales los felicito y los recomiendo ampliamente costos bastante accesibles",
-     "cuando": "Hace 6 meses",
+     "cuando": "Hace 7 meses",
      "time": 1767997739
     }
    ]
@@ -976,7 +976,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Cristopher Alvarez",
      "rating": 5,
      "texto": "Buena atención buen servicio ✌🏻",
-     "cuando": "Hace 4 meses",
+     "cuando": "Hace 5 meses",
      "time": 1773181559
     },
     {
