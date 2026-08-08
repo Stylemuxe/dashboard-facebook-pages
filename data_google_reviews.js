@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-08T09:39:46",
+ "actualizado": "2026-08-08T12:07:05",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -100,11 +100,25 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 164,
+   "reviews": 166,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Verito. arevalo",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1786205115
+    },
+    {
+     "autor": "Nancy Luna",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1786204996
+    },
     {
      "autor": "Angel Regules",
      "rating": 5,
@@ -116,29 +130,15 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Maruca vazquez",
      "rating": 5,
      "texto": "CUANDO LLEGUE POR PRIMERA VEZ A EQUILIBRIO TOTAL\nNO PODÍA CAMINAR Y CON LAS TERAPIAS QUE HE RECIBIDO DURANTE ESTE TIPO HOY YA CAMINO MUCHO MEJOR  0",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785604231
     },
     {
      "autor": "Reyna Miranda",
      "rating": 5,
      "texto": "Las terapias desde la valoración sentí el cambio ,  terapia tras terapia me he sentido mucho mejor y los especialistas son muy buenos  tienen un muy buen trato hacia nosotros los pacientes ,nos sacan de nuestras dudas .\nExcelente servicio 😊",
-     "cuando": "en la última semana",
-     "time": 1785604105
-    },
-    {
-     "autor": "Juan Carlos Casique González",
-     "rating": 5,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1785604010
-    },
-    {
-     "autor": "Fabiola Alvarado Sánchez",
-     "rating": 5,
-     "texto": "Es un lugar muy lindo y la atención es muy buena!! Si lo recomiendo!!",
      "cuando": "Hace una semana",
-     "time": 1785438975
+     "time": 1785604105
     }
    ]
   },
@@ -842,7 +842,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Luis Mendoza",
      "rating": 5,
      "texto": "Excelente conocimiento de los especialistas y gran profesionalismo.",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1778429796
     }
    ]
@@ -882,7 +882,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Gloria Morales",
      "rating": 5,
      "texto": "Excelente servicio",
-     "cuando": "Hace 6 meses",
+     "cuando": "Hace 7 meses",
      "time": 1768060732
     },
     {
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2000,
+  "total_resenas": 2002,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1044,7 +1044,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-08",
-   "total_resenas": 2000,
+   "total_resenas": 2002,
    "rating_prom": 4.65
   }
  ]
