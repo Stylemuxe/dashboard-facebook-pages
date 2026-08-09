@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-08T23:02:52",
+ "actualizado": "2026-08-09T08:11:00",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -429,18 +429,11 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJf6FxKWsdzoURD8rGIbQo3-A",
    "rating": 4.6,
-   "reviews": 89,
+   "reviews": 88,
    "maps_url": "https://maps.google.com/?cid=16203714738428234255",
    "direccion": "Ignacio Allende 80 barrio de san mateo c.p. 13040, San Mateo, Tláhuac, 13070 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
-    {
-     "autor": "Joakis CM",
-     "rating": 5,
-     "texto": "No son profesionales, me citaron para la fisioterapia y me querían dar solo consulta de valoracion sin darme la sesión de rehabilitación les presente mi diagnóstico y valoración por parte del especialista en traumatologia y ortopedia, solo engañan!",
-     "cuando": "en la última semana",
-     "time": 1786226505
-    },
     {
      "autor": "Etiam Mtz",
      "rating": 5,
@@ -468,6 +461,13 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "La atencion recibida fue de calidad y calides en mi caso, me senti cansada en las primeras senti cansada , pero a medida que abanzo fue sentiendo mejoria. Graci\nas por su atención.",
      "cuando": "Hace 2 meses",
      "time": 1779307120
+    },
+    {
+     "autor": "Beatriz Olvera",
+     "rating": 5,
+     "texto": "Muy buen trato de todo el personal .\nDesde la primera sesión hubo una notable mejoría\nAcupuntura me daba miedo pero siento que es la que más me ayudó con mi lumbalgia",
+     "cuando": "Hace 3 meses",
+     "time": 1778367162
     }
    ]
   },
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2007,
+  "total_resenas": 2006,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1045,6 +1045,11 @@ window.GOOGLE_REVIEWS_DATA = {
   {
    "fecha": "2026-08-08",
    "total_resenas": 2007,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-09",
+   "total_resenas": 2006,
    "rating_prom": 4.65
   }
  ]
