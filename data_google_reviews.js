@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-09T08:23:06",
+ "actualizado": "2026-08-09T11:17:09",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -100,11 +100,32 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 166,
+   "reviews": 169,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "JUAN CARLOS DEL VALLE",
+     "rating": 5,
+     "texto": "Una clínica qué desde la entrada invita a relajarte y el personal muy atento",
+     "cuando": "en la última semana",
+     "time": 1786292479
+    },
+    {
+     "autor": "Consuelo Ayala",
+     "rating": 5,
+     "texto": "Ese un lugar genial !!!!\nMuy recomendable\nAparte de las actividades podemos compartir con gente de nuestra edad\nEs una forma de envejecer con Estilo😎",
+     "cuando": "en la última semana",
+     "time": 1786292261
+    },
+    {
+     "autor": "jose manuel",
+     "rating": 5,
+     "texto": "Me parece un buen lugar, para pacientes que inician con malestares de la espalda.",
+     "cuando": "en la última semana",
+     "time": 1786292003
+    },
     {
      "autor": "Verito. arevalo",
      "rating": 5,
@@ -118,27 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "en la última semana",
      "time": 1786204996
-    },
-    {
-     "autor": "Angel Regules",
-     "rating": 5,
-     "texto": "Buen lugar y muy buen trabajo, si me han ayudado con mis molestias",
-     "cuando": "en la última semana",
-     "time": 1786129321
-    },
-    {
-     "autor": "Maruca vazquez",
-     "rating": 5,
-     "texto": "CUANDO LLEGUE POR PRIMERA VEZ A EQUILIBRIO TOTAL\nNO PODÍA CAMINAR Y CON LAS TERAPIAS QUE HE RECIBIDO DURANTE ESTE TIPO HOY YA CAMINO MUCHO MEJOR  0",
-     "cuando": "Hace una semana",
-     "time": 1785604231
-    },
-    {
-     "autor": "Reyna Miranda",
-     "rating": 5,
-     "texto": "Las terapias desde la valoración sentí el cambio ,  terapia tras terapia me he sentido mucho mejor y los especialistas son muy buenos  tienen un muy buen trato hacia nosotros los pacientes ,nos sacan de nuestras dudas .\nExcelente servicio 😊",
-     "cuando": "Hace una semana",
-     "time": 1785604105
     }
    ]
   },
@@ -861,7 +861,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "gloria hernandez",
      "rating": 5,
      "texto": "Excelente atención. Me a ayudado mucho con el problema de la pierna.  Mi esposo también asiste por un problema de neuropatía diabética.",
-     "cuando": "Hace 4 meses",
+     "cuando": "Hace 5 meses",
      "time": 1773330512
     },
     {
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2006,
+  "total_resenas": 2009,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1049,7 +1049,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-09",
-   "total_resenas": 2006,
+   "total_resenas": 2009,
    "rating_prom": 4.65
   }
  ]
