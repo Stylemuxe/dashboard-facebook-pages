@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-08T12:07:05",
+ "actualizado": "2026-08-08T20:06:36",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -43,7 +43,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "mariana cruz",
      "rating": 5,
      "texto": "Fui por una recomendación de una amiga, el servicio es muy eficiente y te explican muy bien, todos los especialistas son muy amables y note mejorías en la primera sesión\nSe que todos los cuerpos son diferentes pero a mí sí me ah funcionado y los recomiendo.",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1781037672
     }
    ]
@@ -90,7 +90,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Didi A",
      "rating": 5,
      "texto": "La atención es muy buena, Angeles da excelente asesoría y los especialistas son muy atentos y respetuosos, me contestan todas mis dudas y me dan consejos para hacer actividad en casa, los recomiendo ampliamente.",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1783796816
     }
    ]
@@ -147,11 +147,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJG2QUCPcL04URhm-m4WRG4RI",
    "rating": 4.9,
-   "reviews": 141,
+   "reviews": 142,
    "maps_url": "https://maps.google.com/?cid=1360445961539055494",
    "direccion": "Fray Junípero Serra 21, Centro, 76800 San Juan del Río, Qro., México",
    "telefono": "427 214 1092",
    "resenas_recientes": [
+    {
+     "autor": "Lupita Alvarado",
+     "rating": 5,
+     "texto": "Gracias a  Equilibrio Total , pues gracias a  su tratamiento  mi hijo mejoro con su tema de cervicales , aparte todo el personal que trabaja ahí son muy atentos , lo recomiendo  ampliamente!",
+     "cuando": "en la última semana",
+     "time": 1786216610
+    },
     {
      "autor": "Ellie Whitney",
      "rating": 1,
@@ -179,13 +186,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "En equilibrio total eh tenido una experiencia genial 🤗,, empezamos con la recepción ,una atención increíble 👌,los Lic 🤗 han hecho un trabajo en mi, execelente en el cual la mejoría es infinita 👌la mejoría es muy notable y me siento mucho pero mucho mejor ❤️‍🩹 gracias!!! 🫂",
      "cuando": "Hace 4 meses",
      "time": 1774912322
-    },
-    {
-     "autor": "Elisa andrade",
-     "rating": 5,
-     "texto": "Hola buenas tardes les agradezco la atencion prestada al personal",
-     "cuando": "Hace 4 meses",
-     "time": 1774910772
     }
    ]
   },
@@ -288,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
    "rating": 4.4,
-   "reviews": 121,
+   "reviews": 122,
    "maps_url": "https://maps.google.com/?cid=15375416411117117909",
    "direccion": "C. Arquitecto Vincente Mendiola 1, La Conchita, 56600 Chalco de Díaz Covarrubias, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Orlando Ambriz Ramirez",
+     "rating": 1,
+     "texto": "No lo recomiendo, en mi caso una molestia leve no discapacitante me intentaron vender una tratamiento para amarrarme a 10 sesiones, el quiropráctico Daniel ni siquiera me preguntó en qué parte de la espalda es la molestia. No dan diagnóstico claro",
+     "cuando": "en la última semana",
+     "time": 1786212736
+    },
     {
      "autor": "Francisco Sosa",
      "rating": 1,
@@ -320,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 3 meses",
      "time": 1776117512
-    },
-    {
-     "autor": "Fernando dreww",
-     "rating": 5,
-     "texto": "",
-     "cuando": "Hace 3 meses",
-     "time": 1776104891
     }
    ]
   },
@@ -382,11 +382,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJk2FOrktb04URnMe5TI5ysiY",
    "rating": 4.8,
-   "reviews": 91,
+   "reviews": 92,
    "maps_url": "https://maps.google.com/?cid=2788417074793924508",
    "direccion": "Calle Gral. Ramón Corona 19, Centro, 76000 Santiago de Querétaro, Qro., México",
    "telefono": "442 683 5093",
    "resenas_recientes": [
+    {
+     "autor": "Jose Adrián Valadez Nieves",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1786219929
+    },
     {
      "autor": "neyri casas",
      "rating": 5,
@@ -414,13 +421,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Tuve una excelente experiencia con esta clínica de rehabilitación. Desde el primer día me hicieron sentir en un ambiente profesional, humano y de mucha confianza. Todo el personal es muy amable, atento y está realmente comprometido con el bienestar de los pacientes.\n\nLas instalaciones son limpias, cómodas y cuentan con el equipo necesario para brindar una atención de calidad. Los terapeutas demuestran un amplio conocimiento y diseñan tratamientos personalizados, explicando cada procedimiento con paciencia y resolviendo cualquier duda.\n\nGracias a su dedicación, noté una gran mejoría en mi recuperación en poco tiempo. Se nota que trabajan con vocación y que su prioridad es ayudar a cada paciente a recuperar su calidad de vida.\n\nSin duda, recomiendo esta clínica al 100%. Si buscan un lugar con atención de excelencia, profesionalismo y un trato cálido, esta es la mejor opción.",
      "cuando": "Hace 3 semanas",
      "time": 1784145228
-    },
-    {
-     "autor": "ImALady",
-     "rating": 2,
-     "texto": "No me agradó que al estarme atendiendo a mi, la señorita esté atendiendo a otra persona y solo te separa una cortina! Eso no es atención personalizada. Tampoco me agradó que te presionen a adquirir un “paquete” de tratamiento en ese momento y si no puedes te condicionan que tendrás que pagar más si no lo haces en ese momento.",
-     "cuando": "Hace 3 semanas",
-     "time": 1783863273
     }
    ]
   },
@@ -429,16 +429,23 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJf6FxKWsdzoURD8rGIbQo3-A",
    "rating": 4.6,
-   "reviews": 88,
+   "reviews": 89,
    "maps_url": "https://maps.google.com/?cid=16203714738428234255",
    "direccion": "Ignacio Allende 80 barrio de san mateo c.p. 13040, San Mateo, Tláhuac, 13070 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
+     "autor": "Joakis CM",
+     "rating": 5,
+     "texto": "No son profesionales, me citaron para la fisioterapia y me querían dar solo consulta de valoracion sin darme la sesión de rehabilitación les presente mi diagnóstico y valoración por parte del especialista en traumatologia y ortopedia, solo engañan!",
+     "cuando": "en la última semana",
+     "time": 1786226505
+    },
+    {
      "autor": "Etiam Mtz",
      "rating": 5,
      "texto": "Si esta bien la experiencia",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1783806750
     },
     {
@@ -461,13 +468,53 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "La atencion recibida fue de calidad y calides en mi caso, me senti cansada en las primeras senti cansada , pero a medida que abanzo fue sentiendo mejoria. Graci\nas por su atención.",
      "cuando": "Hace 2 meses",
      "time": 1779307120
+    }
+   ]
+  },
+  {
+   "nombre": "Coacalco",
+   "categoria": "sede",
+   "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
+   "rating": 4.8,
+   "reviews": 78,
+   "maps_url": "https://maps.google.com/?cid=12159459607297815625",
+   "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Mariel Martinez",
+     "rating": 5,
+     "texto": "Fui a Equilibrio Total por una lesión en el tobillo derecho ya que en mi servicio médico se negaron a seguirme atendiendo, llevaba un dolor terrible e insoportable y cojeaba no podía estar de pie ni sentada. Su atención es especializada para cada paciente, los horarios y costos son accesibles, desde que entras el personal te atiende de forma agradable.\nVi cambios cambios después de la tercer sesión el dolor disminuyó considerablemente, seguí sus recomendaciones e hice cambios personales para poder obtener un mejor resultado.",
+     "cuando": "en la última semana",
+     "time": 1786224375
     },
     {
-     "autor": "Beatriz Olvera",
+     "autor": "Borreguini Garcia",
      "rating": 5,
-     "texto": "Muy buen trato de todo el personal .\nDesde la primera sesión hubo una notable mejoría\nAcupuntura me daba miedo pero siento que es la que más me ayudó con mi lumbalgia",
-     "cuando": "Hace 3 meses",
-     "time": 1778367162
+     "texto": "Gracias por su buena atención  a todos son  muy atentos y profesionales que Dios los bendiga y por su  excelente puesto que regreso por qué me sentí muy bien",
+     "cuando": "en la última semana",
+     "time": 1785887857
+    },
+    {
+     "autor": "Rosario Ortiz",
+     "rating": 5,
+     "texto": "Recomiendo las terapias me ayudaron mucho el trato fue bueno",
+     "cuando": "Hace 2 semanas",
+     "time": 1784660157
+    },
+    {
+     "autor": "Selen Flores",
+     "rating": 5,
+     "texto": "Exelente servicio muy profesional",
+     "cuando": "Hace 3 semanas",
+     "time": 1784419051
+    },
+    {
+     "autor": "Abisaday Garcia Ramírez",
+     "rating": 5,
+     "texto": "Les recomiendo 100% esta clínica el personal es muy eficaz, súper profesional y empáticos. Sin duda alguna volvería mil veces, No se pierdan la oportunidad de ir.",
+     "cuando": "Hace 3 semanas",
+     "time": 1784306785
     }
    ]
   },
@@ -515,53 +562,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Muy buena la atencion en todas las areas",
      "cuando": "Hace 3 meses",
      "time": 1777479151
-    }
-   ]
-  },
-  {
-   "nombre": "Coacalco",
-   "categoria": "sede",
-   "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
-   "rating": 4.8,
-   "reviews": 77,
-   "maps_url": "https://maps.google.com/?cid=12159459607297815625",
-   "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
-   "telefono": "55 4570 8299",
-   "resenas_recientes": [
-    {
-     "autor": "Borreguini Garcia",
-     "rating": 5,
-     "texto": "Gracias por su buena atención  a todos son  muy atentos y profesionales que Dios los bendiga y por su  excelente puesto que regreso por qué me sentí muy bien",
-     "cuando": "en la última semana",
-     "time": 1785887857
-    },
-    {
-     "autor": "Rosario Ortiz",
-     "rating": 5,
-     "texto": "Recomiendo las terapias me ayudaron mucho el trato fue bueno",
-     "cuando": "Hace 2 semanas",
-     "time": 1784660157
-    },
-    {
-     "autor": "Selen Flores",
-     "rating": 5,
-     "texto": "Exelente servicio muy profesional",
-     "cuando": "Hace 2 semanas",
-     "time": 1784419051
-    },
-    {
-     "autor": "Abisaday Garcia Ramírez",
-     "rating": 5,
-     "texto": "Les recomiendo 100% esta clínica el personal es muy eficaz, súper profesional y empáticos. Sin duda alguna volvería mil veces, No se pierdan la oportunidad de ir.",
-     "cuando": "Hace 3 semanas",
-     "time": 1784306785
-    },
-    {
-     "autor": "Leticia Mora",
-     "rating": 5,
-     "texto": "Muy buen servicio excelentes terapeutas y lo mejor ya no me duele la rodilla los recomiendo ampliamente",
-     "cuando": "Hace 3 semanas",
-     "time": 1784136171
     }
    ]
   },
@@ -633,7 +633,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Neri Aguilar",
      "rating": 5,
      "texto": "Excelente atención, lo recomiendo ampliamente 👍🏽",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785025180
     },
     {
@@ -774,7 +774,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Tamara Torres",
      "rating": 5,
      "texto": "Excelente servicio, cada una de las especialistas han realizado un trabajo excepcional en cuestión de 4 sesiones disminuyeron el dolor de años, recomendado mil!!!",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784408764
     },
     {
@@ -868,14 +868,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Herrera.123 Herrera",
      "rating": 5,
      "texto": "Muy buen servicio, recomendable.",
-     "cuando": "Hace 6 meses",
+     "cuando": "Hace 7 meses",
      "time": 1768084729
     },
     {
      "autor": "Marisol Chavez",
      "rating": 5,
      "texto": "Exelente servicio, ampliamente recomendable, buen trato, humanismo en cada terapia.",
-     "cuando": "Hace 6 meses",
+     "cuando": "Hace 7 meses",
      "time": 1768084722
     },
     {
@@ -962,7 +962,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Timoteo Martinez",
      "rating": 1,
      "texto": "Mala atencion, mo me entraron mi valoracion y la atencion es pésima.",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1783625274
     },
     {
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2002,
+  "total_resenas": 2007,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1044,7 +1044,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-08",
-   "total_resenas": 2002,
+   "total_resenas": 2007,
    "rating_prom": 4.65
   }
  ]
