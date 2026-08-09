@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-08T20:06:36",
+ "actualizado": "2026-08-08T23:02:52",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -36,7 +36,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Brenda Herrera",
      "rating": 5,
      "texto": "Llevo más de dos meses acudiendo a la clínica la cual me la recomendaron porque tuve una operación y es la primera clínica en la cual veo resultados en un corto periodo cuando en otros lugares me comentaron que no tendría mejoría puesto que aquí los especialistas son expertos en su área pues están titulados y en otros lugares no.\nRecomiendo ampliamente el lugar para aquellas personas que necesitan una rehabilitación, te realizan una valoración para conocer tu caso y poder adecuar el plan a tu medida.",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1781064447
     },
     {
