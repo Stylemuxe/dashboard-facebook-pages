@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-09T11:17:09",
+ "actualizado": "2026-08-09T20:11:25",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -412,7 +412,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Francisco Javier Ramírez Juárez",
      "rating": 4,
      "texto": "",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784493179
     },
     {
@@ -593,7 +593,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Frida S Campos R",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785096081
     },
     {
