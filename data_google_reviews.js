@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-09T20:11:25",
+ "actualizado": "2026-08-10T04:10:52",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -767,7 +767,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Sergio Flores",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784522255
     },
     {
@@ -1049,6 +1049,11 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-09",
+   "total_resenas": 2009,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-10",
    "total_resenas": 2009,
    "rating_prom": 4.65
   }
