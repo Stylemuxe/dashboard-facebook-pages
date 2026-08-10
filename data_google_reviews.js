@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-10T09:05:11",
+ "actualizado": "2026-08-10T12:05:55",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -83,7 +83,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Elsa Lopez",
      "rating": 5,
      "texto": "Excelente servicio y amabilidad de cada especialidad que fue ACUPUNTURA STA, FISIATRA y QUIROPRÁCTICO, así como, la atención y la amabilidad de las SEÑORITAS de RECEPCIÓN.\nMe voy muy mejorada y contenta de mí avance de rodilla.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785779902
     },
     {
@@ -955,7 +955,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "J.A Tolentino",
      "rating": 1,
      "texto": "Pésima atención!! Llegué por el tráfico 10 minutos tarde y ya no quisieron atenderme. Muy mal servicio por parte del encargado. Te hacen pagar todas las terapias desde un inicio para que por favor tengan cuidado. No gasten si tiempo pagando por adelantado",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784568540
     },
     {
