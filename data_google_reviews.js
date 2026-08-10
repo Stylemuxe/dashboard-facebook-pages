@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-10T08:31:37",
+ "actualizado": "2026-08-10T09:05:11",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -570,11 +570,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJT2xNy6H_zYURPjpC7Y8vINU",
    "rating": 4.3,
-   "reviews": 75,
+   "reviews": 76,
    "maps_url": "https://maps.google.com/?cid=15357327024540760638",
    "direccion": "Nunkiní 604, Jardines del Ajusco, Tlalpan, 14200 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Gaby C.",
+     "rating": 1,
+     "texto": "En esta \"clínica\" me engañaron. Fui ahí porque en mi valoración me aseguraron que sí hacían el tratamiento adecuado para el dolor de mi articulación afectada. Son muy amables pero dan a todos los pacientes el mismo tratamiento sin enfocarse en el problema por el que llega uno ahí.  Los fisioterapeutas no están bien capacitados y atienden de forma ausente para ver a dos o tres pacientes durante tu consulta. Eso sí, te convencen desde la primera cita de comprar un paquete completo de sesiones para respetarte el precio promoción. Por más que me quejé varias veces con fisios, recepcionista y gerente, nunca recibí el tratamiento focalizado en mi dolor puntual y se quedaron con mi dinero. De verdad no vayan ahí,  no lo recomiendo nada.",
+     "cuando": "en la última semana",
+     "time": 1786372592
+    },
     {
      "autor": "Brandon Iván Hernández García",
      "rating": 1,
@@ -602,13 +609,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Clínica con personal muy calificado y amable. Me han dado muy buen apoyo en los padecimientos tratados. Los recomiendo mucho!",
      "cuando": "Hace 1 mes",
      "time": 1782403901
-    },
-    {
-     "autor": "Tortillería De Rosas",
-     "rating": 5,
-     "texto": "Exelente servicio! Muy recomendable muy amables y gente muy experta! Lo recomiendo ampliamente!",
-     "cuando": "Hace 1 mes",
-     "time": 1782401326
     }
    ]
   },
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2009,
+  "total_resenas": 2010,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1054,7 +1054,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-10",
-   "total_resenas": 2009,
+   "total_resenas": 2010,
    "rating_prom": 4.65
   }
  ]
