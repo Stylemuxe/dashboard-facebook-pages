@@ -5000,7 +5000,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Martes",
             "posts": 10,
-            "engagement_prom": 435.4
+            "engagement_prom": 435.5
           },
           {
             "label": "Miércoles",
@@ -5027,7 +5027,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 8,
-            "engagement_prom": 1039.5
+            "engagement_prom": 1039.6
           },
           {
             "label": "Tarde (14-18h)",
@@ -5055,17 +5055,17 @@ window.FB_PAGES_DATA = {
         {
           "label": "Dolor / Padecimiento",
           "posts": 43,
-          "engagement_prom": 429.3
+          "engagement_prom": 429.4
         },
         {
           "label": "Promoción / Precio",
           "posts": 8,
-          "engagement_prom": 417.9
+          "engagement_prom": 418.0
         },
         {
           "label": "Llamado a agendar",
           "posts": 10,
-          "engagement_prom": 344.3
+          "engagement_prom": 344.4
         },
         {
           "label": "Otro / sin clasificar",
@@ -5139,7 +5139,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Tienes dolor de hombro constante? Sentir dolor diario no es normal. 🛑 En Arquitecto Vicente Mendiola en Chalco, 📍 recuperarás tu movilidad con nuestro tratamiento. Tu evaluación física cuesta solo $690. 💳 Manda mensaje ",
           "fecha": "2026-07-21T16:42:14+0000",
           "url": "https://www.facebook.com/reel/1023931530484248/",
-          "reacciones": 2508,
+          "reacciones": 2509,
           "comentarios": 42,
           "shares": 135,
           "clics": 11166,
