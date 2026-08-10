@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-10T12:05:55",
+ "actualizado": "2026-08-10T16:06:47",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -90,7 +90,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Didi A",
      "rating": 5,
      "texto": "La atención es muy buena, Angeles da excelente asesoría y los especialistas son muy atentos y respetuosos, me contestan todas mis dudas y me dan consejos para hacer actividad en casa, los recomiendo ampliamente.",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1783796816
     }
    ]
@@ -438,7 +438,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Etiam Mtz",
      "rating": 5,
      "texto": "Si esta bien la experiencia",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1783806750
     },
     {
@@ -519,6 +519,53 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Ajusco",
+   "categoria": "franquicia",
+   "place_id": "ChIJT2xNy6H_zYURPjpC7Y8vINU",
+   "rating": 4.2,
+   "reviews": 77,
+   "maps_url": "https://maps.google.com/?cid=15357327024540760638",
+   "direccion": "Nunkiní 604, Jardines del Ajusco, Tlalpan, 14200 Ciudad de México, CDMX, México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Guadalupe Toledo",
+     "rating": 1,
+     "texto": "En su perfil de Facebook tienen una promoción que indica que incluye: consulta de valoración, terapia especializada, plan de ejercicios y estudio de postura.\nNo es así, no pierdan su tiempo ni dinero. Solo te hacen una serie de preguntas para ofrecerte un paquete de terapias, no hay ningún valor en esta “oferta”.",
+     "cuando": "en la última semana",
+     "time": 1786397533
+    },
+    {
+     "autor": "Gaby C.",
+     "rating": 1,
+     "texto": "En esta \"clínica\" me engañaron. Fui ahí porque en mi valoración me aseguraron que sí hacían el tratamiento adecuado para el dolor de mi articulación afectada. Son muy amables pero dan a todos los pacientes el mismo tratamiento sin enfocarse en el problema por el que llega uno ahí.  Los fisioterapeutas no están bien capacitados y atienden de forma ausente para ver a dos o tres pacientes durante tu consulta. Eso sí, te convencen desde la primera cita de comprar un paquete completo de sesiones para respetarte el precio promoción. Por más que me quejé varias veces con fisios, recepcionista y gerente, nunca recibí el tratamiento focalizado en mi dolor puntual y se quedaron con mi dinero. De verdad no vayan ahí,  no lo recomiendo nada.",
+     "cuando": "en la última semana",
+     "time": 1786372592
+    },
+    {
+     "autor": "Brandon Iván Hernández García",
+     "rating": 1,
+     "texto": "Pagué un paquete de sesiones, avisé que saldria de viaje y al regreso ya no me respetaron las sesiones restantes. Mandé mensajes y se tardaron días en responder y al final me dejaron de contestar.\n\nNo muy grata experiencia",
+     "cuando": "Hace una semana",
+     "time": 1785360491
+    },
+    {
+     "autor": "Rosy Irisson",
+     "rating": 5,
+     "texto": "Excelente atención de todo el personal!! Muy satisfecha con la atención de los Terapeutas y mejoría en mi tratamiento gracias !!👍☺️",
+     "cuando": "Hace 2 semanas",
+     "time": 1785175900
+    },
+    {
+     "autor": "Frida S Campos R",
+     "rating": 5,
+     "texto": "",
+     "cuando": "Hace 2 semanas",
+     "time": 1785096081
+    }
+   ]
+  },
+  {
    "nombre": "Milpa Alta",
    "categoria": "sede",
    "place_id": "ChIJxzmB2ksFzoURr2aysBPw9RI",
@@ -562,53 +609,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Muy buena la atencion en todas las areas",
      "cuando": "Hace 3 meses",
      "time": 1777479151
-    }
-   ]
-  },
-  {
-   "nombre": "Ajusco",
-   "categoria": "franquicia",
-   "place_id": "ChIJT2xNy6H_zYURPjpC7Y8vINU",
-   "rating": 4.3,
-   "reviews": 76,
-   "maps_url": "https://maps.google.com/?cid=15357327024540760638",
-   "direccion": "Nunkiní 604, Jardines del Ajusco, Tlalpan, 14200 Ciudad de México, CDMX, México",
-   "telefono": "55 4570 8299",
-   "resenas_recientes": [
-    {
-     "autor": "Gaby C.",
-     "rating": 1,
-     "texto": "En esta \"clínica\" me engañaron. Fui ahí porque en mi valoración me aseguraron que sí hacían el tratamiento adecuado para el dolor de mi articulación afectada. Son muy amables pero dan a todos los pacientes el mismo tratamiento sin enfocarse en el problema por el que llega uno ahí.  Los fisioterapeutas no están bien capacitados y atienden de forma ausente para ver a dos o tres pacientes durante tu consulta. Eso sí, te convencen desde la primera cita de comprar un paquete completo de sesiones para respetarte el precio promoción. Por más que me quejé varias veces con fisios, recepcionista y gerente, nunca recibí el tratamiento focalizado en mi dolor puntual y se quedaron con mi dinero. De verdad no vayan ahí,  no lo recomiendo nada.",
-     "cuando": "en la última semana",
-     "time": 1786372592
-    },
-    {
-     "autor": "Brandon Iván Hernández García",
-     "rating": 1,
-     "texto": "Pagué un paquete de sesiones, avisé que saldria de viaje y al regreso ya no me respetaron las sesiones restantes. Mandé mensajes y se tardaron días en responder y al final me dejaron de contestar.\n\nNo muy grata experiencia",
-     "cuando": "Hace una semana",
-     "time": 1785360491
-    },
-    {
-     "autor": "Rosy Irisson",
-     "rating": 5,
-     "texto": "Excelente atención de todo el personal!! Muy satisfecha con la atención de los Terapeutas y mejoría en mi tratamiento gracias !!👍☺️",
-     "cuando": "Hace una semana",
-     "time": 1785175900
-    },
-    {
-     "autor": "Frida S Campos R",
-     "rating": 5,
-     "texto": "",
-     "cuando": "Hace 2 semanas",
-     "time": 1785096081
-    },
-    {
-     "autor": "alejandro j. hernanadez bringas",
-     "rating": 5,
-     "texto": "Clínica con personal muy calificado y amable. Me han dado muy buen apoyo en los padecimientos tratados. Los recomiendo mucho!",
-     "cuando": "Hace 1 mes",
-     "time": 1782403901
     }
    ]
   },
@@ -727,7 +727,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ximena Suárez",
      "rating": 2,
      "texto": "",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1783979496
     },
     {
@@ -936,7 +936,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Tannia Espadin",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 3 meses",
+     "cuando": "Hace 4 meses",
      "time": 1776026423
     }
    ]
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2010,
+  "total_resenas": 2011,
   "rating_promedio_ponderado": 4.65,
   "resenas_nuevas_7d": null
  },
@@ -1054,7 +1054,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-10",
-   "total_resenas": 2010,
+   "total_resenas": 2011,
    "rating_prom": 4.65
   }
  ]
