@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-11T09:06:02",
+ "actualizado": "2026-08-11T12:05:58",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -372,7 +372,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "graciela ortiz",
      "rating": 4,
      "texto": "Muy buena atención. Trato amable. Se muestra avance desde los primeros días.",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785259065
     }
    ]
