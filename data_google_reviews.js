@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-10T16:06:47",
+ "actualizado": "2026-08-10T20:07:11",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -203,7 +203,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "VICK SHALOM MARTINEZ",
      "rating": 5,
      "texto": "Los terapeutaa son miy amables y da  seguimiento puntual en cada sesión. Los recomiendo para elntema de las terapias de Manguito Rotator.",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784591800
     },
     {
