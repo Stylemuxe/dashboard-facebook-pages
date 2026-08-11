@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-11T12:05:58",
+ "actualizado": "2026-08-11T16:05:29",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -76,7 +76,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ximena Cecilia Dorantes Valdez",
      "rating": 5,
      "texto": "Es un tratamiento integral. Me han ayudado muchísimo con el dolor pero sobretodo atender la raíz de varios problemas que no tenía diagnosticados y que hasta llegar acá pude darles nombre. Todos altamente capacitados y amables. Lili en Fisio, Edson en Acu y Enrique en Quiro me han ayudado muchísimo a la atención del dolor y mi rehabilitación.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785874218
     },
     {
@@ -325,7 +325,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Mario Ponce Ramos",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 3 meses",
+     "cuando": "Hace 4 meses",
      "time": 1776117512
     }
    ]
@@ -476,11 +476,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
    "rating": 4.8,
-   "reviews": 78,
+   "reviews": 79,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Elizabeth michis arovis",
+     "rating": 5,
+     "texto": "Me gustó mucho el trato del personal y la forma en que me ayudaron con mi problema de salud son muy eficiente y recomiendo mucho el lugar",
+     "cuando": "en la última semana",
+     "time": 1786477702
+    },
     {
      "autor": "Mariel Martinez",
      "rating": 5,
@@ -499,7 +506,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rosario Ortiz",
      "rating": 5,
      "texto": "Recomiendo las terapias me ayudaron mucho el trato fue bueno",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784660157
     },
     {
@@ -508,13 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Exelente servicio muy profesional",
      "cuando": "Hace 3 semanas",
      "time": 1784419051
-    },
-    {
-     "autor": "Abisaday Garcia Ramírez",
-     "rating": 5,
-     "texto": "Les recomiendo 100% esta clínica el personal es muy eficaz, súper profesional y empáticos. Sin duda alguna volvería mil veces, No se pierdan la oportunidad de ir.",
-     "cuando": "Hace 3 semanas",
-     "time": 1784306785
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2011,
+  "total_resenas": 2012,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 830
+  "resenas_nuevas_7d": 831
  },
  "historial": [
   {
@@ -1059,7 +1059,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-11",
-   "total_resenas": 2011,
+   "total_resenas": 2012,
    "rating_prom": 4.65
   }
  ]
