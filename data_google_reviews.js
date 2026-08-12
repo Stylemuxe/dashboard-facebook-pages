@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-12T09:07:00",
+ "actualizado": "2026-08-12T12:06:00",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -365,7 +365,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Frank Lara",
      "rating": 5,
      "texto": "Excelente lugar, tratamiento adecuado y personal capacitado",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785341489
     },
     {
@@ -626,7 +626,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ara Ornelas",
      "rating": 3,
      "texto": "Jóvenes especialistas, pero toda consulta la difieren a 10 o más citas, así que resulta costoso. La fisioterapeuta 10 de 10",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785942882
     },
     {
