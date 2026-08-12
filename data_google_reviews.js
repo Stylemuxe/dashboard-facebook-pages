@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-12T12:06:00",
+ "actualizado": "2026-08-12T16:06:13",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -250,7 +250,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Javier Garcia",
      "rating": 3,
      "texto": "No lo visite",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785961987
     },
     {
@@ -358,7 +358,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Maria Elia Ortiz León",
      "rating": 5,
      "texto": "Muy profesional, el Lic. Benito he mejorado mucho.",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785349248
     },
     {
@@ -419,7 +419,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Gaby Caraveo",
      "rating": 5,
      "texto": "Tuve una excelente experiencia con esta clínica de rehabilitación. Desde el primer día me hicieron sentir en un ambiente profesional, humano y de mucha confianza. Todo el personal es muy amable, atento y está realmente comprometido con el bienestar de los pacientes.\n\nLas instalaciones son limpias, cómodas y cuentan con el equipo necesario para brindar una atención de calidad. Los terapeutas demuestran un amplio conocimiento y diseñan tratamientos personalizados, explicando cada procedimiento con paciencia y resolviendo cualquier duda.\n\nGracias a su dedicación, noté una gran mejoría en mi recuperación en poco tiempo. Se nota que trabajan con vocación y que su prioridad es ayudar a cada paciente a recuperar su calidad de vida.\n\nSin duda, recomiendo esta clínica al 100%. Si buscan un lugar con atención de excelencia, profesionalismo y un trato cálido, esta es la mejor opción.",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784145228
     }
    ]
@@ -546,7 +546,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Brandon Iván Hernández García",
      "rating": 1,
      "texto": "Pagué un paquete de sesiones, avisé que saldria de viaje y al regreso ya no me respetaron las sesiones restantes. Mandé mensajes y se tardaron días en responder y al final me dejaron de contestar.\n\nNo muy grata experiencia",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785360491
     },
     {
@@ -727,7 +727,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ximena Suárez",
      "rating": 2,
      "texto": "",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1783979496
     },
     {
@@ -814,7 +814,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jorge Palacios",
      "rating": 3,
      "texto": "Excelente atención de las terapeutas .solo que no dan la opción de pagar por sesión y solo en una exhibición por 7000 por 10 sesiones .(Al contactarlos no te anticipan esa modalidad)",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785349795
     },
     {
