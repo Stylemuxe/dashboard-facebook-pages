@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-11T16:05:29",
+ "actualizado": "2026-08-12T00:06:57",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -53,11 +53,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 220,
+   "reviews": 222,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
    "telefono": "55 6885 8200",
    "resenas_recientes": [
+    {
+     "autor": "Iker Ledesma",
+     "rating": 5,
+     "texto": "Muy buena experiencia, llegué con un problema con mi rodilla y supieron darle un buen seguimiento y tratamiento para sentirme mejor, mucho reconocimiento a los especialistas que supieron atender mi malestar",
+     "cuando": "en la última semana",
+     "time": 1786496246
+    },
     {
      "autor": "Lupe Muñoa",
      "rating": 5,
@@ -69,7 +76,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Sabomnim Melody",
      "rating": 5,
      "texto": "El Dr. Edson Gallardo en el  área de acupuntura excelente servicio, aclara todas nuestras dudas\nMuchas gracias 😊",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785882289
     },
     {
@@ -85,13 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio y amabilidad de cada especialidad que fue ACUPUNTURA STA, FISIATRA y QUIROPRÁCTICO, así como, la atención y la amabilidad de las SEÑORITAS de RECEPCIÓN.\nMe voy muy mejorada y contenta de mí avance de rodilla.",
      "cuando": "Hace una semana",
      "time": 1785779902
-    },
-    {
-     "autor": "Didi A",
-     "rating": 5,
-     "texto": "La atención es muy buena, Angeles da excelente asesoría y los especialistas son muy atentos y respetuosos, me contestan todas mis dudas y me dan consejos para hacer actividad en casa, los recomiendo ampliamente.",
-     "cuando": "Hace 1 mes",
-     "time": 1783796816
     }
    ]
   },
@@ -499,7 +499,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Borreguini Garcia",
      "rating": 5,
      "texto": "Gracias por su buena atención  a todos son  muy atentos y profesionales que Dios los bendiga y por su  excelente puesto que regreso por qué me sentí muy bien",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1785887857
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2012,
+  "total_resenas": 2014,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 831
+  "resenas_nuevas_7d": 16
  },
  "historial": [
   {
@@ -1060,6 +1060,11 @@ window.GOOGLE_REVIEWS_DATA = {
   {
    "fecha": "2026-08-11",
    "total_resenas": 2012,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-12",
+   "total_resenas": 2014,
    "rating_prom": 4.65
   }
  ]
