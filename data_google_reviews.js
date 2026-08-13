@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-12T16:06:13",
+ "actualizado": "2026-08-13T00:06:37",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -190,6 +190,53 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Xochimilco",
+   "categoria": "franquicia",
+   "place_id": "ChIJvzXjglUBzoUR7UKN4v5XSV8",
+   "rating": 4.8,
+   "reviews": 140,
+   "maps_url": "https://maps.google.com/?cid=6866115859137250029",
+   "direccion": "Arcos Pte. 374, Jardines del Sur, Xochimilco, 16050 Ciudad de México, CDMX, México",
+   "telefono": "55 1073 3286",
+   "resenas_recientes": [
+    {
+     "autor": "Optica Quarzo",
+     "rating": 5,
+     "texto": "Recomiendo amplia y confiablemente Equilibrio Total con las terapias que ofrecen como rehabilitación neuropatía articulaciones parálisis facial varices ciática",
+     "cuando": "en la última semana",
+     "time": 1786572768
+    },
+    {
+     "autor": "Javier Garcia",
+     "rating": 3,
+     "texto": "No lo visite",
+     "cuando": "Hace una semana",
+     "time": 1785961987
+    },
+    {
+     "autor": "Alma Verónica Murillo",
+     "rating": 5,
+     "texto": "Recién comienzo asistir a este lugar y el personal es muy amable, la atención es muy buena y estoy en proceso de recuperación.",
+     "cuando": "Hace 1 mes",
+     "time": 1782509724
+    },
+    {
+     "autor": "GLEN SALVADOR MORA DIAZ BARRIGA",
+     "rating": 5,
+     "texto": "Excelentes centro de rehabilitación y fisioterapia al sur .. costos accesibles y buen equipo. Atiendes motriz, postquirurgicos, columna, neuropatías y más ...",
+     "cuando": "Hace 1 mes",
+     "time": 1782258151
+    },
+    {
+     "autor": "GABRIELA HERNANDEZ GIL",
+     "rating": 5,
+     "texto": "Excelente servicio y profesionalismo\nRecomiendo ampliamente la clínica de Xochimilco. Desde la primera cita te dan una valoración inicial sumamente detallada y muy bien explicada. El personal es increíblemente amable y muy puntual con los horarios de las sesiones. Además, las técnicas que aplican en cada tratamiento son efectivas, noté mejoría en mi salud. ¡Un equipo muy profesional!",
+     "cuando": "Hace 2 meses",
+     "time": 1781396568
+    }
+   ]
+  },
+  {
    "nombre": "Claveria",
    "categoria": "franquicia",
    "place_id": "ChIJ2wPH1m350YURPdfgYcEiYNU",
@@ -233,53 +280,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Los especiales son muy atentos y profesionales. Excelente atención!!",
      "cuando": "Hace 1 mes",
      "time": 1782152287
-    }
-   ]
-  },
-  {
-   "nombre": "Xochimilco",
-   "categoria": "franquicia",
-   "place_id": "ChIJvzXjglUBzoUR7UKN4v5XSV8",
-   "rating": 4.8,
-   "reviews": 139,
-   "maps_url": "https://maps.google.com/?cid=6866115859137250029",
-   "direccion": "Arcos Pte. 374, Jardines del Sur, Xochimilco, 16050 Ciudad de México, CDMX, México",
-   "telefono": "55 1073 3286",
-   "resenas_recientes": [
-    {
-     "autor": "Javier Garcia",
-     "rating": 3,
-     "texto": "No lo visite",
-     "cuando": "Hace una semana",
-     "time": 1785961987
-    },
-    {
-     "autor": "Alma Verónica Murillo",
-     "rating": 5,
-     "texto": "Recién comienzo asistir a este lugar y el personal es muy amable, la atención es muy buena y estoy en proceso de recuperación.",
-     "cuando": "Hace 1 mes",
-     "time": 1782509724
-    },
-    {
-     "autor": "GLEN SALVADOR MORA DIAZ BARRIGA",
-     "rating": 5,
-     "texto": "Excelentes centro de rehabilitación y fisioterapia al sur .. costos accesibles y buen equipo. Atiendes motriz, postquirurgicos, columna, neuropatías y más ...",
-     "cuando": "Hace 1 mes",
-     "time": 1782258151
-    },
-    {
-     "autor": "GABRIELA HERNANDEZ GIL",
-     "rating": 5,
-     "texto": "Excelente servicio y profesionalismo\nRecomiendo ampliamente la clínica de Xochimilco. Desde la primera cita te dan una valoración inicial sumamente detallada y muy bien explicada. El personal es increíblemente amable y muy puntual con los horarios de las sesiones. Además, las técnicas que aplican en cada tratamiento son efectivas, noté mejoría en mi salud. ¡Un equipo muy profesional!",
-     "cuando": "Hace 1 mes",
-     "time": 1781396568
-    },
-    {
-     "autor": "Aidee Olivares",
-     "rating": 5,
-     "texto": "Excelente servicio de las licenciadas\nHe visto mejorías a mis síntomas",
-     "cuando": "Hace 2 meses",
-     "time": 1780163434
     }
    ]
   },
@@ -476,11 +476,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
    "rating": 4.8,
-   "reviews": 79,
+   "reviews": 80,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Lizeth Martinez",
+     "rating": 5,
+     "texto": "Excelente servicio y atención tuve un gran avance con ellos gracias a sus terapias",
+     "cuando": "en la última semana",
+     "time": 1786572436
+    },
     {
      "autor": "Elizabeth michis arovis",
      "rating": 5,
@@ -508,13 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Recomiendo las terapias me ayudaron mucho el trato fue bueno",
      "cuando": "Hace 3 semanas",
      "time": 1784660157
-    },
-    {
-     "autor": "Selen Flores",
-     "rating": 5,
-     "texto": "Exelente servicio muy profesional",
-     "cuando": "Hace 3 semanas",
-     "time": 1784419051
     }
    ]
   },
@@ -748,7 +748,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Bray Obanodlam",
      "rating": 5,
      "texto": "Un lugar increíble y su personal brinda una atención excelente!",
-     "cuando": "Hace 3 meses",
+     "cuando": "Hace 4 meses",
      "time": 1776211402
     }
    ]
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2014,
+  "total_resenas": 2016,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 16
+  "resenas_nuevas_7d": 17
  },
  "historial": [
   {
@@ -1065,6 +1065,11 @@ window.GOOGLE_REVIEWS_DATA = {
   {
    "fecha": "2026-08-12",
    "total_resenas": 2014,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-13",
+   "total_resenas": 2016,
    "rating_prom": 4.65
   }
  ]
