@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-13T09:06:30",
+ "actualizado": "2026-08-13T12:17:54",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -190,6 +190,53 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Claveria",
+   "categoria": "franquicia",
+   "place_id": "ChIJ2wPH1m350YURPdfgYcEiYNU",
+   "rating": 4.7,
+   "reviews": 140,
+   "maps_url": "https://maps.google.com/?cid=15375327341809030973",
+   "direccion": "C. Egipto 113-Casa 1, Claveria, Azcapotzalco, 02080 Ciudad de México, CDMX, México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Eduardo Ramírez P",
+     "rating": 5,
+     "texto": "100% recomendable. Todo el personal es muy profesional, saben atender muy bien y te ayudan con tus lesiones.   Aunque es un poco caro, vale la pena por los resultados.",
+     "cuando": "en la última semana",
+     "time": 1786640519
+    },
+    {
+     "autor": "VICK SHALOM MARTINEZ",
+     "rating": 5,
+     "texto": "Los terapeutaa son miy amables y da  seguimiento puntual en cada sesión. Los recomiendo para elntema de las terapias de Manguito Rotator.",
+     "cuando": "Hace 3 semanas",
+     "time": 1784591800
+    },
+    {
+     "autor": "Ernesto Araiza",
+     "rating": 5,
+     "texto": "Muy bien éxito  sigan superándose, personal de claveria. La moderna deja mucho que desear, le falta profesionalismo.",
+     "cuando": "Hace 3 semanas",
+     "time": 1784308232
+    },
+    {
+     "autor": "Tere Marquez",
+     "rating": 5,
+     "texto": "Muy Buen servicio los especialistas muy atentos y el especialista Diego muy bueno y emir también",
+     "cuando": "Hace 1 mes",
+     "time": 1782414169
+    },
+    {
+     "autor": "silvia moreno",
+     "rating": 5,
+     "texto": "Muy buena atención, tanto en recepción como los doctores que nos tratan, lo recomiendo al 100.",
+     "cuando": "Hace 1 mes",
+     "time": 1782230039
+    }
+   ]
+  },
+  {
    "nombre": "Xochimilco",
    "categoria": "franquicia",
    "place_id": "ChIJvzXjglUBzoUR7UKN4v5XSV8",
@@ -233,53 +280,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio y profesionalismo\nRecomiendo ampliamente la clínica de Xochimilco. Desde la primera cita te dan una valoración inicial sumamente detallada y muy bien explicada. El personal es increíblemente amable y muy puntual con los horarios de las sesiones. Además, las técnicas que aplican en cada tratamiento son efectivas, noté mejoría en mi salud. ¡Un equipo muy profesional!",
      "cuando": "Hace 2 meses",
      "time": 1781396568
-    }
-   ]
-  },
-  {
-   "nombre": "Claveria",
-   "categoria": "franquicia",
-   "place_id": "ChIJ2wPH1m350YURPdfgYcEiYNU",
-   "rating": 4.7,
-   "reviews": 139,
-   "maps_url": "https://maps.google.com/?cid=15375327341809030973",
-   "direccion": "C. Egipto 113-Casa 1, Claveria, Azcapotzalco, 02080 Ciudad de México, CDMX, México",
-   "telefono": "55 4570 8299",
-   "resenas_recientes": [
-    {
-     "autor": "VICK SHALOM MARTINEZ",
-     "rating": 5,
-     "texto": "Los terapeutaa son miy amables y da  seguimiento puntual en cada sesión. Los recomiendo para elntema de las terapias de Manguito Rotator.",
-     "cuando": "Hace 3 semanas",
-     "time": 1784591800
-    },
-    {
-     "autor": "Ernesto Araiza",
-     "rating": 5,
-     "texto": "Muy bien éxito  sigan superándose, personal de claveria. La moderna deja mucho que desear, le falta profesionalismo.",
-     "cuando": "Hace 3 semanas",
-     "time": 1784308232
-    },
-    {
-     "autor": "Tere Marquez",
-     "rating": 5,
-     "texto": "Muy Buen servicio los especialistas muy atentos y el especialista Diego muy bueno y emir también",
-     "cuando": "Hace 1 mes",
-     "time": 1782414169
-    },
-    {
-     "autor": "silvia moreno",
-     "rating": 5,
-     "texto": "Muy buena atención, tanto en recepción como los doctores que nos tratan, lo recomiendo al 100.",
-     "cuando": "Hace 1 mes",
-     "time": 1782230039
-    },
-    {
-     "autor": "Anabel Gutiérrez Sánchez",
-     "rating": 5,
-     "texto": "Los especiales son muy atentos y profesionales. Excelente atención!!",
-     "cuando": "Hace 1 mes",
-     "time": 1782152287
     }
    ]
   },
@@ -351,7 +351,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Daniel Ramirez",
      "rating": 5,
      "texto": "Excelente servicio te dan una muy buena atención",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785432465
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2016,
+  "total_resenas": 2017,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 17
+  "resenas_nuevas_7d": 18
  },
  "historial": [
   {
@@ -1069,7 +1069,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-13",
-   "total_resenas": 2016,
+   "total_resenas": 2017,
    "rating_prom": 4.65
   }
  ]
