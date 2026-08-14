@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-14T09:07:32",
+ "actualizado": "2026-08-14T12:07:42",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -15,7 +15,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rubén Rodriguez L",
      "rating": 4,
      "texto": "Muy buena experiencia en mi primer sesión",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785520582
     },
     {
@@ -217,7 +217,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ernesto Araiza",
      "rating": 5,
      "texto": "Muy bien éxito  sigan superándose, personal de claveria. La moderna deja mucho que desear, le falta profesionalismo.",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784308232
     },
     {
@@ -335,11 +335,25 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
-   "reviews": 119,
+   "reviews": 121,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
    "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "HERIBERTO RODRIGUEZ BELTRAN",
+     "rating": 5,
+     "texto": "Me he sentido bien en la clínica de rehabilitación , la atención es excelente .",
+     "cuando": "en la última semana",
+     "time": 1786725007
+    },
+    {
+     "autor": "Maria de la luz Calixto",
+     "rating": 4,
+     "texto": "Recomiendo equilibrio total muy bueno",
+     "cuando": "en la última semana",
+     "time": 1786723376
+    },
     {
      "autor": "Juan Huerta Raygoza",
      "rating": 5,
@@ -360,20 +374,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Muy profesional, el Lic. Benito he mejorado mucho.",
      "cuando": "Hace 2 semanas",
      "time": 1785349248
-    },
-    {
-     "autor": "Frank Lara",
-     "rating": 5,
-     "texto": "Excelente lugar, tratamiento adecuado y personal capacitado",
-     "cuando": "Hace 2 semanas",
-     "time": 1785341489
-    },
-    {
-     "autor": "graciela ortiz",
-     "rating": 4,
-     "texto": "Muy buena atención. Trato amable. Se muestra avance desde los primeros días.",
-     "cuando": "Hace 2 semanas",
-     "time": 1785259065
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2017,
+  "total_resenas": 2019,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 17
+  "resenas_nuevas_7d": 19
  },
  "historial": [
   {
@@ -1074,7 +1074,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-14",
-   "total_resenas": 2017,
+   "total_resenas": 2019,
    "rating_prom": 4.65
   }
  ]
