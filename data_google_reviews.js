@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-13T16:06:35",
+ "actualizado": "2026-08-14T00:15:51",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -398,7 +398,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "neyri casas",
      "rating": 5,
      "texto": "Lo recomiendo mucho , fui con un problema de mi columna y me han ayudado bastante , el trato es muy bueno por parte de todos los especialistas, muy amables y atentos.",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785463391
     },
     {
@@ -579,7 +579,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "naye gonzalez",
      "rating": 5,
      "texto": "Éstos tratamientos integrales funcionan, hay estudios que lo corroboran, además recuerdan cita con prioridad, ampliamente recomendado, flexibilidad de horario",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1784850989
     },
     {
@@ -741,7 +741,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Brisel Cano Marín",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 3 meses",
+     "cuando": "Hace 4 meses",
      "time": 1776296860
     },
     {
@@ -1019,7 +1019,7 @@ window.GOOGLE_REVIEWS_DATA = {
   "total_sucursales": 22,
   "total_resenas": 2017,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 18
+  "resenas_nuevas_7d": 17
  },
  "historial": [
   {
@@ -1069,6 +1069,11 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-13",
+   "total_resenas": 2017,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-14",
    "total_resenas": 2017,
    "rating_prom": 4.65
   }
