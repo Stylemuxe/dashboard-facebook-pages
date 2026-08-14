@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-14T12:07:42",
+ "actualizado": "2026-08-14T16:06:44",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -358,7 +358,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Juan Huerta Raygoza",
      "rating": 5,
      "texto": "Hola les cuento mi experiencia en Equilibrio total  yo llegue aquí con un fuerte dolor en la espalda baja y me corría hasta el tobillo del pie derecho y ya  no podía caminar, gracias a las terapias q me dieron aquí ahora después de 10 rehabilitaciones ya empiezo a correr, se las recomiendo 100%",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785524867
     },
     {
@@ -419,7 +419,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Gaby Caraveo",
      "rating": 5,
      "texto": "Tuve una excelente experiencia con esta clínica de rehabilitación. Desde el primer día me hicieron sentir en un ambiente profesional, humano y de mucha confianza. Todo el personal es muy amable, atento y está realmente comprometido con el bienestar de los pacientes.\n\nLas instalaciones son limpias, cómodas y cuentan con el equipo necesario para brindar una atención de calidad. Los terapeutas demuestran un amplio conocimiento y diseñan tratamientos personalizados, explicando cada procedimiento con paciencia y resolviendo cualquier duda.\n\nGracias a su dedicación, noté una gran mejoría en mi recuperación en poco tiempo. Se nota que trabajan con vocación y que su prioridad es ayudar a cada paciente a recuperar su calidad de vida.\n\nSin duda, recomiendo esta clínica al 100%. Si buscan un lugar con atención de excelencia, profesionalismo y un trato cálido, esta es la mejor opción.",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784145228
     }
    ]
