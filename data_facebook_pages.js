@@ -1,10 +1,10 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-08-14 08:21",
+  "generado": "2026-08-14 08:23",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
       "id": "103426168998997",
-      "seguidores": 22705,
+      "seguidores": 22706,
       "categoria": "Medical & health",
       "engagement_diario": [
         {
@@ -1746,12 +1746,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 8,
-            "engagement_prom": 733.0
+            "engagement_prom": 733.1
           },
           {
             "label": "Martes",
             "posts": 9,
-            "engagement_prom": 630.1
+            "engagement_prom": 630.3
           },
           {
             "label": "Miércoles",
@@ -1773,17 +1773,17 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 19,
-            "engagement_prom": 908.5
+            "engagement_prom": 908.6
           },
           {
             "label": "Tarde (14-18h)",
             "posts": 11,
-            "engagement_prom": 818.3
+            "engagement_prom": 818.4
           },
           {
             "label": "Mañana (06-11h)",
             "posts": 9,
-            "engagement_prom": 709.4
+            "engagement_prom": 709.6
           },
           {
             "label": "Noche (18-21h)",
@@ -1806,12 +1806,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 8,
-          "engagement_prom": 2677.1
+          "engagement_prom": 2677.5
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 33,
-          "engagement_prom": 902.5
+          "engagement_prom": 902.6
         },
         {
           "label": "Promoción / Precio",
@@ -1821,7 +1821,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Llamado a agendar",
           "posts": 8,
-          "engagement_prom": 512.4
+          "engagement_prom": 512.5
         },
         {
           "label": "Educativo / Tips",
@@ -1862,7 +1862,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¡Si eres de la zona Coacalco! 👀📍\n¿Sufres de hormigueo, entumecimiento o un dolor constante en hombro y rodilla? 🛑\n\nEquilibrio Total está para ayudarte. 🤝\nAgenda tu evaluación física con expertos. 📋\nInicia tu tratamiento ",
           "fecha": "2026-08-11T18:40:49+0000",
           "url": "https://www.facebook.com/reel/1709986850117193/",
-          "reacciones": 160,
+          "reacciones": 161,
           "comentarios": 4,
           "shares": 5,
           "clics": 545,
@@ -2175,7 +2175,7 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-07-21T15:56:16+0000",
           "url": "https://www.facebook.com/reel/1563134522021903/",
           "reacciones": 4670,
-          "comentarios": 105,
+          "comentarios": 106,
           "shares": 275,
           "clics": 23801,
           "video_views": 372881,
@@ -2994,7 +2994,7 @@ window.FB_PAGES_DATA = {
           "vistas": 1219,
           "video_views": 103374,
           "video_view_time_horas": 417.8,
-          "seguidores": 22705
+          "seguidores": 22706
         },
         {
           "fecha": "2026-08-15",
@@ -4629,11 +4629,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-14",
-          "valor": 83586
+          "valor": 83590
         },
         {
           "fecha": "2026-08-15",
-          "valor": 7749
+          "valor": 8320
         }
       ],
       "video_view_time_horas_diario": [
@@ -5027,11 +5027,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-14",
-          "valor": 379.7
+          "valor": 379.8
         },
         {
           "fecha": "2026-08-15",
-          "valor": 39.8
+          "valor": 42.4
         }
       ],
       "calificacion": {
@@ -5187,7 +5187,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Miércoles",
             "posts": 9,
-            "engagement_prom": 323.1
+            "engagement_prom": 323.2
           },
           {
             "label": "Jueves",
@@ -5232,7 +5232,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 7,
-          "engagement_prom": 2171.4
+          "engagement_prom": 2171.6
         },
         {
           "label": "Dolor / Padecimiento",
@@ -5242,7 +5242,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Promoción / Precio",
           "posts": 8,
-          "engagement_prom": 507.4
+          "engagement_prom": 507.5
         },
         {
           "label": "Llamado a agendar",
@@ -5271,7 +5271,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "Si eres de Valle Dorado, 📍\nvivir con dolor no es normal. 🛑\nLicenciados en fisioterapia, acupuntura y quiroprácticos\nrealizarán tu prueba de postura.\nRecibe terapia física personalizada.\nTu evaluación física cuesta $690. ",
           "fecha": "2026-08-12T20:19:03+0000",
           "url": "https://www.facebook.com/reel/890687467114670/",
-          "reacciones": 167,
+          "reacciones": 168,
           "comentarios": 4,
           "shares": 9,
           "clics": 531,
@@ -6410,16 +6410,16 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-08-14",
           "engagement": 4983,
           "vistas": 1193,
-          "video_views": 83586,
-          "video_view_time_horas": 379.7,
+          "video_views": 83590,
+          "video_view_time_horas": 379.8,
           "seguidores": 14373
         },
         {
           "fecha": "2026-08-15",
           "engagement": 483,
           "vistas": 102,
-          "video_views": 7749,
-          "video_view_time_horas": 39.8
+          "video_views": 8320,
+          "video_view_time_horas": 42.4
         }
       ],
       "instagram": {
@@ -13416,7 +13416,7 @@ window.FB_PAGES_DATA = {
     {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
-      "seguidores": 22705,
+      "seguidores": 22706,
       "engagement_28d": 438567,
       "vistas_28d": 106734,
       "video_views_28d": 6780988,
@@ -13435,7 +13435,7 @@ window.FB_PAGES_DATA = {
       "seguidores": 14373,
       "engagement_28d": 501572,
       "vistas_28d": 121287,
-      "video_views_28d": 7943612,
+      "video_views_28d": 7944187,
       "conversaciones_28d": 163,
       "no_leidos": 108,
       "rating": 4.3,
