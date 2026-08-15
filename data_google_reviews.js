@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-15T11:13:40",
+ "actualizado": "2026-08-15T12:09:32",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -482,13 +482,6 @@ window.GOOGLE_REVIEWS_DATA = {
    "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
-     "autor": "Grivi Nyff",
-     "rating": 5,
-     "texto": "Una trato muy bueno, te gyian en todo el proceso y desde la primera sesión uno siente la mejoría que el tratamiento te brinda. Los licenciados muy profesionales.",
-     "cuando": "en la última semana",
-     "time": 1786813210
-    },
-    {
      "autor": "Daniela Jimenez",
      "rating": 5,
      "texto": "",
@@ -515,6 +508,13 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Fui a Equilibrio Total por una lesión en el tobillo derecho ya que en mi servicio médico se negaron a seguirme atendiendo, llevaba un dolor terrible e insoportable y cojeaba no podía estar de pie ni sentada. Su atención es especializada para cada paciente, los horarios y costos son accesibles, desde que entras el personal te atiende de forma agradable.\nVi cambios cambios después de la tercer sesión el dolor disminuyó considerablemente, seguí sus recomendaciones e hice cambios personales para poder obtener un mejor resultado.",
      "cuando": "en la última semana",
      "time": 1786224375
+    },
+    {
+     "autor": "Borreguini Garcia",
+     "rating": 5,
+     "texto": "Gracias por su buena atención  a todos son  muy atentos y profesionales que Dios los bendiga y por su  excelente puesto que regreso por qué me sentí muy bien",
+     "cuando": "Hace una semana",
+     "time": 1785887857
     }
    ]
   },
