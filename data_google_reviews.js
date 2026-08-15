@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-14T16:06:44",
+ "actualizado": "2026-08-15T11:13:40",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -130,14 +130,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Verito. arevalo",
      "rating": 5,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786205115
     },
     {
      "autor": "Nancy Luna",
      "rating": 5,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786204996
     }
    ]
@@ -288,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
    "rating": 4.4,
-   "reviews": 122,
+   "reviews": 123,
    "maps_url": "https://maps.google.com/?cid=15375416411117117909",
    "direccion": "C. Arquitecto Vincente Mendiola 1, La Conchita, 56600 Chalco de Díaz Covarrubias, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Jorge Hdz",
+     "rating": 5,
+     "texto": "Llevo ya 5 sesiones con ellos desde mi valoración fueron muy claros y amables. Tengo una gran mejoría y sin duda la única clínica en la zona con 3 especialidades y con su personal super preparado. Lo recomiendo ampliamente también por sus promociones accesibles",
+     "cuando": "en la última semana",
+     "time": 1786763680
+    },
     {
      "autor": "Orlando Ambriz Ramirez",
      "rating": 1,
@@ -320,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Vale la pena hacer el esfuerzo y pagar el plan integral de N sesiones; yo tenía semanas con el dolor del nervio ciático por opresión del músculo piriforme (diagnosticado por un ortopedista traumatólogo previamente) aquí me han ayudado bastante, con sesiones de acupuntura, quiropráctica, terapias físicas e podido volver a mis actividades diarias, el trato profesional y el empeño que le ponen a su trabajo son muy dedicados, en general no me arrepiento en lo absoluto se los recomiendo",
      "cuando": "Hace 3 meses",
      "time": 1776943677
-    },
-    {
-     "autor": "Mario Ponce Ramos",
-     "rating": 5,
-     "texto": "",
-     "cuando": "Hace 4 meses",
-     "time": 1776117512
     }
    ]
   },
@@ -476,11 +476,25 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
    "rating": 4.8,
-   "reviews": 80,
+   "reviews": 82,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Grivi Nyff",
+     "rating": 5,
+     "texto": "Una trato muy bueno, te gyian en todo el proceso y desde la primera sesión uno siente la mejoría que el tratamiento te brinda. Los licenciados muy profesionales.",
+     "cuando": "en la última semana",
+     "time": 1786813210
+    },
+    {
+     "autor": "Daniela Jimenez",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1786762748
+    },
     {
      "autor": "Lizeth Martinez",
      "rating": 5,
@@ -501,20 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Fui a Equilibrio Total por una lesión en el tobillo derecho ya que en mi servicio médico se negaron a seguirme atendiendo, llevaba un dolor terrible e insoportable y cojeaba no podía estar de pie ni sentada. Su atención es especializada para cada paciente, los horarios y costos son accesibles, desde que entras el personal te atiende de forma agradable.\nVi cambios cambios después de la tercer sesión el dolor disminuyó considerablemente, seguí sus recomendaciones e hice cambios personales para poder obtener un mejor resultado.",
      "cuando": "en la última semana",
      "time": 1786224375
-    },
-    {
-     "autor": "Borreguini Garcia",
-     "rating": 5,
-     "texto": "Gracias por su buena atención  a todos son  muy atentos y profesionales que Dios los bendiga y por su  excelente puesto que regreso por qué me sentí muy bien",
-     "cuando": "Hace una semana",
-     "time": 1785887857
-    },
-    {
-     "autor": "Rosario Ortiz",
-     "rating": 5,
-     "texto": "Recomiendo las terapias me ayudaron mucho el trato fue bueno",
-     "cuando": "Hace 3 semanas",
-     "time": 1784660157
     }
    ]
   },
@@ -720,7 +720,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Abel Badillo",
      "rating": 1,
      "texto": "Pésima atención, publicidad engañosa e inconsistencia en el servicio.\n\nOfrecen en su menú la “Valoración digital de postura”, pero se la negaron a mi esposa por “falta de tiempo”, táctica evidente para vender citas posteriores. La mayor parte del tiempo pagado se fue en llenar el expediente y cotizar paquetes, la terapia real duró apenas 10 minutos.\n\nEn clínicas profesionales la parte administrativa no le quita tiempo a la atención y no tiene costo, la terapia se cobra a su precio regular. Aquí, en cambio, te cobran antes de atenderte, asegurando el dinero pese a la mala calidad del servicio.\n\nEn su folleto aseguran estar “reguladas por COFEPRIS”, pero omiten por completo el número de registro/folio del Aviso de Funcionamiento, que por ley debe aparecer de forma obligatoria tanto en publicidad como en las hojas de evaluación.",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785549980
     },
     {
@@ -821,7 +821,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "ALEX CABALLERO",
      "rating": 5,
      "texto": "Muy profesionales en el servicio! 10/10! Se me quitó el dolor!!",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784329288
     },
     {
@@ -969,7 +969,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Osvaldo Rivera",
      "rating": 1,
      "texto": "La verdad muy mala atención yo fui a 10 cesiones y la verdad no te atienden al 100 según es de una hora la terapia y te dan como media hora y no nomás te atienden a ti atienden a dos pacientes al mismo tiempo entonces no te ponen atención al 100 a ti esmas ni te dicen que ejercicio de tarea vas a Aser yo fui porque según los comentarios estaba muy bien la atención pero no fue así y yo acabé mis 10 cesiones porque te asen que pagues por adelantado las 10 cesiones pero un punto de vista amigos no gasten su tiempo ni su diner por qué como tal no  saben atender como lo dicen bueno esa fue mi experiencia con la licenciada luz",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1779031426
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2019,
+  "total_resenas": 2022,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 19
+  "resenas_nuevas_7d": 15
  },
  "historial": [
   {
@@ -1075,6 +1075,11 @@ window.GOOGLE_REVIEWS_DATA = {
   {
    "fecha": "2026-08-14",
    "total_resenas": 2019,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-15",
+   "total_resenas": 2022,
    "rating_prom": 4.65
   }
  ]
