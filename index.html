@@ -12,7 +12,7 @@
 <title>Dashboard Facebook Pages | Equilibrio Total</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="data_google_reviews.js?v=1786745204"></script>
-<script src="data_facebook_pages.js?v=1786745165"></script>
+<script src="data_facebook_pages.js?v=1786813952"></script>
 <style>
 :root{
   --bg:#0E1315; --bg2:#19363E;
@@ -29,7 +29,8 @@
   --chart-grid:rgba(255,255,255,.07);
   --chart-tick:#9DA9AF; --chart-tick-strong:#F9FAFB;
   --glass-sheen:linear-gradient(160deg,rgba(255,255,255,.10) 0%,rgba(255,255,255,0) 30%);
-  --bg-glow-op:1;
+  --bg-glow-op:.7;
+  --panel-solid:rgba(25,32,36,.72);
   --ease:cubic-bezier(0.4,0,0.2,1);
 }
 body.light-theme{
@@ -44,6 +45,7 @@ body.light-theme{
   --chart-tick:#74838B; --chart-tick-strong:#192024;
   --glass-sheen:linear-gradient(160deg,rgba(255,255,255,.65) 0%,rgba(255,255,255,0) 35%);
   --bg-glow-op:.55;
+  --panel-solid:rgba(255,255,255,.6);
 }
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Open Sans',system-ui,sans-serif}
 body{
@@ -256,7 +258,8 @@ tr:hover td{background:rgba(76,145,164,.09)}
 .empty-note{text-align:center;color:var(--text3);font-size:12px;padding:24px}
 
 /* ── Alert banner (mensajes sin responder) ── */
-.alert-banner{background:rgba(221,56,44,.10);border:1px solid rgba(221,56,44,.32);
+.alert-banner{background:linear-gradient(rgba(221,56,44,.14),rgba(221,56,44,.14)),var(--panel-solid);
+  border:1px solid rgba(221,56,44,.32);
   border-radius:20px;padding:16px 20px;margin-bottom:22px}
 .alert-banner-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
 .alert-banner-head .ico{font-size:18px}
@@ -275,10 +278,10 @@ tr:hover td{background:rgba(76,145,164,.09)}
 .mini-stat.warn .v{color:var(--danger)}
 
 /* ── Warn banner (quejas) ── */
-.warn-banner{background:rgba(240,157,15,.10);border-color:rgba(240,157,15,.32)}
+.warn-banner{background:linear-gradient(rgba(240,157,15,.14),rgba(240,157,15,.14)),var(--panel-solid);border-color:rgba(240,157,15,.32)}
 .warn-banner .alert-banner-head b{color:var(--warning)}
 .quejas-list{display:flex;flex-direction:column;gap:10px}
-.queja-item{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:10px 14px}
+.queja-item{background:var(--card2);border:1px solid var(--border);border-radius:14px;padding:10px 14px}
 .queja-top{display:flex;justify-content:space-between;gap:10px;font-size:11px;color:var(--text2);margin-bottom:5px}
 .queja-top b{color:var(--text)}
 .queja-txt{font-size:12.5px;color:var(--text);font-style:italic;line-height:1.5;margin-bottom:6px}
@@ -446,6 +449,8 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
   <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">
     <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
       <div class="range-toggle" id="rangeToggle">
+        <button data-dias="hoy">Hoy</button>
+        <button data-dias="ayer">Ayer</button>
         <button data-dias="7">7 días</button>
         <button data-dias="30" class="active">30 días</button>
         <button data-dias="90">90 días</button>
@@ -1686,7 +1691,8 @@ document.addEventListener('click', function(e){
   if(!btn) return;
   document.querySelectorAll('#rangeToggle button').forEach(b => b.classList.toggle('active', b===btn));
   const customEl = document.getElementById('rangeCustom');
-  if(btn.dataset.dias === 'custom'){
+  const dias = btn.dataset.dias;
+  if(dias === 'custom'){
     customEl.style.display = 'flex';
     if(!rangoCustomFrom || !rangoCustomTo){
       const [d, h] = rangoFechas();
@@ -1694,10 +1700,16 @@ document.addEventListener('click', function(e){
       document.getElementById('rangeFrom').value = d;
       document.getElementById('rangeTo').value = h;
     }
+  } else if(dias === 'hoy' || dias === 'ayer'){
+    customEl.style.display = 'none';
+    const base = new Date();
+    if(dias === 'ayer') base.setDate(base.getDate() - 1);
+    const f = fechaStr(base);
+    rangoCustomFrom = f; rangoCustomTo = f;
   } else {
     customEl.style.display = 'none';
     rangoCustomFrom = null; rangoCustomTo = null;
-    rangoGlobalDias = parseInt(btn.dataset.dias, 10);
+    rangoGlobalDias = parseInt(dias, 10);
   }
   renderAll();
 });
