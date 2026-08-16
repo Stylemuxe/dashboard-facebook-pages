@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-16T04:07:54",
+ "actualizado": "2026-08-16T12:08:20",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -109,21 +109,21 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "JUAN CARLOS DEL VALLE",
      "rating": 5,
      "texto": "Una clínica qué desde la entrada invita a relajarte y el personal muy atento",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786292479
     },
     {
      "autor": "Consuelo Ayala",
      "rating": 5,
      "texto": "Ese un lugar genial !!!!\nMuy recomendable\nAparte de las actividades podemos compartir con gente de nuestra edad\nEs una forma de envejecer con Estilo😎",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786292261
     },
     {
      "autor": "jose manuel",
      "rating": 5,
      "texto": "Me parece un buen lugar, para pacientes que inician con malestares de la espalda.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786292003
     },
     {
@@ -217,7 +217,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ernesto Araiza",
      "rating": 5,
      "texto": "Muy bien éxito  sigan superándose, personal de claveria. La moderna deja mucho que desear, le falta profesionalismo.",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784308232
     },
     {
@@ -311,7 +311,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Francisco Sosa",
      "rating": 1,
      "texto": "Llegué con  hernia de disco 15 terapias y no hubo mejoría,no hay un doctor responsable",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1781699130
     },
     {
