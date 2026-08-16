@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-15T12:09:32",
+ "actualizado": "2026-08-15T20:08:30",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -53,11 +53,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 222,
+   "reviews": 223,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
    "telefono": "55 6885 8200",
    "resenas_recientes": [
+    {
+     "autor": "Juan Carlos Martínez",
+     "rating": 5,
+     "texto": "Son muy profesionales en todas sus áreas, los médicos de fisioterapia, acupuntura y quiropráctico, área administrativa siempre atentos y sonrientes en todo momento, muy recomendables :)",
+     "cuando": "en la última semana",
+     "time": 1786838201
+    },
     {
      "autor": "Iker Ledesma",
      "rating": 5,
@@ -85,13 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Es un tratamiento integral. Me han ayudado muchísimo con el dolor pero sobretodo atender la raíz de varios problemas que no tenía diagnosticados y que hasta llegar acá pude darles nombre. Todos altamente capacitados y amables. Lili en Fisio, Edson en Acu y Enrique en Quiro me han ayudado muchísimo a la atención del dolor y mi rehabilitación.",
      "cuando": "Hace una semana",
      "time": 1785874218
-    },
-    {
-     "autor": "Elsa Lopez",
-     "rating": 5,
-     "texto": "Excelente servicio y amabilidad de cada especialidad que fue ACUPUNTURA STA, FISIATRA y QUIROPRÁCTICO, así como, la atención y la amabilidad de las SEÑORITAS de RECEPCIÓN.\nMe voy muy mejorada y contenta de mí avance de rodilla.",
-     "cuando": "Hace una semana",
-     "time": 1785779902
     }
    ]
   },
@@ -156,7 +156,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Lupita Alvarado",
      "rating": 5,
      "texto": "Gracias a  Equilibrio Total , pues gracias a  su tratamiento  mi hijo mejoro con su tema de cervicales , aparte todo el personal que trabaja ahí son muy atentos , lo recomiendo  ampliamente!",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786216610
     },
     {
@@ -304,7 +304,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Orlando Ambriz Ramirez",
      "rating": 1,
      "texto": "No lo recomiendo, en mi caso una molestia leve no discapacitante me intentaron vender una tratamiento para amarrarme a 10 sesiones, el quiropráctico Daniel ni siquiera me preguntó en qué parte de la espalda es la molestia. No dan diagnóstico claro",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786212736
     },
     {
@@ -391,7 +391,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jose Adrián Valadez Nieves",
      "rating": 5,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786219929
     },
     {
@@ -475,12 +475,26 @@ window.GOOGLE_REVIEWS_DATA = {
    "nombre": "Coacalco",
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
-   "rating": 4.8,
-   "reviews": 82,
+   "rating": 4.7,
+   "reviews": 83,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Gres Mt",
+     "rating": 1,
+     "texto": "No me lleve una buena experiencia,  no me ayudaron a mi problema, esperaba mejor atención.",
+     "cuando": "en la última semana",
+     "time": 1786838369
+    },
+    {
+     "autor": "Grivi Nyff",
+     "rating": 5,
+     "texto": "Una trato muy bueno, te gyian en todo el proceso y desde la primera sesión uno siente la mejoría que el tratamiento te brinda. Los licenciados muy profesionales.",
+     "cuando": "en la última semana",
+     "time": 1786813210
+    },
     {
      "autor": "Daniela Jimenez",
      "rating": 5,
@@ -501,20 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Me gustó mucho el trato del personal y la forma en que me ayudaron con mi problema de salud son muy eficiente y recomiendo mucho el lugar",
      "cuando": "en la última semana",
      "time": 1786477702
-    },
-    {
-     "autor": "Mariel Martinez",
-     "rating": 5,
-     "texto": "Fui a Equilibrio Total por una lesión en el tobillo derecho ya que en mi servicio médico se negaron a seguirme atendiendo, llevaba un dolor terrible e insoportable y cojeaba no podía estar de pie ni sentada. Su atención es especializada para cada paciente, los horarios y costos son accesibles, desde que entras el personal te atiende de forma agradable.\nVi cambios cambios después de la tercer sesión el dolor disminuyó considerablemente, seguí sus recomendaciones e hice cambios personales para poder obtener un mejor resultado.",
-     "cuando": "en la última semana",
-     "time": 1786224375
-    },
-    {
-     "autor": "Borreguini Garcia",
-     "rating": 5,
-     "texto": "Gracias por su buena atención  a todos son  muy atentos y profesionales que Dios los bendiga y por su  excelente puesto que regreso por qué me sentí muy bien",
-     "cuando": "Hace una semana",
-     "time": 1785887857
     }
    ]
   },
@@ -633,7 +633,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Neri Aguilar",
      "rating": 5,
      "texto": "Excelente atención, lo recomiendo ampliamente 👍🏽",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785025180
     },
     {
@@ -758,11 +758,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJU3kPP2kd0oURXldj1W4J93I",
    "rating": 4.7,
-   "reviews": 44,
+   "reviews": 45,
    "maps_url": "https://maps.google.com/?cid=8284100411202426718",
    "direccion": "Blvd. de las Naciones 128, Valle Dorado, 54020 Tlalnepantla, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Jimena Jiménez",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1786822382
+    },
     {
      "autor": "Sergio Flores",
      "rating": 5,
@@ -774,7 +781,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Tamara Torres",
      "rating": 5,
      "texto": "Excelente servicio, cada una de las especialistas han realizado un trabajo excepcional en cuestión de 4 sesiones disminuyeron el dolor de años, recomendado mil!!!",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784408764
     },
     {
@@ -790,13 +797,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 3 meses",
      "time": 1777435693
-    },
-    {
-     "autor": "Ma. Rosalia Cordova",
-     "rating": 5,
-     "texto": "Excelente",
-     "cuando": "Hace 3 meses",
-     "time": 1776914212
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2022,
-  "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 15
+  "total_resenas": 2025,
+  "rating_promedio_ponderado": 4.64,
+  "resenas_nuevas_7d": 18
  },
  "historial": [
   {
@@ -1079,8 +1079,8 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-15",
-   "total_resenas": 2022,
-   "rating_prom": 4.65
+   "total_resenas": 2025,
+   "rating_prom": 4.64
   }
  ]
 };
