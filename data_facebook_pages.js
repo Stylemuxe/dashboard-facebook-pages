@@ -5308,7 +5308,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 7,
-            "engagement_prom": 994.9
+            "engagement_prom": 995.0
           },
           {
             "label": "Viernes",
@@ -5368,7 +5368,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 7,
-          "engagement_prom": 2439.7
+          "engagement_prom": 2439.9
         },
         {
           "label": "Dolor / Padecimiento",
@@ -5635,7 +5635,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Dolor de espalda, hombro o rodilla? ⚠️ Ponle un alto hoy.\n\nSi eres de Neza, la solución está más cerca de lo que crees. En Equilibrio Total Plaza Nezahualcóyotl te ayudamos a recuperar tu movilidad de una vez por todas.",
           "fecha": "2026-07-20T20:20:34+0000",
           "url": "https://www.facebook.com/reel/2262501294521641/",
-          "reacciones": 6473,
+          "reacciones": 6474,
           "comentarios": 120,
           "shares": 277,
           "clics": 13775,
