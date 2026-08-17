@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-17T12:45:12",
+ "actualizado": "2026-08-17T16:08:18",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -92,53 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Es un tratamiento integral. Me han ayudado muchísimo con el dolor pero sobretodo atender la raíz de varios problemas que no tenía diagnosticados y que hasta llegar acá pude darles nombre. Todos altamente capacitados y amables. Lili en Fisio, Edson en Acu y Enrique en Quiro me han ayudado muchísimo a la atención del dolor y mi rehabilitación.",
      "cuando": "Hace una semana",
      "time": 1785874218
-    }
-   ]
-  },
-  {
-   "nombre": "Neza",
-   "categoria": "sede",
-   "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
-   "rating": 4.6,
-   "reviews": 172,
-   "maps_url": "https://maps.google.com/?cid=7543884750487775471",
-   "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
-   "telefono": "55 4570 8299",
-   "resenas_recientes": [
-    {
-     "autor": "Camm",
-     "rating": 5,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1786912003
-    },
-    {
-     "autor": "Alejandro Gutti",
-     "rating": 5,
-     "texto": "Buena atención, mi esposa viene a terapia en el hombro y emos visto buenos avances después de que fuimos a muchos lugares, la atención es muy completa y la terapia es personalizada.",
-     "cuando": "en la última semana",
-     "time": 1786911582
-    },
-    {
-     "autor": "Xóchitl Hernández",
-     "rating": 5,
-     "texto": "Un excelente lugar , realmente lo recomiendo  la atención totalmente profesional .",
-     "cuando": "en la última semana",
-     "time": 1786906327
-    },
-    {
-     "autor": "sandra rodriguez",
-     "rating": 5,
-     "texto": "Excelente atención.",
-     "cuando": "en la última semana",
-     "time": 1786906171
-    },
-    {
-     "autor": "JUAN CARLOS DEL VALLE",
-     "rating": 5,
-     "texto": "Una clínica qué desde la entrada invita a relajarte y el personal muy atento",
-     "cuando": "Hace una semana",
-     "time": 1786292479
     }
    ]
   },
@@ -335,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
-   "reviews": 121,
+   "reviews": 122,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
    "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "AGUILAR GARCIA",
+     "rating": 5,
+     "texto": "Buen servicio",
+     "cuando": "en la última semana",
+     "time": 1787003683
+    },
     {
      "autor": "HERIBERTO RODRIGUEZ BELTRAN",
      "rating": 5,
@@ -367,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio te dan una muy buena atención",
      "cuando": "Hace 2 semanas",
      "time": 1785432465
-    },
-    {
-     "autor": "Maria Elia Ortiz León",
-     "rating": 5,
-     "texto": "Muy profesional, el Lic. Benito he mejorado mucho.",
-     "cuando": "Hace 2 semanas",
-     "time": 1785349248
     }
    ]
   },
@@ -532,7 +485,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Guadalupe Toledo",
      "rating": 1,
      "texto": "En su perfil de Facebook tienen una promoción que indica que incluye: consulta de valoración, terapia especializada, plan de ejercicios y estudio de postura.\nNo es así, no pierdan su tiempo ni dinero. Solo te hacen una serie de preguntas para ofrecerte un paquete de terapias, no hay ningún valor en esta “oferta”.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786397533
     },
     {
@@ -781,7 +734,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Tamara Torres",
      "rating": 5,
      "texto": "Excelente servicio, cada una de las especialistas han realizado un trabajo excepcional en cuestión de 4 sesiones disminuyeron el dolor de años, recomendado mil!!!",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784408764
     },
     {
@@ -1013,13 +966,24 @@ window.GOOGLE_REVIEWS_DATA = {
      "time": 1626666730
     }
    ]
+  },
+  {
+   "nombre": "Neza",
+   "categoria": "sede",
+   "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
+   "rating": null,
+   "reviews": 0,
+   "maps_url": "https://maps.google.com/?cid=7543884750487775471",
+   "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": []
   }
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2029,
-  "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 18
+  "total_resenas": 1858,
+  "rating_promedio_ponderado": 4.65,
+  "resenas_nuevas_7d": -153
  },
  "historial": [
   {
@@ -1089,8 +1053,8 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-17",
-   "total_resenas": 2029,
-   "rating_prom": 4.64
+   "total_resenas": 1858,
+   "rating_prom": 4.65
   }
  ]
 };
