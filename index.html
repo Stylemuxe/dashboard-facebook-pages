@@ -191,6 +191,21 @@ body{
   background:linear-gradient(180deg,var(--accent),var(--primary))}
 .sec-block{margin-bottom:26px}
 
+/* ── Secciones plegables (acordeon) ── */
+details.sec-block{background:var(--card);border:1px solid var(--border);border-radius:18px;
+  padding:18px 20px;transition:background .15s}
+details.sec-block[open]{padding-bottom:20px}
+details.sec-block:not([open]):hover{background:var(--card2)}
+summary.sec-title{cursor:pointer;margin:0;list-style:none;user-select:none;padding:2px 0}
+summary.sec-title::-webkit-details-marker{display:none}
+summary.sec-title::after{content:'';margin-left:auto;width:9px;height:9px;flex-shrink:0;
+  border-right:2px solid var(--text3);border-bottom:2px solid var(--text3);
+  transform:rotate(45deg);transition:transform .18s}
+details.sec-block[open] summary.sec-title::after{transform:rotate(-135deg)}
+details.sec-block > summary.sec-title{margin-bottom:0}
+details.sec-block[open] > summary.sec-title{margin-bottom:16px}
+details.sec-block > *:not(summary):not(:last-child){margin-bottom:0}
+
 /* ── Charts ── */
 .charts-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px}
 .chart-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:20px;
@@ -541,23 +556,23 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
     <div id="panelFB">
     <div class="kpi-row" id="kpiRow"></div>
 
-    <div class="sec-block">
-      <div class="sec-title">Hoy vs. ayer</div>
+    <details class="sec-block" open>
+      <summary class="sec-title">Hoy vs. ayer</summary>
       <div class="delta-row" id="hoyAyerRow"></div>
-    </div>
+    </details>
 
-    <div class="sec-block">
-      <div class="sec-title">Comparativa diaria</div>
+    <details class="sec-block">
+      <summary class="sec-title">Comparativa diaria</summary>
       <div id="seguidoresGrowth"></div>
       <div class="day-select-wrap">
         <span style="font-size:12px;color:var(--text2);font-weight:600">Ver día:</span>
         <select class="day-select" id="daySelect"></select>
       </div>
       <div class="delta-row" id="deltaRow"></div>
-    </div>
+    </details>
 
-    <div class="sec-block">
-      <div class="sec-title" id="tendenciaTitle">Tendencia 30 días</div>
+    <details class="sec-block">
+      <summary class="sec-title" id="tendenciaTitle">Tendencia 30 días</summary>
       <div class="charts-row">
         <div class="chart-card">
           <div class="chart-title">Engagement diario (reacciones + comentarios + shares)</div>
@@ -568,10 +583,10 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
           <div class="chart-canvas-wrap"><canvas id="chartViews"></canvas></div>
         </div>
       </div>
-    </div>
+    </details>
 
-    <div class="sec-block">
-      <div class="sec-title">Mejor momento para publicar</div>
+    <details class="sec-block">
+      <summary class="sec-title">Mejor momento para publicar</summary>
       <div class="rank-grid">
         <div class="chart-card">
           <div class="chart-title">Por día de la semana (engagement promedio/post)</div>
@@ -583,67 +598,67 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
         </div>
       </div>
       <div class="freq-note" id="freqNote"></div>
-    </div>
+    </details>
 
-    <div class="sec-block">
-      <div class="sec-title">Qué tipo de contenido funciona mejor</div>
+    <details class="sec-block">
+      <summary class="sec-title">Qué tipo de contenido funciona mejor</summary>
       <div class="chart-card">
         <div class="chart-title">Engagement promedio por tema de la publicación</div>
         <div class="rank-list" id="rankTemas"></div>
       </div>
-    </div>
+    </details>
 
-    <div class="sec-block">
-      <div class="sec-title">Mensajes (Messenger)</div>
+    <details class="sec-block">
+      <summary class="sec-title">Mensajes (Messenger)</summary>
       <div class="mini-stats" id="mensajesStats"></div>
       <div class="chart-card">
         <div class="chart-title">Conversaciones nuevas / día</div>
         <div class="chart-canvas-wrap"><canvas id="chartMensajes"></canvas></div>
       </div>
-    </div>
+    </details>
 
-    <div class="sec-block">
-      <div class="sec-title">Reacciones por tipo (28 días)</div>
+    <details class="sec-block">
+      <summary class="sec-title">Reacciones por tipo (28 días)</summary>
       <div class="chart-card" style="max-width:520px">
         <div class="reaction-list" id="reactionList"></div>
       </div>
-    </div>
+    </details>
 
-    <div class="sec-block">
-      <div class="sec-title">Publicaciones recientes</div>
+    <details class="sec-block">
+      <summary class="sec-title">Publicaciones recientes</summary>
       <div id="topPostWrap"></div>
       <div class="posts-grid" id="postsGrid"></div>
-    </div>
+    </details>
     </div><!-- /panelFB -->
 
     <div id="panelIG" style="display:none">
       <div class="kpi-row" id="kpiRowIG"></div>
 
-      <div class="sec-block">
-        <div class="sec-title">Hoy vs. ayer</div>
+      <details class="sec-block" open>
+        <summary class="sec-title">Hoy vs. ayer</summary>
         <div class="delta-row" id="hoyAyerRowIG"></div>
-      </div>
+      </details>
 
-      <div class="sec-block">
-        <div class="sec-title">Comparativa diaria</div>
+      <details class="sec-block">
+        <summary class="sec-title">Comparativa diaria</summary>
         <div id="seguidoresGrowthIG"></div>
         <div class="day-select-wrap">
           <span style="font-size:12px;color:var(--text2);font-weight:600">Ver día:</span>
           <select class="day-select" id="daySelectIG"></select>
         </div>
         <div class="delta-row" id="deltaRowIG"></div>
-      </div>
+      </details>
 
-      <div class="sec-block">
-        <div class="sec-title" id="tendenciaTitleIG">Alcance (reach) — 30 días</div>
+      <details class="sec-block">
+        <summary class="sec-title" id="tendenciaTitleIG">Alcance (reach) — 30 días</summary>
         <div class="chart-card">
           <div class="chart-title">Cuentas alcanzadas / día <span id="reachCompareNote" style="font-weight:600;text-transform:none;letter-spacing:0"></span></div>
           <div class="chart-canvas-wrap"><canvas id="chartReachIG"></canvas></div>
         </div>
-      </div>
+      </details>
 
-      <div class="sec-block">
-        <div class="sec-title">Mejor momento para publicar</div>
+      <details class="sec-block">
+        <summary class="sec-title">Mejor momento para publicar</summary>
         <div class="rank-grid">
           <div class="chart-card">
             <div class="chart-title">Por día de la semana (engagement promedio/post)</div>
@@ -655,21 +670,21 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
           </div>
         </div>
         <div class="freq-note" id="freqNoteIG"></div>
-      </div>
+      </details>
 
-      <div class="sec-block">
-        <div class="sec-title">Qué tipo de contenido funciona mejor</div>
+      <details class="sec-block">
+        <summary class="sec-title">Qué tipo de contenido funciona mejor</summary>
         <div class="chart-card">
           <div class="chart-title">Engagement promedio por tema de la publicación</div>
           <div class="rank-list" id="rankTemasIG"></div>
         </div>
-      </div>
+      </details>
 
-      <div class="sec-block">
-        <div class="sec-title">Publicaciones recientes</div>
+      <details class="sec-block">
+        <summary class="sec-title">Publicaciones recientes</summary>
         <div id="topPostWrapIG"></div>
         <div class="posts-grid" id="postsGridIG"></div>
-      </div>
+      </details>
     </div><!-- /panelIG -->
 
   </div>
