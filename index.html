@@ -13,6 +13,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="data_google_reviews.js?v=1786992312"></script>
 <script src="data_facebook_pages.js?v=1786995531"></script>
+<script src="data_youtube.js?v=1786998321"></script>
 <style>
 :root{
   --bg:#0E1315; --bg2:#19363E;
@@ -245,6 +246,10 @@ tr:hover td{background:rgba(76,145,164,.09)}
 
 /* ── Post cards ── */
 .posts-grid{display:flex;flex-direction:column;gap:12px}
+.yt-video-row{display:flex;gap:16px;align-items:flex-start}
+.yt-thumb{width:130px;height:130px;object-fit:cover;border-radius:12px;flex-shrink:0;background:var(--card2)}
+.yt-video-body{flex:1;min-width:0}
+@media (max-width:520px){.yt-video-row{flex-direction:column}.yt-thumb{width:100%;height:auto;aspect-ratio:16/9}}
 .post-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:18px 20px;
   box-shadow:0 1px 0 rgba(255,255,255,.16) inset,0 0 0 1px rgba(255,255,255,.03) inset,0 16px 40px rgba(0,0,0,.45)}
 .post-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:10px;flex-wrap:wrap}
@@ -545,6 +550,10 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
       <div class="chart-title" style="margin:18px 0 10px">Reseñas recientes (todas las sucursales)</div>
       <div class="posts-grid" id="googleReviewsFeed"></div>
     </div>
+  </div>
+
+  <div class="view" id="viewYoutube">
+    <div id="youtubeContent"></div>
   </div>
 
   <div class="view" id="viewPagina">
@@ -848,6 +857,7 @@ const REACCIONES_META = [
 function renderTabs(){
   const wrap = document.getElementById('tabsWrap');
   const tabs = [{key:'resumen', label:'📈 Resumen General'}, {key:'google', label:'⭐ Reseñas de Google'}]
+    .concat(Object.keys((window.YOUTUBE_DATA||{}).canales||{}).length ? [{key:'youtube', label:'▶️ YouTube'}] : [])
     .concat(ORDEN_PAGINAS.filter(k => DATA[k]).map(k => ({key:k, label:DATA[k].nombre})));
   wrap.innerHTML = tabs.map(t =>
     `<button class="tab-btn ${t.key===activa?'active':''}" data-key="${t.key}">${t.label}</button>`
@@ -1067,6 +1077,100 @@ function renderQuejas(){
           </div>`).join('')}
       </div>
     </div>`;
+}
+
+function renderYoutube(){
+  const wrap = document.getElementById('youtubeContent');
+  if(!wrap) return;
+  const canales = Object.entries((window.YOUTUBE_DATA||{}).canales || {});
+  if(!canales.length){
+    wrap.innerHTML = '<div class="empty-note">Sin datos de YouTube todavía</div>';
+    return;
+  }
+
+  wrap.innerHTML = canales.map(([key, c]) => {
+    const hist = c.historial_seguidores || [];
+    const promVistas = c.video_count ? Math.round(c.vistas_totales / c.video_count) : 0;
+    return `
+    <div class="sec-block">
+      <div class="sec-title">${c.thumbnail ? `<img src="${c.thumbnail}" style="width:22px;height:22px;border-radius:50%;object-fit:cover">` : '▶️'} ${c.nombre} <span style="text-transform:none;font-weight:600;color:var(--text3);font-size:11px;margin-left:4px">@${c.handle}</span></div>
+      <div class="kpi-row">
+        <div class="kpi-card c1"><span class="kpi-icon">👥</span>
+          <div class="kpi-val">${numSpan(c.seguidores||0)}</div>
+          <div class="kpi-label">Suscriptores</div></div>
+        <div class="kpi-card c2"><span class="kpi-icon">👁️</span>
+          <div class="kpi-val">${numSpan(c.vistas_totales||0)}</div>
+          <div class="kpi-label">Vistas totales del canal</div></div>
+        <div class="kpi-card c3"><span class="kpi-icon">🎬</span>
+          <div class="kpi-val">${numSpan(c.video_count||0)}</div>
+          <div class="kpi-label">Videos publicados</div></div>
+        <div class="kpi-card c4"><span class="kpi-icon">📊</span>
+          <div class="kpi-val">${numSpan(promVistas)}</div>
+          <div class="kpi-label">Vistas promedio / video</div></div>
+      </div>
+    </div>
+
+    <details class="sec-block" open>
+      <summary class="sec-title">Crecimiento de suscriptores</summary>
+      ${hist.length < 2
+        ? `<div class="seg-growth-note">📌 Acumulando historial de suscriptores (llevamos ${hist.length} día${hist.length===1?'':'s'} registrando).</div>`
+        : `<div class="chart-card"><div class="chart-canvas-wrap"><canvas id="chartYt_${key}"></canvas></div></div>`}
+    </details>
+
+    <details class="sec-block" open>
+      <summary class="sec-title">Videos recientes</summary>
+      <div class="posts-grid">
+        ${(c.videos||[]).slice(0,12).map(v => `
+          <div class="post-card">
+            <div class="yt-video-row">
+              ${v.miniatura ? `<img class="yt-thumb" src="${v.miniatura}" loading="lazy">` : ''}
+              <div class="yt-video-body">
+                <div class="post-top">
+                  <span class="post-badge">▶️ Video</span>
+                  <span class="post-date">${v.fecha ? new Date(v.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'}) : ''}</span>
+                </div>
+                <div class="post-msg">${(v.titulo||'').replace(/</g,'&lt;')}</div>
+                <div class="post-stats">
+                  <span class="stat-chip">👁️ <b>${fmt(v.vistas)}</b> vistas</span>
+                  ${v.likes!=null ? `<span class="stat-chip">👍 <b>${fmt(v.likes)}</b> likes</span>` : ''}
+                  ${v.comentarios!=null ? `<span class="stat-chip">💬 <b>${fmt(v.comentarios)}</b> comentarios</span>` : ''}
+                </div>
+                <div class="post-actions">
+                  ${v.url ? `<a class="post-link" href="${v.url}" target="_blank">Ver video ↗</a>` : ''}
+                </div>
+              </div>
+            </div>
+          </div>`).join('') || '<div class="empty-note">Sin videos todavía</div>'}
+      </div>
+    </details>`;
+  }).join('');
+
+  canales.forEach(([key, c]) => {
+    const hist = c.historial_seguidores || [];
+    destroyChart('yt_'+key);
+    if(hist.length < 2) return;
+    const canvas = document.getElementById(`chartYt_${key}`);
+    if(!canvas) return;
+    const CC = chartColors();
+    charts['yt_'+key] = new Chart(canvas, {
+      type:'line',
+      data:{labels:hist.map(d=>d.fecha.slice(5)), datasets:[{
+        data:hist.map(d=>d.seguidores), borderColor:'#FF0000', backgroundColor:fillGradient(canvas,'#FF0000'),
+        borderWidth:2.5, pointRadius:0, pointHoverRadius:5, pointHoverBackgroundColor:'#FF0000',
+        pointHoverBorderColor:'#fff', pointHoverBorderWidth:2, fill:true, tension:.35
+      }]},
+      options:{
+        animation:CHART_ANIM,
+        interaction:{intersect:false, mode:'index'},
+        plugins:{legend:{display:false}},
+        scales:{
+          x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
+          y:{grid:{color:CC.grid}, ticks:{color:CC.tick, font:{size:10}}}
+        },
+        maintainAspectRatio:false
+      }
+    });
+  });
 }
 
 function renderGoogleReviews(){
@@ -1752,15 +1856,19 @@ function renderAll(){
   renderTabs();
   const esResumen = activa === 'resumen';
   const esGoogle = activa === 'google';
-  const esPagina = !esResumen && !esGoogle;
+  const esYoutube = activa === 'youtube';
+  const esPagina = !esResumen && !esGoogle && !esYoutube;
   document.getElementById('viewResumen').classList.toggle('active', esResumen);
   document.getElementById('viewGoogle').classList.toggle('active', esGoogle);
+  document.getElementById('viewYoutube').classList.toggle('active', esYoutube);
   document.getElementById('viewPagina').classList.toggle('active', esPagina);
 
   if(esResumen){
     renderResumen();
   } else if(esGoogle){
     renderGoogleReviews();
+  } else if(esYoutube){
+    renderYoutube();
   } else {
     const p = DATA[activa];
     if(p){
