@@ -12,7 +12,7 @@
 <title>Dashboard Facebook Pages | Equilibrio Total</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="data_google_reviews.js?v=1786992312"></script>
-<script src="data_facebook_pages.js?v=1786992279"></script>
+<script src="data_facebook_pages.js?v=1786994026"></script>
 <style>
 :root{
   --bg:#0E1315; --bg2:#19363E;
@@ -282,8 +282,12 @@ tr:hover td{background:rgba(76,145,164,.09)}
 .warn-banner .alert-banner-head b{color:var(--warning)}
 .quejas-list{display:flex;flex-direction:column;gap:10px}
 .queja-item{background:var(--card2);border:1px solid var(--border);border-radius:14px;padding:10px 14px}
-.queja-top{display:flex;justify-content:space-between;gap:10px;font-size:11px;color:var(--text2);margin-bottom:5px}
+.queja-item.queja-resuelta{opacity:.55}
+.queja-top{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:11px;color:var(--text2);margin-bottom:5px}
 .queja-top b{color:var(--text)}
+.queja-status{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.queja-status.is-pend{color:var(--danger);background:rgba(221,56,44,.14)}
+.queja-status.is-ok{color:var(--success);background:rgba(46,160,67,.14)}
 .queja-txt{font-size:12.5px;color:var(--text);font-style:italic;line-height:1.5;margin-bottom:6px}
 
 /* ── Mejor horario (ranking) ── */
@@ -1029,14 +1033,20 @@ function renderQuejas(){
   const quejas = RAW.quejas || [];
   const wrap = document.getElementById('quejasBanner');
   if(!quejas.length){ wrap.innerHTML = ''; return; }
+  const pendientes = quejas.filter(q => !q.respondida);
+  const ordenadas = [...quejas].sort((a,b) => (a.respondida === b.respondida) ? 0 : (a.respondida ? 1 : -1));
   wrap.innerHTML = `
     <div class="alert-banner warn-banner">
       <div class="alert-banner-head"><span class="ico">🚨</span>
-        <b>${quejas.length} posibles quejas detectadas en comentarios (revisar)</b></div>
+        <b>${pendientes.length} quejas sin responder de ${quejas.length} detectadas en comentarios</b></div>
       <div class="quejas-list">
-        ${quejas.slice(0,8).map(q => `
-          <div class="queja-item">
-            <div class="queja-top"><b>${q.pagina}</b><span>${q.fecha ? new Date(q.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short'}) : ''}</span></div>
+        ${ordenadas.slice(0,8).map(q => `
+          <div class="queja-item ${q.respondida ? 'queja-resuelta' : ''}">
+            <div class="queja-top">
+              <b>${q.pagina}</b>
+              <span class="queja-status ${q.respondida ? 'is-ok' : 'is-pend'}">${q.respondida ? '✅ Respondida' : '⏳ Pendiente'}</span>
+              <span>${q.fecha ? new Date(q.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short'}) : ''}</span>
+            </div>
             <div class="queja-txt">"${(q.comentario||'').replace(/</g,'&lt;')}"</div>
             ${q.post_url ? `<a class="post-link" href="${q.post_url}" target="_blank">Ver publicación ↗</a>` : ''}
           </div>`).join('')}
