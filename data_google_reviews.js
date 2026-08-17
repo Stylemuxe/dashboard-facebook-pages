@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-17T11:13:22",
+ "actualizado": "2026-08-17T12:08:28",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -955,7 +955,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "J.A Tolentino",
      "rating": 1,
      "texto": "Pésima atención!! Llegué por el tráfico 10 minutos tarde y ya no quisieron atenderme. Muy mal servicio por parte del encargado. Te hacen pagar todas las terapias desde un inicio para que por favor tengan cuidado. No gasten si tiempo pagando por adelantado",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784568540
     },
     {
