@@ -1,16 +1,23 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-16T12:08:20",
+ "actualizado": "2026-08-17T08:12:51",
  "sucursales": [
   {
    "nombre": "Balbuena",
    "categoria": "sede",
    "place_id": "ChIJRdk0xh7_0YURftDWC1Nows8",
    "rating": 4.5,
-   "reviews": 234,
+   "reviews": 235,
    "maps_url": "https://maps.google.com/?cid=14970642817223151742",
    "direccion": "Cecilio Robelo 369, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "gabon 999",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1786930367
+    },
     {
      "autor": "Rubén Rodriguez L",
      "rating": 4,
@@ -38,13 +45,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Llevo más de dos meses acudiendo a la clínica la cual me la recomendaron porque tuve una operación y es la primera clínica en la cual veo resultados en un corto periodo cuando en otros lugares me comentaron que no tendría mejoría puesto que aquí los especialistas son expertos en su área pues están titulados y en otros lugares no.\nRecomiendo ampliamente el lugar para aquellas personas que necesitan una rehabilitación, te realizan una valoración para conocer tu caso y poder adecuar el plan a tu medida.",
      "cuando": "Hace 2 meses",
      "time": 1781064447
-    },
-    {
-     "autor": "mariana cruz",
-     "rating": 5,
-     "texto": "Fui por una recomendación de una amiga, el servicio es muy eficiente y te explican muy bien, todos los especialistas son muy amables y note mejorías en la primera sesión\nSe que todos los cuerpos son diferentes pero a mí sí me ah funcionado y los recomiendo.",
-     "cuando": "Hace 2 meses",
-     "time": 1781037672
     }
    ]
   },
@@ -100,45 +100,45 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 169,
+   "reviews": 172,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Camm",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1786912003
+    },
+    {
+     "autor": "Alejandro Gutti",
+     "rating": 5,
+     "texto": "Buena atención, mi esposa viene a terapia en el hombro y emos visto buenos avances después de que fuimos a muchos lugares, la atención es muy completa y la terapia es personalizada.",
+     "cuando": "en la última semana",
+     "time": 1786911582
+    },
+    {
+     "autor": "Xóchitl Hernández",
+     "rating": 5,
+     "texto": "Un excelente lugar , realmente lo recomiendo  la atención totalmente profesional .",
+     "cuando": "en la última semana",
+     "time": 1786906327
+    },
+    {
+     "autor": "sandra rodriguez",
+     "rating": 5,
+     "texto": "Excelente atención.",
+     "cuando": "en la última semana",
+     "time": 1786906171
+    },
     {
      "autor": "JUAN CARLOS DEL VALLE",
      "rating": 5,
      "texto": "Una clínica qué desde la entrada invita a relajarte y el personal muy atento",
      "cuando": "Hace una semana",
      "time": 1786292479
-    },
-    {
-     "autor": "Consuelo Ayala",
-     "rating": 5,
-     "texto": "Ese un lugar genial !!!!\nMuy recomendable\nAparte de las actividades podemos compartir con gente de nuestra edad\nEs una forma de envejecer con Estilo😎",
-     "cuando": "Hace una semana",
-     "time": 1786292261
-    },
-    {
-     "autor": "jose manuel",
-     "rating": 5,
-     "texto": "Me parece un buen lugar, para pacientes que inician con malestares de la espalda.",
-     "cuando": "Hace una semana",
-     "time": 1786292003
-    },
-    {
-     "autor": "Verito. arevalo",
-     "rating": 5,
-     "texto": "",
-     "cuando": "Hace una semana",
-     "time": 1786205115
-    },
-    {
-     "autor": "Nancy Luna",
-     "rating": 5,
-     "texto": "",
-     "cuando": "Hace una semana",
-     "time": 1786204996
     }
    ]
   },
@@ -412,7 +412,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Francisco Javier Ramírez Juárez",
      "rating": 4,
      "texto": "",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784493179
     },
     {
@@ -560,7 +560,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Frida S Campos R",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785096081
     }
    ]
@@ -680,14 +680,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rodolfo Velasco García",
      "rating": 1,
      "texto": "",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1779136302
     },
     {
      "autor": "Karla Quintanar",
      "rating": 5,
      "texto": "La atención es excelente, todos son muy amables, no duden en sacar cita",
-     "cuando": "Hace 5 meses",
+     "cuando": "Hace 6 meses",
      "time": 1771356302
     },
     {
@@ -774,7 +774,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Sergio Flores",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784522255
     },
     {
@@ -821,7 +821,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "ALEX CABALLERO",
      "rating": 5,
      "texto": "Muy profesionales en el servicio! 10/10! Se me quitó el dolor!!",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784329288
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2025,
+  "total_resenas": 2029,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 16
+  "resenas_nuevas_7d": 18
  },
  "historial": [
   {
@@ -1085,6 +1085,11 @@ window.GOOGLE_REVIEWS_DATA = {
   {
    "fecha": "2026-08-16",
    "total_resenas": 2025,
+   "rating_prom": 4.64
+  },
+  {
+   "fecha": "2026-08-17",
+   "total_resenas": 2029,
    "rating_prom": 4.64
   }
  ]
