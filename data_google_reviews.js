@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-18T13:48:09",
+ "actualizado": "2026-08-18T16:08:42",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -90,7 +90,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ximena Cecilia Dorantes Valdez",
      "rating": 5,
      "texto": "Es un tratamiento integral. Me han ayudado muchísimo con el dolor pero sobretodo atender la raíz de varios problemas que no tenía diagnosticados y que hasta llegar acá pude darles nombre. Todos altamente capacitados y amables. Lili en Fisio, Edson en Acu y Enrique en Quiro me han ayudado muchísimo a la atención del dolor y mi rehabilitación.",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785874218
     }
    ]
@@ -100,11 +100,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 172,
+   "reviews": 173,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Berenice Castillo",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787090776
+    },
     {
      "autor": "Camm",
      "rating": 5,
@@ -132,13 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente atención.",
      "cuando": "en la última semana",
      "time": 1786906171
-    },
-    {
-     "autor": "JUAN CARLOS DEL VALLE",
-     "rating": 5,
-     "texto": "Una clínica qué desde la entrada invita a relajarte y el personal muy atento",
-     "cuando": "Hace una semana",
-     "time": 1786292479
     }
    ]
   },
@@ -288,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
-   "reviews": 123,
+   "reviews": 124,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
    "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Shely Lopez",
+     "rating": 5,
+     "texto": "Magnífica atención y aparatos muy buenos y yo sí tuve mejoría buenos médicos",
+     "cuando": "en la última semana",
+     "time": 1787083895
+    },
     {
      "autor": "Reinaldo Ramirez",
      "rating": 5,
@@ -320,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Recomiendo equilibrio total muy bueno",
      "cuando": "en la última semana",
      "time": 1786723376
-    },
-    {
-     "autor": "Juan Huerta Raygoza",
-     "rating": 5,
-     "texto": "Hola les cuento mi experiencia en Equilibrio total  yo llegue aquí con un fuerte dolor en la espalda baja y me corría hasta el tobillo del pie derecho y ya  no podía caminar, gracias a las terapias q me dieron aquí ahora después de 10 rehabilitaciones ya empiezo a correr, se las recomiendo 100%",
-     "cuando": "Hace 2 semanas",
-     "time": 1785524867
     }
    ]
   },
@@ -412,7 +412,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Francisco Javier Ramírez Juárez",
      "rating": 4,
      "texto": "",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784493179
     },
     {
@@ -459,7 +459,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Lourdes Tamayo",
      "rating": 5,
      "texto": "La atencion recibida fue de calidad y calides en mi caso, me senti cansada en las primeras senti cansada , pero a medida que abanzo fue sentiendo mejoria. Graci\nas por su atención.",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1779307120
     },
     {
@@ -513,7 +513,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Elizabeth michis arovis",
      "rating": 5,
      "texto": "Me gustó mucho el trato del personal y la forma en que me ayudaron con mi problema de salud son muy eficiente y recomiendo mucho el lugar",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786477702
     }
    ]
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2031,
+  "total_resenas": 2033,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 19
+  "resenas_nuevas_7d": 21
  },
  "historial": [
   {
@@ -1094,7 +1094,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-18",
-   "total_resenas": 2031,
+   "total_resenas": 2033,
    "rating_prom": 4.64
   }
  ]
