@@ -14,6 +14,7 @@
 <script src="data_google_reviews.js?v=1787076435"></script>
 <script src="data_facebook_pages.js?v=1787076397"></script>
 <script src="data_youtube.js?v=1786998321"></script>
+<script src="data_tiktok.js?v=1787076958"></script>
 <style>
 :root{
   --bg:#0E1315; --bg2:#19363E;
@@ -556,6 +557,10 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
     <div id="youtubeContent"></div>
   </div>
 
+  <div class="view" id="viewTiktok">
+    <div id="tiktokContent"></div>
+  </div>
+
   <div class="view" id="viewPagina">
     <div class="platform-toggle" id="platformToggle">
       <button class="platform-btn active" data-plat="facebook">📘 Facebook</button>
@@ -858,6 +863,7 @@ function renderTabs(){
   const wrap = document.getElementById('tabsWrap');
   const tabs = [{key:'resumen', label:'📈 Resumen General'}, {key:'google', label:'⭐ Reseñas de Google'}]
     .concat(Object.keys((window.YOUTUBE_DATA||{}).canales||{}).length ? [{key:'youtube', label:'▶️ YouTube'}] : [])
+    .concat(Object.keys((window.TIKTOK_DATA||{}).cuentas||{}).length ? [{key:'tiktok', label:'🎵 TikTok'}] : [])
     .concat(ORDEN_PAGINAS.filter(k => DATA[k]).map(k => ({key:k, label:DATA[k].nombre})));
   wrap.innerHTML = tabs.map(t =>
     `<button class="tab-btn ${t.key===activa?'active':''}" data-key="${t.key}">${t.label}</button>`
@@ -1157,6 +1163,101 @@ function renderYoutube(){
       data:{labels:hist.map(d=>d.fecha.slice(5)), datasets:[{
         data:hist.map(d=>d.seguidores), borderColor:'#FF0000', backgroundColor:fillGradient(canvas,'#FF0000'),
         borderWidth:2.5, pointRadius:0, pointHoverRadius:5, pointHoverBackgroundColor:'#FF0000',
+        pointHoverBorderColor:'#fff', pointHoverBorderWidth:2, fill:true, tension:.35
+      }]},
+      options:{
+        animation:CHART_ANIM,
+        interaction:{intersect:false, mode:'index'},
+        plugins:{legend:{display:false}},
+        scales:{
+          x:{grid:{display:false}, ticks:{color:CC.tick, font:{size:10}, maxRotation:0, autoSkip:true, maxTicksLimit:8}},
+          y:{grid:{color:CC.grid}, ticks:{color:CC.tick, font:{size:10}}}
+        },
+        maintainAspectRatio:false
+      }
+    });
+  });
+}
+
+function renderTiktok(){
+  const wrap = document.getElementById('tiktokContent');
+  if(!wrap) return;
+  const cuentas = Object.entries((window.TIKTOK_DATA||{}).cuentas || {});
+  if(!cuentas.length){
+    wrap.innerHTML = '<div class="empty-note">Sin datos de TikTok todavía</div>';
+    return;
+  }
+
+  wrap.innerHTML = cuentas.map(([key, c]) => {
+    const hist = c.historial_seguidores || [];
+    const promLikes = c.video_count ? Math.round(c.likes_totales / c.video_count) : 0;
+    return `
+    <div class="sec-block">
+      <div class="sec-title">${c.avatar ? `<img src="${c.avatar}" style="width:22px;height:22px;border-radius:50%;object-fit:cover">` : '🎵'} ${c.nombre} <span style="text-transform:none;font-weight:600;color:var(--text3);font-size:11px;margin-left:4px">@${c.username||''}</span></div>
+      <div class="kpi-row">
+        <div class="kpi-card c1"><span class="kpi-icon">👥</span>
+          <div class="kpi-val">${numSpan(c.seguidores||0)}</div>
+          <div class="kpi-label">Seguidores</div></div>
+        <div class="kpi-card c2"><span class="kpi-icon">❤️</span>
+          <div class="kpi-val">${numSpan(c.likes_totales||0)}</div>
+          <div class="kpi-label">Likes totales</div></div>
+        <div class="kpi-card c3"><span class="kpi-icon">🎬</span>
+          <div class="kpi-val">${numSpan(c.video_count||0)}</div>
+          <div class="kpi-label">Videos publicados</div></div>
+        <div class="kpi-card c4"><span class="kpi-icon">📊</span>
+          <div class="kpi-val">${numSpan(promLikes)}</div>
+          <div class="kpi-label">Likes promedio / video</div></div>
+      </div>
+    </div>
+
+    <details class="sec-block" open>
+      <summary class="sec-title">Crecimiento de seguidores</summary>
+      ${hist.length < 2
+        ? `<div class="seg-growth-note">📌 Acumulando historial de seguidores (llevamos ${hist.length} día${hist.length===1?'':'s'} registrando).</div>`
+        : `<div class="chart-card"><div class="chart-canvas-wrap"><canvas id="chartTt_${key}"></canvas></div></div>`}
+    </details>
+
+    <details class="sec-block" open>
+      <summary class="sec-title">Videos recientes</summary>
+      <div class="posts-grid">
+        ${(c.videos||[]).slice(0,12).map(v => `
+          <div class="post-card">
+            <div class="yt-video-row">
+              ${v.miniatura ? `<img class="yt-thumb" src="${v.miniatura}" loading="lazy">` : ''}
+              <div class="yt-video-body">
+                <div class="post-top">
+                  <span class="post-badge">🎵 Video</span>
+                  <span class="post-date">${v.fecha ? new Date(v.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'}) : ''}</span>
+                </div>
+                <div class="post-msg">${(v.titulo||'').replace(/</g,'&lt;')}</div>
+                <div class="post-stats">
+                  <span class="stat-chip">👁️ <b>${fmt(v.vistas)}</b> vistas</span>
+                  <span class="stat-chip">👍 <b>${fmt(v.likes)}</b> likes</span>
+                  <span class="stat-chip">💬 <b>${fmt(v.comentarios)}</b> comentarios</span>
+                  <span class="stat-chip">🔁 <b>${fmt(v.shares)}</b> shares</span>
+                </div>
+                <div class="post-actions">
+                  ${v.url ? `<a class="post-link" href="${v.url}" target="_blank">Ver video ↗</a>` : ''}
+                </div>
+              </div>
+            </div>
+          </div>`).join('') || '<div class="empty-note">Sin videos todavía</div>'}
+      </div>
+    </details>`;
+  }).join('');
+
+  cuentas.forEach(([key, c]) => {
+    const hist = c.historial_seguidores || [];
+    destroyChart('tt_'+key);
+    if(hist.length < 2) return;
+    const canvas = document.getElementById(`chartTt_${key}`);
+    if(!canvas) return;
+    const CC = chartColors();
+    charts['tt_'+key] = new Chart(canvas, {
+      type:'line',
+      data:{labels:hist.map(d=>d.fecha.slice(5)), datasets:[{
+        data:hist.map(d=>d.seguidores), borderColor:'#FE2C55', backgroundColor:fillGradient(canvas,'#FE2C55'),
+        borderWidth:2.5, pointRadius:0, pointHoverRadius:5, pointHoverBackgroundColor:'#FE2C55',
         pointHoverBorderColor:'#fff', pointHoverBorderWidth:2, fill:true, tension:.35
       }]},
       options:{
@@ -1857,10 +1958,12 @@ function renderAll(){
   const esResumen = activa === 'resumen';
   const esGoogle = activa === 'google';
   const esYoutube = activa === 'youtube';
-  const esPagina = !esResumen && !esGoogle && !esYoutube;
+  const esTiktok = activa === 'tiktok';
+  const esPagina = !esResumen && !esGoogle && !esYoutube && !esTiktok;
   document.getElementById('viewResumen').classList.toggle('active', esResumen);
   document.getElementById('viewGoogle').classList.toggle('active', esGoogle);
   document.getElementById('viewYoutube').classList.toggle('active', esYoutube);
+  document.getElementById('viewTiktok').classList.toggle('active', esTiktok);
   document.getElementById('viewPagina').classList.toggle('active', esPagina);
 
   if(esResumen){
@@ -1869,6 +1972,8 @@ function renderAll(){
     renderGoogleReviews();
   } else if(esYoutube){
     renderYoutube();
+  } else if(esTiktok){
+    renderTiktok();
   } else {
     const p = DATA[activa];
     if(p){
