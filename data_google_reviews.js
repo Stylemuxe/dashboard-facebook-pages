@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-17T16:31:46",
+ "actualizado": "2026-08-17T21:31:25",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -210,7 +210,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "VICK SHALOM MARTINEZ",
      "rating": 5,
      "texto": "Los terapeutaa son miy amables y da  seguimiento puntual en cada sesión. Los recomiendo para elntema de las terapias de Manguito Rotator.",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784591800
     },
     {
@@ -341,6 +341,13 @@ window.GOOGLE_REVIEWS_DATA = {
    "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
+     "autor": "AGUILAR GARCIA",
+     "rating": 5,
+     "texto": "Buen servicio",
+     "cuando": "en la última semana",
+     "time": 1787003683
+    },
+    {
      "autor": "HERIBERTO RODRIGUEZ BELTRAN",
      "rating": 5,
      "texto": "Me he sentido bien en la clínica de rehabilitación , la atención es excelente .",
@@ -367,13 +374,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio te dan una muy buena atención",
      "cuando": "Hace 2 semanas",
      "time": 1785432465
-    },
-    {
-     "autor": "Maria Elia Ortiz León",
-     "rating": 5,
-     "texto": "Muy profesional, el Lic. Benito he mejorado mucho.",
-     "cuando": "Hace 2 semanas",
-     "time": 1785349248
     }
    ]
   },
