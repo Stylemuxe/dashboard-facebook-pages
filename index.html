@@ -298,6 +298,28 @@ tr:hover td{background:rgba(76,145,164,.09)}
 .mini-stat .l{font-size:10px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.05em;margin-top:4px}
 .mini-stat.warn .v{color:var(--danger)}
 
+/* ── Toast de actualizacion automatica ── */
+.update-toast{position:fixed;top:18px;right:18px;z-index:500;background:var(--success);color:#fff;
+  font-size:12.5px;font-weight:700;padding:10px 18px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.35);
+  opacity:0;transform:translateY(-10px);pointer-events:none;transition:opacity .25s var(--ease),transform .25s var(--ease)}
+.update-toast.show{opacity:1;transform:translateY(0)}
+
+/* ── Novedades (feed cronologico de eventos) ── */
+.novedades-feed{display:flex;flex-direction:column;gap:10px}
+.novedad-item{display:flex;gap:12px;background:var(--card);border:1px solid var(--border);border-radius:16px;
+  padding:14px 16px;border-left:3px solid var(--border2)}
+.novedad-item.tipo-alerta{border-left-color:var(--danger)}
+.novedad-item.tipo-queja{border-left-color:var(--warning)}
+.novedad-item.tipo-resena{border-left-color:var(--success)}
+.novedad-item.tipo-video{border-left-color:var(--info)}
+.novedad-item.tipo-crecimiento{border-left-color:var(--primary)}
+.novedad-ico{font-size:18px;flex-shrink:0;line-height:1}
+.novedad-body{flex:1;min-width:0}
+.novedad-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.novedad-top b{font-size:13px;color:var(--text)}
+.novedad-fecha{font-size:10.5px;color:var(--text3);white-space:nowrap}
+.novedad-detalle{font-size:12px;color:var(--text2);margin-top:4px;line-height:1.5}
+
 /* ── Warn banner (quejas) ── */
 .warn-banner{background:linear-gradient(rgba(240,157,15,.14),rgba(240,157,15,.14)),var(--panel-solid);border-color:rgba(240,157,15,.32)}
 .warn-banner .alert-banner-head b{color:var(--warning)}
@@ -466,6 +488,7 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
 })();
 </script>
 
+<div id="updateToast" class="update-toast">🔄 Datos actualizados</div>
 <div class="header">
   <div class="header-title">
     <h1>📊 Dashboard Facebook Pages</h1>
@@ -497,6 +520,14 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
 <div class="content">
 
   <div class="view" id="viewResumen">
+    <details class="sec-block" open>
+      <summary class="sec-title">📰 Novedades</summary>
+      <div class="novedades-feed" id="novedadesFeed"></div>
+    </details>
+
+    <div class="sec-title" style="margin-top:26px">🌐 Todas las plataformas</div>
+    <div class="kpi-row" id="kpiRowGlobal"></div>
+
     <div id="alertBanner"></div>
     <div id="pubBanner"></div>
     <div id="quejasBanner"></div>
@@ -731,16 +762,64 @@ body.light-theme .theme-toggle .knob{transform:translateX(26px);
 </script>
 
 <script>
-const RAW = window.FB_PAGES_DATA || {paginas:{}, resumen:[]};
-const DATA = RAW.paginas;
-const RESUMEN = RAW.resumen || [];
-const GOOGLE = window.GOOGLE_REVIEWS_DATA || {sucursales:[], resumen:{}, historial:[]};
+let RAW = window.FB_PAGES_DATA || {paginas:{}, resumen:[]};
+let DATA = RAW.paginas;
+let RESUMEN = RAW.resumen || [];
+let GOOGLE = window.GOOGLE_REVIEWS_DATA || {sucursales:[], resumen:{}, historial:[]};
 let googleSucSeleccionada = null;
 let rangoGlobalDias = 30;
 let rangoCustomFrom = null;
 let rangoCustomTo = null;
 
 function fechaStr(d){ return d.toISOString().slice(0,10); }
+
+function tiempoRelativo(fechaIso){
+  const ms = Date.now() - new Date(fechaIso).getTime();
+  const min = ms/60000;
+  if(min < 60) return min < 2 ? 'hace un momento' : `hace ${Math.round(min)} min`;
+  const horas = min/60;
+  if(horas < 24) return `hace ${Math.round(horas)}h`;
+  const dias = horas/24;
+  if(dias < 30) return `hace ${Math.round(dias)}d`;
+  return new Date(fechaIso).toLocaleDateString('es-MX',{day:'2-digit',month:'short'});
+}
+
+/* ═══ Auto-refresh: vuelve a jalar los data_*.js publicados y re-renderiza
+   sin que el usuario tenga que recargar la pagina — asi el dashboard se
+   actualiza solo en cuanto los scripts automaticos publican datos nuevos. ═══ */
+const FUENTES_AUTOREFRESH = ['data_google_reviews.js','data_facebook_pages.js','data_youtube.js','data_tiktok.js'];
+
+async function refrescarDatos(){
+  try{
+    const generadoAntes = RAW.generado;
+    for(const src of FUENTES_AUTOREFRESH){
+      const r = await fetch(`${src}?nocache=${Date.now()}`, {cache:'no-store'});
+      if(!r.ok) continue;
+      const texto = await r.text();
+      Function(texto)();
+    }
+    RAW = window.FB_PAGES_DATA || RAW;
+    DATA = RAW.paginas;
+    RESUMEN = RAW.resumen || [];
+    GOOGLE = window.GOOGLE_REVIEWS_DATA || GOOGLE;
+    renderAll();
+    if(RAW.generado && RAW.generado !== generadoAntes){
+      mostrarToastActualizacion();
+    }
+  } catch(e){
+    console.warn('refrescarDatos: no se pudo actualizar', e);
+  }
+}
+
+function mostrarToastActualizacion(){
+  const el = document.getElementById('updateToast');
+  if(!el) return;
+  el.classList.add('show');
+  clearTimeout(window._toastTimer);
+  window._toastTimer = setTimeout(() => el.classList.remove('show'), 4000);
+}
+
+setInterval(refrescarDatos, 5*60*1000);
 
 function rangoFechas(){
   if(rangoCustomFrom && rangoCustomTo){
@@ -929,8 +1008,144 @@ function hoyVsAyerAgregado(paginas, campo){
   return {ultimo: {valor: hoyTotal, fecha}, previo: hayAyer ? {valor: ayerTotal} : null};
 }
 
+/* ═══ Novedades: feed cronologico de eventos calculado a partir de los
+   mismos datos ya publicados (quejas, resenas, videos, alertas, saltos de
+   crecimiento) — no depende de un backend nuevo, asi que se actualiza solo
+   cada vez que refrescarDatos() trae informacion mas reciente. ═══ */
+function computeNovedades(){
+  const items = [];
+  const AHORA = Date.now();
+  const diasDesde = (fechaIso) => (AHORA - new Date(fechaIso).getTime()) / 86400000;
+
+  (RAW.quejas || []).forEach(q => {
+    if(q.respondida || !q.fecha) return;
+    if(diasDesde(q.fecha) <= 12){
+      items.push({
+        fecha: q.fecha, tipo:'queja', icono:'🚨',
+        titulo: `Queja sin responder — ${q.pagina}`,
+        detalle: `"${q.comentario}"`,
+        link: q.post_url,
+      });
+    }
+  });
+
+  (GOOGLE.sucursales || []).forEach(s => {
+    (s.resenas_recientes || []).forEach(rv => {
+      if(!rv.time) return;
+      const fechaIso = new Date(rv.time*1000).toISOString();
+      if(diasDesde(fechaIso) <= 7){
+        items.push({
+          fecha: fechaIso, tipo:'resena', icono: (rv.rating||0) >= 4 ? '⭐' : '⚠️',
+          titulo: `Nueva reseña en ${s.nombre} — ${rv.rating!=null ? rv.rating+'★' : ''}`,
+          detalle: rv.texto ? `"${rv.texto}"` : '(sin comentario escrito)',
+        });
+      }
+    });
+  });
+
+  (RAW.alertas_publicacion || []).forEach(a => {
+    items.push({
+      fecha: new Date().toISOString(), tipo:'alerta', icono:'📅',
+      titulo: `${a.nombre} lleva ${a.dias_desde_ultima} días sin publicar`,
+      detalle: a.frecuencia_dias ? `Su ritmo normal es publicar cada ~${a.frecuencia_dias} días` : '',
+    });
+  });
+
+  Object.values((window.YOUTUBE_DATA||{}).canales || {}).forEach(c => {
+    (c.videos || []).slice(0,5).forEach(v => {
+      if(!v.fecha || diasDesde(v.fecha) > 10) return;
+      items.push({fecha:v.fecha, tipo:'video', icono:'▶️', titulo:`Nuevo video en YouTube — ${c.nombre}`, detalle:v.titulo, link:v.url});
+    });
+  });
+  Object.values((window.TIKTOK_DATA||{}).cuentas || {}).forEach(c => {
+    (c.videos || []).slice(0,5).forEach(v => {
+      if(!v.fecha || diasDesde(v.fecha) > 10) return;
+      items.push({fecha:v.fecha, tipo:'video', icono:'🎵', titulo:`Nuevo video en TikTok — ${c.nombre}`, detalle:v.titulo, link:v.url});
+    });
+  });
+
+  const ultimoSalto = (hist) => {
+    // Algunos dias del historial traen engagement/vistas pero todavia no
+    // "seguidores" (bucket parcial de hoy/manana en UTC de Meta) — se
+    // descartan esos dias en vez de comparar contra 0.
+    const conSeguidores = (hist||[]).filter(h => h.seguidores != null);
+    if(conSeguidores.length < 2) return null;
+    const u = conSeguidores[conSeguidores.length-1], p = conSeguidores[conSeguidores.length-2];
+    return {diff:(u.seguidores||0)-(p.seguidores||0), fecha:u.fecha, valor:u.seguidores};
+  };
+  Object.values(DATA).forEach(p => {
+    const s = ultimoSalto(p.historial_seguidores);
+    if(s && Math.abs(s.diff) >= 15){
+      items.push({fecha:s.fecha+'T12:00:00', tipo:'crecimiento', icono: s.diff>0?'📈':'📉',
+        titulo:`${p.nombre}: ${s.diff>0?'+':''}${fmt(s.diff)} seguidores en un día`,
+        detalle:`Ahora tiene ${fmt(s.valor)} seguidores en Facebook`});
+    }
+  });
+
+  items.sort((a,b) => new Date(b.fecha) - new Date(a.fecha));
+  return items;
+}
+
+function renderNovedades(){
+  const wrap = document.getElementById('novedadesFeed');
+  if(!wrap) return;
+  const items = computeNovedades();
+  wrap.innerHTML = items.length ? items.slice(0,15).map(it => `
+    <div class="novedad-item tipo-${it.tipo}">
+      <span class="novedad-ico">${it.icono}</span>
+      <div class="novedad-body">
+        <div class="novedad-top"><b>${it.titulo}</b><span class="novedad-fecha">${tiempoRelativo(it.fecha)}</span></div>
+        ${it.detalle ? `<div class="novedad-detalle">${(it.detalle||'').toString().replace(/</g,'&lt;')}</div>` : ''}
+        ${it.link ? `<a class="post-link" href="${it.link}" target="_blank">Ver ↗</a>` : ''}
+      </div>
+    </div>`).join('') : '<div class="empty-note">Sin novedades recientes — todo tranquilo 👍</div>';
+}
+
+function renderKpiGlobal(){
+  const wrap = document.getElementById('kpiRowGlobal');
+  if(!wrap) return;
+
+  const segFB = RESUMEN.reduce((a,b)=>a+(b.seguidores||0),0);
+  const segIG = RESUMEN.reduce((a,b)=>a+(b.ig_seguidores||0),0);
+  const canalesYt = Object.values((window.YOUTUBE_DATA||{}).canales||{});
+  const cuentasTt = Object.values((window.TIKTOK_DATA||{}).cuentas||{});
+  const segYt = canalesYt.reduce((a,c)=>a+(c.seguidores||0),0);
+  const segTt = cuentasTt.reduce((a,c)=>a+(c.seguidores||0),0);
+  const segTotal = segFB + segIG + segYt + segTt;
+
+  const engFbIg = RESUMEN.reduce((a,b)=>a+(b.engagement_28d||0)+(b.ig_engagement_28d||0),0);
+  const videosYt = canalesYt.reduce((a,c)=>a+(c.video_count||0),0);
+  const videosTt = cuentasTt.reduce((a,c)=>a+(c.video_count||0),0);
+
+  const resG = GOOGLE.resumen || {};
+  const ratingsFb = RESUMEN.filter(r=>r.rating!=null).map(r=>r.rating);
+  const ratingFbProm = ratingsFb.length ? ratingsFb.reduce((a,b)=>a+b,0)/ratingsFb.length : null;
+
+  wrap.innerHTML = `
+    <div class="kpi-card c1"><span class="kpi-icon">👥</span>
+      <div class="kpi-val">${numSpan(segTotal)}</div>
+      <div class="kpi-label">Seguidores — todas las redes</div>
+      <div class="kpi-sub">📘 ${fmt(segFB)} · 📸 ${fmt(segIG)} · ▶️ ${fmt(segYt)} · 🎵 ${fmt(segTt)}</div></div>
+    <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
+      <div class="kpi-val">${numSpan(engFbIg)}</div>
+      <div class="kpi-label">Engagement FB+IG (28 días)</div></div>
+    <div class="kpi-card c3"><span class="kpi-icon">⭐</span>
+      <div class="kpi-val">${resG.rating_promedio_ponderado!=null ? numSpan(resG.rating_promedio_ponderado.toFixed(1)) : '—'}</div>
+      <div class="kpi-label">Rating Google (${fmt(resG.total_resenas||0)} reseñas)</div></div>
+    <div class="kpi-card c4"><span class="kpi-icon">📘</span>
+      <div class="kpi-val">${ratingFbProm!=null ? numSpan(ratingFbProm.toFixed(1)) : '—'}</div>
+      <div class="kpi-label">Rating Facebook (promedio)</div></div>
+    <div class="kpi-card c2"><span class="kpi-icon">🎬</span>
+      <div class="kpi-val">${numSpan(videosYt+videosTt)}</div>
+      <div class="kpi-label">Videos publicados (YouTube + TikTok)</div>
+      <div class="kpi-sub">▶️ ${fmt(videosYt)} · 🎵 ${fmt(videosTt)}</div></div>
+  `;
+}
+
 /* ═══ VISTA RESUMEN GENERAL ═══ */
 function renderResumen(){
+  renderNovedades();
+  renderKpiGlobal();
   const totalSeguidores = RESUMEN.reduce((a,b)=>a+b.seguidores,0);
   const paginasParaSuma = Object.values(DATA);
   const totalEng = paginasParaSuma.reduce((a,p)=>a+sum(ultimosNDias(p.engagement_diario)),0);
