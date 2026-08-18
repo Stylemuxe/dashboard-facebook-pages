@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-18T12:07:15",
+ "actualizado": "2026-08-18T13:15:09",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -284,6 +284,53 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Pachuca",
+   "categoria": "franquicia",
+   "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
+   "rating": 4.6,
+   "reviews": 123,
+   "maps_url": "https://maps.google.com/?cid=15907007707854826926",
+   "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Reinaldo Ramirez",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787076491
+    },
+    {
+     "autor": "AGUILAR GARCIA",
+     "rating": 5,
+     "texto": "Buen servicio",
+     "cuando": "en la última semana",
+     "time": 1787003683
+    },
+    {
+     "autor": "HERIBERTO RODRIGUEZ BELTRAN",
+     "rating": 5,
+     "texto": "Me he sentido bien en la clínica de rehabilitación , la atención es excelente .",
+     "cuando": "en la última semana",
+     "time": 1786725007
+    },
+    {
+     "autor": "Maria de la luz Calixto",
+     "rating": 4,
+     "texto": "Recomiendo equilibrio total muy bueno",
+     "cuando": "en la última semana",
+     "time": 1786723376
+    },
+    {
+     "autor": "Juan Huerta Raygoza",
+     "rating": 5,
+     "texto": "Hola les cuento mi experiencia en Equilibrio total  yo llegue aquí con un fuerte dolor en la espalda baja y me corría hasta el tobillo del pie derecho y ya  no podía caminar, gracias a las terapias q me dieron aquí ahora después de 10 rehabilitaciones ya empiezo a correr, se las recomiendo 100%",
+     "cuando": "Hace 2 semanas",
+     "time": 1785524867
+    }
+   ]
+  },
+  {
    "nombre": "Chalco",
    "categoria": "sede",
    "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
@@ -327,53 +374,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Vale la pena hacer el esfuerzo y pagar el plan integral de N sesiones; yo tenía semanas con el dolor del nervio ciático por opresión del músculo piriforme (diagnosticado por un ortopedista traumatólogo previamente) aquí me han ayudado bastante, con sesiones de acupuntura, quiropráctica, terapias físicas e podido volver a mis actividades diarias, el trato profesional y el empeño que le ponen a su trabajo son muy dedicados, en general no me arrepiento en lo absoluto se los recomiendo",
      "cuando": "Hace 3 meses",
      "time": 1776943677
-    }
-   ]
-  },
-  {
-   "nombre": "Pachuca",
-   "categoria": "franquicia",
-   "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
-   "rating": 4.6,
-   "reviews": 122,
-   "maps_url": "https://maps.google.com/?cid=15907007707854826926",
-   "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
-   "telefono": "55 4570 8299",
-   "resenas_recientes": [
-    {
-     "autor": "AGUILAR GARCIA",
-     "rating": 5,
-     "texto": "Buen servicio",
-     "cuando": "en la última semana",
-     "time": 1787003683
-    },
-    {
-     "autor": "HERIBERTO RODRIGUEZ BELTRAN",
-     "rating": 5,
-     "texto": "Me he sentido bien en la clínica de rehabilitación , la atención es excelente .",
-     "cuando": "en la última semana",
-     "time": 1786725007
-    },
-    {
-     "autor": "Maria de la luz Calixto",
-     "rating": 4,
-     "texto": "Recomiendo equilibrio total muy bueno",
-     "cuando": "en la última semana",
-     "time": 1786723376
-    },
-    {
-     "autor": "Juan Huerta Raygoza",
-     "rating": 5,
-     "texto": "Hola les cuento mi experiencia en Equilibrio total  yo llegue aquí con un fuerte dolor en la espalda baja y me corría hasta el tobillo del pie derecho y ya  no podía caminar, gracias a las terapias q me dieron aquí ahora después de 10 rehabilitaciones ya empiezo a correr, se las recomiendo 100%",
-     "cuando": "Hace 2 semanas",
-     "time": 1785524867
-    },
-    {
-     "autor": "Daniel Ramirez",
-     "rating": 5,
-     "texto": "Excelente servicio te dan una muy buena atención",
-     "cuando": "Hace 2 semanas",
-     "time": 1785432465
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2030,
+  "total_resenas": 2031,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 18
+  "resenas_nuevas_7d": 19
  },
  "historial": [
   {
@@ -1094,7 +1094,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-18",
-   "total_resenas": 2030,
+   "total_resenas": 2031,
    "rating_prom": 4.64
   }
  ]
