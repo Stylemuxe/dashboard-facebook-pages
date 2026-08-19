@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-18T16:08:42",
+ "actualizado": "2026-08-18T20:08:35",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -69,7 +69,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Iker Ledesma",
      "rating": 5,
      "texto": "Muy buena experiencia, llegué con un problema con mi rodilla y supieron darle un buen seguimiento y tratamiento para sentirme mejor, mucho reconocimiento a los especialistas que supieron atender mi malestar",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786496246
     },
     {
@@ -83,7 +83,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Sabomnim Melody",
      "rating": 5,
      "texto": "El Dr. Edson Gallardo en el  área de acupuntura excelente servicio, aclara todas nuestras dudas\nMuchas gracias 😊",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785882289
     },
     {
@@ -100,45 +100,45 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 173,
+   "reviews": 179,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
-     "autor": "Berenice Castillo",
-     "rating": 5,
+     "autor": "Miranda Muñoz Jessyca Fernanda",
+     "rating": 1,
+     "texto": "Tuve una muy mala experiencia el día de hoy acudí por un dolor muy fuerte sin embargo hubo muchas preguntas, mucha plática y no me hicieron nada que arreglara un poco el dolor o lo disminuyera, lo primero fue el pago y al último fue lo de cuando iba a pagar con cada sesión  eso si se me hizo muy raro pero no creo regresar, me decepcionó muchísimo el lugar, 0 recomendaciones",
+     "cuando": "en la última semana",
+     "time": 1787096018
+    },
+    {
+     "autor": "Gustavo Perez",
+     "rating": 4,
+     "texto": "La tranquilidad ,es su sello.",
+     "cuando": "en la última semana",
+     "time": 1787094564
+    },
+    {
+     "autor": "Azalia Lucero",
+     "rating": 3,
      "texto": "",
      "cuando": "en la última semana",
-     "time": 1787090776
+     "time": 1787094289
     },
     {
-     "autor": "Camm",
+     "autor": "Lourdes Duran",
      "rating": 5,
-     "texto": "",
+     "texto": "Yo estoy muy satisfecha con el servicio que dan, son amables, y atentos con los pacientes, son puntuales con los horarios de las citas, y nos explican a detalle nuestro diagnóstico, las instalaciones muy limpias,  se respira tranquilidad y confianza.\nFelicidades por tan excelente servicio!!!",
      "cuando": "en la última semana",
-     "time": 1786912003
+     "time": 1787093143
     },
     {
-     "autor": "Alejandro Gutti",
+     "autor": "Marlen CL",
      "rating": 5,
-     "texto": "Buena atención, mi esposa viene a terapia en el hombro y emos visto buenos avances después de que fuimos a muchos lugares, la atención es muy completa y la terapia es personalizada.",
+     "texto": "Un excelente lugar, muy bonito, la atención es muy buena.",
      "cuando": "en la última semana",
-     "time": 1786911582
-    },
-    {
-     "autor": "Xóchitl Hernández",
-     "rating": 5,
-     "texto": "Un excelente lugar , realmente lo recomiendo  la atención totalmente profesional .",
-     "cuando": "en la última semana",
-     "time": 1786906327
-    },
-    {
-     "autor": "sandra rodriguez",
-     "rating": 5,
-     "texto": "Excelente atención.",
-     "cuando": "en la última semana",
-     "time": 1786906171
+     "time": 1787090915
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2033,
+  "total_resenas": 2039,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 21
+  "resenas_nuevas_7d": 27
  },
  "historial": [
   {
@@ -1094,7 +1094,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-18",
-   "total_resenas": 2033,
+   "total_resenas": 2039,
    "rating_prom": 4.64
   }
  ]
