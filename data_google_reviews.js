@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-19T09:08:08",
+ "actualizado": "2026-08-19T12:10:22",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -100,11 +100,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 179,
+   "reviews": 180,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Nayely Martínez Orozco",
+     "rating": 1,
+     "texto": "Pésimo trato, en la recepción parece que te están haciendo un favor.\nLas terapias duran menos de 40 minutos, un día llegué tarde 5 min y tardaron en abrir 10 minutos y hubo reclamo de parte de recepción, aún así la Fisio fue profesional y me dió la terapia.\nCon respecto a los profesionales del área no tengo ningún tema, acupuntura, quiropráctico y Fisio han sido buenos aunque podría mejorarse la atención en cuanto a seguimiento.\nHay un mal trato de parte de recepción y aún tengo sesiones por tomar entonces es muy probable que siga pasando.\nNo recomiendo por el simple hecho de que una vez que pagas el servicio va decayendo, las sesiones son cada vez más cortas y la atención es peor cada sesión.",
+     "cuando": "en la última semana",
+     "time": 1787160096
+    },
     {
      "autor": "Miranda Muñoz Jessyca Fernanda",
      "rating": 1,
@@ -132,13 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Yo estoy muy satisfecha con el servicio que dan, son amables, y atentos con los pacientes, son puntuales con los horarios de las citas, y nos explican a detalle nuestro diagnóstico, las instalaciones muy limpias,  se respira tranquilidad y confianza.\nFelicidades por tan excelente servicio!!!",
      "cuando": "en la última semana",
      "time": 1787093143
-    },
-    {
-     "autor": "Marlen CL",
-     "rating": 5,
-     "texto": "Un excelente lugar, muy bonito, la atención es muy buena.",
-     "cuando": "en la última semana",
-     "time": 1787090915
     }
    ]
   },
@@ -626,7 +626,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ara Ornelas",
      "rating": 3,
      "texto": "Jóvenes especialistas, pero toda consulta la difieren a 10 o más citas, así que resulta costoso. La fisioterapeuta 10 de 10",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785942882
     },
     {
@@ -955,7 +955,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "J.A Tolentino",
      "rating": 1,
      "texto": "Pésima atención!! Llegué por el tráfico 10 minutos tarde y ya no quisieron atenderme. Muy mal servicio por parte del encargado. Te hacen pagar todas las terapias desde un inicio para que por favor tengan cuidado. No gasten si tiempo pagando por adelantado",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784568540
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2040,
+  "total_resenas": 2041,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 26
+  "resenas_nuevas_7d": 27
  },
  "historial": [
   {
@@ -1099,7 +1099,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-19",
-   "total_resenas": 2040,
+   "total_resenas": 2041,
    "rating_prom": 4.64
   }
  ]
