@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-19T04:23:07",
+ "actualizado": "2026-08-19T09:08:08",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -758,11 +758,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJU3kPP2kd0oURXldj1W4J93I",
    "rating": 4.7,
-   "reviews": 45,
+   "reviews": 46,
    "maps_url": "https://maps.google.com/?cid=8284100411202426718",
    "direccion": "Blvd. de las Naciones 128, Valle Dorado, 54020 Tlalnepantla, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Saul Reyes",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787142579
+    },
     {
      "autor": "Jimena Jiménez",
      "rating": 5,
@@ -790,13 +797,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Buen servicio y puntuales, tienen promociones, recomiendo",
      "cuando": "Hace 1 mes",
      "time": 1782150770
-    },
-    {
-     "autor": "intocablerod",
-     "rating": 3,
-     "texto": "",
-     "cuando": "Hace 3 meses",
-     "time": 1777435693
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2039,
+  "total_resenas": 2040,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 25
+  "resenas_nuevas_7d": 26
  },
  "historial": [
   {
@@ -1099,7 +1099,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-19",
-   "total_resenas": 2039,
+   "total_resenas": 2040,
    "rating_prom": 4.64
   }
  ]
