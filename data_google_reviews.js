@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-19T12:10:22",
+ "actualizado": "2026-08-19T16:06:16",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -257,7 +257,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Javier Garcia",
      "rating": 3,
      "texto": "No lo visite",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1785961987
     },
     {
@@ -476,11 +476,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
    "rating": 4.7,
-   "reviews": 83,
+   "reviews": 84,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Ramon Torres Molina",
+     "rating": 5,
+     "texto": "Recibi el tratamiento para mi lesión de forma profesional y ecertada con lo cual disminuyo considerablemente el malestar que me aquejaba... Felicitaciones al grupo de trabajo de Equilibrio Total por su forma de trabajar ya que me hicieron sentir muy comodo, asesorado y tratado con toda la atencion del mundo... gracias",
+     "cuando": "en la última semana",
+     "time": 1787169739
+    },
     {
      "autor": "Gres Mt",
      "rating": 1,
@@ -508,13 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio y atención tuve un gran avance con ellos gracias a sus terapias",
      "cuando": "en la última semana",
      "time": 1786572436
-    },
-    {
-     "autor": "Elizabeth michis arovis",
-     "rating": 5,
-     "texto": "Me gustó mucho el trato del personal y la forma en que me ayudaron con mi problema de salud son muy eficiente y recomiendo mucho el lugar",
-     "cuando": "Hace una semana",
-     "time": 1786477702
     }
    ]
   },
@@ -546,7 +546,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Brandon Iván Hernández García",
      "rating": 1,
      "texto": "Pagué un paquete de sesiones, avisé que saldria de viaje y al regreso ya no me respetaron las sesiones restantes. Mandé mensajes y se tardaron días en responder y al final me dejaron de contestar.\n\nNo muy grata experiencia",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785360491
     },
     {
@@ -814,7 +814,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jorge Palacios",
      "rating": 3,
      "texto": "Excelente atención de las terapeutas .solo que no dan la opción de pagar por sesión y solo en una exhibición por 7000 por 10 sesiones .(Al contactarlos no te anticipan esa modalidad)",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785349795
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2041,
+  "total_resenas": 2042,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 27
+  "resenas_nuevas_7d": 28
  },
  "historial": [
   {
@@ -1099,7 +1099,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-19",
-   "total_resenas": 2041,
+   "total_resenas": 2042,
    "rating_prom": 4.64
   }
  ]
