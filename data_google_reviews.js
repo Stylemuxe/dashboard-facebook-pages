@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-20T13:00:40",
+ "actualizado": "2026-08-20T16:12:43",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -76,7 +76,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Lupe Muñoa",
      "rating": 5,
      "texto": "todo muy bien buena tensión",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786046144
     },
     {
@@ -412,7 +412,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "gabriel.1973",
      "rating": 5,
      "texto": "Exelente Servicio Me an ayudado con el Tema de Mi Ansiedad y Mis Hernias Discales muy Buen Servicio Lo que me llamó la Atención es que si Son Licenciados en el Área de la Rehabilitación cuentan con su Cédula Profesional y sus Permisos en Regla Muy Recomendable",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785447892
     },
     {
@@ -673,7 +673,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Luisa Martinez",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784839494
     },
     {
