@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-19T22:36:00",
+ "actualizado": "2026-08-20T09:08:58",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -106,6 +106,13 @@ window.GOOGLE_REVIEWS_DATA = {
    "telefono": "55 4570 8299",
    "resenas_recientes": [
     {
+     "autor": "Plaj Erko",
+     "rating": 1,
+     "texto": "Se me brindó la atención con un personal médico/sanitario distinto casi en todas mis consultas.\nEsta falta de continuidad o imprevisto en el personal asignado generó inconsistencias en el seguimiento de mi caso.\nMe solicitaron realizar unas segundas radiografías; sin embargo, el personal no me dio ningún seguimiento ni información al respecto hasta que fui yo quien tuvo que preguntar directamente por los resultados.\nConsidero que esta omisión compromete la calidad y precisión de mi valoración médica, dejando de lado un estudio diagnóstico indispensable para mi condición.\nAl principio me hablaron sobre una valoración inicial que consistía en tomarme una foto con una tablet para mostrarme un comparativo del antes y el después. Sin embargo, al finalizar mis sesiones nunca realizaron dicha toma ni me mostraron el resultado; simplemente me atendieron como una consulta convencional.\nDurante varias de mis sesiones pude notar que a todos los clientes les ofrecen el paquete de 10 sesiones como estrategia para vender el servicio. Sin embargo, la atención posterior se siente impersonal, dando la impresión de que solo atienden por cumplir con el horario asignado.\nSi bien el personal siempre fue amable y con buena disposición, considero que el problema radica en el esquema de trabajo de la empresa. Los fisioterapeutas solo cumplen con el servicio asignado, aunque cabe destacar que algunos brindaron una mejor atención al tomarse el tiempo de explicar detalladamente cada procedimiento.\n(Les recomiendo considerar otras opciones si tienen la oportunidad. El costo es elevado para la calidad y los servicios que realmente ofrecen).",
+     "cuando": "en la última semana",
+     "time": 1787196293
+    },
+    {
      "autor": "Nayely Martínez Orozco",
      "rating": 1,
      "texto": "Pésimo trato, en la recepción parece que te están haciendo un favor.\nLas terapias duran menos de 40 minutos, un día llegué tarde 5 min y tardaron en abrir 10 minutos y hubo reclamo de parte de recepción, aún así la Fisio fue profesional y me dió la terapia.\nCon respecto a los profesionales del área no tengo ningún tema, acupuntura, quiropráctico y Fisio han sido buenos aunque podría mejorarse la atención en cuanto a seguimiento.\nHay un mal trato de parte de recepción y aún tengo sesiones por tomar entonces es muy probable que siga pasando.\nNo recomiendo por el simple hecho de que una vez que pagas el servicio va decayendo, las sesiones son cada vez más cortas y la atención es peor cada sesión.",
@@ -132,13 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "en la última semana",
      "time": 1787094289
-    },
-    {
-     "autor": "Lourdes Duran",
-     "rating": 5,
-     "texto": "Yo estoy muy satisfecha con el servicio que dan, son amables, y atentos con los pacientes, son puntuales con los horarios de las citas, y nos explican a detalle nuestro diagnóstico, las instalaciones muy limpias,  se respira tranquilidad y confianza.\nFelicidades por tan excelente servicio!!!",
-     "cuando": "en la última semana",
-     "time": 1787093143
     }
    ]
   },
@@ -1019,7 +1019,7 @@ window.GOOGLE_REVIEWS_DATA = {
   "total_sucursales": 22,
   "total_resenas": 2044,
   "rating_promedio_ponderado": 4.63,
-  "resenas_nuevas_7d": 30
+  "resenas_nuevas_7d": 27
  },
  "historial": [
   {
@@ -1099,6 +1099,11 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-19",
+   "total_resenas": 2044,
+   "rating_prom": 4.63
+  },
+  {
+   "fecha": "2026-08-20",
    "total_resenas": 2044,
    "rating_prom": 4.63
   }
