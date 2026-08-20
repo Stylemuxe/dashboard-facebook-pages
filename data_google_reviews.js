@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-19T16:06:16",
+ "actualizado": "2026-08-19T22:36:00",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -99,8 +99,8 @@ window.GOOGLE_REVIEWS_DATA = {
    "nombre": "Neza",
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
-   "rating": 4.6,
-   "reviews": 180,
+   "rating": 4.5,
+   "reviews": 181,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
@@ -147,7 +147,7 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJG2QUCPcL04URhm-m4WRG4RI",
    "rating": 4.9,
-   "reviews": 142,
+   "reviews": 141,
    "maps_url": "https://maps.google.com/?cid=1360445961539055494",
    "direccion": "Fray Junípero Serra 21, Centro, 76800 San Juan del Río, Qro., México",
    "telefono": "427 214 1092",
@@ -210,7 +210,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "VICK SHALOM MARTINEZ",
      "rating": 5,
      "texto": "Los terapeutaa son miy amables y da  seguimiento puntual en cada sesión. Los recomiendo para elntema de las terapias de Manguito Rotator.",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784591800
     },
     {
@@ -250,7 +250,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Optica Quarzo",
      "rating": 5,
      "texto": "Recomiendo amplia y confiablemente Equilibrio Total con las terapias que ofrecen como rehabilitación neuropatía articulaciones parálisis facial varices ciática",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786572768
     },
     {
@@ -288,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
-   "reviews": 124,
+   "reviews": 125,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
    "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Leticia Vergara",
+     "rating": 4,
+     "texto": "Buena atención con personal calificado con el plan recomendado me siento mucho mejor. Lo recomiendo",
+     "cuando": "en la última semana",
+     "time": 1787184431
+    },
     {
      "autor": "Shely Lopez",
      "rating": 5,
@@ -320,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Me he sentido bien en la clínica de rehabilitación , la atención es excelente .",
      "cuando": "en la última semana",
      "time": 1786725007
-    },
-    {
-     "autor": "Maria de la luz Calixto",
-     "rating": 4,
-     "texto": "Recomiendo equilibrio total muy bueno",
-     "cuando": "en la última semana",
-     "time": 1786723376
     }
    ]
   },
@@ -382,11 +382,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJk2FOrktb04URnMe5TI5ysiY",
    "rating": 4.8,
-   "reviews": 92,
+   "reviews": 93,
    "maps_url": "https://maps.google.com/?cid=2788417074793924508",
    "direccion": "Calle Gral. Ramón Corona 19, Centro, 76000 Santiago de Querétaro, Qro., México",
    "telefono": "442 683 5093",
    "resenas_recientes": [
+    {
+     "autor": "Roci MR",
+     "rating": 5,
+     "texto": "Me ha encantado llegue con dolor en la parte lumbar, y despues de 3 a 4 sesiones ya no tuve dolor, recomiendo la clínica.",
+     "cuando": "en la última semana",
+     "time": 1787183979
+    },
     {
      "autor": "Jose Adrián Valadez Nieves",
      "rating": 5,
@@ -414,13 +421,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 1 mes",
      "time": 1784493179
-    },
-    {
-     "autor": "Gaby Caraveo",
-     "rating": 5,
-     "texto": "Tuve una excelente experiencia con esta clínica de rehabilitación. Desde el primer día me hicieron sentir en un ambiente profesional, humano y de mucha confianza. Todo el personal es muy amable, atento y está realmente comprometido con el bienestar de los pacientes.\n\nLas instalaciones son limpias, cómodas y cuentan con el equipo necesario para brindar una atención de calidad. Los terapeutas demuestran un amplio conocimiento y diseñan tratamientos personalizados, explicando cada procedimiento con paciencia y resolviendo cualquier duda.\n\nGracias a su dedicación, noté una gran mejoría en mi recuperación en poco tiempo. Se nota que trabajan con vocación y que su prioridad es ayudar a cada paciente a recuperar su calidad de vida.\n\nSin duda, recomiendo esta clínica al 100%. Si buscan un lugar con atención de excelencia, profesionalismo y un trato cálido, esta es la mejor opción.",
-     "cuando": "Hace 1 mes",
-     "time": 1784145228
     }
    ]
   },
@@ -513,7 +513,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Lizeth Martinez",
      "rating": 5,
      "texto": "Excelente servicio y atención tuve un gran avance con ellos gracias a sus terapias",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786572436
     }
    ]
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2042,
-  "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 28
+  "total_resenas": 2044,
+  "rating_promedio_ponderado": 4.63,
+  "resenas_nuevas_7d": 30
  },
  "historial": [
   {
@@ -1099,8 +1099,8 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-19",
-   "total_resenas": 2042,
-   "rating_prom": 4.64
+   "total_resenas": 2044,
+   "rating_prom": 4.63
   }
  ]
 };
