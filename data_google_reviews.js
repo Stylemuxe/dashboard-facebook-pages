@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-20T09:08:58",
+ "actualizado": "2026-08-20T13:00:40",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -29,7 +29,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Eduardo Martínez",
      "rating": 1,
      "texto": "Pésima experiencia; la recepcionista se siente dueña y la fisioterapeuta se sale a recibir su Starbucks mientras te atiende, de las dos lesiones que llevaba sólo quiso revisar una y la otra que a la vuelta jaja. Pésimo lugar y caro.",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785437823
     },
     {
@@ -203,7 +203,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Eduardo Ramírez P",
      "rating": 5,
      "texto": "100% recomendable. Todo el personal es muy profesional, saben atender muy bien y te ayudan con tus lesiones.   Aunque es un poco caro, vale la pena por los resultados.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786640519
     },
     {
@@ -452,7 +452,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "José Luis Sánchez Vega",
      "rating": 5,
      "texto": "Cada día mejor cuando llegue  me dolía al caminar y ahora ya estoy mucho mejor",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1779465066
     },
     {
@@ -476,11 +476,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
    "rating": 4.7,
-   "reviews": 84,
+   "reviews": 85,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Fabiola Bonilla",
+     "rating": 5,
+     "texto": "Excelente",
+     "cuando": "en la última semana",
+     "time": 1787244902
+    },
     {
      "autor": "Ramon Torres Molina",
      "rating": 5,
@@ -508,13 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "en la última semana",
      "time": 1786762748
-    },
-    {
-     "autor": "Lizeth Martinez",
-     "rating": 5,
-     "texto": "Excelente servicio y atención tuve un gran avance con ellos gracias a sus terapias",
-     "cuando": "Hace una semana",
-     "time": 1786572436
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2044,
+  "total_resenas": 2045,
   "rating_promedio_ponderado": 4.63,
-  "resenas_nuevas_7d": 27
+  "resenas_nuevas_7d": 28
  },
  "historial": [
   {
@@ -1104,7 +1104,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-20",
-   "total_resenas": 2044,
+   "total_resenas": 2045,
    "rating_prom": 4.63
   }
  ]
