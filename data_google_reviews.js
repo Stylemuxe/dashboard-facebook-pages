@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-20T16:12:43",
+ "actualizado": "2026-08-21T04:20:08",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -405,7 +405,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "neyri casas",
      "rating": 5,
      "texto": "Lo recomiendo mucho , fui con un problema de mi columna y me han ayudado bastante , el trato es muy bueno por parte de todos los especialistas, muy amables y atentos.",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785463391
     },
     {
@@ -476,11 +476,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
    "rating": 4.7,
-   "reviews": 85,
+   "reviews": 86,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Karina Cruz",
+     "rating": 5,
+     "texto": "Excelente trato, muy profesionales, en mi tercera sesión ya no tenía molestia, muy recomendable.",
+     "cuando": "en la última semana",
+     "time": 1787264364
+    },
     {
      "autor": "Fabiola Bonilla",
      "rating": 5,
@@ -508,13 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Una trato muy bueno, te gyian en todo el proceso y desde la primera sesión uno siente la mejoría que el tratamiento te brinda. Los licenciados muy profesionales.",
      "cuando": "en la última semana",
      "time": 1786813210
-    },
-    {
-     "autor": "Daniela Jimenez",
-     "rating": 5,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1786762748
     }
    ]
   },
@@ -579,7 +579,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "naye gonzalez",
      "rating": 5,
      "texto": "Éstos tratamientos integrales funcionan, hay estudios que lo corroboran, además recuerdan cita con prioridad, ampliamente recomendado, flexibilidad de horario",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1784850989
     },
     {
@@ -593,14 +593,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Mady Arenas",
      "rating": 5,
      "texto": "Quiero expresar mi más sincero agradecimiento y reconocimiento a esta clínica de fisioterapia por la excelente atención brindada a mi familia. Mi esposo llegó con diagnóstico de síndrome piramidal y espondiloartrosis, con un dolor tan intenso que ya no podía caminar ni 50 metros sin agotarse y presentar molestias importantes. Desde el inicio recibió atención por parte de licenciadas sumamente profesionales, amables, empáticas y comprometidas con su recuperación. Para nuestra sorpresa, desde la cuarta sesión ya mostraba una mejoría muy notable, pudiendo caminar mucho mejor, y al concluir su tratamiento, su recuperación fue prácticamente total.\n\nAsimismo, mi hija de 24 años, quien acudió con diagnóstico de mialgias, recibió el mismo trato humano y profesional, logrando una mejoría increíble en poco tiempo.\n\nQuiero destacar también la atención desde el primer contacto con la Señorita Pilar, quien siempre fue clara, educada, accesible y muy amable, haciendo todo el proceso mucho más sencillo y confiable.\n\nSin duda, encontrar un lugar donde se combine la calidad profesional con el trato humano hace toda la diferencia. Recomiendo ampliamente esta clínica a cualquier persona que busque atención fisioterapéutica de excelencia.\nGracias por todas las atenciones 🙌",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1779494273
     },
     {
      "autor": "INHALOTERAPIA HOSPITAL GUSTAVO BAZ",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1779493593
     },
     {
@@ -711,11 +711,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5eI3L7b_0YURAc1SHPVw8J4",
    "rating": 4.1,
-   "reviews": 47,
+   "reviews": 48,
    "maps_url": "https://maps.google.com/?cid=11452778050447658241",
    "direccion": "Av. Andrés Molina Enríquez 174, San Pedro Iztacalco, Iztacalco, 08220 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Ramirez Mendoza Ezequiel",
+     "rating": 2,
+     "texto": "Las personas son muy amable, personal 10/10. Sin embargo las terapias son muy simples, de haber sabido desde un principio lo que hacían mejor no pagaba nada, pague $6900 por 10 sesiones y todavía me dejaron una semana sin terapia, me dijeron que me iban a dar una terapia de compensación y nunca llegó esa terapia, nada más te sacan dinero, no lo recomiendo.",
+     "cuando": "en la última semana",
+     "time": 1787286208
+    },
     {
      "autor": "Abel Badillo",
      "rating": 1,
@@ -743,13 +750,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 4 meses",
      "time": 1776296860
-    },
-    {
-     "autor": "Bray Obanodlam",
-     "rating": 5,
-     "texto": "Un lugar increíble y su personal brinda una atención excelente!",
-     "cuando": "Hace 4 meses",
-     "time": 1776211402
     }
    ]
   },
@@ -1017,7 +1017,7 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2045,
+  "total_resenas": 2047,
   "rating_promedio_ponderado": 4.63,
   "resenas_nuevas_7d": 28
  },
@@ -1105,6 +1105,11 @@ window.GOOGLE_REVIEWS_DATA = {
   {
    "fecha": "2026-08-20",
    "total_resenas": 2045,
+   "rating_prom": 4.63
+  },
+  {
+   "fecha": "2026-08-21",
+   "total_resenas": 2047,
    "rating_prom": 4.63
   }
  ]
