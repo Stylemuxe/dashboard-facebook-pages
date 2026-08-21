@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-21T09:13:13",
+ "actualizado": "2026-08-21T12:11:22",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -22,7 +22,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rubén Rodriguez L",
      "rating": 4,
      "texto": "Muy buena experiencia en mi primer sesión",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785520582
     },
     {
@@ -325,7 +325,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "HERIBERTO RODRIGUEZ BELTRAN",
      "rating": 5,
      "texto": "Me he sentido bien en la clínica de rehabilitación , la atención es excelente .",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786725007
     }
    ]
@@ -445,7 +445,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Daniel Estebanes",
      "rating": 5,
      "texto": "Me han ayudado muchísimo, muchas gracias",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1779551687
     },
     {
@@ -795,7 +795,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Arturo L. Beltrán E.",
      "rating": 5,
      "texto": "Buen servicio y puntuales, tienen promociones, recomiendo",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1782150770
     }
    ]
