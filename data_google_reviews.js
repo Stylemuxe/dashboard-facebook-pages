@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-21T04:20:08",
+ "actualizado": "2026-08-21T08:43:15",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -100,7 +100,7 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.5,
-   "reviews": 181,
+   "reviews": 182,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
@@ -372,7 +372,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jesús",
      "rating": 5,
      "texto": "Vale la pena hacer el esfuerzo y pagar el plan integral de N sesiones; yo tenía semanas con el dolor del nervio ciático por opresión del músculo piriforme (diagnosticado por un ortopedista traumatólogo previamente) aquí me han ayudado bastante, con sesiones de acupuntura, quiropráctica, terapias físicas e podido volver a mis actividades diarias, el trato profesional y el empeño que le ponen a su trabajo son muy dedicados, en general no me arrepiento en lo absoluto se los recomiendo",
-     "cuando": "Hace 3 meses",
+     "cuando": "Hace 4 meses",
      "time": 1776943677
     }
    ]
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2047,
+  "total_resenas": 2048,
   "rating_promedio_ponderado": 4.63,
-  "resenas_nuevas_7d": 28
+  "resenas_nuevas_7d": 29
  },
  "historial": [
   {
@@ -1109,7 +1109,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-21",
-   "total_resenas": 2047,
+   "total_resenas": 2048,
    "rating_prom": 4.63
   }
  ]
