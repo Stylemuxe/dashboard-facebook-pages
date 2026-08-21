@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-21T12:11:22",
+ "actualizado": "2026-08-21T16:10:39",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -53,7 +53,7 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 223,
+   "reviews": 224,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
    "telefono": "55 6885 8200",
@@ -100,11 +100,32 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.5,
-   "reviews": 182,
+   "reviews": 185,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Diana Sarai Alvarez",
+     "rating": 5,
+     "texto": "Tenía dudas de atenderme aquí porque una de mis super amigas es fisio y siempre me había atendido ella, ahora por cuestiones personales no puede atenderme y recurrí a esta clínica, desde el día 1 vi una mejora impresionante en una lesión que venía doliendo intermitentemente desde hace un año aproximadamente, y la verdad el plan, la explicación y la terapia me ha ayudado mucho, y eso que solo llevo dos sesiones.\nMuchas gracias Equilibrio total 🥰",
+     "cuando": "en la última semana",
+     "time": 1787349599
+    },
+    {
+     "autor": "Martínez López José Ángel",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787349462
+    },
+    {
+     "autor": "Elizabeth Chavez Daugueth",
+     "rating": 5,
+     "texto": "Ha disminuido el dolor de espalda considerablemente.",
+     "cuando": "en la última semana",
+     "time": 1787349265
+    },
     {
      "autor": "Plaj Erko",
      "rating": 1,
@@ -118,27 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Pésimo trato, en la recepción parece que te están haciendo un favor.\nLas terapias duran menos de 40 minutos, un día llegué tarde 5 min y tardaron en abrir 10 minutos y hubo reclamo de parte de recepción, aún así la Fisio fue profesional y me dió la terapia.\nCon respecto a los profesionales del área no tengo ningún tema, acupuntura, quiropráctico y Fisio han sido buenos aunque podría mejorarse la atención en cuanto a seguimiento.\nHay un mal trato de parte de recepción y aún tengo sesiones por tomar entonces es muy probable que siga pasando.\nNo recomiendo por el simple hecho de que una vez que pagas el servicio va decayendo, las sesiones son cada vez más cortas y la atención es peor cada sesión.",
      "cuando": "en la última semana",
      "time": 1787160096
-    },
-    {
-     "autor": "Miranda Muñoz Jessyca Fernanda",
-     "rating": 1,
-     "texto": "Tuve una muy mala experiencia el día de hoy acudí por un dolor muy fuerte sin embargo hubo muchas preguntas, mucha plática y no me hicieron nada que arreglara un poco el dolor o lo disminuyera, lo primero fue el pago y al último fue lo de cuando iba a pagar con cada sesión  eso si se me hizo muy raro pero no creo regresar, me decepcionó muchísimo el lugar, 0 recomendaciones",
-     "cuando": "en la última semana",
-     "time": 1787096018
-    },
-    {
-     "autor": "Gustavo Perez",
-     "rating": 4,
-     "texto": "La tranquilidad ,es su sello.",
-     "cuando": "en la última semana",
-     "time": 1787094564
-    },
-    {
-     "autor": "Azalia Lucero",
-     "rating": 3,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1787094289
     }
    ]
   },
@@ -711,11 +711,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5eI3L7b_0YURAc1SHPVw8J4",
    "rating": 4.1,
-   "reviews": 48,
+   "reviews": 49,
    "maps_url": "https://maps.google.com/?cid=11452778050447658241",
    "direccion": "Av. Andrés Molina Enríquez 174, San Pedro Iztacalco, Iztacalco, 08220 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Arturo Martinez Morales",
+     "rating": 4,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787345120
+    },
     {
      "autor": "Ramirez Mendoza Ezequiel",
      "rating": 2,
@@ -743,13 +750,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente trabajo",
      "cuando": "Hace 3 meses",
      "time": 1777332494
-    },
-    {
-     "autor": "Brisel Cano Marín",
-     "rating": 5,
-     "texto": "",
-     "cuando": "Hace 4 meses",
-     "time": 1776296860
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2048,
+  "total_resenas": 2053,
   "rating_promedio_ponderado": 4.63,
-  "resenas_nuevas_7d": 29
+  "resenas_nuevas_7d": 34
  },
  "historial": [
   {
@@ -1109,7 +1109,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-21",
-   "total_resenas": 2048,
+   "total_resenas": 2053,
    "rating_prom": 4.63
   }
  ]
