@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-22T10:53:18",
+ "actualizado": "2026-08-22T11:26:18",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -11,13 +11,6 @@ window.GOOGLE_REVIEWS_DATA = {
    "direccion": "Cecilio Robelo 369, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
-    {
-     "autor": "Monica Tahimy Avendaño González",
-     "rating": 5,
-     "texto": "Llevo ya 10 sesiones y la atención ha sido excelente , profesional y muy puntual .",
-     "cuando": "en la última semana",
-     "time": 1787414353
-    },
     {
      "autor": "gabon 999",
      "rating": 5,
@@ -45,6 +38,13 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 1 mes",
      "time": 1783058664
+    },
+    {
+     "autor": "Brenda Herrera",
+     "rating": 5,
+     "texto": "Llevo más de dos meses acudiendo a la clínica la cual me la recomendaron porque tuve una operación y es la primera clínica en la cual veo resultados en un corto periodo cuando en otros lugares me comentaron que no tendría mejoría puesto que aquí los especialistas son expertos en su área pues están titulados y en otros lugares no.\nRecomiendo ampliamente el lugar para aquellas personas que necesitan una rehabilitación, te realizan una valoración para conocer tu caso y poder adecuar el plan a tu medida.",
+     "cuando": "Hace 2 meses",
+     "time": 1781064447
     }
    ]
   },
@@ -513,7 +513,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Grivi Nyff",
      "rating": 5,
      "texto": "Una trato muy bueno, te gyian en todo el proceso y desde la primera sesión uno siente la mejoría que el tratamiento te brinda. Los licenciados muy profesionales.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786813210
     }
    ]
