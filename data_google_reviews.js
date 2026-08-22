@@ -1,16 +1,23 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-22T09:08:56",
+ "actualizado": "2026-08-22T10:53:18",
  "sucursales": [
   {
    "nombre": "Balbuena",
    "categoria": "sede",
    "place_id": "ChIJRdk0xh7_0YURftDWC1Nows8",
    "rating": 4.5,
-   "reviews": 235,
+   "reviews": 236,
    "maps_url": "https://maps.google.com/?cid=14970642817223151742",
    "direccion": "Cecilio Robelo 369, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Monica Tahimy Avendaño González",
+     "rating": 5,
+     "texto": "Llevo ya 10 sesiones y la atención ha sido excelente , profesional y muy puntual .",
+     "cuando": "en la última semana",
+     "time": 1787414353
+    },
     {
      "autor": "gabon 999",
      "rating": 5,
@@ -38,13 +45,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 1 mes",
      "time": 1783058664
-    },
-    {
-     "autor": "Brenda Herrera",
-     "rating": 5,
-     "texto": "Llevo más de dos meses acudiendo a la clínica la cual me la recomendaron porque tuve una operación y es la primera clínica en la cual veo resultados en un corto periodo cuando en otros lugares me comentaron que no tendría mejoría puesto que aquí los especialistas son expertos en su área pues están titulados y en otros lugares no.\nRecomiendo ampliamente el lugar para aquellas personas que necesitan una rehabilitación, te realizan una valoración para conocer tu caso y poder adecuar el plan a tu medida.",
-     "cuando": "Hace 2 meses",
-     "time": 1781064447
     }
    ]
   },
@@ -100,11 +100,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.5,
-   "reviews": 185,
+   "reviews": 186,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Patricia Lopez",
+     "rating": 5,
+     "texto": "Buena Atención, personal capacitado y amable e instalaciones limpias",
+     "cuando": "en la última semana",
+     "time": 1787415211
+    },
     {
      "autor": "Diana Sarai Alvarez",
      "rating": 5,
@@ -132,13 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Se me brindó la atención con un personal médico/sanitario distinto casi en todas mis consultas.\nEsta falta de continuidad o imprevisto en el personal asignado generó inconsistencias en el seguimiento de mi caso.\nMe solicitaron realizar unas segundas radiografías; sin embargo, el personal no me dio ningún seguimiento ni información al respecto hasta que fui yo quien tuvo que preguntar directamente por los resultados.\nConsidero que esta omisión compromete la calidad y precisión de mi valoración médica, dejando de lado un estudio diagnóstico indispensable para mi condición.\nAl principio me hablaron sobre una valoración inicial que consistía en tomarme una foto con una tablet para mostrarme un comparativo del antes y el después. Sin embargo, al finalizar mis sesiones nunca realizaron dicha toma ni me mostraron el resultado; simplemente me atendieron como una consulta convencional.\nDurante varias de mis sesiones pude notar que a todos los clientes les ofrecen el paquete de 10 sesiones como estrategia para vender el servicio. Sin embargo, la atención posterior se siente impersonal, dando la impresión de que solo atienden por cumplir con el horario asignado.\nSi bien el personal siempre fue amable y con buena disposición, considero que el problema radica en el esquema de trabajo de la empresa. Los fisioterapeutas solo cumplen con el servicio asignado, aunque cabe destacar que algunos brindaron una mejor atención al tomarse el tiempo de explicar detalladamente cada procedimiento.\n(Les recomiendo considerar otras opciones si tienen la oportunidad. El costo es elevado para la calidad y los servicios que realmente ofrecen).",
      "cuando": "en la última semana",
      "time": 1787196293
-    },
-    {
-     "autor": "Nayely Martínez Orozco",
-     "rating": 1,
-     "texto": "Pésimo trato, en la recepción parece que te están haciendo un favor.\nLas terapias duran menos de 40 minutos, un día llegué tarde 5 min y tardaron en abrir 10 minutos y hubo reclamo de parte de recepción, aún así la Fisio fue profesional y me dió la terapia.\nCon respecto a los profesionales del área no tengo ningún tema, acupuntura, quiropráctico y Fisio han sido buenos aunque podría mejorarse la atención en cuanto a seguimiento.\nHay un mal trato de parte de recepción y aún tengo sesiones por tomar entonces es muy probable que siga pasando.\nNo recomiendo por el simple hecho de que una vez que pagas el servicio va decayendo, las sesiones son cada vez más cortas y la atención es peor cada sesión.",
-     "cuando": "en la última semana",
-     "time": 1787160096
     }
    ]
   },
@@ -231,7 +231,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "silvia moreno",
      "rating": 5,
      "texto": "Muy buena atención, tanto en recepción como los doctores que nos tratan, lo recomiendo al 100.",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1782230039
     }
    ]
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2053,
+  "total_resenas": 2055,
   "rating_promedio_ponderado": 4.63,
-  "resenas_nuevas_7d": 28
+  "resenas_nuevas_7d": 30
  },
  "historial": [
   {
@@ -1114,7 +1114,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-22",
-   "total_resenas": 2053,
+   "total_resenas": 2055,
    "rating_prom": 4.63
   }
  ]
