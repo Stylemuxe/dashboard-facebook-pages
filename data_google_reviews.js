@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-21T16:10:39",
+ "actualizado": "2026-08-21T21:21:42",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -59,6 +59,13 @@ window.GOOGLE_REVIEWS_DATA = {
    "telefono": "55 6885 8200",
    "resenas_recientes": [
     {
+     "autor": "Yael García",
+     "rating": 2,
+     "texto": "Sé que es un negocio, pero es engañoso. La primera consulta es un interrogatorio medio mal hecho; me pusieron nodos y una faja que comprime y descomprime, a lo mucho duró 40min, y aunque estoy consciente de que mis problemas posturales no se resuelven en 1h, esperaba una revisión más completa. Proponen un plan de 15 sesiones, entre quirofisico, fisioterapeuta y acupunturista; con descuento me salía en casi 9mil pesos; quizá haya gente que pueda costear pagar eso en semana y media o tres semanas (el límite en el que debe liquidarse el tratamiento completo son las primeras tres sesiones). Cuando agendas consulta no te dicen nada de su plan de tratamiento. Te cobran antes de entrar a la consulta, que a pesar del descuento se siente caro para lo que ofrecen (al menos esta sesión 1). No volveré. Le pongo dos estrellas porque el staff es amable.",
+     "cuando": "en la última semana",
+     "time": 1787346700
+    },
+    {
      "autor": "Juan Carlos Martínez",
      "rating": 5,
      "texto": "Son muy profesionales en todas sus áreas, los médicos de fisioterapia, acupuntura y quiropráctico, área administrativa siempre atentos y sonrientes en todo momento, muy recomendables :)",
@@ -85,13 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "El Dr. Edson Gallardo en el  área de acupuntura excelente servicio, aclara todas nuestras dudas\nMuchas gracias 😊",
      "cuando": "Hace 2 semanas",
      "time": 1785882289
-    },
-    {
-     "autor": "Ximena Cecilia Dorantes Valdez",
-     "rating": 5,
-     "texto": "Es un tratamiento integral. Me han ayudado muchísimo con el dolor pero sobretodo atender la raíz de varios problemas que no tenía diagnosticados y que hasta llegar acá pude darles nombre. Todos altamente capacitados y amables. Lili en Fisio, Edson en Acu y Enrique en Quiro me han ayudado muchísimo a la atención del dolor y mi rehabilitación.",
-     "cuando": "Hace 2 semanas",
-     "time": 1785874218
     }
    ]
   },
@@ -344,7 +344,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jorge Hdz",
      "rating": 5,
      "texto": "Llevo ya 5 sesiones con ellos desde mi valoración fueron muy claros y amables. Tengo una gran mejoría y sin duda la única clínica en la zona con 3 especialidades y con su personal super preparado. Lo recomiendo ampliamente también por sus promociones accesibles",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786763680
     },
     {
@@ -734,7 +734,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Abel Badillo",
      "rating": 1,
      "texto": "Pésima atención, publicidad engañosa e inconsistencia en el servicio.\n\nOfrecen en su menú la “Valoración digital de postura”, pero se la negaron a mi esposa por “falta de tiempo”, táctica evidente para vender citas posteriores. La mayor parte del tiempo pagado se fue en llenar el expediente y cotizar paquetes, la terapia real duró apenas 10 minutos.\n\nEn clínicas profesionales la parte administrativa no le quita tiempo a la atención y no tiene costo, la terapia se cobra a su precio regular. Aquí, en cambio, te cobran antes de atenderte, asegurando el dinero pese a la mala calidad del servicio.\n\nEn su folleto aseguran estar “reguladas por COFEPRIS”, pero omiten por completo el número de registro/folio del Aviso de Funcionamiento, que por ley debe aparecer de forma obligatoria tanto en publicidad como en las hojas de evaluación.",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785549980
     },
     {
@@ -835,7 +835,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Xochitl hernandez",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1779581048
     },
     {
