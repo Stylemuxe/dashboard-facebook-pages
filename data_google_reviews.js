@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-22T12:09:02",
+ "actualizado": "2026-08-23T04:04:07",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -11,6 +11,13 @@ window.GOOGLE_REVIEWS_DATA = {
    "direccion": "Cecilio Robelo 369, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Monica Tahimy Avendaño González",
+     "rating": 5,
+     "texto": "Llevo ya 10 sesiones y la atención ha sido excelente , profesional y muy puntual .",
+     "cuando": "en la última semana",
+     "time": 1787414353
+    },
     {
      "autor": "gabon 999",
      "rating": 5,
@@ -38,13 +45,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 1 mes",
      "time": 1783058664
-    },
-    {
-     "autor": "Brenda Herrera",
-     "rating": 5,
-     "texto": "Llevo más de dos meses acudiendo a la clínica la cual me la recomendaron porque tuve una operación y es la primera clínica en la cual veo resultados en un corto periodo cuando en otros lugares me comentaron que no tendría mejoría puesto que aquí los especialistas son expertos en su área pues están titulados y en otros lugares no.\nRecomiendo ampliamente el lugar para aquellas personas que necesitan una rehabilitación, te realizan una valoración para conocer tu caso y poder adecuar el plan a tu medida.",
-     "cuando": "Hace 2 meses",
-     "time": 1781064447
     }
    ]
   },
@@ -53,11 +53,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 224,
+   "reviews": 225,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
    "telefono": "55 6885 8200",
    "resenas_recientes": [
+    {
+     "autor": "barby b.",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787422719
+    },
     {
      "autor": "Yael García",
      "rating": 2,
@@ -69,7 +76,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Juan Carlos Martínez",
      "rating": 5,
      "texto": "Son muy profesionales en todas sus áreas, los médicos de fisioterapia, acupuntura y quiropráctico, área administrativa siempre atentos y sonrientes en todo momento, muy recomendables :)",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786838201
     },
     {
@@ -85,13 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "todo muy bien buena tensión",
      "cuando": "Hace 2 semanas",
      "time": 1786046144
-    },
-    {
-     "autor": "Sabomnim Melody",
-     "rating": 5,
-     "texto": "El Dr. Edson Gallardo en el  área de acupuntura excelente servicio, aclara todas nuestras dudas\nMuchas gracias 😊",
-     "cuando": "Hace 2 semanas",
-     "time": 1785882289
     }
    ]
   },
@@ -99,12 +99,26 @@ window.GOOGLE_REVIEWS_DATA = {
    "nombre": "Neza",
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
-   "rating": 4.5,
-   "reviews": 186,
+   "rating": 4.6,
+   "reviews": 187,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Joly Villafaña",
+     "rating": 5,
+     "texto": "Excelente servicio 👍🏻",
+     "cuando": "en la última semana",
+     "time": 1787437386
+    },
+    {
+     "autor": "Josue González",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787435620
+    },
     {
      "autor": "Patricia Lopez",
      "rating": 5,
@@ -125,20 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "en la última semana",
      "time": 1787349462
-    },
-    {
-     "autor": "Elizabeth Chavez Daugueth",
-     "rating": 5,
-     "texto": "Ha disminuido el dolor de espalda considerablemente.",
-     "cuando": "en la última semana",
-     "time": 1787349265
-    },
-    {
-     "autor": "Plaj Erko",
-     "rating": 1,
-     "texto": "Se me brindó la atención con un personal médico/sanitario distinto casi en todas mis consultas.\nEsta falta de continuidad o imprevisto en el personal asignado generó inconsistencias en el seguimiento de mi caso.\nMe solicitaron realizar unas segundas radiografías; sin embargo, el personal no me dio ningún seguimiento ni información al respecto hasta que fui yo quien tuvo que preguntar directamente por los resultados.\nConsidero que esta omisión compromete la calidad y precisión de mi valoración médica, dejando de lado un estudio diagnóstico indispensable para mi condición.\nAl principio me hablaron sobre una valoración inicial que consistía en tomarme una foto con una tablet para mostrarme un comparativo del antes y el después. Sin embargo, al finalizar mis sesiones nunca realizaron dicha toma ni me mostraron el resultado; simplemente me atendieron como una consulta convencional.\nDurante varias de mis sesiones pude notar que a todos los clientes les ofrecen el paquete de 10 sesiones como estrategia para vender el servicio. Sin embargo, la atención posterior se siente impersonal, dando la impresión de que solo atienden por cumplir con el horario asignado.\nSi bien el personal siempre fue amable y con buena disposición, considero que el problema radica en el esquema de trabajo de la empresa. Los fisioterapeutas solo cumplen con el servicio asignado, aunque cabe destacar que algunos brindaron una mejor atención al tomarse el tiempo de explicar detalladamente cada procedimiento.\n(Les recomiendo considerar otras opciones si tienen la oportunidad. El costo es elevado para la calidad y los servicios que realmente ofrecen).",
-     "cuando": "en la última semana",
-     "time": 1787196293
     }
    ]
   },
@@ -156,7 +156,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Lupita Alvarado",
      "rating": 5,
      "texto": "Gracias a  Equilibrio Total , pues gracias a  su tratamiento  mi hijo mejoro con su tema de cervicales , aparte todo el personal que trabaja ahí son muy atentos , lo recomiendo  ampliamente!",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786216610
     },
     {
@@ -271,7 +271,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "GLEN SALVADOR MORA DIAZ BARRIGA",
      "rating": 5,
      "texto": "Excelentes centro de rehabilitación y fisioterapia al sur .. costos accesibles y buen equipo. Atiendes motriz, postquirurgicos, columna, neuropatías y más ...",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1782258151
     },
     {
@@ -288,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
-   "reviews": 125,
+   "reviews": 126,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
    "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Karmen Hernandez",
+     "rating": 4,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787443186
+    },
     {
      "autor": "Leticia Vergara",
      "rating": 4,
@@ -320,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Buen servicio",
      "cuando": "en la última semana",
      "time": 1787003683
-    },
-    {
-     "autor": "HERIBERTO RODRIGUEZ BELTRAN",
-     "rating": 5,
-     "texto": "Me he sentido bien en la clínica de rehabilitación , la atención es excelente .",
-     "cuando": "Hace una semana",
-     "time": 1786725007
     }
    ]
   },
@@ -351,7 +351,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Orlando Ambriz Ramirez",
      "rating": 1,
      "texto": "No lo recomiendo, en mi caso una molestia leve no discapacitante me intentaron vender una tratamiento para amarrarme a 10 sesiones, el quiropráctico Daniel ni siquiera me preguntó en qué parte de la espalda es la molestia. No dan diagnóstico claro",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786212736
     },
     {
@@ -382,11 +382,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJk2FOrktb04URnMe5TI5ysiY",
    "rating": 4.8,
-   "reviews": 93,
+   "reviews": 94,
    "maps_url": "https://maps.google.com/?cid=2788417074793924508",
    "direccion": "Calle Gral. Ramón Corona 19, Centro, 76000 Santiago de Querétaro, Qro., México",
    "telefono": "442 683 5093",
    "resenas_recientes": [
+    {
+     "autor": "Martha Palomo",
+     "rating": 5,
+     "texto": "Hola mi experiencia con equilibrio total a sido muy buena desde el primer día de mi evaluación llevo 3 terapias y tengo tendonitis en las piernas y e mejorado bastante no podía caminar y ya camino despacio pero camino y mis dolores se an minimizado bastante espero que mejore con las terapias que me faltan",
+     "cuando": "en la última semana",
+     "time": 1787426262
+    },
     {
      "autor": "Roci MR",
      "rating": 5,
@@ -398,7 +405,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jose Adrián Valadez Nieves",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786219929
     },
     {
@@ -414,13 +421,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Exelente Servicio Me an ayudado con el Tema de Mi Ansiedad y Mis Hernias Discales muy Buen Servicio Lo que me llamó la Atención es que si Son Licenciados en el Área de la Rehabilitación cuentan con su Cédula Profesional y sus Permisos en Regla Muy Recomendable",
      "cuando": "Hace 3 semanas",
      "time": 1785447892
-    },
-    {
-     "autor": "Francisco Javier Ramírez Juárez",
-     "rating": 4,
-     "texto": "",
-     "cuando": "Hace 1 mes",
-     "time": 1784493179
     }
    ]
   },
@@ -506,7 +506,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Gres Mt",
      "rating": 1,
      "texto": "No me lleve una buena experiencia,  no me ayudaron a mi problema, esperaba mejor atención.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786838369
     },
     {
@@ -579,7 +579,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "naye gonzalez",
      "rating": 5,
      "texto": "Éstos tratamientos integrales funcionan, hay estudios que lo corroboran, además recuerdan cita con prioridad, ampliamente recomendado, flexibilidad de horario",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784850989
     },
     {
@@ -633,7 +633,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Neri Aguilar",
      "rating": 5,
      "texto": "Excelente atención, lo recomiendo ampliamente 👍🏽",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1785025180
     },
     {
@@ -673,7 +673,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Luisa Martinez",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1784839494
     },
     {
@@ -774,7 +774,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jimena Jiménez",
      "rating": 5,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786822382
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2055,
-  "rating_promedio_ponderado": 4.63,
-  "resenas_nuevas_7d": 30
+  "total_resenas": 2059,
+  "rating_promedio_ponderado": 4.64,
+  "resenas_nuevas_7d": 34
  },
  "historial": [
   {
@@ -1116,6 +1116,11 @@ window.GOOGLE_REVIEWS_DATA = {
    "fecha": "2026-08-22",
    "total_resenas": 2055,
    "rating_prom": 4.63
+  },
+  {
+   "fecha": "2026-08-23",
+   "total_resenas": 2059,
+   "rating_prom": 4.64
   }
  ]
 };
