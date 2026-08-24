@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-24T09:53:56",
+ "actualizado": "2026-08-24T11:09:04",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -284,6 +284,53 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Chalco",
+   "categoria": "sede",
+   "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
+   "rating": 4.4,
+   "reviews": 127,
+   "maps_url": "https://maps.google.com/?cid=15375416411117117909",
+   "direccion": "C. Arquitecto Vincente Mendiola 1, La Conchita, 56600 Chalco de Díaz Covarrubias, Méx., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Lucero Lopez",
+     "rating": 5,
+     "texto": "Excelente servicio",
+     "cuando": "en la última semana",
+     "time": 1787590843
+    },
+    {
+     "autor": "Ariadnaa Monserrath Atzin Lopez",
+     "rating": 5,
+     "texto": "Super recomendables",
+     "cuando": "en la última semana",
+     "time": 1787590468
+    },
+    {
+     "autor": "Laura Corona",
+     "rating": 5,
+     "texto": "Excelente servicio y muy amables 👍",
+     "cuando": "en la última semana",
+     "time": 1787590431
+    },
+    {
+     "autor": "Jorge Antonio Meza Hernandez",
+     "rating": 5,
+     "texto": "Son especialistas calificados, la atención es 10/10 muy atentos y profesionales en su área. Me dieron 10 sesiones y claro está desde el principio te expliquen el proceso. Renovaré por qué las mejorías han sido muy buenas.",
+     "cuando": "en la última semana",
+     "time": 1787587211
+    },
+    {
+     "autor": "Jorge Hdz",
+     "rating": 5,
+     "texto": "Llevo ya 5 sesiones con ellos desde mi valoración fueron muy claros y amables. Tengo una gran mejoría y sin duda la única clínica en la zona con 3 especialidades y con su personal super preparado. Lo recomiendo ampliamente también por sus promociones accesibles",
+     "cuando": "Hace una semana",
+     "time": 1786763680
+    }
+   ]
+  },
+  {
    "nombre": "Pachuca",
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
@@ -327,53 +374,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Buen servicio",
      "cuando": "en la última semana",
      "time": 1787003683
-    }
-   ]
-  },
-  {
-   "nombre": "Chalco",
-   "categoria": "sede",
-   "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
-   "rating": 4.4,
-   "reviews": 123,
-   "maps_url": "https://maps.google.com/?cid=15375416411117117909",
-   "direccion": "C. Arquitecto Vincente Mendiola 1, La Conchita, 56600 Chalco de Díaz Covarrubias, Méx., México",
-   "telefono": "55 4570 8299",
-   "resenas_recientes": [
-    {
-     "autor": "Jorge Hdz",
-     "rating": 5,
-     "texto": "Llevo ya 5 sesiones con ellos desde mi valoración fueron muy claros y amables. Tengo una gran mejoría y sin duda la única clínica en la zona con 3 especialidades y con su personal super preparado. Lo recomiendo ampliamente también por sus promociones accesibles",
-     "cuando": "Hace una semana",
-     "time": 1786763680
-    },
-    {
-     "autor": "Orlando Ambriz Ramirez",
-     "rating": 1,
-     "texto": "No lo recomiendo, en mi caso una molestia leve no discapacitante me intentaron vender una tratamiento para amarrarme a 10 sesiones, el quiropráctico Daniel ni siquiera me preguntó en qué parte de la espalda es la molestia. No dan diagnóstico claro",
-     "cuando": "Hace 2 semanas",
-     "time": 1786212736
-    },
-    {
-     "autor": "Francisco Sosa",
-     "rating": 1,
-     "texto": "Llegué con  hernia de disco 15 terapias y no hubo mejoría,no hay un doctor responsable",
-     "cuando": "Hace 2 meses",
-     "time": 1781699130
-    },
-    {
-     "autor": "Trámites Varios",
-     "rating": 1,
-     "texto": "No caigan en esta estafa, su súper consulta inicial es solo 10 min de electrodos y no más. Te venden planes carísimos y se molestan cuando les das tu inconformidad.",
-     "cuando": "Hace 2 meses",
-     "time": 1780779574
-    },
-    {
-     "autor": "Jesús",
-     "rating": 5,
-     "texto": "Vale la pena hacer el esfuerzo y pagar el plan integral de N sesiones; yo tenía semanas con el dolor del nervio ciático por opresión del músculo piriforme (diagnosticado por un ortopedista traumatólogo previamente) aquí me han ayudado bastante, con sesiones de acupuntura, quiropráctica, terapias físicas e podido volver a mis actividades diarias, el trato profesional y el empeño que le ponen a su trabajo son muy dedicados, en general no me arrepiento en lo absoluto se los recomiendo",
-     "cuando": "Hace 4 meses",
-     "time": 1776943677
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2060,
+  "total_resenas": 2064,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 30
+  "resenas_nuevas_7d": 34
  },
  "historial": [
   {
@@ -1124,7 +1124,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-24",
-   "total_resenas": 2060,
+   "total_resenas": 2064,
    "rating_prom": 4.64
   }
  ]
