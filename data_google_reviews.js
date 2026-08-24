@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-24T11:09:04",
+ "actualizado": "2026-08-24T12:13:59",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -553,7 +553,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rosy Irisson",
      "rating": 5,
      "texto": "Excelente atención de todo el personal!! Muy satisfecha con la atención de los Terapeutas y mejoría en mi tratamiento gracias !!👍☺️",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1785175900
     },
     {
