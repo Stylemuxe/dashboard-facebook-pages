@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-24T12:13:59",
+ "actualizado": "2026-08-24T16:07:18",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -224,7 +224,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Tere Marquez",
      "rating": 5,
      "texto": "Muy Buen servicio los especialistas muy atentos y el especialista Diego muy bueno y emir también",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1782414169
     },
     {
@@ -288,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
    "rating": 4.4,
-   "reviews": 127,
+   "reviews": 128,
    "maps_url": "https://maps.google.com/?cid=15375416411117117909",
    "direccion": "C. Arquitecto Vincente Mendiola 1, La Conchita, 56600 Chalco de Díaz Covarrubias, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Cristhian García",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787600345
+    },
     {
      "autor": "Lucero Lopez",
      "rating": 5,
@@ -320,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Son especialistas calificados, la atención es 10/10 muy atentos y profesionales en su área. Me dieron 10 sesiones y claro está desde el principio te expliquen el proceso. Renovaré por qué las mejorías han sido muy buenas.",
      "cuando": "en la última semana",
      "time": 1787587211
-    },
-    {
-     "autor": "Jorge Hdz",
-     "rating": 5,
-     "texto": "Llevo ya 5 sesiones con ellos desde mi valoración fueron muy claros y amables. Tengo una gran mejoría y sin duda la única clínica en la zona con 3 especialidades y con su personal super preparado. Lo recomiendo ampliamente también por sus promociones accesibles",
-     "cuando": "Hace una semana",
-     "time": 1786763680
     }
    ]
   },
@@ -372,7 +372,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "AGUILAR GARCIA",
      "rating": 5,
      "texto": "Buen servicio",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787003683
     }
    ]
@@ -532,7 +532,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Guadalupe Toledo",
      "rating": 1,
      "texto": "En su perfil de Facebook tienen una promoción que indica que incluye: consulta de valoración, terapia especializada, plan de ejercicios y estudio de postura.\nNo es así, no pierdan su tiempo ni dinero. Solo te hacen una serie de preguntas para ofrecerte un paquete de terapias, no hay ningún valor en esta “oferta”.",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786397533
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2064,
+  "total_resenas": 2065,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 34
+  "resenas_nuevas_7d": 35
  },
  "historial": [
   {
@@ -1124,7 +1124,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-24",
-   "total_resenas": 2064,
+   "total_resenas": 2065,
    "rating_prom": 4.64
   }
  ]
