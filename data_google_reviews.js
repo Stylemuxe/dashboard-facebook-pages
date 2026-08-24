@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-23T04:18:36",
+ "actualizado": "2026-08-23T20:20:38",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -22,7 +22,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "gabon 999",
      "rating": 5,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1786930367
     },
     {
@@ -476,11 +476,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
    "rating": 4.7,
-   "reviews": 86,
+   "reviews": 87,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Aida Villalobos",
+     "rating": 5,
+     "texto": "Fue muy y de mi agrado la terapia que dieron",
+     "cuando": "en la última semana",
+     "time": 1787516241
+    },
     {
      "autor": "Karina Cruz",
      "rating": 5,
@@ -508,13 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "No me lleve una buena experiencia,  no me ayudaron a mi problema, esperaba mejor atención.",
      "cuando": "Hace una semana",
      "time": 1786838369
-    },
-    {
-     "autor": "Grivi Nyff",
-     "rating": 5,
-     "texto": "Una trato muy bueno, te gyian en todo el proceso y desde la primera sesión uno siente la mejoría que el tratamiento te brinda. Los licenciados muy profesionales.",
-     "cuando": "Hace una semana",
-     "time": 1786813210
     }
    ]
   },
@@ -560,7 +560,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Frida S Campos R",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1785096081
     }
    ]
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2059,
+  "total_resenas": 2060,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 34
+  "resenas_nuevas_7d": 35
  },
  "historial": [
   {
@@ -1119,7 +1119,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-23",
-   "total_resenas": 2059,
+   "total_resenas": 2060,
    "rating_prom": 4.64
   }
  ]
