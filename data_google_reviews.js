@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-25T04:19:38",
+ "actualizado": "2026-08-25T17:20:31",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -264,7 +264,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Alma Verónica Murillo",
      "rating": 5,
      "texto": "Recién comienzo asistir a este lugar y el personal es muy amable, la atención es muy buena y estoy en proceso de recuperación.",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1782509724
     },
     {
@@ -335,11 +335,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
-   "reviews": 127,
+   "reviews": 128,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
    "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Georgina Trejo",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787699664
+    },
     {
      "autor": "Jose Antonio Fortes",
      "rating": 5,
@@ -365,15 +372,8 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Shely Lopez",
      "rating": 5,
      "texto": "Magnífica atención y aparatos muy buenos y yo sí tuve mejoría buenos médicos",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787083895
-    },
-    {
-     "autor": "Reinaldo Ramirez",
-     "rating": 5,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1787076491
     }
    ]
   },
@@ -382,11 +382,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJk2FOrktb04URnMe5TI5ysiY",
    "rating": 4.8,
-   "reviews": 95,
+   "reviews": 96,
    "maps_url": "https://maps.google.com/?cid=2788417074793924508",
    "direccion": "Calle Gral. Ramón Corona 19, Centro, 76000 Santiago de Querétaro, Qro., México",
    "telefono": "442 683 5093",
    "resenas_recientes": [
+    {
+     "autor": "Juana Velazquez",
+     "rating": 4,
+     "texto": "Excelente atención",
+     "cuando": "en la última semana",
+     "time": 1787685933
+    },
     {
      "autor": "Isabel",
      "rating": 5,
@@ -414,13 +421,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 2 semanas",
      "time": 1786219929
-    },
-    {
-     "autor": "neyri casas",
-     "rating": 5,
-     "texto": "Lo recomiendo mucho , fui con un problema de mi columna y me han ayudado bastante , el trato es muy bueno por parte de todos los especialistas, muy amables y atentos.",
-     "cuando": "Hace 3 semanas",
-     "time": 1785463391
     }
    ]
   },
@@ -475,12 +475,19 @@ window.GOOGLE_REVIEWS_DATA = {
    "nombre": "Coacalco",
    "categoria": "sede",
    "place_id": "ChIJv-p40sjz0YURSXSy2RYUv6g",
-   "rating": 4.7,
-   "reviews": 87,
+   "rating": 4.8,
+   "reviews": 88,
    "maps_url": "https://maps.google.com/?cid=12159459607297815625",
    "direccion": "Av. Lopez Portillo Esq, Blvrd Coacalco S/N, Villa de las Flores, 55710 San Francisco Coacalco, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "betzabeth sanchez",
+     "rating": 5,
+     "texto": "En el mes de Mayo traje a mi mamá Gabriela Sánchez a su primer cita, el trato fue muy bien, específico y en cuestión económica también me pareció excelente. Los planes de pago y sobre todo la atención de los Lic que trataron particularmente fue muy bien.\n💯 Recomendable",
+     "cuando": "en la última semana",
+     "time": 1787677573
+    },
     {
      "autor": "Aida Villalobos",
      "rating": 5,
@@ -508,13 +515,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Recibi el tratamiento para mi lesión de forma profesional y ecertada con lo cual disminuyo considerablemente el malestar que me aquejaba... Felicitaciones al grupo de trabajo de Equilibrio Total por su forma de trabajar ya que me hicieron sentir muy comodo, asesorado y tratado con toda la atencion del mundo... gracias",
      "cuando": "en la última semana",
      "time": 1787169739
-    },
-    {
-     "autor": "Gres Mt",
-     "rating": 1,
-     "texto": "No me lleve una buena experiencia,  no me ayudaron a mi problema, esperaba mejor atención.",
-     "cuando": "Hace una semana",
-     "time": 1786838369
     }
    ]
   },
@@ -560,7 +560,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Frida S Campos R",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1785096081
     }
    ]
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2069,
-  "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 30
+  "total_resenas": 2072,
+  "rating_promedio_ponderado": 4.65,
+  "resenas_nuevas_7d": 33
  },
  "historial": [
   {
@@ -1129,8 +1129,8 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-25",
-   "total_resenas": 2069,
-   "rating_prom": 4.64
+   "total_resenas": 2072,
+   "rating_prom": 4.65
   }
  ]
 };
