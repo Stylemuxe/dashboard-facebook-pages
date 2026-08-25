@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-24T16:07:18",
+ "actualizado": "2026-08-24T21:44:27",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -53,11 +53,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 225,
+   "reviews": 226,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
    "telefono": "55 6885 8200",
    "resenas_recientes": [
+    {
+     "autor": "fidel martinez",
+     "rating": 5,
+     "texto": "Muy. Buena la atención por parte. Del persona todos. Muy atentos megusta los resultados mejorado mucho me siento bien. Estos días. De asistencia en equilibrio  total de verdad estoy muy. Contento aa y como mean consentido\nlas señoritas de recepción la verdad\n\nPosdata. Que no quiten esa amabilidad y cortecia Asta  hora y muchas. Gracias",
+     "cuando": "en la última semana",
+     "time": 1787619588
+    },
     {
      "autor": "barby b.",
      "rating": 5,
@@ -85,13 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Muy buena experiencia, llegué con un problema con mi rodilla y supieron darle un buen seguimiento y tratamiento para sentirme mejor, mucho reconocimiento a los especialistas que supieron atender mi malestar",
      "cuando": "Hace una semana",
      "time": 1786496246
-    },
-    {
-     "autor": "Lupe Muñoa",
-     "rating": 5,
-     "texto": "todo muy bien buena tensión",
-     "cuando": "Hace 2 semanas",
-     "time": 1786046144
     }
    ]
   },
@@ -288,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
    "rating": 4.4,
-   "reviews": 128,
+   "reviews": 129,
    "maps_url": "https://maps.google.com/?cid=15375416411117117909",
    "direccion": "C. Arquitecto Vincente Mendiola 1, La Conchita, 56600 Chalco de Díaz Covarrubias, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Itzel Nahomy AtzinLopez",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787627458
+    },
     {
      "autor": "Cristhian García",
      "rating": 5,
@@ -320,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio y muy amables 👍",
      "cuando": "en la última semana",
      "time": 1787590431
-    },
-    {
-     "autor": "Jorge Antonio Meza Hernandez",
-     "rating": 5,
-     "texto": "Son especialistas calificados, la atención es 10/10 muy atentos y profesionales en su área. Me dieron 10 sesiones y claro está desde el principio te expliquen el proceso. Renovaré por qué las mejorías han sido muy buenas.",
-     "cuando": "en la última semana",
-     "time": 1787587211
     }
    ]
   },
@@ -335,11 +335,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
-   "reviews": 126,
+   "reviews": 127,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
    "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Jose Antonio Fortes",
+     "rating": 5,
+     "texto": "Excelente servicio, me quitaron el dolor del manguito rotador",
+     "cuando": "en la última semana",
+     "time": 1787612246
+    },
     {
      "autor": "Karmen Hernandez",
      "rating": 4,
@@ -367,13 +374,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "en la última semana",
      "time": 1787076491
-    },
-    {
-     "autor": "AGUILAR GARCIA",
-     "rating": 5,
-     "texto": "Buen servicio",
-     "cuando": "Hace una semana",
-     "time": 1787003683
     }
    ]
   },
@@ -382,11 +382,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJk2FOrktb04URnMe5TI5ysiY",
    "rating": 4.8,
-   "reviews": 94,
+   "reviews": 95,
    "maps_url": "https://maps.google.com/?cid=2788417074793924508",
    "direccion": "Calle Gral. Ramón Corona 19, Centro, 76000 Santiago de Querétaro, Qro., México",
    "telefono": "442 683 5093",
    "resenas_recientes": [
+    {
+     "autor": "Isabel",
+     "rating": 5,
+     "texto": "Un excelente servicio, totalmente garantizado y recomendado, mejoría desde la primera vez",
+     "cuando": "en la última semana",
+     "time": 1787615157
+    },
     {
      "autor": "Martha Palomo",
      "rating": 5,
@@ -414,13 +421,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Lo recomiendo mucho , fui con un problema de mi columna y me han ayudado bastante , el trato es muy bueno por parte de todos los especialistas, muy amables y atentos.",
      "cuando": "Hace 3 semanas",
      "time": 1785463391
-    },
-    {
-     "autor": "gabriel.1973",
-     "rating": 5,
-     "texto": "Exelente Servicio Me an ayudado con el Tema de Mi Ansiedad y Mis Hernias Discales muy Buen Servicio Lo que me llamó la Atención es que si Son Licenciados en el Área de la Rehabilitación cuentan con su Cédula Profesional y sus Permisos en Regla Muy Recomendable",
-     "cuando": "Hace 3 semanas",
-     "time": 1785447892
     }
    ]
   },
@@ -633,7 +633,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Neri Aguilar",
      "rating": 5,
      "texto": "Excelente atención, lo recomiendo ampliamente 👍🏽",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1785025180
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2065,
+  "total_resenas": 2069,
   "rating_promedio_ponderado": 4.64,
-  "resenas_nuevas_7d": 35
+  "resenas_nuevas_7d": 39
  },
  "historial": [
   {
@@ -1124,7 +1124,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-24",
-   "total_resenas": 2065,
+   "total_resenas": 2069,
    "rating_prom": 4.64
   }
  ]
