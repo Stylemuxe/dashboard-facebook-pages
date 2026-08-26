@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-26T10:25:21",
+ "actualizado": "2026-08-26T16:15:55",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -100,11 +100,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 187,
+   "reviews": 188,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Jonathan Joestar",
+     "rating": 5,
+     "texto": "Buena atención y buen servicio! 🙌",
+     "cuando": "en la última semana",
+     "time": 1787760733
+    },
     {
      "autor": "Joly Villafaña",
      "rating": 5,
@@ -132,13 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Tenía dudas de atenderme aquí porque una de mis super amigas es fisio y siempre me había atendido ella, ahora por cuestiones personales no puede atenderme y recurrí a esta clínica, desde el día 1 vi una mejora impresionante en una lesión que venía doliendo intermitentemente desde hace un año aproximadamente, y la verdad el plan, la explicación y la terapia me ha ayudado mucho, y eso que solo llevo dos sesiones.\nMuchas gracias Equilibrio total 🥰",
      "cuando": "en la última semana",
      "time": 1787349599
-    },
-    {
-     "autor": "Martínez López José Ángel",
-     "rating": 5,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1787349462
     }
    ]
   },
@@ -250,14 +250,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Optica Quarzo",
      "rating": 5,
      "texto": "Recomiendo amplia y confiablemente Equilibrio Total con las terapias que ofrecen como rehabilitación neuropatía articulaciones parálisis facial varices ciática",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786572768
     },
     {
      "autor": "Javier Garcia",
      "rating": 3,
      "texto": "No lo visite",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785961987
     },
     {
@@ -513,7 +513,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ramon Torres Molina",
      "rating": 5,
      "texto": "Recibi el tratamiento para mi lesión de forma profesional y ecertada con lo cual disminuyo considerablemente el malestar que me aquejaba... Felicitaciones al grupo de trabajo de Equilibrio Total por su forma de trabajar ya que me hicieron sentir muy comodo, asesorado y tratado con toda la atencion del mundo... gracias",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787169739
     }
    ]
@@ -546,14 +546,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Brandon Iván Hernández García",
      "rating": 1,
      "texto": "Pagué un paquete de sesiones, avisé que saldria de viaje y al regreso ya no me respetaron las sesiones restantes. Mandé mensajes y se tardaron días en responder y al final me dejaron de contestar.\n\nNo muy grata experiencia",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1785360491
     },
     {
      "autor": "Rosy Irisson",
      "rating": 5,
      "texto": "Excelente atención de todo el personal!! Muy satisfecha con la atención de los Terapeutas y mejoría en mi tratamiento gracias !!👍☺️",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1785175900
     },
     {
@@ -586,7 +586,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "zita roa labarrios",
      "rating": 5,
      "texto": "Buenas tardes mis felicitaciones a las tres doctoras fisioterapia, quiropráctico y acupuntura excelente trabajo y son muy humanas agradecida por la atención mil gracias, la señorita Pilar es muy atenta, cordial explica todo el funcionamiento del centro perfecto de nuevo mil gracias",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1782598460
     },
     {
@@ -814,7 +814,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jorge Palacios",
      "rating": 3,
      "texto": "Excelente atención de las terapeutas .solo que no dan la opción de pagar por sesión y solo en una exhibición por 7000 por 10 sesiones .(Al contactarlos no te anticipan esa modalidad)",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1785349795
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2072,
+  "total_resenas": 2073,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 28
+  "resenas_nuevas_7d": 29
  },
  "historial": [
   {
@@ -1134,7 +1134,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-26",
-   "total_resenas": 2072,
+   "total_resenas": 2073,
    "rating_prom": 4.65
   }
  ]
