@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-25T17:20:31",
+ "actualizado": "2026-08-26T08:56:45",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -90,7 +90,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Iker Ledesma",
      "rating": 5,
      "texto": "Muy buena experiencia, llegué con un problema con mi rodilla y supieron darle un buen seguimiento y tratamiento para sentirme mejor, mucho reconocimiento a los especialistas que supieron atender mi malestar",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786496246
     }
    ]
@@ -748,7 +748,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rafael Saldaña Quezada",
      "rating": 5,
      "texto": "Excelente trabajo",
-     "cuando": "Hace 3 meses",
+     "cuando": "Hace 4 meses",
      "time": 1777332494
     }
    ]
@@ -767,7 +767,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Saul Reyes",
      "rating": 5,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787142579
     },
     {
@@ -1019,7 +1019,7 @@ window.GOOGLE_REVIEWS_DATA = {
   "total_sucursales": 22,
   "total_resenas": 2072,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 33
+  "resenas_nuevas_7d": 28
  },
  "historial": [
   {
@@ -1129,6 +1129,11 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-25",
+   "total_resenas": 2072,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-26",
    "total_resenas": 2072,
    "rating_prom": 4.65
   }
