@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-26T09:14:50",
+ "actualizado": "2026-08-26T10:25:21",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -626,7 +626,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ara Ornelas",
      "rating": 3,
      "texto": "Jóvenes especialistas, pero toda consulta la difieren a 10 o más citas, así que resulta costoso. La fisioterapeuta 10 de 10",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1785942882
     },
     {
