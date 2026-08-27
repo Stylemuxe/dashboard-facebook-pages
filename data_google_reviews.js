@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-26T16:15:55",
+ "actualizado": "2026-08-26T23:11:10",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -53,11 +53,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 226,
+   "reviews": 227,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
    "telefono": "55 6885 8200",
    "resenas_recientes": [
+    {
+     "autor": "Uriel Martinez",
+     "rating": 5,
+     "texto": "Llegué con un dolor un poco fuerte en mi rodilla derecha y desde las primeras cesiones he mejorado mucho el personal es muy amable y están al pendiente de como va uno evolucionando con su terapia estoy muy contento 😀",
+     "cuando": "en la última semana",
+     "time": 1787796861
+    },
     {
      "autor": "fidel martinez",
      "rating": 5,
@@ -85,13 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Son muy profesionales en todas sus áreas, los médicos de fisioterapia, acupuntura y quiropráctico, área administrativa siempre atentos y sonrientes en todo momento, muy recomendables :)",
      "cuando": "Hace una semana",
      "time": 1786838201
-    },
-    {
-     "autor": "Iker Ledesma",
-     "rating": 5,
-     "texto": "Muy buena experiencia, llegué con un problema con mi rodilla y supieron darle un buen seguimiento y tratamiento para sentirme mejor, mucho reconocimiento a los especialistas que supieron atender mi malestar",
-     "cuando": "Hace 2 semanas",
-     "time": 1786496246
     }
    ]
   },
@@ -100,11 +100,25 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 188,
+   "reviews": 190,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "martin aldahir almaz hernandez",
+     "rating": 5,
+     "texto": "Buen trato y servicio de primera calidad",
+     "cuando": "en la última semana",
+     "time": 1787787614
+    },
+    {
+     "autor": "Jose Carlos Reyes Villegas",
+     "rating": 5,
+     "texto": "Muy buena atención",
+     "cuando": "en la última semana",
+     "time": 1787782642
+    },
     {
      "autor": "Jonathan Joestar",
      "rating": 5,
@@ -125,20 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "en la última semana",
      "time": 1787435620
-    },
-    {
-     "autor": "Patricia Lopez",
-     "rating": 5,
-     "texto": "Buena Atención, personal capacitado y amable e instalaciones limpias",
-     "cuando": "en la última semana",
-     "time": 1787415211
-    },
-    {
-     "autor": "Diana Sarai Alvarez",
-     "rating": 5,
-     "texto": "Tenía dudas de atenderme aquí porque una de mis super amigas es fisio y siempre me había atendido ella, ahora por cuestiones personales no puede atenderme y recurrí a esta clínica, desde el día 1 vi una mejora impresionante en una lesión que venía doliendo intermitentemente desde hace un año aproximadamente, y la verdad el plan, la explicación y la terapia me ha ayudado mucho, y eso que solo llevo dos sesiones.\nMuchas gracias Equilibrio total 🥰",
-     "cuando": "en la última semana",
-     "time": 1787349599
     }
    ]
   },
@@ -365,7 +365,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Leticia Vergara",
      "rating": 4,
      "texto": "Buena atención con personal calificado con el plan recomendado me siento mucho mejor. Lo recomiendo",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787184431
     },
     {
@@ -412,7 +412,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Roci MR",
      "rating": 5,
      "texto": "Me ha encantado llegue con dolor en la parte lumbar, y despues de 3 a 4 sesiones ya no tuve dolor, recomiendo la clínica.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787183979
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2073,
+  "total_resenas": 2076,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 29
+  "resenas_nuevas_7d": 32
  },
  "historial": [
   {
@@ -1134,7 +1134,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-26",
-   "total_resenas": 2073,
+   "total_resenas": 2076,
    "rating_prom": 4.65
   }
  ]
