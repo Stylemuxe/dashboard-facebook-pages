@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-27T08:33:00",
+ "actualizado": "2026-08-27T16:08:36",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -36,7 +36,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Eduardo Martínez",
      "rating": 1,
      "texto": "Pésima experiencia; la recepcionista se siente dueña y la fisioterapeuta se sale a recibir su Starbucks mientras te atiende, de las dos lesiones que llevaba sólo quiso revisar una y la otra que a la vuelta jaja. Pésimo lugar y caro.",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1785437823
     },
     {
@@ -53,11 +53,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 227,
+   "reviews": 228,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
    "telefono": "55 6885 8200",
    "resenas_recientes": [
+    {
+     "autor": "Acela Moyeda",
+     "rating": 5,
+     "texto": "Me  gustaron las sesiones muy profesionales y  todas con un trato muy  cordial",
+     "cuando": "en la última semana",
+     "time": 1787850212
+    },
     {
      "autor": "Uriel Martinez",
      "rating": 5,
@@ -85,13 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Sé que es un negocio, pero es engañoso. La primera consulta es un interrogatorio medio mal hecho; me pusieron nodos y una faja que comprime y descomprime, a lo mucho duró 40min, y aunque estoy consciente de que mis problemas posturales no se resuelven en 1h, esperaba una revisión más completa. Proponen un plan de 15 sesiones, entre quirofisico, fisioterapeuta y acupunturista; con descuento me salía en casi 9mil pesos; quizá haya gente que pueda costear pagar eso en semana y media o tres semanas (el límite en el que debe liquidarse el tratamiento completo son las primeras tres sesiones). Cuando agendas consulta no te dicen nada de su plan de tratamiento. Te cobran antes de entrar a la consulta, que a pesar del descuento se siente caro para lo que ofrecen (al menos esta sesión 1). No volveré. Le pongo dos estrellas porque el staff es amable.",
      "cuando": "en la última semana",
      "time": 1787346700
-    },
-    {
-     "autor": "Juan Carlos Martínez",
-     "rating": 5,
-     "texto": "Son muy profesionales en todas sus áreas, los médicos de fisioterapia, acupuntura y quiropráctico, área administrativa siempre atentos y sonrientes en todo momento, muy recomendables :)",
-     "cuando": "Hace una semana",
-     "time": 1786838201
     }
    ]
   },
@@ -203,7 +203,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Eduardo Ramírez P",
      "rating": 5,
      "texto": "100% recomendable. Todo el personal es muy profesional, saben atender muy bien y te ayudan con tus lesiones.   Aunque es un poco caro, vale la pena por los resultados.",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786640519
     },
     {
@@ -284,6 +284,53 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
+   "nombre": "Pachuca",
+   "categoria": "franquicia",
+   "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
+   "rating": 4.6,
+   "reviews": 129,
+   "maps_url": "https://maps.google.com/?cid=15907007707854826926",
+   "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Augusto Cesar Parra Oviedo",
+     "rating": 3,
+     "texto": "Me pareció una atención por su fisioterapeuta buena y es recomendable su atención en cuanto a lo que a mí me diagnosticaron",
+     "cuando": "en la última semana",
+     "time": 1787850756
+    },
+    {
+     "autor": "Georgina Trejo",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787699664
+    },
+    {
+     "autor": "Jose Antonio Fortes",
+     "rating": 5,
+     "texto": "Excelente servicio, me quitaron el dolor del manguito rotador",
+     "cuando": "en la última semana",
+     "time": 1787612246
+    },
+    {
+     "autor": "Karmen Hernandez",
+     "rating": 4,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787443186
+    },
+    {
+     "autor": "Leticia Vergara",
+     "rating": 4,
+     "texto": "Buena atención con personal calificado con el plan recomendado me siento mucho mejor. Lo recomiendo",
+     "cuando": "Hace una semana",
+     "time": 1787184431
+    }
+   ]
+  },
+  {
    "nombre": "Chalco",
    "categoria": "sede",
    "place_id": "ChIJp0MwV-YfzoUR1eFYcsNzYNU",
@@ -327,53 +374,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Excelente servicio y muy amables 👍",
      "cuando": "en la última semana",
      "time": 1787590431
-    }
-   ]
-  },
-  {
-   "nombre": "Pachuca",
-   "categoria": "franquicia",
-   "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
-   "rating": 4.6,
-   "reviews": 128,
-   "maps_url": "https://maps.google.com/?cid=15907007707854826926",
-   "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
-   "telefono": "55 4570 8299",
-   "resenas_recientes": [
-    {
-     "autor": "Georgina Trejo",
-     "rating": 5,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1787699664
-    },
-    {
-     "autor": "Jose Antonio Fortes",
-     "rating": 5,
-     "texto": "Excelente servicio, me quitaron el dolor del manguito rotador",
-     "cuando": "en la última semana",
-     "time": 1787612246
-    },
-    {
-     "autor": "Karmen Hernandez",
-     "rating": 4,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1787443186
-    },
-    {
-     "autor": "Leticia Vergara",
-     "rating": 4,
-     "texto": "Buena atención con personal calificado con el plan recomendado me siento mucho mejor. Lo recomiendo",
-     "cuando": "Hace una semana",
-     "time": 1787184431
-    },
-    {
-     "autor": "Shely Lopez",
-     "rating": 5,
-     "texto": "Magnífica atención y aparatos muy buenos y yo sí tuve mejoría buenos médicos",
-     "cuando": "Hace una semana",
-     "time": 1787083895
     }
    ]
   },
@@ -506,7 +506,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Fabiola Bonilla",
      "rating": 5,
      "texto": "Excelente",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787244902
     },
     {
@@ -607,7 +607,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Blanca Reyes",
      "rating": 4,
      "texto": "Muy buena la atencion en todas las areas",
-     "cuando": "Hace 3 meses",
+     "cuando": "Hace 4 meses",
      "time": 1777479151
     }
    ]
@@ -828,7 +828,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Angel Juárez",
      "rating": 5,
      "texto": "Son muy amables buen servicio muy humano",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1780067100
     },
     {
@@ -929,7 +929,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "DAR",
      "rating": 1,
      "texto": "Pésimo servicio",
-     "cuando": "Hace 3 meses",
+     "cuando": "Hace 4 meses",
      "time": 1777498751
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2076,
+  "total_resenas": 2078,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 31
+  "resenas_nuevas_7d": 33
  },
  "historial": [
   {
@@ -1139,7 +1139,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-27",
-   "total_resenas": 2076,
+   "total_resenas": 2078,
    "rating_prom": 4.65
   }
  ]
