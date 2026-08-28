@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-27T16:08:36",
+ "actualizado": "2026-08-28T00:19:30",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -184,7 +184,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Lucero Romero",
      "rating": 5,
      "texto": "En equilibrio total eh tenido una experiencia genial 🤗,, empezamos con la recepción ,una atención increíble 👌,los Lic 🤗 han hecho un trabajo en mi, execelente en el cual la mejoría es infinita 👌la mejoría es muy notable y me siento mucho pero mucho mejor ❤️‍🩹 gracias!!! 🫂",
-     "cuando": "Hace 4 meses",
+     "cuando": "Hace 5 meses",
      "time": 1774912322
     }
    ]
@@ -288,11 +288,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJ5X8m91qn0YURrm0WOjsLwdw",
    "rating": 4.6,
-   "reviews": 129,
+   "reviews": 130,
    "maps_url": "https://maps.google.com/?cid=15907007707854826926",
    "direccion": "Viad. Javier Rojo Gómez 208, Tiro Tula, 42094 Pachuca de Soto, Hgo., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Arlet Vizzuett",
+     "rating": 5,
+     "texto": "Buena atención y rehabilitación con resultados satisfactorios.",
+     "cuando": "en la última semana",
+     "time": 1787872689
+    },
     {
      "autor": "Augusto Cesar Parra Oviedo",
      "rating": 3,
@@ -320,13 +327,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "en la última semana",
      "time": 1787443186
-    },
-    {
-     "autor": "Leticia Vergara",
-     "rating": 4,
-     "texto": "Buena atención con personal calificado con el plan recomendado me siento mucho mejor. Lo recomiendo",
-     "cuando": "Hace una semana",
-     "time": 1787184431
     }
    ]
   },
@@ -499,7 +499,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Karina Cruz",
      "rating": 5,
      "texto": "Excelente trato, muy profesionales, en mi tercera sesión ya no tenía molestia, muy recomendable.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787264364
     },
     {
@@ -727,7 +727,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ramirez Mendoza Ezequiel",
      "rating": 2,
      "texto": "Las personas son muy amable, personal 10/10. Sin embargo las terapias son muy simples, de haber sabido desde un principio lo que hacían mejor no pagaba nada, pague $6900 por 10 sesiones y todavía me dejaron una semana sin terapia, me dijeron que me iban a dar una terapia de compensación y nunca llegó esa terapia, nada más te sacan dinero, no lo recomiendo.",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787286208
     },
     {
@@ -915,7 +915,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Quintil Guerrero",
      "rating": 1,
      "texto": "Me quedé con las ganas, tenía cita en domingo y hasta el momento no me volvieron a contestar me dejaron plantado en la sucursal de cuautitlán.",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1780109376
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2078,
+  "total_resenas": 2079,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 33
+  "resenas_nuevas_7d": 26
  },
  "historial": [
   {
@@ -1140,6 +1140,11 @@ window.GOOGLE_REVIEWS_DATA = {
   {
    "fecha": "2026-08-27",
    "total_resenas": 2078,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-28",
+   "total_resenas": 2079,
    "rating_prom": 4.65
   }
  ]
