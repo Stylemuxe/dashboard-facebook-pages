@@ -1,16 +1,23 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-28T00:20:38",
+ "actualizado": "2026-08-28T09:11:07",
  "sucursales": [
   {
    "nombre": "Balbuena",
    "categoria": "sede",
    "place_id": "ChIJRdk0xh7_0YURftDWC1Nows8",
    "rating": 4.5,
-   "reviews": 236,
+   "reviews": 237,
    "maps_url": "https://maps.google.com/?cid=14970642817223151742",
    "direccion": "Cecilio Robelo 369, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Patty Juárez",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1787899027
+    },
     {
      "autor": "Monica Tahimy Avendaño González",
      "rating": 5,
@@ -38,13 +45,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Pésima experiencia; la recepcionista se siente dueña y la fisioterapeuta se sale a recibir su Starbucks mientras te atiende, de las dos lesiones que llevaba sólo quiso revisar una y la otra que a la vuelta jaja. Pésimo lugar y caro.",
      "cuando": "Hace 4 semanas",
      "time": 1785437823
-    },
-    {
-     "autor": "Alejandro Sandoval",
-     "rating": 5,
-     "texto": "",
-     "cuando": "Hace 1 mes",
-     "time": 1783058664
     }
    ]
   },
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2079,
+  "total_resenas": 2080,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 26
+  "resenas_nuevas_7d": 27
  },
  "historial": [
   {
@@ -1144,7 +1144,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-28",
-   "total_resenas": 2079,
+   "total_resenas": 2080,
    "rating_prom": 4.65
   }
  ]
