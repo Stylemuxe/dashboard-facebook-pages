@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-28T09:17:46",
+ "actualizado": "2026-08-28T16:14:13",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -36,7 +36,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rubén Rodriguez L",
      "rating": 4,
      "texto": "Muy buena experiencia en mi primer sesión",
-     "cuando": "Hace 3 semanas",
+     "cuando": "Hace 4 semanas",
      "time": 1785520582
     },
     {
@@ -53,11 +53,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "franquicia",
    "place_id": "ChIJg5NgmWj50YURnwRHobUrtwQ",
    "rating": 4.8,
-   "reviews": 228,
+   "reviews": 229,
    "maps_url": "https://maps.google.com/?cid=339788355984622751",
    "direccion": "Escuela Industrial 24, Industrial, Gustavo A. Madero, 07870 Ciudad de México, CDMX, México",
    "telefono": "55 6885 8200",
    "resenas_recientes": [
+    {
+     "autor": "Tenyo Madrigal",
+     "rating": 5,
+     "texto": "Excelente servicio y atención de los todos los especialistas. 100% recomendable.",
+     "cuando": "en la última semana",
+     "time": 1787943554
+    },
     {
      "autor": "Acela Moyeda",
      "rating": 5,
@@ -85,13 +92,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "en la última semana",
      "time": 1787422719
-    },
-    {
-     "autor": "Yael García",
-     "rating": 2,
-     "texto": "Sé que es un negocio, pero es engañoso. La primera consulta es un interrogatorio medio mal hecho; me pusieron nodos y una faja que comprime y descomprime, a lo mucho duró 40min, y aunque estoy consciente de que mis problemas posturales no se resuelven en 1h, esperaba una revisión más completa. Proponen un plan de 15 sesiones, entre quirofisico, fisioterapeuta y acupunturista; con descuento me salía en casi 9mil pesos; quizá haya gente que pueda costear pagar eso en semana y media o tres semanas (el límite en el que debe liquidarse el tratamiento completo son las primeras tres sesiones). Cuando agendas consulta no te dicen nada de su plan de tratamiento. Te cobran antes de entrar a la consulta, que a pesar del descuento se siente caro para lo que ofrecen (al menos esta sesión 1). No volveré. Le pongo dos estrellas porque el staff es amable.",
-     "cuando": "en la última semana",
-     "time": 1787346700
     }
    ]
   },
@@ -170,14 +170,14 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "danae morán",
      "rating": 5,
      "texto": "Super recomendado, el personal atiende muy bien y son muy gentiles. Asistí debido a un problema que ya presentaba hace años y en el proceso que llevo me he sentido muy bien, la rehabilitación ha sido muy adaptada al problema que presento y el dolor de ello ha sido mucho menos. Muy recomendable",
-     "cuando": "Hace 4 meses",
+     "cuando": "Hace 5 meses",
      "time": 1774986690
     },
     {
      "autor": "ALVARO ALVAREZ VELAZQUEZ",
      "rating": 5,
      "texto": "Exelente atención  he visto mucha mejoría completamente recomiendo",
-     "cuando": "Hace 4 meses",
+     "cuando": "Hace 5 meses",
      "time": 1774985181
     },
     {
@@ -519,62 +519,22 @@ window.GOOGLE_REVIEWS_DATA = {
    ]
   },
   {
-   "nombre": "Ajusco",
-   "categoria": "franquicia",
-   "place_id": "ChIJT2xNy6H_zYURPjpC7Y8vINU",
-   "rating": 4.2,
-   "reviews": 77,
-   "maps_url": "https://maps.google.com/?cid=15357327024540760638",
-   "direccion": "Nunkiní 604, Jardines del Ajusco, Tlalpan, 14200 Ciudad de México, CDMX, México",
-   "telefono": "55 4570 8299",
-   "resenas_recientes": [
-    {
-     "autor": "Guadalupe Toledo",
-     "rating": 1,
-     "texto": "En su perfil de Facebook tienen una promoción que indica que incluye: consulta de valoración, terapia especializada, plan de ejercicios y estudio de postura.\nNo es así, no pierdan su tiempo ni dinero. Solo te hacen una serie de preguntas para ofrecerte un paquete de terapias, no hay ningún valor en esta “oferta”.",
-     "cuando": "Hace 2 semanas",
-     "time": 1786397533
-    },
-    {
-     "autor": "Gaby C.",
-     "rating": 1,
-     "texto": "En esta \"clínica\" me engañaron. Fui ahí porque en mi valoración me aseguraron que sí hacían el tratamiento adecuado para el dolor de mi articulación afectada. Son muy amables pero dan a todos los pacientes el mismo tratamiento sin enfocarse en el problema por el que llega uno ahí.  Los fisioterapeutas no están bien capacitados y atienden de forma ausente para ver a dos o tres pacientes durante tu consulta. Eso sí, te convencen desde la primera cita de comprar un paquete completo de sesiones para respetarte el precio promoción. Por más que me quejé varias veces con fisios, recepcionista y gerente, nunca recibí el tratamiento focalizado en mi dolor puntual y se quedaron con mi dinero. De verdad no vayan ahí,  no lo recomiendo nada.",
-     "cuando": "Hace 2 semanas",
-     "time": 1786372592
-    },
-    {
-     "autor": "Brandon Iván Hernández García",
-     "rating": 1,
-     "texto": "Pagué un paquete de sesiones, avisé que saldria de viaje y al regreso ya no me respetaron las sesiones restantes. Mandé mensajes y se tardaron días en responder y al final me dejaron de contestar.\n\nNo muy grata experiencia",
-     "cuando": "Hace 4 semanas",
-     "time": 1785360491
-    },
-    {
-     "autor": "Rosy Irisson",
-     "rating": 5,
-     "texto": "Excelente atención de todo el personal!! Muy satisfecha con la atención de los Terapeutas y mejoría en mi tratamiento gracias !!👍☺️",
-     "cuando": "Hace 1 mes",
-     "time": 1785175900
-    },
-    {
-     "autor": "Frida S Campos R",
-     "rating": 5,
-     "texto": "",
-     "cuando": "Hace 1 mes",
-     "time": 1785096081
-    }
-   ]
-  },
-  {
    "nombre": "Milpa Alta",
    "categoria": "sede",
    "place_id": "ChIJxzmB2ksFzoURr2aysBPw9RI",
    "rating": 4.6,
-   "reviews": 77,
+   "reviews": 78,
    "maps_url": "https://maps.google.com/?cid=1366262029336340143",
    "direccion": "Av. Jalisco Ote. 17, Villa Milpa Alta, Centro, Milpa Alta, 12000 Villa Milpa Alta, CDMX, México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Victor Vladimir Nuñez Nuñez",
+     "rating": 1,
+     "texto": "La 1er consulta se paga y piden $1,000 pesos como enganche para el tratamiento. El 26 de agosto 2026 tenia una 2da consulta, NO me la dieron Ni me avisaron previamente que no la habría. Les he estado solicitando me facturen lo que les pague y ya no contestan ni me confirman fecha para la 2da consulta. Al parecer no hay seriedad ni respeto a sus clientes o pacientes.",
+     "cuando": "en la última semana",
+     "time": 1787940119
+    },
     {
      "autor": "naye gonzalez",
      "rating": 5,
@@ -602,13 +562,53 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "",
      "cuando": "Hace 3 meses",
      "time": 1779493593
+    }
+   ]
+  },
+  {
+   "nombre": "Ajusco",
+   "categoria": "franquicia",
+   "place_id": "ChIJT2xNy6H_zYURPjpC7Y8vINU",
+   "rating": 4.2,
+   "reviews": 77,
+   "maps_url": "https://maps.google.com/?cid=15357327024540760638",
+   "direccion": "Nunkiní 604, Jardines del Ajusco, Tlalpan, 14200 Ciudad de México, CDMX, México",
+   "telefono": "55 4570 8299",
+   "resenas_recientes": [
+    {
+     "autor": "Guadalupe Toledo",
+     "rating": 1,
+     "texto": "En su perfil de Facebook tienen una promoción que indica que incluye: consulta de valoración, terapia especializada, plan de ejercicios y estudio de postura.\nNo es así, no pierdan su tiempo ni dinero. Solo te hacen una serie de preguntas para ofrecerte un paquete de terapias, no hay ningún valor en esta “oferta”.",
+     "cuando": "Hace 2 semanas",
+     "time": 1786397533
     },
     {
-     "autor": "Blanca Reyes",
-     "rating": 4,
-     "texto": "Muy buena la atencion en todas las areas",
-     "cuando": "Hace 4 meses",
-     "time": 1777479151
+     "autor": "Gaby C.",
+     "rating": 1,
+     "texto": "En esta \"clínica\" me engañaron. Fui ahí porque en mi valoración me aseguraron que sí hacían el tratamiento adecuado para el dolor de mi articulación afectada. Son muy amables pero dan a todos los pacientes el mismo tratamiento sin enfocarse en el problema por el que llega uno ahí.  Los fisioterapeutas no están bien capacitados y atienden de forma ausente para ver a dos o tres pacientes durante tu consulta. Eso sí, te convencen desde la primera cita de comprar un paquete completo de sesiones para respetarte el precio promoción. Por más que me quejé varias veces con fisios, recepcionista y gerente, nunca recibí el tratamiento focalizado en mi dolor puntual y se quedaron con mi dinero. De verdad no vayan ahí,  no lo recomiendo nada.",
+     "cuando": "Hace 2 semanas",
+     "time": 1786372592
+    },
+    {
+     "autor": "Brandon Iván Hernández García",
+     "rating": 1,
+     "texto": "Pagué un paquete de sesiones, avisé que saldria de viaje y al regreso ya no me respetaron las sesiones restantes. Mandé mensajes y se tardaron días en responder y al final me dejaron de contestar.\n\nNo muy grata experiencia",
+     "cuando": "Hace 1 mes",
+     "time": 1785360491
+    },
+    {
+     "autor": "Rosy Irisson",
+     "rating": 5,
+     "texto": "Excelente atención de todo el personal!! Muy satisfecha con la atención de los Terapeutas y mejoría en mi tratamiento gracias !!👍☺️",
+     "cuando": "Hace 1 mes",
+     "time": 1785175900
+    },
+    {
+     "autor": "Frida S Campos R",
+     "rating": 5,
+     "texto": "",
+     "cuando": "Hace 1 mes",
+     "time": 1785096081
     }
    ]
   },
@@ -720,7 +720,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Arturo Martinez Morales",
      "rating": 4,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787345120
     },
     {
@@ -814,7 +814,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jorge Palacios",
      "rating": 3,
      "texto": "Excelente atención de las terapeutas .solo que no dan la opción de pagar por sesión y solo en una exhibición por 7000 por 10 sesiones .(Al contactarlos no te anticipan esa modalidad)",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1785349795
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2080,
+  "total_resenas": 2082,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 27
+  "resenas_nuevas_7d": 29
  },
  "historial": [
   {
@@ -1144,7 +1144,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-28",
-   "total_resenas": 2080,
+   "total_resenas": 2082,
    "rating_prom": 4.65
   }
  ]
