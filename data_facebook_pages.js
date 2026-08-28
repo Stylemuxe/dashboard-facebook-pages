@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-08-28 00:18",
+  "generado": "2026-08-28 00:19",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -453,7 +453,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-28",
-          "valor": 4521
+          "valor": 4551
         },
         {
           "fecha": "2026-08-29",
@@ -907,7 +907,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-28",
-          "valor": 892
+          "valor": 904
         },
         {
           "fecha": "2026-08-29",
@@ -1975,12 +1975,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 11,
-            "engagement_prom": 712.3
+            "engagement_prom": 712.4
           },
           {
             "label": "Miércoles",
             "posts": 11,
-            "engagement_prom": 355.2
+            "engagement_prom": 355.3
           },
           {
             "label": "Viernes",
@@ -1997,7 +1997,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 20,
-            "engagement_prom": 1228.7
+            "engagement_prom": 1228.8
           },
           {
             "label": "Mañana (06-11h)",
@@ -2116,7 +2116,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¡Este mes patrio, que el único festejo sea sin dolor! 🇲🇽✨\n\nDeja atrás las molestias en tus manos, pies o espalda y celebra con toda la energía. En Equilibrio Total Coacalco te ayudamos a recuperar tu bienestar con especi",
           "fecha": "2026-08-24T18:55:10+0000",
           "url": "https://www.facebook.com/reel/1771202253906486/",
-          "reacciones": 120,
+          "reacciones": 121,
           "comentarios": 1,
           "shares": 3,
           "clics": 384,
@@ -2205,7 +2205,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "En Equilibrio Total La Moderna (Iztacalco), contamos con especialistas titulados listos para ayudarte. Desde tu primera visita, trazamos un plan de rehabilitación a tu medida, combinando lo mejor en terapias manuales y t",
           "fecha": "2026-08-12T22:48:33+0000",
           "url": "https://www.facebook.com/reel/2003924176918668/",
-          "reacciones": 412,
+          "reacciones": 413,
           "comentarios": 11,
           "shares": 10,
           "clics": 2098,
@@ -3272,8 +3272,8 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-28",
-          "engagement": 4521,
-          "vistas": 892,
+          "engagement": 4551,
+          "vistas": 904,
           "video_views": 68909,
           "video_view_time_horas": 287.6,
           "seguidores": 23358
@@ -3409,7 +3409,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 2,
             "shares": 1,
             "clics": 0,
-            "video_views": 539,
+            "video_views": 540,
             "alcance": 338,
             "guardados": 3,
             "media_type": "VIDEO",
@@ -5743,7 +5743,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 9,
-            "engagement_prom": 996.1
+            "engagement_prom": 996.2
           },
           {
             "label": "Martes",
@@ -5780,7 +5780,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Tarde (14-18h)",
             "posts": 24,
-            "engagement_prom": 736.2
+            "engagement_prom": 736.3
           },
           {
             "label": "Mediodía (11-14h)",
@@ -5798,7 +5798,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 7,
-          "engagement_prom": 3310.3
+          "engagement_prom": 3310.4
         },
         {
           "label": "Promoción / Precio",
@@ -6264,7 +6264,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Dolor de espalda, hombro o rodilla? ⚠️ Ponle un alto hoy.\n\nSi eres de Neza, la solución está más cerca de lo que crees. En Equilibrio Total Plaza Nezahualcóyotl te ayudamos a recuperar tu movilidad de una vez por todas.",
           "fecha": "2026-07-20T20:20:34+0000",
           "url": "https://www.facebook.com/reel/2262501294521641/",
-          "reacciones": 8311,
+          "reacciones": 8312,
           "comentarios": 150,
           "shares": 342,
           "clics": 21060,
@@ -8071,7 +8071,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-28",
-          "valor": 1996
+          "valor": 2000
         },
         {
           "fecha": "2026-08-29",
@@ -11049,7 +11049,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-28",
-          "engagement": 1996,
+          "engagement": 2000,
           "vistas": 266,
           "video_views": 30851,
           "video_view_time_horas": 138.8,
@@ -15182,8 +15182,8 @@ window.FB_PAGES_DATA = {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
       "seguidores": 23358,
-      "engagement_28d": 513000,
-      "vistas_28d": 122670,
+      "engagement_28d": 513030,
+      "vistas_28d": 122682,
       "video_views_28d": 8091291,
       "conversaciones_28d": 129,
       "no_leidos": 49,
@@ -15214,7 +15214,7 @@ window.FB_PAGES_DATA = {
       "key": "beth",
       "nombre": "Ser Humano Beth",
       "seguidores": 9239,
-      "engagement_28d": 160922,
+      "engagement_28d": 160926,
       "vistas_28d": 28325,
       "video_views_28d": 2357135,
       "conversaciones_28d": 121,
