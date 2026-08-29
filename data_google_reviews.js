@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-29T09:10:43",
+ "actualizado": "2026-08-29T10:34:44",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -22,7 +22,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Monica Tahimy Avendaño González",
      "rating": 5,
      "texto": "Llevo ya 10 sesiones y la atención ha sido excelente , profesional y muy puntual .",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787414353
     },
     {
