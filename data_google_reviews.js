@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-29T12:35:39",
+ "actualizado": "2026-08-29T13:02:31",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -43,7 +43,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Eduardo Martínez",
      "rating": 1,
      "texto": "Pésima experiencia; la recepcionista se siente dueña y la fisioterapeuta se sale a recibir su Starbucks mientras te atiende, de las dos lesiones que llevaba sólo quiso revisar una y la otra que a la vuelta jaja. Pésimo lugar y caro.",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1785437823
     }
    ]
