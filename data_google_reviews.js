@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-29T12:06:34",
+ "actualizado": "2026-08-29T12:26:32",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -90,7 +90,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "barby b.",
      "rating": 5,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787422719
     }
    ]
