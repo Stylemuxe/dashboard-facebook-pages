@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-30T04:12:11",
+ "actualizado": "2026-08-30T12:12:29",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -36,7 +36,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Rubén Rodriguez L",
      "rating": 4,
      "texto": "Muy buena experiencia en mi primer sesión",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1785520582
     },
     {
