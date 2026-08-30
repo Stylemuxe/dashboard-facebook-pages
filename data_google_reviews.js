@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-29T13:02:31",
+ "actualizado": "2026-08-30T04:12:11",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -100,11 +100,18 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 190,
+   "reviews": 191,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Lorena León Martinez",
+     "rating": 5,
+     "texto": "",
+     "cuando": "en la última semana",
+     "time": 1788042043
+    },
     {
      "autor": "martin aldahir almaz hernandez",
      "rating": 5,
@@ -130,15 +137,8 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Joly Villafaña",
      "rating": 5,
      "texto": "Excelente servicio 👍🏻",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787437386
-    },
-    {
-     "autor": "Josue González",
-     "rating": 5,
-     "texto": "",
-     "cuando": "en la última semana",
-     "time": 1787435620
     }
    ]
   },
@@ -156,7 +156,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Lupita Alvarado",
      "rating": 5,
      "texto": "Gracias a  Equilibrio Total , pues gracias a  su tratamiento  mi hijo mejoro con su tema de cervicales , aparte todo el personal que trabaja ahí son muy atentos , lo recomiendo  ampliamente!",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1786216610
     },
     {
@@ -325,7 +325,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Karmen Hernandez",
      "rating": 4,
      "texto": "",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787443186
     }
    ]
@@ -405,7 +405,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Martha Palomo",
      "rating": 5,
      "texto": "Hola mi experiencia con equilibrio total a sido muy buena desde el primer día de mi evaluación llevo 3 terapias y tengo tendonitis en las piernas y e mejorado bastante no podía caminar y ya camino despacio pero camino y mis dolores se an minimizado bastante espero que mejore con las terapias que me faltan",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787426262
     },
     {
@@ -419,7 +419,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jose Adrián Valadez Nieves",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1786219929
     }
    ]
@@ -774,7 +774,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Jimena Jiménez",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786822382
     },
     {
@@ -908,7 +908,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Maria",
      "rating": 1,
      "texto": "Pésimo servicio, muy mala atención en recepción",
-     "cuando": "Hace 2 meses",
+     "cuando": "Hace 3 meses",
      "time": 1780254270
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2082,
+  "total_resenas": 2083,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 27
+  "resenas_nuevas_7d": 23
  },
  "historial": [
   {
@@ -1150,6 +1150,11 @@ window.GOOGLE_REVIEWS_DATA = {
   {
    "fecha": "2026-08-29",
    "total_resenas": 2082,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-30",
+   "total_resenas": 2083,
    "rating_prom": 4.65
   }
  ]
