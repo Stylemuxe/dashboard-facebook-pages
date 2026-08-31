@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-31T01:21:17",
+ "actualizado": "2026-08-31T08:46:34",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -586,7 +586,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Gaby C.",
      "rating": 1,
      "texto": "En esta \"clínica\" me engañaron. Fui ahí porque en mi valoración me aseguraron que sí hacían el tratamiento adecuado para el dolor de mi articulación afectada. Son muy amables pero dan a todos los pacientes el mismo tratamiento sin enfocarse en el problema por el que llega uno ahí.  Los fisioterapeutas no están bien capacitados y atienden de forma ausente para ver a dos o tres pacientes durante tu consulta. Eso sí, te convencen desde la primera cita de comprar un paquete completo de sesiones para respetarte el precio promoción. Por más que me quejé varias veces con fisios, recepcionista y gerente, nunca recibí el tratamiento focalizado en mi dolor puntual y se quedaron con mi dinero. De verdad no vayan ahí,  no lo recomiendo nada.",
-     "cuando": "Hace 2 semanas",
+     "cuando": "Hace 3 semanas",
      "time": 1786372592
     },
     {
