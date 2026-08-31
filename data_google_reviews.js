@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-30T12:12:29",
+ "actualizado": "2026-08-30T20:11:51",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -29,7 +29,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "gabon 999",
      "rating": 5,
      "texto": "",
-     "cuando": "Hace una semana",
+     "cuando": "Hace 2 semanas",
      "time": 1786930367
     },
     {
@@ -100,11 +100,32 @@ window.GOOGLE_REVIEWS_DATA = {
    "categoria": "sede",
    "place_id": "ChIJ-RrmGL790YUR72hPGzZDsWg",
    "rating": 4.6,
-   "reviews": 191,
+   "reviews": 194,
    "maps_url": "https://maps.google.com/?cid=7543884750487775471",
    "direccion": "Av. Benito Juarez 17, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Manzana 028, Estado de Mexico, 57210 Cdad. Nezahualcóyotl, Méx., México",
    "telefono": "55 4570 8299",
    "resenas_recientes": [
+    {
+     "autor": "Jacqueline Valdovinos",
+     "rating": 5,
+     "texto": "Quiero recomendar ampliamente a Equilibrio Total en Nezahualcóyotl si están buscando un espacio profesional de fisioterapia y rehabilitación.\n​Desde la primera cita la atención es excelente; cuentan con instalaciones equipadas de muy buena calidad y herramientas modernas para el tratamiento. Lo que más destaca es la calidad humana y el profesionalismo de los terapeutas: te explican a detalle cada ejercicio, el porqué de cada diagnóstico y cómo va evolucionando tu proceso de recuperación, lo cual te da muchísima tranquilidad y confianza. Además, manejan una relación calidad-precio sumamente justa y accesible para el gran servicio que brindan.\n​¡100% recomendados si necesitas recuperarte con seguridad y en buenas manos!\"",
+     "cuando": "en la última semana",
+     "time": 1788121159
+    },
+    {
+     "autor": "Areli Aguilar Cruz",
+     "rating": 5,
+     "texto": "Atención especializada y amabilidad por parte del personal.",
+     "cuando": "en la última semana",
+     "time": 1788120946
+    },
+    {
+     "autor": "Yovani Acevedo",
+     "rating": 5,
+     "texto": "He tenedio bastante mejoría con mi rodilla, muy recomendable",
+     "cuando": "en la última semana",
+     "time": 1788117151
+    },
     {
      "autor": "Lorena León Martinez",
      "rating": 5,
@@ -118,27 +139,6 @@ window.GOOGLE_REVIEWS_DATA = {
      "texto": "Buen trato y servicio de primera calidad",
      "cuando": "en la última semana",
      "time": 1787787614
-    },
-    {
-     "autor": "Jose Carlos Reyes Villegas",
-     "rating": 5,
-     "texto": "Muy buena atención",
-     "cuando": "en la última semana",
-     "time": 1787782642
-    },
-    {
-     "autor": "Jonathan Joestar",
-     "rating": 5,
-     "texto": "Buena atención y buen servicio! 🙌",
-     "cuando": "en la última semana",
-     "time": 1787760733
-    },
-    {
-     "autor": "Joly Villafaña",
-     "rating": 5,
-     "texto": "Excelente servicio 👍🏻",
-     "cuando": "Hace una semana",
-     "time": 1787437386
     }
    ]
   },
@@ -492,7 +492,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Aida Villalobos",
      "rating": 5,
      "texto": "Fue muy y de mi agrado la terapia que dieron",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787516241
     },
     {
@@ -734,7 +734,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Abel Badillo",
      "rating": 1,
      "texto": "Pésima atención, publicidad engañosa e inconsistencia en el servicio.\n\nOfrecen en su menú la “Valoración digital de postura”, pero se la negaron a mi esposa por “falta de tiempo”, táctica evidente para vender citas posteriores. La mayor parte del tiempo pagado se fue en llenar el expediente y cotizar paquetes, la terapia real duró apenas 10 minutos.\n\nEn clínicas profesionales la parte administrativa no le quita tiempo a la atención y no tiene costo, la terapia se cobra a su precio regular. Aquí, en cambio, te cobran antes de atenderte, asegurando el dinero pese a la mala calidad del servicio.\n\nEn su folleto aseguran estar “reguladas por COFEPRIS”, pero omiten por completo el número de registro/folio del Aviso de Funcionamiento, que por ley debe aparecer de forma obligatoria tanto en publicidad como en las hojas de evaluación.",
-     "cuando": "Hace 4 semanas",
+     "cuando": "Hace 1 mes",
      "time": 1785549980
     },
     {
@@ -1017,9 +1017,9 @@ window.GOOGLE_REVIEWS_DATA = {
  ],
  "resumen": {
   "total_sucursales": 22,
-  "total_resenas": 2083,
+  "total_resenas": 2086,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 23
+  "resenas_nuevas_7d": 26
  },
  "historial": [
   {
@@ -1154,7 +1154,7 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-30",
-   "total_resenas": 2083,
+   "total_resenas": 2086,
    "rating_prom": 4.65
   }
  ]
