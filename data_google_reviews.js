@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-30T20:11:51",
+ "actualizado": "2026-08-31T01:21:17",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -163,7 +163,7 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Ellie Whitney",
      "rating": 1,
      "texto": "‼️‼️‼️Actualizo mi comentario‼️‼️‼️, no lo recomiendo mi mamá fue por un dolor de espalda y le terminaron sobando otros lados!! , solo se sentía bien en lo que estaba ahí dentro porque fuera le volvía el dolor y hasta la fecha no se compuso, nos hicieron pagar $5,000 aprox y no vimos resultados. Y tiene tantos buenos comentarios porque te hacen que los pongas según que por la “evidencia”.",
-     "cuando": "Hace 1 mes",
+     "cuando": "Hace 2 meses",
      "time": 1782966954
     },
     {
@@ -1019,7 +1019,7 @@ window.GOOGLE_REVIEWS_DATA = {
   "total_sucursales": 22,
   "total_resenas": 2086,
   "rating_promedio_ponderado": 4.65,
-  "resenas_nuevas_7d": 26
+  "resenas_nuevas_7d": 17
  },
  "historial": [
   {
@@ -1154,6 +1154,11 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-08-30",
+   "total_resenas": 2086,
+   "rating_prom": 4.65
+  },
+  {
+   "fecha": "2026-08-31",
    "total_resenas": 2086,
    "rating_prom": 4.65
   }
