@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-08-31T09:19:30",
+ "actualizado": "2026-08-31T12:14:12",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -358,21 +358,21 @@ window.GOOGLE_REVIEWS_DATA = {
      "autor": "Lucero Lopez",
      "rating": 5,
      "texto": "Excelente servicio",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787590843
     },
     {
      "autor": "Ariadnaa Monserrath Atzin Lopez",
      "rating": 5,
      "texto": "Super recomendables",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787590468
     },
     {
      "autor": "Laura Corona",
      "rating": 5,
      "texto": "Excelente servicio y muy amables 👍",
-     "cuando": "en la última semana",
+     "cuando": "Hace una semana",
      "time": 1787590431
     }
    ]
