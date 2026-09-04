@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-09-04 08:32",
+  "generado": "2026-09-04 08:33",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -3353,7 +3353,7 @@ window.FB_PAGES_DATA = {
         "sigue_a": 5,
         "media_count": 318,
         "reach_diario": [],
-        "profile_views_28d": 4903,
+        "profile_views_28d": 4904,
         "website_clicks_28d": 128,
         "accounts_engaged_28d": 6367,
         "total_interactions_28d": 7644,
