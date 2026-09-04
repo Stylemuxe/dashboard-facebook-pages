@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-09-03 16:12",
+  "generado": "2026-09-03 21:10",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -15631,71 +15631,7 @@ window.FB_PAGES_DATA = {
       "ig_dias_desde_ultima": 0
     }
   ],
-  "quejas": [
-    {
-      "pagina": "Equilibrio Total Edomex",
-      "comentario": "No sirve para nada no se  los recomiendo solo masajes y agujas y mas masajes y ventosas 10 sesiones 7000 tirados ala basura",
-      "fecha": "2026-09-03T21:05:50+0000",
-      "post_url": "https://www.facebook.com/reel/1491248286364905/",
-      "respondida": false
-    },
-    {
-      "pagina": "Autonomía con Sentido",
-      "comentario": "Quizá sea un fraude a ninguna persona le dicen la dirección 🤷🏼‍♀️",
-      "fecha": "2026-09-02T18:51:55+0000",
-      "post_url": "https://www.facebook.com/reel/1011794958152860/",
-      "respondida": true
-    },
-    {
-      "pagina": "Equilibrio Total Edomex",
-      "comentario": "Solo estafa, la supuesta valoración y promoción de 690 cuando llegas ese día te exigen el pago en su totalidad de casi 15mil pesos de 15 sesiones pero sin aver recibido nada, jajaj",
-      "fecha": "2026-08-30T06:36:40+0000",
-      "post_url": "https://www.facebook.com/reel/1539803607395634/",
-      "respondida": false
-    },
-    {
-      "pagina": "Equilibrio Total",
-      "comentario": "Yo no lo recomiendo la verdad la gente es muy amable pero no cumplen con lo que prometen",
-      "fecha": "2026-08-18T00:49:05+0000",
-      "post_url": "https://www.facebook.com/reel/1869005807794704/",
-      "respondida": false
-    },
-    {
-      "pagina": "Equilibrio Total",
-      "comentario": "No visiten las sucursal del centro de Querétaro, Alejandra, se dice quiropráctica y me dejó incapacitada por más de un mes",
-      "fecha": "2026-07-24T01:40:37+0000",
-      "post_url": "https://www.facebook.com/reel/1019894381020190/",
-      "respondida": false
-    },
-    {
-      "pagina": "Equilibrio Total Edomex",
-      "comentario": "MENTIRA PURO ROBO",
-      "fecha": "2026-07-23T02:42:16+0000",
-      "post_url": "https://www.facebook.com/reel/2116122062674460/",
-      "respondida": false
-    },
-    {
-      "pagina": "Equilibrio Total Edomex",
-      "comentario": "Gracias por los que se animan a decir la verdad que no funciona su tratamiento y de todas maneras te cobran",
-      "fecha": "2026-07-23T02:29:20+0000",
-      "post_url": "https://www.facebook.com/reel/2116122062674460/",
-      "respondida": false
-    },
-    {
-      "pagina": "Equilibrio Total Edomex",
-      "comentario": "no funciona",
-      "fecha": "2026-07-23T01:04:32+0000",
-      "post_url": "https://www.facebook.com/reel/2116122062674460/",
-      "respondida": false
-    },
-    {
-      "pagina": "Equilibrio Total",
-      "comentario": "No sé las recomiendo son una clínica de ratas que se aprovechan de la salud de la gente no respetan lo que publica mañana los voy a denunciar en Profeco por publicidad engañosa cui",
-      "fecha": "2026-07-22T00:24:45+0000",
-      "post_url": "https://www.facebook.com/reel/1555445012613470/",
-      "respondida": false
-    }
-  ],
+  "quejas": [],
   "alertas_publicacion": [
     {
       "nombre": "Ser Humano Beth (Instagram)",
