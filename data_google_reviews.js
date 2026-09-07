@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-09-06T23:00:58",
+ "actualizado": "2026-09-07T05:10:54",
  "sucursales": [
   {
    "nombre": "Balbuena",
@@ -105,7 +105,7 @@ window.GOOGLE_REVIEWS_DATA = {
   "total_sucursales": 9,
   "total_resenas": 0,
   "rating_promedio_ponderado": null,
-  "resenas_nuevas_7d": -2086
+  "resenas_nuevas_7d": 0
  },
  "historial": [
   {
@@ -275,6 +275,11 @@ window.GOOGLE_REVIEWS_DATA = {
   },
   {
    "fecha": "2026-09-06",
+   "total_resenas": 0,
+   "rating_prom": null
+  },
+  {
+   "fecha": "2026-09-07",
    "total_resenas": 0,
    "rating_prom": null
   }
