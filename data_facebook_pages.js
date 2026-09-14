@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-09-13 01:06",
+  "generado": "2026-09-14 08:40",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
