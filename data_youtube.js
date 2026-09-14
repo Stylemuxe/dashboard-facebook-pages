@@ -1,12 +1,12 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-09-14 13:08",
+ "generado": "2026-09-14 14:10",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "handle": "EquilibrioTotalmx",
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
-   "seguidores": 7550,
+   "seguidores": 7560,
    "vistas_totales": 1672938,
    "video_count": 88,
    "historial_seguidores": [
@@ -152,7 +152,7 @@ window.YOUTUBE_DATA = {
     },
     {
      "fecha": "2026-09-14",
-     "seguidores": 7550,
+     "seguidores": 7560,
      "vistas_totales": 1672938
     }
    ],
