@@ -1,10 +1,10 @@
 window.TIKTOK_DATA = {
- "generado": "2026-09-15 13:05",
+ "generado": "2026-09-15 14:06",
  "cuentas": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "username": "equilibriototalmx",
-   "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/3c10cff03047a44d057969ee649c91ad~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=60e4a895&x-expires=1789671600&x-signature=Tn1VYz1gn8Vb1Z8OGR40ZiHufG0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+   "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/3c10cff03047a44d057969ee649c91ad~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=242c1f2c&x-expires=1789675200&x-signature=nsNLZ5PexHdJd8IG2v71U%2BRLR7A%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
    "seguidores": 27381,
    "likes_totales": 146537,
    "video_count": 230,
@@ -159,9 +159,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7685451682276232466",
      "titulo": "¿Te duele el hombro, la espalda o la rodilla? En Equilibrio Total Ajusco revisamos tu postura  y atacamos el dolor desde la causa, no solo el síntoma. Consulta a solo $690. Equipo especializado. Resultados que sí sientes. Deja de cargar con el dolor. Recupera tu movimiento. Agenda tu cita hoy en Equilibrio Total Ajusco 👇",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osAQ31BAG7riCEiIGzIGXrAqQNwfNM7owOVIaB~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=70073bd9&x-expires=1789585200&x-signature=%2Bw%2BWryS%2Bmqtvspdsgn4zeClYG5s%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osAQ31BAG7riCEiIGzIGXrAqQNwfNM7owOVIaB~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=a9b077c5&x-expires=1789588800&x-signature=%2FZ8MNMhhFKixtS41GvsyB96ZNXs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7685451682276232466?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 404,
+     "vistas": 406,
      "likes": 9,
      "comentarios": 0,
      "shares": 0,
@@ -170,9 +170,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7684655480760814866",
      "titulo": "Cargar a tu bebé es parte de tu día… pero terminar con la espalda hecha pedazos no debería serlo.  Guarda estos 3 ejercicios para darle un respiro a tu espalda y seguir disfrutando esos momentos sin descuidar tu cuerpo.👌 ¿Conoces a una mamá que los necesite? Compártele este video. 👩‍👦 #EquilibrioTotal#quiropractico",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogCAqBAAcRiAWI9ulBQTUAHRalEPoYhVVYiqw~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=9a2cdeea&x-expires=1789585200&x-signature=yLtNxRx3xEc9kjARno7rfxADKGM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogCAqBAAcRiAWI9ulBQTUAHRalEPoYhVVYiqw~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=03b2e389&x-expires=1789588800&x-signature=ouuBRlzgt4Rq05gT%2FGpH7JMNjbU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7684655480760814866?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 576,
+     "vistas": 577,
      "likes": 14,
      "comentarios": 0,
      "shares": 2,
@@ -181,9 +181,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7684454346343320853",
      "titulo": "Mi fisio ya ni se ha de acordar de mí… Mi fisio:💬#foryou #fisioterapia ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUTkqqFzEIZKAF6ahCQQegBqHK9pBGDpEQpfRq~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=103318bb&x-expires=1789585200&x-signature=MEDSUuF4zCuRQRYAUOon5yEttoM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUTkqqFzEIZKAF6ahCQQegBqHK9pBGDpEQpfRq~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=856ce374&x-expires=1789588800&x-signature=W8CGebAUzTd6Lj4UOdGxACrfgZE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7684454346343320853?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 1526,
+     "vistas": 1533,
      "likes": 49,
      "comentarios": 1,
      "shares": 6,
@@ -192,9 +192,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7684369018072960263",
      "titulo": "¿Tus rodillas truenan más que los fuegos artificiales? 💥🇲🇽 Este mes patrio, vuelve a moverte sin dolor en Equilibrio Total Coacalco. Aprovecha nuestra promo especial de 1ª sesión:  Valoración con especialistas  Terapia física personalizada  Pruebas de postura De $1,790 a solo $690 MXN. 📍 Plaza Las Flores, Coacalco. 👉 Da clic en el botón y agenda tu cita hoy mismo.",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/os9GqvcQcTkAik2IBIADaBPEVBgIYWdBiXVNR~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=f6f727a2&x-expires=1789585200&x-signature=IY7cXeQNVBOi78bJWAXLC8dwwvo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/os9GqvcQcTkAik2IBIADaBPEVBgIYWdBiXVNR~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=5c52370a&x-expires=1789588800&x-signature=4UJir5tMBRI4yXjhxhObxrD8dUI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7684369018072960263?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 299,
+     "vistas": 300,
      "likes": 5,
      "comentarios": 0,
      "shares": 0,
@@ -203,9 +203,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7684367700881083655",
      "titulo": "¡Este mes patrio, que el único festejo sea sin dolor! 🇲🇽✨ Deja atrás las molestias en tus manos, pies o espalda y celebra con toda la energía. En Equilibrio Total Coacalco te ayudamos a recuperar tu bienestar con especialistas en fisioterapia, acupuntura y quiropráctica. 💆‍♀️💪 💥 ¡Promo Especial de Septiembre! 📲 Valoración completa (pruebas musculares, articulares, de postura) + terapia inicial: ❌ De $1,790 ✅ A solo $690  👉 ¡No dejes que el dolor te detenga! Escríbenos por DM o haz clic en el botón de WhatsApp para apartar tu lugar con descuento hoy mismo. 🩺👇",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4IGEBfEegp5q0YUcQBtRrAmSJQ6FFEhDlVFtI~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=9eb78c44&x-expires=1789585200&x-signature=dTYF2nmGuSXyMyiD8M9ciQrIu10%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4IGEBfEegp5q0YUcQBtRrAmSJQ6FFEhDlVFtI~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=dcae96bf&x-expires=1789588800&x-signature=pMj6qoU3UaO9wVQaNim4v8D%2BVdw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7684367700881083655?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 354,
+     "vistas": 355,
      "likes": 10,
      "comentarios": 0,
      "shares": 2,
@@ -214,9 +214,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7684055044806954247",
      "titulo": "Porque todos merecemos vivir sin dolor.    Agenda tu valoración con nosotros. #EquilibrioTotal #Fisioterapia #ProfesionalesDeLaSalud #acupuntura #quiropractico",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAPsDoeGSEfKrkVErPFuCRenjF0AXI6ALAAHIA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=52f46d4f&x-expires=1789585200&x-signature=yiYKh%2BH17oRKcFRhD%2F3hbhDAeys%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAPsDoeGSEfKrkVErPFuCRenjF0AXI6ALAAHIA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=aeb9e501&x-expires=1789588800&x-signature=QJixB4kAyNueO%2FBuWaOXTygJnbE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7684055044806954247?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 668,
+     "vistas": 670,
      "likes": 24,
      "comentarios": 0,
      "shares": 5,
@@ -225,7 +225,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7683676589246270727",
      "titulo": "Tu bienestar no debería quedar en manos de cualquiera. 👀 En Equilibrio Total, nuestros profesionales cuentan con cédula profesional, porque detrás de cada valoración, tratamiento y recomendación debe haber preparación, conocimiento y responsabilidad. 💙 Cuando se trata de tu salud, pregunta quién te está atendiendo. #EquilibrioTotal #Fisioterapia #ProfesionalesDeLaSalud #CédulaProfesional",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oElACIY9J1BnHATlsAATAEa95FhK2AuiywiqP~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=36d57783&x-expires=1789585200&x-signature=wi0D2jEhO1sI50T%2BizzlaWdZbyg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oElACIY9J1BnHATlsAATAEa95FhK2AuiywiqP~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=5ce55b86&x-expires=1789588800&x-signature=S1m7O4hUKfhpccvDZEe5ZEKiT08%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7683676589246270727?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 223,
      "likes": 2,
@@ -236,7 +236,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7681465007753743637",
      "titulo": "Recuperar el movimiento también es recuperar confianza, seguridad y autonomía 💕#rehabilitation #rehabilitacionfisica #rehabilitacion ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEEkzUREIBAf8IyaEq7gArfwUBFudCmDgY39bu~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=c3aeae6d&x-expires=1789585200&x-signature=QekVJ%2BCleTTP6k2uWfqmAy8Imzg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEEkzUREIBAf8IyaEq7gArfwUBFudCmDgY39bu~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=b595817f&x-expires=1789588800&x-signature=Rrk09ucoaIWbjW44IS%2BEroNEdpQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7681465007753743637?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1106,
      "likes": 25,
@@ -247,9 +247,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7680323269144186130",
      "titulo": "Para la experiencia y conocimiento no hay edad🤌🏻✨ Démosle la oportunidad a nuestras nuevas generaciones de Especialistas de la salud💚#fisioterapia #acupuntura #quiropractico #equilibriototal ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEuqVKG3gGFIMZ88eRAAgEmLofX7E8dlteyGQe~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=d968584d&x-expires=1789585200&x-signature=5VQsRpGIX%2FAAyMWuh405DlGRCBQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEuqVKG3gGFIMZ88eRAAgEmLofX7E8dlteyGQe~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=fe2c303b&x-expires=1789588800&x-signature=Qsvt3gVuRMDugM%2FMa9%2FQ6D1nvcs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7680323269144186130?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 1794,
+     "vistas": 1796,
      "likes": 80,
      "comentarios": 0,
      "shares": 8,
@@ -258,7 +258,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7679113399539617042",
      "titulo": "Feliz día a todos los abuelitos 👴🏻👵🏻❤️ Gracias por formar parte de nuestras vidas y habernos tomado de la mano desde que llegamos a este mundo y ahora es nuestro turno de regresar un poco de todo lo que hicieron por nosotros ✨ #díadelabuelo #abuelitos #familia ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8BqAsAkWFqRREbFQqEDgPfMQesvgBzWBUR9IR~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=0c12c67d&x-expires=1789585200&x-signature=Atw2Chvw04zmD32c1Q7Pm8FpQuM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8BqAsAkWFqRREbFQqEDgPfMQesvgBzWBUR9IR~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=82f1eed5&x-expires=1789588800&x-signature=U0Gsj6txnxEem1MjYDixEJ15PtA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7679113399539617042?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 18488,
      "likes": 20,
@@ -269,7 +269,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7676924421352852743",
      "titulo": "Pero claro mis pacientitos, aquí estamos para ayudarlos #humor #equilibriototal #fyp ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osBfD6fD4I7AjMVIG6GW2ESeJCiAnElpFBEIIA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=4f985e0c&x-expires=1789585200&x-signature=TQNnWTd%2FNn%2FFcs0O7%2BAQUlNCdl8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/osBfD6fD4I7AjMVIG6GW2ESeJCiAnElpFBEIIA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=e782c423&x-expires=1789588800&x-signature=4sXngp2nzTQvMjDE%2Fls4nyxBma0%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7676924421352852743?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 768,
      "likes": 19,
@@ -280,9 +280,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7675874486666677512",
      "titulo": "Recuerden que siempre nos preocupamos hasta por la diversión de nuestros pacientes 💚🫵🏻 Hagan sus ejercicios para que puedan hacer esto🤌🏻#humor #fisioterapia #risa #equilibriototal ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owaGPA2x0IYovBXqMOizuiaEIELwBxNAYh6NM~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=41cb6923&x-expires=1789585200&x-signature=EJLxnm5gm0FjM8rsokY1ZWdHDsw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owaGPA2x0IYovBXqMOizuiaEIELwBxNAYh6NM~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=5999bbc9&x-expires=1789588800&x-signature=j17KUyz29G0CMKFFE%2BArelG2xjs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7675874486666677512?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 30868,
+     "vistas": 30870,
      "likes": 236,
      "comentarios": 2,
      "shares": 48,
@@ -291,7 +291,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7671749112320085256",
      "titulo": "Nuestro mejor pago es ver esa sonrisa de vuelta en su rostro de nuestros pacientes y ver esa recuperación 💚#equilibriototal #fisioterapia #acupuntura #quiropractica ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osgGLCf8wIcafR33IBrzIerR4h7iUIAl2DOjAm~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=8961ee34&x-expires=1789585200&x-signature=5Q7a2tTg66g%2BZPIJbaWaUO9D4jI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osgGLCf8wIcafR33IBrzIerR4h7iUIAl2DOjAm~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=432d255b&x-expires=1789588800&x-signature=raEJ0UTZQXGMVmMYclALLap3x6k%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7671749112320085256?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 44486,
      "likes": 755,
@@ -302,7 +302,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7669842016183848210",
      "titulo": "Así termina un día de nuestros especialistas en Equilibrio Total😮‍💨 #FisioterapiaMx #Quiropráctica #BienestarFísico #humor ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocBwYuJ1IASOVIirLfIwC06ADA76GwFuEGAYi1~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=947b83af&x-expires=1789585200&x-signature=ZOqZHjL4z8ddKguMJxeQDZ0G0bY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocBwYuJ1IASOVIirLfIwC06ADA76GwFuEGAYi1~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=54ab505f&x-expires=1789588800&x-signature=Xl5MvMzx83SIoSeoU6ZTV1dojLI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7669842016183848210?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1424,
      "likes": 31,
@@ -313,9 +313,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7668822852585540882",
      "titulo": "¿Sientes que cargas con una mochila de 20 kilos en los hombros? 🎒⛓️ Un buen ajuste no es solo ese \"crack\" tan satisfactorio, es liberar la tensión acumulada por las malas posturas, el estrés y las horas frente a la computadora. Cuando las vértebras y las articulaciones vuelven a su lugar, el sistema nervioso descansa y el cuerpo recupera su equilibrio total. Ya no es solo aliviar el dolor, es volver a habitar tu cuerpo con ligereza. 🧘‍♂️✨ 👇 ¿Hace cuánto que no le das este respiro a tu columna? 📍 Agenda tu valoración y recupera tu bienestar. Enlace en bio o mándanos DM. 📲 #AjusteQuiropráctico #SaludPostural #BienestarTotal #FisioterapiaMx #CuidadoDeLaEspalda  ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogtXJexIjQfAd4p8wxQLACMUqreXQDtkCAmKI2~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=f188aec8&x-expires=1789585200&x-signature=kfvn%2FDGTSwQ08BLuMpBNhp7VdIY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogtXJexIjQfAd4p8wxQLACMUqreXQDtkCAmKI2~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=4f6e501a&x-expires=1789588800&x-signature=pXUaV0Q9jHg7feROb01yaiUmuIU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7668822852585540882?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 22225,
+     "vistas": 22226,
      "likes": 30,
      "comentarios": 0,
      "shares": 4,
@@ -324,7 +324,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7667328755102207250",
      "titulo": "¿No tienes quién te cargue el garrafón? ¡No pasa nada, tú puedes! 💪 Pero hazlo bien para que tu espalda no sufra las consecuencias. 💧 👇 Etiqueta a esa persona que necesita ver este video antes de su próxima pelea con el garrafón. #SaludEspinal #CuidadoDeLaEspalda #PosturaCorrecta #Quiropráctica #BienestarFísico ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oI8n6nSiAxISAIgEqBi1A0BBwOONAA9uPfMCg3~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=8117cbbb&x-expires=1789585200&x-signature=O9aIZEjgh2oCKyBSR6cz44KzeF4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oI8n6nSiAxISAIgEqBi1A0BBwOONAA9uPfMCg3~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=1f24559e&x-expires=1789588800&x-signature=aE2SZqLzPJcYEoQ2SP3w5dnaml0%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7667328755102207250?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 28901,
      "likes": 52,
@@ -335,7 +335,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7665848258203258130",
      "titulo": "Nuestra creadora ya se aplicó 🤡 ¿Tú cuándo cuidarás tu cuerpo? 😮‍💨 Inicia tu tratamiento personalizado por especialistas y sana tus lesiones.  #fyp #comedia #equilibriototal #fisioterapia #salud ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8FQ0FBVQDqLYxCCIgJJA6WTQfsiBXBEeIQ8pO~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=8d3ca7be&x-expires=1789585200&x-signature=oiIQgw8GoZ5hJWSLxTOKIRWGq9o%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8FQ0FBVQDqLYxCCIgJJA6WTQfsiBXBEeIQ8pO~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=fe32feb2&x-expires=1789588800&x-signature=Z3I%2B0%2FskayTb7nCFv%2FtTVr%2Fj4Vc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7665848258203258130?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1456,
      "likes": 36,
@@ -346,7 +346,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7665072015170145543",
      "titulo": "Hasta las estrellas de cine necesitan un respiro… y tú también. 🌟 Cuéntanos, ¿en qué parte del cuerpo sientes que acumulas más tensión todos los días? ¡Da el primer paso hacia tu bienestar! Escríbenos por mensaje directo para agendar tu cita y empezar tu proceso de recuperación.✨ #EquilibrioTotal #SaludIntegral #Bienestar #AdiosEstres",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8Ae5Lz5ANEjQG6agknDVjAOFeIIvUG4AAEfQc~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=e3adcdfb&x-expires=1789585200&x-signature=GPh411T24lhnni1dkGS%2BU9tEf7g%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8Ae5Lz5ANEjQG6agknDVjAOFeIIvUG4AAEfQc~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=1d5ff1cf&x-expires=1789588800&x-signature=t9E70QNLYC0s7c7LGDD7crdKlsM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7665072015170145543?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 750,
      "likes": 22,
@@ -357,7 +357,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7663956494773243143",
      "titulo": "Evita las lesiones dentro de la cancha con estos 3 ejercicios. 🥅⚽️🏃‍♂️ Etiqueta a tu amigo el más FIFAs. 🏟️ #equilibriototal #final #calentamientofutbol #saluddeportiva ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogi6e1A5xEAIyAoUAgAJQrI3ffICpED4YDujtF~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=503ab737&x-expires=1789585200&x-signature=fbO34bVpjIwDJh0I%2BhFxOtFkkTs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogi6e1A5xEAIyAoUAgAJQrI3ffICpED4YDujtF~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=9839e042&x-expires=1789588800&x-signature=17frYotBlztld2Lu%2FGTJVXv8U98%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7663956494773243143?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 51686,
      "likes": 43,
@@ -368,7 +368,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7663157980740717842",
      "titulo": "Una pausa, cero estrés y liberar la tensión acumulada. 💆🏻‍♀️✨ La acupuntura te ayuda a desbloquear tu energía y a reducir tu ansiedad.  ¿Listo para darte el respiro que mereces? Mándanos un mensaje. 🌿 #equilibriototal #asmr #acupuntura ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYZE6fQZGgsRDKKICieEATBcABWFI4DxqaGdZx~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=804dd9fb&x-expires=1789585200&x-signature=3Siz4QG5Q7e%2FlGn4%2Bq9FeyH26ak%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYZE6fQZGgsRDKKICieEATBcABWFI4DxqaGdZx~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=18c7fe61&x-expires=1789588800&x-signature=rlxRdV%2FNvoQN35StBkw3gia70do%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7663157980740717842?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 20147,
      "likes": 19,
