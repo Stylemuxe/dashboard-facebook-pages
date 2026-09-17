@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-09-16 22:31",
+ "generado": "2026-09-17 04:09",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -7,7 +7,7 @@ window.YOUTUBE_DATA = {
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 7570,
-   "vistas_totales": 1683031,
+   "vistas_totales": 1685068,
    "video_count": 88,
    "historial_seguidores": [
     {
@@ -164,6 +164,11 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-09-16",
      "seguidores": 7570,
      "vistas_totales": 1683031
+    },
+    {
+     "fecha": "2026-09-17",
+     "seguidores": 7570,
+     "vistas_totales": 1685068
     }
    ],
    "videos": [
@@ -183,7 +188,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-07-11T15:51:28Z",
      "miniatura": "https://i.ytimg.com/vi/f6euhUlrGE8/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=f6euhUlrGE8",
-     "vistas": 1799,
+     "vistas": 1801,
      "likes": 28,
      "comentarios": 0
     },
@@ -203,7 +208,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-08T23:09:35Z",
      "miniatura": "https://i.ytimg.com/vi/MCcWxjoepeI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=MCcWxjoepeI",
-     "vistas": 987,
+     "vistas": 994,
      "likes": 14,
      "comentarios": 12
     },
@@ -213,7 +218,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-30T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/Xufj_Xp8liI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Xufj_Xp8liI",
-     "vistas": 333,
+     "vistas": 341,
      "likes": 10,
      "comentarios": 0
     },
@@ -223,7 +228,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-29T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/OhKv1VJzarI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=OhKv1VJzarI",
-     "vistas": 282,
+     "vistas": 287,
      "likes": 4,
      "comentarios": 0
     },
@@ -233,7 +238,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-28T19:45:05Z",
      "miniatura": "https://i.ytimg.com/vi/qTNYZDArfHI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=qTNYZDArfHI",
-     "vistas": 326,
+     "vistas": 330,
      "likes": 4,
      "comentarios": 0
     },
@@ -243,7 +248,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-27T21:00:21Z",
      "miniatura": "https://i.ytimg.com/vi/LMC_tk0I2fM/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=LMC_tk0I2fM",
-     "vistas": 267,
+     "vistas": 269,
      "likes": 2,
      "comentarios": 0
     },
@@ -253,7 +258,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-26T23:00:15Z",
      "miniatura": "https://i.ytimg.com/vi/L6z50ET7Bp0/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=L6z50ET7Bp0",
-     "vistas": 366,
+     "vistas": 367,
      "likes": 5,
      "comentarios": 0
     },
@@ -273,7 +278,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 541,
+     "vistas": 543,
      "likes": 9,
      "comentarios": 4
     },
