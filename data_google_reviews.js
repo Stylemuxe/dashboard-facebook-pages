@@ -1,5 +1,5 @@
 window.GOOGLE_REVIEWS_DATA = {
- "actualizado": "2026-09-21T11:06:42",
+ "actualizado": "2026-09-21T12:09:45",
  "sucursales": [
   {
    "nombre": "Balbuena",
