@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-09-27 08:15",
+ "generado": "2026-09-27 12:01",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -258,7 +258,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-08T23:09:35Z",
      "miniatura": "https://i.ytimg.com/vi/MCcWxjoepeI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=MCcWxjoepeI",
-     "vistas": 1005,
+     "vistas": 1006,
      "likes": 14,
      "comentarios": 13
     },
@@ -268,7 +268,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-30T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/Xufj_Xp8liI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Xufj_Xp8liI",
-     "vistas": 346,
+     "vistas": 347,
      "likes": 10,
      "comentarios": 0
     },
