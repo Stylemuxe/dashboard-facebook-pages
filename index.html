@@ -509,7 +509,7 @@ body:not(.unlocked) #login{display:flex}
     <div class="sec-title">📋 Comparativa completa</div>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Página</th><th>Categoría</th><th>⭐ Calificación</th><th>Seguidores FB</th><th>Engagement FB 28d</th><th>Visitas 28d</th><th>Video views 28d</th><th>Conversaciones 28d</th><th>No leídos</th><th>📸 Seguidores IG</th><th>📸 Engagement IG 28d</th></tr></thead>
+        <thead><tr><th>Página</th><th>Categoría</th><th>⭐ Calificación</th><th>Seguidores FB</th><th>Engagement FB 28d</th><th>Visitas 28d</th><th>Video views 28d</th><th>Conversaciones 28d</th><th>Chats sin leer</th><th>📸 Seguidores IG</th><th>📸 Engagement IG 28d</th></tr></thead>
         <tbody id="resumenBody"></tbody>
       </table>
     </div>
@@ -1138,7 +1138,7 @@ function renderResumen(){
       <div class="kpi-label">Conversaciones Messenger (28 días)</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">⚠️</span>
       <div class="kpi-val">${numSpan(totalNoLeidos)}</div>
-      <div class="kpi-label">Mensajes sin leer (ahora)</div></div>
+      <div class="kpi-label">Chats de Messenger sin leer (ahora)</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">⭐</span>
       <div class="kpi-val">${ratingProm!=null ? numSpan(ratingProm.toFixed(1)) : '—'}</div>
       <div class="kpi-label">Calificación promedio (4 páginas)</div></div>
@@ -1171,7 +1171,7 @@ function renderResumen(){
     banner.innerHTML = `
       <div class="alert-banner">
         <div class="alert-banner-head"><span class="ico">⚠️</span>
-          <b>${fmt(totalNoLeidos)} mensajes de Messenger sin leer entre las 4 páginas</b></div>
+          <b>${fmt(totalNoLeidos)} chats de Messenger sin leer entre las 4 páginas</b></div>
         <div class="alert-list">
           ${sinResponder.map(r => `<div class="alert-chip"><span class="n">${fmt(r.no_leidos)}</span><span class="l">${r.nombre}</span></div>`).join('')}
         </div>
@@ -1653,7 +1653,7 @@ function renderMensajes(p){
   document.getElementById('mensajesStats').innerHTML = `
     <div class="mini-stat"><div class="v">${fmt(m.conversaciones_28d)}</div><div class="l">Conversaciones (28 días)</div></div>
     <div class="mini-stat"><div class="v">${fmt(m.mensajes_28d)}</div><div class="l">Mensajes totales (28 días)</div></div>
-    <div class="mini-stat ${m.no_leidos>0?'warn':''}"><div class="v">${fmt(m.no_leidos)}</div><div class="l">Sin leer ahora</div></div>
+    <div class="mini-stat ${m.no_leidos>0?'warn':''}"><div class="v">${fmt(m.no_leidos)}</div><div class="l">Chats sin leer ahora</div></div>
   `;
   const serie = sinHoyParcial(m.serie_diaria);
   const CC = chartColors();
