@@ -298,6 +298,28 @@ tbody tr:hover td{background:var(--surface2)}
 .queja-status.is-ok{color:var(--success);background:color-mix(in srgb,var(--success) 14%,transparent)}
 .queja-txt{font-size:12.5px;color:var(--text2);line-height:1.5;margin-bottom:6px}
 
+/* ── Semaforo de Messenger ── */
+.msg-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+.msg-chip{--t:var(--text3);display:flex;gap:10px;align-items:flex-start;background:var(--surface2);
+  border:1px solid var(--border);border-radius:12px;padding:10px 12px}
+.msg-chip .dot{width:10px;height:10px;border-radius:50%;background:var(--t);margin-top:4px;flex-shrink:0;
+  box-shadow:0 0 0 4px color-mix(in srgb,var(--t) 18%,transparent)}
+.msg-chip b{display:block;font-size:12.5px;font-weight:600;color:var(--text)}
+.msg-chip .st{display:block;font-size:12px;font-weight:600;color:var(--t);margin-top:2px}
+.msg-chip .det{display:block;font-size:11.5px;color:var(--text3);margin-top:1px}
+.st-ok{--t:var(--success)}.st-warn{--t:var(--warning)}.st-bad{--t:var(--danger)}.st-gris{--t:var(--text3)}
+.alert-banner.ok-banner{--t:var(--success)}
+.st-pill{display:inline-flex;align-items:center;gap:5px;font-weight:600;font-size:12px;color:var(--t);
+  background:color-mix(in srgb,var(--t) 13%,transparent);padding:2px 9px;border-radius:999px}
+.msg-leyenda{font-size:11.5px;color:var(--text3);margin-top:10px}
+
+/* ── Guia de lectura ── */
+.guia-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.guia-item{display:flex;gap:10px;background:var(--surface2);border:1px solid var(--border);border-radius:12px;padding:11px 13px}
+.guia-item .gi{font-size:18px;line-height:1.2;flex-shrink:0}
+.guia-item b{display:block;font-size:12.5px;color:var(--text);margin-bottom:2px}
+.guia-item span{font-size:12px;color:var(--text2);line-height:1.5}
+
 /* ── Mini stats ── */
 .mini-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:12px}
 .mini-stat{background:var(--surface2);border:1px solid var(--border);border-radius:14px;padding:14px 16px}
@@ -477,6 +499,20 @@ body:not(.unlocked) #login{display:flex}
 <div class="content">
 
   <div class="view" id="viewResumen">
+    <details class="sec-block" id="guiaLectura">
+      <summary class="sec-title">❓ ¿Cómo leer este dashboard? <span class="sec-hint">· guía rápida</span></summary>
+      <div class="guia-grid">
+        <div class="guia-item"><span class="gi">🗓️</span><div><b>Periodo</b><span>Los botones de arriba (Hoy, 7, 30, 90 días) cambian el rango de fechas de casi todos los números.</span></div></div>
+        <div class="guia-item"><span class="gi">🔄</span><div><b>Actualización</b><span>Los datos se actualizan solos cada hora. Arriba a la derecha dice la hora de la última actualización.</span></div></div>
+        <div class="guia-item"><span class="gi">▲▼</span><div><b>Flechas verde / roja</b><span>Comparan contra el periodo anterior del mismo tamaño (ej. estos 30 días vs los 30 anteriores). Verde = subió, rojo = bajó.</span></div></div>
+        <div class="guia-item"><span class="gi">⚡</span><div><b>Hoy (parcial)</b><span>El día de hoy aún no termina, así que casi siempre sale más bajo que ayer. Es normal.</span></div></div>
+        <div class="guia-item"><span class="gi">👥</span><div><b>Seguidores</b><span>Personas que siguen la página o cuenta.</span></div></div>
+        <div class="guia-item"><span class="gi">🔥</span><div><b>Engagement / interacciones</b><span>Reacciones + comentarios + veces compartido. Mide qué tanto le interesa el contenido a la gente.</span></div></div>
+        <div class="guia-item"><span class="gi">👁️</span><div><b>Visitas y alcance</b><span>Visitas = veces que abrieron la página de Facebook. Alcance (Instagram) = cuentas distintas que vieron el contenido.</span></div></div>
+        <div class="guia-item"><span class="gi">💬</span><div><b>Chats sin leer</b><span>🟢 al día · 🟡 llegaron en las últimas 24 h · 🔴 llevan más de un día sin leerse. Se cuentan chats, no mensajes.</span></div></div>
+      </div>
+    </details>
+
     <details class="sec-block" open>
       <summary class="sec-title">📰 Novedades <span class="sec-hint">· lo que pasó últimamente</span></summary>
       <div class="novedades-feed" id="novedadesFeed"></div>
@@ -490,7 +526,7 @@ body:not(.unlocked) #login{display:flex}
     <div id="quejasBanner"></div>
 
     <div class="sec-block">
-      <div class="sec-title">⚡ Hoy vs. ayer <span class="sec-hint">· 4 páginas · verde subió, rojo bajó</span></div>
+      <div class="sec-title">⚡ Hoy vs. ayer <span class="sec-hint">· 4 páginas · hoy aún no termina, es normal que salga más bajo</span></div>
       <div class="delta-row" id="hoyAyerResumen"></div>
     </div>
 
@@ -533,7 +569,7 @@ body:not(.unlocked) #login{display:flex}
     <div class="kpi-row" id="kpiRow"></div>
 
     <details class="sec-block" open>
-      <summary class="sec-title">⚡ Hoy vs. ayer <span class="sec-hint">· verde subió, rojo bajó</span></summary>
+      <summary class="sec-title">⚡ Hoy vs. ayer <span class="sec-hint">· hoy aún no termina, es normal que salga más bajo</span></summary>
       <div class="delta-row" id="hoyAyerRow"></div>
     </details>
 
@@ -611,7 +647,7 @@ body:not(.unlocked) #login{display:flex}
       <div class="kpi-row" id="kpiRowIG"></div>
 
       <details class="sec-block" open>
-        <summary class="sec-title">⚡ Hoy vs. ayer <span class="sec-hint">· verde subió, rojo bajó</span></summary>
+        <summary class="sec-title">⚡ Hoy vs. ayer <span class="sec-hint">· hoy aún no termina, es normal que salga más bajo</span></summary>
         <div class="delta-row" id="hoyAyerRowIG"></div>
       </details>
 
@@ -1054,6 +1090,21 @@ function renderNovedades(){
     </div>`).join('') : '<div class="empty-note">Sin novedades recientes — todo tranquilo 👍</div>';
 }
 
+/* Semaforo de Messenger por pagina: verde al dia, amarillo pendiente de las
+   ultimas 24 h, rojo si hay chats sin leer de hace mas de un dia. */
+function estadoMessenger(r){
+  const n = r.no_leidos;
+  const desact = r.mensajes_estado === 'desactualizado' && r.mensajes_actualizado ? ` · dato de ${r.mensajes_actualizado}` : '';
+  if(r.mensajes_estado === 'error' || n == null) return {cls:'st-gris', ico:'⚪', txt:'Sin dato', det:'No se pudo leer Messenger', n:0};
+  if(n === 0) return {cls:'st-ok', ico:'🟢', txt:'Al día', det:'Nada pendiente' + desact, n};
+  const dias = r.no_leidos_mas_antiguo ? (Date.now() - new Date(r.no_leidos_mas_antiguo).getTime()) / 86400000 : null;
+  const plural = n === 1 ? 'chat sin leer' : 'chats sin leer';
+  if(dias != null && dias < 1) return {cls:'st-warn', ico:'🟡', txt:`${n} ${plural}`, det:'Llegaron en las últimas 24 h' + desact, n};
+  const hoy = r.no_leidos_24h ? ` · ${r.no_leidos_24h} de hoy` : '';
+  return {cls:'st-bad', ico:'🔴', txt:`${n} ${plural}`,
+    det:(dias != null ? `El más antiguo lleva ${Math.floor(dias)} día${Math.floor(dias)===1?'':'s'}` : 'Revisar en Business Suite') + hoy + desact, n};
+}
+
 function renderKpiGlobal(){
   const wrap = document.getElementById('kpiRowGlobal');
   if(!wrap) return;
@@ -1136,9 +1187,10 @@ function renderResumen(){
     <div class="kpi-card c3"><span class="kpi-icon">💬</span>
       <div class="kpi-val">${numSpan(totalConversaciones)}</div>
       <div class="kpi-label">Conversaciones Messenger (28 días)</div></div>
-    <div class="kpi-card c4"><span class="kpi-icon">⚠️</span>
+    <div class="kpi-card c4"><span class="kpi-icon">💬</span>
       <div class="kpi-val">${numSpan(totalNoLeidos)}</div>
-      <div class="kpi-label">Chats de Messenger sin leer (ahora)</div></div>
+      <div class="kpi-label">Chats de Messenger sin leer (ahora)</div>
+      <div class="kpi-sub">${totalNoLeidos ? 'Detalle por página en el aviso de abajo' : '🟢 Todo al día'}</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">⭐</span>
       <div class="kpi-val">${ratingProm!=null ? numSpan(ratingProm.toFixed(1)) : '—'}</div>
       <div class="kpi-label">Calificación promedio (4 páginas)</div></div>
@@ -1165,20 +1217,25 @@ function renderResumen(){
     pubBanner.innerHTML = '';
   }
 
-  const sinResponder = RESUMEN.filter(r => (r.no_leidos||0) > 0).sort((a,b)=>b.no_leidos-a.no_leidos);
   const banner = document.getElementById('alertBanner');
-  if(sinResponder.length){
-    banner.innerHTML = `
-      <div class="alert-banner">
-        <div class="alert-banner-head"><span class="ico">⚠️</span>
-          <b>${fmt(totalNoLeidos)} chats de Messenger sin leer entre las 4 páginas</b></div>
-        <div class="alert-list">
-          ${sinResponder.map(r => `<div class="alert-chip"><span class="n">${fmt(r.no_leidos)}</span><span class="l">${r.nombre}</span></div>`).join('')}
-        </div>
-      </div>`;
-  } else {
-    banner.innerHTML = '';
-  }
+  const estados = RESUMEN.map(r => ({r, e: estadoMessenger(r)}));
+  const hayRojo = estados.some(x => x.e.cls === 'st-bad');
+  const hayAmarillo = estados.some(x => x.e.cls === 'st-warn');
+  const tono = hayRojo ? '' : (hayAmarillo ? 'warn-banner' : 'ok-banner');
+  const titulo = totalNoLeidos > 0
+    ? `💬 ${fmt(totalNoLeidos)} chat${totalNoLeidos===1?'':'s'} de Messenger sin leer entre las 4 páginas`
+    : '💬 Messenger al día en las 4 páginas';
+  banner.innerHTML = RESUMEN.length ? `
+    <div class="alert-banner ${tono}">
+      <div class="alert-banner-head"><span class="ico">${hayRojo ? '🔴' : (hayAmarillo ? '🟡' : '🟢')}</span><b>${titulo}</b></div>
+      <div class="msg-grid">
+        ${estados.map(({r, e}) => `
+          <div class="msg-chip ${e.cls}"><span class="dot"></span>
+            <div><b>${r.nombre}</b><span class="st">${e.txt}</span><span class="det">${e.det}</span></div>
+          </div>`).join('')}
+      </div>
+      <div class="msg-leyenda">🟢 al día · 🟡 llegaron en las últimas 24 h · 🔴 más de un día sin leerse</div>
+    </div>` : '';
 
   renderQuejas();
 
@@ -1217,7 +1274,7 @@ function renderResumen(){
       <td>${fmt(r.vistas_28d)}</td>
       <td>${fmt(r.video_views_28d)}</td>
       <td>${fmt(r.conversaciones_28d)}</td>
-      <td>${r.no_leidos ? `<span style="color:var(--danger);font-weight:700">${fmt(r.no_leidos)}</span>` : '0'}</td>
+      <td>${(e => `<span class="st-pill ${e.cls}">${e.ico} ${e.n ? fmt(e.n) : e.txt}</span>`)(estadoMessenger(r))}</td>
       <td class="cell-num">${r.ig_seguidores!=null ? fmt(r.ig_seguidores) : '—'}</td>
       <td>${r.ig_engagement_28d!=null ? fmt(r.ig_engagement_28d) : '—'}</td>
     </tr>
@@ -1653,7 +1710,9 @@ function renderMensajes(p){
   document.getElementById('mensajesStats').innerHTML = `
     <div class="mini-stat"><div class="v">${fmt(m.conversaciones_28d)}</div><div class="l">Conversaciones (28 días)</div></div>
     <div class="mini-stat"><div class="v">${fmt(m.mensajes_28d)}</div><div class="l">Mensajes totales (28 días)</div></div>
-    <div class="mini-stat ${m.no_leidos>0?'warn':''}"><div class="v">${fmt(m.no_leidos)}</div><div class="l">Chats sin leer ahora</div></div>
+    ${(e => `<div class="mini-stat"><div class="v"><span class="st-pill ${e.cls}" style="font-size:15px">${e.ico} ${e.n ? fmt(e.n) : e.txt}</span></div><div class="l">Chats sin leer ahora</div><div class="l" style="text-transform:none;color:var(--text3)">${e.det}</div></div>`)(estadoMessenger({
+      no_leidos:m.no_leidos, no_leidos_24h:m.no_leidos_24h, no_leidos_mas_antiguo:m.no_leidos_mas_antiguo,
+      mensajes_estado:m.estado, mensajes_actualizado:m.actualizado}))}
   `;
   const serie = sinHoyParcial(m.serie_diaria);
   const CC = chartColors();
