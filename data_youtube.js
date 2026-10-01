@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-10-01 09:07",
+ "generado": "2026-10-01 09:14",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -259,8 +259,8 @@ window.YOUTUBE_DATA = {
      "miniatura": "https://i.ytimg.com/vi/f6euhUlrGE8/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=f6euhUlrGE8",
      "vistas": 1825,
-     "likes": 0,
-     "comentarios": 0
+     "likes": 28,
+     "comentarios": 1
     },
     {
      "id": "koNKV9O2q_M",
@@ -269,7 +269,7 @@ window.YOUTUBE_DATA = {
      "miniatura": "https://i.ytimg.com/vi/koNKV9O2q_M/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=koNKV9O2q_M",
      "vistas": 491,
-     "likes": 0,
+     "likes": 7,
      "comentarios": 0
     },
     {
@@ -279,8 +279,8 @@ window.YOUTUBE_DATA = {
      "miniatura": "https://i.ytimg.com/vi/MCcWxjoepeI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=MCcWxjoepeI",
      "vistas": 1008,
-     "likes": 0,
-     "comentarios": 0
+     "likes": 14,
+     "comentarios": 13
     },
     {
      "id": "Xufj_Xp8liI",
@@ -359,7 +359,7 @@ window.YOUTUBE_DATA = {
      "miniatura": "https://i.ytimg.com/vi/y-4nAByhwTs/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=y-4nAByhwTs",
      "vistas": 1758,
-     "likes": 0,
+     "likes": 33,
      "comentarios": 0
     },
     {
