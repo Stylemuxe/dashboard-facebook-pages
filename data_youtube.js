@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-10-13 05:13",
+ "generado": "2026-10-13 08:25",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
