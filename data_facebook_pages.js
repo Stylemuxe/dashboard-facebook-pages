@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-10-14 08:34",
+  "generado": "2026-10-14 08:39",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -2697,7 +2697,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-14 08:33"
+        "actualizado": "2026-10-14 08:37"
       },
       "mejor_horario": {
         "por_dia": [
@@ -2724,12 +2724,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Viernes",
             "posts": 13,
-            "engagement_prom": 171.7
+            "engagement_prom": 171.8
           },
           {
             "label": "Lunes",
             "posts": 9,
-            "engagement_prom": 96.8
+            "engagement_prom": 96.9
           },
           {
             "label": "Domingo",
@@ -2746,7 +2746,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 15,
-            "engagement_prom": 765.8
+            "engagement_prom": 765.9
           },
           {
             "label": "Noche (18-21h)",
@@ -2779,12 +2779,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Promoción / Precio",
           "posts": 6,
-          "engagement_prom": 704.7
+          "engagement_prom": 704.8
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 32,
-          "engagement_prom": 478.9
+          "engagement_prom": 479.0
         },
         {
           "label": "Otro / sin clasificar",
@@ -2843,11 +2843,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "ATENCIÓN TLÁHUAC 📢\nDolor de espalda, cuello o rodilla: no lo dejes para después.\nEquilibrio Total Tláhuac te atiende.\n\nPrimera sesión a solo $690 (antes $1,790).\nIncluye evaluación por especialistas, terapia personalizad",
           "fecha": "2026-10-12T22:41:40+0000",
           "url": "https://www.facebook.com/reel/2633974157073291/",
-          "reacciones": 84,
+          "reacciones": 85,
           "comentarios": 1,
           "shares": 3,
           "clics": 625,
-          "video_views": 9021,
+          "video_views": 9049,
           "comentarios_preview": [
             {
               "id": "1106421702144375_4650121855312557",
@@ -4221,7 +4221,7 @@ window.FB_PAGES_DATA = {
         "profile_views_28d": 5278,
         "website_clicks_28d": 128,
         "accounts_engaged_28d": 6657,
-        "total_interactions_28d": 7706,
+        "total_interactions_28d": 7707,
         "mejor_horario": {
           "por_dia": [
             {
@@ -4335,7 +4335,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 257,
+            "video_views": 258,
             "alcance": 186,
             "guardados": 1,
             "media_type": "VIDEO",
@@ -4350,7 +4350,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 1,
             "clics": 0,
-            "video_views": 666,
+            "video_views": 668,
             "alcance": 469,
             "guardados": 4,
             "media_type": "VIDEO",
@@ -4410,7 +4410,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 4,
             "clics": 0,
-            "video_views": 823,
+            "video_views": 824,
             "alcance": 573,
             "guardados": 7,
             "media_type": "VIDEO",
@@ -7514,7 +7514,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-14 08:33"
+        "actualizado": "2026-10-14 08:38"
       },
       "mejor_horario": {
         "por_dia": [
@@ -7526,12 +7526,12 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 8,
-            "engagement_prom": 1481.8
+            "engagement_prom": 1481.6
           },
           {
             "label": "Miércoles",
             "posts": 7,
-            "engagement_prom": 1344.6
+            "engagement_prom": 1344.7
           },
           {
             "label": "Martes",
@@ -7586,7 +7586,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 8,
-          "engagement_prom": 4475.9
+          "engagement_prom": 4475.8
         },
         {
           "label": "Dolor / Padecimiento",
@@ -12494,14 +12494,14 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-14 08:34"
+        "actualizado": "2026-10-14 08:38"
       },
       "mejor_horario": {
         "por_dia": [
           {
             "label": "Lunes",
             "posts": 10,
-            "engagement_prom": 1334.0
+            "engagement_prom": 1334.2
           },
           {
             "label": "Jueves",
@@ -12538,7 +12538,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Noche tarde (21-24h)",
             "posts": 1,
-            "engagement_prom": 5638.0
+            "engagement_prom": 5639.0
           },
           {
             "label": "Tarde (14-18h)",
@@ -12566,7 +12566,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 5,
-          "engagement_prom": 1688.6
+          "engagement_prom": 1688.8
         },
         {
           "label": "Llamado a agendar",
@@ -12576,7 +12576,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Dolor / Padecimiento",
           "posts": 26,
-          "engagement_prom": 921.7
+          "engagement_prom": 921.8
         },
         {
           "label": "Educativo / Tips",
@@ -12610,7 +12610,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Vives en Milpa Alta y la espalda te truena, te duele o ya no te deja moverte igual? 🛑\n\nEste es el Mes de la Columna y en Fundación Ser Humano Milpa Alta (Centro Comunitario San José) te ayudamos a atenderla a tiempo.\n\nE",
           "fecha": "2026-10-12T16:48:37+0000",
           "url": "https://www.facebook.com/reel/1772557247287638/",
-          "reacciones": 100,
+          "reacciones": 101,
           "comentarios": 3,
           "shares": 2,
           "clics": 449,
@@ -12901,7 +12901,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Vives o eres de Mixquiahuala y el dolor de espalda o de hombro te detiene? 🛑\n\nRecuperar tu movimiento es recuperar tu libertad. En la Fundación Ser Humano Beth te ayudamos a vivir plenamente con especialistas en Fisiote",
           "fecha": "2026-07-14T03:30:27+0000",
           "url": "https://www.facebook.com/reel/1387701943244709/",
-          "reacciones": 5247,
+          "reacciones": 5248,
           "comentarios": 76,
           "shares": 315,
           "clics": 30713,
@@ -14372,7 +14372,7 @@ window.FB_PAGES_DATA = {
         "profile_views_28d": 400,
         "website_clicks_28d": 0,
         "accounts_engaged_28d": 1048,
-        "total_interactions_28d": 1156,
+        "total_interactions_28d": 1157,
         "mejor_horario": {
           "por_dia": [
             {
@@ -17625,7 +17625,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-14 08:34"
+        "actualizado": "2026-10-14 08:39"
       },
       "mejor_horario": {
         "por_dia": [
@@ -19745,12 +19745,12 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 4,
       "no_leidos_mas_antiguo": "2026-10-11T03:55:29+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-14 08:33",
+      "mensajes_actualizado": "2026-10-14 08:37",
       "rating": 4.5,
       "dias_desde_ultima": 0,
       "ig_seguidores": 10277,
       "ig_username": "equilibriototalmx",
-      "ig_engagement_28d": 7706,
+      "ig_engagement_28d": 7707,
       "ig_dias_desde_ultima": 1
     },
     {
@@ -19765,7 +19765,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 6,
       "no_leidos_mas_antiguo": "2026-09-30T17:47:34+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-14 08:33",
+      "mensajes_actualizado": "2026-10-14 08:38",
       "rating": 4.2,
       "dias_desde_ultima": 0,
       "ig_seguidores": 4146,
@@ -19785,12 +19785,12 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 3,
       "no_leidos_mas_antiguo": "2026-09-17T01:49:36+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-14 08:34",
+      "mensajes_actualizado": "2026-10-14 08:38",
       "rating": 4.4,
       "dias_desde_ultima": 1,
       "ig_seguidores": 1985,
       "ig_username": "funda_cionserhumano",
-      "ig_engagement_28d": 1156,
+      "ig_engagement_28d": 1157,
       "ig_dias_desde_ultima": 61
     },
     {
@@ -19805,7 +19805,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": "2026-09-22T03:50:35+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-14 08:34",
+      "mensajes_actualizado": "2026-10-14 08:39",
       "rating": 5,
       "dias_desde_ultima": 1,
       "ig_seguidores": 612,
