@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-10-14 22:09",
+ "generado": "2026-10-15 04:13",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -304,6 +304,11 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-10-14",
      "seguidores": 7850,
      "vistas_totales": 1766015
+    },
+    {
+     "fecha": "2026-10-15",
+     "seguidores": 7850,
+     "vistas_totales": 1766015
     }
    ],
    "videos": [
@@ -313,7 +318,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-10-03T19:05:31Z",
      "miniatura": "https://i.ytimg.com/vi/nMXFhrsE6dg/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=nMXFhrsE6dg",
-     "vistas": 161,
+     "vistas": 162,
      "likes": 2,
      "comentarios": 0
     },
@@ -323,7 +328,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-10-03T19:05:19Z",
      "miniatura": "https://i.ytimg.com/vi/9SHDI0qSN7Y/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=9SHDI0qSN7Y",
-     "vistas": 128,
+     "vistas": 129,
      "likes": 1,
      "comentarios": 0
     },
@@ -343,7 +348,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-07-11T15:51:28Z",
      "miniatura": "https://i.ytimg.com/vi/f6euhUlrGE8/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=f6euhUlrGE8",
-     "vistas": 1848,
+     "vistas": 1849,
      "likes": 28,
      "comentarios": 1
     },
@@ -363,7 +368,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-08T23:09:35Z",
      "miniatura": "https://i.ytimg.com/vi/MCcWxjoepeI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=MCcWxjoepeI",
-     "vistas": 1029,
+     "vistas": 1030,
      "likes": 15,
      "comentarios": 13
     },
@@ -373,7 +378,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-30T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/Xufj_Xp8liI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Xufj_Xp8liI",
-     "vistas": 366,
+     "vistas": 367,
      "likes": 10,
      "comentarios": 0
     },
@@ -433,7 +438,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 685,
+     "vistas": 686,
      "likes": 11,
      "comentarios": 4
     },
