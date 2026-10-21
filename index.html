@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<!-- PASSWORD GATE -->
+<style>html.locked body>*:not(#pwgate){display:none!important}#pwgate{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#0f172a;z-index:99999;font-family:system-ui,sans-serif}#pwgate form{background:#fff;padding:28px;border-radius:14px;width:min(320px,90vw);text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.4)}#pwgate input{width:100%;padding:12px;margin:14px 0 10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;box-sizing:border-box}#pwgate button{width:100%;padding:12px;border:0;border-radius:8px;background:#2563eb;color:#fff;font-size:16px;cursor:pointer}#pwgate .err{color:#dc2626;font-size:13px;min-height:16px}</style>
+<script>
+(function(){var H='1901878a89cb346172aa6db75b8b4abd3efac26626a5a13bb21d72899bd14649',K='pwgate_ok';
+try{if(localStorage.getItem(K)===H)return}catch(e){}
+document.documentElement.classList.add('locked');
+async function sha(t){var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('')}
+document.addEventListener('DOMContentLoaded',function(){var d=document.createElement('div');d.id='pwgate';d.innerHTML='<form><b>Acceso restringido</b><input type="password" placeholder="Contraseña" autofocus><div class="err"></div><button>Entrar</button></form>';document.body.appendChild(d);
+d.querySelector('form').onsubmit=async function(ev){ev.preventDefault();var v=d.querySelector('input').value;if(await sha(v)===H){try{localStorage.setItem(K,H)}catch(e){}document.documentElement.classList.remove('locked');d.remove()}else{d.querySelector('.err').textContent='Contraseña incorrecta'}}})})();
+</script>
+<!-- /PASSWORD GATE -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
