@@ -7949,7 +7949,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-22 08:31"
+        "actualizado": "2026-10-22 08:32"
       },
       "mejor_horario": {
         "por_dia": [
@@ -20778,7 +20778,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 2,
       "no_leidos_mas_antiguo": "2026-09-30T17:47:34+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-22 08:31",
+      "mensajes_actualizado": "2026-10-22 08:32",
       "rating": 4.2,
       "dias_desde_ultima": 0,
       "ig_seguidores": 4256,
