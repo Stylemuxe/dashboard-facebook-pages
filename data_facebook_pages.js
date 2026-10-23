@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-10-23 04:14",
+  "generado": "2026-10-23 04:16",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -2845,7 +2845,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-23 04:11"
+        "actualizado": "2026-10-23 04:13"
       },
       "mejor_horario": {
         "por_dia": [
@@ -7987,7 +7987,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-23 04:12"
+        "actualizado": "2026-10-23 04:13"
       },
       "mejor_horario": {
         "por_dia": [
@@ -13200,7 +13200,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-23 04:13"
+        "actualizado": "2026-10-23 04:14"
       },
       "mejor_horario": {
         "por_dia": [
@@ -18600,7 +18600,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-23 04:13"
+        "actualizado": "2026-10-23 04:15"
       },
       "mejor_horario": {
         "por_dia": [
@@ -20859,7 +20859,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 4,
       "no_leidos_mas_antiguo": "2026-10-22T17:18:50+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-23 04:11",
+      "mensajes_actualizado": "2026-10-23 04:13",
       "rating": 4.5,
       "dias_desde_ultima": 0,
       "ig_seguidores": 10579,
@@ -20879,7 +20879,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 3,
       "no_leidos_mas_antiguo": "2026-09-30T17:47:34+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-23 04:12",
+      "mensajes_actualizado": "2026-10-23 04:13",
       "rating": 4.2,
       "dias_desde_ultima": 0,
       "ig_seguidores": 4268,
@@ -20899,7 +20899,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 1,
       "no_leidos_mas_antiguo": "2026-09-30T14:37:11+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-23 04:13",
+      "mensajes_actualizado": "2026-10-23 04:14",
       "rating": 4.4,
       "dias_desde_ultima": 1,
       "ig_seguidores": 2019,
@@ -20919,7 +20919,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-23 04:13",
+      "mensajes_actualizado": "2026-10-23 04:15",
       "rating": 5,
       "dias_desde_ultima": 0,
       "ig_seguidores": 644,
