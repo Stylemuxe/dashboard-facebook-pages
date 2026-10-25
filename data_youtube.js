@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-10-25 01:13",
+ "generado": "2026-10-25 06:15",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -538,7 +538,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-02-23T23:00:21Z",
      "miniatura": "https://i.ytimg.com/vi/v6LRCc5K8CU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=v6LRCc5K8CU",
-     "vistas": 369,
+     "vistas": 370,
      "likes": 5,
      "comentarios": 2
     },
