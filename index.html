@@ -537,7 +537,7 @@ body:not(.unlocked) #login{display:flex}
     <div id="quejasBanner"></div>
 
     <div class="sec-block">
-      <div class="sec-title">⚡ Hoy vs. ayer <span class="sec-hint">· 4 páginas · hoy aún no termina, es normal que salga más bajo</span></div>
+      <div class="sec-title">⚡ Hoy vs. ayer <span class="sec-hint">· <span class="n-paginas">todas las</span> páginas · hoy aún no termina, es normal que salga más bajo</span></div>
       <div class="delta-row" id="hoyAyerResumen"></div>
     </div>
 
@@ -843,7 +843,7 @@ function etiquetaRango(){
   }
   return `${rangoGlobalDias} días`;
 }
-const ORDEN_PAGINAS = ["equilibrio_total","edomex","beth","autonomia"];
+const ORDEN_PAGINAS = ["equilibrio_total","edomex","beth","autonomia","mexico","queretaro","pachuca","tepeyac","cuautla","reclutamiento","mexico_2","pachuca_2"];
 let activa = "resumen";
 let platform = "facebook";
 let charts = {};
@@ -933,7 +933,7 @@ function renderTabs(){
   const tabs = [{key:'resumen', label:'📈 Resumen General'}]
     .concat(Object.keys((window.YOUTUBE_DATA||{}).canales||{}).length ? [{key:'youtube', label:'▶️ YouTube'}] : [])
     .concat(Object.keys((window.TIKTOK_DATA||{}).cuentas||{}).length ? [{key:'tiktok', label:'🎵 TikTok'}] : [])
-    .concat(ORDEN_PAGINAS.filter(k => DATA[k]).map(k => ({key:k, label:DATA[k].nombre})));
+    .concat(ORDEN_PAGINAS.filter(k => DATA[k]).map(k => ({key:k, label:(DATA[k].nombre.replace(/^Equilibrio Total (?=\S)/,'') || DATA[k].nombre)})));
   // Solo se reemplazan los botones: el indicador se queda en el DOM para
   // que su transicion anime el salto de una pestana a otra.
   inner.querySelectorAll('.tab-btn').forEach(b => b.remove());
@@ -1182,7 +1182,7 @@ function renderResumen(){
   document.getElementById('resumenKpiRow').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">👥</span>
       <div class="kpi-val">${numSpan(totalSeguidores)}</div>
-      <div class="kpi-label">Seguidores (4 páginas)</div></div>
+      <div class="kpi-label">Seguidores en Facebook (${RESUMEN.length} páginas)</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
       <div class="kpi-val">${numSpan(totalEng)}</div>
       <div class="kpi-label">Engagement total (${etiquetaRango()})</div>
@@ -1204,10 +1204,10 @@ function renderResumen(){
       <div class="kpi-sub">${totalNoLeidos ? 'Detalle por página en el aviso de abajo' : '🟢 Todo al día'}</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">⭐</span>
       <div class="kpi-val">${ratingProm!=null ? numSpan(ratingProm.toFixed(1)) : '—'}</div>
-      <div class="kpi-label">Calificación promedio (4 páginas)</div></div>
+      <div class="kpi-label">Calificación promedio (${ratings.length} páginas con reseñas)</div></div>
     <div class="kpi-card c1"><span class="kpi-icon">📸</span>
       <div class="kpi-val">${numSpan(totalIgSeguidores)}</div>
-      <div class="kpi-label">Seguidores Instagram (4 cuentas)</div></div>
+      <div class="kpi-label">Seguidores Instagram (${RESUMEN.filter(r=>r.ig_seguidores!=null).length} cuentas)</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">📸</span>
       <div class="kpi-val">${numSpan(totalIgEngagement)}</div>
       <div class="kpi-label">Engagement Instagram (28 días)</div></div>
@@ -1234,8 +1234,8 @@ function renderResumen(){
   const hayAmarillo = estados.some(x => x.e.cls === 'st-warn');
   const tono = hayRojo ? '' : (hayAmarillo ? 'warn-banner' : 'ok-banner');
   const titulo = totalNoLeidos > 0
-    ? `💬 ${fmt(totalNoLeidos)} chat${totalNoLeidos===1?'':'s'} de Messenger sin leer entre las 4 páginas`
-    : '💬 Messenger al día en las 4 páginas';
+    ? `💬 ${fmt(totalNoLeidos)} chat${totalNoLeidos===1?'':'s'} de Messenger sin leer entre las ${RESUMEN.length} páginas`
+    : `💬 Messenger al día en las ${RESUMEN.length} páginas`;
   banner.innerHTML = RESUMEN.length ? `
     <div class="alert-banner ${tono}">
       <div class="alert-banner-head"><span class="ico">${hayRojo ? '🔴' : (hayAmarillo ? '🟡' : '🟢')}</span><b>${titulo}</b></div>
@@ -1250,6 +1250,10 @@ function renderResumen(){
 
   renderQuejas();
 
+  document.querySelectorAll('.n-paginas').forEach(el => el.textContent = RESUMEN.length);
+  ['chartCompSeguidores','chartCompEngagement'].forEach(id => {
+    document.getElementById(id).parentElement.style.height = Math.max(250, RESUMEN.length * 30) + 'px';
+  });
   const CC = chartColors();
   const orden = RESUMEN.slice().sort((a,b)=>b.seguidores-a.seguidores);
   destroyChart('compSeg');
