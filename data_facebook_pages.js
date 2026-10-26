@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-10-26 10:15",
+  "generado": "2026-10-26 10:32",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -693,7 +693,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 1480
+          "valor": 1532
         }
       ],
       "vistas_diario": [
@@ -2069,11 +2069,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-26",
-          "valor": 91025
+          "valor": 91026
         },
         {
           "fecha": "2026-10-27",
-          "valor": 19766
+          "valor": 20991
         }
       ],
       "video_view_time_horas_diario": [
@@ -2759,11 +2759,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-26",
-          "valor": 402.0
+          "valor": 402.1
         },
         {
           "fecha": "2026-10-27",
-          "valor": 88.7
+          "valor": 94.0
         }
       ],
       "calificacion": {
@@ -2781,11 +2781,11 @@ window.FB_PAGES_DATA = {
       },
       "mensajes": {
         "conversaciones_28d": 208,
-        "mensajes_28d": 855,
+        "mensajes_28d": 856,
         "no_leidos": 0,
         "no_leidos_24h": 0,
         "no_leidos_mas_antiguo": null,
-        "conversaciones_hoy": 9,
+        "conversaciones_hoy": 10,
         "serie_diaria": [
           {
             "fecha": "2026-09-28",
@@ -2881,15 +2881,15 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-10-24",
-            "valor": 12
+            "valor": 11
           },
           {
             "fecha": "2026-10-26",
-            "valor": 9
+            "valor": 10
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-26 10:12"
+        "actualizado": "2026-10-26 10:28"
       },
       "mejor_horario": {
         "por_dia": [
@@ -2901,27 +2901,27 @@ window.FB_PAGES_DATA = {
           {
             "label": "Martes",
             "posts": 12,
-            "engagement_prom": 365.2
+            "engagement_prom": 365.4
           },
           {
             "label": "Viernes",
             "posts": 14,
-            "engagement_prom": 185.9
+            "engagement_prom": 186.1
           },
           {
             "label": "Lunes",
             "posts": 8,
-            "engagement_prom": 78.8
+            "engagement_prom": 78.9
           },
           {
             "label": "Jueves",
             "posts": 10,
-            "engagement_prom": 50.9
+            "engagement_prom": 51.1
           },
           {
             "label": "Miércoles",
             "posts": 9,
-            "engagement_prom": 50.0
+            "engagement_prom": 50.2
           },
           {
             "label": "Domingo",
@@ -2933,7 +2933,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Noche tarde (21-24h)",
             "posts": 2,
-            "engagement_prom": 2085.5
+            "engagement_prom": 2086.5
           },
           {
             "label": "Mediodía (11-14h)",
@@ -2943,17 +2943,17 @@ window.FB_PAGES_DATA = {
           {
             "label": "Tarde (14-18h)",
             "posts": 25,
-            "engagement_prom": 66.4
+            "engagement_prom": 66.5
           },
           {
             "label": "Mañana (06-11h)",
             "posts": 5,
-            "engagement_prom": 22.2
+            "engagement_prom": 22.8
           },
           {
             "label": "Noche (18-21h)",
             "posts": 13,
-            "engagement_prom": 19.9
+            "engagement_prom": 20.1
           }
         ]
       },
@@ -2961,12 +2961,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Promoción / Precio",
           "posts": 10,
-          "engagement_prom": 530.3
+          "engagement_prom": 530.8
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 37,
-          "engagement_prom": 296.7
+          "engagement_prom": 296.9
         },
         {
           "label": "Ubicación / Sucursal",
@@ -3000,11 +3000,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "📍 Equilibrio Total Xochimilco 🧡 En tu primera sesión te recibimos con especialistas titulados, te damos una terapia física personalizada y platicamos contigo qué podemos hacer por tu dolor de espalda. De $1790 a solo $69",
           "fecha": "2026-10-26T14:45:10+0000",
           "url": "https://www.facebook.com/reel/1401331308839607/",
-          "reacciones": 2,
+          "reacciones": 3,
           "comentarios": 0,
           "shares": 1,
-          "clics": 7,
-          "video_views": 129,
+          "clics": 8,
+          "video_views": 166,
           "comentarios_preview": []
         },
         {
@@ -3015,7 +3015,7 @@ window.FB_PAGES_DATA = {
           "reacciones": 2,
           "comentarios": 0,
           "shares": 0,
-          "clics": 25,
+          "clics": 26,
           "video_views": 0,
           "comentarios_preview": []
         },
@@ -3024,11 +3024,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "📍 Equilibrio Total Clavería 💀 Dice la Catrina que en estas fechas todo mundo pone su ofrenda… pero casi nadie se acuerda de su espalda, su cuello o sus rodillas. Aquí nos acordamos por ti. Ven a Equilibrio Total Clavería",
           "fecha": "2026-10-23T16:37:30+0000",
           "url": "https://www.facebook.com/reel/1123699453449457/",
-          "reacciones": 37,
+          "reacciones": 39,
           "comentarios": 0,
           "shares": 2,
           "clics": 95,
-          "video_views": 2414,
+          "video_views": 2434,
           "comentarios_preview": []
         },
         {
@@ -3051,8 +3051,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 164,
           "comentarios": 5,
           "shares": 1,
-          "clics": 388,
-          "video_views": 13144,
+          "clics": 394,
+          "video_views": 13231,
           "comentarios_preview": [
             {
               "id": "1115838604536018_1014747281639104",
@@ -3086,11 +3086,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "😮‍💨 En Equilibrio Total Tepeyac, nuestros especialistas titulados en fisioterapia, acupuntura y quiropráctica te atendemos en una primera sesión con terapia personalizada, de $1790 a solo $690, por tiempo limitado. 💪 Esc",
           "fecha": "2026-10-22T21:24:21+0000",
           "url": "https://www.facebook.com/reel/2027491051274890/",
-          "reacciones": 77,
+          "reacciones": 79,
           "comentarios": 0,
           "shares": 2,
           "clics": 253,
-          "video_views": 5334,
+          "video_views": 5348,
           "comentarios_preview": []
         },
         {
@@ -3102,7 +3102,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 3,
           "shares": 2,
           "clics": 176,
-          "video_views": 4120,
+          "video_views": 4150,
           "comentarios_preview": [
             {
               "id": "1115758347877377_1682395103534472",
@@ -3126,11 +3126,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "📍 ¿Eres de Coacalco? 💀🧡 Entonces esto te interesa: que el dolor de espalda no te impida disfrutar la temporada de Día de Muertos con tu familia. En Equilibrio Total Coacalco, nuestros especialistas titulados en fisiotera",
           "fecha": "2026-10-22T01:39:00+0000",
           "url": "https://www.facebook.com/reel/1434059218817968/",
-          "reacciones": 118,
+          "reacciones": 120,
           "comentarios": 4,
           "shares": 2,
           "clics": 292,
-          "video_views": 7190,
+          "video_views": 7238,
           "comentarios_preview": [
             {
               "id": "1115033327949879_1097449223090020",
@@ -3163,7 +3163,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 3,
           "clics": 203,
-          "video_views": 4692,
+          "video_views": 4698,
           "comentarios_preview": []
         },
         {
@@ -3175,7 +3175,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 0,
           "clics": 18,
-          "video_views": 1176,
+          "video_views": 1177,
           "comentarios_preview": []
         },
         {
@@ -3199,7 +3199,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 1,
           "shares": 1,
           "clics": 236,
-          "video_views": 3207,
+          "video_views": 3208,
           "comentarios_preview": [
             {
               "id": "1112913668161845_1420225493632123",
@@ -4529,28 +4529,28 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-10-26",
           "engagement": 6905,
           "vistas": 1187,
-          "video_views": 91025,
-          "video_view_time_horas": 402.0,
+          "video_views": 91026,
+          "video_view_time_horas": 402.1,
           "seguidores": 25732
         },
         {
           "fecha": "2026-10-27",
-          "engagement": 1480,
+          "engagement": 1532,
           "vistas": 313,
-          "video_views": 19766,
-          "video_view_time_horas": 88.7
+          "video_views": 20991,
+          "video_view_time_horas": 94.0
         }
       ],
       "instagram": {
         "username": "equilibriototalmx",
-        "seguidores": 10676,
+        "seguidores": 10677,
         "sigue_a": 6,
         "media_count": 343,
         "reach_diario": [],
-        "profile_views_28d": 5375,
+        "profile_views_28d": 5376,
         "website_clicks_28d": 156,
         "accounts_engaged_28d": 6688,
-        "total_interactions_28d": 7633,
+        "total_interactions_28d": 7649,
         "mejor_horario": {
           "por_dia": [
             {
@@ -4669,8 +4669,8 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 1241,
-            "alcance": 531,
+            "video_views": 1246,
+            "alcance": 533,
             "guardados": 1,
             "media_type": "CAROUSEL_ALBUM",
             "comentarios_preview": []
@@ -4684,7 +4684,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 2,
             "clics": 0,
-            "video_views": 801,
+            "video_views": 802,
             "alcance": 518,
             "guardados": 2,
             "media_type": "VIDEO",
@@ -4699,7 +4699,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 2,
             "shares": 3,
             "clics": 0,
-            "video_views": 27834,
+            "video_views": 27843,
             "alcance": 18550,
             "guardados": 6,
             "media_type": "VIDEO",
@@ -4725,7 +4725,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 577,
+            "video_views": 578,
             "alcance": 415,
             "guardados": 0,
             "media_type": "VIDEO",
@@ -4740,7 +4740,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 822,
+            "video_views": 823,
             "alcance": 335,
             "guardados": 10,
             "media_type": "CAROUSEL_ALBUM",
@@ -4755,7 +4755,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 4,
             "clics": 0,
-            "video_views": 884,
+            "video_views": 885,
             "alcance": 646,
             "guardados": 4,
             "media_type": "VIDEO",
@@ -4770,7 +4770,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 7,
             "clics": 0,
-            "video_views": 2600,
+            "video_views": 2602,
             "alcance": 1353,
             "guardados": 21,
             "media_type": "IMAGE",
@@ -4785,7 +4785,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 2,
             "shares": 2,
             "clics": 0,
-            "video_views": 1242,
+            "video_views": 1243,
             "alcance": 551,
             "guardados": 6,
             "media_type": "CAROUSEL_ALBUM",
@@ -4806,7 +4806,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 561,
+            "video_views": 563,
             "alcance": 470,
             "guardados": 3,
             "media_type": "VIDEO",
@@ -4821,7 +4821,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 2,
             "clics": 0,
-            "video_views": 957,
+            "video_views": 958,
             "alcance": 704,
             "guardados": 6,
             "media_type": "VIDEO",
@@ -4836,7 +4836,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 3,
             "clics": 0,
-            "video_views": 1185,
+            "video_views": 1186,
             "alcance": 460,
             "guardados": 2,
             "media_type": "CAROUSEL_ALBUM",
@@ -4851,7 +4851,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 894,
+            "video_views": 895,
             "alcance": 681,
             "guardados": 8,
             "media_type": "VIDEO",
@@ -4866,7 +4866,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 879,
+            "video_views": 880,
             "alcance": 667,
             "guardados": 4,
             "media_type": "VIDEO",
@@ -4881,7 +4881,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 4,
             "clics": 0,
-            "video_views": 987,
+            "video_views": 988,
             "alcance": 721,
             "guardados": 7,
             "media_type": "VIDEO",
@@ -4896,7 +4896,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 1,
             "shares": 0,
             "clics": 0,
-            "video_views": 1957,
+            "video_views": 1958,
             "alcance": 1430,
             "guardados": 6,
             "media_type": "VIDEO",
@@ -5196,7 +5196,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-10-26",
-            "seguidores": 10676
+            "seguidores": 10677
           }
         ]
       }
@@ -5893,7 +5893,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 1378
+          "valor": 1406
         }
       ],
       "vistas_diario": [
@@ -7269,11 +7269,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-26",
-          "valor": 79295
+          "valor": 79297
         },
         {
           "fecha": "2026-10-27",
-          "valor": 21375
+          "valor": 22277
         }
       ],
       "video_view_time_horas_diario": [
@@ -7963,7 +7963,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 99.8
+          "valor": 104.3
         }
       ],
       "calificacion": {
@@ -8105,14 +8105,14 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-26 10:13"
+        "actualizado": "2026-10-26 10:29"
       },
       "mejor_horario": {
         "por_dia": [
           {
             "label": "Viernes",
             "posts": 7,
-            "engagement_prom": 1861.6
+            "engagement_prom": 1862.0
           },
           {
             "label": "Miércoles",
@@ -8127,7 +8127,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Martes",
             "posts": 14,
-            "engagement_prom": 834.3
+            "engagement_prom": 834.4
           },
           {
             "label": "Sábado",
@@ -8137,7 +8137,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Jueves",
             "posts": 10,
-            "engagement_prom": 96.6
+            "engagement_prom": 96.7
           },
           {
             "label": "Domingo",
@@ -8149,7 +8149,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 12,
-            "engagement_prom": 1587.8
+            "engagement_prom": 1588.2
           },
           {
             "label": "Tarde (14-18h)",
@@ -8182,17 +8182,17 @@ window.FB_PAGES_DATA = {
         {
           "label": "Dolor / Padecimiento",
           "posts": 44,
-          "engagement_prom": 1201.0
+          "engagement_prom": 1201.1
         },
         {
           "label": "Llamado a agendar",
           "posts": 10,
-          "engagement_prom": 1134.7
+          "engagement_prom": 1134.8
         },
         {
           "label": "Promoción / Precio",
           "posts": 15,
-          "engagement_prom": 793.5
+          "engagement_prom": 793.6
         },
         {
           "label": "Otro / sin clasificar",
@@ -8206,7 +8206,7 @@ window.FB_PAGES_DATA = {
         }
       ],
       "frecuencia_publicacion": {
-        "dias_desde_ultima": 2,
+        "dias_desde_ultima": 3,
         "frecuencia_dias": 3.5,
         "muestra": 60
       },
@@ -8216,11 +8216,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "📍 Equilibrio Total Nicolás Romero 🏡 Cuando vengas, te recibimos con especialistas titulados, aplicamos una terapia física personalizada y te mostramos ejercicios para que sigas cuidándote en casa. De $1790 a solo $690, p",
           "fecha": "2026-10-23T16:27:10+0000",
           "url": "https://www.facebook.com/reel/1084654317704645/",
-          "reacciones": 120,
+          "reacciones": 121,
           "comentarios": 3,
           "shares": 0,
-          "clics": 212,
-          "video_views": 7481,
+          "clics": 213,
+          "video_views": 7514,
           "comentarios_preview": [
             {
               "id": "1114534394726074_1141054451600113",
@@ -8244,7 +8244,7 @@ window.FB_PAGES_DATA = {
           "mensaje": "📍 Si trabajas de pie todo el día, cargas mercancía o atiendes tu negocio, tu espalda trabaja doble, y más con el frío. 😮‍💨 En Equilibrio Total Chalco nuestros especialistas titulados te recibimos con una terapia personal",
           "fecha": "2026-10-23T16:08:54+0000",
           "url": "https://www.facebook.com/reel/2307232183371992/",
-          "reacciones": 172,
+          "reacciones": 174,
           "comentarios": 4,
           "shares": 2,
           "clics": 294,
@@ -8281,7 +8281,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 1,
           "shares": 5,
           "clics": 134,
-          "video_views": 4789,
+          "video_views": 4806,
           "comentarios_preview": [
             {
               "id": "1113802394799274_1158247716640402",
@@ -8295,11 +8295,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "📍 Estamos dentro de una plaza comercial en Ecatepec, así que puedes venir a tu cita y de una vez hacer tus compras. 🛍️ En Equilibrio Total Ecatepec te recibimos con una terapia hecha para tu espalda, sin complicarte el d",
           "fecha": "2026-10-22T19:54:20+0000",
           "url": "https://www.facebook.com/reel/1161897556161005/",
-          "reacciones": 91,
+          "reacciones": 92,
           "comentarios": 3,
           "shares": 4,
           "clics": 298,
-          "video_views": 7724,
+          "video_views": 7756,
           "comentarios_preview": [
             {
               "id": "1113745704804943_1860635612036984",
@@ -8326,8 +8326,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 22,
           "comentarios": 0,
           "shares": 3,
-          "clics": 157,
-          "video_views": 2201,
+          "clics": 159,
+          "video_views": 2217,
           "comentarios_preview": []
         },
         {
@@ -8339,7 +8339,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 4,
           "shares": 1,
           "clics": 210,
-          "video_views": 6443,
+          "video_views": 6468,
           "comentarios_preview": [
             {
               "id": "1113728014806712_3093371030868775",
@@ -8371,8 +8371,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 139,
           "comentarios": 1,
           "shares": 2,
-          "clics": 285,
-          "video_views": 9980,
+          "clics": 295,
+          "video_views": 10041,
           "comentarios_preview": [
             {
               "id": "1112963018216545_1544399197452568",
@@ -8390,7 +8390,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 1,
           "shares": 0,
           "clics": 1360,
-          "video_views": 8020,
+          "video_views": 8022,
           "comentarios_preview": [
             {
               "id": "1110967201749460_3904276656395070",
@@ -8480,8 +8480,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 69,
           "comentarios": 2,
           "shares": 4,
-          "clics": 1165,
-          "video_views": 9136,
+          "clics": 1170,
+          "video_views": 9151,
           "comentarios_preview": [
             {
               "id": "1108133002032880_2312403002875173",
@@ -9897,16 +9897,16 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-10-26",
           "engagement": 5483,
           "vistas": 1045,
-          "video_views": 79295,
+          "video_views": 79297,
           "video_view_time_horas": 366.7,
           "seguidores": 16394
         },
         {
           "fecha": "2026-10-27",
-          "engagement": 1378,
+          "engagement": 1406,
           "vistas": 213,
-          "video_views": 21375,
-          "video_view_time_horas": 99.8
+          "video_views": 22277,
+          "video_view_time_horas": 104.3
         }
       ],
       "instagram": {
@@ -9915,10 +9915,10 @@ window.FB_PAGES_DATA = {
         "sigue_a": 0,
         "media_count": 39,
         "reach_diario": [],
-        "profile_views_28d": 1650,
+        "profile_views_28d": 1652,
         "website_clicks_28d": 0,
         "accounts_engaged_28d": 2954,
-        "total_interactions_28d": 3368,
+        "total_interactions_28d": 3370,
         "mejor_horario": {
           "por_dia": [
             {
@@ -11273,7 +11273,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 407
+          "valor": 442
         }
       ],
       "vistas_diario": [
@@ -11963,7 +11963,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 51
+          "valor": 64
         }
       ],
       "video_views_diario": [
@@ -12653,7 +12653,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 6838
+          "valor": 7146
         }
       ],
       "video_view_time_horas_diario": [
@@ -13343,7 +13343,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 31.6
+          "valor": 33.1
         }
       ],
       "calificacion": {
@@ -13469,7 +13469,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-26 10:14"
+        "actualizado": "2026-10-26 10:29"
       },
       "mejor_horario": {
         "por_dia": [
@@ -13617,7 +13617,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 0,
           "clics": 0,
-          "video_views": 231,
+          "video_views": 232,
           "comentarios_preview": []
         },
         {
@@ -13766,7 +13766,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 73,
           "shares": 124,
           "clics": 15265,
-          "video_views": 308393,
+          "video_views": 308394,
           "comentarios_preview": [
             {
               "id": "1062118273241675_29136987985896049",
@@ -14018,7 +14018,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 112,
           "shares": 425,
           "clics": 36857,
-          "video_views": 716971,
+          "video_views": 717007,
           "comentarios_preview": [
             {
               "id": "1026390860147750_1810283506791925",
@@ -15479,10 +15479,10 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "engagement": 407,
-          "vistas": 51,
-          "video_views": 6838,
-          "video_view_time_horas": 31.6
+          "engagement": 442,
+          "vistas": 64,
+          "video_views": 7146,
+          "video_view_time_horas": 33.1
         }
       ],
       "instagram": {
@@ -15493,8 +15493,8 @@ window.FB_PAGES_DATA = {
         "reach_diario": [],
         "profile_views_28d": 352,
         "website_clicks_28d": 0,
-        "accounts_engaged_28d": 843,
-        "total_interactions_28d": 943,
+        "accounts_engaged_28d": 844,
+        "total_interactions_28d": 945,
         "mejor_horario": {
           "por_dia": [
             {
@@ -16819,7 +16819,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 211
+          "valor": 217
         }
       ],
       "vistas_diario": [
@@ -17509,7 +17509,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 180
+          "valor": 192
         }
       ],
       "video_views_diario": [
@@ -18199,7 +18199,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 1153
+          "valor": 1180
         }
       ],
       "video_view_time_horas_diario": [
@@ -18889,7 +18889,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 8.0
+          "valor": 8.1
         }
       ],
       "calificacion": {
@@ -18966,19 +18966,19 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-10-26 10:15"
+        "actualizado": "2026-10-26 10:30"
       },
       "mejor_horario": {
         "por_dia": [
           {
             "label": "Domingo",
             "posts": 6,
-            "engagement_prom": 683.3
+            "engagement_prom": 683.8
           },
           {
             "label": "Sábado",
             "posts": 7,
-            "engagement_prom": 200.9
+            "engagement_prom": 201.1
           },
           {
             "label": "Miércoles",
@@ -19015,7 +19015,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Noche (18-21h)",
             "posts": 8,
-            "engagement_prom": 180.4
+            "engagement_prom": 180.6
           },
           {
             "label": "Tarde (14-18h)",
@@ -19048,7 +19048,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Otro / sin clasificar",
           "posts": 43,
-          "engagement_prom": 145.3
+          "engagement_prom": 145.4
         },
         {
           "label": "Educativo / Tips",
@@ -19164,7 +19164,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 1,
           "shares": 3,
           "clics": 4,
-          "video_views": 457,
+          "video_views": 458,
           "comentarios_preview": [
             {
               "id": "122154887301112657_1144582101337225",
@@ -20610,10 +20610,10 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "engagement": 211,
-          "vistas": 180,
-          "video_views": 1153,
-          "video_view_time_horas": 8.0
+          "engagement": 217,
+          "vistas": 192,
+          "video_views": 1180,
+          "video_view_time_horas": 8.1
         }
       ],
       "instagram": {
@@ -21252,6 +21252,19833 @@ window.FB_PAGES_DATA = {
           }
         ]
       }
+    },
+    "queretaro": {
+      "nombre": "Equilibrio Total Querétaro",
+      "id": "327573150445283",
+      "seguidores": 3623,
+      "categoria": "Chiropractor",
+      "engagement_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 672
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 617
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 678
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 552
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 790
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 717
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 1151
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 1147
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 763
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 924
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 1092
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 1002
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 530
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 1531
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 1207
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 850
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 973
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 994
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 882
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 839
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 1268
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 924
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 837
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 805
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 1142
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 829
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 869
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 887
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 815
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 746
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 716
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 690
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 613
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 699
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 962
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 1076
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 1383
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 914
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 979
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 1021
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 917
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 1025
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 500
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 932
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 818
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 998
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 622
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 796
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 814
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 644
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 475
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 621
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 492
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 598
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 414
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 504
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 366
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 627
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 574
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 513
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 568
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 353
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 699
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 619
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 929
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 722
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 601
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 755
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 636
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 936
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 838
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 704
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 707
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 777
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 743
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 530
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 1246
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 987
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 778
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 764
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 744
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 640
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 519
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 983
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 665
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 734
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 908
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 748
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 791
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 103
+        }
+      ],
+      "vistas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 195
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 154
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 167
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 117
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 250
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 195
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 270
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 315
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 274
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 314
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 327
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 274
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 134
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 434
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 328
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 245
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 274
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 284
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 182
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 279
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 407
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 248
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 228
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 209
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 329
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 215
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 218
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 229
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 120
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 154
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 114
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 142
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 116
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 193
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 168
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 199
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 293
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 221
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 292
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 221
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 278
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 255
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 106
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 217
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 260
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 254
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 149
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 135
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 163
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 198
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 135
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 148
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 111
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 158
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 147
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 102
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 87
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 226
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 173
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 142
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 137
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 111
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 147
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 149
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 239
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 258
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 196
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 207
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 206
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 329
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 192
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 176
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 156
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 207
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 178
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 154
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 239
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 212
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 160
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 187
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 147
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 103
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 97
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 229
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 258
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 153
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 185
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 171
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 27
+        }
+      ],
+      "video_views_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 12568
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 10977
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 12302
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 9698
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 13291
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 12072
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 18269
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 17796
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 12141
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 14717
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 15998
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 13408
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 7248
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 24847
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 19647
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 13875
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 15984
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 16168
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 15912
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 14734
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 20816
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 14679
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 12207
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 13236
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 14845
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 11322
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 11624
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 11127
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 9193
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 8460
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 8559
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 8964
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 8395
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 7991
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 12527
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 16033
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 19477
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 11826
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 13184
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 15363
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 15249
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 14729
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 7149
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 15733
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 14693
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 17972
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 9799
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 9956
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 13160
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 10215
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 7108
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 9526
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 7894
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 10255
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 6207
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 8380
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 5379
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 8048
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 9150
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 8297
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 9984
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 5899
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 11285
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 10751
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 17012
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 13170
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 10647
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 12949
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 10669
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 16860
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 13447
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 11783
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 12417
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 12730
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 12012
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 7536
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 16093
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 11314
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 9741
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 10229
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 10674
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 8679
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 5505
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 13827
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 8804
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 8916
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 10123
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 10042
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 9892
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 1289
+        }
+      ],
+      "video_view_time_horas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 54.8
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 48.7
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 54.5
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 42.5
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 59.5
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 54.7
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 94.5
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 90.3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 60.0
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 76.9
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 91.8
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 75.6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 40.4
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 132.7
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 106.0
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 72.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 86.1
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 86.3
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 83.2
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 76.5
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 106.8
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 76.3
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 62.9
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 68.2
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 76.3
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 58.7
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 61.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 60.1
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 49.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 45.9
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 45.3
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 49.1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 44.2
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 42.0
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 65.3
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 81.4
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 96.1
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 60.4
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 65.5
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 76.7
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 76.7
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 74.4
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 36.8
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 79.2
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 70.6
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 87.6
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 52.8
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 48.8
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 64.9
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 53.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 37.2
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 47.6
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 39.5
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 49.6
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 31.4
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 39.5
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 25.7
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 40.3
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 46.8
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 42.8
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 49.9
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 30.5
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 56.6
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 53.1
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 84.1
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 64.5
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 53.7
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 63.9
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 51.4
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 82.6
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 69.6
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 60.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 60.7
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 62.7
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 59.6
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 37.3
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 78.1
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 56.4
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 50.5
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 50.5
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 54.4
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 43.3
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 28.4
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 72.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 45.0
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 45.8
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 51.1
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 49.8
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 49.5
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 6.5
+        }
+      ],
+      "calificacion": {
+        "rating": 5,
+        "rating_count": 0,
+        "talking_about": 682
+      },
+      "reacciones_tipo": {
+        "like": 3178,
+        "love": 44,
+        "wow": 1,
+        "haha": 8,
+        "anger": 3
+      },
+      "mensajes": {
+        "conversaciones_28d": 39,
+        "mensajes_28d": 126,
+        "no_leidos": 3,
+        "no_leidos_24h": 0,
+        "no_leidos_mas_antiguo": "2026-10-23T21:56:19+0000",
+        "conversaciones_hoy": 0,
+        "serie_diaria": [
+          {
+            "fecha": "2026-09-28",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-09-29",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-09-30",
+            "valor": 4
+          },
+          {
+            "fecha": "2026-10-02",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-03",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-04",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-05",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-06",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-07",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-08",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-10",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-12",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-13",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-14",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-15",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-17",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-18",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-21",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-22",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-23",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-24",
+            "valor": 2
+          }
+        ],
+        "estado": "ok",
+        "actualizado": "2026-10-26 10:30"
+      },
+      "mejor_horario": {
+        "por_dia": [
+          {
+            "label": "Viernes",
+            "posts": 9,
+            "engagement_prom": 390.6
+          },
+          {
+            "label": "Martes",
+            "posts": 9,
+            "engagement_prom": 325.7
+          },
+          {
+            "label": "Lunes",
+            "posts": 6,
+            "engagement_prom": 27.0
+          },
+          {
+            "label": "Miércoles",
+            "posts": 14,
+            "engagement_prom": 23.9
+          },
+          {
+            "label": "Jueves",
+            "posts": 6,
+            "engagement_prom": 19.2
+          },
+          {
+            "label": "Sábado",
+            "posts": 9,
+            "engagement_prom": 3.9
+          },
+          {
+            "label": "Domingo",
+            "posts": 7,
+            "engagement_prom": 1.1
+          }
+        ],
+        "por_franja": [
+          {
+            "label": "Mañana (06-11h)",
+            "posts": 5,
+            "engagement_prom": 576.6
+          },
+          {
+            "label": "Mediodía (11-14h)",
+            "posts": 14,
+            "engagement_prom": 240.5
+          },
+          {
+            "label": "Noche tarde (21-24h)",
+            "posts": 7,
+            "engagement_prom": 50.6
+          },
+          {
+            "label": "Tarde (14-18h)",
+            "posts": 19,
+            "engagement_prom": 22.1
+          },
+          {
+            "label": "Noche (18-21h)",
+            "posts": 15,
+            "engagement_prom": 5.1
+          }
+        ]
+      },
+      "temas_contenido": [
+        {
+          "label": "Ubicación / Sucursal",
+          "posts": 4,
+          "engagement_prom": 573.2
+        },
+        {
+          "label": "Promoción / Precio",
+          "posts": 5,
+          "engagement_prom": 496.8
+        },
+        {
+          "label": "Llamado a agendar",
+          "posts": 8,
+          "engagement_prom": 310.5
+        },
+        {
+          "label": "Dolor / Padecimiento",
+          "posts": 39,
+          "engagement_prom": 175.7
+        },
+        {
+          "label": "Otro / sin clasificar",
+          "posts": 18,
+          "engagement_prom": 10.8
+        },
+        {
+          "label": "Educativo / Tips",
+          "posts": 3,
+          "engagement_prom": 6.7
+        }
+      ],
+      "frecuencia_publicacion": {
+        "dias_desde_ultima": 3,
+        "frecuencia_dias": 11.6,
+        "muestra": 60
+      },
+      "posts": [
+        {
+          "id": "327573150445283_122226474410369965",
+          "mensaje": "📍 Querétaro, la espalda se hace notar en tres momentos: al levantarte de la cama, al pasar mucho tiempo de pie y al agacharte por algo del suelo. 😣 Si te pasa seguido, no lo dejes como parte de tu rutina. En Equilibrio T",
+          "fecha": "2026-10-22T21:29:50+0000",
+          "url": "https://www.facebook.com/reel/2239861829893536/",
+          "reacciones": 32,
+          "comentarios": 0,
+          "shares": 2,
+          "clics": 56,
+          "video_views": 2075,
+          "comentarios_preview": []
+        },
+        {
+          "id": "327573150445283_122226147092369965",
+          "mensaje": "📍 ¿Vives en San Juan del Río y te duele la espalda? 😣 En Equilibrio Total San Juan del Río, especialistas titulados en fisioterapia, acupuntura y quiropráctica trabajan contigo en una primera sesión con terapia física pe",
+          "fecha": "2026-10-19T17:21:03+0000",
+          "url": "https://www.facebook.com/reel/1398551718988334/",
+          "reacciones": 103,
+          "comentarios": 3,
+          "shares": 7,
+          "clics": 1412,
+          "video_views": 16861,
+          "comentarios_preview": [
+            {
+              "id": "122226147092369965_1819161275882495",
+              "mensaje": "También aplica la promoción con cita",
+              "fecha": "2026-10-23T15:16:54+0000"
+            },
+            {
+              "id": "122226147092369965_1418303743703730",
+              "mensaje": "Esque hoy pensaba ir a una valoración por eso preguntaba",
+              "fecha": "2026-10-23T15:53:05+0000"
+            },
+            {
+              "id": "122226147092369965_1679565280400950",
+              "mensaje": "No es cierto no vayan 12 pendejas terapias y  me dejaron igual y ahí ando con el dolor de hombro",
+              "fecha": "2026-10-22T23:15:09+0000"
+            }
+          ]
+        },
+        {
+          "id": "327573150445283_122225653478369965",
+          "mensaje": "¿Dolor de espalda en Querétaro y ya no sabes qué hacer? ⏳\nEs momento de atenderlo. En Equilibrio Total te evalúa un especialista y luego diseñamos tu terapia según tu caso 💪.\nPrimera sesión: $690 💰 (antes $1,790).\n📲 Escr",
+          "fecha": "2026-10-14T22:41:19+0000",
+          "url": "https://www.facebook.com/reel/1803396300984552/",
+          "reacciones": 80,
+          "comentarios": 2,
+          "shares": 3,
+          "clics": 438,
+          "video_views": 8476,
+          "comentarios_preview": [
+            {
+              "id": "122225653478369965_1444959904254957",
+              "mensaje": "No te levantes así!! 😁",
+              "fecha": "2026-10-18T00:51:17+0000"
+            },
+            {
+              "id": "122225653478369965_1101507062466318",
+              "mensaje": "Tengan cuidado con Alejandra, los deja peor",
+              "fecha": "2026-10-20T16:35:18+0000"
+            }
+          ]
+        },
+        {
+          "id": "327573150445283_122225523176369965",
+          "mensaje": "¿DOLOR DE ESPALDA AL LEVANTARTE DE LA CAMA? 😩\nAl cambiar de posición, también. Tu cuerpo te está avisando.\nEquilibrio Total Querétaro te atiende en el Centro.\nTu primera sesión a solo $690 (antes $1,790) incluye:\n✅ Evalu",
+          "fecha": "2026-10-13T17:09:52+0000",
+          "url": "https://www.facebook.com/reel/941509088687764/",
+          "reacciones": 4,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 307,
+          "comentarios_preview": []
+        },
+        {
+          "id": "327573150445283_122221834400369965",
+          "mensaje": "¿Dolor de espalda, hombro o rodilla? 😣\nNo tiene que ser así. En Equilibrio Total Querétaro contamos con quiropráctica y evaluación 100% personalizada: terapia física + prueba de postura incluida.\n\n👉 Agenda tu evaluación ",
+          "fecha": "2026-09-11T22:35:31+0000",
+          "url": "https://www.facebook.com/reel/1316101930429372/",
+          "reacciones": 237,
+          "comentarios": 5,
+          "shares": 8,
+          "clics": 1175,
+          "video_views": 22269,
+          "comentarios_preview": [
+            {
+              "id": "122221834400369965_1300690208766788",
+              "mensaje": "Y te atiende la Meche Carreño 😁✌️",
+              "fecha": "2026-09-26T23:36:55+0000"
+            },
+            {
+              "id": "122221834400369965_975165798225512",
+              "mensaje": "Info",
+              "fecha": "2026-10-04T21:50:03+0000"
+            },
+            {
+              "id": "122221834400369965_1103649105788457",
+              "mensaje": "U ber its",
+              "fecha": "2026-10-12T16:21:10+0000"
+            },
+            {
+              "id": "122221834400369965_3336843696519692",
+              "mensaje": "No sirve, no tiren su dinero",
+              "fecha": "2026-10-05T22:34:22+0000"
+            }
+          ]
+        },
+        {
+          "id": "327573150445283_122221817720369965",
+          "mensaje": "🏥 Conoce Equilibrio Total San Juan del Río, tu clínica de rehabilitación de confianza.\n\nContamos con especialistas certificados en fisioterapia: tratamiento de dolor de espalda, artrosis, dolor de rodillas, lesiones de n",
+          "fecha": "2026-09-11T18:12:13+0000",
+          "url": "https://www.facebook.com/reel/1072555312197579/",
+          "reacciones": 1054,
+          "comentarios": 24,
+          "shares": 29,
+          "clics": 5041,
+          "video_views": 142107,
+          "comentarios_preview": [
+            {
+              "id": "122221817720369965_1460310642663783",
+              "mensaje": "Ubicación y algún lugar de referencia.",
+              "fecha": "2026-10-18T16:36:19+0000"
+            },
+            {
+              "id": "122221817720369965_4123470261279774",
+              "mensaje": "Yo tengo un problema que me  duele la cintura y me baja el dolor por una pierna asta los dedos del pies cree poder ayudarme",
+              "fecha": "2026-09-13T05:10:47+0000"
+            },
+            {
+              "id": "122221817720369965_1588109179714538",
+              "mensaje": "Dónde se ubican",
+              "fecha": "2026-10-13T17:18:32+0000"
+            },
+            {
+              "id": "122221817720369965_1586366272971419",
+              "mensaje": "Buenas tardes la dirección y precio de la consulta",
+              "fecha": "2026-10-13T23:10:24+0000"
+            },
+            {
+              "id": "122221817720369965_1502971291589870",
+              "mensaje": "Ubicación",
+              "fecha": "2026-09-26T15:23:34+0000"
+            },
+            {
+              "id": "122221817720369965_1464226112188629",
+              "mensaje": "Mira comadrita.",
+              "fecha": "2026-10-06T03:38:54+0000"
+            },
+            {
+              "id": "122221817720369965_1119058917271462",
+              "mensaje": "Hola dónde están saludos",
+              "fecha": "2026-10-05T22:09:23+0000"
+            },
+            {
+              "id": "122221817720369965_1634535598322199",
+              "mensaje": "Entonces asta un año puede ser el tratamiento , porque el señor dice que ya tiene un año",
+              "fecha": "2026-09-30T20:00:34+0000"
+            },
+            {
+              "id": "122221817720369965_1083222324487730",
+              "mensaje": "Hola",
+              "fecha": "2026-09-28T13:18:27+0000"
+            },
+            {
+              "id": "122221817720369965_2549343975564976",
+              "mensaje": "Algún número de teléfono",
+              "fecha": "2026-09-25T23:29:34+0000"
+            }
+          ]
+        },
+        {
+          "id": "327573150445283_122217983372369965",
+          "mensaje": "Atención zona San Juan del Río. 📍\n¿Sufres dolor de espalda u hombro? 🛑\nVisítanos sobre Avenida Pino Suárez Norte.\nRecupera tu movilidad con nuestro tratamiento.\nTu evaluación física cuesta solo $690. 💳\nManda mensaje y ag",
+          "fecha": "2026-08-07T18:38:51+0000",
+          "url": "https://www.facebook.com/reel/1588478772674506/",
+          "reacciones": 1991,
+          "comentarios": 55,
+          "shares": 91,
+          "clics": 13285,
+          "video_views": 216587,
+          "comentarios_preview": [
+            {
+              "id": "122217983372369965_1049865888079083",
+              "mensaje": "Cuánto la consulta",
+              "fecha": "2026-10-16T00:12:39+0000"
+            },
+            {
+              "id": "122217983372369965_1141497235062469",
+              "mensaje": "Que nombre tiene la calle y que días atienden,horario??",
+              "fecha": "2026-10-10T18:48:03+0000"
+            },
+            {
+              "id": "122217983372369965_1111944141329201",
+              "mensaje": "Porque no contestan. Voy de fuera. Gracias",
+              "fecha": "2026-10-08T15:45:11+0000"
+            },
+            {
+              "id": "122217983372369965_2341429343361112",
+              "mensaje": "Hola. Cobran por la consulta?",
+              "fecha": "2026-10-08T15:43:20+0000"
+            },
+            {
+              "id": "122217983372369965_2027750801310659",
+              "mensaje": "Le atinaste a todo lo que me falla 🤣🤣",
+              "fecha": "2026-09-30T02:59:44+0000"
+            },
+            {
+              "id": "122217983372369965_1403736631287194",
+              "mensaje": "Cuanto cobran",
+              "fecha": "2026-09-29T20:44:31+0000"
+            },
+            {
+              "id": "122217983372369965_2023688084968506",
+              "mensaje": "Precio de la consulta  x f",
+              "fecha": "2026-09-19T22:52:15+0000"
+            },
+            {
+              "id": "122217983372369965_1709766541152910",
+              "mensaje": "Gracias por todo.",
+              "fecha": "2026-09-11T03:35:47+0000"
+            },
+            {
+              "id": "122217983372369965_947231207787058",
+              "mensaje": "Buen Día \nYo  voy a Equilibrio Total \nPor problemas de espalda baja ( lumbalgia crónica y hernias )😊👌ya estoy casi \nBien pero nada que ver de cuando llegue estaba llorando de dolor",
+              "fecha": "2026-09-10T17:07:28+0000"
+            },
+            {
+              "id": "122217983372369965_1736875494061815",
+              "mensaje": "Recomendados! 👍🏻",
+              "fecha": "2026-09-10T13:23:35+0000"
+            }
+          ]
+        },
+        {
+          "id": "327573150445283_122217622538369965",
+          "mensaje": "Trata tu neuropatía de forma segura y con verdaderos profesionales en Querétaro. 🩺\nSi presentas hormigueos, ardor o pérdida de sensibilidad por neuropatía, necesitas un diagnóstico clínico preciso. En Equilibrio Total Qu",
+          "fecha": "2026-08-04T14:54:55+0000",
+          "url": "https://www.facebook.com/reel/1053096983856767/",
+          "reacciones": 2606,
+          "comentarios": 121,
+          "shares": 138,
+          "clics": 15664,
+          "video_views": 252117,
+          "comentarios_preview": [
+            {
+              "id": "122217622538369965_2382665619136556",
+              "mensaje": "Cuanto sale la consulta ??",
+              "fecha": "2026-10-18T16:54:01+0000"
+            },
+            {
+              "id": "122217622538369965_4440458296195382",
+              "mensaje": "Yo pase x ansiedad. Ahora ya estoy muy bien",
+              "fecha": "2026-10-11T14:23:31+0000"
+            },
+            {
+              "id": "122217622538369965_3137688103289465",
+              "mensaje": "Cuando cuesta la  consulta",
+              "fecha": "2026-10-09T21:06:59+0000"
+            },
+            {
+              "id": "122217622538369965_1387495769798245",
+              "mensaje": "Costo de la consulta",
+              "fecha": "2026-10-07T22:34:41+0000"
+            },
+            {
+              "id": "122217622538369965_28840568092243701",
+              "mensaje": "Costo por la consulta",
+              "fecha": "2026-10-07T20:23:19+0000"
+            },
+            {
+              "id": "122217622538369965_1592630762664576",
+              "mensaje": "Hola buenas tardes k bale la consulta para pie y mano",
+              "fecha": "2026-10-07T20:06:29+0000"
+            },
+            {
+              "id": "122217622538369965_1461069722569554",
+              "mensaje": "Solo en queretaro.atienden",
+              "fecha": "2026-10-07T18:54:36+0000"
+            },
+            {
+              "id": "122217622538369965_2224603471795536",
+              "mensaje": "Hola buenas tardes cuánto cobran",
+              "fecha": "2026-10-01T18:15:15+0000"
+            },
+            {
+              "id": "122217622538369965_3874372476036209",
+              "mensaje": "Y soy de Guanajuato entonces es otra cosa?",
+              "fecha": "2026-09-30T13:05:16+0000"
+            },
+            {
+              "id": "122217622538369965_2120534051882430",
+              "mensaje": "Q es la neuropatia",
+              "fecha": "2026-09-29T16:09:39+0000"
+            }
+          ]
+        },
+        {
+          "id": "327573150445283_122216177972369965",
+          "mensaje": "¿Cansado de tomar tantas pastillas? 💊\n🛑 Atiende tu hernia discal hoy.\nInicia tu evaluación por $690. 💳\nSana en nuestra clínica experta.\nRecupera tu movilidad muy pronto. 🌟\nManda mensaje para agendar hoy.",
+          "fecha": "2026-07-21T15:53:16+0000",
+          "url": "https://www.facebook.com/reel/1335679094889349/",
+          "reacciones": 7,
+          "comentarios": 1,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 613,
+          "comentarios_preview": [
+            {
+              "id": "122216177972369965_2476196742871002",
+              "mensaje": "Donde se ubica,?",
+              "fecha": "2026-08-19T22:40:29+0000"
+            }
+          ]
+        },
+        {
+          "id": "327573150445283_122200974038369965",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-20T16:19:15+0000",
+          "url": "https://www.facebook.com/122226872816369965/posts/122200974038369965?substory_index=1288315270147322",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "327573150445283_2751935758508504",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-20T16:19:08+0000",
+          "url": "https://www.facebook.com/122226872816369965/posts/2751935758508504?substory_index=2751935758508504",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "327573150445283_122206950230369965",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-02T18:34:23+0000",
+          "url": "https://www.facebook.com/122226872816369965/posts/122206950230369965?substory_index=1763911257916432",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "327573150445283_881510878282286",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-02T18:34:11+0000",
+          "url": "https://www.facebook.com/122226872816369965/posts/881510878282286?substory_index=881510878282286",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "327573150445283_122203949606369965",
+          "mensaje": "La salud no es solo ausencia de enfermedad, es equilibrio. ⚖️✨\nNo necesitas correr un maratón para estar sano. La verdadera salud está en:\nNutrir tu cuerpo con conciencia. 🥑\nCuidar tu paz mental. 🧘‍♀️\nElegir sentirte bie",
+          "fecha": "2026-04-07T16:02:38+0000",
+          "url": "https://www.facebook.com/reel/1723484538661220/",
+          "reacciones": 6,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 1,
+          "video_views": 1009,
+          "comentarios_preview": []
+        },
+        {
+          "id": "327573150445283_122203842974369965",
+          "mensaje": "No necesitas correr un maratón.\nSolo romper con el sedentarismo. 🚶‍♂️\nCamina, baila, estira o sube escaleras. Todo suma para tener más energía y sentirte mejor.\n💚 ¿Quieres moverte sin dolor? Conoce nuestros tratamientos ",
+          "fecha": "2026-04-06T17:10:02+0000",
+          "url": "https://www.facebook.com/122226872816369965/posts/122203842974369965",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        }
+      ],
+      "historial_seguidores": [
+        {
+          "fecha": "2026-07-30",
+          "engagement": 672,
+          "vistas": 195,
+          "video_views": 12568,
+          "video_view_time_horas": 54.8
+        },
+        {
+          "fecha": "2026-07-31",
+          "engagement": 617,
+          "vistas": 154,
+          "video_views": 10977,
+          "video_view_time_horas": 48.7
+        },
+        {
+          "fecha": "2026-08-01",
+          "engagement": 678,
+          "vistas": 167,
+          "video_views": 12302,
+          "video_view_time_horas": 54.5
+        },
+        {
+          "fecha": "2026-08-02",
+          "engagement": 552,
+          "vistas": 117,
+          "video_views": 9698,
+          "video_view_time_horas": 42.5
+        },
+        {
+          "fecha": "2026-08-03",
+          "engagement": 790,
+          "vistas": 250,
+          "video_views": 13291,
+          "video_view_time_horas": 59.5
+        },
+        {
+          "fecha": "2026-08-04",
+          "engagement": 717,
+          "vistas": 195,
+          "video_views": 12072,
+          "video_view_time_horas": 54.7
+        },
+        {
+          "fecha": "2026-08-05",
+          "engagement": 1151,
+          "vistas": 270,
+          "video_views": 18269,
+          "video_view_time_horas": 94.5
+        },
+        {
+          "fecha": "2026-08-06",
+          "engagement": 1147,
+          "vistas": 315,
+          "video_views": 17796,
+          "video_view_time_horas": 90.3
+        },
+        {
+          "fecha": "2026-08-07",
+          "engagement": 763,
+          "vistas": 274,
+          "video_views": 12141,
+          "video_view_time_horas": 60.0
+        },
+        {
+          "fecha": "2026-08-08",
+          "engagement": 924,
+          "vistas": 314,
+          "video_views": 14717,
+          "video_view_time_horas": 76.9
+        },
+        {
+          "fecha": "2026-08-09",
+          "engagement": 1092,
+          "vistas": 327,
+          "video_views": 15998,
+          "video_view_time_horas": 91.8
+        },
+        {
+          "fecha": "2026-08-10",
+          "engagement": 1002,
+          "vistas": 274,
+          "video_views": 13408,
+          "video_view_time_horas": 75.6
+        },
+        {
+          "fecha": "2026-08-11",
+          "engagement": 530,
+          "vistas": 134,
+          "video_views": 7248,
+          "video_view_time_horas": 40.4
+        },
+        {
+          "fecha": "2026-08-12",
+          "engagement": 1531,
+          "vistas": 434,
+          "video_views": 24847,
+          "video_view_time_horas": 132.7
+        },
+        {
+          "fecha": "2026-08-13",
+          "engagement": 1207,
+          "vistas": 328,
+          "video_views": 19647,
+          "video_view_time_horas": 106.0
+        },
+        {
+          "fecha": "2026-08-14",
+          "engagement": 850,
+          "vistas": 245,
+          "video_views": 13875,
+          "video_view_time_horas": 72.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "engagement": 973,
+          "vistas": 274,
+          "video_views": 15984,
+          "video_view_time_horas": 86.1
+        },
+        {
+          "fecha": "2026-08-16",
+          "engagement": 994,
+          "vistas": 284,
+          "video_views": 16168,
+          "video_view_time_horas": 86.3
+        },
+        {
+          "fecha": "2026-08-17",
+          "engagement": 882,
+          "vistas": 182,
+          "video_views": 15912,
+          "video_view_time_horas": 83.2
+        },
+        {
+          "fecha": "2026-08-18",
+          "engagement": 839,
+          "vistas": 279,
+          "video_views": 14734,
+          "video_view_time_horas": 76.5
+        },
+        {
+          "fecha": "2026-08-19",
+          "engagement": 1268,
+          "vistas": 407,
+          "video_views": 20816,
+          "video_view_time_horas": 106.8
+        },
+        {
+          "fecha": "2026-08-20",
+          "engagement": 924,
+          "vistas": 248,
+          "video_views": 14679,
+          "video_view_time_horas": 76.3
+        },
+        {
+          "fecha": "2026-08-21",
+          "engagement": 837,
+          "vistas": 228,
+          "video_views": 12207,
+          "video_view_time_horas": 62.9
+        },
+        {
+          "fecha": "2026-08-22",
+          "engagement": 805,
+          "vistas": 209,
+          "video_views": 13236,
+          "video_view_time_horas": 68.2
+        },
+        {
+          "fecha": "2026-08-23",
+          "engagement": 1142,
+          "vistas": 329,
+          "video_views": 14845,
+          "video_view_time_horas": 76.3
+        },
+        {
+          "fecha": "2026-08-24",
+          "engagement": 829,
+          "vistas": 215,
+          "video_views": 11322,
+          "video_view_time_horas": 58.7
+        },
+        {
+          "fecha": "2026-08-25",
+          "engagement": 869,
+          "vistas": 218,
+          "video_views": 11624,
+          "video_view_time_horas": 61.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "engagement": 887,
+          "vistas": 229,
+          "video_views": 11127,
+          "video_view_time_horas": 60.1
+        },
+        {
+          "fecha": "2026-08-27",
+          "engagement": 815,
+          "vistas": 120,
+          "video_views": 9193,
+          "video_view_time_horas": 49.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "engagement": 746,
+          "vistas": 154,
+          "video_views": 8460,
+          "video_view_time_horas": 45.9
+        },
+        {
+          "fecha": "2026-08-29",
+          "engagement": 716,
+          "vistas": 114,
+          "video_views": 8559,
+          "video_view_time_horas": 45.3
+        },
+        {
+          "fecha": "2026-08-30",
+          "engagement": 690,
+          "vistas": 142,
+          "video_views": 8964,
+          "video_view_time_horas": 49.1
+        },
+        {
+          "fecha": "2026-08-31",
+          "engagement": 613,
+          "vistas": 116,
+          "video_views": 8395,
+          "video_view_time_horas": 44.2
+        },
+        {
+          "fecha": "2026-09-01",
+          "engagement": 699,
+          "vistas": 193,
+          "video_views": 7991,
+          "video_view_time_horas": 42.0
+        },
+        {
+          "fecha": "2026-09-02",
+          "engagement": 962,
+          "vistas": 168,
+          "video_views": 12527,
+          "video_view_time_horas": 65.3
+        },
+        {
+          "fecha": "2026-09-03",
+          "engagement": 1076,
+          "vistas": 199,
+          "video_views": 16033,
+          "video_view_time_horas": 81.4
+        },
+        {
+          "fecha": "2026-09-04",
+          "engagement": 1383,
+          "vistas": 293,
+          "video_views": 19477,
+          "video_view_time_horas": 96.1
+        },
+        {
+          "fecha": "2026-09-05",
+          "engagement": 914,
+          "vistas": 221,
+          "video_views": 11826,
+          "video_view_time_horas": 60.4
+        },
+        {
+          "fecha": "2026-09-06",
+          "engagement": 979,
+          "vistas": 292,
+          "video_views": 13184,
+          "video_view_time_horas": 65.5
+        },
+        {
+          "fecha": "2026-09-07",
+          "engagement": 1021,
+          "vistas": 221,
+          "video_views": 15363,
+          "video_view_time_horas": 76.7
+        },
+        {
+          "fecha": "2026-09-08",
+          "engagement": 917,
+          "vistas": 278,
+          "video_views": 15249,
+          "video_view_time_horas": 76.7
+        },
+        {
+          "fecha": "2026-09-09",
+          "engagement": 1025,
+          "vistas": 255,
+          "video_views": 14729,
+          "video_view_time_horas": 74.4
+        },
+        {
+          "fecha": "2026-09-10",
+          "engagement": 500,
+          "vistas": 106,
+          "video_views": 7149,
+          "video_view_time_horas": 36.8
+        },
+        {
+          "fecha": "2026-09-11",
+          "engagement": 932,
+          "vistas": 217,
+          "video_views": 15733,
+          "video_view_time_horas": 79.2
+        },
+        {
+          "fecha": "2026-09-12",
+          "engagement": 818,
+          "vistas": 260,
+          "video_views": 14693,
+          "video_view_time_horas": 70.6
+        },
+        {
+          "fecha": "2026-09-13",
+          "engagement": 998,
+          "vistas": 254,
+          "video_views": 17972,
+          "video_view_time_horas": 87.6
+        },
+        {
+          "fecha": "2026-09-14",
+          "engagement": 622,
+          "vistas": 149,
+          "video_views": 9799,
+          "video_view_time_horas": 52.8
+        },
+        {
+          "fecha": "2026-09-15",
+          "engagement": 796,
+          "vistas": 135,
+          "video_views": 9956,
+          "video_view_time_horas": 48.8
+        },
+        {
+          "fecha": "2026-09-16",
+          "engagement": 814,
+          "vistas": 163,
+          "video_views": 13160,
+          "video_view_time_horas": 64.9
+        },
+        {
+          "fecha": "2026-09-17",
+          "engagement": 644,
+          "vistas": 198,
+          "video_views": 10215,
+          "video_view_time_horas": 53.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "engagement": 475,
+          "vistas": 135,
+          "video_views": 7108,
+          "video_view_time_horas": 37.2
+        },
+        {
+          "fecha": "2026-09-19",
+          "engagement": 621,
+          "vistas": 148,
+          "video_views": 9526,
+          "video_view_time_horas": 47.6
+        },
+        {
+          "fecha": "2026-09-20",
+          "engagement": 492,
+          "vistas": 111,
+          "video_views": 7894,
+          "video_view_time_horas": 39.5
+        },
+        {
+          "fecha": "2026-09-21",
+          "engagement": 598,
+          "vistas": 158,
+          "video_views": 10255,
+          "video_view_time_horas": 49.6
+        },
+        {
+          "fecha": "2026-09-22",
+          "engagement": 414,
+          "vistas": 147,
+          "video_views": 6207,
+          "video_view_time_horas": 31.4
+        },
+        {
+          "fecha": "2026-09-23",
+          "engagement": 504,
+          "vistas": 102,
+          "video_views": 8380,
+          "video_view_time_horas": 39.5
+        },
+        {
+          "fecha": "2026-09-24",
+          "engagement": 366,
+          "vistas": 87,
+          "video_views": 5379,
+          "video_view_time_horas": 25.7
+        },
+        {
+          "fecha": "2026-09-25",
+          "engagement": 627,
+          "vistas": 226,
+          "video_views": 8048,
+          "video_view_time_horas": 40.3
+        },
+        {
+          "fecha": "2026-09-26",
+          "engagement": 574,
+          "vistas": 173,
+          "video_views": 9150,
+          "video_view_time_horas": 46.8
+        },
+        {
+          "fecha": "2026-09-27",
+          "engagement": 513,
+          "vistas": 142,
+          "video_views": 8297,
+          "video_view_time_horas": 42.8
+        },
+        {
+          "fecha": "2026-09-28",
+          "engagement": 568,
+          "vistas": 137,
+          "video_views": 9984,
+          "video_view_time_horas": 49.9
+        },
+        {
+          "fecha": "2026-09-29",
+          "engagement": 353,
+          "vistas": 111,
+          "video_views": 5899,
+          "video_view_time_horas": 30.5
+        },
+        {
+          "fecha": "2026-09-30",
+          "engagement": 699,
+          "vistas": 147,
+          "video_views": 11285,
+          "video_view_time_horas": 56.6
+        },
+        {
+          "fecha": "2026-10-01",
+          "engagement": 619,
+          "vistas": 149,
+          "video_views": 10751,
+          "video_view_time_horas": 53.1
+        },
+        {
+          "fecha": "2026-10-02",
+          "engagement": 929,
+          "vistas": 239,
+          "video_views": 17012,
+          "video_view_time_horas": 84.1
+        },
+        {
+          "fecha": "2026-10-03",
+          "engagement": 722,
+          "vistas": 258,
+          "video_views": 13170,
+          "video_view_time_horas": 64.5
+        },
+        {
+          "fecha": "2026-10-04",
+          "engagement": 601,
+          "vistas": 196,
+          "video_views": 10647,
+          "video_view_time_horas": 53.7
+        },
+        {
+          "fecha": "2026-10-05",
+          "engagement": 755,
+          "vistas": 207,
+          "video_views": 12949,
+          "video_view_time_horas": 63.9
+        },
+        {
+          "fecha": "2026-10-06",
+          "engagement": 636,
+          "vistas": 206,
+          "video_views": 10669,
+          "video_view_time_horas": 51.4
+        },
+        {
+          "fecha": "2026-10-07",
+          "engagement": 936,
+          "vistas": 329,
+          "video_views": 16860,
+          "video_view_time_horas": 82.6
+        },
+        {
+          "fecha": "2026-10-08",
+          "engagement": 838,
+          "vistas": 192,
+          "video_views": 13447,
+          "video_view_time_horas": 69.6
+        },
+        {
+          "fecha": "2026-10-09",
+          "engagement": 704,
+          "vistas": 176,
+          "video_views": 11783,
+          "video_view_time_horas": 60.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "engagement": 707,
+          "vistas": 156,
+          "video_views": 12417,
+          "video_view_time_horas": 60.7
+        },
+        {
+          "fecha": "2026-10-11",
+          "engagement": 777,
+          "vistas": 207,
+          "video_views": 12730,
+          "video_view_time_horas": 62.7
+        },
+        {
+          "fecha": "2026-10-12",
+          "engagement": 743,
+          "vistas": 178,
+          "video_views": 12012,
+          "video_view_time_horas": 59.6
+        },
+        {
+          "fecha": "2026-10-13",
+          "engagement": 530,
+          "vistas": 154,
+          "video_views": 7536,
+          "video_view_time_horas": 37.3
+        },
+        {
+          "fecha": "2026-10-14",
+          "engagement": 1246,
+          "vistas": 239,
+          "video_views": 16093,
+          "video_view_time_horas": 78.1
+        },
+        {
+          "fecha": "2026-10-15",
+          "engagement": 987,
+          "vistas": 212,
+          "video_views": 11314,
+          "video_view_time_horas": 56.4
+        },
+        {
+          "fecha": "2026-10-16",
+          "engagement": 778,
+          "vistas": 160,
+          "video_views": 9741,
+          "video_view_time_horas": 50.5
+        },
+        {
+          "fecha": "2026-10-17",
+          "engagement": 764,
+          "vistas": 187,
+          "video_views": 10229,
+          "video_view_time_horas": 50.5
+        },
+        {
+          "fecha": "2026-10-18",
+          "engagement": 744,
+          "vistas": 147,
+          "video_views": 10674,
+          "video_view_time_horas": 54.4
+        },
+        {
+          "fecha": "2026-10-19",
+          "engagement": 640,
+          "vistas": 103,
+          "video_views": 8679,
+          "video_view_time_horas": 43.3
+        },
+        {
+          "fecha": "2026-10-20",
+          "engagement": 519,
+          "vistas": 97,
+          "video_views": 5505,
+          "video_view_time_horas": 28.4
+        },
+        {
+          "fecha": "2026-10-21",
+          "engagement": 983,
+          "vistas": 229,
+          "video_views": 13827,
+          "video_view_time_horas": 72.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "engagement": 665,
+          "vistas": 258,
+          "video_views": 8804,
+          "video_view_time_horas": 45.0
+        },
+        {
+          "fecha": "2026-10-23",
+          "engagement": 734,
+          "vistas": 153,
+          "video_views": 8916,
+          "video_view_time_horas": 45.8
+        },
+        {
+          "fecha": "2026-10-24",
+          "engagement": 908,
+          "vistas": 185,
+          "video_views": 10123,
+          "video_view_time_horas": 51.1
+        },
+        {
+          "fecha": "2026-10-25",
+          "engagement": 748,
+          "vistas": 107,
+          "video_views": 10042,
+          "video_view_time_horas": 49.8
+        },
+        {
+          "fecha": "2026-10-26",
+          "engagement": 791,
+          "vistas": 171,
+          "video_views": 9892,
+          "video_view_time_horas": 49.5,
+          "seguidores": 3623
+        },
+        {
+          "fecha": "2026-10-27",
+          "engagement": 103,
+          "vistas": 27,
+          "video_views": 1289,
+          "video_view_time_horas": 6.5
+        }
+      ],
+      "instagram": null
+    },
+    "pachuca": {
+      "nombre": "Equilibrio Total Pachuca",
+      "id": "340314712498666",
+      "seguidores": 2850,
+      "categoria": "Chiropractor",
+      "engagement_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 570
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 493
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 534
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 554
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 632
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 710
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 723
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 475
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 420
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 452
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 563
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 742
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 436
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 1120
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 856
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 547
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 653
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 702
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 619
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 2714
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 767
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 663
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 614
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 651
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 782
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 825
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 657
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 1136
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 891
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 724
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 747
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 742
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 805
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 611
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 865
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 847
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 944
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 492
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 684
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 685
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 600
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 678
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 596
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 555
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 451
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 434
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 515
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 656
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 822
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 659
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 503
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 710
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 471
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 633
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 593
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 571
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 468
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 455
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 134
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 509
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 850
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 1260
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 879
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 799
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 711
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 766
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 599
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 1115
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 893
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 838
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 349
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 1282
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 714
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 538
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 1456
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 1282
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 663
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 1278
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 1225
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 903
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 1507
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 1945
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 1312
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 1478
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 1816
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 1476
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 1556
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 183
+        }
+      ],
+      "vistas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 173
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 172
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 135
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 177
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 144
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 198
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 233
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 139
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 109
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 112
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 181
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 162
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 109
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 321
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 222
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 163
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 132
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 165
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 130
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 112
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 244
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 203
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 160
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 213
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 143
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 214
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 196
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 229
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 176
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 119
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 134
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 146
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 179
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 159
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 192
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 168
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 215
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 90
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 162
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 159
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 131
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 133
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 149
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 124
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 123
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 110
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 143
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 170
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 151
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 185
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 123
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 196
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 148
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 154
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 125
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 174
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 119
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 121
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 53
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 127
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 200
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 324
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 210
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 142
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 156
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 151
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 118
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 283
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 195
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 132
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 96
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 182
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 121
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 60
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 185
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 126
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 84
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 159
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 132
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 136
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 147
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 251
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 184
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 160
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 208
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 179
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 238
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 19
+        }
+      ],
+      "video_views_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 9996
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 8009
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 8464
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 9238
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 9980
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 10084
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 13834
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 8728
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 7426
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 8066
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 10602
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 12997
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 6496
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 23038
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 17541
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 11661
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 12266
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 15219
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 11700
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 9180
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 15258
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 12587
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 12253
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 11702
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 13536
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 12981
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 11244
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 20008
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 14575
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 11211
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 12062
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 12901
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 13298
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 8792
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 15022
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 12805
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 14648
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 7870
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 10765
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 11995
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 12040
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 11321
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 10069
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 10723
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 8519
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 9140
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 7410
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 10299
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 16079
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 13182
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 7384
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 12701
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 8949
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 10709
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 10337
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 9989
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 6718
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 7092
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 2696
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 20
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 8185
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 13408
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 25473
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 18028
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 16500
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 15826
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 16839
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 11023
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 22386
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 17312
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 16608
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 7254
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 25574
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 12007
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 7090
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 17317
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 12021
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 6811
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 14024
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 12700
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 11323
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 11054
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 27361
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 18623
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 17947
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 23937
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 17910
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 18685
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 1713
+        }
+      ],
+      "video_view_time_horas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 43.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 36.5
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 38.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 39.6
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 44.2
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 43.4
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 61.0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 38.9
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 33.1
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 33.6
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 46.1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 56.1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 26.8
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 91.4
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 71.6
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 48.1
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 49.5
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 62.2
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 48.8
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 38.6
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 61.3
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 50.2
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 48.5
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 46.9
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 55.4
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 52.0
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 45.5
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 76.0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 58.6
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 44.6
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 47.8
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 49.2
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 51.5
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 33.4
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 59.1
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 50.4
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 55.1
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 30.6
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 41.9
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 48.2
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 47.2
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 44.1
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 41.6
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 42.5
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 33.9
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 36.8
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 29.7
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 40.9
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 65.3
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 54.9
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 30.8
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 51.4
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 35.6
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 44.6
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 42.1
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 40.6
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 27.4
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 28.1
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 10.1
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 31.4
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 54.3
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 98.7
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 66.9
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 61.7
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 56.5
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 60.8
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 43.4
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 85.9
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 63.8
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 61.3
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 27.4
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 92.7
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 47.2
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 27.7
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 68.4
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 48.7
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 28.6
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 57.4
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 50.2
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 45.1
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 44.3
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 106.1
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 74.3
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 68.0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 92.3
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 68.8
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 71.7
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 6.9
+        }
+      ],
+      "calificacion": {
+        "rating": 0,
+        "rating_count": 0,
+        "talking_about": 1003
+      },
+      "reacciones_tipo": {
+        "like": 2782,
+        "love": 66,
+        "wow": 10,
+        "haha": 7,
+        "sorry": 6
+      },
+      "mensajes": {
+        "conversaciones_28d": 56,
+        "mensajes_28d": 167,
+        "no_leidos": 13,
+        "no_leidos_24h": 0,
+        "no_leidos_mas_antiguo": "2026-09-28T21:34:44+0000",
+        "conversaciones_hoy": 1,
+        "serie_diaria": [
+          {
+            "fecha": "2026-09-28",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-09-29",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-09-30",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-01",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-02",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-03",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-04",
+            "valor": 4
+          },
+          {
+            "fecha": "2026-10-06",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-07",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-08",
+            "valor": 5
+          },
+          {
+            "fecha": "2026-10-11",
+            "valor": 4
+          },
+          {
+            "fecha": "2026-10-13",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-14",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-16",
+            "valor": 8
+          },
+          {
+            "fecha": "2026-10-17",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-18",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-20",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-21",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-22",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-23",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-24",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-26",
+            "valor": 1
+          }
+        ],
+        "estado": "ok",
+        "actualizado": "2026-10-26 10:31"
+      },
+      "mejor_horario": {
+        "por_dia": [
+          {
+            "label": "Sábado",
+            "posts": 9,
+            "engagement_prom": 553.1
+          },
+          {
+            "label": "Lunes",
+            "posts": 9,
+            "engagement_prom": 17.3
+          },
+          {
+            "label": "Viernes",
+            "posts": 8,
+            "engagement_prom": 8.6
+          },
+          {
+            "label": "Jueves",
+            "posts": 6,
+            "engagement_prom": 7.7
+          },
+          {
+            "label": "Miércoles",
+            "posts": 8,
+            "engagement_prom": 7.4
+          },
+          {
+            "label": "Martes",
+            "posts": 10,
+            "engagement_prom": 4.1
+          },
+          {
+            "label": "Domingo",
+            "posts": 10,
+            "engagement_prom": 3.6
+          }
+        ],
+        "por_franja": [
+          {
+            "label": "Mediodía (11-14h)",
+            "posts": 17,
+            "engagement_prom": 296.9
+          },
+          {
+            "label": "Mañana (06-11h)",
+            "posts": 14,
+            "engagement_prom": 14.6
+          },
+          {
+            "label": "Noche (18-21h)",
+            "posts": 13,
+            "engagement_prom": 6.2
+          },
+          {
+            "label": "Tarde (14-18h)",
+            "posts": 16,
+            "engagement_prom": 3.3
+          }
+        ]
+      },
+      "temas_contenido": [
+        {
+          "label": "Llamado a agendar",
+          "posts": 10,
+          "engagement_prom": 498.5
+        },
+        {
+          "label": "Dolor / Padecimiento",
+          "posts": 40,
+          "engagement_prom": 132.0
+        },
+        {
+          "label": "Otro / sin clasificar",
+          "posts": 17,
+          "engagement_prom": 5.8
+        },
+        {
+          "label": "Promoción / Precio",
+          "posts": 2,
+          "engagement_prom": 3.0
+        },
+        {
+          "label": "Educativo / Tips",
+          "posts": 4,
+          "engagement_prom": 3.0
+        },
+        {
+          "label": "Ubicación / Sucursal",
+          "posts": 1,
+          "engagement_prom": 1.0
+        }
+      ],
+      "frecuencia_publicacion": {
+        "dias_desde_ultima": 3,
+        "frecuencia_dias": 12.1,
+        "muestra": 60
+      },
+      "posts": [
+        {
+          "id": "340314712498666_122226871460354647",
+          "mensaje": "📍 Tu primera sesión en Equilibrio Total Pachuca, paso a paso: primero platicamos contigo, después revisamos tu espalda y por último empezamos con terapia manual, electroterapia o masaje terapéutico, según lo que necesite",
+          "fecha": "2026-10-22T19:48:43+0000",
+          "url": "https://www.facebook.com/reel/1444647550948924/",
+          "reacciones": 40,
+          "comentarios": 2,
+          "shares": 0,
+          "clics": 81,
+          "video_views": 3936,
+          "comentarios_preview": [
+            {
+              "id": "122226871460354647_1093571010266844",
+              "mensaje": "Buena propaganda publicitaria",
+              "fecha": "2026-10-25T05:23:10+0000"
+            },
+            {
+              "id": "122226871460354647_3607183859436068",
+              "mensaje": "Por una primera seción???? Y luego la 2,3,4,5 etc  hasta dentro hasta que no te saquen unos 15 o20 mil pesos si ya los conozco, primero te dan entrada, son unos ladrones",
+              "fecha": "2026-10-24T06:40:05+0000"
+            }
+          ]
+        },
+        {
+          "id": "340314712498666_122226525662354647",
+          "mensaje": "📍 Pachuca, ¿cuántas veces has dicho “el lunes me checo la espalda” y el lunes pasa de largo? 😅 En Equilibrio Total Pachuca lo hacemos fácil: nuestros especialistas titulados en fisioterapia, acupuntura y quiropráctica te",
+          "fecha": "2026-10-19T18:32:02+0000",
+          "url": "https://www.facebook.com/reel/1534728555359480/",
+          "reacciones": 21,
+          "comentarios": 0,
+          "shares": 2,
+          "clics": 634,
+          "video_views": 21446,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122222480780354647",
+          "mensaje": "¿Dolor de espalda, hombro o rodilla? 😣\nEn Equilibrio Total Pachuca: fisioterapia, quiropráctica y acupuntura clínica con especialistas certificados.\n\n💰 Valoración + sesión $1,790 por solo $690\n📍 Pachuca de Soto, Hgo.\n👉 E",
+          "fecha": "2026-09-14T22:42:24+0000",
+          "url": "https://www.facebook.com/reel/908358575449825/",
+          "reacciones": 4,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 2,
+          "video_views": 592,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122218881284354647",
+          "mensaje": "Vecinos de Pachuca, ¡los estamos esperando! 📍\nSentir hormigueo diario no es normal. 🛑\nVen a visitarnos a la clínica.\nAgenda tu evaluación física con expertos. 📋\nRecupera tu movilidad con nuestro tratamiento.\nManda mensaj",
+          "fecha": "2026-08-08T18:44:35+0000",
+          "url": "https://www.facebook.com/reel/1421711170011444/",
+          "reacciones": 4472,
+          "comentarios": 152,
+          "shares": 309,
+          "clics": 33533,
+          "video_views": 745229,
+          "comentarios_preview": [
+            {
+              "id": "122218881284354647_28730968999899001",
+              "mensaje": "Cuánto la consulta",
+              "fecha": "2026-10-24T01:55:06+0000"
+            },
+            {
+              "id": "122218881284354647_2228324524410395",
+              "mensaje": "Si lo garantizan por escrito",
+              "fecha": "2026-10-18T03:56:59+0000"
+            },
+            {
+              "id": "122218881284354647_1399612642024489",
+              "mensaje": "Dónde está? Envien número de teléfono para agendar cita.",
+              "fecha": "2026-10-16T05:08:09+0000"
+            },
+            {
+              "id": "122218881284354647_1656349215884433",
+              "mensaje": "Crees que funcione ?",
+              "fecha": "2026-10-16T03:26:31+0000"
+            },
+            {
+              "id": "122218881284354647_1649524326841323",
+              "mensaje": "También tratan el nervio  Trigemino  !!???",
+              "fecha": "2026-10-11T18:37:44+0000"
+            },
+            {
+              "id": "122218881284354647_1084279494646119",
+              "mensaje": "Tienen consulta disponible domingo",
+              "fecha": "2026-10-11T18:17:16+0000"
+            },
+            {
+              "id": "122218881284354647_931793033023684",
+              "mensaje": "Informes",
+              "fecha": "2026-10-07T01:04:14+0000"
+            },
+            {
+              "id": "122218881284354647_3311830782336209",
+              "mensaje": "Donde se ubica o numero de telefono",
+              "fecha": "2026-08-24T23:44:01+0000"
+            },
+            {
+              "id": "122218881284354647_2125735631661796",
+              "mensaje": "Dónde está ubicados",
+              "fecha": "2026-08-27T19:07:35+0000"
+            },
+            {
+              "id": "122218881284354647_1691845625219510",
+              "mensaje": "Hola en dónde están ubicados",
+              "fecha": "2026-08-27T13:58:24+0000"
+            }
+          ]
+        },
+        {
+          "id": "340314712498666_122206141052354647",
+          "mensaje": "La salud no es solo ausencia de enfermedad, es equilibrio. ⚖️✨\n No necesitas correr un maratón para estar sano. La verdadera salud está en:\nNutrir tu cuerpo con conciencia. 🥑\nCuidar tu paz mental. 🧘‍♀️\nElegir sentirte bi",
+          "fecha": "2026-04-07T16:10:19+0000",
+          "url": "https://www.facebook.com/reel/999134265968224/",
+          "reacciones": 3,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 737,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122206037696354647",
+          "mensaje": "No necesitas correr un maratón.\nSolo romper con el sedentarismo. 🚶‍♂️\nCamina, baila, estira o sube escaleras. Todo suma para tener más energía y sentirte mejor.\n💚 ¿Quieres moverte sin dolor? Conoce nuestros tratamientos ",
+          "fecha": "2026-04-06T17:15:01+0000",
+          "url": "https://www.facebook.com/122227345484354647/posts/122206037696354647",
+          "reacciones": 4,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122205494024354647",
+          "mensaje": "✨ Tu recuperación empieza escuchando a quienes ya lo lograron.\n\nEn Equilibrio Total hemos ayudado a muchas personas a recuperar su vida activa con nuestro enfoque integral. 🩺\n\nDesliza y conoce sus historias.\nTú también p",
+          "fecha": "2026-04-01T19:25:03+0000",
+          "url": "https://www.facebook.com/122227345484354647/posts/122205494024354647",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 2,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122203326386354647",
+          "mensaje": "⚠️ ¿Dolor de hombro que no cede?\nEn Equilibrio Total vamos a la raíz del problema.\n\nTu consulta incluye:\n✅ Evaluación clínica y terapia.\n✅ Pruebas de movimiento.\n\n¡Agenda ahora y recupera tu movilidad! 👇\n\n#EquilibrioTota",
+          "fecha": "2026-03-31T20:30:03+0000",
+          "url": "https://www.facebook.com/122227345484354647/posts/122203326386354647",
+          "reacciones": 5,
+          "comentarios": 1,
+          "shares": 0,
+          "clics": 2,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "122203326386354647_1875958410043724",
+              "mensaje": "Costo",
+              "fecha": "2026-09-06T15:47:58+0000"
+            }
+          ]
+        },
+        {
+          "id": "340314712498666_122204836022354647",
+          "mensaje": "El camino es complicado, pero con constancia el cerebro busca nuevas formas de conectar. ¡La meta no es la velocidad, es la constancia! ✨\n\nGuarda este video para recordarlo en los días difíciles💙.\n\n#EquilibrioTotal #vivi",
+          "fecha": "2026-03-31T01:00:20+0000",
+          "url": "https://www.facebook.com/reel/1329523808999553/",
+          "reacciones": 6,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 1052,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122203306562354647",
+          "mensaje": "No es tu imaginación ni “que ya te estás haciendo viejo”…\nes tu cuerpo tratando de decirte algo importante.\n\n👉 Porque no duele por doler, duele porque hay una razón.\nY en Equilibrio Total no tapamos el dolor…\nlo entendem",
+          "fecha": "2026-03-30T01:00:44+0000",
+          "url": "https://www.facebook.com/reel/1263178592572613/",
+          "reacciones": 4,
+          "comentarios": 1,
+          "shares": 0,
+          "clics": 2,
+          "video_views": 1105,
+          "comentarios_preview": [
+            {
+              "id": "122203306562354647_4375523805927169",
+              "mensaje": "Pongan el costo de la valoración pues es muy desgastante checar datos incompletos",
+              "fecha": "2026-07-12T19:16:44+0000"
+            }
+          ]
+        },
+        {
+          "id": "340314712498666_122203297940354647",
+          "mensaje": "Vivir con dolor no debería ser parte de tu día a día.\nRecuperar tu movimiento, tu confianza y tu bienestar sí es posible.\n\n👉 Escríbenos y empieza hoy tu proceso de rehabilitación.\n\n#EquilibrioTotal #dolordehombro #salud ",
+          "fecha": "2026-03-29T18:00:28+0000",
+          "url": "https://www.facebook.com/122227345484354647/posts/122203297940354647",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122203217264354647",
+          "mensaje": "Tu hombro no solo levanta el brazo 💪\ntambién sostiene tu libertad de movimiento 🧠✨\n\nSi hoy duele, truena o ya no responde igual ⚠️\nno es algo normal… y sí puede tratarse 🦴💚\n\n📍 Estamos cerca de ti: +20 clínicas en Queréta",
+          "fecha": "2026-03-29T01:00:09+0000",
+          "url": "https://www.facebook.com/reel/2678982982470849/",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 711,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122203302056354647",
+          "mensaje": "✨ Tu cuerpo te acompaña todos los días.\nHoy, tú puedes acompañarlo a sentirse mejor. 💙\n\nEscuchar sus señales, moverte con confianza\ny atenderte a tiempo marca la diferencia 🌱\n\nEn Equilibrio Total te acompañamos con un en",
+          "fecha": "2026-03-28T18:00:00+0000",
+          "url": "https://www.facebook.com/122227345484354647/posts/122203302056354647",
+          "reacciones": 4,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122204834942354647",
+          "mensaje": "La vida cambia en un segundo tras un evento cardiovascular, pero la fuerza para recuperarla se construye paso a paso. No se trata sólo de mover un brazo o una pierna, se trata de recuperar tu independencia ☺🫰.\n\nLa rehabi",
+          "fecha": "2026-03-28T01:00:11+0000",
+          "url": "https://www.facebook.com/reel/1903480193705700/",
+          "reacciones": 6,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 1,
+          "video_views": 571,
+          "comentarios_preview": []
+        },
+        {
+          "id": "340314712498666_122203330940354647",
+          "mensaje": "El mejor regalo no siempre viene en una caja.\n\nA veces es ayudar a alguien que quieres a vivir sin dolor, moverse mejor y sentirse bien otra vez.\n\nTodos tenemos a alguien que siempre pone a los demás primero… y olvida su",
+          "fecha": "2026-03-26T20:30:00+0000",
+          "url": "https://www.facebook.com/reel/791959700141481/",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 434,
+          "comentarios_preview": []
+        }
+      ],
+      "historial_seguidores": [
+        {
+          "fecha": "2026-07-30",
+          "engagement": 570,
+          "vistas": 173,
+          "video_views": 9996,
+          "video_view_time_horas": 43.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "engagement": 493,
+          "vistas": 172,
+          "video_views": 8009,
+          "video_view_time_horas": 36.5
+        },
+        {
+          "fecha": "2026-08-01",
+          "engagement": 534,
+          "vistas": 135,
+          "video_views": 8464,
+          "video_view_time_horas": 38.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "engagement": 554,
+          "vistas": 177,
+          "video_views": 9238,
+          "video_view_time_horas": 39.6
+        },
+        {
+          "fecha": "2026-08-03",
+          "engagement": 632,
+          "vistas": 144,
+          "video_views": 9980,
+          "video_view_time_horas": 44.2
+        },
+        {
+          "fecha": "2026-08-04",
+          "engagement": 710,
+          "vistas": 198,
+          "video_views": 10084,
+          "video_view_time_horas": 43.4
+        },
+        {
+          "fecha": "2026-08-05",
+          "engagement": 723,
+          "vistas": 233,
+          "video_views": 13834,
+          "video_view_time_horas": 61.0
+        },
+        {
+          "fecha": "2026-08-06",
+          "engagement": 475,
+          "vistas": 139,
+          "video_views": 8728,
+          "video_view_time_horas": 38.9
+        },
+        {
+          "fecha": "2026-08-07",
+          "engagement": 420,
+          "vistas": 109,
+          "video_views": 7426,
+          "video_view_time_horas": 33.1
+        },
+        {
+          "fecha": "2026-08-08",
+          "engagement": 452,
+          "vistas": 112,
+          "video_views": 8066,
+          "video_view_time_horas": 33.6
+        },
+        {
+          "fecha": "2026-08-09",
+          "engagement": 563,
+          "vistas": 181,
+          "video_views": 10602,
+          "video_view_time_horas": 46.1
+        },
+        {
+          "fecha": "2026-08-10",
+          "engagement": 742,
+          "vistas": 162,
+          "video_views": 12997,
+          "video_view_time_horas": 56.1
+        },
+        {
+          "fecha": "2026-08-11",
+          "engagement": 436,
+          "vistas": 109,
+          "video_views": 6496,
+          "video_view_time_horas": 26.8
+        },
+        {
+          "fecha": "2026-08-12",
+          "engagement": 1120,
+          "vistas": 321,
+          "video_views": 23038,
+          "video_view_time_horas": 91.4
+        },
+        {
+          "fecha": "2026-08-13",
+          "engagement": 856,
+          "vistas": 222,
+          "video_views": 17541,
+          "video_view_time_horas": 71.6
+        },
+        {
+          "fecha": "2026-08-14",
+          "engagement": 547,
+          "vistas": 163,
+          "video_views": 11661,
+          "video_view_time_horas": 48.1
+        },
+        {
+          "fecha": "2026-08-15",
+          "engagement": 653,
+          "vistas": 132,
+          "video_views": 12266,
+          "video_view_time_horas": 49.5
+        },
+        {
+          "fecha": "2026-08-16",
+          "engagement": 702,
+          "vistas": 165,
+          "video_views": 15219,
+          "video_view_time_horas": 62.2
+        },
+        {
+          "fecha": "2026-08-17",
+          "engagement": 619,
+          "vistas": 130,
+          "video_views": 11700,
+          "video_view_time_horas": 48.8
+        },
+        {
+          "fecha": "2026-08-18",
+          "engagement": 2714,
+          "vistas": 112,
+          "video_views": 9180,
+          "video_view_time_horas": 38.6
+        },
+        {
+          "fecha": "2026-08-19",
+          "engagement": 767,
+          "vistas": 244,
+          "video_views": 15258,
+          "video_view_time_horas": 61.3
+        },
+        {
+          "fecha": "2026-08-20",
+          "engagement": 663,
+          "vistas": 203,
+          "video_views": 12587,
+          "video_view_time_horas": 50.2
+        },
+        {
+          "fecha": "2026-08-21",
+          "engagement": 614,
+          "vistas": 160,
+          "video_views": 12253,
+          "video_view_time_horas": 48.5
+        },
+        {
+          "fecha": "2026-08-22",
+          "engagement": 651,
+          "vistas": 213,
+          "video_views": 11702,
+          "video_view_time_horas": 46.9
+        },
+        {
+          "fecha": "2026-08-23",
+          "engagement": 782,
+          "vistas": 143,
+          "video_views": 13536,
+          "video_view_time_horas": 55.4
+        },
+        {
+          "fecha": "2026-08-24",
+          "engagement": 825,
+          "vistas": 214,
+          "video_views": 12981,
+          "video_view_time_horas": 52.0
+        },
+        {
+          "fecha": "2026-08-25",
+          "engagement": 657,
+          "vistas": 196,
+          "video_views": 11244,
+          "video_view_time_horas": 45.5
+        },
+        {
+          "fecha": "2026-08-26",
+          "engagement": 1136,
+          "vistas": 229,
+          "video_views": 20008,
+          "video_view_time_horas": 76.0
+        },
+        {
+          "fecha": "2026-08-27",
+          "engagement": 891,
+          "vistas": 176,
+          "video_views": 14575,
+          "video_view_time_horas": 58.6
+        },
+        {
+          "fecha": "2026-08-28",
+          "engagement": 724,
+          "vistas": 119,
+          "video_views": 11211,
+          "video_view_time_horas": 44.6
+        },
+        {
+          "fecha": "2026-08-29",
+          "engagement": 747,
+          "vistas": 134,
+          "video_views": 12062,
+          "video_view_time_horas": 47.8
+        },
+        {
+          "fecha": "2026-08-30",
+          "engagement": 742,
+          "vistas": 146,
+          "video_views": 12901,
+          "video_view_time_horas": 49.2
+        },
+        {
+          "fecha": "2026-08-31",
+          "engagement": 805,
+          "vistas": 179,
+          "video_views": 13298,
+          "video_view_time_horas": 51.5
+        },
+        {
+          "fecha": "2026-09-01",
+          "engagement": 611,
+          "vistas": 159,
+          "video_views": 8792,
+          "video_view_time_horas": 33.4
+        },
+        {
+          "fecha": "2026-09-02",
+          "engagement": 865,
+          "vistas": 192,
+          "video_views": 15022,
+          "video_view_time_horas": 59.1
+        },
+        {
+          "fecha": "2026-09-03",
+          "engagement": 847,
+          "vistas": 168,
+          "video_views": 12805,
+          "video_view_time_horas": 50.4
+        },
+        {
+          "fecha": "2026-09-04",
+          "engagement": 944,
+          "vistas": 215,
+          "video_views": 14648,
+          "video_view_time_horas": 55.1
+        },
+        {
+          "fecha": "2026-09-05",
+          "engagement": 492,
+          "vistas": 90,
+          "video_views": 7870,
+          "video_view_time_horas": 30.6
+        },
+        {
+          "fecha": "2026-09-06",
+          "engagement": 684,
+          "vistas": 162,
+          "video_views": 10765,
+          "video_view_time_horas": 41.9
+        },
+        {
+          "fecha": "2026-09-07",
+          "engagement": 685,
+          "vistas": 159,
+          "video_views": 11995,
+          "video_view_time_horas": 48.2
+        },
+        {
+          "fecha": "2026-09-08",
+          "engagement": 600,
+          "vistas": 131,
+          "video_views": 12040,
+          "video_view_time_horas": 47.2
+        },
+        {
+          "fecha": "2026-09-09",
+          "engagement": 678,
+          "vistas": 133,
+          "video_views": 11321,
+          "video_view_time_horas": 44.1
+        },
+        {
+          "fecha": "2026-09-10",
+          "engagement": 596,
+          "vistas": 149,
+          "video_views": 10069,
+          "video_view_time_horas": 41.6
+        },
+        {
+          "fecha": "2026-09-11",
+          "engagement": 555,
+          "vistas": 124,
+          "video_views": 10723,
+          "video_view_time_horas": 42.5
+        },
+        {
+          "fecha": "2026-09-12",
+          "engagement": 451,
+          "vistas": 123,
+          "video_views": 8519,
+          "video_view_time_horas": 33.9
+        },
+        {
+          "fecha": "2026-09-13",
+          "engagement": 434,
+          "vistas": 110,
+          "video_views": 9140,
+          "video_view_time_horas": 36.8
+        },
+        {
+          "fecha": "2026-09-14",
+          "engagement": 515,
+          "vistas": 143,
+          "video_views": 7410,
+          "video_view_time_horas": 29.7
+        },
+        {
+          "fecha": "2026-09-15",
+          "engagement": 656,
+          "vistas": 170,
+          "video_views": 10299,
+          "video_view_time_horas": 40.9
+        },
+        {
+          "fecha": "2026-09-16",
+          "engagement": 822,
+          "vistas": 151,
+          "video_views": 16079,
+          "video_view_time_horas": 65.3
+        },
+        {
+          "fecha": "2026-09-17",
+          "engagement": 659,
+          "vistas": 185,
+          "video_views": 13182,
+          "video_view_time_horas": 54.9
+        },
+        {
+          "fecha": "2026-09-18",
+          "engagement": 503,
+          "vistas": 123,
+          "video_views": 7384,
+          "video_view_time_horas": 30.8
+        },
+        {
+          "fecha": "2026-09-19",
+          "engagement": 710,
+          "vistas": 196,
+          "video_views": 12701,
+          "video_view_time_horas": 51.4
+        },
+        {
+          "fecha": "2026-09-20",
+          "engagement": 471,
+          "vistas": 148,
+          "video_views": 8949,
+          "video_view_time_horas": 35.6
+        },
+        {
+          "fecha": "2026-09-21",
+          "engagement": 633,
+          "vistas": 154,
+          "video_views": 10709,
+          "video_view_time_horas": 44.6
+        },
+        {
+          "fecha": "2026-09-22",
+          "engagement": 593,
+          "vistas": 125,
+          "video_views": 10337,
+          "video_view_time_horas": 42.1
+        },
+        {
+          "fecha": "2026-09-23",
+          "engagement": 571,
+          "vistas": 174,
+          "video_views": 9989,
+          "video_view_time_horas": 40.6
+        },
+        {
+          "fecha": "2026-09-24",
+          "engagement": 468,
+          "vistas": 119,
+          "video_views": 6718,
+          "video_view_time_horas": 27.4
+        },
+        {
+          "fecha": "2026-09-25",
+          "engagement": 455,
+          "vistas": 121,
+          "video_views": 7092,
+          "video_view_time_horas": 28.1
+        },
+        {
+          "fecha": "2026-09-26",
+          "engagement": 134,
+          "vistas": 53,
+          "video_views": 2696,
+          "video_view_time_horas": 10.1
+        },
+        {
+          "fecha": "2026-09-27",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 20,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-09-28",
+          "engagement": 0,
+          "vistas": 1,
+          "video_views": 8,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "engagement": 509,
+          "vistas": 127,
+          "video_views": 8185,
+          "video_view_time_horas": 31.4
+        },
+        {
+          "fecha": "2026-09-30",
+          "engagement": 850,
+          "vistas": 200,
+          "video_views": 13408,
+          "video_view_time_horas": 54.3
+        },
+        {
+          "fecha": "2026-10-01",
+          "engagement": 1260,
+          "vistas": 324,
+          "video_views": 25473,
+          "video_view_time_horas": 98.7
+        },
+        {
+          "fecha": "2026-10-02",
+          "engagement": 879,
+          "vistas": 210,
+          "video_views": 18028,
+          "video_view_time_horas": 66.9
+        },
+        {
+          "fecha": "2026-10-03",
+          "engagement": 799,
+          "vistas": 142,
+          "video_views": 16500,
+          "video_view_time_horas": 61.7
+        },
+        {
+          "fecha": "2026-10-04",
+          "engagement": 711,
+          "vistas": 156,
+          "video_views": 15826,
+          "video_view_time_horas": 56.5
+        },
+        {
+          "fecha": "2026-10-05",
+          "engagement": 766,
+          "vistas": 151,
+          "video_views": 16839,
+          "video_view_time_horas": 60.8
+        },
+        {
+          "fecha": "2026-10-06",
+          "engagement": 599,
+          "vistas": 118,
+          "video_views": 11023,
+          "video_view_time_horas": 43.4
+        },
+        {
+          "fecha": "2026-10-07",
+          "engagement": 1115,
+          "vistas": 283,
+          "video_views": 22386,
+          "video_view_time_horas": 85.9
+        },
+        {
+          "fecha": "2026-10-08",
+          "engagement": 893,
+          "vistas": 195,
+          "video_views": 17312,
+          "video_view_time_horas": 63.8
+        },
+        {
+          "fecha": "2026-10-09",
+          "engagement": 838,
+          "vistas": 132,
+          "video_views": 16608,
+          "video_view_time_horas": 61.3
+        },
+        {
+          "fecha": "2026-10-10",
+          "engagement": 349,
+          "vistas": 96,
+          "video_views": 7254,
+          "video_view_time_horas": 27.4
+        },
+        {
+          "fecha": "2026-10-11",
+          "engagement": 1282,
+          "vistas": 182,
+          "video_views": 25574,
+          "video_view_time_horas": 92.7
+        },
+        {
+          "fecha": "2026-10-12",
+          "engagement": 714,
+          "vistas": 121,
+          "video_views": 12007,
+          "video_view_time_horas": 47.2
+        },
+        {
+          "fecha": "2026-10-13",
+          "engagement": 538,
+          "vistas": 60,
+          "video_views": 7090,
+          "video_view_time_horas": 27.7
+        },
+        {
+          "fecha": "2026-10-14",
+          "engagement": 1456,
+          "vistas": 185,
+          "video_views": 17317,
+          "video_view_time_horas": 68.4
+        },
+        {
+          "fecha": "2026-10-15",
+          "engagement": 1282,
+          "vistas": 126,
+          "video_views": 12021,
+          "video_view_time_horas": 48.7
+        },
+        {
+          "fecha": "2026-10-16",
+          "engagement": 663,
+          "vistas": 84,
+          "video_views": 6811,
+          "video_view_time_horas": 28.6
+        },
+        {
+          "fecha": "2026-10-17",
+          "engagement": 1278,
+          "vistas": 159,
+          "video_views": 14024,
+          "video_view_time_horas": 57.4
+        },
+        {
+          "fecha": "2026-10-18",
+          "engagement": 1225,
+          "vistas": 132,
+          "video_views": 12700,
+          "video_view_time_horas": 50.2
+        },
+        {
+          "fecha": "2026-10-19",
+          "engagement": 903,
+          "vistas": 136,
+          "video_views": 11323,
+          "video_view_time_horas": 45.1
+        },
+        {
+          "fecha": "2026-10-20",
+          "engagement": 1507,
+          "vistas": 147,
+          "video_views": 11054,
+          "video_view_time_horas": 44.3
+        },
+        {
+          "fecha": "2026-10-21",
+          "engagement": 1945,
+          "vistas": 251,
+          "video_views": 27361,
+          "video_view_time_horas": 106.1
+        },
+        {
+          "fecha": "2026-10-22",
+          "engagement": 1312,
+          "vistas": 184,
+          "video_views": 18623,
+          "video_view_time_horas": 74.3
+        },
+        {
+          "fecha": "2026-10-23",
+          "engagement": 1478,
+          "vistas": 160,
+          "video_views": 17947,
+          "video_view_time_horas": 68.0
+        },
+        {
+          "fecha": "2026-10-24",
+          "engagement": 1816,
+          "vistas": 208,
+          "video_views": 23937,
+          "video_view_time_horas": 92.3
+        },
+        {
+          "fecha": "2026-10-25",
+          "engagement": 1476,
+          "vistas": 179,
+          "video_views": 17910,
+          "video_view_time_horas": 68.8
+        },
+        {
+          "fecha": "2026-10-26",
+          "engagement": 1556,
+          "vistas": 238,
+          "video_views": 18685,
+          "video_view_time_horas": 71.7,
+          "seguidores": 2850
+        },
+        {
+          "fecha": "2026-10-27",
+          "engagement": 183,
+          "vistas": 19,
+          "video_views": 1713,
+          "video_view_time_horas": 6.9
+        }
+      ],
+      "instagram": null
+    },
+    "tepeyac": {
+      "nombre": "Equilibrio Total Tepeyac",
+      "id": "369505499570832",
+      "seguidores": 2387,
+      "categoria": "Medical & health",
+      "engagement_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 551
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 481
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 494
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 585
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 560
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 540
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 533
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 351
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 295
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 317
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 262
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 306
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 207
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 540
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 381
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 747
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 571
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 405
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 345
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 349
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 601
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 551
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 443
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 495
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 558
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 368
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 502
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 772
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 679
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 456
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 660
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 637
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 877
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 892
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 1069
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 811
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 1162
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 657
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 545
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 578
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 753
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 711
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 217
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 695
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 491
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 553
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 407
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 824
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 773
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 516
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 399
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 492
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 413
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 439
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 531
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 475
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 388
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 325
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 382
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 393
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 434
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 297
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 487
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 499
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 507
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 456
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 399
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 362
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 367
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 519
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 480
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 423
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 347
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 341
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 343
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 223
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 496
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 405
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 351
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 501
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 324
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 270
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 219
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 463
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 266
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 269
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 321
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 279
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 308
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 28
+        }
+      ],
+      "vistas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 217
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 184
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 142
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 214
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 203
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 210
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 154
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 143
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 111
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 152
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 99
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 88
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 78
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 174
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 142
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 246
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 196
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 113
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 106
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 131
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 147
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 207
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 201
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 173
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 135
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 105
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 110
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 197
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 91
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 109
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 144
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 144
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 168
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 150
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 216
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 187
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 207
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 135
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 108
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 155
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 136
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 168
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 53
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 96
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 168
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 112
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 112
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 141
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 199
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 171
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 93
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 153
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 87
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 109
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 106
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 140
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 84
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 121
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 112
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 124
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 89
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 150
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 134
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 139
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 136
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 143
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 106
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 79
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 87
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 175
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 131
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 101
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 99
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 66
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 76
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 96
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 96
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 105
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 83
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 104
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 70
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 95
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 145
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 77
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 63
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 101
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 84
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 108
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 9
+        }
+      ],
+      "video_views_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 6236
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 5286
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 5286
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 5818
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 5700
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 5033
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 5804
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 4153
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 3374
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 3215
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 3770
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 4078
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 1872
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 7233
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 6072
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 6438
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 4067
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 3338
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 3681
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 2867
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 4864
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 4370
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 3180
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 3501
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 4012
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2927
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 3737
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 5369
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 3619
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 3298
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 4747
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 4864
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 6504
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 5522
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 7524
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 6665
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 7355
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 4095
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 4695
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 5117
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 6215
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 5439
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 1466
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 5348
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 4202
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 5455
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 2782
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 5492
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 6892
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 4741
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 3328
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 3815
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 4518
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 3842
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 4864
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 5087
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 3249
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 2764
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 3398
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 2748
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 3029
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 2167
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 5292
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 5554
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 5347
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 4768
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 3959
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 4275
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 3291
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 5390
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 4711
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 3999
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 3245
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 3978
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 3472
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 1775
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 5029
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 3449
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 2633
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 2934
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 2956
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 2713
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 1322
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 4861
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 2428
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 2524
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 2551
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 2342
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 2534
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 164
+        }
+      ],
+      "video_view_time_horas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 26.8
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 23.6
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 25.2
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 26.7
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 27.2
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 23.4
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 26.7
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 19.7
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 16.2
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 15.0
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 17.9
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 19.1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 9.4
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 32.8
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 28.2
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 34.3
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 21.6
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 17.3
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 19.9
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 15.7
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 26.6
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 23.2
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 17.9
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 20.6
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 21.2
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 15.4
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 20.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 28.2
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 19.7
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 17.0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 25.0
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 26.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 35.0
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 28.9
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 40.1
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 37.5
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 40.3
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 23.4
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 27.3
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 29.5
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 36.4
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 31.4
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 8.2
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 30.1
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 23.9
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 30.9
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 15.6
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 27.7
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 37.9
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 28.3
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 19.5
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 20.8
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 26.6
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 21.1
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 27.8
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 26.5
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 16.5
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 14.3
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 19.3
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 16.5
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 17.1
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 10.7
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 25.2
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 27.7
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 28.2
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 25.7
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 21.3
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 23.3
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 18.3
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 28.4
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 25.4
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 21.6
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 18.2
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 21.7
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 18.7
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 10.1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 29.0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 20.6
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 14.6
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 16.9
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 16.1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 15.5
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 8.1
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 26.2
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 13.3
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 14.6
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 13.8
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 12.9
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 14.2
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 0.9
+        }
+      ],
+      "calificacion": {
+        "rating": 3.9,
+        "rating_count": 0,
+        "talking_about": 273
+      },
+      "reacciones_tipo": {
+        "like": 1239,
+        "love": 20,
+        "wow": 3,
+        "haha": 2,
+        "sorry": 1,
+        "anger": 1
+      },
+      "mensajes": {
+        "conversaciones_28d": 129,
+        "mensajes_28d": 837,
+        "no_leidos": 0,
+        "no_leidos_24h": 0,
+        "no_leidos_mas_antiguo": null,
+        "conversaciones_hoy": 7,
+        "serie_diaria": [
+          {
+            "fecha": "2026-09-28",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-09-29",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-09-30",
+            "valor": 26
+          },
+          {
+            "fecha": "2026-10-01",
+            "valor": 5
+          },
+          {
+            "fecha": "2026-10-02",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-03",
+            "valor": 6
+          },
+          {
+            "fecha": "2026-10-05",
+            "valor": 6
+          },
+          {
+            "fecha": "2026-10-06",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-07",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-08",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-09",
+            "valor": 7
+          },
+          {
+            "fecha": "2026-10-10",
+            "valor": 4
+          },
+          {
+            "fecha": "2026-10-12",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-13",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-14",
+            "valor": 7
+          },
+          {
+            "fecha": "2026-10-15",
+            "valor": 5
+          },
+          {
+            "fecha": "2026-10-16",
+            "valor": 7
+          },
+          {
+            "fecha": "2026-10-17",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor": 12
+          },
+          {
+            "fecha": "2026-10-20",
+            "valor": 5
+          },
+          {
+            "fecha": "2026-10-21",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-22",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-23",
+            "valor": 6
+          },
+          {
+            "fecha": "2026-10-24",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-26",
+            "valor": 7
+          }
+        ],
+        "estado": "ok",
+        "actualizado": "2026-10-26 10:31"
+      },
+      "mejor_horario": {
+        "por_dia": [
+          {
+            "label": "Jueves",
+            "posts": 6,
+            "engagement_prom": 404.5
+          },
+          {
+            "label": "Miércoles",
+            "posts": 13,
+            "engagement_prom": 29.9
+          },
+          {
+            "label": "Domingo",
+            "posts": 10,
+            "engagement_prom": 29.7
+          },
+          {
+            "label": "Viernes",
+            "posts": 10,
+            "engagement_prom": 24.3
+          },
+          {
+            "label": "Lunes",
+            "posts": 7,
+            "engagement_prom": 17.7
+          },
+          {
+            "label": "Sábado",
+            "posts": 9,
+            "engagement_prom": 14.8
+          },
+          {
+            "label": "Martes",
+            "posts": 5,
+            "engagement_prom": 5.4
+          }
+        ],
+        "por_franja": [
+          {
+            "label": "Mañana (06-11h)",
+            "posts": 4,
+            "engagement_prom": 582.0
+          },
+          {
+            "label": "Noche tarde (21-24h)",
+            "posts": 2,
+            "engagement_prom": 31.5
+          },
+          {
+            "label": "Tarde (14-18h)",
+            "posts": 23,
+            "engagement_prom": 31.0
+          },
+          {
+            "label": "Noche (18-21h)",
+            "posts": 19,
+            "engagement_prom": 20.8
+          },
+          {
+            "label": "Mediodía (11-14h)",
+            "posts": 12,
+            "engagement_prom": 11.8
+          }
+        ]
+      },
+      "temas_contenido": [
+        {
+          "label": "Ubicación / Sucursal",
+          "posts": 5,
+          "engagement_prom": 507.0
+        },
+        {
+          "label": "Promoción / Precio",
+          "posts": 2,
+          "engagement_prom": 96.0
+        },
+        {
+          "label": "Dolor / Padecimiento",
+          "posts": 38,
+          "engagement_prom": 87.4
+        },
+        {
+          "label": "Llamado a agendar",
+          "posts": 8,
+          "engagement_prom": 44.5
+        },
+        {
+          "label": "Educativo / Tips",
+          "posts": 7,
+          "engagement_prom": 16.4
+        },
+        {
+          "label": "Testimonio",
+          "posts": 1,
+          "engagement_prom": 13.0
+        },
+        {
+          "label": "Otro / sin clasificar",
+          "posts": 18,
+          "engagement_prom": 13.0
+        }
+      ],
+      "frecuencia_publicacion": {
+        "dias_desde_ultima": 11,
+        "frecuencia_dias": 11.7,
+        "muestra": 60
+      },
+      "posts": [
+        {
+          "id": "369505499570832_122235887726373437",
+          "mensaje": "¿Dolor de espalda y vives en Tepeyac? Es momento de atenderlo ⏳\nUn especialista te evalúa y diseña tu terapia según tu caso 💪.\nPrimera sesión: $690 💰 (antes $1,790).\n📲 Escríbenos por WhatsApp y reserva tu lugar 🗓️.",
+          "fecha": "2026-10-14T22:23:36+0000",
+          "url": "https://www.facebook.com/reel/1122865530701644/",
+          "reacciones": 87,
+          "comentarios": 4,
+          "shares": 48,
+          "clics": 522,
+          "video_views": 8042,
+          "comentarios_preview": [
+            {
+              "id": "122235887726373437_1494828945810921",
+              "mensaje": "Dnde se ubican",
+              "fecha": "2026-10-21T02:12:13+0000"
+            },
+            {
+              "id": "122235887726373437_1650415965919539",
+              "mensaje": "Dónde se ubican y el costo",
+              "fecha": "2026-10-19T17:04:43+0000"
+            },
+            {
+              "id": "122235887726373437_1630315161977461",
+              "mensaje": "Donde se uvican",
+              "fecha": "2026-10-15T11:41:54+0000"
+            },
+            {
+              "id": "122235887726373437_1104026358699084",
+              "mensaje": "Buenos días solo para los habitan en la zona o para todo público en general",
+              "fecha": "2026-10-20T14:04:49+0000"
+            }
+          ]
+        },
+        {
+          "id": "369505499570832_122228801786373437",
+          "mensaje": "📍 ¡Atención Tepeyac y alrededores! ¿El dolor te impide disfrutar tu día a día? 🛑\n\nEncuentra el alivio que buscas muy cerca de ti. En nuestra clínica de rehabilitación, a unos pasos del Metrobús Robles Domínguez, diseñamo",
+          "fecha": "2026-08-13T16:42:34+0000",
+          "url": "https://www.facebook.com/reel/1739137840460702/",
+          "reacciones": 2073,
+          "comentarios": 80,
+          "shares": 162,
+          "clics": 18605,
+          "video_views": 191068,
+          "comentarios_preview": [
+            {
+              "id": "122228801786373437_2314577545976704",
+              "mensaje": "Son fisioterapeutas, o quiroprácticos??\nEquilibrio Total Tepeyac",
+              "fecha": "2026-10-24T16:58:26+0000"
+            },
+            {
+              "id": "122228801786373437_2992673101086309",
+              "mensaje": "Dan atención a domicilio?",
+              "fecha": "2026-10-16T09:22:05+0000"
+            },
+            {
+              "id": "122228801786373437_1617082153445657",
+              "mensaje": "Cual es el costo",
+              "fecha": "2026-10-16T01:05:38+0000"
+            },
+            {
+              "id": "122228801786373437_1708978260571272",
+              "mensaje": "Hola una preguntas ven torceduras esguinces nervios encogidos",
+              "fecha": "2026-10-16T01:05:26+0000"
+            },
+            {
+              "id": "122228801786373437_4726296190938157",
+              "mensaje": "Si me intersa para mi tía 💕",
+              "fecha": "2026-10-12T20:27:18+0000"
+            },
+            {
+              "id": "122228801786373437_1463765185612358",
+              "mensaje": "ℹ️información y precio de la consulta???",
+              "fecha": "2026-10-12T00:13:02+0000"
+            },
+            {
+              "id": "122228801786373437_1513487463873829",
+              "mensaje": "Pues por la payasada de no dar el precio pierden pacientes",
+              "fecha": "2026-10-08T02:54:56+0000"
+            },
+            {
+              "id": "122228801786373437_1608297640835368",
+              "mensaje": "Hola precio de consulta para tibia y peroné fractura expuesta cirugía hace 4 meses si hay movimientos muy lento",
+              "fecha": "2026-10-06T19:17:09+0000"
+            },
+            {
+              "id": "122228801786373437_1403117084717095",
+              "mensaje": "Costo de la primera vez porfa",
+              "fecha": "2026-10-02T16:56:50+0000"
+            },
+            {
+              "id": "122228801786373437_1708838366852895",
+              "mensaje": "Costo de tu consulta",
+              "fecha": "2026-09-30T19:14:59+0000"
+            }
+          ]
+        },
+        {
+          "id": "369505499570832_122224601618373437",
+          "mensaje": "¿El dolor de rodilla te limita? 🛑 ¡Evita la cirugía empezando con un buen diagnóstico! En Equilibrio Total te ayudamos a encontrar el origen exacto de tu molestia.\n\n👨‍⚕️ Agenda tu Evaluación Completa de Rodilla de $1,790",
+          "fecha": "2026-07-02T22:11:22+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/122224601618373437",
+          "reacciones": 11,
+          "comentarios": 1,
+          "shares": 41,
+          "clics": 6,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "122224601618373437_1510849367463918",
+              "mensaje": "Hola que estudio hacen para valorarla?",
+              "fecha": "2026-09-01T06:26:20+0000"
+            }
+          ]
+        },
+        {
+          "id": "369505499570832_122211987236373437",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-20T16:18:17+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/122211987236373437?substory_index=1009531554830857",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_993391266728981",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-20T16:18:10+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/993391266728981?substory_index=993391266728981",
+          "reacciones": 3,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_1299505322285452",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-02T18:33:24+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/1299505322285452?substory_index=1299505322285452",
+          "reacciones": 3,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_122217965696373437",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-02T18:32:30+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/122217965696373437?substory_index=1576034153877549",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 1,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_122215120016373437",
+          "mensaje": "La salud no es solo ausencia de enfermedad, es equilibrio. ⚖️✨\nNo necesitas correr un maratón para estar sano. La verdadera salud está en:\nNutrir tu cuerpo con conciencia. 🥑\nCuidar tu paz mental. 🧘‍♀️\nElegir sentirte bie",
+          "fecha": "2026-04-07T16:30:33+0000",
+          "url": "https://www.facebook.com/reel/2178689036277275/",
+          "reacciones": 7,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 0,
+          "video_views": 1044,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_122215025252373437",
+          "mensaje": "No necesitas correr un maratón.\nSolo romper con el sedentarismo. 🚶‍♂️\nCamina, baila, estira o sube escaleras. Todo suma para tener más energía y sentirte mejor.\n💚 ¿Quieres moverte sin dolor? Conoce nuestros tratamientos ",
+          "fecha": "2026-04-06T17:15:02+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/122215025252373437",
+          "reacciones": 7,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_122214543650373437",
+          "mensaje": "Entrena mejor, no con más tensión. 💪\nMantén una postura natural, alinea tu columna y evita forzar la zona lumbar mientras entrenas.\nTu espalda te lo va a agradecer. 🙌\n🔥 Guarda este tip y síguenos para más consejos que cu",
+          "fecha": "2026-04-02T02:01:39+0000",
+          "url": "https://www.facebook.com/reel/930253639649625/",
+          "reacciones": 13,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 1153,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_122214513416373437",
+          "mensaje": "✨ Tu recuperación empieza escuchando a quienes ya lo lograron.\n\nEn Equilibrio Total hemos ayudado a muchas personas a recuperar su vida activa con nuestro enfoque integral. 🩺\n\nDesliza y conoce sus historias.\nTú también p",
+          "fecha": "2026-04-01T18:07:05+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/122214513416373437",
+          "reacciones": 7,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 6,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_122212087448373437",
+          "mensaje": "⚠️ ¿Dolor de hombro que no cede?\nEn Equilibrio Total vamos a la raíz del problema.\n\nTu consulta incluye:\n✅ Evaluación clínica y terapia.\n✅ Pruebas de movimiento.\n\n¡Agenda ahora y recupera tu movilidad! 👇\n\n#EquilibrioTota",
+          "fecha": "2026-03-31T20:30:00+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/122212087448373437",
+          "reacciones": 6,
+          "comentarios": 1,
+          "shares": 1,
+          "clics": 2,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "122212087448373437_1748980419773757",
+              "mensaje": "Precio de subluxación de brazo derecho",
+              "fecha": "2026-08-23T12:11:59+0000"
+            }
+          ]
+        },
+        {
+          "id": "369505499570832_122213794862373437",
+          "mensaje": "El camino es complicado, pero con constancia el cerebro busca nuevas formas de conectar. ¡La meta no es la velocidad, es la constancia! ✨\n\nGuarda este video para recordarlo en los días difíciles💙.\n\n#EquilibrioTotal #vivi",
+          "fecha": "2026-03-31T01:00:04+0000",
+          "url": "https://www.facebook.com/reel/1701031607917649/",
+          "reacciones": 7,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 0,
+          "video_views": 762,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_122212068158373437",
+          "mensaje": "No es tu imaginación ni “que ya te estás haciendo viejo”…\nes tu cuerpo tratando de decirte algo importante.\n\n👉 Porque no duele por doler, duele porque hay una razón.\nY en Equilibrio Total no tapamos el dolor…\nlo entendem",
+          "fecha": "2026-03-30T01:00:48+0000",
+          "url": "https://www.facebook.com/reel/1256571723204577/",
+          "reacciones": 5,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 788,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369505499570832_122212060004373437",
+          "mensaje": "Vivir con dolor no debería ser parte de tu día a día.\nRecuperar tu movimiento, tu confianza y tu bienestar sí es posible.\n\n👉 Escríbenos y empieza hoy tu proceso de rehabilitación.\n\n#EquilibrioTotal #dolordehombro #salud ",
+          "fecha": "2026-03-29T18:00:47+0000",
+          "url": "https://www.facebook.com/122237306048373437/posts/122212060004373437",
+          "reacciones": 4,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 1,
+          "video_views": 0,
+          "comentarios_preview": []
+        }
+      ],
+      "historial_seguidores": [
+        {
+          "fecha": "2026-07-30",
+          "engagement": 551,
+          "vistas": 217,
+          "video_views": 6236,
+          "video_view_time_horas": 26.8
+        },
+        {
+          "fecha": "2026-07-31",
+          "engagement": 481,
+          "vistas": 184,
+          "video_views": 5286,
+          "video_view_time_horas": 23.6
+        },
+        {
+          "fecha": "2026-08-01",
+          "engagement": 494,
+          "vistas": 142,
+          "video_views": 5286,
+          "video_view_time_horas": 25.2
+        },
+        {
+          "fecha": "2026-08-02",
+          "engagement": 585,
+          "vistas": 214,
+          "video_views": 5818,
+          "video_view_time_horas": 26.7
+        },
+        {
+          "fecha": "2026-08-03",
+          "engagement": 560,
+          "vistas": 203,
+          "video_views": 5700,
+          "video_view_time_horas": 27.2
+        },
+        {
+          "fecha": "2026-08-04",
+          "engagement": 540,
+          "vistas": 210,
+          "video_views": 5033,
+          "video_view_time_horas": 23.4
+        },
+        {
+          "fecha": "2026-08-05",
+          "engagement": 533,
+          "vistas": 154,
+          "video_views": 5804,
+          "video_view_time_horas": 26.7
+        },
+        {
+          "fecha": "2026-08-06",
+          "engagement": 351,
+          "vistas": 143,
+          "video_views": 4153,
+          "video_view_time_horas": 19.7
+        },
+        {
+          "fecha": "2026-08-07",
+          "engagement": 295,
+          "vistas": 111,
+          "video_views": 3374,
+          "video_view_time_horas": 16.2
+        },
+        {
+          "fecha": "2026-08-08",
+          "engagement": 317,
+          "vistas": 152,
+          "video_views": 3215,
+          "video_view_time_horas": 15.0
+        },
+        {
+          "fecha": "2026-08-09",
+          "engagement": 262,
+          "vistas": 99,
+          "video_views": 3770,
+          "video_view_time_horas": 17.9
+        },
+        {
+          "fecha": "2026-08-10",
+          "engagement": 306,
+          "vistas": 88,
+          "video_views": 4078,
+          "video_view_time_horas": 19.1
+        },
+        {
+          "fecha": "2026-08-11",
+          "engagement": 207,
+          "vistas": 78,
+          "video_views": 1872,
+          "video_view_time_horas": 9.4
+        },
+        {
+          "fecha": "2026-08-12",
+          "engagement": 540,
+          "vistas": 174,
+          "video_views": 7233,
+          "video_view_time_horas": 32.8
+        },
+        {
+          "fecha": "2026-08-13",
+          "engagement": 381,
+          "vistas": 142,
+          "video_views": 6072,
+          "video_view_time_horas": 28.2
+        },
+        {
+          "fecha": "2026-08-14",
+          "engagement": 747,
+          "vistas": 246,
+          "video_views": 6438,
+          "video_view_time_horas": 34.3
+        },
+        {
+          "fecha": "2026-08-15",
+          "engagement": 571,
+          "vistas": 196,
+          "video_views": 4067,
+          "video_view_time_horas": 21.6
+        },
+        {
+          "fecha": "2026-08-16",
+          "engagement": 405,
+          "vistas": 113,
+          "video_views": 3338,
+          "video_view_time_horas": 17.3
+        },
+        {
+          "fecha": "2026-08-17",
+          "engagement": 345,
+          "vistas": 106,
+          "video_views": 3681,
+          "video_view_time_horas": 19.9
+        },
+        {
+          "fecha": "2026-08-18",
+          "engagement": 349,
+          "vistas": 131,
+          "video_views": 2867,
+          "video_view_time_horas": 15.7
+        },
+        {
+          "fecha": "2026-08-19",
+          "engagement": 601,
+          "vistas": 147,
+          "video_views": 4864,
+          "video_view_time_horas": 26.6
+        },
+        {
+          "fecha": "2026-08-20",
+          "engagement": 551,
+          "vistas": 207,
+          "video_views": 4370,
+          "video_view_time_horas": 23.2
+        },
+        {
+          "fecha": "2026-08-21",
+          "engagement": 443,
+          "vistas": 201,
+          "video_views": 3180,
+          "video_view_time_horas": 17.9
+        },
+        {
+          "fecha": "2026-08-22",
+          "engagement": 495,
+          "vistas": 173,
+          "video_views": 3501,
+          "video_view_time_horas": 20.6
+        },
+        {
+          "fecha": "2026-08-23",
+          "engagement": 558,
+          "vistas": 135,
+          "video_views": 4012,
+          "video_view_time_horas": 21.2
+        },
+        {
+          "fecha": "2026-08-24",
+          "engagement": 368,
+          "vistas": 105,
+          "video_views": 2927,
+          "video_view_time_horas": 15.4
+        },
+        {
+          "fecha": "2026-08-25",
+          "engagement": 502,
+          "vistas": 110,
+          "video_views": 3737,
+          "video_view_time_horas": 20.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "engagement": 772,
+          "vistas": 197,
+          "video_views": 5369,
+          "video_view_time_horas": 28.2
+        },
+        {
+          "fecha": "2026-08-27",
+          "engagement": 679,
+          "vistas": 91,
+          "video_views": 3619,
+          "video_view_time_horas": 19.7
+        },
+        {
+          "fecha": "2026-08-28",
+          "engagement": 456,
+          "vistas": 109,
+          "video_views": 3298,
+          "video_view_time_horas": 17.0
+        },
+        {
+          "fecha": "2026-08-29",
+          "engagement": 660,
+          "vistas": 144,
+          "video_views": 4747,
+          "video_view_time_horas": 25.0
+        },
+        {
+          "fecha": "2026-08-30",
+          "engagement": 637,
+          "vistas": 144,
+          "video_views": 4864,
+          "video_view_time_horas": 26.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "engagement": 877,
+          "vistas": 168,
+          "video_views": 6504,
+          "video_view_time_horas": 35.0
+        },
+        {
+          "fecha": "2026-09-01",
+          "engagement": 892,
+          "vistas": 150,
+          "video_views": 5522,
+          "video_view_time_horas": 28.9
+        },
+        {
+          "fecha": "2026-09-02",
+          "engagement": 1069,
+          "vistas": 216,
+          "video_views": 7524,
+          "video_view_time_horas": 40.1
+        },
+        {
+          "fecha": "2026-09-03",
+          "engagement": 811,
+          "vistas": 187,
+          "video_views": 6665,
+          "video_view_time_horas": 37.5
+        },
+        {
+          "fecha": "2026-09-04",
+          "engagement": 1162,
+          "vistas": 207,
+          "video_views": 7355,
+          "video_view_time_horas": 40.3
+        },
+        {
+          "fecha": "2026-09-05",
+          "engagement": 657,
+          "vistas": 135,
+          "video_views": 4095,
+          "video_view_time_horas": 23.4
+        },
+        {
+          "fecha": "2026-09-06",
+          "engagement": 545,
+          "vistas": 108,
+          "video_views": 4695,
+          "video_view_time_horas": 27.3
+        },
+        {
+          "fecha": "2026-09-07",
+          "engagement": 578,
+          "vistas": 155,
+          "video_views": 5117,
+          "video_view_time_horas": 29.5
+        },
+        {
+          "fecha": "2026-09-08",
+          "engagement": 753,
+          "vistas": 136,
+          "video_views": 6215,
+          "video_view_time_horas": 36.4
+        },
+        {
+          "fecha": "2026-09-09",
+          "engagement": 711,
+          "vistas": 168,
+          "video_views": 5439,
+          "video_view_time_horas": 31.4
+        },
+        {
+          "fecha": "2026-09-10",
+          "engagement": 217,
+          "vistas": 53,
+          "video_views": 1466,
+          "video_view_time_horas": 8.2
+        },
+        {
+          "fecha": "2026-09-11",
+          "engagement": 695,
+          "vistas": 96,
+          "video_views": 5348,
+          "video_view_time_horas": 30.1
+        },
+        {
+          "fecha": "2026-09-12",
+          "engagement": 491,
+          "vistas": 168,
+          "video_views": 4202,
+          "video_view_time_horas": 23.9
+        },
+        {
+          "fecha": "2026-09-13",
+          "engagement": 553,
+          "vistas": 112,
+          "video_views": 5455,
+          "video_view_time_horas": 30.9
+        },
+        {
+          "fecha": "2026-09-14",
+          "engagement": 407,
+          "vistas": 112,
+          "video_views": 2782,
+          "video_view_time_horas": 15.6
+        },
+        {
+          "fecha": "2026-09-15",
+          "engagement": 824,
+          "vistas": 141,
+          "video_views": 5492,
+          "video_view_time_horas": 27.7
+        },
+        {
+          "fecha": "2026-09-16",
+          "engagement": 773,
+          "vistas": 199,
+          "video_views": 6892,
+          "video_view_time_horas": 37.9
+        },
+        {
+          "fecha": "2026-09-17",
+          "engagement": 516,
+          "vistas": 171,
+          "video_views": 4741,
+          "video_view_time_horas": 28.3
+        },
+        {
+          "fecha": "2026-09-18",
+          "engagement": 399,
+          "vistas": 93,
+          "video_views": 3328,
+          "video_view_time_horas": 19.5
+        },
+        {
+          "fecha": "2026-09-19",
+          "engagement": 492,
+          "vistas": 153,
+          "video_views": 3815,
+          "video_view_time_horas": 20.8
+        },
+        {
+          "fecha": "2026-09-20",
+          "engagement": 413,
+          "vistas": 87,
+          "video_views": 4518,
+          "video_view_time_horas": 26.6
+        },
+        {
+          "fecha": "2026-09-21",
+          "engagement": 439,
+          "vistas": 109,
+          "video_views": 3842,
+          "video_view_time_horas": 21.1
+        },
+        {
+          "fecha": "2026-09-22",
+          "engagement": 531,
+          "vistas": 106,
+          "video_views": 4864,
+          "video_view_time_horas": 27.8
+        },
+        {
+          "fecha": "2026-09-23",
+          "engagement": 475,
+          "vistas": 107,
+          "video_views": 5087,
+          "video_view_time_horas": 26.5
+        },
+        {
+          "fecha": "2026-09-24",
+          "engagement": 388,
+          "vistas": 140,
+          "video_views": 3249,
+          "video_view_time_horas": 16.5
+        },
+        {
+          "fecha": "2026-09-25",
+          "engagement": 325,
+          "vistas": 84,
+          "video_views": 2764,
+          "video_view_time_horas": 14.3
+        },
+        {
+          "fecha": "2026-09-26",
+          "engagement": 382,
+          "vistas": 121,
+          "video_views": 3398,
+          "video_view_time_horas": 19.3
+        },
+        {
+          "fecha": "2026-09-27",
+          "engagement": 393,
+          "vistas": 112,
+          "video_views": 2748,
+          "video_view_time_horas": 16.5
+        },
+        {
+          "fecha": "2026-09-28",
+          "engagement": 434,
+          "vistas": 124,
+          "video_views": 3029,
+          "video_view_time_horas": 17.1
+        },
+        {
+          "fecha": "2026-09-29",
+          "engagement": 297,
+          "vistas": 89,
+          "video_views": 2167,
+          "video_view_time_horas": 10.7
+        },
+        {
+          "fecha": "2026-09-30",
+          "engagement": 487,
+          "vistas": 150,
+          "video_views": 5292,
+          "video_view_time_horas": 25.2
+        },
+        {
+          "fecha": "2026-10-01",
+          "engagement": 499,
+          "vistas": 134,
+          "video_views": 5554,
+          "video_view_time_horas": 27.7
+        },
+        {
+          "fecha": "2026-10-02",
+          "engagement": 507,
+          "vistas": 139,
+          "video_views": 5347,
+          "video_view_time_horas": 28.2
+        },
+        {
+          "fecha": "2026-10-03",
+          "engagement": 456,
+          "vistas": 136,
+          "video_views": 4768,
+          "video_view_time_horas": 25.7
+        },
+        {
+          "fecha": "2026-10-04",
+          "engagement": 399,
+          "vistas": 143,
+          "video_views": 3959,
+          "video_view_time_horas": 21.3
+        },
+        {
+          "fecha": "2026-10-05",
+          "engagement": 362,
+          "vistas": 106,
+          "video_views": 4275,
+          "video_view_time_horas": 23.3
+        },
+        {
+          "fecha": "2026-10-06",
+          "engagement": 367,
+          "vistas": 79,
+          "video_views": 3291,
+          "video_view_time_horas": 18.3
+        },
+        {
+          "fecha": "2026-10-07",
+          "engagement": 519,
+          "vistas": 87,
+          "video_views": 5390,
+          "video_view_time_horas": 28.4
+        },
+        {
+          "fecha": "2026-10-08",
+          "engagement": 480,
+          "vistas": 175,
+          "video_views": 4711,
+          "video_view_time_horas": 25.4
+        },
+        {
+          "fecha": "2026-10-09",
+          "engagement": 423,
+          "vistas": 131,
+          "video_views": 3999,
+          "video_view_time_horas": 21.6
+        },
+        {
+          "fecha": "2026-10-10",
+          "engagement": 347,
+          "vistas": 101,
+          "video_views": 3245,
+          "video_view_time_horas": 18.2
+        },
+        {
+          "fecha": "2026-10-11",
+          "engagement": 341,
+          "vistas": 99,
+          "video_views": 3978,
+          "video_view_time_horas": 21.7
+        },
+        {
+          "fecha": "2026-10-12",
+          "engagement": 343,
+          "vistas": 66,
+          "video_views": 3472,
+          "video_view_time_horas": 18.7
+        },
+        {
+          "fecha": "2026-10-13",
+          "engagement": 223,
+          "vistas": 76,
+          "video_views": 1775,
+          "video_view_time_horas": 10.1
+        },
+        {
+          "fecha": "2026-10-14",
+          "engagement": 496,
+          "vistas": 96,
+          "video_views": 5029,
+          "video_view_time_horas": 29.0
+        },
+        {
+          "fecha": "2026-10-15",
+          "engagement": 405,
+          "vistas": 96,
+          "video_views": 3449,
+          "video_view_time_horas": 20.6
+        },
+        {
+          "fecha": "2026-10-16",
+          "engagement": 351,
+          "vistas": 105,
+          "video_views": 2633,
+          "video_view_time_horas": 14.6
+        },
+        {
+          "fecha": "2026-10-17",
+          "engagement": 501,
+          "vistas": 83,
+          "video_views": 2934,
+          "video_view_time_horas": 16.9
+        },
+        {
+          "fecha": "2026-10-18",
+          "engagement": 324,
+          "vistas": 104,
+          "video_views": 2956,
+          "video_view_time_horas": 16.1
+        },
+        {
+          "fecha": "2026-10-19",
+          "engagement": 270,
+          "vistas": 70,
+          "video_views": 2713,
+          "video_view_time_horas": 15.5
+        },
+        {
+          "fecha": "2026-10-20",
+          "engagement": 219,
+          "vistas": 95,
+          "video_views": 1322,
+          "video_view_time_horas": 8.1
+        },
+        {
+          "fecha": "2026-10-21",
+          "engagement": 463,
+          "vistas": 145,
+          "video_views": 4861,
+          "video_view_time_horas": 26.2
+        },
+        {
+          "fecha": "2026-10-22",
+          "engagement": 266,
+          "vistas": 77,
+          "video_views": 2428,
+          "video_view_time_horas": 13.3
+        },
+        {
+          "fecha": "2026-10-23",
+          "engagement": 269,
+          "vistas": 63,
+          "video_views": 2524,
+          "video_view_time_horas": 14.6
+        },
+        {
+          "fecha": "2026-10-24",
+          "engagement": 321,
+          "vistas": 101,
+          "video_views": 2551,
+          "video_view_time_horas": 13.8
+        },
+        {
+          "fecha": "2026-10-25",
+          "engagement": 279,
+          "vistas": 84,
+          "video_views": 2342,
+          "video_view_time_horas": 12.9
+        },
+        {
+          "fecha": "2026-10-26",
+          "engagement": 308,
+          "vistas": 108,
+          "video_views": 2534,
+          "video_view_time_horas": 14.2,
+          "seguidores": 2387
+        },
+        {
+          "fecha": "2026-10-27",
+          "engagement": 28,
+          "vistas": 9,
+          "video_views": 164,
+          "video_view_time_horas": 0.9
+        }
+      ],
+      "instagram": null
+    },
+    "cuautla": {
+      "nombre": "Equilibrio Total Cuautla",
+      "id": "372206735965326",
+      "seguidores": 2344,
+      "categoria": "Medical & health",
+      "engagement_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 289
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 516
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 503
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 648
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 636
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 441
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 292
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 377
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 361
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 328
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 307
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 283
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 314
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 423
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 350
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 257
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 287
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 394
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 534
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 600
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 567
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 530
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 59
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 398
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 736
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 381
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 547
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 506
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 501
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 428
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 165
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 186
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 1155
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 1181
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 1279
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 874
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 288
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 932
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 1177
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 825
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 654
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 509
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 746
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 325
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 621
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 1007
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 620
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 407
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 557
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 705
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 609
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 509
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 736
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 459
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 522
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 315
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 1888
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 420
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 392
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 604
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 542
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 538
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 511
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 482
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 440
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 359
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 664
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 554
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 405
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 453
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 458
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 371
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 376
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 658
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 459
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 437
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 452
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 451
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 349
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 450
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 809
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 345
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 639
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 626
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 556
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 434
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 49
+        }
+      ],
+      "vistas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 72
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 108
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 151
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 115
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 157
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 118
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 76
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 121
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 108
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 155
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 89
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 69
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 98
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 116
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 88
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 75
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 89
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 130
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 165
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 191
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 130
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 106
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 34
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 90
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 150
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 73
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 123
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 129
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 86
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 78
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 24
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 13
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 51
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 263
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 227
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 235
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 189
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 64
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 13
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 162
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 219
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 173
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 148
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 133
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 147
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 106
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 147
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 189
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 158
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 109
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 113
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 95
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 145
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 127
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 61
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 139
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 65
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 108
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 69
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 89
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 88
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 145
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 146
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 120
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 106
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 193
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 85
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 84
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 98
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 78
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 101
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 93
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 141
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 105
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 112
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 81
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 119
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 100
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 74
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 168
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 51
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 132
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 120
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 76
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 87
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 9
+        }
+      ],
+      "video_views_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 4561
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 7026
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 7614
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 10071
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 8972
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 6625
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 3608
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 4903
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 4747
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 4524
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 5294
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 4848
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 4438
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 6848
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 6020
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 3401
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 4116
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 6587
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 8737
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 9525
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 9813
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 7944
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 1071
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 6135
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 11806
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 5662
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 8042
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 7673
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 6057
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 5699
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 2124
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 13
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2819
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 16840
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 16243
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 17870
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 11690
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 4176
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 48
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 13605
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 17780
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 13097
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 12233
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 8913
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 13033
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 4159
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 8331
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 15766
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 10101
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 6164
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 8558
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 11133
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 9322
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 7516
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 11300
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 5751
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 7011
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 4802
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 10412
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 7367
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 5024
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 10596
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 9806
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 9695
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 8738
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 9479
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 8090
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 6947
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 10152
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 8491
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 7169
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 7081
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 7409
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 6131
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 5237
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 9203
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 5512
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 5890
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 4918
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 5735
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 4039
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 4244
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 9379
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 3195
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 5676
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 6477
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 6049
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 4413
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 757
+        }
+      ],
+      "video_view_time_horas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 19.8
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 32.8
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 34.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 45.3
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 39.9
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 29.0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 18.1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 23.5
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 21.9
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 20.8
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 23.7
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 21.6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 20.1
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 31.5
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 27.8
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 16.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 18.7
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 29.3
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 39.0
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 42.9
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 43.3
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 36.0
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 4.8
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 25.8
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 50.0
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 25.6
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 35.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 32.5
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 26.9
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 24.9
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 8.8
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 12.2
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 72.8
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 72.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 79.5
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 53.8
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 20.3
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0.2
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 58.1
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 78.4
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 61.4
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 56.8
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 40.5
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 61.0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 19.1
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 38.5
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 72.6
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 48.4
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 28.5
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 39.4
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 50.8
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 43.1
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 35.4
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 51.1
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 27.3
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 32.2
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 21.9
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 48.1
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 34.3
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 23.4
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 48.3
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 45.8
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 43.5
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 38.6
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 42.7
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 37.4
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 30.7
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 44.0
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 38.6
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 32.1
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 33.0
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 33.8
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 28.1
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 23.7
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 42.9
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 26.9
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 27.6
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 24.4
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 29.7
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 20.4
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 21.5
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 48.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 16.9
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 29.4
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 29.9
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 27.1
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 20.5
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 3.4
+        }
+      ],
+      "calificacion": {
+        "rating": 1,
+        "rating_count": 0,
+        "talking_about": 375
+      },
+      "reacciones_tipo": {
+        "like": 1788,
+        "love": 31,
+        "wow": 4,
+        "haha": 2,
+        "sorry": 1,
+        "anger": 4
+      },
+      "mensajes": {
+        "conversaciones_28d": 41,
+        "mensajes_28d": 140,
+        "no_leidos": 6,
+        "no_leidos_24h": 0,
+        "no_leidos_mas_antiguo": "2026-09-30T15:12:24+0000",
+        "conversaciones_hoy": 1,
+        "serie_diaria": [
+          {
+            "fecha": "2026-09-30",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-01",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-02",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-03",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-04",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-05",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-06",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-08",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-10",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-11",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-13",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-14",
+            "valor": 11
+          },
+          {
+            "fecha": "2026-10-15",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-17",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-20",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-21",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-23",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-25",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-26",
+            "valor": 1
+          }
+        ],
+        "estado": "ok",
+        "actualizado": "2026-10-26 10:31"
+      },
+      "mejor_horario": {
+        "por_dia": [
+          {
+            "label": "Martes",
+            "posts": 6,
+            "engagement_prom": 413.5
+          },
+          {
+            "label": "Sábado",
+            "posts": 11,
+            "engagement_prom": 129.9
+          },
+          {
+            "label": "Miércoles",
+            "posts": 13,
+            "engagement_prom": 42.4
+          },
+          {
+            "label": "Viernes",
+            "posts": 9,
+            "engagement_prom": 21.6
+          },
+          {
+            "label": "Jueves",
+            "posts": 7,
+            "engagement_prom": 14.3
+          },
+          {
+            "label": "Lunes",
+            "posts": 5,
+            "engagement_prom": 12.4
+          },
+          {
+            "label": "Domingo",
+            "posts": 9,
+            "engagement_prom": 3.9
+          }
+        ],
+        "por_franja": [
+          {
+            "label": "Tarde (14-18h)",
+            "posts": 17,
+            "engagement_prom": 173.9
+          },
+          {
+            "label": "Mediodía (11-14h)",
+            "posts": 15,
+            "engagement_prom": 104.9
+          },
+          {
+            "label": "Noche tarde (21-24h)",
+            "posts": 4,
+            "engagement_prom": 35.5
+          },
+          {
+            "label": "Noche (18-21h)",
+            "posts": 22,
+            "engagement_prom": 8.2
+          },
+          {
+            "label": "Mañana (06-11h)",
+            "posts": 2,
+            "engagement_prom": 0.0
+          }
+        ]
+      },
+      "temas_contenido": [
+        {
+          "label": "Promoción / Precio",
+          "posts": 4,
+          "engagement_prom": 970.2
+        },
+        {
+          "label": "Dolor / Padecimiento",
+          "posts": 39,
+          "engagement_prom": 109.9
+        },
+        {
+          "label": "Otro / sin clasificar",
+          "posts": 17,
+          "engagement_prom": 31.8
+        },
+        {
+          "label": "Ubicación / Sucursal",
+          "posts": 3,
+          "engagement_prom": 30.0
+        },
+        {
+          "label": "Llamado a agendar",
+          "posts": 9,
+          "engagement_prom": 23.3
+        },
+        {
+          "label": "Educativo / Tips",
+          "posts": 5,
+          "engagement_prom": 6.0
+        },
+        {
+          "label": "Testimonio",
+          "posts": 1,
+          "engagement_prom": 4.0
+        }
+      ],
+      "frecuencia_publicacion": {
+        "dias_desde_ultima": 3,
+        "frecuencia_dias": 11.9,
+        "muestra": 60
+      },
+      "posts": [
+        {
+          "id": "372206735965326_122222474348369554",
+          "mensaje": "📍 Si eres de Cuautla, Morelos y llevas tiempo con molestias en rodillas o piernas, esta es tu invitación para venir a conocernos. 🤍 En Equilibrio Total Cuautla nuestros especialistas titulados te recibimos sin prisas y e",
+          "fecha": "2026-10-22T19:45:12+0000",
+          "url": "https://www.facebook.com/reel/1557152996169420/",
+          "reacciones": 77,
+          "comentarios": 2,
+          "shares": 2,
+          "clics": 537,
+          "video_views": 7896,
+          "comentarios_preview": [
+            {
+              "id": "122222474348369554_1602689508205878",
+              "mensaje": "Hola",
+              "fecha": "2026-10-25T17:28:41+0000"
+            },
+            {
+              "id": "122222474348369554_1040460325677349",
+              "mensaje": "No sé lo recomiendo, son charlatanes, dentro de sus terapias te ponen calor con un cigarro y me quemaron hasta hoy tengo la cicatriz, a veces por la desesperación uno no sabe dónde",
+              "fecha": "2026-10-25T22:18:14+0000"
+            }
+          ]
+        },
+        {
+          "id": "372206735965326_122221867094369554",
+          "mensaje": "¿Tu espalda ya te avisó que algo pasa? 😣 En el mes de la columna, especialistas titulados te esperan en Equilibrio Total Cuautla. De $1790 a solo $690, por tiempo limitado. Agenda por WhatsApp.",
+          "fecha": "2026-10-16T17:43:40+0000",
+          "url": "https://www.facebook.com/reel/1771178407447601/",
+          "reacciones": 148,
+          "comentarios": 7,
+          "shares": 2,
+          "clics": 2186,
+          "video_views": 18997,
+          "comentarios_preview": [
+            {
+              "id": "122221867094369554_1642350937903667",
+              "mensaje": "Donde se ubican",
+              "fecha": "2026-10-17T00:01:05+0000"
+            },
+            {
+              "id": "122221867094369554_1666828361723665",
+              "mensaje": "También hace plantillas",
+              "fecha": "2026-10-17T14:15:38+0000"
+            },
+            {
+              "id": "122221867094369554_1637617318034316",
+              "mensaje": "Gracias",
+              "fecha": "2026-10-22T17:08:32+0000"
+            },
+            {
+              "id": "122221867094369554_28408650158831726",
+              "mensaje": "Es mentira yo ya fui y nada que ver",
+              "fecha": "2026-10-22T19:07:05+0000"
+            },
+            {
+              "id": "122221867094369554_1256165640042468",
+              "mensaje": "El doctor Edgar te cobra 500 garantizado   rumbo a la Burgos",
+              "fecha": "2026-10-18T13:56:41+0000"
+            },
+            {
+              "id": "122221867094369554_2572881526458847",
+              "mensaje": "Puros topillos",
+              "fecha": "2026-10-18T03:48:59+0000"
+            },
+            {
+              "id": "122221867094369554_1101342732870960",
+              "mensaje": "No sirve, no saben",
+              "fecha": "2026-10-20T19:33:00+0000"
+            }
+          ]
+        },
+        {
+          "id": "372206735965326_122216933480369554",
+          "mensaje": "¿Te duele el hombro, la espalda o la rodilla? 😖\n\nUn fisioterapeuta certificado revisa tu caso hoy mismo.\n\nTrabajamos el dolor desde la raíz, no solo lo tapamos.\n\n📍 Ya estamos en Cuautla.\n💰 Solo $690, sin sorpresas.\n\nEscr",
+          "fecha": "2026-09-01T22:05:43+0000",
+          "url": "https://www.facebook.com/reel/914291621334583/",
+          "reacciones": 2273,
+          "comentarios": 60,
+          "shares": 68,
+          "clics": 10452,
+          "video_views": 217307,
+          "comentarios_preview": [
+            {
+              "id": "122216933480369554_1872060430823298",
+              "mensaje": "Buenas tardes dirección porfavor",
+              "fecha": "2026-10-14T19:13:45+0000"
+            },
+            {
+              "id": "122216933480369554_2458925914590163",
+              "mensaje": "Pasen contacto de la doctora 😶‍🌫️🤗",
+              "fecha": "2026-09-05T14:05:49+0000"
+            },
+            {
+              "id": "122216933480369554_2433511410390453",
+              "mensaje": "Ola cuántas secciones por 690 y me puedes mar por favor la dirección gracias",
+              "fecha": "2026-09-07T21:10:58+0000"
+            },
+            {
+              "id": "122216933480369554_1817817276322228",
+              "mensaje": "Informes",
+              "fecha": "2026-09-04T21:35:20+0000"
+            },
+            {
+              "id": "122216933480369554_1623538296011358",
+              "mensaje": "Yo",
+              "fecha": "2026-09-09T23:21:39+0000"
+            },
+            {
+              "id": "122216933480369554_1613313423513467",
+              "mensaje": "Dónde están ubicados y cuántas sesiones por los 690 pesos",
+              "fecha": "2026-09-03T16:34:05+0000"
+            },
+            {
+              "id": "122216933480369554_1083625917649799",
+              "mensaje": "dónde se ubican",
+              "fecha": "2026-09-07T22:59:25+0000"
+            },
+            {
+              "id": "122216933480369554_962492040217316",
+              "mensaje": "Ubicacion",
+              "fecha": "2026-09-04T18:49:29+0000"
+            },
+            {
+              "id": "122216933480369554_1792846055186958",
+              "mensaje": "Donde es",
+              "fecha": "2026-09-04T18:49:16+0000"
+            },
+            {
+              "id": "122216933480369554_1632339811575152",
+              "mensaje": "Una pregunta y si quiero solo un ajuste \nCon la quiropractica la Srita linda cuánto sería",
+              "fecha": "2026-09-03T22:22:48+0000"
+            }
+          ]
+        },
+        {
+          "id": "372206735965326_122215283948369554",
+          "mensaje": "Vivir con dolor no es normal. 🛑\nLicenciados en fisioterapia, acupuntura y quiroprácticos\nrealizarán tu prueba de postura.\nRecibe terapia física personalizada.\nTu evaluación física cuesta $690. 💳\nInicia tu tratamiento en ",
+          "fecha": "2026-08-15T18:11:04+0000",
+          "url": "https://www.facebook.com/reel/1572858984222278/",
+          "reacciones": 1240,
+          "comentarios": 31,
+          "shares": 52,
+          "clics": 8626,
+          "video_views": 171548,
+          "comentarios_preview": [
+            {
+              "id": "122215283948369554_1443414151037182",
+              "mensaje": "Donde andan",
+              "fecha": "2026-10-08T19:20:03+0000"
+            },
+            {
+              "id": "122215283948369554_28071453489213844",
+              "mensaje": "Imfo",
+              "fecha": "2026-09-08T20:58:27+0000"
+            },
+            {
+              "id": "122215283948369554_3580494412115083",
+              "mensaje": "Si necesito una terapia quiropráctica general, $$$?",
+              "fecha": "2026-09-05T06:54:59+0000"
+            },
+            {
+              "id": "122215283948369554_860478853698030",
+              "mensaje": "Hola  donde  se encuentra en cuautla",
+              "fecha": "2026-09-01T23:19:27+0000"
+            },
+            {
+              "id": "122215283948369554_1545803477231284",
+              "mensaje": "Cuánto vale la secion",
+              "fecha": "2026-08-24T15:01:05+0000"
+            },
+            {
+              "id": "122215283948369554_1421547093156557",
+              "mensaje": "Se puede para el nervio siatico, soy de 60",
+              "fecha": "2026-08-19T20:15:29+0000"
+            },
+            {
+              "id": "122215283948369554_1781112796566316",
+              "mensaje": "en qué parte de cuautla estan",
+              "fecha": "2026-08-19T01:59:33+0000"
+            },
+            {
+              "id": "122215283948369554_2070856107125840",
+              "mensaje": "En cuanto sale una sita",
+              "fecha": "2026-08-19T00:21:08+0000"
+            },
+            {
+              "id": "122215283948369554_1047103641274747",
+              "mensaje": "que  precio  tiene y donde  se huvican",
+              "fecha": "2026-08-29T21:26:33+0000"
+            },
+            {
+              "id": "122215283948369554_1402727035387645",
+              "mensaje": "Vallan con el doctor Edgar Mendes Pérez está  camino a la Burgos a un lado de Comex ahí les sale barato",
+              "fecha": "2026-10-02T22:24:27+0000"
+            }
+          ]
+        },
+        {
+          "id": "372206735965326_122199142016369554",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-20T16:17:34+0000",
+          "url": "https://www.facebook.com/122222850836369554/posts/122199142016369554?substory_index=1746740506317233",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_1967193757243060",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-20T16:17:25+0000",
+          "url": "https://www.facebook.com/122222850836369554/posts/1967193757243060?substory_index=1967193757243060",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_122204719034369554",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-02T18:36:56+0000",
+          "url": "https://www.facebook.com/122222850836369554/posts/122204719034369554?substory_index=1314823543863609",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 2,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_1629418774998902",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-02T18:35:40+0000",
+          "url": "https://www.facebook.com/122222850836369554/posts/1629418774998902?substory_index=1629418774998902",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_122201460866369554",
+          "mensaje": "Entrena mejor, no con más tensión. 💪\n\nMantén una postura natural, alinea tu columna y evita forzar la zona lumbar mientras entrenas.\n\nTu espalda te lo va a agradecer. 🙌\n\n🔥 Guarda este tip y síguenos para más consejos que",
+          "fecha": "2026-04-02T02:01:44+0000",
+          "url": "https://www.facebook.com/reel/1495677308739309/",
+          "reacciones": 3,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 2,
+          "video_views": 1053,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_122201456846369554",
+          "mensaje": "✨ Tu recuperación empieza escuchando a quienes ya lo lograron.\n\nEn Equilibrio Total hemos ayudado a muchas personas a recuperar su vida activa con nuestro enfoque integral. 🩺\n\nDesliza y conoce sus historias.\nTú también p",
+          "fecha": "2026-04-02T01:00:02+0000",
+          "url": "https://www.facebook.com/122222850836369554/posts/122201456846369554",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_122199252386369554",
+          "mensaje": "⚠️ ¿Dolor de hombro que no cede?\nEn Equilibrio Total vamos a la raíz del problema.\n\nTu consulta incluye:\n✅ Evaluación clínica y terapia.\n✅ Pruebas de movimiento.\n\n¡Agenda ahora y recupera tu movilidad! 👇\n\n#EquilibrioTota",
+          "fecha": "2026-03-31T20:30:01+0000",
+          "url": "https://www.facebook.com/122222850836369554/posts/122199252386369554",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_122200811072369554",
+          "mensaje": "El camino es complicado, pero con constancia el cerebro busca nuevas formas de conectar. ¡La meta no es la velocidad, es la constancia! ✨\n\nGuarda este video para recordarlo en los días difíciles💙.\n\n#EquilibrioTotal #vivi",
+          "fecha": "2026-03-31T01:00:19+0000",
+          "url": "https://www.facebook.com/reel/1487846839389509/",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 0,
+          "video_views": 813,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_122199230408369554",
+          "mensaje": "No es tu imaginación ni “que ya te estás haciendo viejo”…\nes tu cuerpo tratando de decirte algo importante.\n\n👉 Porque no duele por doler, duele porque hay una razón.\nY en Equilibrio Total no tapamos el dolor…\nlo entendem",
+          "fecha": "2026-03-30T01:00:25+0000",
+          "url": "https://www.facebook.com/reel/1413957263263658/",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 880,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_122199221480369554",
+          "mensaje": "Vivir con dolor no debería ser parte de tu día a día.\nRecuperar tu movimiento, tu confianza y tu bienestar sí es posible.\n\n👉 Escríbenos y empieza hoy tu proceso de rehabilitación.\n\n#EquilibrioTotal #dolordehombro #salud ",
+          "fecha": "2026-03-29T18:00:48+0000",
+          "url": "https://www.facebook.com/122222850836369554/posts/122199221480369554",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "372206735965326_122199131090369554",
+          "mensaje": "Tu hombro no solo levanta el brazo 💪\ntambién sostiene tu libertad de movimiento 🧠✨\n\nSi hoy duele, truena o ya no responde igual ⚠️\nno es algo normal… y sí puede tratarse 🦴💚\n\n📍 Estamos cerca de ti: +20 clínicas en Queréta",
+          "fecha": "2026-03-29T01:00:02+0000",
+          "url": "https://www.facebook.com/reel/905152082334685/",
+          "reacciones": 5,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 698,
+          "comentarios_preview": []
+        }
+      ],
+      "historial_seguidores": [
+        {
+          "fecha": "2026-07-30",
+          "engagement": 289,
+          "vistas": 72,
+          "video_views": 4561,
+          "video_view_time_horas": 19.8
+        },
+        {
+          "fecha": "2026-07-31",
+          "engagement": 516,
+          "vistas": 108,
+          "video_views": 7026,
+          "video_view_time_horas": 32.8
+        },
+        {
+          "fecha": "2026-08-01",
+          "engagement": 503,
+          "vistas": 151,
+          "video_views": 7614,
+          "video_view_time_horas": 34.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "engagement": 648,
+          "vistas": 115,
+          "video_views": 10071,
+          "video_view_time_horas": 45.3
+        },
+        {
+          "fecha": "2026-08-03",
+          "engagement": 636,
+          "vistas": 157,
+          "video_views": 8972,
+          "video_view_time_horas": 39.9
+        },
+        {
+          "fecha": "2026-08-04",
+          "engagement": 441,
+          "vistas": 118,
+          "video_views": 6625,
+          "video_view_time_horas": 29.0
+        },
+        {
+          "fecha": "2026-08-05",
+          "engagement": 292,
+          "vistas": 76,
+          "video_views": 3608,
+          "video_view_time_horas": 18.1
+        },
+        {
+          "fecha": "2026-08-06",
+          "engagement": 377,
+          "vistas": 121,
+          "video_views": 4903,
+          "video_view_time_horas": 23.5
+        },
+        {
+          "fecha": "2026-08-07",
+          "engagement": 361,
+          "vistas": 108,
+          "video_views": 4747,
+          "video_view_time_horas": 21.9
+        },
+        {
+          "fecha": "2026-08-08",
+          "engagement": 328,
+          "vistas": 155,
+          "video_views": 4524,
+          "video_view_time_horas": 20.8
+        },
+        {
+          "fecha": "2026-08-09",
+          "engagement": 307,
+          "vistas": 89,
+          "video_views": 5294,
+          "video_view_time_horas": 23.7
+        },
+        {
+          "fecha": "2026-08-10",
+          "engagement": 283,
+          "vistas": 69,
+          "video_views": 4848,
+          "video_view_time_horas": 21.6
+        },
+        {
+          "fecha": "2026-08-11",
+          "engagement": 314,
+          "vistas": 98,
+          "video_views": 4438,
+          "video_view_time_horas": 20.1
+        },
+        {
+          "fecha": "2026-08-12",
+          "engagement": 423,
+          "vistas": 116,
+          "video_views": 6848,
+          "video_view_time_horas": 31.5
+        },
+        {
+          "fecha": "2026-08-13",
+          "engagement": 350,
+          "vistas": 88,
+          "video_views": 6020,
+          "video_view_time_horas": 27.8
+        },
+        {
+          "fecha": "2026-08-14",
+          "engagement": 257,
+          "vistas": 75,
+          "video_views": 3401,
+          "video_view_time_horas": 16.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "engagement": 287,
+          "vistas": 89,
+          "video_views": 4116,
+          "video_view_time_horas": 18.7
+        },
+        {
+          "fecha": "2026-08-16",
+          "engagement": 394,
+          "vistas": 130,
+          "video_views": 6587,
+          "video_view_time_horas": 29.3
+        },
+        {
+          "fecha": "2026-08-17",
+          "engagement": 534,
+          "vistas": 165,
+          "video_views": 8737,
+          "video_view_time_horas": 39.0
+        },
+        {
+          "fecha": "2026-08-18",
+          "engagement": 600,
+          "vistas": 191,
+          "video_views": 9525,
+          "video_view_time_horas": 42.9
+        },
+        {
+          "fecha": "2026-08-19",
+          "engagement": 567,
+          "vistas": 130,
+          "video_views": 9813,
+          "video_view_time_horas": 43.3
+        },
+        {
+          "fecha": "2026-08-20",
+          "engagement": 530,
+          "vistas": 106,
+          "video_views": 7944,
+          "video_view_time_horas": 36.0
+        },
+        {
+          "fecha": "2026-08-21",
+          "engagement": 59,
+          "vistas": 34,
+          "video_views": 1071,
+          "video_view_time_horas": 4.8
+        },
+        {
+          "fecha": "2026-08-22",
+          "engagement": 398,
+          "vistas": 90,
+          "video_views": 6135,
+          "video_view_time_horas": 25.8
+        },
+        {
+          "fecha": "2026-08-23",
+          "engagement": 736,
+          "vistas": 150,
+          "video_views": 11806,
+          "video_view_time_horas": 50.0
+        },
+        {
+          "fecha": "2026-08-24",
+          "engagement": 381,
+          "vistas": 73,
+          "video_views": 5662,
+          "video_view_time_horas": 25.6
+        },
+        {
+          "fecha": "2026-08-25",
+          "engagement": 547,
+          "vistas": 123,
+          "video_views": 8042,
+          "video_view_time_horas": 35.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "engagement": 506,
+          "vistas": 129,
+          "video_views": 7673,
+          "video_view_time_horas": 32.5
+        },
+        {
+          "fecha": "2026-08-27",
+          "engagement": 501,
+          "vistas": 86,
+          "video_views": 6057,
+          "video_view_time_horas": 26.9
+        },
+        {
+          "fecha": "2026-08-28",
+          "engagement": 428,
+          "vistas": 78,
+          "video_views": 5699,
+          "video_view_time_horas": 24.9
+        },
+        {
+          "fecha": "2026-08-29",
+          "engagement": 165,
+          "vistas": 24,
+          "video_views": 2124,
+          "video_view_time_horas": 8.8
+        },
+        {
+          "fecha": "2026-08-30",
+          "engagement": 2,
+          "vistas": 13,
+          "video_views": 13,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-08-31",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 15,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-09-01",
+          "engagement": 186,
+          "vistas": 51,
+          "video_views": 2819,
+          "video_view_time_horas": 12.2
+        },
+        {
+          "fecha": "2026-09-02",
+          "engagement": 1155,
+          "vistas": 263,
+          "video_views": 16840,
+          "video_view_time_horas": 72.8
+        },
+        {
+          "fecha": "2026-09-03",
+          "engagement": 1181,
+          "vistas": 227,
+          "video_views": 16243,
+          "video_view_time_horas": 72.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "engagement": 1279,
+          "vistas": 235,
+          "video_views": 17870,
+          "video_view_time_horas": 79.5
+        },
+        {
+          "fecha": "2026-09-05",
+          "engagement": 874,
+          "vistas": 189,
+          "video_views": 11690,
+          "video_view_time_horas": 53.8
+        },
+        {
+          "fecha": "2026-09-06",
+          "engagement": 288,
+          "vistas": 64,
+          "video_views": 4176,
+          "video_view_time_horas": 20.3
+        },
+        {
+          "fecha": "2026-09-07",
+          "engagement": 3,
+          "vistas": 13,
+          "video_views": 48,
+          "video_view_time_horas": 0.2
+        },
+        {
+          "fecha": "2026-09-08",
+          "engagement": 932,
+          "vistas": 162,
+          "video_views": 13605,
+          "video_view_time_horas": 58.1
+        },
+        {
+          "fecha": "2026-09-09",
+          "engagement": 1177,
+          "vistas": 219,
+          "video_views": 17780,
+          "video_view_time_horas": 78.4
+        },
+        {
+          "fecha": "2026-09-10",
+          "engagement": 825,
+          "vistas": 173,
+          "video_views": 13097,
+          "video_view_time_horas": 61.4
+        },
+        {
+          "fecha": "2026-09-11",
+          "engagement": 654,
+          "vistas": 148,
+          "video_views": 12233,
+          "video_view_time_horas": 56.8
+        },
+        {
+          "fecha": "2026-09-12",
+          "engagement": 509,
+          "vistas": 133,
+          "video_views": 8913,
+          "video_view_time_horas": 40.5
+        },
+        {
+          "fecha": "2026-09-13",
+          "engagement": 746,
+          "vistas": 147,
+          "video_views": 13033,
+          "video_view_time_horas": 61.0
+        },
+        {
+          "fecha": "2026-09-14",
+          "engagement": 325,
+          "vistas": 106,
+          "video_views": 4159,
+          "video_view_time_horas": 19.1
+        },
+        {
+          "fecha": "2026-09-15",
+          "engagement": 621,
+          "vistas": 147,
+          "video_views": 8331,
+          "video_view_time_horas": 38.5
+        },
+        {
+          "fecha": "2026-09-16",
+          "engagement": 1007,
+          "vistas": 189,
+          "video_views": 15766,
+          "video_view_time_horas": 72.6
+        },
+        {
+          "fecha": "2026-09-17",
+          "engagement": 620,
+          "vistas": 158,
+          "video_views": 10101,
+          "video_view_time_horas": 48.4
+        },
+        {
+          "fecha": "2026-09-18",
+          "engagement": 407,
+          "vistas": 107,
+          "video_views": 6164,
+          "video_view_time_horas": 28.5
+        },
+        {
+          "fecha": "2026-09-19",
+          "engagement": 557,
+          "vistas": 109,
+          "video_views": 8558,
+          "video_view_time_horas": 39.4
+        },
+        {
+          "fecha": "2026-09-20",
+          "engagement": 705,
+          "vistas": 113,
+          "video_views": 11133,
+          "video_view_time_horas": 50.8
+        },
+        {
+          "fecha": "2026-09-21",
+          "engagement": 609,
+          "vistas": 95,
+          "video_views": 9322,
+          "video_view_time_horas": 43.1
+        },
+        {
+          "fecha": "2026-09-22",
+          "engagement": 509,
+          "vistas": 145,
+          "video_views": 7516,
+          "video_view_time_horas": 35.4
+        },
+        {
+          "fecha": "2026-09-23",
+          "engagement": 736,
+          "vistas": 127,
+          "video_views": 11300,
+          "video_view_time_horas": 51.1
+        },
+        {
+          "fecha": "2026-09-24",
+          "engagement": 459,
+          "vistas": 61,
+          "video_views": 5751,
+          "video_view_time_horas": 27.3
+        },
+        {
+          "fecha": "2026-09-25",
+          "engagement": 522,
+          "vistas": 139,
+          "video_views": 7011,
+          "video_view_time_horas": 32.2
+        },
+        {
+          "fecha": "2026-09-26",
+          "engagement": 315,
+          "vistas": 65,
+          "video_views": 4802,
+          "video_view_time_horas": 21.9
+        },
+        {
+          "fecha": "2026-09-27",
+          "engagement": 1888,
+          "vistas": 108,
+          "video_views": 10412,
+          "video_view_time_horas": 48.1
+        },
+        {
+          "fecha": "2026-09-28",
+          "engagement": 420,
+          "vistas": 69,
+          "video_views": 7367,
+          "video_view_time_horas": 34.3
+        },
+        {
+          "fecha": "2026-09-29",
+          "engagement": 392,
+          "vistas": 89,
+          "video_views": 5024,
+          "video_view_time_horas": 23.4
+        },
+        {
+          "fecha": "2026-09-30",
+          "engagement": 604,
+          "vistas": 88,
+          "video_views": 10596,
+          "video_view_time_horas": 48.3
+        },
+        {
+          "fecha": "2026-10-01",
+          "engagement": 542,
+          "vistas": 145,
+          "video_views": 9806,
+          "video_view_time_horas": 45.8
+        },
+        {
+          "fecha": "2026-10-02",
+          "engagement": 538,
+          "vistas": 107,
+          "video_views": 9695,
+          "video_view_time_horas": 43.5
+        },
+        {
+          "fecha": "2026-10-03",
+          "engagement": 511,
+          "vistas": 146,
+          "video_views": 8738,
+          "video_view_time_horas": 38.6
+        },
+        {
+          "fecha": "2026-10-04",
+          "engagement": 482,
+          "vistas": 107,
+          "video_views": 9479,
+          "video_view_time_horas": 42.7
+        },
+        {
+          "fecha": "2026-10-05",
+          "engagement": 440,
+          "vistas": 120,
+          "video_views": 8090,
+          "video_view_time_horas": 37.4
+        },
+        {
+          "fecha": "2026-10-06",
+          "engagement": 359,
+          "vistas": 106,
+          "video_views": 6947,
+          "video_view_time_horas": 30.7
+        },
+        {
+          "fecha": "2026-10-07",
+          "engagement": 664,
+          "vistas": 193,
+          "video_views": 10152,
+          "video_view_time_horas": 44.0
+        },
+        {
+          "fecha": "2026-10-08",
+          "engagement": 554,
+          "vistas": 85,
+          "video_views": 8491,
+          "video_view_time_horas": 38.6
+        },
+        {
+          "fecha": "2026-10-09",
+          "engagement": 405,
+          "vistas": 84,
+          "video_views": 7169,
+          "video_view_time_horas": 32.1
+        },
+        {
+          "fecha": "2026-10-10",
+          "engagement": 453,
+          "vistas": 98,
+          "video_views": 7081,
+          "video_view_time_horas": 33.0
+        },
+        {
+          "fecha": "2026-10-11",
+          "engagement": 458,
+          "vistas": 78,
+          "video_views": 7409,
+          "video_view_time_horas": 33.8
+        },
+        {
+          "fecha": "2026-10-12",
+          "engagement": 371,
+          "vistas": 101,
+          "video_views": 6131,
+          "video_view_time_horas": 28.1
+        },
+        {
+          "fecha": "2026-10-13",
+          "engagement": 376,
+          "vistas": 93,
+          "video_views": 5237,
+          "video_view_time_horas": 23.7
+        },
+        {
+          "fecha": "2026-10-14",
+          "engagement": 658,
+          "vistas": 141,
+          "video_views": 9203,
+          "video_view_time_horas": 42.9
+        },
+        {
+          "fecha": "2026-10-15",
+          "engagement": 459,
+          "vistas": 105,
+          "video_views": 5512,
+          "video_view_time_horas": 26.9
+        },
+        {
+          "fecha": "2026-10-16",
+          "engagement": 437,
+          "vistas": 112,
+          "video_views": 5890,
+          "video_view_time_horas": 27.6
+        },
+        {
+          "fecha": "2026-10-17",
+          "engagement": 452,
+          "vistas": 81,
+          "video_views": 4918,
+          "video_view_time_horas": 24.4
+        },
+        {
+          "fecha": "2026-10-18",
+          "engagement": 451,
+          "vistas": 119,
+          "video_views": 5735,
+          "video_view_time_horas": 29.7
+        },
+        {
+          "fecha": "2026-10-19",
+          "engagement": 349,
+          "vistas": 100,
+          "video_views": 4039,
+          "video_view_time_horas": 20.4
+        },
+        {
+          "fecha": "2026-10-20",
+          "engagement": 450,
+          "vistas": 74,
+          "video_views": 4244,
+          "video_view_time_horas": 21.5
+        },
+        {
+          "fecha": "2026-10-21",
+          "engagement": 809,
+          "vistas": 168,
+          "video_views": 9379,
+          "video_view_time_horas": 48.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "engagement": 345,
+          "vistas": 51,
+          "video_views": 3195,
+          "video_view_time_horas": 16.9
+        },
+        {
+          "fecha": "2026-10-23",
+          "engagement": 639,
+          "vistas": 132,
+          "video_views": 5676,
+          "video_view_time_horas": 29.4
+        },
+        {
+          "fecha": "2026-10-24",
+          "engagement": 626,
+          "vistas": 120,
+          "video_views": 6477,
+          "video_view_time_horas": 29.9
+        },
+        {
+          "fecha": "2026-10-25",
+          "engagement": 556,
+          "vistas": 76,
+          "video_views": 6049,
+          "video_view_time_horas": 27.1
+        },
+        {
+          "fecha": "2026-10-26",
+          "engagement": 434,
+          "vistas": 87,
+          "video_views": 4413,
+          "video_view_time_horas": 20.5,
+          "seguidores": 2344
+        },
+        {
+          "fecha": "2026-10-27",
+          "engagement": 49,
+          "vistas": 9,
+          "video_views": 757,
+          "video_view_time_horas": 3.4
+        }
+      ],
+      "instagram": null
+    },
+    "mexico": {
+      "nombre": "Equilibrio Total México",
+      "id": "1090445990823612",
+      "seguidores": 571,
+      "categoria": "Health/beauty",
+      "engagement_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 1079
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 663
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 414
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 383
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 515
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 450
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 395
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 535
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 453
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 378
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 431
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 563
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 488
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 1479
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 1368
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 1249
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 1017
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 1248
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 834
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 800
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 1276
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 981
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 766
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 676
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 1062
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 622
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 1247
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 1069
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 1285
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 1000
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 1878
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 980
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 172
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 208
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 195
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 443
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 867
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 735
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 795
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 851
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 921
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 709
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 521
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 624
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 426
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 439
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 447
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 602
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 779
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 571
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 450
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 862
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 417
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 502
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 830
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 624
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 455
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 523
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 759
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 903
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 799
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 574
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 1003
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 813
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 429
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 584
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 494
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 435
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 606
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 444
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 546
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 470
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 411
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 440
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 201
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 471
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 506
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 513
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 683
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 520
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 275
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 220
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 609
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 579
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 487
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 556
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 474
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 353
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 83
+        }
+      ],
+      "vistas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 273
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 217
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 136
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 75
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 117
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 115
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 121
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 184
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 137
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 130
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 122
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 184
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 164
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 448
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 387
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 244
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 292
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 252
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 180
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 172
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 290
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 206
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 230
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 165
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 192
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 154
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 218
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 159
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 212
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 217
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 313
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 192
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 69
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 67
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 67
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 116
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 137
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 211
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 202
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 112
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 190
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 128
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 103
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 126
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 140
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 87
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 129
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 184
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 184
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 190
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 136
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 183
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 119
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 115
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 160
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 100
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 129
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 100
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 113
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 199
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 184
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 142
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 252
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 220
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 31
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 105
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 155
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 157
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 136
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 144
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 142
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 148
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 117
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 95
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 52
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 110
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 155
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 146
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 108
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 111
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 54
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 36
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 77
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 214
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 165
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 140
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 163
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 76
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 39
+        }
+      ],
+      "video_views_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 13923
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 8806
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 4787
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 5309
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 5819
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 4892
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 5562
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 7978
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 6574
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 4855
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 8316
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 6705
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 5207
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 17785
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 18125
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 14499
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 11400
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 17186
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 12035
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 10661
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 17784
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 13159
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 10293
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 10238
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 14263
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 8643
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 17971
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 13690
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 15929
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 11335
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 20125
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 10945
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 1826
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2359
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 2620
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 4890
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 9484
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 7135
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 9960
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 8282
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 11904
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 8415
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 5765
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 7378
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 6427
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 6529
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 5575
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 6638
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 10109
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 8404
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 5585
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 11258
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 6024
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 6375
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 10252
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 7555
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 4485
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 5568
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 10373
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 12966
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 10784
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 6421
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 13456
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 10847
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 108
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 5038
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 6301
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 6238
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 5222
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 6804
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 5611
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 6195
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 5601
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 5616
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 4220
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 1772
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 5131
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 4358
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 4735
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 5461
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 5460
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 2960
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 2219
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 7359
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 6671
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 6155
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 7710
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 7015
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 4662
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 1136
+        }
+      ],
+      "video_view_time_horas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 67.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 41.9
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 23.9
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 26.4
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 28.6
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 24.5
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 27.3
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 37.2
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 31.5
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 22.6
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 38.8
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 33.7
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 24.2
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 85.3
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 88.9
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 62.7
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 49.1
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 72.3
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 53.0
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 45.8
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 71.9
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 54.9
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 44.0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 43.9
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 59.6
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 36.7
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 73.4
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 55.4
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 65.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 50.5
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 94.1
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 50.3
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 8.7
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 11.1
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 12.2
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 23.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 43.3
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 32.9
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 44.8
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 38.8
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 53.7
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 39.7
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 27.4
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 33.7
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 29.1
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 30.7
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 23.7
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 30.6
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 44.7
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 38.6
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 25.6
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 50.2
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 28.3
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 31.1
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 45.3
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 34.9
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 21.6
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 25.9
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 46.3
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 57.5
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 49.9
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 30.4
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 59.6
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 48.8
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 0.6
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 23.7
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 31.5
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 30.2
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 26.4
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 32.7
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 27.2
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 31.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 27.1
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 26.5
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 22.0
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 9.0
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 26.3
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 24.0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 25.1
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 27.9
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 28.0
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 14.2
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 12.2
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 38.5
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 35.7
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 32.6
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 38.2
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 35.0
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 22.2
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 7.3
+        }
+      ],
+      "calificacion": {
+        "rating": 0,
+        "rating_count": 0,
+        "talking_about": 564
+      },
+      "reacciones_tipo": {
+        "like": 1902,
+        "love": 39,
+        "wow": 3,
+        "haha": 6,
+        "sorry": 2,
+        "anger": 2
+      },
+      "mensajes": {
+        "conversaciones_28d": 15,
+        "mensajes_28d": 34,
+        "no_leidos": 1,
+        "no_leidos_24h": 0,
+        "no_leidos_mas_antiguo": "2026-10-24T22:43:45+0000",
+        "conversaciones_hoy": 0,
+        "serie_diaria": [
+          {
+            "fecha": "2026-10-01",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-04",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-16",
+            "valor": 5
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-21",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-23",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-24",
+            "valor": 4
+          }
+        ],
+        "estado": "ok",
+        "actualizado": "2026-10-26 10:32"
+      },
+      "mejor_horario": {
+        "por_dia": [
+          {
+            "label": "Martes",
+            "posts": 1,
+            "engagement_prom": 3346.0
+          },
+          {
+            "label": "Lunes",
+            "posts": 1,
+            "engagement_prom": 41.0
+          },
+          {
+            "label": "Jueves",
+            "posts": 2,
+            "engagement_prom": 36.0
+          },
+          {
+            "label": "Viernes",
+            "posts": 1,
+            "engagement_prom": 3.0
+          },
+          {
+            "label": "Miércoles",
+            "posts": 1,
+            "engagement_prom": 2.0
+          }
+        ],
+        "por_franja": [
+          {
+            "label": "Tarde (14-18h)",
+            "posts": 3,
+            "engagement_prom": 1140.0
+          },
+          {
+            "label": "Mediodía (11-14h)",
+            "posts": 2,
+            "engagement_prom": 20.5
+          },
+          {
+            "label": "Mañana (06-11h)",
+            "posts": 1,
+            "engagement_prom": 3.0
+          }
+        ]
+      },
+      "temas_contenido": [
+        {
+          "label": "Ubicación / Sucursal",
+          "posts": 1,
+          "engagement_prom": 3346.0
+        },
+        {
+          "label": "Llamado a agendar",
+          "posts": 2,
+          "engagement_prom": 1693.5
+        },
+        {
+          "label": "Dolor / Padecimiento",
+          "posts": 4,
+          "engagement_prom": 855.2
+        },
+        {
+          "label": "Promoción / Precio",
+          "posts": 1,
+          "engagement_prom": 41.0
+        },
+        {
+          "label": "Otro / sin clasificar",
+          "posts": 1,
+          "engagement_prom": 2.0
+        },
+        {
+          "label": "Educativo / Tips",
+          "posts": 1,
+          "engagement_prom": 0.0
+        }
+      ],
+      "frecuencia_publicacion": {
+        "dias_desde_ultima": 3,
+        "frecuencia_dias": 29.6,
+        "muestra": 6
+      },
+      "posts": [
+        {
+          "id": "1090445990823612_122122047777335379",
+          "mensaje": "📍 Receta para empezar bien esta temporada, Cuautitlán Izcalli: una primera sesión con revisión, terapia manual, ajuste quiropráctico si hace falta y un plan para tu espalda y cuello. 🍞💀 Los ingredientes los ponemos nosot",
+          "fecha": "2026-10-22T21:28:44+0000",
+          "url": "https://www.facebook.com/reel/1571746841420593/",
+          "reacciones": 71,
+          "comentarios": 1,
+          "shares": 0,
+          "clics": 150,
+          "video_views": 5160,
+          "comentarios_preview": [
+            {
+              "id": "122122047777335379_1661244845635501",
+              "mensaje": "Me podrían mandar la ubicación por favor gracias",
+              "fecha": "2026-10-26T03:21:25+0000"
+            }
+          ]
+        },
+        {
+          "id": "1090445990823612_122122039953335379",
+          "mensaje": "📍 ¿Cómo es tu primera sesión en Equilibrio Total Querétaro? Platicamos contigo sobre lo que sientes, revisamos tu espalda y empezamos con terapia manual, electroterapia o ajuste quiropráctico, según lo que necesites. 💆‍♀",
+          "fecha": "2026-10-22T19:41:28+0000",
+          "url": "https://www.facebook.com/reel/2372646276600743/",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 15,
+          "comentarios_preview": []
+        },
+        {
+          "id": "1090445990823612_122121740769335379",
+          "mensaje": "📍 Cuautitlán Izcalli 🔥 Tu primera sesión pasa de $1790 a solo $690, por tiempo limitado. 💰 Incluye revisión con especialistas y terapia física personalizada en Equilibrio Total Cuautitlán Izcalli. 🙌 Agenda hoy por WhatsA",
+          "fecha": "2026-10-19T17:48:39+0000",
+          "url": "https://www.facebook.com/reel/1084817747886485/",
+          "reacciones": 39,
+          "comentarios": 1,
+          "shares": 1,
+          "clics": 408,
+          "video_views": 4043,
+          "comentarios_preview": [
+            {
+              "id": "122121740769335379_1744001980015620",
+              "mensaje": "Hola si hacen valoración de rodilla...por desgaste de cartílago ?",
+              "fecha": "2026-10-24T01:42:37+0000"
+            }
+          ]
+        },
+        {
+          "id": "1090445990823612_122113471743335379",
+          "mensaje": "Si eres de la zona Cuautitlán Izcalli, 📍\n¿Te duele el hombro, la rodilla o sufres de neuropatía? 🛑\nEquilibrio Total está para ayudarte. 🤝\nAgenda tu evaluación física con expertos. 📋\nInicia tu tratamiento en la clínica.\nR",
+          "fecha": "2026-08-11T22:24:37+0000",
+          "url": "https://www.facebook.com/reel/2137675453852691/",
+          "reacciones": 3094,
+          "comentarios": 100,
+          "shares": 152,
+          "clics": 18758,
+          "video_views": 334800,
+          "comentarios_preview": [
+            {
+              "id": "122113471743335379_3366152803582783",
+              "mensaje": "Cuanto esta el costo del estacionamiento?",
+              "fecha": "2026-08-17T14:44:41+0000"
+            },
+            {
+              "id": "122113471743335379_1766205198128542",
+              "mensaje": "Buenas tardes ,días y horario de trabajo por favor?",
+              "fecha": "2026-08-16T19:13:07+0000"
+            },
+            {
+              "id": "122113471743335379_1672037423884278",
+              "mensaje": "Cuál es el costo de los horarios?",
+              "fecha": "2026-08-16T15:28:13+0000"
+            },
+            {
+              "id": "122113471743335379_1424665122865692",
+              "mensaje": "Buenas tardes cuánto es la consulta",
+              "fecha": "2026-08-15T20:37:30+0000"
+            },
+            {
+              "id": "122113471743335379_1603001321326499",
+              "mensaje": "Buen día , dan información x este medio?",
+              "fecha": "2026-08-13T15:40:21+0000"
+            },
+            {
+              "id": "122113471743335379_1345516661106303",
+              "mensaje": "Hola buenos días ya es bien el mensaje que están en Cuautitlán Izcalli disculpe si yo vivo en avenida Taxqueña y Tláhuac por este rumbo hay clínicas de equilibrio total o por el ru",
+              "fecha": "2026-08-13T15:32:21+0000"
+            },
+            {
+              "id": "122113471743335379_1071858735792932",
+              "mensaje": "Son fisioterapeuta",
+              "fecha": "2026-08-13T04:08:49+0000"
+            },
+            {
+              "id": "122113471743335379_1373979417433855",
+              "mensaje": "es la que está enfrente de sodimac.",
+              "fecha": "2026-08-13T00:46:10+0000"
+            },
+            {
+              "id": "122113471743335379_1367586168198517",
+              "mensaje": "Precio",
+              "fecha": "2026-08-12T23:15:39+0000"
+            },
+            {
+              "id": "122113471743335379_1280620827350811",
+              "mensaje": "Encantó esta la consulta?",
+              "fecha": "2026-08-12T19:49:54+0000"
+            }
+          ]
+        },
+        {
+          "id": "1090445990823612_122102328693335379",
+          "mensaje": "¿Un chasquido o molestia al bajar las escaleras? 😣🩹 El dolor de rodilla no es normal y postergarlo solo empeora el desgaste.\n\nEn Equilibrio Total México te ayudamos a recuperar tu movilidad y volver a moverte sin miedo n",
+          "fecha": "2026-05-29T16:33:20+0000",
+          "url": "https://www.facebook.com/122122446681335379/posts/122102328693335379",
+          "reacciones": 2,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 9,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "1090445990823612_122101509549335379",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-27T20:18:36+0000",
+          "url": "https://www.facebook.com/122122446681335379/posts/122101509549335379?substory_index=988298943575733",
+          "reacciones": 1,
+          "comentarios": 1,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "122101509549335379_1101477072605104",
+              "mensaje": "Para agendar cita en Cuautitlán Izcalli?",
+              "fecha": "2026-10-04T21:49:48+0000"
+            }
+          ]
+        }
+      ],
+      "historial_seguidores": [
+        {
+          "fecha": "2026-07-30",
+          "engagement": 1079,
+          "vistas": 273,
+          "video_views": 13923,
+          "video_view_time_horas": 67.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "engagement": 663,
+          "vistas": 217,
+          "video_views": 8806,
+          "video_view_time_horas": 41.9
+        },
+        {
+          "fecha": "2026-08-01",
+          "engagement": 414,
+          "vistas": 136,
+          "video_views": 4787,
+          "video_view_time_horas": 23.9
+        },
+        {
+          "fecha": "2026-08-02",
+          "engagement": 383,
+          "vistas": 75,
+          "video_views": 5309,
+          "video_view_time_horas": 26.4
+        },
+        {
+          "fecha": "2026-08-03",
+          "engagement": 515,
+          "vistas": 117,
+          "video_views": 5819,
+          "video_view_time_horas": 28.6
+        },
+        {
+          "fecha": "2026-08-04",
+          "engagement": 450,
+          "vistas": 115,
+          "video_views": 4892,
+          "video_view_time_horas": 24.5
+        },
+        {
+          "fecha": "2026-08-05",
+          "engagement": 395,
+          "vistas": 121,
+          "video_views": 5562,
+          "video_view_time_horas": 27.3
+        },
+        {
+          "fecha": "2026-08-06",
+          "engagement": 535,
+          "vistas": 184,
+          "video_views": 7978,
+          "video_view_time_horas": 37.2
+        },
+        {
+          "fecha": "2026-08-07",
+          "engagement": 453,
+          "vistas": 137,
+          "video_views": 6574,
+          "video_view_time_horas": 31.5
+        },
+        {
+          "fecha": "2026-08-08",
+          "engagement": 378,
+          "vistas": 130,
+          "video_views": 4855,
+          "video_view_time_horas": 22.6
+        },
+        {
+          "fecha": "2026-08-09",
+          "engagement": 431,
+          "vistas": 122,
+          "video_views": 8316,
+          "video_view_time_horas": 38.8
+        },
+        {
+          "fecha": "2026-08-10",
+          "engagement": 563,
+          "vistas": 184,
+          "video_views": 6705,
+          "video_view_time_horas": 33.7
+        },
+        {
+          "fecha": "2026-08-11",
+          "engagement": 488,
+          "vistas": 164,
+          "video_views": 5207,
+          "video_view_time_horas": 24.2
+        },
+        {
+          "fecha": "2026-08-12",
+          "engagement": 1479,
+          "vistas": 448,
+          "video_views": 17785,
+          "video_view_time_horas": 85.3
+        },
+        {
+          "fecha": "2026-08-13",
+          "engagement": 1368,
+          "vistas": 387,
+          "video_views": 18125,
+          "video_view_time_horas": 88.9
+        },
+        {
+          "fecha": "2026-08-14",
+          "engagement": 1249,
+          "vistas": 244,
+          "video_views": 14499,
+          "video_view_time_horas": 62.7
+        },
+        {
+          "fecha": "2026-08-15",
+          "engagement": 1017,
+          "vistas": 292,
+          "video_views": 11400,
+          "video_view_time_horas": 49.1
+        },
+        {
+          "fecha": "2026-08-16",
+          "engagement": 1248,
+          "vistas": 252,
+          "video_views": 17186,
+          "video_view_time_horas": 72.3
+        },
+        {
+          "fecha": "2026-08-17",
+          "engagement": 834,
+          "vistas": 180,
+          "video_views": 12035,
+          "video_view_time_horas": 53.0
+        },
+        {
+          "fecha": "2026-08-18",
+          "engagement": 800,
+          "vistas": 172,
+          "video_views": 10661,
+          "video_view_time_horas": 45.8
+        },
+        {
+          "fecha": "2026-08-19",
+          "engagement": 1276,
+          "vistas": 290,
+          "video_views": 17784,
+          "video_view_time_horas": 71.9
+        },
+        {
+          "fecha": "2026-08-20",
+          "engagement": 981,
+          "vistas": 206,
+          "video_views": 13159,
+          "video_view_time_horas": 54.9
+        },
+        {
+          "fecha": "2026-08-21",
+          "engagement": 766,
+          "vistas": 230,
+          "video_views": 10293,
+          "video_view_time_horas": 44.0
+        },
+        {
+          "fecha": "2026-08-22",
+          "engagement": 676,
+          "vistas": 165,
+          "video_views": 10238,
+          "video_view_time_horas": 43.9
+        },
+        {
+          "fecha": "2026-08-23",
+          "engagement": 1062,
+          "vistas": 192,
+          "video_views": 14263,
+          "video_view_time_horas": 59.6
+        },
+        {
+          "fecha": "2026-08-24",
+          "engagement": 622,
+          "vistas": 154,
+          "video_views": 8643,
+          "video_view_time_horas": 36.7
+        },
+        {
+          "fecha": "2026-08-25",
+          "engagement": 1247,
+          "vistas": 218,
+          "video_views": 17971,
+          "video_view_time_horas": 73.4
+        },
+        {
+          "fecha": "2026-08-26",
+          "engagement": 1069,
+          "vistas": 159,
+          "video_views": 13690,
+          "video_view_time_horas": 55.4
+        },
+        {
+          "fecha": "2026-08-27",
+          "engagement": 1285,
+          "vistas": 212,
+          "video_views": 15929,
+          "video_view_time_horas": 65.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "engagement": 1000,
+          "vistas": 217,
+          "video_views": 11335,
+          "video_view_time_horas": 50.5
+        },
+        {
+          "fecha": "2026-08-29",
+          "engagement": 1878,
+          "vistas": 313,
+          "video_views": 20125,
+          "video_view_time_horas": 94.1
+        },
+        {
+          "fecha": "2026-08-30",
+          "engagement": 980,
+          "vistas": 192,
+          "video_views": 10945,
+          "video_view_time_horas": 50.3
+        },
+        {
+          "fecha": "2026-08-31",
+          "engagement": 172,
+          "vistas": 69,
+          "video_views": 1826,
+          "video_view_time_horas": 8.7
+        },
+        {
+          "fecha": "2026-09-01",
+          "engagement": 208,
+          "vistas": 67,
+          "video_views": 2359,
+          "video_view_time_horas": 11.1
+        },
+        {
+          "fecha": "2026-09-02",
+          "engagement": 195,
+          "vistas": 67,
+          "video_views": 2620,
+          "video_view_time_horas": 12.2
+        },
+        {
+          "fecha": "2026-09-03",
+          "engagement": 443,
+          "vistas": 116,
+          "video_views": 4890,
+          "video_view_time_horas": 23.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "engagement": 867,
+          "vistas": 137,
+          "video_views": 9484,
+          "video_view_time_horas": 43.3
+        },
+        {
+          "fecha": "2026-09-05",
+          "engagement": 735,
+          "vistas": 211,
+          "video_views": 7135,
+          "video_view_time_horas": 32.9
+        },
+        {
+          "fecha": "2026-09-06",
+          "engagement": 795,
+          "vistas": 202,
+          "video_views": 9960,
+          "video_view_time_horas": 44.8
+        },
+        {
+          "fecha": "2026-09-07",
+          "engagement": 851,
+          "vistas": 112,
+          "video_views": 8282,
+          "video_view_time_horas": 38.8
+        },
+        {
+          "fecha": "2026-09-08",
+          "engagement": 921,
+          "vistas": 190,
+          "video_views": 11904,
+          "video_view_time_horas": 53.7
+        },
+        {
+          "fecha": "2026-09-09",
+          "engagement": 709,
+          "vistas": 128,
+          "video_views": 8415,
+          "video_view_time_horas": 39.7
+        },
+        {
+          "fecha": "2026-09-10",
+          "engagement": 521,
+          "vistas": 103,
+          "video_views": 5765,
+          "video_view_time_horas": 27.4
+        },
+        {
+          "fecha": "2026-09-11",
+          "engagement": 624,
+          "vistas": 126,
+          "video_views": 7378,
+          "video_view_time_horas": 33.7
+        },
+        {
+          "fecha": "2026-09-12",
+          "engagement": 426,
+          "vistas": 140,
+          "video_views": 6427,
+          "video_view_time_horas": 29.1
+        },
+        {
+          "fecha": "2026-09-13",
+          "engagement": 439,
+          "vistas": 87,
+          "video_views": 6529,
+          "video_view_time_horas": 30.7
+        },
+        {
+          "fecha": "2026-09-14",
+          "engagement": 447,
+          "vistas": 129,
+          "video_views": 5575,
+          "video_view_time_horas": 23.7
+        },
+        {
+          "fecha": "2026-09-15",
+          "engagement": 602,
+          "vistas": 184,
+          "video_views": 6638,
+          "video_view_time_horas": 30.6
+        },
+        {
+          "fecha": "2026-09-16",
+          "engagement": 779,
+          "vistas": 184,
+          "video_views": 10109,
+          "video_view_time_horas": 44.7
+        },
+        {
+          "fecha": "2026-09-17",
+          "engagement": 571,
+          "vistas": 190,
+          "video_views": 8404,
+          "video_view_time_horas": 38.6
+        },
+        {
+          "fecha": "2026-09-18",
+          "engagement": 450,
+          "vistas": 136,
+          "video_views": 5585,
+          "video_view_time_horas": 25.6
+        },
+        {
+          "fecha": "2026-09-19",
+          "engagement": 862,
+          "vistas": 183,
+          "video_views": 11258,
+          "video_view_time_horas": 50.2
+        },
+        {
+          "fecha": "2026-09-20",
+          "engagement": 417,
+          "vistas": 119,
+          "video_views": 6024,
+          "video_view_time_horas": 28.3
+        },
+        {
+          "fecha": "2026-09-21",
+          "engagement": 502,
+          "vistas": 115,
+          "video_views": 6375,
+          "video_view_time_horas": 31.1
+        },
+        {
+          "fecha": "2026-09-22",
+          "engagement": 830,
+          "vistas": 160,
+          "video_views": 10252,
+          "video_view_time_horas": 45.3
+        },
+        {
+          "fecha": "2026-09-23",
+          "engagement": 624,
+          "vistas": 100,
+          "video_views": 7555,
+          "video_view_time_horas": 34.9
+        },
+        {
+          "fecha": "2026-09-24",
+          "engagement": 455,
+          "vistas": 129,
+          "video_views": 4485,
+          "video_view_time_horas": 21.6
+        },
+        {
+          "fecha": "2026-09-25",
+          "engagement": 523,
+          "vistas": 100,
+          "video_views": 5568,
+          "video_view_time_horas": 25.9
+        },
+        {
+          "fecha": "2026-09-26",
+          "engagement": 759,
+          "vistas": 113,
+          "video_views": 10373,
+          "video_view_time_horas": 46.3
+        },
+        {
+          "fecha": "2026-09-27",
+          "engagement": 903,
+          "vistas": 199,
+          "video_views": 12966,
+          "video_view_time_horas": 57.5
+        },
+        {
+          "fecha": "2026-09-28",
+          "engagement": 799,
+          "vistas": 184,
+          "video_views": 10784,
+          "video_view_time_horas": 49.9
+        },
+        {
+          "fecha": "2026-09-29",
+          "engagement": 574,
+          "vistas": 142,
+          "video_views": 6421,
+          "video_view_time_horas": 30.4
+        },
+        {
+          "fecha": "2026-09-30",
+          "engagement": 1003,
+          "vistas": 252,
+          "video_views": 13456,
+          "video_view_time_horas": 59.6
+        },
+        {
+          "fecha": "2026-10-01",
+          "engagement": 813,
+          "vistas": 220,
+          "video_views": 10847,
+          "video_view_time_horas": 48.8
+        },
+        {
+          "fecha": "2026-10-02",
+          "engagement": 8,
+          "vistas": 31,
+          "video_views": 108,
+          "video_view_time_horas": 0.6
+        },
+        {
+          "fecha": "2026-10-03",
+          "engagement": 429,
+          "vistas": 105,
+          "video_views": 5038,
+          "video_view_time_horas": 23.7
+        },
+        {
+          "fecha": "2026-10-04",
+          "engagement": 584,
+          "vistas": 155,
+          "video_views": 6301,
+          "video_view_time_horas": 31.5
+        },
+        {
+          "fecha": "2026-10-05",
+          "engagement": 494,
+          "vistas": 157,
+          "video_views": 6238,
+          "video_view_time_horas": 30.2
+        },
+        {
+          "fecha": "2026-10-06",
+          "engagement": 435,
+          "vistas": 136,
+          "video_views": 5222,
+          "video_view_time_horas": 26.4
+        },
+        {
+          "fecha": "2026-10-07",
+          "engagement": 606,
+          "vistas": 144,
+          "video_views": 6804,
+          "video_view_time_horas": 32.7
+        },
+        {
+          "fecha": "2026-10-08",
+          "engagement": 444,
+          "vistas": 142,
+          "video_views": 5611,
+          "video_view_time_horas": 27.2
+        },
+        {
+          "fecha": "2026-10-09",
+          "engagement": 546,
+          "vistas": 148,
+          "video_views": 6195,
+          "video_view_time_horas": 31.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "engagement": 470,
+          "vistas": 117,
+          "video_views": 5601,
+          "video_view_time_horas": 27.1
+        },
+        {
+          "fecha": "2026-10-11",
+          "engagement": 411,
+          "vistas": 107,
+          "video_views": 5616,
+          "video_view_time_horas": 26.5
+        },
+        {
+          "fecha": "2026-10-12",
+          "engagement": 440,
+          "vistas": 95,
+          "video_views": 4220,
+          "video_view_time_horas": 22.0
+        },
+        {
+          "fecha": "2026-10-13",
+          "engagement": 201,
+          "vistas": 52,
+          "video_views": 1772,
+          "video_view_time_horas": 9.0
+        },
+        {
+          "fecha": "2026-10-14",
+          "engagement": 471,
+          "vistas": 110,
+          "video_views": 5131,
+          "video_view_time_horas": 26.3
+        },
+        {
+          "fecha": "2026-10-15",
+          "engagement": 506,
+          "vistas": 155,
+          "video_views": 4358,
+          "video_view_time_horas": 24.0
+        },
+        {
+          "fecha": "2026-10-16",
+          "engagement": 513,
+          "vistas": 146,
+          "video_views": 4735,
+          "video_view_time_horas": 25.1
+        },
+        {
+          "fecha": "2026-10-17",
+          "engagement": 683,
+          "vistas": 108,
+          "video_views": 5461,
+          "video_view_time_horas": 27.9
+        },
+        {
+          "fecha": "2026-10-18",
+          "engagement": 520,
+          "vistas": 111,
+          "video_views": 5460,
+          "video_view_time_horas": 28.0
+        },
+        {
+          "fecha": "2026-10-19",
+          "engagement": 275,
+          "vistas": 54,
+          "video_views": 2960,
+          "video_view_time_horas": 14.2
+        },
+        {
+          "fecha": "2026-10-20",
+          "engagement": 220,
+          "vistas": 36,
+          "video_views": 2219,
+          "video_view_time_horas": 12.2
+        },
+        {
+          "fecha": "2026-10-21",
+          "engagement": 609,
+          "vistas": 77,
+          "video_views": 7359,
+          "video_view_time_horas": 38.5
+        },
+        {
+          "fecha": "2026-10-22",
+          "engagement": 579,
+          "vistas": 214,
+          "video_views": 6671,
+          "video_view_time_horas": 35.7
+        },
+        {
+          "fecha": "2026-10-23",
+          "engagement": 487,
+          "vistas": 165,
+          "video_views": 6155,
+          "video_view_time_horas": 32.6
+        },
+        {
+          "fecha": "2026-10-24",
+          "engagement": 556,
+          "vistas": 140,
+          "video_views": 7710,
+          "video_view_time_horas": 38.2
+        },
+        {
+          "fecha": "2026-10-25",
+          "engagement": 474,
+          "vistas": 163,
+          "video_views": 7015,
+          "video_view_time_horas": 35.0
+        },
+        {
+          "fecha": "2026-10-26",
+          "engagement": 353,
+          "vistas": 76,
+          "video_views": 4662,
+          "video_view_time_horas": 22.2,
+          "seguidores": 571
+        },
+        {
+          "fecha": "2026-10-27",
+          "engagement": 83,
+          "vistas": 39,
+          "video_views": 1136,
+          "video_view_time_horas": 7.3
+        }
+      ],
+      "instagram": null
+    },
+    "reclutamiento": {
+      "nombre": "Reclutamiento Equilibrio Total",
+      "id": "180328660730418",
+      "seguidores": 804,
+      "categoria": "Chiropractor",
+      "engagement_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 55
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 10
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 128
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 65
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 357
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 271
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 148
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 136
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 99
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 123
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 124
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 114
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 91
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 82
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 103
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 81
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 14
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 235
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 28
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 223
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 228
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 308
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 590
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 346
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 366
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 178
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 100
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 101
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 124
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 19
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 92
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 94
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 192
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 104
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 92
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 109
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 104
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 274
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 246
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 243
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 17
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 368
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 438
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 484
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 346
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 362
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 352
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 164
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 191
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 274
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 230
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 291
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 279
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 292
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 114
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 237
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 365
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 332
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 199
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 144
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 151
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 81
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 205
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 294
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 167
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 260
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 303
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 368
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 207
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 275
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 305
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 207
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 233
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 219
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 179
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 168
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 34
+        }
+      ],
+      "vistas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 48
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 38
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 34
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 19
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 18
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 52
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 230
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 135
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 61
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 63
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 30
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 71
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 94
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 106
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 40
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 54
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 68
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 40
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 27
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 123
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 47
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 16
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 56
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 24
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 134
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 89
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 98
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 212
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 156
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 103
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 64
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 59
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 58
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 51
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 16
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 13
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 67
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 82
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 90
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 85
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 66
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 34
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 50
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 20
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 178
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 107
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 103
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 38
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 172
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 219
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 156
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 138
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 103
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 138
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 40
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 76
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 122
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 79
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 91
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 99
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 99
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 28
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 94
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 102
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 81
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 65
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 61
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 38
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 10
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 81
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 162
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 46
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 101
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 139
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 101
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 25
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 69
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 83
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 54
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 54
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 72
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 70
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 65
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 7
+        }
+      ],
+      "video_views_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 7
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 7
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 11
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 10
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 10
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 14
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 10
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 10
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 11
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 13
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 24
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 7
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 16
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 5
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 7
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 4
+        }
+      ],
+      "video_view_time_horas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 0.1
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 0.0
+        }
+      ],
+      "calificacion": {
+        "rating": 5,
+        "rating_count": 0,
+        "talking_about": 90
+      },
+      "reacciones_tipo": {
+        "like": 232,
+        "love": 5,
+        "wow": 1,
+        "haha": 44,
+        "anger": 4
+      },
+      "mensajes": {
+        "conversaciones_28d": 42,
+        "mensajes_28d": 181,
+        "no_leidos": 7,
+        "no_leidos_24h": 1,
+        "no_leidos_mas_antiguo": "2026-10-15T21:07:24+0000",
+        "conversaciones_hoy": 1,
+        "serie_diaria": [
+          {
+            "fecha": "2026-09-28",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-09-29",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-01",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-02",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-03",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-06",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-07",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-08",
+            "valor": 5
+          },
+          {
+            "fecha": "2026-10-11",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-13",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-15",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-16",
+            "valor": 1
+          },
+          {
+            "fecha": "2026-10-17",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor": 7
+          },
+          {
+            "fecha": "2026-10-20",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-22",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-23",
+            "valor": 3
+          },
+          {
+            "fecha": "2026-10-24",
+            "valor": 2
+          },
+          {
+            "fecha": "2026-10-26",
+            "valor": 1
+          }
+        ],
+        "estado": "ok",
+        "actualizado": "2026-10-26 10:32"
+      },
+      "mejor_horario": {
+        "por_dia": [
+          {
+            "label": "Jueves",
+            "posts": 7,
+            "engagement_prom": 36.4
+          },
+          {
+            "label": "Viernes",
+            "posts": 10,
+            "engagement_prom": 30.8
+          },
+          {
+            "label": "Lunes",
+            "posts": 8,
+            "engagement_prom": 16.5
+          },
+          {
+            "label": "Miércoles",
+            "posts": 10,
+            "engagement_prom": 16.4
+          },
+          {
+            "label": "Martes",
+            "posts": 14,
+            "engagement_prom": 6.8
+          },
+          {
+            "label": "Sábado",
+            "posts": 4,
+            "engagement_prom": 2.5
+          },
+          {
+            "label": "Domingo",
+            "posts": 7,
+            "engagement_prom": 2.3
+          }
+        ],
+        "por_franja": [
+          {
+            "label": "Mediodía (11-14h)",
+            "posts": 26,
+            "engagement_prom": 23.8
+          },
+          {
+            "label": "Mañana (06-11h)",
+            "posts": 19,
+            "engagement_prom": 15.2
+          },
+          {
+            "label": "Tarde (14-18h)",
+            "posts": 8,
+            "engagement_prom": 7.1
+          },
+          {
+            "label": "Noche (18-21h)",
+            "posts": 5,
+            "engagement_prom": 2.8
+          },
+          {
+            "label": "Noche tarde (21-24h)",
+            "posts": 2,
+            "engagement_prom": 0.5
+          }
+        ]
+      },
+      "temas_contenido": [
+        {
+          "label": "Promoción / Precio",
+          "posts": 20,
+          "engagement_prom": 33.0
+        },
+        {
+          "label": "Otro / sin clasificar",
+          "posts": 34,
+          "engagement_prom": 8.5
+        },
+        {
+          "label": "Educativo / Tips",
+          "posts": 2,
+          "engagement_prom": 5.0
+        },
+        {
+          "label": "Ubicación / Sucursal",
+          "posts": 4,
+          "engagement_prom": 4.5
+        },
+        {
+          "label": "Testimonio",
+          "posts": 1,
+          "engagement_prom": 3.0
+        }
+      ],
+      "frecuencia_publicacion": {
+        "dias_desde_ultima": 11,
+        "frecuencia_dias": 26.5,
+        "muestra": 60
+      },
+      "posts": [
+        {
+          "id": "180328660730418_1105295335214953",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Quiropráctico. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-10-15T16:20:26+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1105295335214953",
+          "reacciones": 23,
+          "comentarios": 1,
+          "shares": 1,
+          "clics": 370,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "1105295335214953_1083005084615894",
+              "mensaje": "Ni regalado vuelvo a ir",
+              "fecha": "2026-10-15T21:30:48+0000"
+            }
+          ]
+        },
+        {
+          "id": "180328660730418_1105294021881751",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Acupunturista. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-10-15T16:18:37+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1105294021881751",
+          "reacciones": 33,
+          "comentarios": 1,
+          "shares": 3,
+          "clics": 508,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "1105294021881751_1130357236546576",
+              "mensaje": "Si es para México, acá, todavía, no hay licenciaturas en acupuntura. Estudié en el Instituto del Dr. Alcocer, uno de los más reconocidos en México y no existe nivel licenciatura.",
+              "fecha": "2026-10-25T20:48:40+0000"
+            }
+          ]
+        },
+        {
+          "id": "180328660730418_1090584820019338",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Quiropráctico. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-09-29T15:54:24+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1090584820019338",
+          "reacciones": 38,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 1071,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "180328660730418_1085958427148644",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Quiropractico. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-09-24T18:12:11+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1085958427148644",
+          "reacciones": 2,
+          "comentarios": 1,
+          "shares": 0,
+          "clics": 8,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "1085958427148644_1405513928418669",
+              "mensaje": "Envié mi CV para otra vacante por favor gracias",
+              "fecha": "2026-09-24T18:30:13+0000"
+            }
+          ]
+        },
+        {
+          "id": "180328660730418_1084225120655308",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Fisioterapeuta. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,0",
+          "fecha": "2026-09-22T18:21:20+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1084225120655308",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 376,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "180328660730418_1083292434081910",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Acupunturista. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-09-21T15:54:50+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1083292434081910",
+          "reacciones": 19,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 243,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "180328660730418_1083291837415303",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Acupunturista. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-09-21T15:54:06+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1083291837415303",
+          "reacciones": 30,
+          "comentarios": 2,
+          "shares": 2,
+          "clics": 925,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "1083291837415303_28522045830769075",
+              "mensaje": "Disculpa el sueldo es $15,000 bruto o netos",
+              "fecha": "2026-09-23T04:22:08+0000"
+            },
+            {
+              "id": "1083291837415303_2168991600701173",
+              "mensaje": "Envié curriculum",
+              "fecha": "2026-09-24T11:20:11+0000"
+            }
+          ]
+        },
+        {
+          "id": "180328660730418_1080078284403325",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Quiropráctico. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-09-17T17:38:30+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1080078284403325",
+          "reacciones": 134,
+          "comentarios": 8,
+          "shares": 3,
+          "clics": 3312,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "1080078284403325_1678352237241784",
+              "mensaje": "Hola soy terapeuta quiropráctico, de casualidad ocupan ? Gracias 🪬",
+              "fecha": "2026-10-12T16:18:14+0000"
+            },
+            {
+              "id": "1080078284403325_4048719852096777",
+              "mensaje": "Hola me interesa",
+              "fecha": "2026-09-25T20:18:55+0000"
+            },
+            {
+              "id": "1080078284403325_1799502191256504",
+              "mensaje": "Hola soy cubana.licenciada en terapia fisica y Rehabilitacion.aceptan personas como yo???",
+              "fecha": "2026-10-17T23:46:31+0000"
+            },
+            {
+              "id": "1080078284403325_1751639919964255",
+              "mensaje": "Ofrecen un pésimo ambiente laboral y acoso por el jefe de Operaciones 😉",
+              "fecha": "2026-10-13T16:59:39+0000"
+            },
+            {
+              "id": "1080078284403325_1581703057045237",
+              "mensaje": "Haber si contratan buenos porque los de plaza neza nadams no la hacen ojo",
+              "fecha": "2026-10-18T03:10:04+0000"
+            },
+            {
+              "id": "1080078284403325_926540540284342",
+              "mensaje": "9 terapias y el dolor igua",
+              "fecha": "2026-10-11T02:04:09+0000"
+            },
+            {
+              "id": "1080078284403325_1089021383876656",
+              "mensaje": "Ofrecen pagos retrasados,acoso  laboral , pésimo trabajo en equipo 🤣🤣",
+              "fecha": "2026-10-09T21:04:47+0000"
+            }
+          ]
+        },
+        {
+          "id": "180328660730418_1075191814891972",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Acupunturista. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-09-11T19:42:42+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1075191814891972",
+          "reacciones": 65,
+          "comentarios": 0,
+          "shares": 9,
+          "clics": 1660,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "180328660730418_1074303431647477",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Acupunturista. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-09-10T18:26:36+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1074303431647477",
+          "reacciones": 39,
+          "comentarios": 2,
+          "shares": 3,
+          "clics": 946,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "1074303431647477_1608967833937435",
+              "mensaje": "Disculpen en dónde se encuentran Yo soy técnico profesional en masoterapia y quiropráctico pero quisiera saber en qué lugar se encuentran de favor Gracias",
+              "fecha": "2026-09-14T22:19:52+0000"
+            },
+            {
+              "id": "1074303431647477_2240518223401067",
+              "mensaje": "Hola qué tal muy buenas tardes \n\nPregunta \nAlguna vacante para asistente de acupunturista. \nTengo experiencia como asistente de acupunturista trabajé en un hospital de acupuntura",
+              "fecha": "2026-09-15T17:35:11+0000"
+            }
+          ]
+        },
+        {
+          "id": "180328660730418_1060110326400121",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Quiropractico. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-08-24T16:43:21+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1060110326400121",
+          "reacciones": 37,
+          "comentarios": 1,
+          "shares": 3,
+          "clics": 1142,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "1060110326400121_1542423830511789",
+              "mensaje": "Soy licenciado en fisioterapeuta y me podrías mandar información por favor dónde es gracias",
+              "fecha": "2026-08-31T18:09:45+0000"
+            }
+          ]
+        },
+        {
+          "id": "180328660730418_1060078856403268",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Acupunturista. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-08-24T15:59:38+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1060078856403268",
+          "reacciones": 18,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 867,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "180328660730418_1044354464642374",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Acupunturista. \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,00",
+          "fecha": "2026-08-05T17:06:42+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1044354464642374",
+          "reacciones": 47,
+          "comentarios": 3,
+          "shares": 7,
+          "clics": 1142,
+          "video_views": 0,
+          "comentarios_preview": [
+            {
+              "id": "1044354464642374_3280411045478867",
+              "mensaje": "Me encantan todas las terapias ni kiero ke terminen",
+              "fecha": "2026-08-06T03:18:30+0000"
+            },
+            {
+              "id": "1044354464642374_1486254823257516",
+              "mensaje": "Muy buenos\nTodos muy profesionales",
+              "fecha": "2026-08-08T19:42:13+0000"
+            },
+            {
+              "id": "1044354464642374_2280446516104455",
+              "mensaje": "15000 no mames con  licenciatura es una mamada ese sueldo trabajar 15 terapias deb1000 en un día y me pagas 500 diarios es una mamada mejor pongo mi propio consultorio en verdad es",
+              "fecha": "2026-08-09T17:32:05+0000"
+            }
+          ]
+        },
+        {
+          "id": "180328660730418_1044353091309178",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\nÚnete a un gran equipo como Quiropráctico \n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,000",
+          "fecha": "2026-08-05T17:04:55+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1044353091309178",
+          "reacciones": 12,
+          "comentarios": 0,
+          "shares": 1,
+          "clics": 327,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "180328660730418_1023483576729463",
+          "mensaje": "En Equilibrio Total seguimos creciendo y buscamos a los mejores profesionales.\n ¿Qué te ofrecemos?\nSueldo base de $15,000 pesos mensuales\nComisiones mensuales de $2,000 a $5,000.\nCapacitación continua.\nPostúlate enviando",
+          "fecha": "2026-07-10T19:19:12+0000",
+          "url": "https://www.facebook.com/1115433417534478/posts/1023483576729463",
+          "reacciones": 19,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 615,
+          "video_views": 0,
+          "comentarios_preview": []
+        }
+      ],
+      "historial_seguidores": [
+        {
+          "fecha": "2026-07-30",
+          "engagement": 55,
+          "vistas": 48,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "engagement": 10,
+          "vistas": 38,
+          "video_views": 7,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-01",
+          "engagement": 3,
+          "vistas": 34,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "engagement": 2,
+          "vistas": 19,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-03",
+          "engagement": 0,
+          "vistas": 18,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-04",
+          "engagement": 128,
+          "vistas": 107,
+          "video_views": 7,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-05",
+          "engagement": 65,
+          "vistas": 52,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-06",
+          "engagement": 357,
+          "vistas": 230,
+          "video_views": 11,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-07",
+          "engagement": 271,
+          "vistas": 135,
+          "video_views": 10,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-08-08",
+          "engagement": 148,
+          "vistas": 61,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-09",
+          "engagement": 136,
+          "vistas": 63,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-10",
+          "engagement": 99,
+          "vistas": 30,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-11",
+          "engagement": 123,
+          "vistas": 71,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-12",
+          "engagement": 124,
+          "vistas": 94,
+          "video_views": 10,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-13",
+          "engagement": 114,
+          "vistas": 106,
+          "video_views": 14,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-08-14",
+          "engagement": 91,
+          "vistas": 40,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "engagement": 82,
+          "vistas": 54,
+          "video_views": 10,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-16",
+          "engagement": 103,
+          "vistas": 68,
+          "video_views": 10,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-08-17",
+          "engagement": 81,
+          "vistas": 40,
+          "video_views": 8,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-08-18",
+          "engagement": 14,
+          "vistas": 27,
+          "video_views": 11,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-19",
+          "engagement": 235,
+          "vistas": 123,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-20",
+          "engagement": 28,
+          "vistas": 47,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-21",
+          "engagement": 5,
+          "vistas": 15,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-22",
+          "engagement": 8,
+          "vistas": 15,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-23",
+          "engagement": 4,
+          "vistas": 16,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-24",
+          "engagement": 0,
+          "vistas": 15,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-25",
+          "engagement": 8,
+          "vistas": 56,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "engagement": 2,
+          "vistas": 24,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-27",
+          "engagement": 223,
+          "vistas": 134,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "engagement": 228,
+          "vistas": 89,
+          "video_views": 4,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-29",
+          "engagement": 308,
+          "vistas": 98,
+          "video_views": 12,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-30",
+          "engagement": 590,
+          "vistas": 212,
+          "video_views": 13,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "engagement": 346,
+          "vistas": 156,
+          "video_views": 24,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-09-01",
+          "engagement": 366,
+          "vistas": 103,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-02",
+          "engagement": 178,
+          "vistas": 64,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-03",
+          "engagement": 100,
+          "vistas": 59,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "engagement": 101,
+          "vistas": 58,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-05",
+          "engagement": 124,
+          "vistas": 51,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-06",
+          "engagement": 12,
+          "vistas": 16,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-07",
+          "engagement": 19,
+          "vistas": 21,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-08",
+          "engagement": 15,
+          "vistas": 13,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-09",
+          "engagement": 92,
+          "vistas": 67,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-10",
+          "engagement": 107,
+          "vistas": 82,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-11",
+          "engagement": 94,
+          "vistas": 90,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-12",
+          "engagement": 192,
+          "vistas": 85,
+          "video_views": 8,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-09-13",
+          "engagement": 104,
+          "vistas": 66,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-14",
+          "engagement": 4,
+          "vistas": 5,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-15",
+          "engagement": 92,
+          "vistas": 34,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-16",
+          "engagement": 109,
+          "vistas": 50,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-17",
+          "engagement": 104,
+          "vistas": 20,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "engagement": 274,
+          "vistas": 178,
+          "video_views": 8,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-19",
+          "engagement": 246,
+          "vistas": 107,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-20",
+          "engagement": 243,
+          "vistas": 103,
+          "video_views": 9,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-21",
+          "engagement": 17,
+          "vistas": 38,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-22",
+          "engagement": 368,
+          "vistas": 172,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-23",
+          "engagement": 438,
+          "vistas": 219,
+          "video_views": 8,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-24",
+          "engagement": 484,
+          "vistas": 156,
+          "video_views": 4,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-25",
+          "engagement": 346,
+          "vistas": 138,
+          "video_views": 12,
+          "video_view_time_horas": 0.1
+        },
+        {
+          "fecha": "2026-09-26",
+          "engagement": 362,
+          "vistas": 103,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-27",
+          "engagement": 352,
+          "vistas": 138,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-28",
+          "engagement": 164,
+          "vistas": 40,
+          "video_views": 7,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "engagement": 191,
+          "vistas": 76,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-30",
+          "engagement": 274,
+          "vistas": 122,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-01",
+          "engagement": 230,
+          "vistas": 79,
+          "video_views": 9,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-02",
+          "engagement": 291,
+          "vistas": 91,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-03",
+          "engagement": 279,
+          "vistas": 99,
+          "video_views": 9,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-04",
+          "engagement": 292,
+          "vistas": 99,
+          "video_views": 16,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-05",
+          "engagement": 114,
+          "vistas": 28,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-06",
+          "engagement": 237,
+          "vistas": 94,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-07",
+          "engagement": 365,
+          "vistas": 102,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-08",
+          "engagement": 332,
+          "vistas": 81,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-09",
+          "engagement": 199,
+          "vistas": 65,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "engagement": 144,
+          "vistas": 61,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-11",
+          "engagement": 151,
+          "vistas": 38,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-12",
+          "engagement": 81,
+          "vistas": 10,
+          "video_views": 5,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-13",
+          "engagement": 205,
+          "vistas": 81,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-14",
+          "engagement": 294,
+          "vistas": 162,
+          "video_views": 4,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-15",
+          "engagement": 167,
+          "vistas": 46,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-16",
+          "engagement": 260,
+          "vistas": 101,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-17",
+          "engagement": 303,
+          "vistas": 139,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-18",
+          "engagement": 368,
+          "vistas": 101,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-19",
+          "engagement": 207,
+          "vistas": 25,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-20",
+          "engagement": 275,
+          "vistas": 69,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-21",
+          "engagement": 305,
+          "vistas": 83,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "engagement": 207,
+          "vistas": 54,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-23",
+          "engagement": 233,
+          "vistas": 54,
+          "video_views": 7,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-24",
+          "engagement": 219,
+          "vistas": 72,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-25",
+          "engagement": 179,
+          "vistas": 70,
+          "video_views": 6,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-26",
+          "engagement": 168,
+          "vistas": 65,
+          "video_views": 1,
+          "video_view_time_horas": 0.0,
+          "seguidores": 804
+        },
+        {
+          "fecha": "2026-10-27",
+          "engagement": 34,
+          "vistas": 7,
+          "video_views": 4,
+          "video_view_time_horas": 0.0
+        }
+      ],
+      "instagram": null
+    },
+    "mexico_2": {
+      "nombre": "Equilibrio Total México (2)",
+      "id": "1077860615403550",
+      "seguidores": 120,
+      "categoria": "Medical & health",
+      "engagement_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 0
+        }
+      ],
+      "vistas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 7
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 37
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 33
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 13
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 31
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 39
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 17
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 25
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 20
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 36
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 7
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 18
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 52
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 27
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 35
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 23
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 16
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 13
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 38
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 19
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 7
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 14
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 22
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 7
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 26
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 25
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 31
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 13
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 22
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 23
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 27
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 23
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 46
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 12
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 14
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 3
+        }
+      ],
+      "video_views_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 8
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 2
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 2
+        }
+      ],
+      "video_view_time_horas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 0.0
+        }
+      ],
+      "calificacion": {
+        "rating": 0,
+        "rating_count": 0,
+        "talking_about": 1
+      },
+      "reacciones_tipo": {
+        "like": 2
+      },
+      "mensajes": {
+        "conversaciones_28d": 0,
+        "mensajes_28d": 0,
+        "no_leidos": 0,
+        "no_leidos_24h": 0,
+        "no_leidos_mas_antiguo": null,
+        "conversaciones_hoy": 0,
+        "serie_diaria": [],
+        "estado": "ok",
+        "actualizado": "2026-10-26 10:32"
+      },
+      "mejor_horario": {
+        "por_dia": [
+          {
+            "label": "Lunes",
+            "posts": 1,
+            "engagement_prom": 1.0
+          },
+          {
+            "label": "Martes",
+            "posts": 1,
+            "engagement_prom": 1.0
+          },
+          {
+            "label": "Miércoles",
+            "posts": 3,
+            "engagement_prom": 0.7
+          },
+          {
+            "label": "Sábado",
+            "posts": 2,
+            "engagement_prom": 0.0
+          }
+        ],
+        "por_franja": [
+          {
+            "label": "Mañana (06-11h)",
+            "posts": 3,
+            "engagement_prom": 0.7
+          },
+          {
+            "label": "Mediodía (11-14h)",
+            "posts": 4,
+            "engagement_prom": 0.5
+          }
+        ]
+      },
+      "temas_contenido": [
+        {
+          "label": "Dolor / Padecimiento",
+          "posts": 1,
+          "engagement_prom": 1.0
+        },
+        {
+          "label": "Otro / sin clasificar",
+          "posts": 6,
+          "engagement_prom": 0.5
+        }
+      ],
+      "frecuencia_publicacion": {
+        "dias_desde_ultima": 159,
+        "frecuencia_dias": 8.0,
+        "muestra": 7
+      },
+      "posts": [
+        {
+          "id": "1077860615403550_122097973575052861",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-20T16:21:25+0000",
+          "url": "https://www.facebook.com/122124615687052861/posts/122097973575052861?substory_index=998548232727607",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "1077860615403550_965474173068577",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-20T16:21:15+0000",
+          "url": "https://www.facebook.com/122124615687052861/posts/965474173068577?substory_index=965474173068577",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "1077860615403550_4359471844300676",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-02T18:31:37+0000",
+          "url": "https://www.facebook.com/122124615687052861/posts/4359471844300676?substory_index=4359471844300676",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "1077860615403550_122109424779052861",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2026-05-02T18:30:30+0000",
+          "url": "https://www.facebook.com/122124615687052861/posts/122109424779052861?substory_index=1539849637563594",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "1077860615403550_122106083187052861",
+          "mensaje": "La salud no es solo ausencia de enfermedad, es equilibrio. ⚖️✨\nNo necesitas correr un maratón para estar sano. La verdadera salud está en:\nNutrir tu cuerpo con conciencia. 🥑\nCuidar tu paz mental. 🧘‍♀️\nElegir sentirte bie",
+          "fecha": "2026-04-07T16:30:20+0000",
+          "url": "https://www.facebook.com/reel/2383889285482956/",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 228,
+          "comentarios_preview": []
+        },
+        {
+          "id": "1077860615403550_122105953653052861",
+          "mensaje": "No necesitas correr un maratón.\nSolo romper con el sedentarismo. 🚶‍♂️\nCamina, baila, estira o sube escaleras. Todo suma para tener más energía y sentirte mejor.\n💚 ¿Quieres moverte sin dolor? Conoce nuestros tratamientos ",
+          "fecha": "2026-04-06T17:10:02+0000",
+          "url": "https://www.facebook.com/122124615687052861/posts/122105953653052861",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 1,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "1077860615403550_122105169081052861",
+          "mensaje": "✨ Tu recuperación empieza escuchando a quienes ya lo lograron.\n\nEn Equilibrio Total hemos ayudado a muchas personas a recuperar su vida activa con nuestro enfoque integral. 🩺\n\nDesliza y conoce sus historias.\nTú también p",
+          "fecha": "2026-04-01T19:17:02+0000",
+          "url": "https://www.facebook.com/122124615687052861/posts/122105169081052861",
+          "reacciones": 1,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        }
+      ],
+      "historial_seguidores": [
+        {
+          "fecha": "2026-07-30",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-01",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-03",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-04",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-05",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-06",
+          "engagement": 0,
+          "vistas": 12,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-07",
+          "engagement": 0,
+          "vistas": 7,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-08",
+          "engagement": 0,
+          "vistas": 37,
+          "video_views": 4,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-09",
+          "engagement": 0,
+          "vistas": 33,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-10",
+          "engagement": 0,
+          "vistas": 13,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-11",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-12",
+          "engagement": 0,
+          "vistas": 15,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-13",
+          "engagement": 0,
+          "vistas": 31,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-14",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-16",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-17",
+          "engagement": 0,
+          "vistas": 39,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-18",
+          "engagement": 0,
+          "vistas": 17,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-19",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-20",
+          "engagement": 0,
+          "vistas": 25,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-21",
+          "engagement": 0,
+          "vistas": 20,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-22",
+          "engagement": 0,
+          "vistas": 15,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-23",
+          "engagement": 0,
+          "vistas": 21,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-24",
+          "engagement": 0,
+          "vistas": 36,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-25",
+          "engagement": 0,
+          "vistas": 21,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-27",
+          "engagement": 0,
+          "vistas": 7,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "engagement": 0,
+          "vistas": 18,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-29",
+          "engagement": 0,
+          "vistas": 52,
+          "video_views": 4,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-30",
+          "engagement": 0,
+          "vistas": 27,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "engagement": 0,
+          "vistas": 35,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-01",
+          "engagement": 0,
+          "vistas": 12,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-02",
+          "engagement": 0,
+          "vistas": 23,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-03",
+          "engagement": 0,
+          "vistas": 16,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-05",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-06",
+          "engagement": 0,
+          "vistas": 13,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-07",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-08",
+          "engagement": 0,
+          "vistas": 12,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-09",
+          "engagement": 1,
+          "vistas": 38,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-10",
+          "engagement": 0,
+          "vistas": 19,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-11",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-12",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-13",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-14",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-15",
+          "engagement": 0,
+          "vistas": 7,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-16",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-17",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "engagement": 0,
+          "vistas": 14,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-19",
+          "engagement": 0,
+          "vistas": 22,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-20",
+          "engagement": 0,
+          "vistas": 7,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-21",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-22",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-23",
+          "engagement": 0,
+          "vistas": 15,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-24",
+          "engagement": 0,
+          "vistas": 12,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-25",
+          "engagement": 0,
+          "vistas": 26,
+          "video_views": 4,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-26",
+          "engagement": 0,
+          "vistas": 25,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-27",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-28",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-30",
+          "engagement": 0,
+          "vistas": 12,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-01",
+          "engagement": 0,
+          "vistas": 31,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-02",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-03",
+          "engagement": 0,
+          "vistas": 13,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-04",
+          "engagement": 1,
+          "vistas": 22,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-05",
+          "engagement": 0,
+          "vistas": 21,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-06",
+          "engagement": 0,
+          "vistas": 15,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-07",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-08",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-09",
+          "engagement": 0,
+          "vistas": 23,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "engagement": 1,
+          "vistas": 21,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-11",
+          "engagement": 0,
+          "vistas": 27,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-12",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-13",
+          "engagement": 1,
+          "vistas": 23,
+          "video_views": 3,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-14",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-15",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-16",
+          "engagement": 0,
+          "vistas": 21,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-17",
+          "engagement": 0,
+          "vistas": 46,
+          "video_views": 8,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-18",
+          "engagement": 0,
+          "vistas": 12,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-19",
+          "engagement": 0,
+          "vistas": 12,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-20",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-21",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 1,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "engagement": 0,
+          "vistas": 14,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-23",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-24",
+          "engagement": 0,
+          "vistas": 8,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-25",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-26",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0,
+          "seguidores": 120
+        },
+        {
+          "fecha": "2026-10-27",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 2,
+          "video_view_time_horas": 0.0
+        }
+      ],
+      "instagram": null
+    },
+    "pachuca_2": {
+      "nombre": "Equilibrio Total Pachuca (2)",
+      "id": "369766772880190",
+      "seguidores": 10,
+      "categoria": "Medical & health",
+      "engagement_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 1
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 0
+        }
+      ],
+      "vistas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 18
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 18
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 23
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 15
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 9
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 21
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 4
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 24
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 6
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 3
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 0
+        }
+      ],
+      "video_views_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 0
+        }
+      ],
+      "video_view_time_horas_diario": [
+        {
+          "fecha": "2026-07-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-12",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-13",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-16",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-17",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-07",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-12",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-13",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-16",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-17",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-25",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-27",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-28",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-09-30",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-01",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-02",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-03",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-04",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-05",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-06",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-07",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-08",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-09",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-11",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-12",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-13",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-18",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-21",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-23",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-24",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-25",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-26",
+          "valor": 0.0
+        },
+        {
+          "fecha": "2026-10-27",
+          "valor": 0.0
+        }
+      ],
+      "calificacion": {
+        "rating": 0,
+        "rating_count": 0,
+        "talking_about": 1
+      },
+      "reacciones_tipo": {},
+      "mensajes": {
+        "conversaciones_28d": 4,
+        "mensajes_28d": 11,
+        "no_leidos": 0,
+        "no_leidos_24h": 0,
+        "no_leidos_mas_antiguo": null,
+        "conversaciones_hoy": 0,
+        "serie_diaria": [
+          {
+            "fecha": "2026-10-14",
+            "valor": 4
+          }
+        ],
+        "estado": "ok",
+        "actualizado": "2026-10-26 10:32"
+      },
+      "mejor_horario": {
+        "por_dia": [
+          {
+            "label": "Lunes",
+            "posts": 1,
+            "engagement_prom": 0.0
+          },
+          {
+            "label": "Domingo",
+            "posts": 1,
+            "engagement_prom": 0.0
+          }
+        ],
+        "por_franja": [
+          {
+            "label": "Mediodía (11-14h)",
+            "posts": 1,
+            "engagement_prom": 0.0
+          },
+          {
+            "label": "Noche (18-21h)",
+            "posts": 1,
+            "engagement_prom": 0.0
+          }
+        ]
+      },
+      "temas_contenido": [
+        {
+          "label": "Llamado a agendar",
+          "posts": 1,
+          "engagement_prom": 0.0
+        },
+        {
+          "label": "Otro / sin clasificar",
+          "posts": 1,
+          "engagement_prom": 0.0
+        }
+      ],
+      "frecuencia_publicacion": {
+        "dias_desde_ultima": 847,
+        "frecuencia_dias": 13.0,
+        "muestra": 2
+      },
+      "posts": [
+        {
+          "id": "369766772880190_122108021366373889",
+          "mensaje": "✅Agenda una cita: https://mtr.bio/E-total-Pachuca\nEn nuestra clínica, cada tratamiento es un paso hacia tu bienestar ✨ diseñado de manera integral y personalizado, con un acompañamiento que realmente entiende y cuida. 🤗\n",
+          "fecha": "2024-07-01T00:30:23+0000",
+          "url": "https://www.facebook.com/122226949910373889/posts/122108021366373889",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 4,
+          "video_views": 0,
+          "comentarios_preview": []
+        },
+        {
+          "id": "369766772880190_122095819490373889",
+          "mensaje": "(sin texto, video/imagen)",
+          "fecha": "2024-06-17T19:03:12+0000",
+          "url": "https://www.facebook.com/122226949910373889/posts/122095819490373889?substory_index=786032317046961",
+          "reacciones": 0,
+          "comentarios": 0,
+          "shares": 0,
+          "clics": 0,
+          "video_views": 0,
+          "comentarios_preview": []
+        }
+      ],
+      "historial_seguidores": [
+        {
+          "fecha": "2026-07-30",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-07-31",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-01",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-02",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-03",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-04",
+          "engagement": 0,
+          "vistas": 18,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-05",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-06",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-07",
+          "engagement": 0,
+          "vistas": 18,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-08",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-09",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-10",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-11",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-12",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-13",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-14",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-15",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-16",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-17",
+          "engagement": 0,
+          "vistas": 23,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-18",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-19",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-20",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-21",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-22",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-23",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-24",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-25",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-26",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-27",
+          "engagement": 0,
+          "vistas": 15,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-28",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-29",
+          "engagement": 0,
+          "vistas": 21,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-30",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-01",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-02",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-03",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-04",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-05",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-06",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-07",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-08",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-09",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-10",
+          "engagement": 0,
+          "vistas": 21,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-11",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-12",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-13",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-14",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-15",
+          "engagement": 1,
+          "vistas": 9,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-16",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-17",
+          "engagement": 0,
+          "vistas": 9,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-19",
+          "engagement": 0,
+          "vistas": 21,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-20",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-21",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-22",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-23",
+          "engagement": 0,
+          "vistas": 4,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-24",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-25",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-26",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-27",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-28",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-09-30",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-01",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-02",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-03",
+          "engagement": 0,
+          "vistas": 4,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-04",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-05",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-06",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-07",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-08",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-09",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-10",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-11",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-12",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-13",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-14",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-15",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-16",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-17",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-18",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-19",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-20",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-21",
+          "engagement": 0,
+          "vistas": 24,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-22",
+          "engagement": 1,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-23",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-24",
+          "engagement": 0,
+          "vistas": 6,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-25",
+          "engagement": 0,
+          "vistas": 3,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        },
+        {
+          "fecha": "2026-10-26",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0,
+          "seguidores": 10
+        },
+        {
+          "fecha": "2026-10-27",
+          "engagement": 0,
+          "vistas": 0,
+          "video_views": 0,
+          "video_view_time_horas": 0.0
+        }
+      ],
+      "instagram": null
     }
   },
   "resumen": [
@@ -21259,81 +41086,241 @@ window.FB_PAGES_DATA = {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
       "seguidores": 25732,
-      "engagement_28d": 900702,
+      "engagement_28d": 900754,
       "vistas_28d": 198976,
-      "video_views_28d": 14057829,
+      "video_views_28d": 14059055,
       "conversaciones_28d": 208,
       "no_leidos": 0,
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-26 10:12",
+      "mensajes_actualizado": "2026-10-26 10:28",
       "rating": 4.5,
       "dias_desde_ultima": 0,
-      "ig_seguidores": 10676,
+      "ig_seguidores": 10677,
       "ig_username": "equilibriototalmx",
-      "ig_engagement_28d": 7633,
+      "ig_engagement_28d": 7649,
       "ig_dias_desde_ultima": 1
     },
     {
       "key": "edomex",
       "nombre": "Equilibrio Total Edomex",
       "seguidores": 16394,
-      "engagement_28d": 888966,
+      "engagement_28d": 888994,
       "vistas_28d": 199240,
-      "video_views_28d": 14343212,
+      "video_views_28d": 14344116,
       "conversaciones_28d": 125,
       "no_leidos": 18,
       "no_leidos_24h": 3,
       "no_leidos_mas_antiguo": "2026-09-30T17:47:34+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-26 10:13",
+      "mensajes_actualizado": "2026-10-26 10:29",
       "rating": 4.2,
-      "dias_desde_ultima": 2,
+      "dias_desde_ultima": 3,
       "ig_seguidores": 4310,
       "ig_username": "equilibriototaledomex",
-      "ig_engagement_28d": 3368,
+      "ig_engagement_28d": 3370,
       "ig_dias_desde_ultima": 18
     },
     {
       "key": "beth",
       "nombre": "Ser Humano Beth",
       "seguidores": 9616,
-      "engagement_28d": 283092,
-      "vistas_28d": 44259,
-      "video_views_28d": 4012028,
+      "engagement_28d": 283127,
+      "vistas_28d": 44272,
+      "video_views_28d": 4012336,
       "conversaciones_28d": 89,
       "no_leidos": 24,
       "no_leidos_24h": 1,
       "no_leidos_mas_antiguo": "2026-09-30T14:37:11+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-26 10:14",
+      "mensajes_actualizado": "2026-10-26 10:29",
       "rating": 4.5,
       "dias_desde_ultima": 4,
       "ig_seguidores": 2021,
       "ig_username": "funda_cionserhumano",
-      "ig_engagement_28d": 943,
+      "ig_engagement_28d": 945,
       "ig_dias_desde_ultima": 73
     },
     {
       "key": "autonomia",
       "nombre": "Autonomía con Sentido",
       "seguidores": 2293,
-      "engagement_28d": 179601,
-      "vistas_28d": 48964,
-      "video_views_28d": 878087,
+      "engagement_28d": 179607,
+      "vistas_28d": 48976,
+      "video_views_28d": 878114,
       "conversaciones_28d": 22,
       "no_leidos": 0,
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-10-26 10:15",
+      "mensajes_actualizado": "2026-10-26 10:30",
       "rating": 5,
       "dias_desde_ultima": 1,
       "ig_seguidores": 661,
       "ig_username": "autonomia_con_sentido",
       "ig_engagement_28d": 681,
       "ig_dias_desde_ultima": 1
+    },
+    {
+      "key": "queretaro",
+      "nombre": "Equilibrio Total Querétaro",
+      "seguidores": 3623,
+      "engagement_28d": 71063,
+      "vistas_28d": 18089,
+      "video_views_28d": 1074658,
+      "conversaciones_28d": 39,
+      "no_leidos": 3,
+      "no_leidos_24h": 0,
+      "no_leidos_mas_antiguo": "2026-10-23T21:56:19+0000",
+      "mensajes_estado": "ok",
+      "mensajes_actualizado": "2026-10-26 10:30",
+      "rating": 5,
+      "dias_desde_ultima": 3,
+      "ig_seguidores": null,
+      "ig_username": null,
+      "ig_engagement_28d": null,
+      "ig_dias_desde_ultima": null
+    },
+    {
+      "key": "pachuca",
+      "nombre": "Equilibrio Total Pachuca",
+      "seguidores": 2850,
+      "engagement_28d": 70333,
+      "vistas_28d": 14137,
+      "video_views_28d": 1110362,
+      "conversaciones_28d": 56,
+      "no_leidos": 13,
+      "no_leidos_24h": 0,
+      "no_leidos_mas_antiguo": "2026-09-28T21:34:44+0000",
+      "mensajes_estado": "ok",
+      "mensajes_actualizado": "2026-10-26 10:31",
+      "rating": 0,
+      "dias_desde_ultima": 3,
+      "ig_seguidores": null,
+      "ig_username": null,
+      "ig_engagement_28d": null,
+      "ig_dias_desde_ultima": null
+    },
+    {
+      "key": "tepeyac",
+      "nombre": "Equilibrio Total Tepeyac",
+      "seguidores": 2387,
+      "engagement_28d": 43294,
+      "vistas_28d": 11731,
+      "video_views_28d": 377623,
+      "conversaciones_28d": 129,
+      "no_leidos": 0,
+      "no_leidos_24h": 0,
+      "no_leidos_mas_antiguo": null,
+      "mensajes_estado": "ok",
+      "mensajes_actualizado": "2026-10-26 10:31",
+      "rating": 3.9,
+      "dias_desde_ultima": 11,
+      "ig_seguidores": null,
+      "ig_username": null,
+      "ig_engagement_28d": null,
+      "ig_dias_desde_ultima": null
+    },
+    {
+      "key": "cuautla",
+      "nombre": "Equilibrio Total Cuautla",
+      "seguidores": 2344,
+      "engagement_28d": 46332,
+      "vistas_28d": 10113,
+      "video_views_28d": 666091,
+      "conversaciones_28d": 41,
+      "no_leidos": 6,
+      "no_leidos_24h": 0,
+      "no_leidos_mas_antiguo": "2026-09-30T15:12:24+0000",
+      "mensajes_estado": "ok",
+      "mensajes_actualizado": "2026-10-26 10:31",
+      "rating": 1,
+      "dias_desde_ultima": 3,
+      "ig_seguidores": null,
+      "ig_username": null,
+      "ig_engagement_28d": null,
+      "ig_dias_desde_ultima": null
+    },
+    {
+      "key": "mexico",
+      "nombre": "Equilibrio Total México",
+      "seguidores": 571,
+      "engagement_28d": 58800,
+      "vistas_28d": 14075,
+      "video_views_28d": 730206,
+      "conversaciones_28d": 15,
+      "no_leidos": 1,
+      "no_leidos_24h": 0,
+      "no_leidos_mas_antiguo": "2026-10-24T22:43:45+0000",
+      "mensajes_estado": "ok",
+      "mensajes_actualizado": "2026-10-26 10:32",
+      "rating": 0,
+      "dias_desde_ultima": 3,
+      "ig_seguidores": null,
+      "ig_username": null,
+      "ig_engagement_28d": null,
+      "ig_dias_desde_ultima": null
+    },
+    {
+      "key": "reclutamiento",
+      "nombre": "Reclutamiento Equilibrio Total",
+      "seguidores": 804,
+      "engagement_28d": 15702,
+      "vistas_28d": 6785,
+      "video_views_28d": 423,
+      "conversaciones_28d": 42,
+      "no_leidos": 7,
+      "no_leidos_24h": 1,
+      "no_leidos_mas_antiguo": "2026-10-15T21:07:24+0000",
+      "mensajes_estado": "ok",
+      "mensajes_actualizado": "2026-10-26 10:32",
+      "rating": 5,
+      "dias_desde_ultima": 11,
+      "ig_seguidores": null,
+      "ig_username": null,
+      "ig_engagement_28d": null,
+      "ig_dias_desde_ultima": null
+    },
+    {
+      "key": "mexico_2",
+      "nombre": "Equilibrio Total México (2)",
+      "seguidores": 120,
+      "engagement_28d": 4,
+      "vistas_28d": 1207,
+      "video_views_28d": 113,
+      "conversaciones_28d": 0,
+      "no_leidos": 0,
+      "no_leidos_24h": 0,
+      "no_leidos_mas_antiguo": null,
+      "mensajes_estado": "ok",
+      "mensajes_actualizado": "2026-10-26 10:32",
+      "rating": 0,
+      "dias_desde_ultima": 159,
+      "ig_seguidores": null,
+      "ig_username": null,
+      "ig_engagement_28d": null,
+      "ig_dias_desde_ultima": null
+    },
+    {
+      "key": "pachuca_2",
+      "nombre": "Equilibrio Total Pachuca (2)",
+      "seguidores": 10,
+      "engagement_28d": 2,
+      "vistas_28d": 316,
+      "video_views_28d": 0,
+      "conversaciones_28d": 4,
+      "no_leidos": 0,
+      "no_leidos_24h": 0,
+      "no_leidos_mas_antiguo": null,
+      "mensajes_estado": "ok",
+      "mensajes_actualizado": "2026-10-26 10:32",
+      "rating": 0,
+      "dias_desde_ultima": 847,
+      "ig_seguidores": null,
+      "ig_username": null,
+      "ig_engagement_28d": null,
+      "ig_dias_desde_ultima": null
     }
   ],
   "quejas": [
@@ -21363,6 +41350,20 @@ window.FB_PAGES_DATA = {
       "comentario": "Queeeeeee arriva las manos eso no sirve con esos vasos calientes k te ponen sales peeeeor más adolorido",
       "fecha": "2026-10-21T05:28:39+0000",
       "post_url": "https://www.facebook.com/reel/967574369748240/",
+      "respondida": false
+    },
+    {
+      "pagina": "Equilibrio Total Cuautla",
+      "comentario": "No sirve, no saben",
+      "fecha": "2026-10-20T19:33:00+0000",
+      "post_url": "https://www.facebook.com/reel/1771178407447601/",
+      "respondida": false
+    },
+    {
+      "pagina": "Equilibrio Total Querétaro",
+      "comentario": "Tengan cuidado con Alejandra, los deja peor",
+      "fecha": "2026-10-20T16:35:18+0000",
+      "post_url": "https://www.facebook.com/reel/1803396300984552/",
       "respondida": false
     },
     {
@@ -21436,10 +41437,24 @@ window.FB_PAGES_DATA = {
       "respondida": false
     },
     {
+      "pagina": "Reclutamiento Equilibrio Total",
+      "comentario": "Ofrecen un pésimo ambiente laboral y acoso por el jefe de Operaciones 😉",
+      "fecha": "2026-10-13T16:59:39+0000",
+      "post_url": "https://www.facebook.com/1115433417534478/posts/1080078284403325",
+      "respondida": false
+    },
+    {
       "pagina": "Equilibrio Total Edomex",
       "comentario": "Muy caro y no sirve",
       "fecha": "2026-10-13T06:52:27+0000",
       "post_url": "https://www.facebook.com/reel/1410842977214059/",
+      "respondida": false
+    },
+    {
+      "pagina": "Reclutamiento Equilibrio Total",
+      "comentario": "Ofrecen pagos retrasados,acoso  laboral , pésimo trabajo en equipo 🤣🤣",
+      "fecha": "2026-10-09T21:04:47+0000",
+      "post_url": "https://www.facebook.com/1115433417534478/posts/1080078284403325",
       "respondida": false
     },
     {
@@ -21450,11 +41465,32 @@ window.FB_PAGES_DATA = {
       "respondida": true
     },
     {
+      "pagina": "Equilibrio Total Querétaro",
+      "comentario": "No sirve, no tiren su dinero",
+      "fecha": "2026-10-05T22:34:22+0000",
+      "post_url": "https://www.facebook.com/reel/1316101930429372/",
+      "respondida": false
+    },
+    {
       "pagina": "Autonomía con Sentido",
       "comentario": "Quizá sea un fraude a ninguna persona le dicen la dirección 🤷🏼‍♀️",
       "fecha": "2026-09-02T18:51:55+0000",
       "post_url": "https://www.facebook.com/reel/1011794958152860/",
       "respondida": true
+    },
+    {
+      "pagina": "Equilibrio Total Querétaro",
+      "comentario": "La quiropráctica no sabe. Me dejó incapacitada por más de un mes. Hice muchos gastos por su mala praxis. Y nadie del centro de hizo responsable.",
+      "fecha": "2026-08-20T19:39:17+0000",
+      "post_url": "https://www.facebook.com/reel/1227737716189573/",
+      "respondida": false
+    },
+    {
+      "pagina": "Reclutamiento Equilibrio Total",
+      "comentario": "No funciona, yo fui a sucursal valle dorado y quede peor.",
+      "fecha": "2026-07-25T16:06:31+0000",
+      "post_url": "https://www.facebook.com/1115433417534478/posts/1006167405127747",
+      "respondida": false
     },
     {
       "pagina": "Equilibrio Total Edomex",
@@ -21476,9 +41512,33 @@ window.FB_PAGES_DATA = {
       "fecha": "2026-07-23T01:04:32+0000",
       "post_url": "https://www.facebook.com/reel/2116122062674460/",
       "respondida": false
+    },
+    {
+      "pagina": "Equilibrio Total Querétaro",
+      "comentario": "ES UNA ESTAFA NO VAYAN",
+      "fecha": "2025-05-25T13:55:38+0000",
+      "post_url": "https://www.facebook.com/122226872816369965/videos/887706216673152",
+      "respondida": false
+    },
+    {
+      "pagina": "Equilibrio Total Querétaro",
+      "comentario": "Una estafa.. si no pagas 10 consultas x adelantado te cobran $890 la sesión.. están locos",
+      "fecha": "2025-05-03T00:21:00+0000",
+      "post_url": "https://www.facebook.com/122226872816369965/posts/122152546160369965",
+      "respondida": false
     }
   ],
   "alertas_publicacion": [
+    {
+      "nombre": "Equilibrio Total Pachuca (2) (Facebook)",
+      "dias_desde_ultima": 847,
+      "frecuencia_dias": 13.0
+    },
+    {
+      "nombre": "Equilibrio Total México (2) (Facebook)",
+      "dias_desde_ultima": 159,
+      "frecuencia_dias": 8.0
+    },
     {
       "nombre": "Ser Humano Beth (Instagram)",
       "dias_desde_ultima": 73,
@@ -21488,6 +41548,16 @@ window.FB_PAGES_DATA = {
       "nombre": "Equilibrio Total Edomex (Instagram)",
       "dias_desde_ultima": 18,
       "frecuencia_dias": 17.3
+    },
+    {
+      "nombre": "Equilibrio Total Tepeyac (Facebook)",
+      "dias_desde_ultima": 11,
+      "frecuencia_dias": 11.7
+    },
+    {
+      "nombre": "Reclutamiento Equilibrio Total (Facebook)",
+      "dias_desde_ultima": 11,
+      "frecuencia_dias": 26.5
     }
   ]
 };
