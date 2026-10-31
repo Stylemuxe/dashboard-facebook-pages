@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-10-31 14:48",
+ "generado": "2026-10-31 15:12",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3166,
+   "revisados": 3170,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 183,
+   "revisados": 184,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1102386315940882_1158951986791178",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-10-31T20:51:26+0000",
+   "texto": "No recomendable",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1129872589521580/?comment_id=1158951986791178",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1113802394799274_1812411213365314",
    "tipo": "comentario",
