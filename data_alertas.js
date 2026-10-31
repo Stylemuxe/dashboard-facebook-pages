@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-10-31 15:12",
+ "generado": "2026-10-31 17:53",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3170,
+   "revisados": 3172,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 81,
+   "revisados": 82,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 184,
+   "revisados": 185,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,36 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1030585659727980_1667471168319722",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-10-31T23:23:43+0000",
+   "texto": "Nunca contestan, para suben su anuncio",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1667471168319722",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "msg_32b52c6c1f69",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-10-31T23:03:19+0000",
+   "texto": null,
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": true,
+   "oculto": false
+  },
   {
    "id": "fbc_1102386315940882_1158951986791178",
    "tipo": "comentario",
