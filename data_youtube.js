@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-10-31 15:12",
+ "generado": "2026-10-31 17:54",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -8,7 +8,7 @@ window.YOUTUBE_DATA = {
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 7980,
    "vistas_totales": 1804493,
-   "video_count": 90,
+   "video_count": 89,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -393,16 +393,6 @@ window.YOUTUBE_DATA = {
    ],
    "videos": [
     {
-     "id": "nMXFhrsE6dg",
-     "titulo": "¿Qué es lo que más disfrutas hacer en tu día a día? 👇#AutonomíaConSentido",
-     "fecha": "2026-10-03T19:05:31Z",
-     "miniatura": "https://i.ytimg.com/vi/nMXFhrsE6dg/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=nMXFhrsE6dg",
-     "vistas": 176,
-     "likes": 2,
-     "comentarios": 0
-    },
-    {
      "id": "9SHDI0qSN7Y",
      "titulo": "Día Internacional de personas de Edad 💚",
      "fecha": "2026-10-03T19:05:19Z",
@@ -518,7 +508,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 736,
+     "vistas": 737,
      "likes": 11,
      "comentarios": 4
     },
@@ -591,6 +581,16 @@ window.YOUTUBE_DATA = {
      "vistas": 983,
      "likes": 22,
      "comentarios": 3
+    },
+    {
+     "id": "TW0OudIhLek",
+     "titulo": "¿Qué pasa con tu cuerpo durante el invierno?",
+     "fecha": "2025-12-04T18:35:58Z",
+     "miniatura": "https://i.ytimg.com/vi/TW0OudIhLek/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=TW0OudIhLek",
+     "vistas": 842,
+     "likes": 22,
+     "comentarios": 0
     }
    ]
   }
