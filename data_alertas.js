@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-10-31 14:22",
+ "generado": "2026-10-31 14:35",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3165,
+   "revisados": 3166,
    "estado": "ok",
    "nota": null
   },
@@ -747,21 +747,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1398551718988334/?comment_id=1679565280400950",
    "respondida": false,
    "oculto": true
-  },
-  {
-   "id": "fbc_1002533099200193_1132309676400283",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "fecha": "2026-10-22T19:14:18+0000",
-   "texto": "Sin Sita,no atienden??",
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/859124090227228/?comment_id=1132309676400283",
-   "respondida": true,
-   "oculto": false
   },
   {
    "id": "fbc_122221867094369554_28408650158831726",
@@ -1799,21 +1784,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_122117495937335379_1401222875552128",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "fecha": "2026-10-10T17:33:15+0000",
-   "texto": "No atienden a una sola persona y no tienes privacidad el personal es profesional en su trabajo excepto la de recepción",
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1944064223664727/?comment_id=1401222875552128",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbc_1034657662654113_940816072052099",
    "tipo": "comentario",
    "red": "facebook",
@@ -2067,21 +2037,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=1411862367112727",
    "respondida": false,
    "oculto": true
-  },
-  {
-   "id": "fbc_1060296063483241_1141614308202533",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-05T23:30:46+0000",
-   "texto": "Por donde se encuentran? Y sobre guantes no atienden?",
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/1038826695630178/posts/1060296063483241?comment_id=1141614308202533",
-   "respondida": true,
-   "oculto": false
   },
   {
    "id": "fbc_1075491821904030_28701471462819244",
