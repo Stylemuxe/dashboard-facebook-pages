@@ -37,6 +37,7 @@ d.querySelector('form').onsubmit=async function(ev){ev.preventDefault();var v=d.
    colores para fondos suaves y texto con contraste AA.
    ═══════════════════════════════════════════════════════════════ */
 :root{
+  --c-org:#5F7745; --c-pauta:#1F3A5F;   /* organico vs pauta (validados: CVD 22.8, contraste >= 4.9) */
   --pet:#3F7A89; --oli:#A7BA8D; --bei:#F4EDE3; --per:#DADADA; --pro:#1F3A5F; --car:#1E1E1E;
   --bg:#F4EDE3; --surface:#FFFFFF; --surface2:#FAF6F0; --bg3:#EFE8DD;
   --border:#E6DED2; --border2:#DADADA;
@@ -60,6 +61,7 @@ d.querySelector('form').onsubmit=async function(ev){ev.preventDefault();var v=d.
   --font:'Montserrat',system-ui,-apple-system,'Segoe UI',sans-serif;
 }
 body.dark-theme{
+  --c-org:#B3CC93; --c-pauta:#5B8FA0;
   --bg:#0F1D30; --surface:#162A44; --surface2:#1B3250; --bg3:#203A5A;
   --border:#244060; --border2:#2E4D70;
   --text:#F4EDE3; --text2:#C9D2D8; --text3:#9AABBA;
@@ -539,6 +541,49 @@ body.dark-theme #login-card .logo{content:url("assets/logo-eth-blanco.png")}
 #login-card button:hover{transform:translateY(-2px);filter:brightness(1.12)}
 #login-err{font-size:12px;color:var(--danger);margin-top:12px;min-height:14px}
 
+/* Alias de los puntos de leyenda viejos (se resuelven con el tema activo) */
+body{--s-teal:var(--m1);--s-orange:var(--m2);--s-violet:var(--m3)}
+
+/* ── Interruptor de pauta ── */
+.toolbar-group{display:flex;align-items:center;gap:12px;min-width:0;flex-wrap:wrap}
+.pauta-switch{display:inline-flex;align-items:center;gap:10px;padding:5px 16px 5px 5px;border-radius:999px;border:1px solid var(--border2);
+  background:var(--surface2);cursor:pointer;color:var(--head);text-align:left;font-family:inherit;
+  transition:background-color .3s,border-color .3s,box-shadow .3s}
+.pauta-switch:hover{border-color:var(--accent);box-shadow:0 8px 18px -10px rgba(31,58,95,.45)}
+.pauta-switch .sw{position:relative;flex-shrink:0;width:50px;height:28px;border-radius:999px;background:var(--c-pauta);
+  transition:background-color .45s var(--ease)}
+.pauta-switch .sw i{position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#FFFFFF;
+  box-shadow:0 2px 6px rgba(31,58,95,.35);transform:translateX(22px);transition:transform .55s var(--spring)}
+.pauta-switch[aria-checked="false"] .sw{background:var(--c-org)}
+.pauta-switch[aria-checked="false"] .sw i{transform:none}
+.pauta-switch .lbl{display:flex;flex-direction:column;line-height:1.2}
+.pauta-switch .lbl b{font-size:12.5px;font-weight:700}
+.pauta-switch .lbl small{font-size:10.5px;font-weight:500;color:var(--text3)}
+
+/* Avisos del modo "solo orgánico" */
+.modo-banner,.modo-nota{display:none;align-items:flex-start;gap:12px;margin:0 0 18px;padding:13px 16px;border-radius:16px;
+  background:var(--olive-soft);border:1px solid color-mix(in srgb,var(--olive) 60%,transparent);color:var(--text);font-size:13px;line-height:1.55}
+body.solo-organico .modo-banner,body.solo-organico .modo-nota{display:flex;animation:reveal .45s var(--ease) both}
+.modo-banner .mb-ico{font-size:20px;line-height:1.2}
+.modo-banner b,.modo-nota b{color:var(--head)}
+.np-badge{display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:700;color:var(--warning);background:var(--warning-soft);
+  padding:2px 8px;border-radius:999px;margin-left:4px;white-space:nowrap;vertical-align:middle;letter-spacing:0;text-transform:none}
+
+/* Barrita orgánico vs pauta (dos segmentos con etiqueta directa) */
+.split{margin-top:12px}
+.split-bar{display:flex;gap:2px;height:12px;border-radius:999px;overflow:hidden;background:var(--bg3)}
+.split-bar i{display:block;height:100%;transform-origin:left;animation:grow 1.2s var(--ease) both}
+.split-bar .s-org{background:var(--c-org)}
+.split-bar .s-pauta{background:var(--c-pauta);animation-delay:.15s}
+.split-lbl{display:flex;justify-content:space-between;gap:6px 12px;flex-wrap:wrap;margin-top:8px;font-size:11.5px;font-weight:600;color:var(--text2)}
+.split-lbl span{display:inline-flex;align-items:center;gap:6px}
+.split-lbl i{width:9px;height:9px;border-radius:3px;display:inline-block}
+.split-lbl .d-org{background:var(--c-org)}.split-lbl .d-pauta{background:var(--c-pauta)}
+.post-badges{display:flex;gap:6px;flex-wrap:wrap}
+.post-badge.pauta{background:var(--deep-soft);color:var(--head)}
+.post-split{margin-top:10px;font-size:11.5px;font-weight:600;color:var(--olive-ink);background:var(--olive-soft);border-radius:10px;padding:6px 10px}
+.hstat.is-org .hbar{background:#B3CC93}
+
 /* ── Movil ── */
 body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
 @media (max-width:900px){
@@ -556,6 +601,8 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
   .toolbar{padding:8px}
   .toolbar-label{display:none}
   .toolbar-right{flex:1 1 100%}
+  .toolbar-group{flex:1 1 100%}
+  .pauta-switch{flex:1 1 100%}
   .tabs-wrap{padding:0 16px}
   .content{padding:22px 16px 8px}
   .kpi-row,.delta-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
@@ -645,6 +692,11 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
 </header>
 <div class="toolbar-wrap">
   <div class="toolbar">
+    <button class="pauta-switch" id="pautaSwitch" type="button" role="switch" aria-checked="true"
+      title="Prende o apaga los datos que vienen de anuncios (pauta)">
+      <span class="sw"><i></i></span><span class="lbl"><b>📣 Con pauta</b><small>orgánico + anuncios</small></span>
+    </button>
+    <div class="toolbar-group">
     <span class="toolbar-label">Periodo</span>
     <div class="toolbar-right">
       <div class="range-toggle" id="rangeToggle">
@@ -659,6 +711,7 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
         <input type="date" id="rangeFrom"> <span style="color:var(--text3);font-size:12px">a</span> <input type="date" id="rangeTo">
       </div>
     </div>
+    </div>
   </div>
 </div>
 <div class="tabsbar">
@@ -666,6 +719,12 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
 </div>
 
 <div class="content">
+  <div class="modo-banner" id="modoBanner" role="status">
+    <span class="mb-ico">🌱</span>
+    <div><b>Estás viendo solo lo orgánico:</b> se quitó lo que viene de anuncios. Meta separa exacto las visualizaciones,
+      las reproducciones de video y los seguidores nuevos; las interacciones son un estimado (≈). Lo que Meta no separa
+      lleva la etiqueta <span class="np-badge">📣 incluye pauta</span>.</div>
+  </div>
 
   <div class="view" id="viewResumen">
     <details class="sec-block" id="guiaLectura">
@@ -679,6 +738,8 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
         <div class="guia-item"><span class="gi">🔥</span><div><b>Engagement / interacciones</b><span>Reacciones + comentarios + veces compartido. Mide qué tanto le interesa el contenido a la gente.</span></div></div>
         <div class="guia-item"><span class="gi">👁️</span><div><b>Visitas y alcance</b><span>Visitas = veces que abrieron la página de Facebook. Alcance (Instagram) = cuentas distintas que vieron el contenido.</span></div></div>
         <div class="guia-item"><span class="gi">💬</span><div><b>Chats sin leer</b><span>🟢 al día · 🟡 llegaron en las últimas 24 h · 🔴 llevan más de un día sin leerse. Se cuentan chats, no mensajes.</span></div></div>
+        <div class="guia-item"><span class="gi">🌱</span><div><b>Botón Pauta</b><span>Prendido: todo junto (orgánico + anuncios). Apagado: solo lo orgánico, lo que pasa sin pagar anuncios.</span></div></div>
+        <div class="guia-item"><span class="gi">📺</span><div><b>Visualizaciones</b><span>Veces que el contenido de la página apareció en la pantalla de alguien. Meta las separa exacto en orgánicas y de anuncios.</span></div></div>
       </div>
     </details>
 
@@ -710,24 +771,26 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
         <div class="chart-canvas-wrap"><canvas id="chartCompSeguidores"></canvas></div>
       </div>
       <div class="chart-card">
-        <div class="chart-title"><span class="legend-dot" style="background:var(--s-orange)"></span>Engagement (28 días) por página</div>
+        <div class="chart-title"><span class="legend-dot" style="background:var(--s-orange)"></span><span id="tituloCompEng">Engagement (28 días) por página</span></div>
         <div class="chart-canvas-wrap"><canvas id="chartCompEngagement"></canvas></div>
       </div>
     </div>
     <div class="sec-title reveal">📋 Comparativa completa</div>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Página</th><th>Categoría</th><th>⭐ Calificación</th><th>Seguidores FB</th><th>Engagement FB 28d</th><th>Visitas 28d</th><th>Video views 28d</th><th>Conversaciones 28d</th><th>Chats sin leer</th><th>📸 Seguidores IG</th><th>📸 Engagement IG 28d</th></tr></thead>
+        <thead><tr id="resumenHead"><th>Página</th><th>Categoría</th><th>⭐ Calificación</th><th>Seguidores FB</th><th>Engagement FB 28d</th><th>Visitas 28d</th><th>Video views 28d</th><th>Conversaciones 28d</th><th>Chats sin leer</th><th>📸 Seguidores IG</th><th>📸 Engagement IG 28d</th></tr></thead>
         <tbody id="resumenBody"></tbody>
       </table>
     </div>
   </div>
 
   <div class="view" id="viewYoutube">
+    <div class="modo-nota">▶️ <div><b>En YouTube todo es orgánico:</b> no hay anuncios conectados a este dashboard.</div></div>
     <div id="youtubeContent"></div>
   </div>
 
   <div class="view" id="viewTiktok">
+    <div class="modo-nota">🎵 <div><b>En TikTok todo es orgánico:</b> no hay anuncios conectados a este dashboard.</div></div>
     <div id="tiktokContent"></div>
   </div>
 
@@ -759,11 +822,11 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
       <summary class="sec-title" id="tendenciaTitle">📈 Tendencia 30 días</summary>
       <div class="charts-row">
         <div class="chart-card">
-          <div class="chart-title"><span class="legend-dot" style="background:var(--s-teal)"></span>Engagement diario <span class="sec-hint">reacciones + comentarios + shares</span></div>
+          <div class="chart-title"><span class="legend-dot" id="dotChartEng" style="background:var(--s-teal)"></span><span id="tituloChartEng">Engagement diario <span class="sec-hint">reacciones + comentarios + shares</span></span></div>
           <div class="chart-canvas-wrap"><canvas id="chartEngagement"></canvas></div>
         </div>
         <div class="chart-card">
-          <div class="chart-title"><span class="legend-dot" style="background:var(--s-orange)"></span>Visitas a la página por día</div>
+          <div class="chart-title"><span class="legend-dot" style="background:var(--s-orange)"></span><span id="tituloChartViews">Visitas a la página por día</span></div>
           <div class="chart-canvas-wrap"><canvas id="chartViews"></canvas></div>
         </div>
       </div>
@@ -773,11 +836,11 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
       <summary class="sec-title">⏰ Mejor momento para publicar</summary>
       <div class="rank-grid">
         <div class="chart-card">
-          <div class="chart-title">Por día de la semana (engagement promedio/post)</div>
+          <div class="chart-title" id="tituloRankDia">Por día de la semana (engagement promedio/post)</div>
           <div class="rank-list" id="rankDia"></div>
         </div>
         <div class="chart-card">
-          <div class="chart-title">Por franja horaria (hora CDMX aprox.)</div>
+          <div class="chart-title" id="tituloRankFranja">Por franja horaria (hora CDMX aprox.)</div>
           <div class="rank-list" id="rankFranja"></div>
         </div>
       </div>
@@ -787,13 +850,13 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
     <details class="sec-block">
       <summary class="sec-title">🎯 Qué contenido funciona mejor</summary>
       <div class="chart-card">
-        <div class="chart-title">Engagement promedio por tema de la publicación</div>
+        <div class="chart-title" id="tituloTemas">Engagement promedio por tema de la publicación</div>
         <div class="rank-list" id="rankTemas"></div>
       </div>
     </details>
 
     <details class="sec-block">
-      <summary class="sec-title">💬 Mensajes (Messenger)</summary>
+      <summary class="sec-title">💬 Mensajes (Messenger) <span id="npMensajes"></span></summary>
       <div class="mini-stats" id="mensajesStats"></div>
       <div class="chart-card">
         <div class="chart-title"><span class="legend-dot" style="background:var(--s-violet)"></span>Conversaciones nuevas por día</div>
@@ -802,7 +865,7 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
     </details>
 
     <details class="sec-block">
-      <summary class="sec-title">😍 Reacciones por tipo <span class="sec-hint">· 28 días</span></summary>
+      <summary class="sec-title">😍 Reacciones por tipo <span class="sec-hint">· 28 días</span> <span id="npReacciones"></span></summary>
       <div class="chart-card" style="max-width:520px">
         <div class="reaction-list" id="reactionList"></div>
       </div>
@@ -816,6 +879,7 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
     </div><!-- /panelFB -->
 
     <div id="panelIG" style="display:none">
+      <div class="modo-nota">📸 <div><b>Instagram no separa lo orgánico de la pauta.</b> Estos números incluyen lo que viene de anuncios.</div></div>
       <div class="kpi-row" id="kpiRowIG"></div>
 
       <details class="sec-block" open>
@@ -1013,6 +1077,95 @@ function etiquetaRango(){
 }
 const ORDEN_PAGINAS = ["equilibrio_total","edomex","beth","autonomia","mexico","queretaro","pachuca","tepeyac","cuautla","reclutamiento","mexico_2","pachuca_2"];
 let activa = "resumen";
+
+/* ═══ ORGÁNICO vs PAUTA ═══
+   Interruptor "Pauta": prendido = orgánico + anuncios (lo que reporta Meta);
+   apagado = solo orgánico. Meta separa exacto las visualizaciones del
+   contenido, las reproducciones de video y los seguidores nuevos; las
+   interacciones se estiman por publicación (a cada post se le restan las de
+   sus anuncios, ver pauta_posts.py). Lo que Meta no separa (visitas, horas de
+   video, Messenger, Instagram) se marca "incluye pauta". */
+let conPauta = true;
+try{ conPauta = localStorage.getItem('fbdash_pauta') !== '0'; }catch(e){}
+const NO_SEP = '<span class="np-badge" title="Meta no separa este dato entre orgánico y pauta">📣 incluye pauta</span>';
+function badgeNoSep(){ return conPauta ? '' : NO_SEP; }
+
+function serieSuma(a, b){
+  const m = {};
+  (a||[]).forEach(d => { m[d.fecha] = (m[d.fecha]||0) + (d.valor||0); });
+  (b||[]).forEach(d => { m[d.fecha] = (m[d.fecha]||0) + (d.valor||0); });
+  return Object.keys(m).sort().map(f => ({fecha:f, valor:m[f]}));
+}
+function serieVisualizaciones(p, modo){
+  if(modo === 'org') return p.vistas_contenido_organico_diario || [];
+  if(modo === 'pauta') return p.vistas_contenido_pauta_diario || [];
+  return serieSuma(p.vistas_contenido_organico_diario, p.vistas_contenido_pauta_diario);
+}
+function serieVideo(p){ return conPauta ? (p.video_views_diario || []) : (p.video_views_organico_diario || []); }
+function serieSegNuevos(p, modo){
+  if(modo === 'org') return p.seguidores_nuevos_organico_diario || [];
+  return serieSuma(p.seguidores_nuevos_organico_diario, p.seguidores_nuevos_pauta_diario);
+}
+function ultimos28(arr){
+  const lim = new Date(); lim.setDate(lim.getDate() - 28);
+  const f = lim.toISOString().slice(0,10);
+  return (arr||[]).filter(d => d.fecha > f).reduce((a,d) => a + (d.valor||0), 0);
+}
+// ≈ interacciones organicas de las publicaciones hechas en el periodo (o el anterior)
+function interaccionesOrgRango(p, anterior){
+  const lista = p.interacciones_por_post;
+  if(!lista) return null;
+  const [desde, hasta] = anterior ? rangoFechasAnterior() : rangoFechas();
+  return lista.filter(x => x.fecha && x.fecha >= desde && x.fecha <= hasta).reduce((a,x) => a + (x.organico||0), 0);
+}
+function interaccionesOrgUlt28(p){
+  const lista = p.interacciones_por_post;
+  if(!lista) return null;
+  const lim = new Date(); lim.setDate(lim.getDate() - 28);
+  const f = lim.toISOString().slice(0,10);
+  return lista.filter(x => x.fecha && x.fecha > f).reduce((a,x) => a + (x.organico||0), 0);
+}
+function pct(a, b){ return b ? a / b * 100 : 0; }
+function fmtPct(x){ return x > 0 && x < 1 ? x.toFixed(1) + '%' : Math.round(x) + '%'; }
+
+/* Barrita orgánico vs pauta: dos segmentos con etiqueta directa */
+function barraSplit(org, total){
+  if(!total) return '';
+  const pauta = Math.max(total - org, 0);
+  const po = pct(org, total);
+  const ancho = org ? Math.max(po, 1.5) : 0;   // que lo organico se alcance a ver aunque sea poquito
+  return `<div class="split" role="img" aria-label="${fmt(org)} orgánico y ${fmt(pauta)} de pauta">
+      <div class="split-bar"><i class="s-org" style="width:${ancho.toFixed(1)}%"></i><i class="s-pauta" style="width:${(100 - ancho).toFixed(1)}%"></i></div>
+      <div class="split-lbl"><span><i class="d-org"></i>🌱 ${fmt(org)} orgánico (${fmtPct(po)})</span><span><i class="d-pauta"></i>📣 ${fmt(pauta)} de anuncios</span></div>
+    </div>`;
+}
+
+function engPost(post, org){
+  const o = org && post.organico ? post.organico : post;
+  return (o.reacciones||0) + (o.comentarios||0) + (o.shares||0);
+}
+function splitPost(post){
+  if(!post.organico) return '';
+  if(!post.con_pauta) return '<div class="post-split">🌱 Todo orgánico: esta publicación no se usó en anuncios</div>';
+  const org = engPost(post, true), tot = engPost(post, false);
+  return `<div class="post-split">🌱 ≈ ${fmt(org)} interacciones orgánicas · 📣 ${fmt(Math.max(tot - org, 0))} de anuncios</div>`;
+}
+
+function pintarSwitchPauta(){
+  document.body.classList.toggle('solo-organico', !conPauta);
+  const b = document.getElementById('pautaSwitch');
+  if(!b) return;
+  b.setAttribute('aria-checked', conPauta ? 'true' : 'false');
+  b.querySelector('.lbl').innerHTML = conPauta
+    ? '<b>📣 Con pauta</b><small>orgánico + anuncios</small>'
+    : '<b>🌱 Solo orgánico</b><small>sin anuncios</small>';
+}
+document.addEventListener('click', function(e){
+  if(!e.target.closest('#pautaSwitch')) return;
+  conPauta = !conPauta;
+  try{ localStorage.setItem('fbdash_pauta', conPauta ? '1' : '0'); }catch(err){}
+  renderAll();
+});
 let platform = "facebook";
 let charts = {};
 
@@ -1311,7 +1464,7 @@ function totalesRedes(){
   const segTt = cuentasTt.reduce((a,c)=>a+(c.seguidores||0),0);
   return {
     segFB, segIG, segYt, segTt, segTotal: segFB + segIG + segYt + segTt,
-    engFbIg: RESUMEN.reduce((a,b)=>a+(b.engagement_28d||0)+(b.ig_engagement_28d||0),0),
+    engFbIg: Object.values(DATA).reduce((a,p)=>a+ultimos28(p.engagement_diario),0) + RESUMEN.reduce((a,b)=>a+(b.ig_engagement_28d||0),0),
     videosYt: canalesYt.reduce((a,c)=>a+(c.video_count||0),0),
     videosTt: cuentasTt.reduce((a,c)=>a+(c.video_count||0),0),
     nFb: RESUMEN.length, nIg: RESUMEN.filter(r=>r.ig_seguidores!=null).length,
@@ -1443,14 +1596,21 @@ function renderHero(){
   const noLeidos = RESUMEN.reduce((a,b)=>a+(b.no_leidos||0),0);
   const rojos = RESUMEN.map(estadoMessenger).filter(e => e.cls === 'st-bad').length;
   const atrasadas = filasPublicacion().reduce((a,f) => a + f.redes.filter(r => r.dias == null || r.dias >= 5).length, 0);
-  const firma = [RAW.generado, t.segTotal, t.engFbIg, noLeidos, rojos, atrasadas].join('|');
+  const paginas = Object.values(DATA);
+  const visOrg = paginas.reduce((a,p) => a + ultimos28(serieVisualizaciones(p, 'org')), 0);
+  const visTot = paginas.reduce((a,p) => a + ultimos28(serieVisualizaciones(p, 'total')), 0);
+  const firma = [RAW.generado, conPauta, t.segTotal, t.engFbIg, noLeidos, rojos, atrasadas, visOrg].join('|');
   if(firma === heroFirma) return;   // no repetir la animacion en cada cambio de pestaña
   heroFirma = firma;
+  const stat2 = conPauta
+    ? `<div class="hstat"><span class="hv">${numSpan(t.engFbIg)}</span><span class="hl">Interacciones en Facebook + Instagram</span>
+        <span class="hs">Últimos 28 días: reacciones, comentarios y compartidos</span><i class="hbar"></i></div>`
+    : `<div class="hstat is-org"><span class="hv">${numSpan(visOrg)}</span><span class="hl">🌱 Visualizaciones orgánicas en Facebook</span>
+        <span class="hs">Últimos 28 días · ${fmtPct(pct(visOrg, visTot))} de las ${fmt(visTot)} visualizaciones (el resto es pauta)</span><i class="hbar"></i></div>`;
   wrap.innerHTML = `
     <div class="hstat"><span class="hv">${numSpan(t.segTotal)}</span><span class="hl">Seguidores en todas las redes</span>
       <span class="hs">📘 ${fmt(t.segFB)} · 📸 ${fmt(t.segIG)} · ▶️ ${fmt(t.segYt)} · 🎵 ${fmt(t.segTt)}</span><i class="hbar"></i></div>
-    <div class="hstat"><span class="hv">${numSpan(t.engFbIg)}</span><span class="hl">Interacciones en Facebook + Instagram</span>
-      <span class="hs">Últimos 28 días: reacciones, comentarios y compartidos</span><i class="hbar"></i></div>
+    ${stat2}
     <div class="hstat ${rojos ? 'is-bad' : (noLeidos ? 'is-warn' : '')}"><span class="hv">${numSpan(noLeidos)}</span><span class="hl">Chats de Messenger sin leer</span>
       <span class="hs">${noLeidos ? (rojos ? `🔴 ${rojos} página${rojos===1?'':'s'} con chats de más de un día` : '🟡 Todos llegaron en las últimas 24 h') : '🟢 Todo al día'}</span><i class="hbar"></i></div>
     <div class="hstat ${atrasadas ? 'is-bad' : ''}"><span class="hv">${numSpan(atrasadas)}</span><span class="hl">Cuentas con 5 días o más sin publicar</span>
@@ -1509,14 +1669,33 @@ document.addEventListener('toggle', e => {
 function renderResumen(){
   renderNovedades();
   renderKpiGlobal();
+  const paginas = Object.values(DATA);
+  const sumaP = (fn) => paginas.reduce((a,p) => a + (fn(p) || 0), 0);
   const totalSeguidores = RESUMEN.reduce((a,b)=>a+b.seguidores,0);
-  const paginasParaSuma = Object.values(DATA);
-  const totalEng = paginasParaSuma.reduce((a,p)=>a+sum(ultimosNDias(p.engagement_diario)),0);
-  const totalViews = paginasParaSuma.reduce((a,p)=>a+sum(ultimosNDias(p.vistas_diario)),0);
-  const totalVideoViews = paginasParaSuma.reduce((a,p)=>a+sum(ultimosNDias(p.video_views_diario)),0);
-  const totalEngPrev = paginasParaSuma.reduce((a,p)=>a+sum(periodoAnterior(p.engagement_diario)),0);
-  const totalViewsPrev = paginasParaSuma.reduce((a,p)=>a+sum(periodoAnterior(p.vistas_diario)),0);
-  const totalVideoViewsPrev = paginasParaSuma.reduce((a,p)=>a+sum(periodoAnterior(p.video_views_diario)),0);
+  const totalViews = sumaP(p => sum(ultimosNDias(p.vistas_diario)));
+  const totalViewsPrev = sumaP(p => sum(periodoAnterior(p.vistas_diario)));
+  const totalVideo = sumaP(p => sum(ultimosNDias(serieVideo(p))));
+  const totalVideoPrev = sumaP(p => sum(periodoAnterior(serieVideo(p))));
+  const videoOrg = sumaP(p => sum(ultimosNDias(p.video_views_organico_diario)));
+  const videoTot = sumaP(p => sum(ultimosNDias(p.video_views_diario)));
+  const visOrg = sumaP(p => sum(ultimosNDias(serieVisualizaciones(p,'org'))));
+  const visOrgPrev = sumaP(p => sum(periodoAnterior(serieVisualizaciones(p,'org'))));
+  const visTot = sumaP(p => sum(ultimosNDias(serieVisualizaciones(p,'total'))));
+  const visTotPrev = sumaP(p => sum(periodoAnterior(serieVisualizaciones(p,'total'))));
+  const snOrg = sumaP(p => sum(ultimosNDias(serieSegNuevos(p,'org'))));
+  const snTot = sumaP(p => sum(ultimosNDias(serieSegNuevos(p,'total'))));
+  let engVal, engPrev, engLabel, engSub;
+  if(conPauta){
+    engVal = sumaP(p => sum(ultimosNDias(p.engagement_diario)));
+    engPrev = sumaP(p => sum(periodoAnterior(p.engagement_diario)));
+    engLabel = `Engagement total (${etiquetaRango()})`;
+    engSub = deltaPeriodoTexto(engVal, engPrev);
+  } else {
+    engVal = sumaP(p => interaccionesOrgRango(p));
+    engPrev = sumaP(p => interaccionesOrgRango(p, true));
+    engLabel = '≈ Interacciones orgánicas (publicaciones del periodo)';
+    engSub = `Estimado: a cada publicación se le restan las interacciones de sus anuncios<br>${deltaPeriodoTexto(engVal, engPrev)}`;
+  }
   const totalConversaciones = RESUMEN.reduce((a,b)=>a+(b.conversaciones_28d||0),0);
   const totalNoLeidos = RESUMEN.reduce((a,b)=>a+(b.no_leidos||0),0);
   const ratings = RESUMEN.filter(r=>r.rating>0).map(r=>r.rating);
@@ -1524,32 +1703,41 @@ function renderResumen(){
   const totalIgSeguidores = RESUMEN.reduce((a,b)=>a+(b.ig_seguidores||0),0);
   const totalIgEngagement = RESUMEN.reduce((a,b)=>a+(b.ig_engagement_28d||0),0);
 
-  const paginasArr = Object.values(DATA);
-  renderHoyAyer('hoyAyerResumen', [
-    {label:'Engagement', icon:'🔥', arr:null, hv:hoyVsAyerAgregado(paginasArr,'engagement_diario')},
-    {label:'Visitas a la página', icon:'👁️', arr:null, hv:hoyVsAyerAgregado(paginasArr,'vistas_diario')},
-    {label:'Reproducciones de video', icon:'🎬', arr:null, hv:hoyVsAyerAgregado(paginasArr,'video_views_diario')},
+  renderHoyAyer('hoyAyerResumen', conPauta ? [
+    {label:'Engagement', icon:'🔥', arr:null, hv:hoyVsAyerAgregado(paginas,'engagement_diario')},
+    {label:'Visitas a la página', icon:'👁️', arr:null, hv:hoyVsAyerAgregado(paginas,'vistas_diario')},
+    {label:'Reproducciones de video', icon:'🎬', arr:null, hv:hoyVsAyerAgregado(paginas,'video_views_diario')},
+  ] : [
+    {label:'Visualizaciones orgánicas', icon:'🌱', arr:null, hv:hoyVsAyerAgregado(paginas,'vistas_contenido_organico_diario')},
+    {label:'Visitas a la página ' + NO_SEP, icon:'👁️', arr:null, hv:hoyVsAyerAgregado(paginas,'vistas_diario')},
+    {label:'Reproducciones orgánicas', icon:'🎬', arr:null, hv:hoyVsAyerAgregado(paginas,'video_views_organico_diario')},
   ]);
 
   document.getElementById('resumenKpiRow').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">👥</span>
       <div class="kpi-val">${numSpan(totalSeguidores)}</div>
-      <div class="kpi-label">Seguidores en Facebook (${RESUMEN.length} páginas)</div></div>
+      <div class="kpi-label">Seguidores en Facebook (${RESUMEN.length} páginas)</div>
+      <div class="kpi-sub">${conPauta ? `+${fmt(snTot)} nuevos en ${etiquetaRango()} · 🌱 ${fmt(snOrg)} orgánicos` : `🌱 +${fmt(snOrg)} nuevos orgánicos en ${etiquetaRango()} (de ${fmt(snTot)})`}</div></div>
+    <div class="kpi-card c3 wide"><span class="kpi-icon">📺</span>
+      <div class="kpi-val">${numSpan(conPauta ? visTot : visOrg)}</div>
+      <div class="kpi-label">${conPauta ? 'Visualizaciones del contenido' : '🌱 Visualizaciones orgánicas'} (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(conPauta ? visTot : visOrg, conPauta ? visTotPrev : visOrgPrev)}</div>
+      ${barraSplit(visOrg, visTot)}</div>
     <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
-      <div class="kpi-val">${numSpan(totalEng)}</div>
-      <div class="kpi-label">Engagement total (${etiquetaRango()})</div>
-      <div class="kpi-sub">${deltaPeriodoTexto(totalEng,totalEngPrev)}</div></div>
+      <div class="kpi-val">${numSpan(engVal)}</div>
+      <div class="kpi-label">${engLabel}</div>
+      <div class="kpi-sub">${engSub}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
       <div class="kpi-val">${numSpan(totalViews)}</div>
-      <div class="kpi-label">Visitas totales (${etiquetaRango()})</div>
+      <div class="kpi-label">Visitas totales (${etiquetaRango()}) ${badgeNoSep()}</div>
       <div class="kpi-sub">${deltaPeriodoTexto(totalViews,totalViewsPrev)}</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">🎬</span>
-      <div class="kpi-val">${numSpan(totalVideoViews)}</div>
-      <div class="kpi-label">Video views totales (${etiquetaRango()})</div>
-      <div class="kpi-sub">${deltaPeriodoTexto(totalVideoViews,totalVideoViewsPrev)}</div></div>
+      <div class="kpi-val">${numSpan(totalVideo)}</div>
+      <div class="kpi-label">${conPauta ? 'Video views totales' : '🌱 Reproducciones orgánicas'} (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(totalVideo,totalVideoPrev)}${conPauta && videoTot ? `<br>🌱 ${fmt(videoOrg)} orgánicas (${fmtPct(pct(videoOrg, videoTot))})` : ''}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">💬</span>
       <div class="kpi-val">${numSpan(totalConversaciones)}</div>
-      <div class="kpi-label">Conversaciones Messenger (28 días)</div></div>
+      <div class="kpi-label">Conversaciones Messenger (28 días) ${badgeNoSep()}</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">💬</span>
       <div class="kpi-val">${numSpan(totalNoLeidos)}</div>
       <div class="kpi-label">Chats de Messenger sin leer (ahora)</div>
@@ -1562,7 +1750,7 @@ function renderResumen(){
       <div class="kpi-label">Seguidores Instagram (${RESUMEN.filter(r=>r.ig_seguidores!=null).length} cuentas)</div></div>
     <div class="kpi-card c2"><span class="kpi-icon">📸</span>
       <div class="kpi-val">${numSpan(totalIgEngagement)}</div>
-      <div class="kpi-label">Engagement Instagram (28 días)</div></div>
+      <div class="kpi-label">Engagement Instagram (28 días) ${badgeNoSep()}</div></div>
   `;
 
   renderPubPanel();
@@ -1606,11 +1794,16 @@ function renderResumen(){
       maintainAspectRatio:false}
   });
 
-  const ordenEng = RESUMEN.slice().sort((a,b)=>b.engagement_28d-a.engagement_28d);
+  // Segunda grafica: engagement 28 dias (con pauta) o visualizaciones organicas 28 dias.
+  // Se calcula de la serie diaria: el resumen sumaba todo el historial (~6 meses).
+  const valor2 = (r) => conPauta ? ultimos28((DATA[r.key] || {}).engagement_diario) : ultimos28(serieVisualizaciones(DATA[r.key] || {}, 'org'));
+  document.getElementById('tituloCompEng').textContent = conPauta
+    ? 'Engagement (28 días) por página' : '🌱 Visualizaciones orgánicas (28 días) por página';
+  const ordenEng = RESUMEN.slice().sort((a,b)=>valor2(b)-valor2(a));
   destroyChart('compEng');
   charts.compEng = new Chart(document.getElementById('chartCompEngagement'), {
     type:'bar',
-    data:{labels:ordenEng.map(r=>r.nombre), datasets:[{data:ordenEng.map(r=>r.engagement_28d), backgroundColor:CC.orange,
+    data:{labels:ordenEng.map(r=>r.nombre), datasets:[{data:ordenEng.map(valor2), backgroundColor:conPauta ? CC.orange : CC.violet,
       maxBarThickness:28}]},
     options:{indexAxis:'y', animation:animBarras(), plugins:{legend:{display:false}},
       scales:{x:{grid:{color:CC.grid},ticks:{color:CC.tick,font:{size:10}}},
@@ -1618,21 +1811,33 @@ function renderResumen(){
       maintainAspectRatio:false}
   });
 
-  document.getElementById('resumenBody').innerHTML = orden.map(r => `
+  document.getElementById('resumenHead').innerHTML = `<th>Página</th><th>Categoría</th><th>⭐ Calificación</th><th>Seguidores FB</th>
+    <th>${conPauta ? 'Engagement FB 28d' : '≈ Interacc. orgánicas 28d'}</th>
+    <th>${conPauta ? 'Visualizaciones 28d' : '🌱 Visualizaciones 28d'}</th>
+    <th>Visitas 28d${conPauta ? '' : ' 📣'}</th>
+    <th>${conPauta ? 'Video views 28d' : '🌱 Video views 28d'}</th>
+    <th>Conversaciones 28d</th><th>Chats sin leer</th><th>📸 Seguidores IG</th><th>📸 Engagement IG 28d${conPauta ? '' : ' 📣'}</th>`;
+  document.getElementById('resumenBody').innerHTML = orden.map(r => {
+    const p = DATA[r.key] || {};
+    const eng = conPauta ? ultimos28(p.engagement_diario) : interaccionesOrgUlt28(p);
+    const vis = ultimos28(serieVisualizaciones(p, conPauta ? 'total' : 'org'));
+    const vid = ultimos28(conPauta ? p.video_views_diario : p.video_views_organico_diario);
+    return `
     <tr>
       <td><div class="cell-page"><span class="page-avatar">${iniciales(r.nombre)}</span>${r.nombre}</div></td>
-      <td>${(DATA[r.key]&&DATA[r.key].categoria)||'—'}</td>
+      <td>${p.categoria || '—'}</td>
       <td>${r.rating>0 ? '⭐ '+r.rating.toFixed(1) : '<span style="color:var(--text3)">Sin reseñas</span>'}</td>
       <td class="cell-num">${fmt(r.seguidores)}</td>
-      <td>${fmt(r.engagement_28d)}</td>
-      <td>${fmt(r.vistas_28d)}</td>
-      <td>${fmt(r.video_views_28d)}</td>
+      <td>${eng == null ? '—' : (conPauta ? '' : '≈ ') + fmt(eng)}</td>
+      <td>${fmt(vis)}</td>
+      <td>${fmt(ultimos28(p.vistas_diario))}</td>
+      <td>${fmt(vid)}</td>
       <td>${fmt(r.conversaciones_28d)}</td>
       <td>${(e => `<span class="st-pill ${e.cls}">${e.ico} ${e.n ? fmt(e.n) : e.txt}</span>`)(estadoMessenger(r))}</td>
       <td class="cell-num">${r.ig_seguidores!=null ? fmt(r.ig_seguidores) : '—'}</td>
       <td>${r.ig_engagement_28d!=null ? fmt(r.ig_engagement_28d) : '—'}</td>
-    </tr>
-  `).join('') || `<tr><td colspan="11" class="empty-note">Sin datos</td></tr>`;
+    </tr>`;
+  }).join('') || `<tr><td colspan="12" class="empty-note">Sin datos</td></tr>`;
 }
 
 function renderQuejas(){
@@ -1851,55 +2056,68 @@ function renderTiktok(){
 
 /* ═══ VISTA POR PÁGINA ═══ */
 function renderKpis(p){
-  const eng28 = sum(ultimosNDias(p.engagement_diario));
-  const views28 = sum(ultimosNDias(p.vistas_diario));
-  const videoViews28 = sum(ultimosNDias(p.video_views_diario));
-  const videoHoras28 = sum(ultimosNDias(p.video_view_time_horas_diario));
-  const engPrev = sum(periodoAnterior(p.engagement_diario));
-  const viewsPrev = sum(periodoAnterior(p.vistas_diario));
-  const videoViewsPrev = sum(periodoAnterior(p.video_views_diario));
+  const eng = conPauta ? sum(ultimosNDias(p.engagement_diario)) : interaccionesOrgRango(p);
+  const engPrev = conPauta ? sum(periodoAnterior(p.engagement_diario)) : interaccionesOrgRango(p, true);
+  const views = sum(ultimosNDias(p.vistas_diario)), viewsPrev = sum(periodoAnterior(p.vistas_diario));
+  const video = sum(ultimosNDias(serieVideo(p))), videoPrev = sum(periodoAnterior(serieVideo(p)));
+  const videoOrg = sum(ultimosNDias(p.video_views_organico_diario)), videoTot = sum(ultimosNDias(p.video_views_diario));
+  const horas = sum(ultimosNDias(p.video_view_time_horas_diario));
+  const visOrg = sum(ultimosNDias(serieVisualizaciones(p,'org'))), visTot = sum(ultimosNDias(serieVisualizaciones(p,'total')));
+  const visOrgPrev = sum(periodoAnterior(serieVisualizaciones(p,'org'))), visTotPrev = sum(periodoAnterior(serieVisualizaciones(p,'total')));
+  const snOrg = sum(ultimosNDias(serieSegNuevos(p,'org'))), snTot = sum(ultimosNDias(serieSegNuevos(p,'total')));
   const cal = p.calificacion || {};
   document.getElementById('kpiRow').innerHTML = `
     <div class="kpi-card c1"><span class="kpi-icon">👥</span>
       <div class="kpi-val">${numSpan(p.seguidores)}</div>
       <div class="kpi-label">Seguidores</div>
-      <div class="kpi-sub">${p.categoria||''}${cal.rating>0?` · ⭐ ${cal.rating.toFixed(1)}${cal.rating_count?` (${cal.rating_count} reseñas)`:''}`:''}</div></div>
+      <div class="kpi-sub">${conPauta ? `+${fmt(snTot)} nuevos en ${etiquetaRango()} · 🌱 ${fmt(snOrg)} orgánicos` : `🌱 +${fmt(snOrg)} nuevos orgánicos en ${etiquetaRango()} (de ${fmt(snTot)})`}<br>${p.categoria||''}${cal.rating>0?` · ⭐ ${cal.rating.toFixed(1)}`:''}</div></div>
+    <div class="kpi-card c3 wide"><span class="kpi-icon">📺</span>
+      <div class="kpi-val">${numSpan(conPauta ? visTot : visOrg)}</div>
+      <div class="kpi-label">${conPauta ? 'Visualizaciones del contenido' : '🌱 Visualizaciones orgánicas'} (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(conPauta ? visTot : visOrg, conPauta ? visTotPrev : visOrgPrev)}</div>
+      ${barraSplit(visOrg, visTot)}</div>
     <div class="kpi-card c2"><span class="kpi-icon">🔥</span>
-      <div class="kpi-val">${numSpan(eng28)}</div>
-      <div class="kpi-label">Engagement (${etiquetaRango()})</div>
-      <div class="kpi-sub">Reacciones + comentarios + shares<br>${deltaPeriodoTexto(eng28,engPrev)}</div></div>
+      <div class="kpi-val">${eng == null ? '—' : numSpan(eng)}</div>
+      <div class="kpi-label">${conPauta ? `Engagement (${etiquetaRango()})` : '≈ Interacciones orgánicas (publicaciones del periodo)'}</div>
+      <div class="kpi-sub">${conPauta ? 'Reacciones + comentarios + shares' : (eng == null ? 'Aún sin datos separados' : 'Estimado: a cada publicación se le restan las interacciones de sus anuncios')}${eng == null ? '' : '<br>' + deltaPeriodoTexto(eng, engPrev)}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">👁️</span>
-      <div class="kpi-val">${numSpan(views28)}</div>
-      <div class="kpi-label">Visitas a la página (${etiquetaRango()})</div>
-      <div class="kpi-sub">${deltaPeriodoTexto(views28,viewsPrev)}</div></div>
+      <div class="kpi-val">${numSpan(views)}</div>
+      <div class="kpi-label">Visitas a la página (${etiquetaRango()}) ${badgeNoSep()}</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(views,viewsPrev)}</div></div>
     <div class="kpi-card c4"><span class="kpi-icon">🎬</span>
-      <div class="kpi-val">${numSpan(videoViews28)}</div>
-      <div class="kpi-label">Reproducciones de video (${etiquetaRango()})</div>
-      <div class="kpi-sub">${deltaPeriodoTexto(videoViews28,videoViewsPrev)}</div></div>
+      <div class="kpi-val">${numSpan(video)}</div>
+      <div class="kpi-label">${conPauta ? 'Reproducciones de video' : '🌱 Reproducciones orgánicas'} (${etiquetaRango()})</div>
+      <div class="kpi-sub">${deltaPeriodoTexto(video,videoPrev)}${conPauta && videoTot ? `<br>🌱 ${fmt(videoOrg)} orgánicas (${fmtPct(pct(videoOrg, videoTot))})` : ''}</div></div>
     <div class="kpi-card c3"><span class="kpi-icon">🕒</span>
-      <div class="kpi-val">${numSpan(videoHoras28)}</div>
-      <div class="kpi-label">Horas de video vistas (${etiquetaRango()})</div></div>
+      <div class="kpi-val">${numSpan(Math.round(horas))}</div>
+      <div class="kpi-label">Horas de video vistas (${etiquetaRango()}) ${badgeNoSep()}</div></div>
   `;
 }
 
 function renderCharts(p){
-  const eng = sinHoyParcial(ultimosNDias(p.engagement_diario));
+  const serie1 = sinHoyParcial(ultimosNDias(conPauta ? p.engagement_diario : p.vistas_contenido_organico_diario));
   const views = sinHoyParcial(ultimosNDias(p.vistas_diario));
   const tt = document.getElementById('tendenciaTitle');
   if(tt) tt.textContent = `📈 Tendencia — ${etiquetaRango()}`;
+  document.getElementById('tituloChartEng').innerHTML = conPauta
+    ? 'Engagement diario <span class="sec-hint">reacciones + comentarios + shares</span>'
+    : '🌱 Visualizaciones orgánicas por día <span class="sec-hint">veces que se vio tu contenido sin anuncios</span>';
+  document.getElementById('tituloChartViews').innerHTML = 'Visitas a la página por día ' + badgeNoSep();
   const CC = chartColors();
+  const c1 = conPauta ? CC.teal : CC.violet;
+  document.getElementById('dotChartEng').style.background = c1;
 
   destroyChart('eng');
   const engCanvas = document.getElementById('chartEngagement');
   charts.eng = new Chart(engCanvas, {
     type:'line',
-    data:{labels:eng.map(d=>d.fecha.slice(5)), datasets:[{
-      data:eng.map(d=>d.valor), borderColor:CC.teal, backgroundColor:fillGradient(engCanvas,CC.teal),
-      borderWidth:2, pointRadius:0, pointHoverRadius:5, pointHoverBackgroundColor:CC.teal,
+    data:{labels:serie1.map(d=>d.fecha.slice(5)), datasets:[{
+      data:serie1.map(d=>d.valor), borderColor:c1, backgroundColor:fillGradient(engCanvas,c1),
+      borderWidth:2, pointRadius:0, pointHoverRadius:5, pointHoverBackgroundColor:c1,
       pointHoverBorderColor:'#fff', pointHoverBorderWidth:2, fill:true, tension:.35
     }]},
     options:{
-      animation:animLinea(eng.length),
+      animation:animLinea(serie1.length),
       interaction:{intersect:false, mode:'index'},
       plugins:{legend:{display:false}},
       scales:{
@@ -1950,20 +2168,21 @@ function renderSeguidoresGrowth(p){
 }
 
 function renderComparativaDiaria(p){
-  renderHoyAyer('hoyAyerRow', [
+  const campos = conPauta ? [
     {label:'Engagement', icon:'🔥', arr:p.engagement_diario},
     {label:'Visitas a la página', icon:'👁️', arr:p.vistas_diario},
     {label:'Reproducciones de video', icon:'🎬', arr:p.video_views_diario},
     {label:'Conversaciones Messenger', icon:'💬', arr:(p.mensajes||{}).serie_diaria},
-  ]);
+  ] : [
+    {label:'Visualizaciones orgánicas', icon:'🌱', arr:p.vistas_contenido_organico_diario},
+    {label:'Visitas a la página ' + NO_SEP, icon:'👁️', arr:p.vistas_diario},
+    {label:'Reproducciones orgánicas', icon:'🎬', arr:p.video_views_organico_diario},
+    {label:'Conversaciones Messenger ' + NO_SEP, icon:'💬', arr:(p.mensajes||{}).serie_diaria},
+  ];
+  renderHoyAyer('hoyAyerRow', campos);
 
-  const engSerie = sinHoyParcial(p.engagement_diario);
-  const engMap = buildSerieMap(p.engagement_diario);
-  const viewsMap = buildSerieMap(p.vistas_diario);
-  const videoMap = buildSerieMap(p.video_views_diario);
-  const msgMap = buildSerieMap((p.mensajes||{}).serie_diaria);
-
-  const fechas = engSerie.map(d=>d.fecha);
+  const mapas = campos.map(c => buildSerieMap(c.arr));
+  const fechas = sinHoyParcial(campos[0].arr).map(d=>d.fecha);
   const select = document.getElementById('daySelect');
   select.innerHTML = fechas.slice().reverse().map(f =>
     `<option value="${f}">${new Date(f+'T12:00:00').toLocaleDateString('es-MX',{weekday:'long',day:'2-digit',month:'short'})}</option>`
@@ -1988,12 +2207,7 @@ function renderComparativaDiaria(p){
       return `<div class="delta-card"><div class="v">${icon} ${fmt(hoyVal)}</div><div class="l">${label}</div>${deltaHtml}</div>`;
     }
 
-    document.getElementById('deltaRow').innerHTML = [
-      card('Engagement', engMap, '🔥'),
-      card('Visitas a la página', viewsMap, '👁️'),
-      card('Reproducciones video', videoMap, '🎬'),
-      card('Conversaciones Messenger', msgMap, '💬'),
-    ].join('');
+    document.getElementById('deltaRow').innerHTML = campos.map((c, i) => card(c.label, mapas[i], c.icon)).join('');
   }
 
   if(fechas.length) select.value = fechas[fechas.length-1];
@@ -2016,40 +2230,50 @@ function barraRank(list){
 }
 
 function renderMejorHorario(p){
-  const mh = p.mejor_horario || {por_dia:[], por_franja:[]};
+  const org = !conPauta && p.mejor_horario_organico;
+  const mh = (org ? p.mejor_horario_organico : p.mejor_horario) || {por_dia:[], por_franja:[]};
+  document.getElementById('tituloRankDia').textContent = org
+    ? 'Por día de la semana (≈ interacciones orgánicas promedio por post)' : 'Por día de la semana (engagement promedio/post)';
+  document.getElementById('tituloRankFranja').textContent = org
+    ? 'Por franja horaria (hora CDMX aprox.) · solo orgánico' : 'Por franja horaria (hora CDMX aprox.)';
   document.getElementById('rankDia').innerHTML = barraRank(mh.por_dia);
   document.getElementById('rankFranja').innerHTML = barraRank(mh.por_franja);
-
   pintarNotaFrecuencia('freqNote', p);
 }
 
 function renderTemas(p){
-  document.getElementById('rankTemas').innerHTML = barraRank(p.temas_contenido);
+  const org = !conPauta && p.temas_contenido_organico;
+  document.getElementById('tituloTemas').textContent = org
+    ? '≈ Interacciones orgánicas promedio por tema de la publicación' : 'Engagement promedio por tema de la publicación';
+  document.getElementById('rankTemas').innerHTML = barraRank(org ? p.temas_contenido_organico : p.temas_contenido);
 }
 
 function renderTopPost(p){
   const posts = p.posts || [];
   const wrap = document.getElementById('topPostWrap');
   if(!posts.length){ wrap.innerHTML = ''; return; }
-  const eng = post => (post.reacciones||0)+(post.comentarios||0)+(post.shares||0);
-  const top = posts.reduce((a,b) => eng(b)>eng(a) ? b : a);
+  const org = !conPauta;
+  const top = posts.reduce((a,b) => engPost(b, org) > engPost(a, org) ? b : a);
+  const o = org && top.organico ? top.organico : top;
   const fecha = top.fecha ? new Date(top.fecha).toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'}) : '';
   wrap.innerHTML = `
     <div class="post-card top-post">
-      <span class="top-post-badge">🏆 Mejor publicación reciente — ${fmt(eng(top))} de engagement</span>
-      <div class="post-top"><span class="post-badge">📘 Publicación</span><span class="post-date">${fecha}</span></div>
+      <span class="top-post-badge">🏆 Mejor publicación reciente${org ? ' en orgánico' : ''} — ${org ? '≈ ' : ''}${fmt(engPost(top, org))} ${org ? 'interacciones orgánicas' : 'de engagement'}</span>
+      <div class="post-top"><span class="post-badges"><span class="post-badge">📘 Publicación</span>${top.con_pauta ? '<span class="post-badge pauta">📣 Tuvo pauta</span>' : ''}</span><span class="post-date">${fecha}</span></div>
       <div class="post-msg">${(top.mensaje||'').replace(/</g,'&lt;')}</div>
       <div class="post-stats">
-        <span class="stat-chip">❤️ <b>${fmt(top.reacciones)}</b> reacciones</span>
-        <span class="stat-chip">💬 <b>${fmt(top.comentarios)}</b> comentarios</span>
-        <span class="stat-chip">🔁 <b>${fmt(top.shares)}</b> shares</span>
-        ${top.video_views ? `<span class="stat-chip">▶️ <b>${fmt(top.video_views)}</b> vistas video</span>` : ''}
+        <span class="stat-chip">❤️ <b>${fmt(o.reacciones)}</b> reacciones</span>
+        <span class="stat-chip">💬 <b>${fmt(o.comentarios)}</b> comentarios</span>
+        <span class="stat-chip">🔁 <b>${fmt(o.shares)}</b> shares</span>
+        ${conPauta && top.video_views ? `<span class="stat-chip">▶️ <b>${fmt(top.video_views)}</b> vistas video</span>` : ''}
       </div>
+      ${splitPost(top)}
       ${top.url ? `<div class="post-actions"><a class="post-link" href="${top.url}" target="_blank">Ver publicación ↗</a></div>` : ''}
     </div>`;
 }
 
 function renderMensajes(p){
+  const npm = document.getElementById('npMensajes'); if(npm) npm.innerHTML = badgeNoSep();
   const m = p.mensajes || {conversaciones_28d:0, mensajes_28d:0, no_leidos:0, serie_diaria:[]};
   document.getElementById('mensajesStats').innerHTML = `
     <div class="mini-stat"><div class="v">${fmt(m.conversaciones_28d)}</div><div class="l">Conversaciones (28 días)</div></div>
@@ -2079,6 +2303,7 @@ function renderMensajes(p){
 }
 
 function renderReacciones(p){
+  const npr = document.getElementById('npReacciones'); if(npr) npr.innerHTML = badgeNoSep();
   const tipo = p.reacciones_tipo || {};
   const total = Object.values(tipo).reduce((a,b)=>a+b,0) || 1;
   const list = REACCIONES_META.map(m => ({...m, val: tipo[m.key]||0}))
@@ -2095,15 +2320,17 @@ function renderReacciones(p){
 
 function renderPosts(p){
   const grid = document.getElementById('postsGrid');
+  const org = !conPauta;
   grid.innerHTML = (p.posts||[]).map((post, i) => {
     const fecha = post.fecha ? new Date(post.fecha).toLocaleDateString('es-MX', {day:'2-digit', month:'short', year:'numeric'}) : '—';
+    const o = org && post.organico ? post.organico : post;
     const chips = [
-      `<span class="stat-chip">❤️ <b>${fmt(post.reacciones)}</b> reacciones</span>`,
-      `<span class="stat-chip">💬 <b>${fmt(post.comentarios)}</b> comentarios</span>`,
-      `<span class="stat-chip">🔁 <b>${fmt(post.shares)}</b> shares</span>`,
+      `<span class="stat-chip">❤️ <b>${fmt(o.reacciones)}</b> reacciones</span>`,
+      `<span class="stat-chip">💬 <b>${fmt(o.comentarios)}</b> comentarios</span>`,
+      `<span class="stat-chip">🔁 <b>${fmt(o.shares)}</b> shares</span>`,
     ];
-    if(post.clics) chips.push(`<span class="stat-chip">👆 <b>${fmt(post.clics)}</b> clics</span>`);
-    if(post.video_views) chips.push(`<span class="stat-chip">▶️ <b>${fmt(post.video_views)}</b> vistas video</span>`);
+    if(!org && post.clics) chips.push(`<span class="stat-chip">👆 <b>${fmt(post.clics)}</b> clics</span>`);
+    if(!org && post.video_views) chips.push(`<span class="stat-chip">▶️ <b>${fmt(post.video_views)}</b> vistas video</span>`);
 
     const comentarios = post.comentarios_preview || [];
     const comentariosHtml = comentarios.length ? `
@@ -2116,11 +2343,12 @@ function renderPosts(p){
 
     return `<div class="post-card">
       <div class="post-top">
-        <span class="post-badge">📘 Publicación</span>
+        <span class="post-badges"><span class="post-badge">📘 Publicación</span>${post.con_pauta ? '<span class="post-badge pauta">📣 Tuvo pauta</span>' : ''}</span>
         <span class="post-date">${fecha}</span>
       </div>
       <div class="post-msg">${(post.mensaje||'').replace(/</g,'&lt;')}</div>
       <div class="post-stats">${chips.join('')}</div>
+      ${splitPost(post)}
       <div class="post-actions">
         ${post.url ? `<a class="post-link" href="${post.url}" target="_blank">Ver publicación ↗</a>` : ''}
         ${comentarios.length ? `<button class="comments-toggle" onclick="toggleComments('${activa}-${i}')">💬 Ver comentarios reales (${comentarios.length})</button>` : ''}
@@ -2386,6 +2614,7 @@ document.addEventListener('change', function(e){
 });
 
 function renderAll(){
+  pintarSwitchPauta();
   renderTabs();
   renderHero();
   const esResumen = activa === 'resumen';
