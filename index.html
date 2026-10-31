@@ -26,6 +26,7 @@ d.querySelector('form').onsubmit=async function(ev){ev.preventDefault();var v=d.
 <script src="data_facebook_pages.js?v=1793477755"></script>
 <script src="data_youtube.js?v=1793477761"></script>
 <script src="data_tiktok.js?v=1793477771"></script>
+<script src="data_alertas.js?v=1793478437"></script>
 <style>
 /* ═══════════════════════════════════════════════════════════════
    Identidad Equilibrio Total (Manual de Identidad Gráfica):
@@ -502,6 +503,77 @@ body.dark-theme .range-custom input[type="date"]{color-scheme:dark}
 .platform-btn.active{color:#FFFFFF;background:var(--accent);box-shadow:0 8px 18px -8px rgba(63,122,137,.7)}
 body.dark-theme .platform-btn.active{color:#0F1D30}
 
+/* ══ ALERTAS (comentarios, reseñas y mensajes negativos) ══ */
+.tab-badge{display:inline-flex;align-items:center;justify-content:center;min-width:19px;height:19px;padding:0 6px;margin-left:6px;
+  border-radius:999px;background:var(--danger);color:#FFFFFF;font-size:10.5px;font-weight:800;line-height:1;vertical-align:1px;
+  animation:badgePop .6s .4s var(--spring) both}
+@keyframes badgePop{from{transform:scale(0)}to{transform:scale(1)}}
+body.dark-theme .tab-badge{color:#0F1D30}
+.tab-btn.active .tab-badge{background:#FFFFFF;color:var(--danger)}
+body.dark-theme .tab-btn.active .tab-badge{background:#0F1D30;color:var(--danger)}
+.al-intro{font-size:13px;color:var(--text2);line-height:1.6;margin:-4px 0 18px;max-width:920px}
+.kpi-val.is-bad{color:var(--danger)}
+.al-chats .alert-chip{text-decoration:none;transition:transform .35s var(--spring),border-color .25s}
+.al-chats .alert-chip:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--t) 45%,var(--border))}
+.al-filtros{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 16px}
+.al-filtros .range-toggle{min-width:0;max-width:100%;overflow-x:auto;scrollbar-width:none}
+.al-filtros .range-toggle::-webkit-scrollbar{display:none}
+.al-filtros .day-select{text-transform:none;margin:0}
+.al-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:16px;align-items:start}
+.al-side{display:flex;flex-direction:column;gap:12px;position:sticky;top:78px}
+.al-side .chart-card{padding:18px}
+.al-side .net-row{grid-template-columns:1fr 64px 34px;gap:8px}
+.al-side .net-name{white-space:normal;line-height:1.3}
+.al-side .net-val{text-align:right}
+.al-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:12px}
+.al-card{--t:var(--warning);--ts:var(--warning-soft);position:relative;background:var(--surface);border:1px solid var(--border);
+  border-radius:18px;padding:15px 16px 14px 21px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:9px;overflow:hidden;
+  opacity:0;animation:cardIn .6s var(--ease) forwards;
+  transition:transform .4s var(--spring),box-shadow .4s var(--ease),border-color .3s,background-color .45s var(--ease)}
+.al-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--t);transform-origin:top;
+  animation:alStripe .8s .2s var(--ease) both}
+@keyframes alStripe{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.al-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover);border-color:color-mix(in srgb,var(--t) 40%,var(--border))}
+.al-card.niv-alta{--t:var(--danger);--ts:var(--danger-soft)}
+.al-card.niv-baja{--t:var(--text3);--ts:var(--bg3)}
+.queja-status.is-oculto{color:var(--text2);background:var(--bg3)}
+.al-top{display:flex;align-items:flex-start;gap:10px}
+.al-ico{width:34px;height:34px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:15px;
+  background:var(--ts);flex-shrink:0}
+.al-quien{min-width:0;flex:1}
+.al-quien b{display:block;font-size:13px;font-weight:700;color:var(--head);line-height:1.3}
+.al-quien span{display:block;font-size:11.5px;color:var(--text3);margin-top:1px}
+.al-when{font-size:11px;color:var(--text3);white-space:nowrap;text-align:right;line-height:1.4}
+.al-tags{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.al-niv{font-size:11px;font-weight:700;color:var(--t);background:var(--ts);padding:3px 10px;border-radius:999px}
+.al-cat{font-size:11px;font-weight:600;color:var(--text2);background:var(--bg3);padding:3px 10px;border-radius:999px}
+.al-stars{font-size:13px;color:var(--warning);letter-spacing:1px}
+.al-txt{font-size:13px;color:var(--text);line-height:1.55;overflow-wrap:anywhere}
+.al-txt.priv{font-size:12.5px;color:var(--text3);font-style:italic}
+.al-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:2px}
+.al-btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--accent-ink);text-decoration:none;
+  padding:7px 13px;border-radius:999px;background:var(--accent-soft);border:none;cursor:pointer;
+  transition:transform .35s var(--spring),gap .3s var(--ease)}
+.al-btn:hover{transform:translateY(-1px);gap:10px}
+.al-mas{display:block;margin:18px auto 0;padding:11px 22px;font-size:13px;font-weight:700;color:#FFFFFF;background:var(--pro);
+  border:none;border-radius:999px;cursor:pointer;box-shadow:0 10px 22px -10px rgba(31,58,95,.7);transition:transform .35s var(--spring)}
+body.dark-theme .al-mas{color:#0F1D30;background:var(--olive)}
+.al-mas:hover{transform:translateY(-2px)}
+.al-vacio{text-align:center;padding:42px 20px;background:var(--surface);border:1px dashed var(--border2);border-radius:var(--radius)}
+.al-vacio span{font-size:34px;display:block;animation:badgePop .7s var(--spring) both}
+.al-vacio b{display:block;font-size:15px;color:var(--head);margin:10px 0 4px}
+.al-vacio p{font-size:12.5px;color:var(--text2);max-width:420px;margin:0 auto;line-height:1.55}
+.al-fuentes{display:flex;flex-direction:column;gap:8px}
+.al-fuente{--t:var(--success);display:grid;grid-template-columns:10px 1fr;column-gap:9px;align-items:start;font-size:12px;color:var(--text2);line-height:1.45}
+.al-fuente .dot{width:9px;height:9px;border-radius:50%;background:var(--t);margin-top:4px}
+.al-fuente b{color:var(--head);font-weight:600;display:block}
+.al-fuente.st-warn{--t:var(--warning)}.al-fuente.st-bad{--t:var(--danger)}
+.al-nota{font-size:11.5px;color:var(--text3);line-height:1.55}
+.al-resumen .alert-banner-head{flex-wrap:wrap}
+.al-resumen .al-btn{margin-left:auto}
+@media (max-width:980px){.al-layout{grid-template-columns:1fr}.al-side{position:static}}
+@media (prefers-reduced-motion:reduce){.al-card,.al-card::before,.tab-badge,.al-vacio span{animation:none;opacity:1}}
+
 /* ── Entrada escalonada de tarjetas ── */
 @keyframes cardIn{from{opacity:0;transform:translateY(16px) scale(.985)}to{opacity:1;transform:none}}
 .view.active .kpi-card,.view.active .delta-card,.view.active .chart-card,.view.active .post-card,
@@ -794,6 +866,11 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
     <div id="tiktokContent"></div>
   </div>
 
+  <div class="view" id="viewAlertas">
+    <div class="modo-nota">🚨 <div><b>Las alertas no cambian con el botón de pauta:</b> incluyen los comentarios en publicaciones y en anuncios.</div></div>
+    <div id="alertasContent"></div>
+  </div>
+
   <div class="view" id="viewPagina">
     <div class="platform-toggle" id="platformToggle">
       <button class="platform-btn active" data-plat="facebook">📘 Facebook</button>
@@ -995,7 +1072,7 @@ function tiempoRelativo(fechaIso){
 /* ═══ Auto-refresh: vuelve a jalar los data_*.js publicados y re-renderiza
    sin que el usuario tenga que recargar la pagina — asi el dashboard se
    actualiza solo en cuanto los scripts automaticos publican datos nuevos. ═══ */
-const FUENTES_AUTOREFRESH = ['data_facebook_pages.js','data_youtube.js','data_tiktok.js'];
+const FUENTES_AUTOREFRESH = ['data_facebook_pages.js','data_youtube.js','data_tiktok.js','data_alertas.js'];
 
 async function refrescarDatos(){
   try{
@@ -1277,7 +1354,7 @@ const REACCIONES_META = [
 
 function renderTabs(){
   const inner = document.getElementById('tabsInner');
-  const tabs = [{key:'resumen', label:'📈 Resumen General'}]
+  const tabs = [{key:'resumen', label:'📈 Resumen General'}, {key:'alertas', label:etiquetaTabAlertas()}]
     .concat(Object.keys((window.YOUTUBE_DATA||{}).canales||{}).length ? [{key:'youtube', label:'▶️ YouTube'}] : [])
     .concat(Object.keys((window.TIKTOK_DATA||{}).cuentas||{}).length ? [{key:'tiktok', label:'🎵 TikTok'}] : [])
     .concat(ORDEN_PAGINAS.filter(k => DATA[k]).map(k => ({key:k, label:(DATA[k].nombre.replace(/^Equilibrio Total (?=\S)/,'') || DATA[k].nombre)})));
@@ -1378,17 +1455,34 @@ function computeNovedades(){
   const AHORA = Date.now();
   const diasDesde = (fechaIso) => (AHORA - new Date(fechaIso).getTime()) / 86400000;
 
-  (RAW.quejas || []).forEach(q => {
-    if(q.respondida || !q.fecha) return;
-    if(diasDesde(q.fecha) <= 12){
-      items.push({
-        fecha: q.fecha, tipo:'queja', icono:'🚨',
-        titulo: `Queja sin responder — ${q.pagina}`,
-        detalle: `"${q.comentario}"`,
-        link: q.post_url,
-      });
+  const alertasNuevas = alData()
+    ? (alData().alertas || []).filter(a => alPendiente(a) && a.nivel !== 'baja' && alEdadDias(a) <= 7)
+    : null;
+  if(alertasNuevas){
+    alertasNuevas.slice(0, 5).forEach(a => items.push({
+      fecha: normIso(a.fecha), tipo:'queja', icono:(AL_TIPOS[a.tipo] || {}).ico || '🚨',
+      titulo: `${AL_TITULOS[a.tipo] || 'Alerta'} sin atender — ${a.pagina}`,
+      detalle: a.tipo === 'mensaje' ? '🔒 El texto no se muestra aquí por privacidad: ábrelo en la bandeja de Meta.' : (a.texto ? `"${a.texto}"` : ''),
+      link: alUrl(a),
+    }));
+    if(alertasNuevas.length > 5){
+      items.push({fecha: normIso(alertasNuevas[5].fecha), tipo:'queja', icono:'🚨',
+        titulo: `Y ${fmt(alertasNuevas.length - 5)} alertas más sin atender esta semana`,
+        detalle: 'Están todas en la pestaña 🚨 Alertas.'});
     }
-  });
+  } else {
+    (RAW.quejas || []).forEach(q => {
+      if(q.respondida || !q.fecha) return;
+      if(diasDesde(q.fecha) <= 12){
+        items.push({
+          fecha: q.fecha, tipo:'queja', icono:'🚨',
+          titulo: `Queja sin responder — ${q.pagina}`,
+          detalle: `"${q.comentario}"`,
+          link: q.post_url,
+        });
+      }
+    });
+  }
 
   Object.values((window.YOUTUBE_DATA||{}).canales || {}).forEach(c => {
     (c.videos || []).slice(0,5).forEach(v => {
@@ -1841,8 +1935,31 @@ function renderResumen(){
 }
 
 function renderQuejas(){
-  const quejas = RAW.quejas || [];
   const wrap = document.getElementById('quejasBanner');
+  if(!alData()){ renderQuejasViejo(wrap); return; }
+  const pend = alPendientesRecientes();
+  if(!pend.length){
+    wrap.innerHTML = `<div class="alert-banner ok-banner al-resumen"><div class="alert-banner-head"><span class="ico">✅</span>
+      <b>Sin comentarios, reseñas ni mensajes negativos pendientes en los últimos 30 días</b>
+      <button class="al-btn" type="button" data-ir-alertas>Ver alertas →</button></div></div>`;
+    return;
+  }
+  const graves = pend.filter(a => a.nivel === 'alta').length;
+  const cuenta = t => pend.filter(a => a.tipo === t).length;
+  wrap.innerHTML = `
+    <div class="alert-banner al-resumen">
+      <div class="alert-banner-head"><span class="ico">🚨</span>
+        <b>${fmt(pend.length)} alertas sin atender en los últimos 30 días${graves ? ` · ${fmt(graves)} graves` : ''}</b>
+        <button class="al-btn" type="button" data-ir-alertas>Ver alertas →</button></div>
+      <div class="alert-list">
+        ${['comentario','resena','mensaje'].filter(t => cuenta(t)).map(t => `
+          <div class="alert-chip"><span class="n">${fmt(cuenta(t))}</span><span class="l">${AL_TIPOS[t].ico} ${cuenta(t) === 1 ? AL_TIPOS[t].uno : AL_TIPOS[t].varios}</span></div>`).join('')}
+      </div>
+    </div>`;
+}
+
+function renderQuejasViejo(wrap){
+  const quejas = RAW.quejas || [];
   if(!quejas.length){ wrap.innerHTML = ''; return; }
   const pendientes = quejas.filter(q => !q.respondida);
   const ordenadas = [...quejas].sort((a,b) => (a.respondida === b.respondida) ? 0 : (a.respondida ? 1 : -1));
@@ -2613,6 +2730,215 @@ document.addEventListener('change', function(e){
   renderAll();
 });
 
+/* ═══ ALERTAS: comentarios, reseñas y mensajes negativos que hay que atender.
+   Vienen de data_alertas.js (actualizar_alertas.py, cada hora). De Messenger
+   nunca llega el texto ni quién escribió: el sitio es público y son pacientes. ═══ */
+const AL_TIPOS = {
+  comentario: {ico:'💬', uno:'comentario', varios:'comentarios'},
+  resena:     {ico:'⭐', uno:'reseña', varios:'reseñas'},
+  mensaje:    {ico:'✉️', uno:'mensaje', varios:'mensajes'},
+};
+const AL_TITULOS = {comentario:'Comentario negativo', resena:'Reseña negativa', mensaje:'Posible queja por Messenger'};
+const AL_REDES = {facebook:'Facebook', instagram:'Instagram', messenger:'Messenger', google:'Google'};
+const AL_NIVELES = {alta:'🔴 Grave', media:'🟠 Atender', baja:'⚪ Leve'};
+const AL_ACCION = {facebook:'Responder en Facebook', instagram:'Responder en Instagram', messenger:'Abrir la bandeja', google:'Ver en Google Maps'};
+let alFiltro = {tipo:'todas', estado:'todas', nivel:'todas', dias:30, pagina:'todas'};
+let alLimite = 24;
+
+function alData(){ return window.ALERTAS_DATA || null; }
+// Sin atender = ni respondida ni oculta (Facebook oculta muchos comentarios negativos de anuncios)
+function alPendiente(a){ return a.respondida !== true && !a.oculto; }
+function alEstado(a){ return a.oculto ? 'ocultas' : (a.respondida === true ? 'respondidas' : 'pendientes'); }
+function alEdadDias(a){ return (Date.now() - new Date(normIso(a.fecha)).getTime()) / 86400000; }
+function alUrl(a){ return /^https:\/\//.test(a.url || '') ? a.url : null; }
+function alPendientesRecientes(){
+  const d = alData();
+  return d ? (d.alertas || []).filter(a => alPendiente(a) && alEdadDias(a) <= 30) : [];
+}
+function escHtml(v){ return String(v == null ? '' : v).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function etiquetaTabAlertas(){
+  const n = alPendientesRecientes().length;
+  return `🚨 Alertas${n ? `<span class="tab-badge">${n > 99 ? '99+' : n}</span>` : ''}`;
+}
+function irAAlertas(){
+  activa = 'alertas';
+  renderAll();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+function alFechaTexto(a){
+  const f = new Date(normIso(a.fecha));
+  const edad = alEdadDias(a);
+  const dia = f.toLocaleDateString('es-MX', edad > 300 ? {day:'numeric', month:'short', year:'numeric'} : {day:'numeric', month:'short'});
+  if(edad > 30) return dia;
+  return `${tiempoRelativo(normIso(a.fecha))}<br>${dia}, ${f.toLocaleTimeString('es-MX', {hour:'2-digit', minute:'2-digit'})}`;
+}
+
+function alTarjeta(a, i){
+  const tipo = AL_TIPOS[a.tipo] || {ico:'🚨', uno:'alerta'};
+  const origen = a.origen === 'anuncio' ? ' en un anuncio' : (a.origen === 'publicacion' ? ' en una publicación' : '');
+  const estado = a.oculto ? `<span class="queja-status is-oculto">🙈 Oculto${a.respondida === true ? ' · respondido' : ''}</span>`
+    : a.respondida === true ? '<span class="queja-status is-ok">✅ Respondida</span>'
+    : '<span class="queja-status is-pend">⏳ Sin atender</span>';
+  const estrellas = a.estrellas
+    ? `<span class="al-stars" role="img" aria-label="${a.estrellas} de 5 estrellas">${'★'.repeat(a.estrellas)}${'☆'.repeat(5 - a.estrellas)}</span>` : '';
+  const texto = a.tipo === 'mensaje'
+    ? '<div class="al-txt priv">🔒 El texto no se muestra aquí por privacidad. Ábrelo en la bandeja de Meta: llegó el día y la hora de arriba.</div>'
+    : (a.texto ? `<div class="al-txt">“${escHtml(a.texto)}”</div>` : '<div class="al-txt priv">Reseña sin texto.</div>');
+  const url = alUrl(a);
+  return `
+    <article class="al-card niv-${a.nivel || 'media'}" style="animation-delay:${(Math.min(i, 12) * 0.045).toFixed(3)}s">
+      <div class="al-top">
+        <span class="al-ico">${tipo.ico}</span>
+        <div class="al-quien"><b>${escHtml(a.pagina)}</b><span>${AL_REDES[a.red] || escHtml(a.red)} · ${tipo.uno}${origen}</span></div>
+        <span class="al-when">${alFechaTexto(a)}</span>
+      </div>
+      <div class="al-tags"><span class="al-niv">${AL_NIVELES[a.nivel] || ''}</span><span class="al-cat">${escHtml(a.categoria || '')}</span>${estrellas}${a.desactualizada ? '<span class="al-cat">dato de la corrida anterior</span>' : ''}</div>
+      ${texto}
+      <div class="al-foot">${estado}${url ? `<a class="al-btn" href="${escHtml(url)}" target="_blank" rel="noopener">${AL_ACCION[a.red] || 'Abrir'} ↗</a>` : ''}</div>
+    </article>`;
+}
+
+function renderAlertas(){
+  const wrap = document.getElementById('alertasContent');
+  if(!wrap) return;
+  const d = alData();
+  if(!d){
+    wrap.innerHTML = '<div class="empty-note">Todavía no hay datos de alertas: se generan solos en la siguiente actualización (cada hora).</div>';
+    return;
+  }
+  const todas = d.alertas || [];
+  const v = d.ventanas || {};
+  const ult30 = todas.filter(a => alEdadDias(a) <= 30);
+  const pend30 = ult30.filter(alPendiente);
+  const graves30 = pend30.filter(a => a.nivel === 'alta').length;
+  const ult7 = todas.filter(a => alEdadDias(a) <= 7).length;
+  const ult24 = todas.filter(a => alEdadDias(a) <= 1).length;
+  const cuenta = (arr, t) => arr.filter(a => a.tipo === t).length;
+
+  // Paginas con alertas, en el orden de siempre
+  const clave = a => a.pagina_key || 'google';
+  const keys = [...new Set(todas.map(clave))];
+  const pos = k => { const i = ORDEN_PAGINAS.indexOf(k); return i < 0 ? 99 : i; };
+  keys.sort((x, y) => pos(x) - pos(y));
+  const nombrePag = k => k === 'google' ? 'Sucursales (Google)' : ((todas.find(a => clave(a) === k) || {}).pagina || k);
+  if(alFiltro.pagina !== 'todas' && !keys.includes(alFiltro.pagina)) alFiltro.pagina = 'todas';
+
+  const lista = todas.filter(a =>
+    (alFiltro.tipo === 'todas' || a.tipo === alFiltro.tipo) &&
+    (alFiltro.estado === 'todas' || alEstado(a) === alFiltro.estado) &&
+    (alFiltro.nivel === 'todas' || a.nivel === alFiltro.nivel) &&
+    alEdadDias(a) <= alFiltro.dias &&
+    (alFiltro.pagina === 'todas' || clave(a) === alFiltro.pagina));
+  // Primero lo que falta responder; dentro de cada grupo, lo mas reciente
+  lista.sort((x, y) => (alPendiente(y) - alPendiente(x)) || (new Date(normIso(y.fecha)) - new Date(normIso(x.fecha))));
+
+  const btn = (grupo, valor, label) =>
+    `<button type="button" data-al-grupo="${grupo}" data-al-valor="${valor}" class="${String(alFiltro[grupo]) === String(valor) ? 'active' : ''}">${label}</button>`;
+
+  const porCat = {};
+  lista.forEach(a => { porCat[a.categoria || 'Otro'] = (porCat[a.categoria || 'Otro'] || 0) + 1; });
+  const cats = Object.entries(porCat).sort((x, y) => y[1] - x[1]);
+  const maxCat = cats.length ? cats[0][1] : 1;
+
+  const chats = d.chats_sin_leer || [];
+  const chatsHtml = chats.length ? `
+    <div class="alert-banner warn-banner al-chats">
+      <div class="alert-banner-head"><span class="ico">✉️</span><b>Chats de Messenger sin leer</b></div>
+      <div class="alert-list">${chats.map(c => {
+        const horas = c.mas_antiguo ? (Date.now() - new Date(normIso(c.mas_antiguo)).getTime()) / 3600000 : 0;
+        const url = /^https:\/\//.test(c.url || '') ? c.url : null;
+        const cuerpo = `<span class="n">${fmt(c.no_leidos)}</span><span class="l">${escHtml(c.pagina)}${c.mas_antiguo ? ` · el más antiguo ${tiempoRelativo(normIso(c.mas_antiguo))}` : ''}</span>`;
+        return url ? `<a class="alert-chip ${horas >= 24 ? 'st-bad' : 'st-warn'}" href="${escHtml(url)}" target="_blank" rel="noopener">${cuerpo}</a>`
+                   : `<div class="alert-chip ${horas >= 24 ? 'st-bad' : 'st-warn'}">${cuerpo}</div>`;
+      }).join('')}</div>
+    </div>` : '';
+
+  const fuentesHtml = (d.fuentes || []).map(f => {
+    const st = f.estado === 'ok' ? 'st-ok' : (f.estado === 'parcial' ? 'st-warn' : 'st-bad');
+    const det = f.estado === 'ok' ? `${fmt(f.revisados)} revisados` : escHtml(f.nota || 'Sin datos');
+    return `<div class="al-fuente ${st}"><span class="dot"></span><div><b>${escHtml(f.nombre)}</b>${det}</div></div>`;
+  }).join('');
+
+  const vacio = alFiltro.estado === 'pendientes' ? 'No hay alertas sin atender con estos filtros.' : 'No hay alertas con estos filtros.';
+  const listaHtml = lista.length
+    ? `<div class="al-grid">${lista.slice(0, alLimite).map(alTarjeta).join('')}</div>
+       ${lista.length > alLimite ? `<button type="button" class="al-mas" id="alMas">Ver ${fmt(Math.min(24, lista.length - alLimite))} más · quedan ${fmt(lista.length - alLimite)}</button>` : ''}`
+    : `<div class="al-vacio"><span>🎉</span><b>Nada por aquí</b><p>${vacio}${alFiltro.dias < 365 ? ' Las reseñas más viejas aparecen con “12 meses”.' : ''}</p></div>`;
+
+  wrap.innerHTML = `
+    <div class="sec-title"><span style="white-space:nowrap">🚨 Alertas</span><span class="sec-hint">· lo negativo que hay que atender en redes</span></div>
+    <p class="al-intro">Comentarios negativos en publicaciones y anuncios (últimos ${v.comentarios_dias || 30} días), posibles quejas por
+      Messenger (últimos ${v.mensajes_dias || 7} días) y reseñas negativas (último año). Actualizado ${tiempoRelativo(String(d.generado || '').replace(' ', 'T'))}.</p>
+    <div class="kpi-row">
+      <div class="kpi-card c1"><span class="kpi-icon">⏳</span>
+        <div class="kpi-val ${pend30.length ? 'is-bad' : ''}">${numSpan(pend30.length)}</div>
+        <div class="kpi-label">Sin atender · últimos 30 días</div>
+        <div class="kpi-sub">ni respondidas ni ocultas · de ${fmt(ult30.length)} detectadas</div></div>
+      <div class="kpi-card c2"><span class="kpi-icon">🔴</span>
+        <div class="kpi-val ${graves30 ? 'is-bad' : ''}">${numSpan(graves30)}</div>
+        <div class="kpi-label">Graves sin atender</div>
+        <div class="kpi-sub">fraude o engaño, amenaza legal o daño</div></div>
+      <div class="kpi-card c3"><span class="kpi-icon">🆕</span>
+        <div class="kpi-val">${numSpan(ult7)}</div>
+        <div class="kpi-label">Nuevas en la última semana</div>
+        <div class="kpi-sub">${fmt(ult24)} en las últimas 24 h</div></div>
+      <div class="kpi-card c4"><span class="kpi-icon">🗂️</span>
+        <div class="kpi-val">${numSpan(ult30.length)}</div>
+        <div class="kpi-label">Por tipo · últimos 30 días</div>
+        <div class="kpi-sub">💬 ${fmt(cuenta(ult30, 'comentario'))} comentarios · ⭐ ${fmt(cuenta(ult30, 'resena'))} reseñas · ✉️ ${fmt(cuenta(ult30, 'mensaje'))} mensajes</div></div>
+    </div>
+    ${chatsHtml}
+    <div class="al-filtros">
+      <div class="range-toggle">${btn('tipo','todas','Todas')}${btn('tipo','comentario','💬 Comentarios')}${btn('tipo','resena','⭐ Reseñas')}${btn('tipo','mensaje','✉️ Mensajes')}</div>
+      <div class="range-toggle">${btn('estado','todas','Todas')}${btn('estado','pendientes','⏳ Sin atender')}${btn('estado','respondidas','✅ Respondidas')}${btn('estado','ocultas','🙈 Ocultas')}</div>
+      <div class="range-toggle">${btn('nivel','todas','Todo nivel')}${btn('nivel','alta','🔴 Solo graves')}</div>
+      <div class="range-toggle">${btn('dias',7,'7 días')}${btn('dias',30,'30 días')}${btn('dias',365,'12 meses')}</div>
+      <select class="day-select" id="alPagina" aria-label="Filtrar por página">
+        <option value="todas">Todas las páginas</option>
+        ${keys.map(k => `<option value="${escHtml(k)}"${alFiltro.pagina === k ? ' selected' : ''}>${escHtml(nombrePag(k))}</option>`).join('')}
+      </select>
+    </div>
+    <div class="al-layout">
+      <div>${listaHtml}</div>
+      <aside class="al-side">
+        <div class="chart-card">
+          <div class="chart-title">¿De qué se trata? <span class="sec-hint">· ${fmt(lista.length)} con estos filtros</span></div>
+          ${cats.length ? `<div class="net-list">${cats.map(([cat, n]) => `
+            <div class="net-row"><span class="net-name">${escHtml(cat)}</span>
+              <div class="net-track"><div class="net-fill" style="width:${(n / maxCat * 100).toFixed(1)}%"></div></div>
+              <span class="net-val">${fmt(n)}</span></div>`).join('')}</div>` : '<div class="al-nota">Sin alertas con estos filtros.</div>'}
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Qué se revisó</div>
+          <div class="al-fuentes">${fuentesHtml}</div>
+        </div>
+        <div class="al-nota">Lo negativo se detecta por frases como “no contestan”, “me cobraron”, “fraude” o “mala atención”.
+          No se usan palabras que en una clínica casi siempre hablan del dolor (“terrible”, “muy mal”), así que alguna queja puede
+          escaparse y alguna alerta puede no serlo.</div>
+      </aside>
+    </div>`;
+  animateNums();
+}
+
+document.addEventListener('click', function(e){
+  const b = e.target.closest('[data-al-grupo]');
+  if(b){
+    const g = b.dataset.alGrupo;
+    alFiltro[g] = g === 'dias' ? parseInt(b.dataset.alValor, 10) : b.dataset.alValor;
+    alLimite = 24;
+    renderAlertas();
+    return;
+  }
+  if(e.target.closest('#alMas')){ alLimite += 24; renderAlertas(); return; }
+  if(e.target.closest('[data-ir-alertas]')) irAAlertas();
+});
+document.addEventListener('change', function(e){
+  if(e.target.id !== 'alPagina') return;
+  alFiltro.pagina = e.target.value;
+  alLimite = 24;
+  renderAlertas();
+});
+
 function renderAll(){
   pintarSwitchPauta();
   renderTabs();
@@ -2620,10 +2946,12 @@ function renderAll(){
   const esResumen = activa === 'resumen';
   const esYoutube = activa === 'youtube';
   const esTiktok = activa === 'tiktok';
-  const esPagina = !esResumen && !esYoutube && !esTiktok;
+  const esAlertas = activa === 'alertas';
+  const esPagina = !esResumen && !esYoutube && !esTiktok && !esAlertas;
   document.getElementById('viewResumen').classList.toggle('active', esResumen);
   document.getElementById('viewYoutube').classList.toggle('active', esYoutube);
   document.getElementById('viewTiktok').classList.toggle('active', esTiktok);
+  document.getElementById('viewAlertas').classList.toggle('active', esAlertas);
   document.getElementById('viewPagina').classList.toggle('active', esPagina);
 
   if(esResumen){
@@ -2632,6 +2960,8 @@ function renderAll(){
     renderYoutube();
   } else if(esTiktok){
     renderTiktok();
+  } else if(esAlertas){
+    renderAlertas();
   } else {
     const p = DATA[activa];
     if(p){
