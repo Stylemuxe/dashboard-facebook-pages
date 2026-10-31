@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-10-31 14:35",
+ "generado": "2026-10-31 14:48",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -39,7 +39,7 @@ window.ALERTAS_DATA = {
    "nombre": "Reseñas de Google",
    "estado": "sin_conexion",
    "revisados": 0,
-   "nota": "Sin conexión: la API de Google Maps no tiene facturación activa."
+   "nota": "Sin conexión: falta que Google apruebe el acceso a Business Profile y autorizarlo."
   }
  ],
  "alertas": [
@@ -2578,7 +2578,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 14,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
@@ -2593,10 +2593,18 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-31T18:52:54+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-10-31T20:26:59+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
