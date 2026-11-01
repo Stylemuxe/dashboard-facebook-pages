@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-10-31 17:53",
+ "generado": "2026-10-31 23:16",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3172,
+   "revisados": 3178,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 82,
+   "revisados": 83,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 185,
+   "revisados": 186,
    "estado": "ok",
    "nota": null
   },
@@ -44,6 +44,66 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
+   "id": "fbc_1051110864342126_1433998732046581",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-01T03:31:51+0000",
+   "texto": "Esos planes son carísimos e intrminables",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=1433998732046581",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1075491821904030_1142382148438963",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-01T00:58:50+0000",
+   "texto": "Es muy caro no manches encajosos",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1142382148438963",
+   "respondida": false,
+   "oculto": true
+  },
+  {
+   "id": "fbc_1021416520704529_1121642717264516",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-01T00:53:11+0000",
+   "texto": "Por quería de servicio empezado por las secretarías no lo recomiendo",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/1038826695630178/posts/1060296263483221?comment_id=1121642717264516",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1114520858060761_2657324711382290",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-01T00:46:29+0000",
+   "texto": "No lo recomiendo de entrada son 3450 el dolor que llevaba aumento y dos secciones y aumento el dolor se les aviso y nadie hizo caso es normal la secretarias son groseras solo sirven para cobrar si llegas tarde ya no te dan la seción aunque se pague por adelantado pedimos la devolución del. Dinero pésimo servicio debería de escoger bien al personal",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=2657324711382290",
+   "respondida": false,
+   "oculto": false
+  },
+  {
    "id": "fbc_1030585659727980_1667471168319722",
    "tipo": "comentario",
    "red": "facebook",
@@ -56,7 +116,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1667471168319722",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "msg_32b52c6c1f69",
@@ -2429,51 +2489,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_893779536741927_1122723396763800",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-02T03:22:10+0000",
-   "texto": "No dicen donde se ubican ni... Métodos ... Cuando sirve no te obligan... Fraude ... Venta   ficticia.... Cuando sirve ni publicidad ocupan.... No dan metodo",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/948788407902246/?comment_id=1122723396763800",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1031215919724589_1083493840984877",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-02T02:26:15+0000",
-   "texto": "Jajajaja otra vez empezaron con las estafas... 690 es el gancho cuando llegas y te das cuenta q te obligan casi casi a pagar casi 15mil pesos al instante sin aver recibido ninguna terapia jajaja están pendejos el dueño está en la entrada sentado y ve cuando todos los pendejos llegan a regalar su dinero xq te hacen liquidar los 15mil pesos sin aver revivído nada pero si terminas las 15 sesiones y n",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1083493840984877",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1051110864342126_2055806778376854",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-02T01:36:09+0000",
-   "texto": "Fraudes con ustedes",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=2055806778376854",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2596,26 +2611,26 @@ window.ALERTAS_DATA = {
  ],
  "chats_sin_leer": [
   {
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 7,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-10-03T23:22:31+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
-  },
-  {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
    "no_leidos": 21,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-04T15:02:14+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
+   "no_leidos": 6,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-10-04T15:17:42+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
+  },
+  {
    "pagina_key": "cuautla",
    "pagina": "Equilibrio Total Cuautla",
-   "no_leidos": 1,
-   "no_leidos_24h": 0,
+   "no_leidos": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-04T21:21:39+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   },
@@ -2630,26 +2645,34 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 14,
-   "no_leidos_24h": 2,
+   "no_leidos": 17,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-31T18:52:54+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-31T20:26:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-01T00:36:47+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
 };
