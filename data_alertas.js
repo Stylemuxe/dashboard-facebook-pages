@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-10-31 23:16",
+ "generado": "2026-11-01 02:38",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3178,
+   "revisados": 3167,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 186,
+   "revisados": 187,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1098892472956933_4619657118323942",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-01T07:03:13+0000",
+   "texto": "Un fraude",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/1038826695630178/posts/1098892472956933?comment_id=4619657118323942",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1051110864342126_1433998732046581",
    "tipo": "comentario",
@@ -2472,21 +2487,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1294536916064830",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1087970773989468_1446501704042657",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-02T05:25:45+0000",
-   "texto": "No vallan pésimo servicio, cobran carísimo y están coludidos con laboratorios pregunten antes de pagar información clara @ profeco Procuraduría Federal del Consumidor",
-   "categoria": "Legal",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2151386532402387/?comment_id=1446501704042657",
-   "respondida": false,
-   "oculto": true
   },
   {
    "id": "fbr_122225308058444350",
