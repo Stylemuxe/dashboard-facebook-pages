@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-01 03:14",
+ "generado": "2026-11-01 11:17",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -7,8 +7,8 @@ window.YOUTUBE_DATA = {
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 7980,
-   "vistas_totales": 1805283,
-   "video_count": 89,
+   "vistas_totales": 1806254,
+   "video_count": 90,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -393,10 +393,20 @@ window.YOUTUBE_DATA = {
     {
      "fecha": "2026-11-01",
      "seguidores": 7980,
-     "vistas_totales": 1805283
+     "vistas_totales": 1806254
     }
    ],
    "videos": [
+    {
+     "id": "clqy_gtFdRw",
+     "titulo": "Ejercicios de brazos para adultos mayores 💪 |Movilidad y autonomía #adultosmayores #ejercicioencasa",
+     "fecha": "2026-11-01T15:00:12Z",
+     "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
+     "vistas": 970,
+     "likes": 19,
+     "comentarios": 1
+    },
     {
      "id": "9SHDI0qSN7Y",
      "titulo": "Día Internacional de personas de Edad 💚",
@@ -404,7 +414,7 @@ window.YOUTUBE_DATA = {
      "miniatura": "https://i.ytimg.com/vi/9SHDI0qSN7Y/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=9SHDI0qSN7Y",
      "vistas": 145,
-     "likes": 1,
+     "likes": 2,
      "comentarios": 0
     },
     {
@@ -513,7 +523,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 739,
+     "vistas": 741,
      "likes": 11,
      "comentarios": 4
     },
@@ -586,16 +596,6 @@ window.YOUTUBE_DATA = {
      "vistas": 983,
      "likes": 22,
      "comentarios": 3
-    },
-    {
-     "id": "TW0OudIhLek",
-     "titulo": "¿Qué pasa con tu cuerpo durante el invierno?",
-     "fecha": "2025-12-04T18:35:58Z",
-     "miniatura": "https://i.ytimg.com/vi/TW0OudIhLek/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=TW0OudIhLek",
-     "vistas": 842,
-     "likes": 22,
-     "comentarios": 0
     }
    ]
   }
