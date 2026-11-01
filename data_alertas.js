@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-01 02:38",
+ "generado": "2026-11-01 03:14",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3167,
+   "revisados": 3155,
    "estado": "ok",
    "nota": null
   },
@@ -2669,8 +2669,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-01T00:36:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
