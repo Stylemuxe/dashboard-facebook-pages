@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 10:58",
+ "generado": "2026-11-02 11:14",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3168,
+   "revisados": 3171,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 197,
+   "revisados": 196,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,66 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1105208665658647_3024843741019632",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-02T17:08:38+0000",
+   "texto": "Pésimo servicio por parte del encargado, trato nefasto y prepotente, personal que no está capacitado. A fuerzas son 10 sesiones no son tres pesos y no te dejan bien, tuve que pagar por fuera por qué su personal solo trata contracturas leves y no es justo. QUIERO MI REEMBOLSO 🗣️🗣️🗣️",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "publicacion",
+   "url": "https://www.facebook.com/reel/1570686961406087/?comment_id=3024843741019632",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "msg_5f237328e50a",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-02T17:05:03+0000",
+   "texto": null,
+   "categoria": "Cobros",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1105208665658647_1418986693240984",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-02T17:04:40+0000",
+   "texto": "Pésimo servicio les falta experiencia a sus especialistas !!! Te venden un paquete de 10 sesiones donde te van a haciendo de a poco y al final no sentí ninguna mejoría tuve a que acudir con alguien más para que me ayudara con mi dolor de espalda y con una sesión y el 10 %  de lo que me costó su paquete de 10 seciones con equilibrio total, solicité mi rembolso ya que no me ayudaron en nada y 3 sema",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "publicacion",
+   "url": "https://www.facebook.com/reel/1570686961406087/?comment_id=1418986693240984",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "igc_17915912214491170",
+   "tipo": "comentario",
+   "red": "instagram",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-02T16:57:20+0000",
+   "texto": "En equilibrio total Nezahualcóyotl está fatal su personal tanto como el encargado como sus especialistas. Mi esposo y yo queremos nuestro reembolso, ya que no son tres pesos los que se paga, a fuerzas son 10 sesiones y no quedas bien. Los especialistas son puro pasante sin experiencia, solo tratan contracturas leves. Cero recomdable. QUIERO MI REEMBOLSO 🗣️🗣️🗣️🗣️🗣️🗣️🗣️.",
+   "categoria": "Cobros",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.instagram.com/p/DbB_ScZM8-_/",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1028292753290604_2298824778184773",
    "tipo": "comentario",
