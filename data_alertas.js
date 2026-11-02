@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 13:29",
+ "generado": "2026-11-02 14:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3179,
+   "revisados": 3182,
    "estado": "ok",
    "nota": null
   },
@@ -85,7 +85,7 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": false,
+   "respondida": true,
    "oculto": false
   },
   {
@@ -296,7 +296,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/1038826695630178/posts/1098892472956933?comment_id=4619657118323942",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1051110864342126_1433998732046581",
@@ -341,7 +341,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/1038826695630178/posts/1060296263483221?comment_id=1121642717264516",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1114520858060761_2657324711382290",
@@ -401,7 +401,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1129872589521580/?comment_id=1158951986791178",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1113802394799274_1812411213365314",
@@ -416,7 +416,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1557100279509473/?comment_id=1812411213365314",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1031900192989495_4575215926073275",
@@ -2682,8 +2682,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 23,
-   "no_leidos_24h": 3,
+   "no_leidos": 22,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
