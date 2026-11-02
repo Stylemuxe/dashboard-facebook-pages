@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 12:03",
+ "generado": "2026-11-02 12:25",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3070,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 3175,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 82,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 195,
+   "revisados": 194,
    "estado": "ok",
    "nota": null
   },
@@ -56,7 +56,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1570686961406087/?comment_id=3024843741019632",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "msg_5f237328e50a",
@@ -86,7 +86,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1570686961406087/?comment_id=1418986693240984",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "igc_17915912214491170",
@@ -851,8 +851,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/945745674816992/?comment_id=1122477513574653",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083035551209292_2377208959685944",
@@ -1692,8 +1691,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1944064223664727/?comment_id=1424242039339707",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1098598622926973_1836404611126273",
@@ -2653,8 +2651,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 5,
-   "no_leidos_24h": 0,
+   "no_leidos": 6,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-07T16:26:20+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
@@ -2669,7 +2667,7 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 22,
+   "no_leidos": 23,
    "no_leidos_24h": 4,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
@@ -2697,6 +2695,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-01T17:21:12+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-02T17:57:54+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
