@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 11:31",
+ "generado": "2026-11-02 12:03",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3171,
-   "estado": "ok",
-   "nota": null
+   "revisados": 3070,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 82,
-   "estado": "ok",
-   "nota": null
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 197,
+   "revisados": 195,
    "estado": "ok",
    "nota": null
   },
@@ -851,7 +851,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/945745674816992/?comment_id=1122477513574653",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_1083035551209292_2377208959685944",
@@ -1691,7 +1692,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1944064223664727/?comment_id=1424242039339707",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_1098598622926973_1836404611126273",
@@ -2643,8 +2645,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 19,
-   "no_leidos_24h": 1,
+   "no_leidos": 20,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-06T03:27:46+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
@@ -2667,8 +2669,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 23,
-   "no_leidos_24h": 5,
+   "no_leidos": 22,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
