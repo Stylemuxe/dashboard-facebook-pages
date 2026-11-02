@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-01 19:40",
+ "generado": "2026-11-01 20:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3164,
+   "revisados": 3162,
    "estado": "ok",
    "nota": null
   },
@@ -2455,21 +2455,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=1089807046770909",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1071734515613094_4730804670481189",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-03T02:00:33+0000",
-   "texto": "Mal servicio en general …. Cobran antes de tiempo por algo que no sucederá …. No vayan",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1032293979625275/?comment_id=4730804670481189",
    "respondida": false,
    "oculto": true
   },
