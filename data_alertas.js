@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 11:14",
+ "generado": "2026-11-02 11:31",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 196,
+   "revisados": 197,
    "estado": "ok",
    "nota": null
   },
@@ -146,7 +146,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1654336899738527/?comment_id=2565155723985782",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1113745704804943_28854213474260047",
@@ -161,7 +161,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1161897556161005/?comment_id=28854213474260047",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1113728014806712_1644340523907708",
@@ -2692,7 +2692,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "autonomia",
    "pagina": "Autonomía con Sentido",
    "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-01T17:21:12+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
