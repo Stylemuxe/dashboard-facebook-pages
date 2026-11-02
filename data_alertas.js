@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 08:25",
+ "generado": "2026-11-02 08:36",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 205,
+   "revisados": 203,
    "estado": "ok",
    "nota": null
   },
@@ -2638,8 +2638,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 7,
-   "no_leidos_24h": 4,
+   "no_leidos": 6,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-31T20:26:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
