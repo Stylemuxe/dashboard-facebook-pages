@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-01 22:10",
+ "generado": "2026-11-01 23:12",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3173,
+   "revisados": 3182,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 82,
+   "revisados": 83,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 199,
+   "revisados": 200,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,51 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1092420543604126_2565155723985782",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-02T04:46:25+0000",
+   "texto": "yo acudí al quiropráctico y me querían pasar a la acupuntura y no me atendieron, solo me robaron 700 pesos que pague de inicio para poder pasar a consulta.\nes puro robo no te atiende quien te dicen.\neso fue en chalco",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1654336899738527/?comment_id=2565155723985782",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1113745704804943_28854213474260047",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-02T04:20:21+0000",
+   "texto": "Fraude",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1161897556161005/?comment_id=28854213474260047",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "igc_18107945501352980",
+   "tipo": "comentario",
+   "red": "instagram",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-02T04:18:37+0000",
+   "texto": "La persona que me atendió en mi terapia de acupuntura nefasta, termine mi tratamiento por qué ya lo tenía pagado pero no regreso ni con descuento",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.instagram.com/p/DdudStusH_K/",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1113728014806712_1644340523907708",
    "tipo": "comentario",
@@ -2638,8 +2683,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 6,
-   "no_leidos_24h": 4,
+   "no_leidos": 7,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-10-31T20:26:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
