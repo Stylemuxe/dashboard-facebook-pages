@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-01 23:12",
+ "generado": "2026-11-02 05:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3182,
+   "revisados": 3178,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 200,
+   "revisados": 202,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1026576270128919_1589169012536271",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-02T05:27:32+0000",
+   "texto": "Si es como el de Chalco no lo recomiendo",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1054241590883822/?comment_id=1589169012536271",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1092420543604126_2565155723985782",
    "tipo": "comentario",
@@ -2471,51 +2486,6 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2246915859426266/?comment_id=2883046498812371",
    "respondida": true,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1031215919724589_1121781740781820",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-03T08:08:01+0000",
-   "texto": "No sirve para nada y te cobran por adelantado mi ermana ya fue y \n.y no le sirvió tengan cuidado",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1121781740781820",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122149396077112657_2132533410677004",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "fecha": "2026-10-03T06:29:20+0000",
-   "texto": "Wow está muy bien pero también demasiado carísimo y todavía dicen soloooo 690 🫪😞",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=2132533410677004",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_122228801786373437_1089807046770909",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "fecha": "2026-10-03T05:35:28+0000",
-   "texto": "Muy caro \n.mala atención",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=1089807046770909",
-   "respondida": false,
    "oculto": true
   },
   {
