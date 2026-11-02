@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-01 23:13",
+ "generado": "2026-11-02 05:09",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -394,6 +394,11 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-01",
      "seguidores": 7990,
      "vistas_totales": 1807218
+    },
+    {
+     "fecha": "2026-11-02",
+     "seguidores": 7990,
+     "vistas_totales": 1807218
     }
    ],
    "videos": [
@@ -403,9 +408,9 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-02T02:29:22Z",
      "miniatura": "https://i.ytimg.com/vi/vJJRSMtV1BI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=vJJRSMtV1BI",
-     "vistas": 7,
-     "likes": 3,
-     "comentarios": 0
+     "vistas": 15,
+     "likes": 5,
+     "comentarios": 1
     },
     {
      "id": "clqy_gtFdRw",
@@ -413,9 +418,9 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 1539,
-     "likes": 22,
-     "comentarios": 1
+     "vistas": 1625,
+     "likes": 23,
+     "comentarios": 3
     },
     {
      "id": "9SHDI0qSN7Y",
@@ -423,7 +428,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-10-03T19:05:19Z",
      "miniatura": "https://i.ytimg.com/vi/9SHDI0qSN7Y/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=9SHDI0qSN7Y",
-     "vistas": 149,
+     "vistas": 150,
      "likes": 2,
      "comentarios": 0
     },
@@ -453,8 +458,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-10T16:00:09Z",
      "miniatura": "https://i.ytimg.com/vi/koNKV9O2q_M/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=koNKV9O2q_M",
-     "vistas": 585,
-     "likes": 8,
+     "vistas": 586,
+     "likes": 9,
      "comentarios": 0
     },
     {
@@ -533,7 +538,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 742,
+     "vistas": 743,
      "likes": 11,
      "comentarios": 4
     },
