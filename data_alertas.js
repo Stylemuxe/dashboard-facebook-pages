@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 05:09",
+ "generado": "2026-11-02 05:17",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -2638,15 +2638,15 @@ window.ALERTAS_DATA = {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 23,
-   "no_leidos_24h": 7,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 5,
-   "no_leidos_24h": 2,
+   "no_leidos": 6,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-31T18:52:54+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
@@ -2662,7 +2662,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
    "no_leidos": 3,
-   "no_leidos_24h": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-01T00:36:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   },
@@ -2677,8 +2677,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "autonomia",
    "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-01T17:21:12+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
