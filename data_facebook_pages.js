@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-11-02 08:29",
+  "generado": "2026-11-02 08:35",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -721,7 +721,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 531
+          "valor": 549
         }
       ],
       "vistas_diario": [
@@ -2153,11 +2153,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 93648
+          "valor": 93652
         },
         {
           "fecha": "2026-11-03",
-          "valor": 5968
+          "valor": 6480
         }
       ],
       "video_view_time_horas_diario": [
@@ -2871,11 +2871,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 430.5
+          "valor": 430.6
         },
         {
           "fecha": "2026-11-03",
-          "valor": 27.2
+          "valor": 29.6
         }
       ],
       "calificacion": {
@@ -2894,8 +2894,8 @@ window.FB_PAGES_DATA = {
       "mensajes": {
         "conversaciones_28d": 205,
         "mensajes_28d": 917,
-        "no_leidos": 7,
-        "no_leidos_24h": 4,
+        "no_leidos": 6,
+        "no_leidos_24h": 3,
         "no_leidos_mas_antiguo": "2026-10-31T20:26:59+0000",
         "conversaciones_hoy": 1,
         "serie_diaria": [
@@ -3013,7 +3013,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:25"
+        "actualizado": "2026-11-02 08:31"
       },
       "mejor_horario": {
         "por_dia": [
@@ -3255,7 +3255,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 3,
           "shares": 7,
           "clics": 531,
-          "video_views": 9107,
+          "video_views": 9110,
           "comentarios_preview": [
             {
               "id": "1119345434185335_1737509730676579",
@@ -5456,28 +5456,28 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-11-02",
           "engagement": 7802,
           "vistas": 1159,
-          "video_views": 93648,
-          "video_view_time_horas": 430.5,
+          "video_views": 93652,
+          "video_view_time_horas": 430.6,
           "vv_org": 867,
-          "vv_pauta": 92781,
+          "vv_pauta": 92785,
           "sn_org": 8,
           "sn_pauta": 28,
           "vc_org": 4457,
-          "vc_pauta": 513229,
+          "vc_pauta": 513250,
           "seguidores": 26001
         },
         {
           "fecha": "2026-11-03",
-          "engagement": 531,
+          "engagement": 549,
           "vistas": 60,
-          "video_views": 5968,
-          "video_view_time_horas": 27.2,
+          "video_views": 6480,
+          "video_view_time_horas": 29.6,
           "vv_org": 167,
-          "vv_pauta": 5801,
+          "vv_pauta": 6313,
           "sn_org": 1,
           "sn_pauta": 1,
           "vc_org": 467,
-          "vc_pauta": 28010
+          "vc_pauta": 28291
         }
       ],
       "instagram": {
@@ -5486,10 +5486,10 @@ window.FB_PAGES_DATA = {
         "sigue_a": 6,
         "media_count": 348,
         "reach_diario": [],
-        "profile_views_28d": 5690,
+        "profile_views_28d": 5691,
         "website_clicks_28d": 168,
         "accounts_engaged_28d": 6829,
-        "total_interactions_28d": 8044,
+        "total_interactions_28d": 8045,
         "mejor_horario": {
           "por_dia": [
             {
@@ -5609,7 +5609,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 392,
+            "video_views": 393,
             "alcance": 276,
             "guardados": 0,
             "media_type": "VIDEO",
@@ -5625,7 +5625,7 @@ window.FB_PAGES_DATA = {
             "shares": 2,
             "clics": 0,
             "video_views": 1282,
-            "alcance": 431,
+            "alcance": 433,
             "guardados": 2,
             "media_type": "CAROUSEL_ALBUM",
             "comentarios_preview": []
@@ -5640,7 +5640,7 @@ window.FB_PAGES_DATA = {
             "shares": 0,
             "clics": 0,
             "video_views": 657,
-            "alcance": 229,
+            "alcance": 231,
             "guardados": 3,
             "media_type": "CAROUSEL_ALBUM",
             "comentarios_preview": []
@@ -5700,7 +5700,7 @@ window.FB_PAGES_DATA = {
             "shares": 2,
             "clics": 0,
             "video_views": 1194,
-            "alcance": 832,
+            "alcance": 834,
             "guardados": 6,
             "media_type": "VIDEO",
             "comentarios_preview": []
@@ -5741,7 +5741,7 @@ window.FB_PAGES_DATA = {
             "shares": 0,
             "clics": 0,
             "video_views": 812,
-            "alcance": 609,
+            "alcance": 611,
             "guardados": 1,
             "media_type": "VIDEO",
             "comentarios_preview": []
@@ -5756,7 +5756,7 @@ window.FB_PAGES_DATA = {
             "shares": 1,
             "clics": 0,
             "video_views": 1125,
-            "alcance": 509,
+            "alcance": 511,
             "guardados": 15,
             "media_type": "CAROUSEL_ALBUM",
             "comentarios_preview": []
@@ -5771,7 +5771,7 @@ window.FB_PAGES_DATA = {
             "shares": 4,
             "clics": 0,
             "video_views": 1109,
-            "alcance": 831,
+            "alcance": 832,
             "guardados": 5,
             "media_type": "VIDEO",
             "comentarios_preview": []
@@ -5837,7 +5837,7 @@ window.FB_PAGES_DATA = {
             "shares": 2,
             "clics": 0,
             "video_views": 1086,
-            "alcance": 817,
+            "alcance": 819,
             "guardados": 5,
             "media_type": "VIDEO",
             "comentarios_preview": []
@@ -6903,11 +6903,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 513229
+          "valor": 513250
         },
         {
           "fecha": "2026-11-03",
-          "valor": 28010
+          "valor": 28291
         }
       ],
       "video_views_organico_diario": [
@@ -7643,11 +7643,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 92781
+          "valor": 92785
         },
         {
           "fecha": "2026-11-03",
-          "valor": 5801
+          "valor": 6313
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -9572,7 +9572,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 497
+          "valor": 560
         }
       ],
       "vistas_diario": [
@@ -10290,7 +10290,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 60
+          "valor": 66
         }
       ],
       "video_views_diario": [
@@ -11004,11 +11004,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 99109
+          "valor": 99114
         },
         {
           "fecha": "2026-11-03",
-          "valor": 7709
+          "valor": 8365
         }
       ],
       "video_view_time_horas_diario": [
@@ -11726,7 +11726,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 35.5
+          "valor": 38.4
         }
       ],
       "calificacion": {
@@ -11868,7 +11868,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:26"
+        "actualizado": "2026-11-02 08:31"
       },
       "mejor_horario": {
         "por_dia": [
@@ -11895,7 +11895,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Sábado",
             "posts": 8,
-            "engagement_prom": 632.1
+            "engagement_prom": 632.2
           },
           {
             "label": "Jueves",
@@ -11940,17 +11940,17 @@ window.FB_PAGES_DATA = {
         {
           "label": "Ubicación / Sucursal",
           "posts": 9,
-          "engagement_prom": 4233.4
+          "engagement_prom": 4233.6
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 44,
-          "engagement_prom": 1243.5
+          "engagement_prom": 1243.6
         },
         {
           "label": "Llamado a agendar",
           "posts": 10,
-          "engagement_prom": 1158.4
+          "engagement_prom": 1158.5
         },
         {
           "label": "Promoción / Precio",
@@ -12131,7 +12131,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 9,
           "shares": 8,
           "clics": 892,
-          "video_views": 21817,
+          "video_views": 21834,
           "comentarios_preview": [
             {
               "id": "1113745704804943_1458107653082080",
@@ -12200,7 +12200,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 3,
           "clics": 364,
-          "video_views": 5992,
+          "video_views": 5994,
           "comentarios_preview": [],
           "con_pauta": true,
           "pauta": {
@@ -12223,7 +12223,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 6,
           "shares": 7,
           "clics": 498,
-          "video_views": 16827,
+          "video_views": 16833,
           "comentarios_preview": [
             {
               "id": "1113728014806712_1128634393286259",
@@ -12311,7 +12311,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 2,
           "shares": 0,
           "clics": 2203,
-          "video_views": 10905,
+          "video_views": 10906,
           "comentarios_preview": [
             {
               "id": "1110967201749460_1586707032770573",
@@ -14515,28 +14515,28 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-11-02",
           "engagement": 6736,
           "vistas": 1115,
-          "video_views": 99109,
+          "video_views": 99114,
           "video_view_time_horas": 459.4,
           "vv_org": 574,
-          "vv_pauta": 98535,
+          "vv_pauta": 98540,
           "sn_org": 9,
           "sn_pauta": 23,
           "vc_org": 1721,
-          "vc_pauta": 558971,
+          "vc_pauta": 558991,
           "seguidores": 16558
         },
         {
           "fecha": "2026-11-03",
-          "engagement": 497,
-          "vistas": 60,
-          "video_views": 7709,
-          "video_view_time_horas": 35.5,
-          "vv_org": 63,
-          "vv_pauta": 7646,
+          "engagement": 560,
+          "vistas": 66,
+          "video_views": 8365,
+          "video_view_time_horas": 38.4,
+          "vv_org": 73,
+          "vv_pauta": 8292,
           "sn_org": 0,
           "sn_pauta": 1,
-          "vc_org": 161,
-          "vc_pauta": 33699
+          "vc_org": 168,
+          "vc_pauta": 36807
         }
       ],
       "instagram": {
@@ -14548,7 +14548,7 @@ window.FB_PAGES_DATA = {
         "profile_views_28d": 1799,
         "website_clicks_28d": 0,
         "accounts_engaged_28d": 2863,
-        "total_interactions_28d": 3459,
+        "total_interactions_28d": 3460,
         "mejor_horario": {
           "por_dia": [
             {
@@ -15610,7 +15610,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 161
+          "valor": 168
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -15980,11 +15980,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 558971
+          "valor": 558991
         },
         {
           "fecha": "2026-11-03",
-          "valor": 33699
+          "valor": 36807
         }
       ],
       "video_views_organico_diario": [
@@ -16354,7 +16354,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 63
+          "valor": 73
         }
       ],
       "video_views_pauta_diario": [
@@ -16720,11 +16720,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 98535
+          "valor": 98540
         },
         {
           "fecha": "2026-11-03",
-          "valor": 7646
+          "valor": 8292
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -17784,7 +17784,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-08",
-          "total": 4479,
+          "total": 4480,
           "organico": 0,
           "con_pauta": true
         },
@@ -18649,7 +18649,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 118
+          "valor": 129
         }
       ],
       "vistas_diario": [
@@ -20933,7 +20933,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:26"
+        "actualizado": "2026-11-02 08:32"
       },
       "mejor_horario": {
         "por_dia": [
@@ -21598,7 +21598,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 120,
           "shares": 434,
           "clics": 39152,
-          "video_views": 740333,
+          "video_views": 740372,
           "comentarios_preview": [
             {
               "id": "1026390860147750_4233491783609166",
@@ -23698,12 +23698,12 @@ window.FB_PAGES_DATA = {
           "sn_org": 0,
           "sn_pauta": 7,
           "vc_org": 345,
-          "vc_pauta": 131039,
+          "vc_pauta": 131041,
           "seguidores": 9649
         },
         {
           "fecha": "2026-11-03",
-          "engagement": 118,
+          "engagement": 129,
           "vistas": 12,
           "video_views": 2097,
           "video_view_time_horas": 9.2,
@@ -23711,8 +23711,8 @@ window.FB_PAGES_DATA = {
           "vv_pauta": 2088,
           "sn_org": 0,
           "sn_pauta": 0,
-          "vc_org": 47,
-          "vc_pauta": 10806
+          "vc_org": 48,
+          "vc_pauta": 11977
         }
       ],
       "instagram": {
@@ -24756,7 +24756,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 47
+          "valor": 48
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -25126,11 +25126,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 131039
+          "valor": 131041
         },
         {
           "fecha": "2026-11-03",
-          "valor": 10806
+          "valor": 11977
         }
       ],
       "video_views_organico_diario": [
@@ -27800,7 +27800,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 44
+          "valor": 52
         }
       ],
       "vistas_diario": [
@@ -28518,7 +28518,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 33
+          "valor": 36
         }
       ],
       "video_views_diario": [
@@ -30044,7 +30044,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:27"
+        "actualizado": "2026-11-02 08:32"
       },
       "mejor_horario": {
         "por_dia": [
@@ -30165,7 +30165,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 0,
           "clics": 4,
-          "video_views": 224,
+          "video_views": 227,
           "comentarios_preview": [],
           "con_pauta": false,
           "pauta": null,
@@ -30254,7 +30254,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 1,
           "clics": 33,
-          "video_views": 753,
+          "video_views": 754,
           "comentarios_preview": [],
           "con_pauta": false,
           "pauta": null,
@@ -32399,16 +32399,16 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "engagement": 44,
-          "vistas": 33,
+          "engagement": 52,
+          "vistas": 36,
           "video_views": 112,
           "video_view_time_horas": 0.7,
           "vv_org": 57,
           "vv_pauta": 55,
           "sn_org": 0,
           "sn_pauta": 0,
-          "vc_org": 344,
-          "vc_pauta": 196
+          "vc_org": 374,
+          "vc_pauta": 210
         }
       ],
       "instagram": {
@@ -32592,7 +32592,7 @@ window.FB_PAGES_DATA = {
             "shares": 3,
             "clics": 0,
             "video_views": 675,
-            "alcance": 390,
+            "alcance": 391,
             "guardados": 3,
             "media_type": "VIDEO",
             "comentarios_preview": []
@@ -33453,7 +33453,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 344
+          "valor": 374
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -33827,7 +33827,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 196
+          "valor": 210
         }
       ],
       "video_views_organico_diario": [
@@ -36169,7 +36169,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 21
+          "valor": 24
         }
       ],
       "vistas_diario": [
@@ -37449,7 +37449,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:27"
+        "actualizado": "2026-11-02 08:33"
       },
       "mejor_horario": {
         "por_dia": [
@@ -37565,7 +37565,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 2,
           "clics": 164,
-          "video_views": 5423,
+          "video_views": 5424,
           "comentarios_preview": [],
           "con_pauta": true,
           "pauta": {
@@ -37735,7 +37735,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 26,
           "shares": 31,
           "clics": 5597,
-          "video_views": 152191,
+          "video_views": 152209,
           "comentarios_preview": [
             {
               "id": "122221817720369965_1460310642663783",
@@ -37883,7 +37883,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 124,
           "shares": 141,
           "clics": 16039,
-          "video_views": 257074,
+          "video_views": 257075,
           "comentarios_preview": [
             {
               "id": "122217622538369965_2058319221526309",
@@ -39314,12 +39314,12 @@ window.FB_PAGES_DATA = {
           "sn_org": 0,
           "sn_pauta": 4,
           "vc_org": 301,
-          "vc_pauta": 83752,
+          "vc_pauta": 83756,
           "seguidores": 3653
         },
         {
           "fecha": "2026-11-03",
-          "engagement": 21,
+          "engagement": 24,
           "vistas": 9,
           "video_views": 258,
           "video_view_time_horas": 1.2,
@@ -39327,8 +39327,8 @@ window.FB_PAGES_DATA = {
           "vv_pauta": 256,
           "sn_org": 0,
           "sn_pauta": 0,
-          "vc_org": 10,
-          "vc_pauta": 1355
+          "vc_org": 11,
+          "vc_pauta": 1487
         }
       ],
       "instagram": null,
@@ -39703,7 +39703,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 10
+          "valor": 11
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -40073,11 +40073,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 83752
+          "valor": 83756
         },
         {
           "fecha": "2026-11-03",
-          "valor": 1355
+          "valor": 1487
         }
       ],
       "video_views_organico_diario": [
@@ -42414,7 +42414,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 31
+          "valor": 32
         }
       ],
       "vistas_diario": [
@@ -43693,7 +43693,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:28"
+        "actualizado": "2026-11-02 08:33"
       },
       "mejor_horario": {
         "por_dia": [
@@ -44257,7 +44257,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 120,
           "vv_pauta": 8608,
           "sn_org": 0,
-          "sn_pauta": 3
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-07",
@@ -44269,8 +44269,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 43526,
           "vv_org": 48,
           "vv_pauta": 7378,
-          "sn_org": 2,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-08",
@@ -44283,7 +44283,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 121,
           "vv_pauta": 7945,
           "sn_org": 0,
-          "sn_pauta": 1
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-09",
@@ -44295,8 +44295,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 43486,
           "vv_org": 705,
           "vv_pauta": 9897,
-          "sn_org": 1,
-          "sn_pauta": 5
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-10",
@@ -44308,8 +44308,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 49464,
           "vv_org": 543,
           "vv_pauta": 12454,
-          "sn_org": 2,
-          "sn_pauta": 7
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-11",
@@ -44322,7 +44322,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 222,
           "vv_pauta": 6274,
           "sn_org": 0,
-          "sn_pauta": 2
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-12",
@@ -44334,8 +44334,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 80252,
           "vv_org": 469,
           "vv_pauta": 22569,
-          "sn_org": 1,
-          "sn_pauta": 8
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-13",
@@ -44348,7 +44348,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 207,
           "vv_pauta": 17334,
           "sn_org": 0,
-          "sn_pauta": 9
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-14",
@@ -44361,7 +44361,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 99,
           "vv_pauta": 11562,
           "sn_org": 0,
-          "sn_pauta": 8
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-15",
@@ -44373,8 +44373,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 45608,
           "vv_org": 113,
           "vv_pauta": 12153,
-          "sn_org": 1,
-          "sn_pauta": 2
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-16",
@@ -44386,8 +44386,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 57364,
           "vv_org": 123,
           "vv_pauta": 15096,
-          "sn_org": 1,
-          "sn_pauta": 5
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-17",
@@ -44399,8 +44399,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 48803,
           "vv_org": 163,
           "vv_pauta": 11537,
-          "sn_org": 1,
-          "sn_pauta": 4
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-18",
@@ -44412,8 +44412,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 38986,
           "vv_org": 102,
           "vv_pauta": 9078,
-          "sn_org": 2,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-19",
@@ -44425,8 +44425,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 60671,
           "vv_org": 165,
           "vv_pauta": 15093,
-          "sn_org": 2,
-          "sn_pauta": 7
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-20",
@@ -44439,7 +44439,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 136,
           "vv_pauta": 12451,
           "sn_org": 0,
-          "sn_pauta": 7
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-21",
@@ -44451,8 +44451,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 44281,
           "vv_org": 93,
           "vv_pauta": 12160,
-          "sn_org": 1,
-          "sn_pauta": 5
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-22",
@@ -44464,8 +44464,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 43492,
           "vv_org": 108,
           "vv_pauta": 11594,
-          "sn_org": 3,
-          "sn_pauta": 9
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-23",
@@ -44477,8 +44477,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 49412,
           "vv_org": 96,
           "vv_pauta": 13440,
-          "sn_org": 1,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-24",
@@ -44490,8 +44490,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 46032,
           "vv_org": 126,
           "vv_pauta": 12855,
-          "sn_org": 1,
-          "sn_pauta": 5
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-25",
@@ -44503,8 +44503,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 44058,
           "vv_org": 177,
           "vv_pauta": 11067,
-          "sn_org": 3,
-          "sn_pauta": 2
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-26",
@@ -44516,8 +44516,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 73457,
           "vv_org": 131,
           "vv_pauta": 19877,
-          "sn_org": 3,
-          "sn_pauta": 11
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-27",
@@ -44529,8 +44529,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 51874,
           "vv_org": 132,
           "vv_pauta": 14443,
-          "sn_org": 2,
-          "sn_pauta": 4
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-28",
@@ -44543,7 +44543,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 112,
           "vv_pauta": 11099,
           "sn_org": 0,
-          "sn_pauta": 4
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-29",
@@ -44555,8 +44555,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 43840,
           "vv_org": 110,
           "vv_pauta": 11952,
-          "sn_org": 3,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-30",
@@ -44568,8 +44568,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 46747,
           "vv_org": 79,
           "vv_pauta": 12822,
-          "sn_org": 1,
-          "sn_pauta": 6
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-08-31",
@@ -44581,8 +44581,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 47672,
           "vv_org": 132,
           "vv_pauta": 13166,
-          "sn_org": 1,
-          "sn_pauta": 6
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-01",
@@ -44595,7 +44595,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 98,
           "vv_pauta": 8694,
           "sn_org": 0,
-          "sn_pauta": 8
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-02",
@@ -44608,7 +44608,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 109,
           "vv_pauta": 14913,
           "sn_org": 0,
-          "sn_pauta": 10
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-03",
@@ -44620,8 +44620,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 49264,
           "vv_org": 138,
           "vv_pauta": 12667,
-          "sn_org": 1,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-04",
@@ -44634,7 +44634,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 118,
           "vv_pauta": 14530,
           "sn_org": 0,
-          "sn_pauta": 4
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-05",
@@ -44647,7 +44647,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 52,
           "vv_pauta": 7818,
           "sn_org": 0,
-          "sn_pauta": 3
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-06",
@@ -44660,7 +44660,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 75,
           "vv_pauta": 10690,
           "sn_org": 0,
-          "sn_pauta": 5
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-07",
@@ -44672,8 +44672,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 50700,
           "vv_org": 108,
           "vv_pauta": 11887,
-          "sn_org": 2,
-          "sn_pauta": 7
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-08",
@@ -44685,8 +44685,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 47937,
           "vv_org": 65,
           "vv_pauta": 11975,
-          "sn_org": 1,
-          "sn_pauta": 4
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-09",
@@ -44699,7 +44699,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 100,
           "vv_pauta": 11221,
           "sn_org": 0,
-          "sn_pauta": 4
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-10",
@@ -44711,8 +44711,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 43756,
           "vv_org": 153,
           "vv_pauta": 9916,
-          "sn_org": 2,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-11",
@@ -44724,8 +44724,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 43579,
           "vv_org": 108,
           "vv_pauta": 10615,
-          "sn_org": 1,
-          "sn_pauta": 4
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-12",
@@ -44738,7 +44738,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 70,
           "vv_pauta": 8449,
           "sn_org": 0,
-          "sn_pauta": 3
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-13",
@@ -44751,7 +44751,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 85,
           "vv_pauta": 9055,
           "sn_org": 0,
-          "sn_pauta": 3
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-14",
@@ -44764,7 +44764,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 76,
           "vv_pauta": 7334,
           "sn_org": 0,
-          "sn_pauta": 2
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-15",
@@ -44776,8 +44776,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 50039,
           "vv_org": 247,
           "vv_pauta": 10052,
-          "sn_org": 1,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-16",
@@ -44790,7 +44790,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 163,
           "vv_pauta": 15916,
           "sn_org": 0,
-          "sn_pauta": 4
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-17",
@@ -44802,8 +44802,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 51252,
           "vv_org": 151,
           "vv_pauta": 13031,
-          "sn_org": 3,
-          "sn_pauta": 1
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-18",
@@ -44815,7 +44815,7 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 28663,
           "vv_org": 105,
           "vv_pauta": 7279,
-          "sn_org": 1,
+          "sn_org": 0,
           "sn_pauta": 0
         },
         {
@@ -44828,8 +44828,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 55447,
           "vv_org": 145,
           "vv_pauta": 12556,
-          "sn_org": 1,
-          "sn_pauta": 7
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-20",
@@ -44842,7 +44842,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 71,
           "vv_pauta": 8878,
           "sn_org": 0,
-          "sn_pauta": 3
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-21",
@@ -44854,8 +44854,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 45249,
           "vv_org": 112,
           "vv_pauta": 10597,
-          "sn_org": 2,
-          "sn_pauta": 6
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-22",
@@ -44867,8 +44867,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 46888,
           "vv_org": 107,
           "vv_pauta": 10230,
-          "sn_org": 1,
-          "sn_pauta": 1
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-23",
@@ -44881,7 +44881,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 112,
           "vv_pauta": 9877,
           "sn_org": 0,
-          "sn_pauta": 6
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-24",
@@ -44893,8 +44893,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 33097,
           "vv_org": 98,
           "vv_pauta": 6620,
-          "sn_org": 2,
-          "sn_pauta": 1
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-25",
@@ -44906,8 +44906,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 33570,
           "vv_org": 71,
           "vv_pauta": 7021,
-          "sn_org": 1,
-          "sn_pauta": 1
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-26",
@@ -44932,7 +44932,7 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 17,
           "vv_org": 16,
           "vv_pauta": 4,
-          "sn_org": 1,
+          "sn_org": 0,
           "sn_pauta": 0
         },
         {
@@ -44958,8 +44958,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 36948,
           "vv_org": 90,
           "vv_pauta": 8095,
-          "sn_org": 2,
-          "sn_pauta": 2
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-09-30",
@@ -44971,8 +44971,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 62647,
           "vv_org": 119,
           "vv_pauta": 13289,
-          "sn_org": 1,
-          "sn_pauta": 7
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-01",
@@ -44984,8 +44984,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 101053,
           "vv_org": 239,
           "vv_pauta": 25234,
-          "sn_org": 2,
-          "sn_pauta": 5
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-02",
@@ -44997,8 +44997,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 57076,
           "vv_org": 108,
           "vv_pauta": 17920,
-          "sn_org": 4,
-          "sn_pauta": 6
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-03",
@@ -45010,8 +45010,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 67702,
           "vv_org": 84,
           "vv_pauta": 16416,
-          "sn_org": 1,
-          "sn_pauta": 8
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-04",
@@ -45023,8 +45023,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 75041,
           "vv_org": 119,
           "vv_pauta": 15707,
-          "sn_org": 2,
-          "sn_pauta": 7
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-05",
@@ -45037,7 +45037,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 77,
           "vv_pauta": 16762,
           "sn_org": 0,
-          "sn_pauta": 4
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-06",
@@ -45050,7 +45050,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 73,
           "vv_pauta": 10950,
           "sn_org": 0,
-          "sn_pauta": 2
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-07",
@@ -45062,8 +45062,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 84652,
           "vv_org": 209,
           "vv_pauta": 22177,
-          "sn_org": 2,
-          "sn_pauta": 9
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-08",
@@ -45075,8 +45075,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 64528,
           "vv_org": 99,
           "vv_pauta": 17213,
-          "sn_org": 1,
-          "sn_pauta": 5
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-09",
@@ -45088,8 +45088,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 59888,
           "vv_org": 104,
           "vv_pauta": 16504,
-          "sn_org": 2,
-          "sn_pauta": 4
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-10",
@@ -45102,7 +45102,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 76,
           "vv_pauta": 7178,
           "sn_org": 0,
-          "sn_pauta": 2
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-11",
@@ -45114,8 +45114,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 96132,
           "vv_org": 137,
           "vv_pauta": 25437,
-          "sn_org": 1,
-          "sn_pauta": 6
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-12",
@@ -45128,7 +45128,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 122,
           "vv_pauta": 11885,
           "sn_org": 0,
-          "sn_pauta": 8
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-13",
@@ -45141,7 +45141,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 45,
           "vv_pauta": 7045,
           "sn_org": 0,
-          "sn_pauta": 2
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-14",
@@ -45153,8 +45153,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 58514,
           "vv_org": 187,
           "vv_pauta": 17130,
-          "sn_org": 3,
-          "sn_pauta": 6
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-15",
@@ -45166,8 +45166,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 47979,
           "vv_org": 84,
           "vv_pauta": 11937,
-          "sn_org": 1,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-16",
@@ -45179,7 +45179,7 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 28448,
           "vv_org": 47,
           "vv_pauta": 6764,
-          "sn_org": 2,
+          "sn_org": 0,
           "sn_pauta": 0
         },
         {
@@ -45193,7 +45193,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 96,
           "vv_pauta": 13928,
           "sn_org": 0,
-          "sn_pauta": 5
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-18",
@@ -45205,8 +45205,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 44445,
           "vv_org": 75,
           "vv_pauta": 12625,
-          "sn_org": 1,
-          "sn_pauta": 4
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-19",
@@ -45218,8 +45218,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 38745,
           "vv_org": 69,
           "vv_pauta": 11254,
-          "sn_org": 3,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-20",
@@ -45231,8 +45231,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 33145,
           "vv_org": 176,
           "vv_pauta": 10878,
-          "sn_org": 1,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-21",
@@ -45244,8 +45244,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 96586,
           "vv_org": 145,
           "vv_pauta": 27216,
-          "sn_org": 4,
-          "sn_pauta": 10
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-22",
@@ -45257,8 +45257,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 68951,
           "vv_org": 156,
           "vv_pauta": 18467,
-          "sn_org": 1,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-23",
@@ -45270,8 +45270,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 58721,
           "vv_org": 176,
           "vv_pauta": 17771,
-          "sn_org": 2,
-          "sn_pauta": 3
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-24",
@@ -45284,7 +45284,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 149,
           "vv_pauta": 23788,
           "sn_org": 0,
-          "sn_pauta": 8
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-25",
@@ -45296,8 +45296,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 67023,
           "vv_org": 121,
           "vv_pauta": 17789,
-          "sn_org": 2,
-          "sn_pauta": 5
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-26",
@@ -45311,7 +45311,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 108,
           "vv_pauta": 18582,
           "sn_org": 0,
-          "sn_pauta": 6
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-27",
@@ -45324,8 +45324,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 41675,
           "vv_org": 85,
           "vv_pauta": 11328,
-          "sn_org": 2,
-          "sn_pauta": 6
+          "sn_org": 0,
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-28",
@@ -45339,7 +45339,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 210,
           "vv_pauta": 17392,
           "sn_org": 0,
-          "sn_pauta": 12
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-29",
@@ -45353,7 +45353,7 @@ window.FB_PAGES_DATA = {
           "vv_org": 85,
           "vv_pauta": 13779,
           "sn_org": 0,
-          "sn_pauta": 4
+          "sn_pauta": 0
         },
         {
           "fecha": "2026-10-30",
@@ -45366,7 +45366,7 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 58511,
           "vv_org": 78,
           "vv_pauta": 12632,
-          "sn_org": 2,
+          "sn_org": 0,
           "sn_pauta": 0
         },
         {
@@ -45379,8 +45379,8 @@ window.FB_PAGES_DATA = {
           "vc_pauta": 48372,
           "vv_org": 69,
           "vv_pauta": 10764,
-          "sn_org": 1,
-          "sn_pauta": 1,
+          "sn_org": 0,
+          "sn_pauta": 0,
           "seguidores": 2879
         },
         {
@@ -45391,8 +45391,8 @@ window.FB_PAGES_DATA = {
           "video_view_time_horas": 54.5,
           "vv_org": 97,
           "vv_pauta": 14480,
-          "sn_org": 1,
-          "sn_pauta": 6,
+          "sn_org": 0,
+          "sn_pauta": 0,
           "vc_org": 316,
           "vc_pauta": 63055,
           "seguidores": 2883
@@ -45405,15 +45405,15 @@ window.FB_PAGES_DATA = {
           "video_view_time_horas": 57.3,
           "vv_org": 86,
           "vv_pauta": 14668,
-          "sn_org": 3,
-          "sn_pauta": 1,
+          "sn_org": 0,
+          "sn_pauta": 0,
           "vc_org": 243,
-          "vc_pauta": 67199,
+          "vc_pauta": 67208,
           "seguidores": 2883
         },
         {
           "fecha": "2026-11-03",
-          "engagement": 31,
+          "engagement": 32,
           "vistas": 4,
           "video_views": 273,
           "video_view_time_horas": 1.2,
@@ -45421,8 +45421,8 @@ window.FB_PAGES_DATA = {
           "vv_pauta": 263,
           "sn_org": 0,
           "sn_pauta": 0,
-          "vc_org": 31,
-          "vc_pauta": 758
+          "vc_org": 34,
+          "vc_pauta": 830
         }
       ],
       "instagram": null,
@@ -45797,7 +45797,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 31
+          "valor": 34
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -46167,11 +46167,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 67199
+          "valor": 67208
         },
         {
           "fecha": "2026-11-03",
-          "valor": 758
+          "valor": 830
         }
       ],
       "video_views_organico_diario": [
@@ -46929,7 +46929,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-07",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-08-08",
@@ -46937,11 +46937,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-09",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-10",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-08-11",
@@ -46949,7 +46949,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-12",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-13",
@@ -46961,23 +46961,23 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-15",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-16",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-17",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-18",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-08-19",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-08-20",
@@ -46985,31 +46985,31 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-21",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-22",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-23",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-24",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-25",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-26",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-27",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-08-28",
@@ -47017,15 +47017,15 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-29",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-30",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-31",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-01",
@@ -47037,7 +47037,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-03",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-04",
@@ -47053,11 +47053,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-07",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-09-08",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-09",
@@ -47065,11 +47065,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-10",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-09-11",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-12",
@@ -47085,7 +47085,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-15",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-16",
@@ -47093,15 +47093,15 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-17",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-09-18",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-19",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-20",
@@ -47109,11 +47109,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-21",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-09-22",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-23",
@@ -47121,11 +47121,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-24",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-09-25",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-26",
@@ -47133,7 +47133,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-27",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-28",
@@ -47141,27 +47141,27 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-29",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-09-30",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-10-01",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-02",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-10-03",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-10-04",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-05",
@@ -47173,15 +47173,15 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-07",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-08",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-10-09",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-10",
@@ -47189,7 +47189,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-11",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-10-12",
@@ -47201,15 +47201,15 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-14",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-10-15",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-10-16",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-17",
@@ -47217,27 +47217,27 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-18",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-10-19",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-10-20",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-10-21",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-10-22",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-10-23",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-24",
@@ -47245,7 +47245,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-25",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-26",
@@ -47253,7 +47253,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-27",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-28",
@@ -47265,19 +47265,19 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-30",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-31",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-11-01",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-11-02",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-11-03",
@@ -47295,175 +47295,175 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-06",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-07",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-08",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-08-09",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-08-10",
-          "valor": 7
+          "valor": 0
         },
         {
           "fecha": "2026-08-11",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-08-12",
-          "valor": 8
+          "valor": 0
         },
         {
           "fecha": "2026-08-13",
-          "valor": 9
+          "valor": 0
         },
         {
           "fecha": "2026-08-14",
-          "valor": 8
+          "valor": 0
         },
         {
           "fecha": "2026-08-15",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-08-16",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-08-17",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-08-18",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-19",
-          "valor": 7
+          "valor": 0
         },
         {
           "fecha": "2026-08-20",
-          "valor": 7
+          "valor": 0
         },
         {
           "fecha": "2026-08-21",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-08-22",
-          "valor": 9
+          "valor": 0
         },
         {
           "fecha": "2026-08-23",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-24",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-08-25",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-08-26",
-          "valor": 11
+          "valor": 0
         },
         {
           "fecha": "2026-08-27",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-08-28",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-08-29",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-08-30",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-08-31",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-09-01",
-          "valor": 8
+          "valor": 0
         },
         {
           "fecha": "2026-09-02",
-          "valor": 10
+          "valor": 0
         },
         {
           "fecha": "2026-09-03",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-09-04",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-09-05",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-09-06",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-09-07",
-          "valor": 7
+          "valor": 0
         },
         {
           "fecha": "2026-09-08",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-09-09",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-09-10",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-09-11",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-09-12",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-09-13",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-09-14",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-09-15",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-09-16",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-09-17",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-18",
@@ -47471,31 +47471,31 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-19",
-          "valor": 7
+          "valor": 0
         },
         {
           "fecha": "2026-09-20",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-09-21",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-09-22",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-23",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-09-24",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-25",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-09-26",
@@ -47511,71 +47511,71 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-09-29",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-09-30",
-          "valor": 7
+          "valor": 0
         },
         {
           "fecha": "2026-10-01",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-10-02",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-10-03",
-          "valor": 8
+          "valor": 0
         },
         {
           "fecha": "2026-10-04",
-          "valor": 7
+          "valor": 0
         },
         {
           "fecha": "2026-10-05",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-10-06",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-07",
-          "valor": 9
+          "valor": 0
         },
         {
           "fecha": "2026-10-08",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-10-09",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-10-10",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-11",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-10-12",
-          "valor": 8
+          "valor": 0
         },
         {
           "fecha": "2026-10-13",
-          "valor": 2
+          "valor": 0
         },
         {
           "fecha": "2026-10-14",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-10-15",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-10-16",
@@ -47583,55 +47583,55 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-17",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-10-18",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-10-19",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-10-20",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-10-21",
-          "valor": 10
+          "valor": 0
         },
         {
           "fecha": "2026-10-22",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-10-23",
-          "valor": 3
+          "valor": 0
         },
         {
           "fecha": "2026-10-24",
-          "valor": 8
+          "valor": 0
         },
         {
           "fecha": "2026-10-25",
-          "valor": 5
+          "valor": 0
         },
         {
           "fecha": "2026-10-26",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-10-27",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-10-28",
-          "valor": 12
+          "valor": 0
         },
         {
           "fecha": "2026-10-29",
-          "valor": 4
+          "valor": 0
         },
         {
           "fecha": "2026-10-30",
@@ -47639,15 +47639,15 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-10-31",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-11-01",
-          "valor": 6
+          "valor": 0
         },
         {
           "fecha": "2026-11-02",
-          "valor": 1
+          "valor": 0
         },
         {
           "fecha": "2026-11-03",
@@ -49799,7 +49799,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:28"
+        "actualizado": "2026-11-02 08:33"
       },
       "mejor_horario": {
         "por_dia": [
@@ -51529,7 +51529,7 @@ window.FB_PAGES_DATA = {
           "sn_org": 0,
           "sn_pauta": 0,
           "vc_org": 0,
-          "vc_pauta": 142
+          "vc_pauta": 145
         }
       ],
       "instagram": null,
@@ -52278,7 +52278,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 142
+          "valor": 145
         }
       ],
       "video_views_organico_diario": [
@@ -55888,7 +55888,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:28"
+        "actualizado": "2026-11-02 08:34"
       },
       "mejor_horario": {
         "por_dia": [
@@ -56009,7 +56009,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 6,
           "shares": 9,
           "clics": 1587,
-          "video_views": 23439,
+          "video_views": 23443,
           "comentarios_preview": [
             {
               "id": "122222474348369554_1140082935229759",
@@ -56063,7 +56063,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 8,
           "shares": 2,
           "clics": 2999,
-          "video_views": 24790,
+          "video_views": 24792,
           "comentarios_preview": [
             {
               "id": "122221867094369554_1642350937903667",
@@ -57702,7 +57702,7 @@ window.FB_PAGES_DATA = {
           "sn_org": 0,
           "sn_pauta": 4,
           "vc_org": 219,
-          "vc_pauta": 31872,
+          "vc_pauta": 31877,
           "seguidores": 2362
         },
         {
@@ -57716,7 +57716,7 @@ window.FB_PAGES_DATA = {
           "sn_org": 0,
           "sn_pauta": 0,
           "vc_org": 0,
-          "vc_pauta": 267
+          "vc_pauta": 319
         }
       ],
       "instagram": null,
@@ -58461,11 +58461,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 31872
+          "valor": 31877
         },
         {
           "fecha": "2026-11-03",
-          "valor": 267
+          "valor": 319
         }
       ],
       "video_views_organico_diario": [
@@ -61587,7 +61587,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 105
+          "valor": 113
         }
       ],
       "video_view_time_horas_diario": [
@@ -62039,7 +62039,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:28"
+        "actualizado": "2026-11-02 08:34"
       },
       "mejor_horario": {
         "por_dia": [
@@ -63568,21 +63568,21 @@ window.FB_PAGES_DATA = {
           "sn_org": 3,
           "sn_pauta": 1,
           "vc_org": 141,
-          "vc_pauta": 40367,
+          "vc_pauta": 40368,
           "seguidores": 595
         },
         {
           "fecha": "2026-11-03",
           "engagement": 10,
           "vistas": 3,
-          "video_views": 105,
+          "video_views": 113,
           "video_view_time_horas": 0.6,
           "vv_org": 1,
-          "vv_pauta": 104,
+          "vv_pauta": 112,
           "sn_org": 0,
           "sn_pauta": 0,
           "vc_org": 7,
-          "vc_pauta": 542
+          "vc_pauta": 597
         }
       ],
       "instagram": null,
@@ -64327,11 +64327,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-02",
-          "valor": 40367
+          "valor": 40368
         },
         {
           "fecha": "2026-11-03",
-          "valor": 542
+          "valor": 597
         }
       ],
       "video_views_organico_diario": [
@@ -65071,7 +65071,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 104
+          "valor": 112
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -66324,7 +66324,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "valor": 5
+          "valor": 6
         }
       ],
       "vistas_diario": [
@@ -67595,7 +67595,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:29"
+        "actualizado": "2026-11-02 08:34"
       },
       "mejor_horario": {
         "por_dia": [
@@ -69364,7 +69364,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-03",
-          "engagement": 5,
+          "engagement": 6,
           "vistas": 0,
           "video_views": 0,
           "video_view_time_horas": 0.0,
@@ -73644,7 +73644,7 @@ window.FB_PAGES_DATA = {
         "conversaciones_hoy": 0,
         "serie_diaria": [],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:29"
+        "actualizado": "2026-11-02 08:34"
       },
       "mejor_horario": {
         "por_dia": [
@@ -78986,7 +78986,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-02 08:29"
+        "actualizado": "2026-11-02 08:35"
       },
       "mejor_horario": {
         "por_dia": [
@@ -82604,21 +82604,21 @@ window.FB_PAGES_DATA = {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
       "seguidores": 26001,
-      "engagement_28d": 187603,
+      "engagement_28d": 187621,
       "vistas_28d": 34023,
-      "video_views_28d": 2586092,
+      "video_views_28d": 2586608,
       "conversaciones_28d": 205,
-      "no_leidos": 7,
-      "no_leidos_24h": 4,
+      "no_leidos": 6,
+      "no_leidos_24h": 3,
       "no_leidos_mas_antiguo": "2026-10-31T20:26:59+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:25",
+      "mensajes_actualizado": "2026-11-02 08:31",
       "rating": 4.5,
       "dias_desde_ultima": 1,
       "ultima_publicacion": "2026-11-02T02:35:15+0000",
       "ig_seguidores": 11019,
       "ig_username": "equilibriototalmx",
-      "ig_engagement_28d": 8044,
+      "ig_engagement_28d": 8045,
       "ig_dias_desde_ultima": 1,
       "ig_ultima_publicacion": "2026-11-02T02:34:58+0000"
     },
@@ -82626,21 +82626,21 @@ window.FB_PAGES_DATA = {
       "key": "edomex",
       "nombre": "Equilibrio Total Edomex",
       "seguidores": 16558,
-      "engagement_28d": 151555,
-      "vistas_28d": 28774,
-      "video_views_28d": 2345673,
+      "engagement_28d": 151618,
+      "vistas_28d": 28780,
+      "video_views_28d": 2346334,
       "conversaciones_28d": 140,
       "no_leidos": 23,
       "no_leidos_24h": 6,
       "no_leidos_mas_antiguo": "2026-10-17T18:51:25+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:26",
+      "mensajes_actualizado": "2026-11-02 08:31",
       "rating": 4.2,
       "dias_desde_ultima": 10,
       "ultima_publicacion": "2026-10-23T16:27:10+0000",
       "ig_seguidores": 4473,
       "ig_username": "equilibriototaledomex",
-      "ig_engagement_28d": 3459,
+      "ig_engagement_28d": 3460,
       "ig_dias_desde_ultima": 26,
       "ig_ultima_publicacion": "2026-10-07T22:00:23+0000"
     },
@@ -82648,7 +82648,7 @@ window.FB_PAGES_DATA = {
       "key": "beth",
       "nombre": "Ser Humano Beth",
       "seguidores": 9649,
-      "engagement_28d": 58890,
+      "engagement_28d": 58901,
       "vistas_28d": 7164,
       "video_views_28d": 794983,
       "conversaciones_28d": 79,
@@ -82656,7 +82656,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 1,
       "no_leidos_mas_antiguo": "2026-10-06T03:27:46+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:26",
+      "mensajes_actualizado": "2026-11-02 08:32",
       "rating": 4.5,
       "dias_desde_ultima": 12,
       "ultima_publicacion": "2026-10-22T00:00:43+0000",
@@ -82670,15 +82670,15 @@ window.FB_PAGES_DATA = {
       "key": "autonomia",
       "nombre": "Autonomía con Sentido",
       "seguidores": 2411,
-      "engagement_28d": 40947,
-      "vistas_28d": 12688,
+      "engagement_28d": 40955,
+      "vistas_28d": 12691,
       "video_views_28d": 165453,
       "conversaciones_28d": 25,
       "no_leidos": 3,
       "no_leidos_24h": 3,
       "no_leidos_mas_antiguo": "2026-11-01T17:21:12+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:27",
+      "mensajes_actualizado": "2026-11-02 08:32",
       "rating": 5,
       "dias_desde_ultima": 1,
       "ultima_publicacion": "2026-11-02T01:00:53+0000",
@@ -82692,7 +82692,7 @@ window.FB_PAGES_DATA = {
       "key": "queretaro",
       "nombre": "Equilibrio Total Querétaro",
       "seguidores": 3653,
-      "engagement_28d": 21350,
+      "engagement_28d": 21353,
       "vistas_28d": 4908,
       "video_views_28d": 293484,
       "conversaciones_28d": 35,
@@ -82700,7 +82700,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:27",
+      "mensajes_actualizado": "2026-11-02 08:33",
       "rating": 5,
       "dias_desde_ultima": 11,
       "ultima_publicacion": "2026-10-22T21:29:50+0000",
@@ -82714,7 +82714,7 @@ window.FB_PAGES_DATA = {
       "key": "pachuca",
       "nombre": "Equilibrio Total Pachuca",
       "seguidores": 2883,
-      "engagement_28d": 33431,
+      "engagement_28d": 33432,
       "vistas_28d": 4532,
       "video_views_28d": 424998,
       "conversaciones_28d": 52,
@@ -82722,7 +82722,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 1,
       "no_leidos_mas_antiguo": "2026-10-07T16:26:20+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:28",
+      "mensajes_actualizado": "2026-11-02 08:33",
       "rating": null,
       "dias_desde_ultima": 11,
       "ultima_publicacion": "2026-10-22T19:48:43+0000",
@@ -82744,7 +82744,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 3,
       "no_leidos_mas_antiguo": "2026-10-31T18:52:54+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:28",
+      "mensajes_actualizado": "2026-11-02 08:33",
       "rating": 3.9,
       "dias_desde_ultima": 19,
       "ultima_publicacion": "2026-10-14T22:23:36+0000",
@@ -82766,7 +82766,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": "2026-11-01T01:16:06+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:28",
+      "mensajes_actualizado": "2026-11-02 08:34",
       "rating": 1,
       "dias_desde_ultima": 11,
       "ultima_publicacion": "2026-10-22T19:45:12+0000",
@@ -82782,13 +82782,13 @@ window.FB_PAGES_DATA = {
       "seguidores": 595,
       "engagement_28d": 13207,
       "vistas_28d": 3337,
-      "video_views_28d": 152549,
+      "video_views_28d": 152557,
       "conversaciones_28d": 21,
       "no_leidos": 3,
       "no_leidos_24h": 1,
       "no_leidos_mas_antiguo": "2026-11-01T00:36:47+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:28",
+      "mensajes_actualizado": "2026-11-02 08:34",
       "rating": null,
       "dias_desde_ultima": 11,
       "ultima_publicacion": "2026-10-22T21:28:44+0000",
@@ -82802,7 +82802,7 @@ window.FB_PAGES_DATA = {
       "key": "reclutamiento",
       "nombre": "Reclutamiento Equilibrio Total",
       "seguidores": 805,
-      "engagement_28d": 6172,
+      "engagement_28d": 6173,
       "vistas_28d": 1946,
       "video_views_28d": 89,
       "conversaciones_28d": 43,
@@ -82810,7 +82810,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 1,
       "no_leidos_mas_antiguo": "2026-10-15T21:07:24+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:29",
+      "mensajes_actualizado": "2026-11-02 08:34",
       "rating": 5,
       "dias_desde_ultima": 18,
       "ultima_publicacion": "2026-10-15T16:20:26+0000",
@@ -82832,7 +82832,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:29",
+      "mensajes_actualizado": "2026-11-02 08:34",
       "rating": null,
       "dias_desde_ultima": 166,
       "ultima_publicacion": "2026-05-20T16:21:25+0000",
@@ -82854,7 +82854,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-02 08:29",
+      "mensajes_actualizado": "2026-11-02 08:35",
       "rating": null,
       "dias_desde_ultima": 855,
       "ultima_publicacion": "2024-07-01T00:30:23+0000",
