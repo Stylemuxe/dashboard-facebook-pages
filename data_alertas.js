@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 12:25",
+ "generado": "2026-11-02 12:49",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3175,
+   "revisados": 3176,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 194,
+   "revisados": 191,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122149396077112657_1432027671774567",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "fecha": "2026-11-02T18:24:24+0000",
+   "texto": "Porque te anuncias y no das dirección, habitación  para asistir. Será que es fraude ?",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1432027671774567",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1105208665658647_3024843741019632",
    "tipo": "comentario",
@@ -175,7 +190,7 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1461908822673401/?comment_id=1644340523907708",
-   "respondida": false,
+   "respondida": true,
    "oculto": false
   },
   {
@@ -266,7 +281,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1353153723437805",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1098892472956933_4619657118323942",
@@ -341,7 +356,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=2657324711382290",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1030585659727980_1667471168319722",
