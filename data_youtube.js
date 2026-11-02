@@ -1,14 +1,14 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-01 20:10",
+ "generado": "2026-11-01 21:11",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "handle": "EquilibrioTotalmx",
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
-   "seguidores": 7980,
-   "vistas_totales": 1806254,
-   "video_count": 90,
+   "seguidores": 7990,
+   "vistas_totales": 1807218,
+   "video_count": 91,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -392,18 +392,28 @@ window.YOUTUBE_DATA = {
     },
     {
      "fecha": "2026-11-01",
-     "seguidores": 7980,
-     "vistas_totales": 1806254
+     "seguidores": 7990,
+     "vistas_totales": 1807218
     }
    ],
    "videos": [
+    {
+     "id": "vJJRSMtV1BI",
+     "titulo": "Ejercicios de brazos para adultos mayores | Mejora tu movilidad y mantente activo",
+     "fecha": "2026-11-02T02:29:22Z",
+     "miniatura": "https://i.ytimg.com/vi/vJJRSMtV1BI/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vJJRSMtV1BI",
+     "vistas": 1,
+     "likes": 2,
+     "comentarios": 0
+    },
     {
      "id": "clqy_gtFdRw",
      "titulo": "Ejercicios de brazos para adultos mayores 💪 |Movilidad y autonomía #adultosmayores #ejercicioencasa",
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 1496,
+     "vistas": 1539,
      "likes": 22,
      "comentarios": 1
     },
@@ -586,16 +596,6 @@ window.YOUTUBE_DATA = {
      "vistas": 1861,
      "likes": 33,
      "comentarios": 0
-    },
-    {
-     "id": "wrZhqTW0lV8",
-     "titulo": "Rutina completa de calistenia para principiantes",
-     "fecha": "2025-12-27T18:43:04Z",
-     "miniatura": "https://i.ytimg.com/vi/wrZhqTW0lV8/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=wrZhqTW0lV8",
-     "vistas": 984,
-     "likes": 22,
-     "comentarios": 3
     }
    ]
   }
