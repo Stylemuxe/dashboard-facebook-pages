@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 15:12",
+ "generado": "2026-11-02 16:15",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3177,
+   "revisados": 3132,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 82,
+   "revisados": 73,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 188,
+   "revisados": 191,
    "estado": "ok",
    "nota": null
   },
@@ -131,7 +131,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1685306439427499/?comment_id=2298824778184773",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1026576270128919_1589169012536271",
@@ -284,21 +284,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_1098892472956933_4619657118323942",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-11-01T07:03:13+0000",
-   "texto": "Un fraude",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/1038826695630178/posts/1098892472956933?comment_id=4619657118323942",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbc_1051110864342126_1433998732046581",
    "tipo": "comentario",
    "red": "facebook",
@@ -415,21 +400,6 @@ window.ALERTAS_DATA = {
    "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1557100279509473/?comment_id=1812411213365314",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1031900192989495_4575215926073275",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-31T14:50:38+0000",
-   "texto": "No lo recomiendo al menos el de Chalco piden adelanto de 3450 y después otros 3450 y la recepcionista es una grosera sino llegas puntual no te la consulta y se perdió esa seción al menos a nosotros no nos fue bien empeoró su dolor les hable por teléfono y nadie hizo caso es un lugar horrible no lo recomiendo y además le falta mucha amabilidad al personal la recepcionista se cree la directora y cob",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1023931530484248/?comment_id=4575215926073275",
    "respondida": false,
    "oculto": true
   },
@@ -809,21 +779,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_1031900192989495_1866364631011758",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-26T03:47:25+0000",
-   "texto": "La verdad son  muy amable pero no te dan el servicio que te ofrecen no lo recomiendo muy mala experiencia",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1023931530484248/?comment_id=1866364631011758",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbc_1087358737384005_1521941869742190",
    "tipo": "comentario",
    "red": "facebook",
@@ -940,21 +895,6 @@ window.ALERTAS_DATA = {
    "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1444647550948924/?comment_id=3607183859436068",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1102557485864130_1836044130864372",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-24T03:28:11+0000",
-   "texto": "Pinches rateros no sirven y ya no te regresan el dinero paga primero y después aver si te ayuda sino pues ni modo no confíes en verdad no sirven",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/1040065028780043/posts/1102557485864130?comment_id=1836044130864372",
    "respondida": false,
    "oculto": true
   },
@@ -2129,21 +2069,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_1031900192989495_1111969248049308",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-10T05:11:32+0000",
-   "texto": "Cobran 690 pero por cada sesión yo fui me hicieron una valoración y terminaron cobrándome más de $9000 supuestamente al terminar te regalan una terapia y es mentira me volvieron a salir con que me faltaba volver a pagar otras sesiones el trato es bueno pero son muchas sesiones al final de cuentas yo sigo igual",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1023931530484248/?comment_id=1111969248049308",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbc_1023271927126020_1403078685195701",
    "tipo": "comentario",
    "red": "facebook",
@@ -2201,21 +2126,6 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=1087731874000537",
    "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1031900192989495_1805413230489712",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-09T00:16:42+0000",
-   "texto": "Es un verdadero fracaso no ayudan en nada decepcionado los disque licenciados sin experiencia muy mala atención pesima",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1023931530484248/?comment_id=1805413230489712",
-   "respondida": true,
    "oculto": true
   },
   {
@@ -2674,7 +2584,7 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 15,
+   "no_leidos": 16,
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
@@ -2686,14 +2596,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
-  {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "no_leidos": 3,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-11-01T00:36:47+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   },
   {
    "pagina_key": "cuautla",
