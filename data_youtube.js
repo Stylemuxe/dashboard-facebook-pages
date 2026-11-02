@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-02 08:41",
+ "generado": "2026-11-02 09:11",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -404,21 +404,21 @@ window.YOUTUBE_DATA = {
    "videos": [
     {
      "id": "vJJRSMtV1BI",
-     "titulo": "Ejercicios de brazos para adultos mayores | Mejora tu movilidad y mantente activo",
+     "titulo": "Ejercicios de brazos para personas mayores | Mejora tu movilidad y mantente activo",
      "fecha": "2026-11-02T02:29:22Z",
      "miniatura": "https://i.ytimg.com/vi/vJJRSMtV1BI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=vJJRSMtV1BI",
-     "vistas": 19,
+     "vistas": 24,
      "likes": 6,
      "comentarios": 1
     },
     {
      "id": "clqy_gtFdRw",
-     "titulo": "Ejercicios de brazos para adultos mayores 💪 |Movilidad y autonomía #adultosmayores #ejercicioencasa",
+     "titulo": "Ejercicios de brazos para personas mayores 💪 |Movilidad y autonomía #ejercicioencasa",
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 1647,
+     "vistas": 1648,
      "likes": 24,
      "comentarios": 3
     },
