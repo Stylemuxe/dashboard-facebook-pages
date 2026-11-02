@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-01 16:04",
+ "generado": "2026-11-01 18:56",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,30 +9,30 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 0,
-   "estado": "error",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total, Equilibrio Total México (2), Equilibrio Total Pachuca (2)"
+   "revisados": 3165,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 0,
-   "estado": "error",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total, Equilibrio Total México (2), Equilibrio Total Pachuca (2)"
+   "revisados": 83,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
    "nombre": "Reseñas de Facebook",
-   "revisados": 0,
-   "estado": "error",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total, Equilibrio Total México (2), Equilibrio Total Pachuca (2)"
+   "revisados": 13,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 0,
-   "estado": "error",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total, Equilibrio Total México (2), Equilibrio Total Pachuca (2)"
+   "revisados": 198,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "google",
@@ -43,6 +43,51 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "msg_29306b40d334",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-01T19:07:48+0000",
+   "texto": null,
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1034657662654113_1785305429415310",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-01T18:40:34+0000",
+   "texto": "Si tratan igual que la de Chalco no sirve pésima atención de parte se la de recepción las 2 solo saben cobrar y la atención es pésima no lo recomiendo",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=1785305429415310",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1034657662654113_1162295942976139",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-01T18:17:56+0000",
+   "texto": "Aya roban",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=1162295942976139",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1084640997655779_27277387585292694",
    "tipo": "comentario",
@@ -56,8 +101,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1993305774710615/?comment_id=27277387585292694",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1083035551209292_1353153723437805",
@@ -72,8 +116,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1353153723437805",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1098892472956933_4619657118323942",
@@ -88,8 +131,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/1038826695630178/posts/1098892472956933?comment_id=4619657118323942",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1051110864342126_1433998732046581",
@@ -104,8 +146,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=1433998732046581",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1075491821904030_1142382148438963",
@@ -120,8 +161,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1142382148438963",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1021416520704529_1121642717264516",
@@ -136,8 +176,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/1038826695630178/posts/1060296263483221?comment_id=1121642717264516",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1114520858060761_2657324711382290",
@@ -152,8 +191,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=2657324711382290",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1030585659727980_1667471168319722",
@@ -168,8 +206,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1667471168319722",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "msg_32b52c6c1f69",
@@ -184,8 +221,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": true,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1102386315940882_1158951986791178",
@@ -200,8 +236,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1129872589521580/?comment_id=1158951986791178",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1113802394799274_1812411213365314",
@@ -216,8 +251,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1557100279509473/?comment_id=1812411213365314",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1031900192989495_4575215926073275",
@@ -232,8 +266,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1023931530484248/?comment_id=4575215926073275",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122221650878369554_2346001112819040",
@@ -248,8 +281,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2109797226310671/?comment_id=2346001112819040",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "msg_6d3ca57f4789",
@@ -264,8 +296,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": true,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1083043264541854_1126916196867560",
@@ -280,8 +311,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1126916196867560",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_1145471394657177",
@@ -296,8 +326,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1145471394657177",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083035551209292_2506876029841219",
@@ -312,8 +341,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=2506876029841219",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_964378352963146",
@@ -328,8 +356,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=964378352963146",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1108133002032880_28330724666605624",
@@ -344,8 +371,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2322671461815399/?comment_id=28330724666605624",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122149396077112657_1627921038814345",
@@ -360,8 +386,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1627921038814345",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "msg_d086133ca874",
@@ -376,8 +401,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": true,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1112963018216545_1151379227839342",
@@ -392,8 +416,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1420954189604865/?comment_id=1151379227839342",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122226871460354647_2955150948210865",
@@ -408,8 +431,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1444647550948924/?comment_id=2955150948210865",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_494411223405064_1184693797217092",
@@ -424,8 +446,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/1038826695630178/videos/1434334197251168?comment_id=1184693797217092",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1051110864342126_2643682789413058",
@@ -440,8 +461,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=2643682789413058",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_1605015010896120",
@@ -456,8 +476,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1605015010896120",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1106788852107950_1474437884560138",
@@ -472,8 +491,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2741799599612388/?comment_id=1474437884560138",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1114520858060761_1120803197397409",
@@ -488,8 +506,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=1120803197397409",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_1475377574454650",
@@ -504,8 +521,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1475377574454650",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1106789245441244_1437228575240440",
@@ -520,8 +536,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1871651970668465/?comment_id=1437228575240440",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122149396077112657_1594202318688119",
@@ -536,8 +551,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_947530604700443_1489471139980869",
@@ -552,8 +566,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/1040013502118819/posts/947530604700443?comment_id=1489471139980869",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1115838604536018_1835623971113687",
@@ -568,8 +581,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1118768850523926/?comment_id=1835623971113687",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122143872819112657_1328295385977995",
@@ -584,8 +596,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122144789121112657/posts/122152770687112657?comment_id=1328295385977995",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083035551209292_1157636216923702",
@@ -600,8 +611,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1157636216923702",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1088577053988475_2158411085107597",
@@ -616,8 +626,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2219675631908969/?comment_id=2158411085107597",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1114520858060761_1649855113453211",
@@ -632,8 +641,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=1649855113453211",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083043264541854_1897407698308013",
@@ -648,8 +656,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1897407698308013",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1031900192989495_1866364631011758",
@@ -664,8 +671,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1023931530484248/?comment_id=1866364631011758",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1087358737384005_1521941869742190",
@@ -680,8 +686,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1415773327169719/?comment_id=1521941869742190",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122222474348369554_1040460325677349",
@@ -696,8 +701,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1557152996169420/?comment_id=1040460325677349",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122119782519335379_1122477513574653",
@@ -712,8 +716,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/945745674816992/?comment_id=1122477513574653",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083035551209292_2377208959685944",
@@ -728,8 +731,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=2377208959685944",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "igc_18119339611967716",
@@ -744,8 +746,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.instagram.com/p/DbynOO8sWq9/",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1113802394799274_1158247716640402",
@@ -760,8 +761,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1557100279509473/?comment_id=1158247716640402",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083070064479539_1110907061674428",
@@ -776,8 +776,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1808157677164468/?comment_id=1110907061674428",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122226871460354647_3607183859436068",
@@ -792,8 +791,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1444647550948924/?comment_id=3607183859436068",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1102557485864130_1836044130864372",
@@ -808,8 +806,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/1040065028780043/posts/1102557485864130?comment_id=1836044130864372",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_1149640657504741",
@@ -824,8 +821,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1149640657504741",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1115838604536018_1632472498413535",
@@ -840,8 +836,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1118768850523926/?comment_id=1632472498413535",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1108133002032880_2312403002875173",
@@ -856,8 +851,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2322671461815399/?comment_id=2312403002875173",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1114534394726074_3392345954286445",
@@ -872,8 +866,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1084654317704645/?comment_id=3392345954286445",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083043264541854_1585640480247259",
@@ -888,8 +881,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1585640480247259",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1115589537894548_2243374513189725",
@@ -904,8 +896,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1116904847652402/?comment_id=2243374513189725",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1030585659727980_2390731711698970",
@@ -920,8 +911,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=2390731711698970",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1051110864342126_2561771420992521",
@@ -936,8 +926,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=2561771420992521",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122226147092369965_1679565280400950",
@@ -952,8 +941,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1398551718988334/?comment_id=1679565280400950",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122221867094369554_28408650158831726",
@@ -968,8 +956,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1771178407447601/?comment_id=28408650158831726",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1115033327949879_1424521679185302",
@@ -984,8 +971,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1434059218817968/?comment_id=1424521679185302",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1110153595104519_1800011317708896",
@@ -1000,8 +986,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1456524539908955/?comment_id=1800011317708896",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122153814795112657_2648891295570736",
@@ -1016,8 +1001,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1801187411027667/?comment_id=2648891295570736",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122149396077112657_1669625864595159",
@@ -1032,8 +1016,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1669625864595159",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_4593094947602727",
@@ -1048,8 +1031,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=4593094947602727",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122149396077112657_1782100936413585",
@@ -1064,8 +1046,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1782100936413585",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122153816283112657_1584038886858068",
@@ -1080,8 +1061,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1623937742770499/?comment_id=1584038886858068",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_1871110940913370",
@@ -1096,8 +1076,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1871110940913370",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122225653478369965_1101507062466318",
@@ -1112,8 +1091,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1803396300984552/?comment_id=1101507062466318",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1028292753290604_1813966143277875",
@@ -1128,8 +1106,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1685306439427499/?comment_id=1813966143277875",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122218881284354647_4350651078412700",
@@ -1144,8 +1121,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=4350651078412700",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1028292753290604_2359872928177596",
@@ -1160,8 +1136,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1685306439427499/?comment_id=2359872928177596",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1047263294786518_1834024037839164",
@@ -1176,8 +1151,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1516428877194251/?comment_id=1834024037839164",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1088577053988475_1123729643403292",
@@ -1192,8 +1166,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2219675631908969/?comment_id=1123729643403292",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1079900251522822_1011524604629792",
@@ -1208,8 +1181,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1345683120695200/?comment_id=1011524604629792",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1051110864342126_2220481522187394",
@@ -1224,8 +1196,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=2220481522187394",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1051110864342126_1334697981944568",
@@ -1240,8 +1211,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=1334697981944568",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1102557462530799_3983151245161118",
@@ -1256,8 +1226,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/3125349210986869/?comment_id=3983151245161118",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1086671604179020_1490511666457979",
@@ -1272,8 +1241,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1490511666457979",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122150134215112657_1101029299203408",
@@ -1288,8 +1256,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -1304,8 +1271,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1106260645553449_974394402378436",
@@ -1320,8 +1286,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/3474608802689178/?comment_id=974394402378436",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083069377812941_1623809545898692",
@@ -1336,8 +1301,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2273643990155605/?comment_id=1623809545898692",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1106762378777264_1475499601348942",
@@ -1352,8 +1316,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1772557247287638/?comment_id=1475499601348942",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1090197170433495_28764818963179640",
@@ -1368,8 +1331,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1442964783834040/?comment_id=28764818963179640",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083045571208290_2120041605303674",
@@ -1384,8 +1346,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/949747824236380/?comment_id=2120041605303674",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1086671104179070_2032916997426963",
@@ -1400,8 +1361,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1092057197069451/?comment_id=2032916997426963",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1079900251522822_1811299736689995",
@@ -1416,8 +1376,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1345683120695200/?comment_id=1811299736689995",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1106421702144375_1817866562698641",
@@ -1432,8 +1391,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2633974157073291/?comment_id=1817866562698641",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1102557575864121_28786580774342126",
@@ -1448,8 +1406,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/931295399758049/?comment_id=28786580774342126",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1079901271522720_974444422373705",
@@ -1464,8 +1421,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1096658526375131/?comment_id=974444422373705",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1108133002032880_1468203642038711",
@@ -1480,8 +1436,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2322671461815399/?comment_id=1468203642038711",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1031215919724589_1143071095336879",
@@ -1496,8 +1451,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1143071095336879",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122225850674369965_953421790724260",
@@ -1512,8 +1466,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1861047291974904/?comment_id=953421790724260",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1028292753290604_1792848211755786",
@@ -1528,8 +1481,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1685306439427499/?comment_id=1792848211755786",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1024893150297231_1082794104546076",
@@ -1544,8 +1496,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=1082794104546076",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1048566604596552_1649600560161043",
@@ -1560,8 +1511,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/4366624150266576/?comment_id=1649600560161043",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1023271927126020_1427849162782231",
@@ -1576,8 +1526,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1695518899246050/?comment_id=1427849162782231",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122213859524369965_1136075815655262",
@@ -1592,8 +1541,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/4294683127446670/?comment_id=1136075815655262",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122117495937335379_1424242039339707",
@@ -1608,8 +1556,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1944064223664727/?comment_id=1424242039339707",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1098598622926973_1836404611126273",
@@ -1624,8 +1571,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1400316561707377/?comment_id=1836404611126273",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1106260645553449_1109807504752012",
@@ -1640,24 +1586,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/3474608802689178/?comment_id=1109807504752012",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
-  },
-  {
-   "id": "fbc_1097092449743967_29878525541734822",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-15T07:39:10+0000",
-   "texto": "Pésimo !!!!!",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/1040065028780043/posts/1097092449743967?comment_id=29878525541734822",
-   "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1102687662517779_1447717423935290",
@@ -1672,8 +1601,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/989838164136908/?comment_id=1447717423935290",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1098634959590006_1738315694691926",
@@ -1688,8 +1616,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=1738315694691926",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1088577053988475_1916927379282061",
@@ -1704,8 +1631,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2219675631908969/?comment_id=1916927379282061",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1106762378777264_1095941673221853",
@@ -1720,8 +1646,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1772557247287638/?comment_id=1095941673221853",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122221817720369965_1007525359027216",
@@ -1736,8 +1661,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1072555312197579/?comment_id=1007525359027216",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1097872392999596_1778149716738493",
@@ -1752,8 +1676,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1000639796397458/?comment_id=1778149716738493",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083043264541854_953739477808938",
@@ -1768,24 +1691,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=953739477808938",
    "respondida": true,
-   "oculto": false,
-   "desactualizada": true
-  },
-  {
-   "id": "fbc_1095388109974036_1691520085968512",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-14T00:22:30+0000",
-   "texto": "Es un puto fraude rateros",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/1038826695630178/posts/1095388109974036?comment_id=1691520085968512",
-   "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1102557452530800_1060061603678290",
@@ -1800,8 +1706,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1094188636939754/?comment_id=1060061603678290",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1079900251522822_1151784897272702",
@@ -1816,8 +1721,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1345683120695200/?comment_id=1151784897272702",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1026340260212155_1432106415803502",
@@ -1832,8 +1736,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1458511089626613/?comment_id=1432106415803502",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1100773606102153_2233963994188418",
@@ -1848,8 +1751,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1410842977214059/?comment_id=2233963994188418",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1100773606102153_1537023578453679",
@@ -1864,8 +1766,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1410842977214059/?comment_id=1537023578453679",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1106762378777264_1423644485928009",
@@ -1880,8 +1781,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1772557247287638/?comment_id=1423644485928009",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1079902041522643_967209245847705",
@@ -1896,8 +1796,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1027939696959856/?comment_id=967209245847705",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1050657234447124_1033627196359231",
@@ -1912,8 +1811,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/890687467114670/?comment_id=1033627196359231",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1088102437309635_1089408810656100",
@@ -1928,8 +1826,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1625299615848673/?comment_id=1089408810656100",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1088577577321756_1139298035193135",
@@ -1944,8 +1841,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/28265372219771502/?comment_id=1139298035193135",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1048566604596552_2661859170936454",
@@ -1960,8 +1856,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/4366624150266576/?comment_id=2661859170936454",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1098598622926973_1121895850446585",
@@ -1976,8 +1871,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1400316561707377/?comment_id=1121895850446585",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1047263294786518_1789398782200990",
@@ -1992,8 +1886,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1516428877194251/?comment_id=1789398782200990",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1088577577321756_1445138814435509",
@@ -2008,8 +1901,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/28265372219771502/?comment_id=1445138814435509",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122225141630369965_1829107658442099",
@@ -2024,8 +1916,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1595339032075269/?comment_id=1829107658442099",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_2269237373896618",
@@ -2040,8 +1931,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=2269237373896618",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1047263294786518_982441421564133",
@@ -2056,8 +1946,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1516428877194251/?comment_id=982441421564133",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1034657662654113_940816072052099",
@@ -2072,8 +1961,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=940816072052099",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1086671604179020_1122272327431689",
@@ -2088,8 +1976,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1122272327431689",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1031900192989495_1111969248049308",
@@ -2104,8 +1991,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1023931530484248/?comment_id=1111969248049308",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1023271927126020_1403078685195701",
@@ -2120,8 +2006,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1695518899246050/?comment_id=1403078685195701",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1023271927126020_1933273004298958",
@@ -2136,8 +2021,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1695518899246050/?comment_id=1933273004298958",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122228801786373437_28816184021399292",
@@ -2152,8 +2036,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=28816184021399292",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1034657662654113_1087731874000537",
@@ -2168,8 +2051,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=1087731874000537",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1031900192989495_1805413230489712",
@@ -2184,8 +2066,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1023931530484248/?comment_id=1805413230489712",
    "respondida": true,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122221817720369965_1105725035169754",
@@ -2200,8 +2081,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1072555312197579/?comment_id=1105725035169754",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083043264541854_1113230824974847",
@@ -2216,8 +2096,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1113230824974847",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1024893150297231_933576836160613",
@@ -2232,8 +2111,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=933576836160613",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122218881284354647_28283433891338983",
@@ -2248,8 +2126,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=28283433891338983",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1077715755014970_1441496518085423",
@@ -2264,8 +2141,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1052238730982805/?comment_id=1441496518085423",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1088147223971823_28096101673419100",
@@ -2280,8 +2156,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1622138456179259/?comment_id=28096101673419100",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1084640997655779_1807124430601376",
@@ -2296,8 +2171,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1993305774710615/?comment_id=1807124430601376",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1090197170433495_1105775145360484",
@@ -2312,8 +2186,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1442964783834040/?comment_id=1105775145360484",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122218881284354647_1411862367112727",
@@ -2328,8 +2201,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=1411862367112727",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_28701471462819244",
@@ -2344,8 +2216,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=28701471462819244",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1094150550038157_843764158800598",
@@ -2360,8 +2231,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2188025618429485/?comment_id=843764158800598",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122150028525112657_2284998618960519",
@@ -2376,8 +2246,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2246915859426266/?comment_id=2284998618960519",
    "respondida": true,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122218881284354647_2516216278851635",
@@ -2392,8 +2261,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=2516216278851635",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122218881284354647_2100833593855586",
@@ -2408,8 +2276,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=2100833593855586",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1098634959590006_1617368656357044",
@@ -2424,8 +2291,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=1617368656357044",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1030585659727980_1549978900149225",
@@ -2440,8 +2306,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1549978900149225",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122228801786373437_2338923336923755",
@@ -2456,8 +2321,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=2338923336923755",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1077715758348303_1574470457147051",
@@ -2472,8 +2336,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1055143467228952/?comment_id=1574470457147051",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083035551209292_1755941682307086",
@@ -2488,8 +2351,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1755941682307086",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1091033063683239_1088114650762154",
@@ -2504,8 +2366,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2267642157441530/?comment_id=1088114650762154",
    "respondida": true,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1097872392999596_1003527302146510",
@@ -2520,8 +2381,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1000639796397458/?comment_id=1003527302146510",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1034657662654113_1323329333096028",
@@ -2536,8 +2396,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=1323329333096028",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122150028525112657_2883046498812371",
@@ -2552,8 +2411,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2246915859426266/?comment_id=2883046498812371",
    "respondida": true,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1031215919724589_1121781740781820",
@@ -2568,8 +2426,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1121781740781820",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122149396077112657_2132533410677004",
@@ -2584,8 +2441,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=2132533410677004",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122228801786373437_1089807046770909",
@@ -2600,8 +2456,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=1089807046770909",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1071734515613094_4730804670481189",
@@ -2616,56 +2471,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1032293979625275/?comment_id=4730804670481189",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
-  },
-  {
-   "id": "fbc_1024893150297231_2048385845882555",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-02T20:25:39+0000",
-   "texto": "Yo no lo recomiendo",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=2048385845882555",
-   "respondida": false,
-   "oculto": true,
-   "desactualizada": true
-  },
-  {
-   "id": "fbc_122145177093112657_27885077394504300",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "fecha": "2026-10-02T19:11:01+0000",
-   "texto": "Den la dirección 😡",
-   "categoria": "Enojo",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1477784660860063/?comment_id=27885077394504300",
-   "respondida": true,
-   "oculto": false,
-   "desactualizada": true
-  },
-  {
-   "id": "fbc_1071734515613094_1407759434133323",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-02T17:29:12+0000",
-   "texto": "No me sirvió...",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1032293979625275/?comment_id=1407759434133323",
-   "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbr_122225308058444350",
@@ -2680,8 +2486,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://www.facebook.com/103426168998997/reviews",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbr_3122181467991539",
@@ -2696,8 +2501,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://www.facebook.com/110427318472531/reviews",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbr_1803899104101567",
@@ -2712,8 +2516,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://www.facebook.com/103426168998997/reviews",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbr_27743133901972527",
@@ -2728,8 +2531,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://www.facebook.com/110427318472531/reviews",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbr_25951457417808848",
@@ -2744,8 +2546,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://www.facebook.com/110427318472531/reviews",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbr_883398830888140",
@@ -2760,8 +2561,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://www.facebook.com/110427318472531/reviews",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbr_2666402517091877",
@@ -2776,8 +2576,7 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://www.facebook.com/103426168998997/reviews",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbr_2469822420079306",
@@ -2792,47 +2591,38 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://www.facebook.com/103426168998997/reviews",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   }
  ],
  "chats_sin_leer": [
   {
-   "pagina_key": "cuautla",
-   "pagina": "Equilibrio Total Cuautla",
-   "no_leidos": 2,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-10-04T21:21:39+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
    "no_leidos": 19,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-04T21:27:28+0000",
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-10-06T03:27:46+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
    "no_leidos": 5,
-   "no_leidos_24h": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-07T16:26:20+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 14,
-   "no_leidos_24h": 0,
+   "no_leidos": 15,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 19,
+   "no_leidos": 22,
    "no_leidos_24h": 6,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
@@ -2840,16 +2630,16 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos": 4,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-31T18:52:54+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos": 6,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-10-31T20:26:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
@@ -2857,9 +2647,25 @@ window.ALERTAS_DATA = {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
    "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-01T00:36:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
+  },
+  {
+   "pagina_key": "cuautla",
+   "pagina": "Equilibrio Total Cuautla",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-01T01:16:06+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-01T17:21:12+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
  ]
 };
