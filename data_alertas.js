@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 10:41",
+ "generado": "2026-11-02 10:58",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3166,
+   "revisados": 3168,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 83,
+   "revisados": 82,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 196,
+   "revisados": 197,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1028292753290604_2298824778184773",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-02T16:48:54+0000",
+   "texto": "PEDÍ INFORMES POR WHATSAPP DESDE EL 1 DE OCTUBRE Y HASTA EL DÍA DE HOY NO ME RESPONDEN",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1685306439427499/?comment_id=2298824778184773",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1026576270128919_1589169012536271",
    "tipo": "comentario",
@@ -85,21 +100,6 @@ window.ALERTAS_DATA = {
    "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1161897556161005/?comment_id=28854213474260047",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "igc_18107945501352980",
-   "tipo": "comentario",
-   "red": "instagram",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-11-02T04:18:37+0000",
-   "texto": "La persona que me atendió en mi terapia de acupuntura nefasta, termine mi tratamiento por qué ya lo tenía pagado pero no regreso ni con descuento",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.instagram.com/p/DdudStusH_K/",
    "respondida": false,
    "oculto": false
   },
@@ -2608,7 +2608,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 23,
-   "no_leidos_24h": 6,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
