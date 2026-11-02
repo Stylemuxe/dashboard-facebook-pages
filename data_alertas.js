@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 05:17",
+ "generado": "2026-11-02 08:19",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3178,
+   "revisados": 3171,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 83,
+   "revisados": 84,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 202,
+   "revisados": 205,
    "estado": "ok",
    "nota": null
   },
@@ -2474,21 +2474,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_122150028525112657_2883046498812371",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "fecha": "2026-10-03T11:59:32+0000",
-   "texto": "No sé los recomiendo son unos rateros no son profesionales son estudiantes de la uneve te dicen un costo y luego te salen con otros 9000 a pagar de inmediato pinche sesión de 25 minutos  no recomiendo",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2246915859426266/?comment_id=2883046498812371",
-   "respondida": true,
-   "oculto": true
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2654,7 +2639,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
    "no_leidos": 7,
-   "no_leidos_24h": 5,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-10-31T20:26:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
@@ -2677,8 +2662,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "autonomia",
    "pagina": "Autonomía con Sentido",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-01T17:21:12+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
