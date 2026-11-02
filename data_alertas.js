@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-01 18:56",
+ "generado": "2026-11-01 19:18",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 198,
+   "revisados": 199,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "msg_feac4ca03126",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-02T00:56:57+0000",
+   "texto": null,
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": true,
+   "oculto": false
+  },
   {
    "id": "msg_29306b40d334",
    "tipo": "mensaje",
@@ -282,21 +297,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/2109797226310671/?comment_id=2346001112819040",
    "respondida": false,
    "oculto": true
-  },
-  {
-   "id": "msg_6d3ca57f4789",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-31T00:52:18+0000",
-   "texto": null,
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": true,
-   "oculto": false
   },
   {
    "id": "fbc_1083043264541854_1126916196867560",
@@ -2622,16 +2622,16 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 22,
-   "no_leidos_24h": 6,
+   "no_leidos": 23,
+   "no_leidos_24h": 7,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 4,
-   "no_leidos_24h": 1,
+   "no_leidos": 5,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-31T18:52:54+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
