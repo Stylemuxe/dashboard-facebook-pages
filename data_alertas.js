@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 10:12",
+ "generado": "2026-11-02 10:30",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3163,
+   "revisados": 3164,
    "estado": "ok",
    "nota": null
   },
@@ -2592,7 +2592,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
    "no_leidos": 5,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-07T16:26:20+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
@@ -2616,7 +2616,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
    "no_leidos": 3,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-01T00:36:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   },
