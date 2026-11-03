@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-03 10:13",
+ "generado": "2026-11-03 11:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3182,
+   "revisados": 3176,
    "estado": "ok",
    "nota": null
   },
@@ -2369,21 +2369,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_1098634959590006_1617368656357044",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "fecha": "2026-10-04T16:49:17+0000",
-   "texto": "No te lo recomiendo pésimo servicio",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=1617368656357044",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2516,8 +2501,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 3,
-   "no_leidos_24h": 0,
+   "no_leidos": 4,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-07T16:26:20+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
@@ -2560,6 +2545,22 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-03T15:40:39+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-03T16:26:03+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-03T16:30:32+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
  ]
 };
