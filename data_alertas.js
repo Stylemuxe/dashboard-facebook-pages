@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-03 09:22",
+ "generado": "2026-11-03 10:13",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3185,
+   "revisados": 3182,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 205,
+   "revisados": 204,
    "estado": "ok",
    "nota": null
   },
@@ -74,21 +74,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_122228801786373437_1454818786168480",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "fecha": "2026-11-03T03:33:54+0000",
-   "texto": "Si pero rienes que pagar todas las consuta maxi.o en dos pagos asi no esta bien es un fraude o gancho para que te agas la primera y despues te ensatan",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=1454818786168480",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbc_1090197170433495_993277730520428",
    "tipo": "comentario",
    "red": "facebook",
@@ -102,21 +87,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1442964783834040/?comment_id=993277730520428",
    "respondida": false,
    "oculto": true
-  },
-  {
-   "id": "fbc_122228801786373437_1111537821853306",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "fecha": "2026-11-03T01:38:09+0000",
-   "texto": "Es puro fraude con engaños y mentiras te roban",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=1111537821853306",
-   "respondida": false,
-   "oculto": false
   },
   {
    "id": "fbc_122149396077112657_1432027671774567",
@@ -2414,36 +2384,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_1030585659727980_1549978900149225",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-04T16:00:53+0000",
-   "texto": "Comparto mi experiencia porque, desafortunadamente, no me sentí satisfecho con la atención.\nAcudí a Equilibrio Total Clavería por un dolor bastante fuerte en espalda baja, además de molestias cervicales/dorsales. Buscaba una valoración de fisioterapia que me ayudara a entender qué estaba pasando y qué tratamiento necesitaba.\nDesde que llegué hubo algo que me hizo ruido: me cobraron los $690 antes ",
-   "categoria": "Cobros",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1549978900149225",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_122228801786373437_2338923336923755",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "fecha": "2026-10-04T15:42:13+0000",
-   "texto": "Bola de ratas, no sirve, mil sesiones y nada sigue pagando, vil estafa",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=2338923336923755",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2592,26 +2532,10 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 16,
-   "no_leidos_24h": 4,
+   "no_leidos": 17,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
-  {
-   "pagina_key": "cuautla",
-   "pagina": "Equilibrio Total Cuautla",
-   "no_leidos": 1,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-11-01T01:16:06+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 6,
-   "no_leidos_24h": 6,
-   "mas_antiguo": "2026-11-03T01:07:56+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "mexico",
@@ -2624,10 +2548,18 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-03T14:58:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "cuautla",
+   "pagina": "Equilibrio Total Cuautla",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-03T15:40:39+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   }
  ]
 };
