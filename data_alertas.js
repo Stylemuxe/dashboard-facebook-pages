@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-03 11:10",
+ "generado": "2026-11-03 12:12",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,9 +9,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3176,
-   "estado": "ok",
-   "nota": null
+   "revisados": 2595,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Autonomía con Sentido"
   },
   {
    "clave": "ig_comentarios",
@@ -56,7 +56,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2120771608537287/?comment_id=1601443837832051",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1098889129623934_959115120282587",
@@ -101,7 +101,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1432027671774567",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_1105208665658647_3024843741019632",
@@ -551,7 +552,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1627921038814345",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "msg_d086133ca874",
@@ -716,7 +718,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_947530604700443_1489471139980869",
@@ -761,7 +764,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122144789121112657/posts/122152770687112657?comment_id=1328295385977995",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_1083035551209292_1157636216923702",
@@ -1121,7 +1125,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1801187411027667/?comment_id=2648891295570736",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_122149396077112657_1669625864595159",
@@ -1136,7 +1141,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1669625864595159",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_1075491821904030_4593094947602727",
@@ -1166,7 +1172,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1782100936413585",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_122153816283112657_1584038886858068",
@@ -1181,7 +1188,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1623937742770499/?comment_id=1584038886858068",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_1075491821904030_1871110940913370",
@@ -1376,7 +1384,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -2336,7 +2345,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2246915859426266/?comment_id=2284998618960519",
    "respondida": true,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_122218881284354647_2516216278851635",
@@ -2517,8 +2527,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 17,
-   "no_leidos_24h": 5,
+   "no_leidos": 16,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -2545,14 +2555,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-03T15:40:39+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-03T16:26:03+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "autonomia",
