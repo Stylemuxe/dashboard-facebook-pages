@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-03 12:12",
+ "generado": "2026-11-03 13:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2595,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Autonomía con Sentido"
+   "revisados": 3177,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 69,
+   "revisados": 71,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 204,
+   "revisados": 200,
    "estado": "ok",
    "nota": null
   },
@@ -101,8 +101,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1432027671774567",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1105208665658647_3024843741019632",
@@ -552,8 +551,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1627921038814345",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "msg_d086133ca874",
@@ -718,8 +716,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_947530604700443_1489471139980869",
@@ -764,8 +761,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122144789121112657/posts/122152770687112657?comment_id=1328295385977995",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083035551209292_1157636216923702",
@@ -1125,8 +1121,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1801187411027667/?comment_id=2648891295570736",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122149396077112657_1669625864595159",
@@ -1141,8 +1136,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1669625864595159",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_4593094947602727",
@@ -1172,8 +1166,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1782100936413585",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122153816283112657_1584038886858068",
@@ -1188,8 +1181,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1623937742770499/?comment_id=1584038886858068",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1075491821904030_1871110940913370",
@@ -1384,8 +1376,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -2345,8 +2336,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2246915859426266/?comment_id=2284998618960519",
    "respondida": true,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122218881284354647_2516216278851635",
@@ -2504,7 +2494,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
    "no_leidos": 19,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-06T19:10:10+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
