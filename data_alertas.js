@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-03 13:10",
+ "generado": "2026-11-03 14:25",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3177,
+   "revisados": 3194,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 71,
+   "revisados": 74,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 200,
+   "revisados": 197,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1028292753290604_1159034853460592",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-03T19:10:37+0000",
+   "texto": "Si es como el de Chalco no lo recomiendo es pésima atención",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1685306439427499/?comment_id=1159034853460592",
+   "respondida": false,
+   "oculto": true
+  },
   {
    "id": "fbc_1092426216936892_1601443837832051",
    "tipo": "comentario",
