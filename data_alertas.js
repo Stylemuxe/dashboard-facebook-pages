@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 16:15",
+ "generado": "2026-11-02 21:04",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3132,
+   "revisados": 3159,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 73,
+   "revisados": 67,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 191,
+   "revisados": 198,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122228801786373437_1111537821853306",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "fecha": "2026-11-03T01:38:09+0000",
+   "texto": "Es puro fraude con engaños y mentiras te roban",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=1111537821853306",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122149396077112657_1432027671774567",
    "tipo": "comentario",
@@ -173,7 +188,7 @@ window.ALERTAS_DATA = {
    "texto": "Fraude",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1161897556161005/?comment_id=28854213474260047",
    "respondida": false,
    "oculto": true
@@ -188,7 +203,7 @@ window.ALERTAS_DATA = {
    "texto": "Me podrían pasar algún número nuevo, A dónde agendaba mis citas, ya no contestan y tengo pendientes dos citas pagadas.\nGracias",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1461908822673401/?comment_id=1644340523907708",
    "respondida": true,
    "oculto": false
@@ -338,7 +353,7 @@ window.ALERTAS_DATA = {
    "texto": "No lo recomiendo de entrada son 3450 el dolor que llevaba aumento y dos secciones y aumento el dolor se les aviso y nadie hizo caso es normal la secretarias son groseras solo sirven para cobrar si llegas tarde ya no te dan la seción aunque se pague por adelantado pedimos la devolución del. Dinero pésimo servicio debería de escoger bien al personal",
    "categoria": "Trato / atención",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=2657324711382290",
    "respondida": false,
    "oculto": true
@@ -398,7 +413,7 @@ window.ALERTAS_DATA = {
    "texto": "No vallan son unos rateros",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1557100279509473/?comment_id=1812411213365314",
    "respondida": false,
    "oculto": true
@@ -548,7 +563,7 @@ window.ALERTAS_DATA = {
    "texto": "Puro cuento fraude",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1444647550948924/?comment_id=2955150948210865",
    "respondida": false,
    "oculto": true
@@ -623,7 +638,7 @@ window.ALERTAS_DATA = {
    "texto": "Por qué tardan tanto en contestar los mensajes de WhatsApp 😔 pedí información y aún no me contestan",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=1120803197397409",
    "respondida": false,
    "oculto": true
@@ -758,7 +773,7 @@ window.ALERTAS_DATA = {
    "texto": "Primero te cobran despues te salen que no esta el especialista pero aun asi te pasan para agendarte mas consultas. \nIba con mucha esperanza y al final solo me cobraron por una valoracion que ya sabia, no me aseguraron cuando regresaba el especialista y necesitaba de 2 a 10 sesiones (aun cuando el especialista nunca me reviso)",
    "categoria": "Cobros",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=1649855113453211",
    "respondida": false,
    "oculto": true
@@ -803,7 +818,7 @@ window.ALERTAS_DATA = {
    "texto": "No sé lo recomiendo, son charlatanes, dentro de sus terapias te ponen calor con un cigarro y me quemaron hasta hoy tengo la cicatriz, a veces por la desesperación uno no sabe dónde se mete uno con tal de curarse",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1557152996169420/?comment_id=1040460325677349",
    "respondida": false,
    "oculto": true
@@ -839,21 +854,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "igc_18119339611967716",
-   "tipo": "comentario",
-   "red": "instagram",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-24T15:20:57+0000",
-   "texto": "Charlatanería y \"médicos\" brujos. La quiropráctica es pseudociencia y han lastimado más de lo que hay ayudado. Las espaldas no se ajustan!!",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.instagram.com/p/DbynOO8sWq9/",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbc_1113802394799274_1158247716640402",
    "tipo": "comentario",
    "red": "facebook",
@@ -863,7 +863,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro en otros lados 400 por lo mismo",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1557100279509473/?comment_id=1158247716640402",
    "respondida": false,
    "oculto": true
@@ -893,7 +893,7 @@ window.ALERTAS_DATA = {
    "texto": "Por una primera seción???? Y luego la 2,3,4,5 etc  hasta dentro hasta que no te saquen unos 15 o20 mil pesos si ya los conozco, primero te dan entrada, son unos ladrones",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1444647550948924/?comment_id=3607183859436068",
    "respondida": false,
    "oculto": true
@@ -953,7 +953,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro en otros lados a mitad de precio",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1084654317704645/?comment_id=3392345954286445",
    "respondida": false,
    "oculto": true
@@ -1058,7 +1058,7 @@ window.ALERTAS_DATA = {
    "texto": "La verdad no lo recomiendo muy mal servicio",
    "categoria": "Trato / atención",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1434059218817968/?comment_id=1424521679185302",
    "respondida": false,
    "oculto": true
@@ -2429,21 +2429,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_1097872392999596_1003527302146510",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "fecha": "2026-10-03T23:58:27+0000",
-   "texto": "Es un fraude eso",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1000639796397458/?comment_id=1003527302146510",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2576,24 +2561,24 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 6,
-   "no_leidos_24h": 1,
+   "no_leidos": 3,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-07T16:26:20+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 16,
-   "no_leidos_24h": 1,
+   "no_leidos": 17,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 12,
-   "no_leidos_24h": 0,
+   "no_leidos": 13,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -2606,12 +2591,20 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   },
   {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-02T17:57:54+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-03T01:07:56+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-03T02:39:53+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
 };
