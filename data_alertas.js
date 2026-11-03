@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-02 21:04",
+ "generado": "2026-11-02 22:12",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3159,
+   "revisados": 3170,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,36 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122228801786373437_1454818786168480",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "fecha": "2026-11-03T03:33:54+0000",
+   "texto": "Si pero rienes que pagar todas las consuta maxi.o en dos pagos asi no esta bien es un fraude o gancho para que te agas la primera y despues te ensatan",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1739137840460702/?comment_id=1454818786168480",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1090197170433495_993277730520428",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-03T03:23:05+0000",
+   "texto": "En mi experiencia, no es lo que dicen. No están toda la sesión contigo. Solo te ponen los aparatos y las personas que lo hacen se van y te dejan ahí solo. Y no vi mejoría 🥺",
+   "categoria": "Resultado del tratamiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1442964783834040/?comment_id=993277730520428",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122228801786373437_1111537821853306",
    "tipo": "comentario",
@@ -2414,21 +2444,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_1091033063683239_1088114650762154",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-04T03:01:08+0000",
-   "texto": "Si sus promociones para despues cobrar carisimo mejor decir claro desde al principio la verdad",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2267642157441530/?comment_id=1088114650762154",
-   "respondida": true,
-   "oculto": false
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2553,9 +2568,9 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 20,
+   "no_leidos": 19,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-10-06T03:27:46+0000",
+   "mas_antiguo": "2026-10-06T19:10:10+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
@@ -2577,8 +2592,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 13,
-   "no_leidos_24h": 1,
+   "no_leidos": 14,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
