@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-03 17:11",
+ "generado": "2026-11-03 21:13",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3196,
+   "revisados": 3214,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 202,
+   "revisados": 203,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1048566604596552_1512694677430628",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-04T02:03:55+0000",
+   "texto": "No lo recomiendo ahí en neza me lastimaron!!",
+   "categoria": "Daño o negligencia",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/4366624150266576/?comment_id=1512694677430628",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1083043264541854_2147671765874886",
    "tipo": "comentario",
@@ -2339,66 +2354,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_1094150550038157_843764158800598",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-05T02:45:28+0000",
-   "texto": "Son unos rateros",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2188025618429485/?comment_id=843764158800598",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_122150028525112657_2284998618960519",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "fecha": "2026-10-05T01:24:18+0000",
-   "texto": "No sé los recomiendo",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2246915859426266/?comment_id=2284998618960519",
-   "respondida": true,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122218881284354647_2516216278851635",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "fecha": "2026-10-05T00:47:59+0000",
-   "texto": "Te empiezan a dar las terapias sin mandar a sacar estudios previos, además es muy cara cada sesión",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=2516216278851635",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_122218881284354647_2100833593855586",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "fecha": "2026-10-05T00:46:59+0000",
-   "texto": "No los recomiendo, mi esposo fue a 10 terapias y no tuvo ninguna mejoría, muy buena su publicidad, pero terapias que no funcionan, aguas!",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=2100833593855586",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2540,15 +2495,15 @@ window.ALERTAS_DATA = {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 17,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 13,
-   "no_leidos_24h": 1,
+   "no_leidos": 15,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -2563,8 +2518,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-03T22:14:05+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   },
@@ -2575,6 +2530,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-03T22:29:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-04T00:24:13+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
