@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-03 22:31",
+ "generado": "2026-11-03 23:24",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3217,
-   "estado": "ok",
-   "nota": null
+   "revisados": 3120,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 72,
-   "estado": "ok",
-   "nota": null
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 203,
+   "revisados": 204,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122235887726373437_1730780301355178",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "fecha": "2026-11-04T05:09:48+0000",
+   "texto": "NO VAYAN!!! SOLO ME\nBASTÓ UNA SESIÓN,PARA QUE ME\nPROVOCARAN MALESTARES QUE NO TENÍA,FUI POR DOLOR DE LUMBAR Y TERMINÉ CON LESIÓN EN LAS CERVICALES,ME ATENDIÓ UN SEGÚN QUIROPRÁCTICO ENRIQUE GUDIÑO LEYVA QUIEN NO ME\nREALIZÓ NINGUNA VALORACIÓN,COMO LO COMENTAN EN SU PUBLICACIÓN,SOLO ME ABRIÓ UN HISTORIAL CLÍNICO,CON BASE EN MI MALESTAR Y PROCEDIÓ A DARME “TERAPIA”,PERO JAMÁS ME HIZO ALGÚN ANÁLISIS DE",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "publicacion",
+   "url": "https://www.facebook.com/reel/1122865530701644/?comment_id=1730780301355178",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1048566604596552_1512694677430628",
    "tipo": "comentario",
@@ -911,7 +926,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/945745674816992/?comment_id=1122477513574653",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_1083035551209292_2377208959685944",
@@ -1721,7 +1737,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1944064223664727/?comment_id=1424242039339707",
    "respondida": false,
-   "oculto": true
+   "oculto": true,
+   "desactualizada": true
   },
   {
    "id": "fbc_1098598622926973_1836404611126273",
