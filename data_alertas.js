@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-03 21:13",
+ "generado": "2026-11-03 22:31",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3214,
+   "revisados": 3217,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 70,
+   "revisados": 72,
    "estado": "ok",
    "nota": null
   },
@@ -428,7 +428,7 @@ window.ALERTAS_DATA = {
    "texto": "No lo recomiendo de entrada son 3450 el dolor que llevaba aumento y dos secciones y aumento el dolor se les aviso y nadie hizo caso es normal la secretarias son groseras solo sirven para cobrar si llegas tarde ya no te dan la seción aunque se pague por adelantado pedimos la devolución del. Dinero pésimo servicio debería de escoger bien al personal",
    "categoria": "Trato / atención",
    "nivel": "media",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=2657324711382290",
    "respondida": false,
    "oculto": true
@@ -713,7 +713,7 @@ window.ALERTAS_DATA = {
    "texto": "Por qué tardan tanto en contestar los mensajes de WhatsApp 😔 pedí información y aún no me contestan",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=1120803197397409",
    "respondida": false,
    "oculto": true
@@ -848,7 +848,7 @@ window.ALERTAS_DATA = {
    "texto": "Primero te cobran despues te salen que no esta el especialista pero aun asi te pasan para agendarte mas consultas. \nIba con mucha esperanza y al final solo me cobraron por una valoracion que ya sabia, no me aseguraron cuando regresaba el especialista y necesitaba de 2 a 10 sesiones (aun cuando el especialista nunca me reviso)",
    "categoria": "Cobros",
    "nivel": "media",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2307232183371992/?comment_id=1649855113453211",
    "respondida": false,
    "oculto": true
