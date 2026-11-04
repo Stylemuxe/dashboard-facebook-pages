@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-04 05:16",
+ "generado": "2026-11-04 15:06",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3044,
+   "revisados": 3064,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 72,
+   "revisados": 73,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 204,
+   "revisados": 213,
    "estado": "ok",
    "nota": null
   },
@@ -44,17 +44,32 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_122235887726373437_1730780301355178",
+   "id": "fbc_1090197170433495_2313606389430866",
    "tipo": "comentario",
    "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "fecha": "2026-11-04T05:09:48+0000",
-   "texto": "NO VAYAN!!! SOLO ME\nBASTÓ UNA SESIÓN,PARA QUE ME\nPROVOCARAN MALESTARES QUE NO TENÍA,FUI POR DOLOR DE LUMBAR Y TERMINÉ CON LESIÓN EN LAS CERVICALES,ME ATENDIÓ UN SEGÚN QUIROPRÁCTICO ENRIQUE GUDIÑO LEYVA QUIEN NO ME\nREALIZÓ NINGUNA VALORACIÓN,COMO LO COMENTAN EN SU PUBLICACIÓN,SOLO ME ABRIÓ UN HISTORIAL CLÍNICO,CON BASE EN MI MALESTAR Y PROCEDIÓ A DARME “TERAPIA”,PERO JAMÁS ME HIZO ALGÚN ANÁLISIS DE",
-   "categoria": "Trato / atención",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-04T19:44:25+0000",
+   "texto": "A mi no me sirvio",
+   "categoria": "Resultado del tratamiento",
    "nivel": "media",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/reel/1122865530701644/?comment_id=1730780301355178",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1442964783834040/?comment_id=2313606389430866",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "msg_9ce31ed27aeb",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-04T18:43:05+0000",
+   "texto": null,
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": false,
    "oculto": false
   },
@@ -71,7 +86,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/4366624150266576/?comment_id=1512694677430628",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1083043264541854_2147671765874886",
@@ -177,21 +192,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1570686961406087/?comment_id=3024843741019632",
    "respondida": false,
    "oculto": true
-  },
-  {
-   "id": "msg_5f237328e50a",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-11-02T17:05:03+0000",
-   "texto": null,
-   "categoria": "Cobros",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": true,
-   "oculto": false
   },
   {
    "id": "fbc_1105208665658647_1418986693240984",
@@ -2355,21 +2355,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=1411862367112727",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1075491821904030_28701471462819244",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-05T18:56:14+0000",
-   "texto": "Ya me presenté y es solo estafa, el enganche es ese de 690 pesos cuando vas a tu cita te salen con q necesitas 15 sesiones q valen casi 15mil pesos pero debes liquidar todo en su totalidad sin aver recibido ninguna terapia jajaja están pendejos...",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=28701471462819244",
    "respondida": false,
    "oculto": true
   },
