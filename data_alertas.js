@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-05 10:31",
+ "generado": "2026-11-05 10:35",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3252,
+   "revisados": 3256,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122221650908369554_1788625975723258",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "cuautla",
+   "pagina": "Equilibrio Total Cuautla",
+   "fecha": "2026-11-05T16:31:32+0000",
+   "texto": "Puro robo te meten los paquetes muy caros y segun con descuento no me agrado su atencion y no hanlan con la verdad",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1621535752789496/?comment_id=1788625975723258",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "msg_7f9f1a8d63c5",
    "tipo": "mensaje",
