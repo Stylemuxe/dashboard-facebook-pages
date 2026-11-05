@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-05 09:07",
+ "generado": "2026-11-05 10:31",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3242,
+   "revisados": 3252,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 77,
+   "revisados": 78,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 217,
+   "revisados": 219,
    "estado": "ok",
    "nota": null
   },
@@ -44,6 +44,36 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
+   "id": "msg_7f9f1a8d63c5",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-05T15:56:02+0000",
+   "texto": null,
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_844387018347846_1623986436189589",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "fecha": "2026-11-05T15:25:33+0000",
+   "texto": "si chismoso puros pinches charlatanes saca dinero",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1184452850333942/?comment_id=1623986436189589",
+   "respondida": false,
+   "oculto": false
+  },
+  {
    "id": "fbc_1108176715361842_1161606172883241",
    "tipo": "comentario",
    "red": "facebook",
@@ -56,7 +86,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1608951297632707/?comment_id=1161606172883241",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1090197170433495_2313606389430866",
@@ -194,21 +224,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_1105208665658647_3024843741019632",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-11-02T17:08:38+0000",
-   "texto": "Pésimo servicio por parte del encargado, trato nefasto y prepotente, personal que no está capacitado. A fuerzas son 10 sesiones no son tres pesos y no te dejan bien, tuve que pagar por fuera por qué su personal solo trata contracturas leves y no es justo. QUIERO MI REEMBOLSO 🗣️🗣️🗣️",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/reel/1570686961406087/?comment_id=3024843741019632",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbc_1105208665658647_1418986693240984",
    "tipo": "comentario",
    "red": "facebook",
@@ -222,21 +237,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1570686961406087/?comment_id=1418986693240984",
    "respondida": false,
    "oculto": true
-  },
-  {
-   "id": "igc_17915912214491170",
-   "tipo": "comentario",
-   "red": "instagram",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-11-02T16:57:20+0000",
-   "texto": "En equilibrio total Nezahualcóyotl está fatal su personal tanto como el encargado como sus especialistas. Mi esposo y yo queremos nuestro reembolso, ya que no son tres pesos los que se paga, a fuerzas son 10 sesiones y no quedas bien. Los especialistas son puro pasante sin experiencia, solo tratan contracturas leves. Cero recomdable. QUIERO MI REEMBOLSO 🗣️🗣️🗣️🗣️🗣️🗣️🗣️.",
-   "categoria": "Cobros",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.instagram.com/p/DbB_ScZM8-_/",
-   "respondida": false,
-   "oculto": false
   },
   {
    "id": "fbc_1028292753290604_2298824778184773",
@@ -479,21 +479,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "msg_32b52c6c1f69",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-31T23:03:19+0000",
-   "texto": null,
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": true,
-   "oculto": false
-  },
-  {
    "id": "fbc_1102386315940882_1158951986791178",
    "tipo": "comentario",
    "red": "facebook",
@@ -642,21 +627,6 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": true,
    "oculto": false
-  },
-  {
-   "id": "fbc_1112963018216545_1151379227839342",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-29T18:33:27+0000",
-   "texto": "Pésimo servicio, especialistas que no están capacitados para dolores fuertes. No se hacen responsables de nada y yo quiero mi reembolso.",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/reel/1420954189604865/?comment_id=1151379227839342",
-   "respondida": false,
-   "oculto": true
   },
   {
    "id": "fbc_122226871460354647_2955150948210865",
@@ -2354,21 +2324,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_122218881284354647_1411862367112727",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "fecha": "2026-10-06T15:21:12+0000",
-   "texto": "No los recomiendo",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=1411862367112727",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2494,26 +2449,10 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 12,
-   "no_leidos_24h": 0,
+   "no_leidos": 15,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
-  {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-04T17:08:18+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 4,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-11-05T03:02:27+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
