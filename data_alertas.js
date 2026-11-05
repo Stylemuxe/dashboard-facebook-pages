@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-04 15:06",
+ "generado": "2026-11-04 20:51",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3064,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 3254,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 73,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 74,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 213,
+   "revisados": 214,
    "estado": "ok",
    "nota": null
   },
@@ -44,6 +44,21 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
+   "id": "fbc_1108176715361842_1161606172883241",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-05T01:12:44+0000",
+   "texto": "No lo recomiendo no hay buena atención cobran y no dan la terapia si llegas tarde y si llegas temprano te pasan hasta que quieren las secretarías son muy groseras y las terapias que le dieron no sirvieron le aumento el dr y nadie hizo caso exigimos la devolución del dinero",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1608951297632707/?comment_id=1161606172883241",
+   "respondida": false,
+   "oculto": false
+  },
+  {
    "id": "fbc_1090197170433495_2313606389430866",
    "tipo": "comentario",
    "red": "facebook",
@@ -56,7 +71,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1442964783834040/?comment_id=2313606389430866",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "msg_9ce31ed27aeb",
@@ -521,8 +536,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2109797226310671/?comment_id=2346001112819040",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083043264541854_1126916196867560",
@@ -912,8 +926,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1557152996169420/?comment_id=1040460325677349",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_122119782519335379_1122477513574653",
@@ -928,8 +941,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/945745674816992/?comment_id=1122477513574653",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1083035551209292_2377208959685944",
@@ -1139,8 +1151,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1771178407447601/?comment_id=28408650158831726",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1115033327949879_1424521679185302",
@@ -1740,8 +1751,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1944064223664727/?comment_id=1424242039339707",
    "respondida": false,
-   "oculto": true,
-   "desactualizada": true
+   "oculto": true
   },
   {
    "id": "fbc_1098598622926973_1836404611126273",
