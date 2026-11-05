@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-05 04:07",
+ "generado": "2026-11-05 05:07",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3237,
+   "revisados": 3238,
    "estado": "ok",
    "nota": null
   },
@@ -23,7 +23,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_resenas",
    "nombre": "Reseñas de Facebook",
-   "revisados": 14,
+   "revisados": 13,
    "estado": "ok",
    "nota": null
   },
@@ -2455,21 +2455,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": null,
    "url": "https://www.facebook.com/110427318472531/reviews",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbr_2666402517091877",
-   "tipo": "resena",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2025-12-27T14:00:31+0000",
-   "texto": "Cuando yo asistí x dolor del nervio ciática. la chica de acupuntura me lastimó más y me pincho mal en mi pantorrilla y cintura. la cajera o recepcionista pésima. se quedaron con 500 pesos la recepcionista que nunca puso en el Carnet de pagos. pero lo importante era que me quitarán el dolor y no fue así. Pésimo SERVICIO. NO LOS RECOMIENDO. NO VAYAN A QUE LOS ENGAÑEN.",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://www.facebook.com/103426168998997/reviews",
    "respondida": false,
    "oculto": false
   },
