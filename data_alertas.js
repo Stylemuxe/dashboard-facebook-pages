@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-04 23:58",
+ "generado": "2026-11-05 00:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -2491,25 +2491,17 @@ window.ALERTAS_DATA = {
  ],
  "chats_sin_leer": [
   {
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 3,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-07T16:26:20+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
-  },
-  {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 15,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-07T18:31:05+0000",
+   "no_leidos": 14,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-10-09T02:47:20+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 17,
+   "no_leidos": 18,
    "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
@@ -2517,42 +2509,34 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 15,
-   "no_leidos_24h": 3,
+   "no_leidos": 12,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
+  },
+  {
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-04T17:08:18+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-05T00:31:07+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-03T19:36:34+0000",
+   "mas_antiguo": "2026-11-05T03:02:27+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-03T22:14:05+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
-  },
-  {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-03T22:29:25+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-04T00:24:13+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
