@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-06 12:57",
+ "generado": "2026-11-06 13:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3250,
+   "revisados": 3160,
    "estado": "ok",
    "nota": null
   },
@@ -104,22 +104,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122149396077112657_1594202318688119",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "pagina_id": "930200630167541",
-   "fecha": "2026-10-27T20:10:11+0000",
-   "texto": "No me contestaron wat ???",
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
    "oculto": false
   },
@@ -350,7 +334,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 3,
-  "ocultas": 136
+  "ocultas": 134
  },
  "chats_sin_leer": [
   {
