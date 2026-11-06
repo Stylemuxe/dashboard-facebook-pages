@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-06 01:22",
+ "generado": "2026-11-06 07:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3269,
+   "revisados": 3264,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 241,
+   "revisados": 243,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,21 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122217544322354647_1150001487467327",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
+   "fecha": "2026-11-06T12:16:57+0000",
+   "texto": "No vayan \nMuy mala experiencia",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2180061275893914/?comment_id=1150001487467327",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1031215919724589_3376332732552807",
    "tipo": "comentario",
@@ -2324,21 +2339,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_1088147223971823_28096101673419100",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-07T12:52:35+0000",
-   "texto": "Muy mala atención y servicio aparte de carisimo! Nó vayan no se expongan.",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1622138456179259/?comment_id=28096101673419100",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2456,8 +2456,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 14,
-   "no_leidos_24h": 2,
+   "no_leidos": 15,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
