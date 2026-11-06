@@ -2742,13 +2742,13 @@ const AL_TITULOS = {comentario:'Comentario negativo', resena:'Reseña negativa',
 const AL_REDES = {facebook:'Facebook', instagram:'Instagram', messenger:'Messenger', google:'Google'};
 const AL_NIVELES = {alta:'🔴 Grave', media:'🟠 Atender', baja:'⚪ Leve'};
 const AL_ACCION = {facebook:'Responder en Facebook', instagram:'Responder en Instagram', messenger:'Abrir la bandeja', google:'Ver en Google Maps'};
-let alFiltro = {tipo:'todas', estado:'todas', nivel:'todas', dias:30, pagina:'todas'};
+let alFiltro = {tipo:'todas', nivel:'todas', dias:30, pagina:'todas'};
 let alLimite = 24;
 
 function alData(){ return window.ALERTAS_DATA || null; }
-// Sin atender = ni respondida ni oculta (Facebook oculta muchos comentarios negativos de anuncios)
+// Solo cuenta lo pendiente: ni respondido ni oculto. Lo borrado ya no llega en los datos.
 function alPendiente(a){ return a.respondida !== true && !a.oculto; }
-function alEstado(a){ return a.oculto ? 'ocultas' : (a.respondida === true ? 'respondidas' : 'pendientes'); }
+const AL_BANDEJA = {facebook:'facebook', instagram:'instagram'};
 function alEdadDias(a){ return (Date.now() - new Date(normIso(a.fecha)).getTime()) / 86400000; }
 function alUrl(a){ return /^https:\/\//.test(a.url || '') ? a.url : null; }
 function alPendientesRecientes(){
@@ -2776,9 +2776,9 @@ function alFechaTexto(a){
 function alTarjeta(a, i){
   const tipo = AL_TIPOS[a.tipo] || {ico:'🚨', uno:'alerta'};
   const origen = a.origen === 'anuncio' ? ' en un anuncio' : (a.origen === 'publicacion' ? ' en una publicación' : '');
-  const estado = a.oculto ? `<span class="queja-status is-oculto">🙈 Oculto${a.respondida === true ? ' · respondido' : ''}</span>`
-    : a.respondida === true ? '<span class="queja-status is-ok">✅ Respondida</span>'
-    : '<span class="queja-status is-pend">⏳ Sin atender</span>';
+  // Los comentarios de anuncios no siempre abren desde su liga: la bandeja de Business Suite si los muestra
+  const bandeja = AL_BANDEJA[a.red] && /^\d+$/.test(a.pagina_id || '')
+    ? `<a class="post-link" href="https://business.facebook.com/latest/inbox/${AL_BANDEJA[a.red]}?asset_id=${a.pagina_id}" target="_blank" rel="noopener">Bandeja ↗</a>` : '<span></span>';
   const estrellas = a.estrellas
     ? `<span class="al-stars" role="img" aria-label="${a.estrellas} de 5 estrellas">${'★'.repeat(a.estrellas)}${'☆'.repeat(5 - a.estrellas)}</span>` : '';
   const texto = a.tipo === 'mensaje'
@@ -2794,7 +2794,7 @@ function alTarjeta(a, i){
       </div>
       <div class="al-tags"><span class="al-niv">${AL_NIVELES[a.nivel] || ''}</span><span class="al-cat">${escHtml(a.categoria || '')}</span>${estrellas}${a.desactualizada ? '<span class="al-cat">dato de la corrida anterior</span>' : ''}</div>
       ${texto}
-      <div class="al-foot">${estado}${url ? `<a class="al-btn" href="${escHtml(url)}" target="_blank" rel="noopener">${AL_ACCION[a.red] || 'Abrir'} ↗</a>` : ''}</div>
+      <div class="al-foot">${bandeja}${url ? `<a class="al-btn" href="${escHtml(url)}" target="_blank" rel="noopener">${AL_ACCION[a.red] || 'Abrir'} ↗</a>` : ''}</div>
     </article>`;
 }
 
@@ -2806,11 +2806,13 @@ function renderAlertas(){
     wrap.innerHTML = '<div class="empty-note">Todavía no hay datos de alertas: se generan solos en la siguiente actualización (cada hora).</div>';
     return;
   }
-  const todas = d.alertas || [];
+  const todas = (d.alertas || []).filter(alPendiente);
   const v = d.ventanas || {};
+  const at = d.atendidas_30d || {};
   const ult30 = todas.filter(a => alEdadDias(a) <= 30);
-  const pend30 = ult30.filter(alPendiente);
+  const pend30 = ult30;
   const graves30 = pend30.filter(a => a.nivel === 'alta').length;
+  const horasDatos = (Date.now() - new Date(String(d.generado || '').replace(' ', 'T')).getTime()) / 3600000;
   const ult7 = todas.filter(a => alEdadDias(a) <= 7).length;
   const ult24 = todas.filter(a => alEdadDias(a) <= 1).length;
   const cuenta = (arr, t) => arr.filter(a => a.tipo === t).length;
@@ -2825,12 +2827,10 @@ function renderAlertas(){
 
   const lista = todas.filter(a =>
     (alFiltro.tipo === 'todas' || a.tipo === alFiltro.tipo) &&
-    (alFiltro.estado === 'todas' || alEstado(a) === alFiltro.estado) &&
     (alFiltro.nivel === 'todas' || a.nivel === alFiltro.nivel) &&
     alEdadDias(a) <= alFiltro.dias &&
     (alFiltro.pagina === 'todas' || clave(a) === alFiltro.pagina));
-  // Primero lo que falta responder; dentro de cada grupo, lo mas reciente
-  lista.sort((x, y) => (alPendiente(y) - alPendiente(x)) || (new Date(normIso(y.fecha)) - new Date(normIso(x.fecha))));
+  lista.sort((x, y) => new Date(normIso(y.fecha)) - new Date(normIso(x.fecha)));
 
   const btn = (grupo, valor, label) =>
     `<button type="button" data-al-grupo="${grupo}" data-al-valor="${valor}" class="${String(alFiltro[grupo]) === String(valor) ? 'active' : ''}">${label}</button>`;
@@ -2859,7 +2859,7 @@ function renderAlertas(){
     return `<div class="al-fuente ${st}"><span class="dot"></span><div><b>${escHtml(f.nombre)}</b>${det}</div></div>`;
   }).join('');
 
-  const vacio = alFiltro.estado === 'pendientes' ? 'No hay alertas sin atender con estos filtros.' : 'No hay alertas con estos filtros.';
+  const vacio = 'No hay alertas pendientes con estos filtros.';
   const listaHtml = lista.length
     ? `<div class="al-grid">${lista.slice(0, alLimite).map(alTarjeta).join('')}</div>
        ${lista.length > alLimite ? `<button type="button" class="al-mas" id="alMas">Ver ${fmt(Math.min(24, lista.length - alLimite))} más · quedan ${fmt(lista.length - alLimite)}</button>` : ''}`
@@ -2868,19 +2868,22 @@ function renderAlertas(){
   wrap.innerHTML = `
     <div class="sec-title"><span style="white-space:nowrap">🚨 Alertas</span><span class="sec-hint">· lo negativo que hay que atender en redes</span></div>
     <p class="al-intro">Comentarios negativos en publicaciones y anuncios (últimos ${v.comentarios_dias || 30} días), posibles quejas por
-      Messenger (últimos ${v.mensajes_dias || 7} días) y reseñas negativas (último año). Actualizado ${tiempoRelativo(String(d.generado || '').replace(' ', 'T'))}.</p>
+      Messenger (últimos ${v.mensajes_dias || 7} días) y reseñas negativas (último año). Solo aparece lo pendiente: lo que se
+      contesta, se oculta o se borra sale solo en la siguiente actualización. Actualizado ${tiempoRelativo(String(d.generado || '').replace(' ', 'T'))}.</p>
+    ${horasDatos > 3 ? `<div class="alert-banner warn-banner"><div class="alert-banner-head"><span class="ico">⚠️</span>
+      <b>Las alertas no se actualizan desde ${escHtml(d.generado)}. Puede haber algunas que ya se resolvieron o se borraron.</b></div></div>` : ''}
     <div class="kpi-row">
       <div class="kpi-card c1"><span class="kpi-icon">⏳</span>
         <div class="kpi-val ${pend30.length ? 'is-bad' : ''}">${numSpan(pend30.length)}</div>
         <div class="kpi-label">Sin atender · últimos 30 días</div>
-        <div class="kpi-sub">ni respondidas ni ocultas · de ${fmt(ult30.length)} detectadas</div></div>
+        <div class="kpi-sub">${(at.respondidas || at.ocultas) ? `ya se atendieron ${fmt((at.respondidas || 0) + (at.ocultas || 0))}: ${fmt(at.respondidas || 0)} respondidas y ${fmt(at.ocultas || 0)} ocultas` : 'ni respondidas ni ocultas'}</div></div>
       <div class="kpi-card c2"><span class="kpi-icon">🔴</span>
         <div class="kpi-val ${graves30 ? 'is-bad' : ''}">${numSpan(graves30)}</div>
         <div class="kpi-label">Graves sin atender</div>
         <div class="kpi-sub">fraude o engaño, amenaza legal o daño</div></div>
       <div class="kpi-card c3"><span class="kpi-icon">🆕</span>
         <div class="kpi-val">${numSpan(ult7)}</div>
-        <div class="kpi-label">Nuevas en la última semana</div>
+        <div class="kpi-label">Pendientes de la última semana</div>
         <div class="kpi-sub">${fmt(ult24)} en las últimas 24 h</div></div>
       <div class="kpi-card c4"><span class="kpi-icon">🗂️</span>
         <div class="kpi-val">${numSpan(ult30.length)}</div>
@@ -2890,7 +2893,6 @@ function renderAlertas(){
     ${chatsHtml}
     <div class="al-filtros">
       <div class="range-toggle">${btn('tipo','todas','Todas')}${btn('tipo','comentario','💬 Comentarios')}${btn('tipo','resena','⭐ Reseñas')}${btn('tipo','mensaje','✉️ Mensajes')}</div>
-      <div class="range-toggle">${btn('estado','todas','Todas')}${btn('estado','pendientes','⏳ Sin atender')}${btn('estado','respondidas','✅ Respondidas')}${btn('estado','ocultas','🙈 Ocultas')}</div>
       <div class="range-toggle">${btn('nivel','todas','Todo nivel')}${btn('nivel','alta','🔴 Solo graves')}</div>
       <div class="range-toggle">${btn('dias',7,'7 días')}${btn('dias',30,'30 días')}${btn('dias',365,'12 meses')}</div>
       <select class="day-select" id="alPagina" aria-label="Filtrar por página">
