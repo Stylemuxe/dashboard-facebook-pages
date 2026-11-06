@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-05 10:35",
+ "generado": "2026-11-06 00:49",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,28 +9,28 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3256,
+   "revisados": 3269,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 78,
+   "revisados": 75,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "fb_resenas",
    "nombre": "Reseñas de Facebook",
-   "revisados": 13,
+   "revisados": 12,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 219,
+   "revisados": 240,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,66 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1031215919724589_3376332732552807",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-06T02:56:45+0000",
+   "texto": "No contestan",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=3376332732552807",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "msg_dd211fe41bd7",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-05T23:27:55+0000",
+   "texto": null,
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1097873019666200_2024806114874671",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "beth",
+   "pagina": "Ser Humano Beth",
+   "fecha": "2026-11-05T20:03:42+0000",
+   "texto": "Me cobraron 100 y m conpuse",
+   "categoria": "Cobros",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1628960832354541/?comment_id=2024806114874671",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "msg_5ee864231332",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "fecha": "2026-11-05T19:32:28+0000",
+   "texto": null,
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122221650908369554_1788625975723258",
    "tipo": "comentario",
@@ -59,21 +119,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "msg_7f9f1a8d63c5",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-11-05T15:56:02+0000",
-   "texto": null,
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbc_844387018347846_1623986436189589",
    "tipo": "comentario",
    "red": "facebook",
@@ -86,7 +131,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1184452850333942/?comment_id=1623986436189589",
    "respondida": false,
-   "oculto": false
+   "oculto": true
   },
   {
    "id": "fbc_1108176715361842_1161606172883241",
@@ -627,21 +672,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1627921038814345",
    "respondida": false,
    "oculto": true
-  },
-  {
-   "id": "msg_d086133ca874",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "fecha": "2026-10-30T00:35:47+0000",
-   "texto": null,
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": true,
-   "oculto": false
   },
   {
    "id": "fbc_122226871460354647_2955150948210865",
@@ -2309,36 +2339,6 @@ window.ALERTAS_DATA = {
    "oculto": true
   },
   {
-   "id": "fbc_1084640997655779_1807124430601376",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-07T04:10:07+0000",
-   "texto": "No es bueno lleve a mi sobrino pero no paso nada le dan una sesión de una hora según pero no fue una hora y se me hizo muy caro si obtener resultados perdón pero para mí no fue bueno ojalá tengan personal más preparado",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1993305774710615/?comment_id=1807124430601376",
-   "respondida": false,
-   "oculto": true
-  },
-  {
-   "id": "fbc_1090197170433495_1105775145360484",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "fecha": "2026-10-07T00:52:11+0000",
-   "texto": "No vayan es puro negocio y nada de alivio. Te pedirán que pagues citas por adelantado y te armarán tu plan. \nEsa fue mi experiencia. \nLleva tu tarjeta de crédito. La necesitarás",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1442964783834040/?comment_id=1105775145360484",
-   "respondida": false,
-   "oculto": true
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -2446,14 +2446,6 @@ window.ALERTAS_DATA = {
  ],
  "chats_sin_leer": [
   {
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "no_leidos": 14,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-10-09T02:47:20+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 18,
@@ -2464,10 +2456,42 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 15,
-   "no_leidos_24h": 3,
+   "no_leidos": 14,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
+  },
+  {
+   "pagina_key": "beth",
+   "pagina": "Ser Humano Beth",
+   "no_leidos": 15,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-10-18T21:47:31+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
+   "mas_antiguo": "2026-11-05T22:20:52+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 5,
+   "no_leidos_24h": 5,
+   "mas_antiguo": "2026-11-05T22:22:02+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-06T01:16:52+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
 };
