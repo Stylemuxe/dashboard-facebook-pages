@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-06 14:26",
+ "generado": "2026-11-06 17:08",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3252,
+   "revisados": 3249,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 75,
+   "revisados": 77,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 266,
+   "revisados": 274,
    "estado": "ok",
    "nota": null
   },
@@ -349,7 +349,7 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 4,
+  "respondidas": 3,
   "ocultas": 136
  },
  "chats_sin_leer": [
@@ -372,8 +372,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 15,
-   "no_leidos_24h": 2,
+   "no_leidos": 14,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
@@ -382,8 +382,16 @@ window.ALERTAS_DATA = {
    "pagina": "Equilibrio Total México",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-06T01:16:52+0000",
+   "mas_antiguo": "2026-11-06T21:14:46+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-06T21:26:05+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
  ]
 };
