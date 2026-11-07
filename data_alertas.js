@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-07 09:08",
+ "generado": "2026-11-07 10:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3196,
+   "revisados": 3214,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 79,
+   "revisados": 78,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 280,
+   "revisados": 292,
    "estado": "ok",
    "nota": null
   },
@@ -43,39 +43,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "igc_18050740688811236",
-   "cuenta_ig": "17841433852185955",
-   "tipo": "comentario",
-   "red": "instagram",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "pagina_id": "101140822565542",
-   "fecha": "2026-11-07T13:36:00+0000",
-   "texto": "Esta supuesta clinica es una estafa no vayan no son profesionales. Te manejan una supuesta promoción y no es real. Y el servicio es nefasto comparten su supuesta clinica con el INEA. Consultorios horribles.",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.instagram.com/p/DfbD3OmsM4j/",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1130621919724353_1893090742130937",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-07T01:47:28+0000",
-   "texto": "No sirve para nada nomás me chingaron mi dinero y no me curaron nunca me quitaron la inflamación de mis rodillas puro cuento 👎🖕",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/4670939303123015/?comment_id=1893090742130937",
-   "respondida": false,
-   "oculto": false
-  },
   {
    "id": "fbc_1097873019666200_2024806114874671",
    "tipo": "comentario",
@@ -367,7 +334,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 3,
-  "ocultas": 134
+  "ocultas": 135
  },
  "chats_sin_leer": [
   {
@@ -381,8 +348,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 13,
-   "no_leidos_24h": 1,
+   "no_leidos": 12,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -403,28 +370,12 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   },
   {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-06T21:26:05+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
-  },
-  {
    "pagina_key": "cuautla",
    "pagina": "Equilibrio Total Cuautla",
    "no_leidos": 2,
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-07T00:52:23+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-07T00:59:18+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "pachuca",
