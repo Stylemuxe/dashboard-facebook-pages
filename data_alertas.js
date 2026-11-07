@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-07 00:23",
+ "generado": "2026-11-07 02:54",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,9 +9,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3194,
-   "estado": "ok",
-   "nota": null
+   "revisados": 2637,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Autonomía con Sentido"
   },
   {
    "clave": "ig_comentarios",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 274,
+   "revisados": 275,
    "estado": "ok",
    "nota": null
   },
@@ -137,7 +137,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1110153595104519_1800011317708896",
@@ -185,7 +186,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -350,7 +352,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 3,
-  "ocultas": 134
+  "ocultas": 127
  },
  "chats_sin_leer": [
   {
