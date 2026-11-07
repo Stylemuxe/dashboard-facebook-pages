@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-06 23:47",
+ "generado": "2026-11-06 23:55",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 0,
-   "estado": "error",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 3196,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 0,
-   "estado": "error",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 77,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 225,
+   "revisados": 274,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1130621919724353_1893090742130937",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-07T01:47:28+0000",
+   "texto": "No sirve para nada nomás me chingaron mi dinero y no me curaron nunca me quitaron la inflamación de mis rodillas puro cuento 👎🖕",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/4670939303123015/?comment_id=1893090742130937",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1097873019666200_2024806114874671",
    "tipo": "comentario",
@@ -57,8 +73,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1628960832354541/?comment_id=2024806114874671",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "msg_5ee864231332",
@@ -93,6 +108,22 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
+   "id": "msg_29306b40d334",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-01T19:07:48+0000",
+   "texto": null,
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": false,
+   "oculto": false
+  },
+  {
    "id": "fbc_122149396077112657_1594202318688119",
    "tipo": "comentario",
    "red": "facebook",
@@ -106,8 +137,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1110153595104519_1800011317708896",
@@ -123,8 +153,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1456524539908955/?comment_id=1800011317708896",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1086671604179020_1490511666457979",
@@ -140,8 +169,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1490511666457979",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_122150134215112657_1101029299203408",
@@ -157,8 +185,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -174,8 +201,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1106762378777264_1095941673221853",
@@ -191,8 +217,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1772557247287638/?comment_id=1095941673221853",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1102557452530800_1060061603678290",
@@ -208,25 +233,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1094188636939754/?comment_id=1060061603678290",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
-  },
-  {
-   "id": "fbc_1083043264541854_1113230824974847",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-10-08T05:23:28+0000",
-   "texto": "Pinches mentirosos no les  crean no es es cierto",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1113230824974847",
-   "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbr_122225308058444350",
@@ -342,8 +349,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 0,
-  "ocultas": 0
+  "respondidas": 3,
+  "ocultas": 134
  },
  "chats_sin_leer": [
   {
@@ -357,8 +364,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 12,
-   "no_leidos_24h": 0,
+   "no_leidos": 13,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -366,7 +373,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
    "no_leidos": 14,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
@@ -385,6 +392,30 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-06T21:26:05+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
+   "pagina_key": "cuautla",
+   "pagina": "Equilibrio Total Cuautla",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-07T00:52:23+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-07T00:59:18+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-07T05:01:21+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
