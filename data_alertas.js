@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-07 10:10",
+ "generado": "2026-11-07 11:08",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3214,
+   "revisados": 3213,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 78,
+   "revisados": 79,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 292,
+   "revisados": 303,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,38 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1092420543604126_4885102758482638",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-07T16:46:49+0000",
+   "texto": "Fraude 😞 y bien caro no se tiendan el corazón con los que de verdad vienen malos y necesitan operación pierden el tiempo y dinero en realidad no te asen nada.",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1654336899738527/?comment_id=4885102758482638",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1128766329969547_1118408504302796",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-07T16:44:47+0000",
+   "texto": "No vayan ahí\nTe dejan peor 😒",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1160029220038751/?comment_id=1118408504302796",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1097873019666200_2024806114874671",
    "tipo": "comentario",
@@ -334,7 +366,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 3,
-  "ocultas": 135
+  "ocultas": 136
  },
  "chats_sin_leer": [
   {
@@ -348,8 +380,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 12,
-   "no_leidos_24h": 0,
+   "no_leidos": 14,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -362,27 +394,11 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-06T21:14:46+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
-  },
-  {
-   "pagina_key": "cuautla",
-   "pagina": "Equilibrio Total Cuautla",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-07T00:52:23+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-07T14:21:55+0000",
+   "mas_antiguo": "2026-11-07T16:29:56+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   }
  ]
