@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-07 02:54",
+ "generado": "2026-11-07 08:49",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2637,
+   "revisados": 1919,
    "estado": "parcial",
-   "nota": "No se pudo leer: Autonomía con Sentido"
+   "nota": "No se pudo leer: Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 77,
-   "estado": "ok",
-   "nota": null
+   "revisados": 54,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -73,7 +73,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1628960832354541/?comment_id=2024806114874671",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "msg_5ee864231332",
@@ -203,7 +204,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1106762378777264_1095941673221853",
@@ -219,7 +221,8 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1772557247287638/?comment_id=1095941673221853",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1102557452530800_1060061603678290",
@@ -352,7 +355,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 3,
-  "ocultas": 127
+  "ocultas": 99
  },
  "chats_sin_leer": [
   {
