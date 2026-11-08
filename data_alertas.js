@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-07 11:08",
+ "generado": "2026-11-08 04:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3213,
+   "revisados": 3208,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 79,
+   "revisados": 77,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 303,
+   "revisados": 323,
    "estado": "ok",
    "nota": null
   },
@@ -44,50 +44,34 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_1092420543604126_4885102758482638",
+   "id": "fbc_1051110864342126_1156720496779235",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-08T05:53:48+0000",
+   "texto": "Carisimo y no te hacen nada te cobra  por tu plan y después te cobran mas",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=1156720496779235",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1088577577321756_1160494756537553",
    "tipo": "comentario",
    "red": "facebook",
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "pagina_id": "110427318472531",
-   "fecha": "2026-11-07T16:46:49+0000",
-   "texto": "Fraude 😞 y bien caro no se tiendan el corazón con los que de verdad vienen malos y necesitan operación pierden el tiempo y dinero en realidad no te asen nada.",
+   "fecha": "2026-11-07T22:44:06+0000",
+   "texto": "Puro cuento nunca sientes ninguna mejoría allí tienes que pagar por adelantado todo el tratamiento si no no hay terapia",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
    "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1654336899738527/?comment_id=4885102758482638",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1128766329969547_1118408504302796",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-07T16:44:47+0000",
-   "texto": "No vayan ahí\nTe dejan peor 😒",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1160029220038751/?comment_id=1118408504302796",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1097873019666200_2024806114874671",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "pagina_id": "101140822565542",
-   "fecha": "2026-11-05T20:03:42+0000",
-   "texto": "Me cobraron 100 y m conpuse",
-   "categoria": "Cobros",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1628960832354541/?comment_id=2024806114874671",
+   "url": "https://www.facebook.com/reel/28265372219771502/?comment_id=1160494756537553",
    "respondida": false,
    "oculto": false
   },
@@ -366,7 +350,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 3,
-  "ocultas": 136
+  "ocultas": 137
  },
  "chats_sin_leer": [
   {
@@ -380,26 +364,34 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 14,
-   "no_leidos_24h": 2,
+   "no_leidos": 16,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 14,
-   "no_leidos_24h": 0,
+   "no_leidos": 3,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-07T16:29:56+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 8,
+   "no_leidos_24h": 8,
+   "mas_antiguo": "2026-11-07T22:04:07+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
+   "mas_antiguo": "2026-11-08T01:35:59+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
