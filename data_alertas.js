@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-09 08:50",
+ "generado": "2026-11-09 08:59",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3204,
+   "revisados": 3207,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 328,
+   "revisados": 330,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1031215919724589_3665202330313957",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-09T14:48:18+0000",
+   "texto": "Esta carisimo",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=3665202330313957",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1128766329969547_1128491760160135",
    "tipo": "comentario",
