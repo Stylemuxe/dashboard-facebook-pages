@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-09 10:07",
+ "generado": "2026-11-09 11:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3207,
+   "revisados": 3187,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 346,
+   "revisados": 369,
    "estado": "ok",
    "nota": null
   },
@@ -56,22 +56,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1369375811936612/?comment_id=1780040599945750",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1128766329969547_1128491760160135",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-08T15:38:20+0000",
-   "texto": "Muy mal servicio",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1160029220038751/?comment_id=1128491760160135",
    "respondida": false,
    "oculto": false
   },
@@ -348,8 +332,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 12,
-   "no_leidos_24h": 0,
+   "no_leidos": 17,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -365,7 +349,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
    "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-08T16:25:44+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
@@ -373,17 +357,17 @@ window.ALERTAS_DATA = {
    "pagina_key": "cuautla",
    "pagina": "Equilibrio Total Cuautla",
    "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-08T16:44:53+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   },
   {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-09T16:00:13+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
+   "mas_antiguo": "2026-11-09T16:06:32+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
