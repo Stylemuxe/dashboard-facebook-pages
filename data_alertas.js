@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-08 04:09",
+ "generado": "2026-11-09 03:31",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -16,7 +16,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 77,
+   "revisados": 81,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 323,
+   "revisados": 328,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,54 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1128766329969547_1128491760160135",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-08T15:38:20+0000",
+   "texto": "Muy mal servicio",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1160029220038751/?comment_id=1128491760160135",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1102557575864121_1147911138183103",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-08T14:20:48+0000",
+   "texto": "Pésima atención de verdad y nada de profesionalismo para lo que ellos publican",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/931295399758049/?comment_id=1147911138183103",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1130621919724353_1558893919595052",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-08T14:18:47+0000",
+   "texto": "Pésimo servicio, hay personal muy bueno y muy capaz pero es uno de entre 5",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/4670939303123015/?comment_id=1558893919595052",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1051110864342126_1156720496779235",
    "tipo": "comentario",
@@ -99,22 +147,6 @@ window.ALERTAS_DATA = {
    "pagina": "Equilibrio Total Edomex",
    "pagina_id": "110427318472531",
    "fecha": "2026-11-04T18:43:05+0000",
-   "texto": null,
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "msg_29306b40d334",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-01T19:07:48+0000",
    "texto": null,
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
@@ -349,8 +381,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 3,
-  "ocultas": 137
+  "respondidas": 2,
+  "ocultas": 136
  },
  "chats_sin_leer": [
   {
