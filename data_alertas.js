@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-09 13:08",
+ "generado": "2026-11-09 14:18",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3190,
-   "estado": "ok",
-   "nota": null
+   "revisados": 2993,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 80,
-   "estado": "ok",
-   "nota": null
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 390,
+   "revisados": 398,
    "estado": "ok",
    "nota": null
   },
@@ -43,22 +43,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "fbc_1091036060349606_1780040599945750",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-09T15:54:30+0000",
-   "texto": "yo en lo particular no lo recomiendo m cobraron 10000 y dijeron q un terapeuta t aria las terapias desde q empiesas asta q terminas y lo kmbiaban a cada rato  y nunca vi un solo cambio lleve AMI mamá y la vi iwalasta peor d cuando empezamos a ir EN LO PERSONAL NO LOS RECOMIENDO",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1369375811936612/?comment_id=1780040599945750",
-   "respondida": false,
-   "oculto": false
-  },
   {
    "id": "msg_5ee864231332",
    "tipo": "mensaje",
@@ -318,14 +302,14 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 143
+  "ocultas": 137
  },
  "chats_sin_leer": [
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 19,
-   "no_leidos_24h": 1,
+   "no_leidos": 20,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
@@ -340,7 +324,7 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 4,
+   "no_leidos": 5,
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
