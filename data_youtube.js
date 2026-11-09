@@ -1,13 +1,13 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-08 04:09",
+ "generado": "2026-11-09 03:31",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "handle": "EquilibrioTotalmx",
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
-   "seguidores": 8050,
-   "vistas_totales": 1824546,
+   "seguidores": 8060,
+   "vistas_totales": 1826737,
    "video_count": 91,
    "historial_seguidores": [
     {
@@ -429,6 +429,11 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-08",
      "seguidores": 8050,
      "vistas_totales": 1824546
+    },
+    {
+     "fecha": "2026-11-09",
+     "seguidores": 8060,
+     "vistas_totales": 1826737
     }
    ],
    "videos": [
@@ -448,7 +453,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 2131,
+     "vistas": 2134,
      "likes": 26,
      "comentarios": 3
     },
@@ -568,7 +573,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 762,
+     "vistas": 766,
      "likes": 11,
      "comentarios": 4
     },
@@ -608,7 +613,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-02-27T22:51:07Z",
      "miniatura": "https://i.ytimg.com/vi/BxIz9LGdZ2o/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=BxIz9LGdZ2o",
-     "vistas": 361,
+     "vistas": 363,
      "likes": 5,
      "comentarios": 0
     },
@@ -618,8 +623,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-02-23T23:00:21Z",
      "miniatura": "https://i.ytimg.com/vi/v6LRCc5K8CU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=v6LRCc5K8CU",
-     "vistas": 379,
-     "likes": 5,
+     "vistas": 380,
+     "likes": 6,
      "comentarios": 2
     },
     {
