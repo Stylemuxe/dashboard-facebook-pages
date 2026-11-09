@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-09 14:18",
+ "generado": "2026-11-09 16:51",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2993,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 3176,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 80,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 82,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 398,
+   "revisados": 397,
    "estado": "ok",
    "nota": null
   },
@@ -302,7 +302,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 137
+  "ocultas": 141
  },
  "chats_sin_leer": [
   {
@@ -324,18 +324,18 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 5,
-   "no_leidos_24h": 1,
+   "no_leidos": 6,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-09T17:32:16+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
+   "mas_antiguo": "2026-11-09T22:29:42+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
