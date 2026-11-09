@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-09 08:30",
+ "generado": "2026-11-09 08:50",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3205,
+   "revisados": 3204,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 325,
+   "revisados": 328,
    "estado": "ok",
    "nota": null
   },
@@ -72,22 +72,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/931295399758049/?comment_id=1147911138183103",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1130621919724353_1558893919595052",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-08T14:18:47+0000",
-   "texto": "Pésimo servicio, hay personal muy bueno y muy capaz pero es uno de entre 5",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/4670939303123015/?comment_id=1558893919595052",
    "respondida": false,
    "oculto": false
   },
@@ -382,7 +366,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 137
+  "ocultas": 139
  },
  "chats_sin_leer": [
   {
@@ -416,14 +400,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-08T01:35:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 5,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-08T05:49:30+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "pachuca",
