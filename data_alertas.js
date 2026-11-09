@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-09 09:10",
+ "generado": "2026-11-09 10:07",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -16,7 +16,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 81,
+   "revisados": 80,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 331,
+   "revisados": 346,
    "estado": "ok",
    "nota": null
   },
@@ -44,18 +44,18 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_1031215919724589_3665202330313957",
+   "id": "fbc_1091036060349606_1780040599945750",
    "tipo": "comentario",
    "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-09T14:48:18+0000",
-   "texto": "Esta carisimo",
-   "categoria": "Precio",
-   "nivel": "baja",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-09T15:54:30+0000",
+   "texto": "yo en lo particular no lo recomiendo m cobraron 10000 y dijeron q un terapeuta t aria las terapias desde q empiesas asta q terminas y lo kmbiaban a cada rato  y nunca vi un solo cambio lleve AMI mamá y la vi iwalasta peor d cuando empezamos a ir EN LO PERSONAL NO LOS RECOMIENDO",
+   "categoria": "Trato / atención",
+   "nivel": "media",
    "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=3665202330313957",
+   "url": "https://www.facebook.com/reel/1369375811936612/?comment_id=1780040599945750",
    "respondida": false,
    "oculto": false
   },
@@ -72,54 +72,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1160029220038751/?comment_id=1128491760160135",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1102557575864121_1147911138183103",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-08T14:20:48+0000",
-   "texto": "Pésima atención de verdad y nada de profesionalismo para lo que ellos publican",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/931295399758049/?comment_id=1147911138183103",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1051110864342126_1156720496779235",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-08T05:53:48+0000",
-   "texto": "Carisimo y no te hacen nada te cobra  por tu plan y después te cobran mas",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1709986850117193/?comment_id=1156720496779235",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1088577577321756_1160494756537553",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-07T22:44:06+0000",
-   "texto": "Puro cuento nunca sientes ninguna mejoría allí tienes que pagar por adelantado todo el tratamiento si no no hay terapia",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/28265372219771502/?comment_id=1160494756537553",
    "respondida": false,
    "oculto": false
   },
@@ -382,7 +334,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 139
+  "ocultas": 143
  },
  "chats_sin_leer": [
   {
@@ -396,8 +348,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 17,
-   "no_leidos_24h": 1,
+   "no_leidos": 12,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -408,14 +360,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 8,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-11-08T01:35:59+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "pachuca",
@@ -432,6 +376,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-08T16:44:53+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-09T16:00:13+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
