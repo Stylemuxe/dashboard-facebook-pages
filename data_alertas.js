@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 10:10",
+ "generado": "2026-11-10 11:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3182,
+   "revisados": 3189,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 84,
+   "revisados": 83,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 409,
+   "revisados": 426,
    "estado": "ok",
    "nota": null
   },
@@ -43,38 +43,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "fbc_1129149096597937_1153481573797190",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-10T15:04:50+0000",
-   "texto": "Eso es mentira nada más teronan tu dinero y no te asen nada yo fui apenas y me cobraron 700 por esos y no me dieron nada porque no llevaba placas y no me regresaron nada",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2026871808024687/?comment_id=1153481573797190",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1128766329969547_2383784232168385",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-10T07:33:57+0000",
-   "texto": "Fui a diez secciones y no vi mejoria",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1160029220038751/?comment_id=2383784232168385",
-   "respondida": false,
-   "oculto": false
-  },
   {
    "id": "fbc_122149396077112657_1629855302210018",
    "tipo": "comentario",
@@ -350,7 +318,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 144
+  "ocultas": 146
  },
  "chats_sin_leer": [
   {
@@ -364,8 +332,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 15,
-   "no_leidos_24h": 3,
+   "no_leidos": 12,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -386,19 +354,11 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   },
   {
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-10T03:12:55+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
-  },
-  {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-10T15:58:59+0000",
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
+   "mas_antiguo": "2026-11-10T16:03:29+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
