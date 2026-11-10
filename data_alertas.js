@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-09 16:51",
+ "generado": "2026-11-09 22:14",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3176,
+   "revisados": 3158,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 82,
+   "revisados": 83,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 397,
+   "revisados": 403,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,54 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1130471086406103_1087626754250303",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-10T03:42:23+0000",
+   "texto": "Cobran carísimo y te arman \"paquetes\" de un montón de sesiones y al final ni te ayudan en nada, en otro lugar pague muchísimo menos y en 1 sesión me quitaron mi molestia.🤫",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/4032522550389768/?comment_id=1087626754250303",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_122149396077112657_1629855302210018",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "pagina_id": "930200630167541",
+   "fecha": "2026-11-10T00:34:45+0000",
+   "texto": "No le crean es mentira por eso no ponen dirección",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1629855302210018",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1130471086406103_1094815960220506",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-09T23:18:09+0000",
+   "texto": "Carisimo conozco un fisioterapeuta que cobra 300 y es  buenísimo.",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/4032522550389768/?comment_id=1094815960220506",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "msg_5ee864231332",
    "tipo": "mensaje",
@@ -316,8 +364,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 12,
-   "no_leidos_24h": 0,
+   "no_leidos": 13,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -330,12 +378,36 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
+   "mas_antiguo": "2026-11-09T23:04:55+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-09T22:29:42+0000",
+   "mas_antiguo": "2026-11-10T00:36:41+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
+   "mas_antiguo": "2026-11-10T00:50:17+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-10T03:12:55+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   }
  ]
 };
