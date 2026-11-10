@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 14:09",
+ "generado": "2026-11-10 15:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3187,
+   "revisados": 3193,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 451,
+   "revisados": 457,
    "estado": "ok",
    "nota": null
   },
@@ -318,7 +318,7 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 2,
+  "respondidas": 3,
   "ocultas": 149
  },
  "chats_sin_leer": [
@@ -333,8 +333,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 16,
-   "no_leidos_24h": 4,
+   "no_leidos": 12,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -342,17 +342,9 @@ window.ALERTAS_DATA = {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
    "no_leidos": 6,
-   "no_leidos_24h": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-10T17:56:36+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "queretaro",
@@ -365,10 +357,18 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "cuautla",
    "pagina": "Equilibrio Total Cuautla",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-10T19:42:55+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-10T20:04:06+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
  ]
 };
