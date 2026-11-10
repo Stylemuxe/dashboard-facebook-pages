@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 01:07",
+ "generado": "2026-11-10 03:07",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3172,
+   "revisados": 3174,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 405,
+   "revisados": 406,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1128766329969547_2383784232168385",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-10T07:33:57+0000",
+   "texto": "Fui a diez secciones y no vi mejoria",
+   "categoria": "Resultado del tratamiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1160029220038751/?comment_id=2383784232168385",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1130471086406103_1087626754250303",
    "tipo": "comentario",
@@ -396,8 +412,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 5,
-   "no_leidos_24h": 5,
+   "no_leidos": 6,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-11-10T00:50:17+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
