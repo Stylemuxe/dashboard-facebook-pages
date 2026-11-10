@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 08:41",
+ "generado": "2026-11-10 08:54",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3177,
+   "revisados": 3179,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 409,
+   "revisados": 404,
    "estado": "ok",
    "nota": null
   },
@@ -424,14 +424,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 7,
    "mas_antiguo": "2026-11-10T00:50:17+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-10T02:47:10+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "pachuca",
