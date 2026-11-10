@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 08:54",
+ "generado": "2026-11-10 09:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -44,18 +44,18 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_1034657662654113_2149845672316092",
+   "id": "fbc_1129149096597937_1153481573797190",
    "tipo": "comentario",
    "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-10T14:06:20+0000",
-   "texto": "A mi no me sirvió de nada, todas las sesiones y no sentí mejora. Cambian de personal o no te dan un seguimiento bien",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-10T15:04:50+0000",
+   "texto": "Eso es mentira nada más teronan tu dinero y no te asen nada yo fui apenas y me cobraron 700 por esos y no me dieron nada porque no llevaba placas y no me regresaron nada",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
    "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=2149845672316092",
+   "url": "https://www.facebook.com/reel/2026871808024687/?comment_id=1153481573797190",
    "respondida": false,
    "oculto": false
   },
@@ -76,22 +76,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_1130471086406103_1087626754250303",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-10T03:42:23+0000",
-   "texto": "Cobran carísimo y te arman \"paquetes\" de un montón de sesiones y al final ni te ayudan en nada, en otro lugar pague muchísimo menos y en 1 sesión me quitaron mi molestia.🤫",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/4032522550389768/?comment_id=1087626754250303",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbc_122149396077112657_1629855302210018",
    "tipo": "comentario",
    "red": "facebook",
@@ -104,22 +88,6 @@ window.ALERTAS_DATA = {
    "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1629855302210018",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1130471086406103_1094815960220506",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-09T23:18:09+0000",
-   "texto": "Carisimo conozco un fisioterapeuta que cobra 300 y es  buenísimo.",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/4032522550389768/?comment_id=1094815960220506",
    "respondida": false,
    "oculto": false
   },
@@ -382,7 +350,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 142
+  "ocultas": 145
  },
  "chats_sin_leer": [
   {
