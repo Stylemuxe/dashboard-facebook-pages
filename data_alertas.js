@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 15:09",
+ "generado": "2026-11-10 16:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3193,
+   "revisados": 3198,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 86,
+   "revisados": 84,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 457,
+   "revisados": 462,
    "estado": "ok",
    "nota": null
   },
@@ -44,19 +44,18 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "igc_17976297162167729",
-   "cuenta_ig": "17841469646975606",
+   "id": "fbc_122214096524369965_1157092360601248",
    "tipo": "comentario",
-   "red": "instagram",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-10T19:14:03+0000",
-   "texto": "Jajajaaj eso es fraude",
+   "red": "facebook",
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "pagina_id": "327573150445283",
+   "fecha": "2026-11-10T21:20:19+0000",
+   "texto": "Charlatanes",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
    "origen": "anuncio",
-   "url": "https://www.instagram.com/p/DeUqQuQM9cV/",
+   "url": "https://www.facebook.com/122226872816369965/posts/122214096524369965?comment_id=1157092360601248",
    "respondida": false,
    "oculto": false
   },
@@ -319,7 +318,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 3,
-  "ocultas": 149
+  "ocultas": 148
  },
  "chats_sin_leer": [
   {
@@ -345,14 +344,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "queretaro",
-   "pagina": "Equilibrio Total Querétaro",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-10T19:36:15+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
   },
   {
    "pagina_key": "cuautla",
