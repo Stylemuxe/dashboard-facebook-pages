@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 07:08",
+ "generado": "2026-11-10 08:41",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3179,
+   "revisados": 3177,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 84,
+   "revisados": 86,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 407,
+   "revisados": 409,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1034657662654113_2149845672316092",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-10T14:06:20+0000",
+   "texto": "A mi no me sirvió de nada, todas las sesiones y no sentí mejora. Cambian de personal o no te dan un seguimiento bien",
+   "categoria": "Resultado del tratamiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=2149845672316092",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1128766329969547_2383784232168385",
    "tipo": "comentario",
@@ -380,8 +396,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 14,
-   "no_leidos_24h": 2,
+   "no_leidos": 15,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -392,14 +408,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 6,
-   "no_leidos_24h": 6,
-   "mas_antiguo": "2026-11-09T23:04:55+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "autonomia",
@@ -416,6 +424,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 7,
    "mas_antiguo": "2026-11-10T00:50:17+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-10T02:47:10+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "pachuca",
