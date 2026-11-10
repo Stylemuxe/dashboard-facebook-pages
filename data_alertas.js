@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 13:09",
+ "generado": "2026-11-10 14:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -16,7 +16,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 85,
+   "revisados": 86,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 437,
+   "revisados": 451,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,23 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "igc_17976297162167729",
+   "cuenta_ig": "17841469646975606",
+   "tipo": "comentario",
+   "red": "instagram",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-10T19:14:03+0000",
+   "texto": "Jajajaaj eso es fraude",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.instagram.com/p/DeUqQuQM9cV/",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "msg_5ee864231332",
    "tipo": "mensaje",
@@ -302,14 +319,14 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 148
+  "ocultas": 149
  },
  "chats_sin_leer": [
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 21,
-   "no_leidos_24h": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
@@ -332,18 +349,26 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-10T17:56:36+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-10T18:55:14+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+   "mas_antiguo": "2026-11-10T19:36:15+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
+  },
+  {
+   "pagina_key": "cuautla",
+   "pagina": "Equilibrio Total Cuautla",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-10T19:42:55+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   }
  ]
 };
