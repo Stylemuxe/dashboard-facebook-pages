@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 23:18",
+ "generado": "2026-11-11 00:26",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3244,
+   "revisados": 3246,
    "estado": "ok",
    "nota": null
   },
@@ -388,8 +388,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 6,
-   "no_leidos_24h": 6,
+   "no_leidos": 7,
+   "no_leidos_24h": 7,
    "mas_antiguo": "2026-11-10T22:02:38+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
