@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-11 11:16",
+ "generado": "2026-11-11 13:30",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2917,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 3278,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 90,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 485,
+   "revisados": 492,
    "estado": "ok",
    "nota": null
   },
@@ -76,38 +76,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_122155766889112657_1111203954861590",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "pagina_id": "930200630167541",
-   "fecha": "2026-11-11T13:45:32+0000",
-   "texto": "No se los recomiendo es unos estafadores son estudiantes no son profesionales pinches sesiones de 15 minutos son iguales a equilibrio total",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1115201998097954/?comment_id=1111203954861590",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122149396077112657_1905179027317902",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "pagina_id": "930200630167541",
-   "fecha": "2026-11-11T03:49:25+0000",
-   "texto": "UTA cobran muy caro se pasan de listos deberían de cobrar más barato yo con lo mismo que hice el señor pago $300 y se me hace caro ustedes se pasan",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1905179027317902",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbc_122214096524369965_1157092360601248",
    "tipo": "comentario",
    "red": "facebook",
@@ -131,22 +99,6 @@ window.ALERTAS_DATA = {
    "pagina": "Equilibrio Total Edomex",
    "pagina_id": "110427318472531",
    "fecha": "2026-11-05T19:32:28+0000",
-   "texto": null,
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "msg_9ce31ed27aeb",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-04T18:43:05+0000",
    "texto": null,
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
@@ -366,14 +318,14 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 5,
-  "ocultas": 141
+  "ocultas": 153
  },
  "chats_sin_leer": [
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 21,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-15T21:07:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
@@ -388,42 +340,34 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 6,
-   "no_leidos_24h": 0,
+   "no_leidos": 7,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
+  },
+  {
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
+   "mas_antiguo": "2026-11-10T22:21:58+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
+   "mas_antiguo": "2026-11-11T15:57:04+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "cuautla",
    "pagina": "Equilibrio Total Cuautla",
    "no_leidos": 2,
    "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-10T19:42:55+0000",
+   "mas_antiguo": "2026-11-11T17:34:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-10T22:21:58+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
-  },
-  {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-11T14:32:12+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-11T15:57:04+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
