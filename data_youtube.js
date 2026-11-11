@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-10 16:09",
+ "generado": "2026-11-10 19:19",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -8,7 +8,7 @@ window.YOUTUBE_DATA = {
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 8070,
    "vistas_totales": 1829086,
-   "video_count": 91,
+   "video_count": 93,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -443,6 +443,26 @@ window.YOUTUBE_DATA = {
    ],
    "videos": [
     {
+     "id": "zQsZR3Kz8BM",
+     "titulo": "No podía levantar el brazo | Así fue su tratamiento",
+     "fecha": "2026-11-11T00:43:58Z",
+     "miniatura": "https://i.ytimg.com/vi/zQsZR3Kz8BM/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=zQsZR3Kz8BM",
+     "vistas": 166,
+     "likes": 0,
+     "comentarios": 0
+    },
+    {
+     "id": "6voM94ThUFg",
+     "titulo": "El dolor no me dejaba trabajar | Así fue su tratamiento",
+     "fecha": "2026-11-11T00:40:49Z",
+     "miniatura": "https://i.ytimg.com/vi/6voM94ThUFg/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6voM94ThUFg",
+     "vistas": 2,
+     "likes": 0,
+     "comentarios": 0
+    },
+    {
      "id": "vJJRSMtV1BI",
      "titulo": "Ejercicios de brazos para personas mayores | Mejora tu movilidad y mantente activo",
      "fecha": "2026-11-02T02:29:22Z",
@@ -578,7 +598,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 772,
+     "vistas": 775,
      "likes": 11,
      "comentarios": 4
     },
@@ -620,26 +640,6 @@ window.YOUTUBE_DATA = {
      "url": "https://www.youtube.com/watch?v=BxIz9LGdZ2o",
      "vistas": 363,
      "likes": 5,
-     "comentarios": 0
-    },
-    {
-     "id": "v6LRCc5K8CU",
-     "titulo": "Conoce a Daniel “El Dragón” Sánchez 🥊🔥",
-     "fecha": "2026-02-23T23:00:21Z",
-     "miniatura": "https://i.ytimg.com/vi/v6LRCc5K8CU/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=v6LRCc5K8CU",
-     "vistas": 380,
-     "likes": 6,
-     "comentarios": 2
-    },
-    {
-     "id": "9h5c3RFr7PI",
-     "titulo": "Conoce a Daniel “El Dragón” Sánchez 🥊🔥",
-     "fecha": "2026-02-23T21:00:10Z",
-     "miniatura": "https://i.ytimg.com/vi/9h5c3RFr7PI/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=9h5c3RFr7PI",
-     "vistas": 1864,
-     "likes": 33,
      "comentarios": 0
     }
    ]
