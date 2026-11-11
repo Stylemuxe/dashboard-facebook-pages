@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-11 07:09",
+ "generado": "2026-11-11 09:03",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3254,
-   "estado": "ok",
-   "nota": null
+   "revisados": 2908,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 89,
-   "estado": "ok",
-   "nota": null
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 471,
+   "revisados": 474,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,38 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1131589922961176_1119856370637553",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "beth",
+   "pagina": "Ser Humano Beth",
+   "pagina_id": "101140822565542",
+   "fecha": "2026-11-11T14:42:10+0000",
+   "texto": "No sirve a mí no me hicieron nada pero si se quedaron con mi dinero xq entrando cobran y ya después te preguntan q tienes y ya cuando dises te disen q tienes q hacerte primero estudios y ya no te hacen nada y tú dinero  adios",
+   "categoria": "Resultado del tratamiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1443833554391250/?comment_id=1119856370637553",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_122155766889112657_1111203954861590",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "pagina_id": "930200630167541",
+   "fecha": "2026-11-11T13:45:32+0000",
+   "texto": "No se los recomiendo es unos estafadores son estudiantes no son profesionales pinches sesiones de 15 minutos son iguales a equilibrio total",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1115201998097954/?comment_id=1111203954861590",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1131894112990102_1469941211741632",
    "tipo": "comentario",
@@ -350,7 +382,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 4,
-  "ocultas": 153
+  "ocultas": 143
  },
  "chats_sin_leer": [
   {
@@ -364,8 +396,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 16,
-   "no_leidos_24h": 4,
+   "no_leidos": 17,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -402,20 +434,28 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
   {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 4,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-11-11T01:45:27+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
-  },
-  {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
    "no_leidos": 1,
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-11T03:26:44+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-11T03:31:53+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-11T14:32:12+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
  ]
 };
