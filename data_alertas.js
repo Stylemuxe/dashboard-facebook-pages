@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-11 09:03",
+ "generado": "2026-11-11 09:22",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2908,
+   "revisados": 2991,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "nota": "No se pudo leer: Ser Humano Beth"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 89,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 474,
+   "revisados": 478,
    "estado": "ok",
    "nota": null
   },
@@ -57,7 +57,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1443833554391250/?comment_id=1119856370637553",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122155766889112657_1111203954861590",
@@ -233,7 +234,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1106762378777264_1095941673221853",
@@ -249,7 +251,8 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1772557247287638/?comment_id=1095941673221853",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1102557452530800_1060061603678290",
@@ -381,8 +384,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 4,
-  "ocultas": 143
+  "respondidas": 2,
+  "ocultas": 142
  },
  "chats_sin_leer": [
   {
@@ -420,8 +423,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 8,
-   "no_leidos_24h": 8,
+   "no_leidos": 9,
+   "no_leidos_24h": 9,
    "mas_antiguo": "2026-11-10T22:02:38+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
