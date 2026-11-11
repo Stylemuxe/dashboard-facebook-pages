@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 16:09",
+ "generado": "2026-11-10 19:19",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3198,
-   "estado": "ok",
-   "nota": null
+   "revisados": 1039,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 84,
-   "estado": "ok",
-   "nota": null
+   "revisados": 39,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 462,
+   "revisados": 363,
    "estado": "ok",
    "nota": null
   },
@@ -57,39 +57,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122226872816369965/posts/122214096524369965?comment_id=1157092360601248",
    "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "msg_5ee864231332",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-05T19:32:28+0000",
-   "texto": null,
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "msg_9ce31ed27aeb",
-   "tipo": "mensaje",
-   "red": "messenger",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-04T18:43:05+0000",
-   "texto": null,
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
-   "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122149396077112657_1594202318688119",
@@ -105,7 +74,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1110153595104519_1800011317708896",
@@ -137,7 +107,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1490511666457979",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122150134215112657_1101029299203408",
@@ -153,7 +124,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -169,7 +141,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1106762378777264_1095941673221853",
@@ -185,7 +158,8 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1772557247287638/?comment_id=1095941673221853",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1102557452530800_1060061603678290",
@@ -317,8 +291,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 3,
-  "ocultas": 148
+  "respondidas": 0,
+  "ocultas": 63
  },
  "chats_sin_leer": [
   {
@@ -354,12 +328,20 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   },
   {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-10T20:04:06+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+   "mas_antiguo": "2026-11-10T22:02:38+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-10T22:21:58+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   }
  ]
 };
