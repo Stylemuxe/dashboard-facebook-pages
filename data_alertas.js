@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-10 21:11",
+ "generado": "2026-11-10 22:08",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3231,
+   "revisados": 3234,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 87,
+   "revisados": 88,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 464,
+   "revisados": 468,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,38 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1131894112990102_1469941211741632",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-11T03:58:15+0000",
+   "texto": "Mande WhatsApp y no me contestaron.",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2164557567464477/?comment_id=1469941211741632",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_122149396077112657_1905179027317902",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "pagina_id": "930200630167541",
+   "fecha": "2026-11-11T03:49:25+0000",
+   "texto": "UTA cobran muy caro se pasan de listos deberían de cobrar más barato yo con lo mismo que hice el señor pago $300 y se me hace caro ustedes se pasan",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1905179027317902",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122214096524369965_1157092360601248",
    "tipo": "comentario",
@@ -318,7 +350,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 4,
-  "ocultas": 148
+  "ocultas": 150
  },
  "chats_sin_leer": [
   {
@@ -356,8 +388,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-10T22:02:38+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
@@ -372,10 +404,18 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-11T01:45:27+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-11T03:26:44+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
 };
