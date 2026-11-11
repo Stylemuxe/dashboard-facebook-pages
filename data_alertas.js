@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-11 02:07",
+ "generado": "2026-11-11 03:08",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 471,
+   "revisados": 472,
    "estado": "ok",
    "nota": null
   },
@@ -388,16 +388,16 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 7,
-   "no_leidos_24h": 7,
+   "no_leidos": 8,
+   "no_leidos_24h": 8,
    "mas_antiguo": "2026-11-10T22:02:38+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-10T22:21:58+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
