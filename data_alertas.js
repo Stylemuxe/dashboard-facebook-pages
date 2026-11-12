@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-11 13:30",
+ "generado": "2026-11-11 20:29",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3278,
+   "revisados": 3281,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 90,
+   "revisados": 92,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 492,
+   "revisados": 490,
    "estado": "ok",
    "nota": null
   },
@@ -44,18 +44,36 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_1129149096597937_1949766245788962",
+   "id": "igc_18090538763686936",
+   "cuenta_ig": "17841461073417399",
    "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-11T16:59:17+0000",
-   "texto": "De verdad que es muy caro y no ayudaba mi esposo estuvo casi un año ahí le inyectaron ozono, dieron fisioterapia, unas cosas que contenían cannabis pero nada sirvió",
-   "categoria": "Precio",
-   "nivel": "baja",
+   "red": "instagram",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-12T01:49:39+0000",
+   "texto": "Son puras mentiras primero te cobran y luego te disen que regreses después además groseros tuve una muy mala experiencia",
+   "categoria": "Trato / atención",
+   "nivel": "media",
    "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2026871808024687/?comment_id=1949766245788962",
+   "url": "https://www.instagram.com/p/Dekcf5Xs3IF/",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "igc_18134430040786866",
+   "cuenta_ig": "17841461073417399",
+   "tipo": "comentario",
+   "red": "instagram",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-12T01:17:35+0000",
+   "texto": "Basur no vayan",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.instagram.com/p/DfkQDYaMQzQ/",
    "respondida": false,
    "oculto": false
   },
@@ -317,8 +335,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 5,
-  "ocultas": 153
+  "respondidas": 6,
+  "ocultas": 152
  },
  "chats_sin_leer": [
   {
@@ -340,8 +358,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 7,
-   "no_leidos_24h": 1,
+   "no_leidos": 9,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
@@ -349,17 +367,9 @@ window.ALERTAS_DATA = {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
    "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-10T22:21:58+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 4,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-11-11T15:57:04+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "cuautla",
@@ -368,6 +378,30 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-11T17:34:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
+  },
+  {
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-11T20:25:48+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
+   "mas_antiguo": "2026-11-11T23:02:52+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-12T01:36:38+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
