@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-12 10:10",
+ "generado": "2026-11-12 11:11",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 1416,
+   "revisados": 1411,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Cuautla"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 486,
+   "revisados": 482,
    "estado": "ok",
    "nota": null
   },
@@ -332,6 +332,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-12T15:27:38+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-12T16:17:31+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
