@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-11 21:19",
+ "generado": "2026-11-11 23:48",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3163,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 3271,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 93,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 94,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 490,
+   "revisados": 494,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,38 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1087970773989468_1848526543132637",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-12T03:26:40+0000",
+   "texto": "CARISIMO!!!!!",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2151386532402387/?comment_id=1848526543132637",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1131890539657126_4751587561744515",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-12T03:23:10+0000",
+   "texto": "No manchen cobran muy caro hay otros mejores y a buen precio",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/4479804048908761/?comment_id=4751587561744515",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "igc_18090538763686936",
    "cuenta_ig": "17841461073417399",
@@ -336,7 +368,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 6,
-  "ocultas": 150
+  "ocultas": 152
  },
  "chats_sin_leer": [
   {
@@ -390,16 +422,16 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 4,
-   "no_leidos_24h": 4,
+   "no_leidos": 5,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-11T23:02:52+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-12T01:36:38+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
