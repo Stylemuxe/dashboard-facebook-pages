@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-12 12:13",
+ "generado": "2026-11-12 14:10",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -8,7 +8,7 @@ window.YOUTUBE_DATA = {
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 8080,
    "vistas_totales": 1836263,
-   "video_count": 93,
+   "video_count": 94,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -453,12 +453,22 @@ window.YOUTUBE_DATA = {
    ],
    "videos": [
     {
+     "id": "3K1fuhTHfnY",
+     "titulo": "¿Hormigueo en las piernas? ⚡ Neuropatía y acupuntura",
+     "fecha": "2026-11-12T20:10:12Z",
+     "miniatura": "https://i.ytimg.com/vi/3K1fuhTHfnY/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=3K1fuhTHfnY",
+     "vistas": 0,
+     "likes": 0,
+     "comentarios": 0
+    },
+    {
      "id": "zQsZR3Kz8BM",
      "titulo": "No podía levantar el brazo | Así fue su tratamiento",
      "fecha": "2026-11-11T00:43:58Z",
      "miniatura": "https://i.ytimg.com/vi/zQsZR3Kz8BM/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=zQsZR3Kz8BM",
-     "vistas": 584,
+     "vistas": 587,
      "likes": 2,
      "comentarios": 0
     },
@@ -528,7 +538,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-10T16:00:09Z",
      "miniatura": "https://i.ytimg.com/vi/koNKV9O2q_M/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=koNKV9O2q_M",
-     "vistas": 610,
+     "vistas": 611,
      "likes": 9,
      "comentarios": 0
     },
@@ -608,7 +618,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 779,
+     "vistas": 780,
      "likes": 11,
      "comentarios": 4
     },
@@ -641,16 +651,6 @@ window.YOUTUBE_DATA = {
      "vistas": 864,
      "likes": 21,
      "comentarios": 2
-    },
-    {
-     "id": "BxIz9LGdZ2o",
-     "titulo": "Rutina de Ejercicios para Dolor de Hombro | Mejora Movilidad y Disminuye la Molestia",
-     "fecha": "2026-02-27T22:51:07Z",
-     "miniatura": "https://i.ytimg.com/vi/BxIz9LGdZ2o/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=BxIz9LGdZ2o",
-     "vistas": 366,
-     "likes": 5,
-     "comentarios": 0
     }
    ]
   }
