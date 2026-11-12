@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-12 02:08",
+ "generado": "2026-11-12 03:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,9 +9,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2346,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex"
+   "revisados": 3273,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
@@ -73,8 +73,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/4479804048908761/?comment_id=4751587561744515",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "igc_18090538763686936",
@@ -204,8 +203,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1490511666457979",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_122150134215112657_1101029299203408",
@@ -369,8 +367,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 3,
-  "ocultas": 99
+  "respondidas": 6,
+  "ocultas": 152
  },
  "chats_sin_leer": [
   {
@@ -401,7 +399,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
    "no_leidos": 3,
-   "no_leidos_24h": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-10T22:21:58+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
