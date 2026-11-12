@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-12 09:05",
+ "generado": "2026-11-12 09:27",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 384,
+   "revisados": 263,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Cuautla"
+   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 91,
-   "estado": "ok",
-   "nota": null
+   "revisados": 86,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 496,
+   "revisados": 497,
    "estado": "ok",
    "nota": null
   },
@@ -43,40 +43,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "fbc_1131890539657126_4751587561744515",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-12T03:23:10+0000",
-   "texto": "No manchen cobran muy caro hay otros mejores y a buen precio",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/4479804048908761/?comment_id=4751587561744515",
-   "respondida": false,
-   "oculto": false,
-   "desactualizada": false
-  },
-  {
-   "id": "fbc_1131589922961176_1119856370637553",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "pagina_id": "101140822565542",
-   "fecha": "2026-11-11T14:42:10+0000",
-   "texto": "No sirve a mí no me hicieron nada pero si se quedaron con mi dinero xq entrando cobran y ya después te preguntan q tienes y ya cuando dises te disen q tienes q hacerte primero estudios y ya no te hacen nada y tú dinero  adios",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1443833554391250/?comment_id=1119856370637553",
-   "respondida": false,
-   "oculto": false,
-   "desactualizada": false
-  },
   {
    "id": "fbc_122214096524369965_1157092360601248",
    "tipo": "comentario",
@@ -326,7 +292,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 1,
-  "ocultas": 11
+  "ocultas": 9
  },
  "chats_sin_leer": [
   {
@@ -340,8 +306,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 14,
-   "no_leidos_24h": 2,
+   "no_leidos": 12,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -368,22 +334,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-11T17:34:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-11T20:25:48+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 4,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-11-12T01:36:38+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
