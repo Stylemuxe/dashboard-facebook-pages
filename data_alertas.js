@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-11 20:29",
+ "generado": "2026-11-11 21:19",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3281,
-   "estado": "ok",
-   "nota": null
+   "revisados": 3163,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 92,
-   "estado": "ok",
-   "nota": null
+   "revisados": 93,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -336,7 +336,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 6,
-  "ocultas": 152
+  "ocultas": 150
  },
  "chats_sin_leer": [
   {
