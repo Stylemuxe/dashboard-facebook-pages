@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-12 15:09",
+ "generado": "2026-11-12 16:12",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,9 +9,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 381,
+   "revisados": 288,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Cuautla"
+   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Pachuca, Equilibrio Total Cuautla"
   },
   {
    "clave": "ig_comentarios",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 481,
+   "revisados": 471,
    "estado": "ok",
    "nota": null
   },
@@ -276,15 +276,15 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 1,
-  "ocultas": 11
+  "ocultas": 7
  },
  "chats_sin_leer": [
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 21,
+   "no_leidos": 20,
    "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-15T21:07:24+0000",
+   "mas_antiguo": "2026-10-16T19:55:13+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
@@ -306,8 +306,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-12T20:21:07+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
