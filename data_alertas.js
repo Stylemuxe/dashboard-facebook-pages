@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-13 08:42",
+ "generado": "2026-11-13 08:57",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2303,
+   "revisados": 2304,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 94,
+   "revisados": 92,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 470,
+   "revisados": 468,
    "estado": "ok",
    "nota": null
   },
@@ -43,23 +43,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "igc_18130814201311374",
-   "cuenta_ig": "17841469646975606",
-   "tipo": "comentario",
-   "red": "instagram",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-13T13:42:53+0000",
-   "texto": "Mala experiencia",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.instagram.com/p/DfcdhAgslfz/",
-   "respondida": false,
-   "oculto": false
-  },
   {
    "id": "fbc_122225850746369965_1863676731337135",
    "tipo": "comentario",
