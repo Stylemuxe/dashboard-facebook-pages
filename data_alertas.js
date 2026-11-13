@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-13 08:57",
+ "generado": "2026-11-13 09:18",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2304,
+   "revisados": 2307,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 468,
+   "revisados": 464,
    "estado": "ok",
    "nota": null
   },
@@ -297,22 +297,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 5,
-   "no_leidos_24h": 5,
-   "mas_antiguo": "2026-11-13T00:05:37+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
-   "pagina_key": "cuautla",
-   "pagina": "Equilibrio Total Cuautla",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-13T03:13:43+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   }
  ]
 };
