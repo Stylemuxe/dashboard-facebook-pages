@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-13 16:09",
+ "generado": "2026-11-13 17:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2310,
+   "revisados": 2311,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 92,
+   "revisados": 87,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 430,
+   "revisados": 423,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1137999255653286_1623040978959577",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-13T22:59:07+0000",
+   "texto": "Nomás roban ahí",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1681353810442404/?comment_id=1623040978959577",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1075491821904030_1850139002833477",
    "tipo": "comentario",
