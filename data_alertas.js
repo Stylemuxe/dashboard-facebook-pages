@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-12 19:25",
+ "generado": "2026-11-12 21:13",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 163,
+   "revisados": 465,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Pachuca, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 89,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 90,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 466,
+   "revisados": 465,
    "estado": "ok",
    "nota": null
   },
@@ -275,7 +275,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 1,
-  "ocultas": 5
+  "ocultas": 15
  },
  "chats_sin_leer": [
   {
