@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-12 21:13",
+ "generado": "2026-11-12 22:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,9 +9,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 465,
+   "revisados": 290,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido"
+   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Pachuca, Equilibrio Total Cuautla"
   },
   {
    "clave": "ig_comentarios",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 465,
+   "revisados": 468,
    "estado": "ok",
    "nota": null
   },
@@ -275,7 +275,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 1,
-  "ocultas": 15
+  "ocultas": 7
  },
  "chats_sin_leer": [
   {
@@ -305,8 +305,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-13T00:05:37+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
@@ -317,6 +317,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-13T00:24:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "cuautla",
+   "pagina": "Equilibrio Total Cuautla",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-13T03:13:43+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   }
  ]
 };
