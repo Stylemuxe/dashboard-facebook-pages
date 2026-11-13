@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-12 16:12",
+ "generado": "2026-11-12 19:25",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 288,
+   "revisados": 163,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Pachuca, Equilibrio Total Cuautla"
+   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Pachuca, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 86,
-   "estado": "ok",
-   "nota": null
+   "revisados": 89,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 471,
+   "revisados": 466,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122225850746369965_1863676731337135",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "pagina_id": "327573150445283",
+   "fecha": "2026-11-12T23:32:36+0000",
+   "texto": "No ay dinero que alcance es muy caro las consultas podría ser algo más económico",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1627397388927937/?comment_id=1863676731337135",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122214096524369965_1157092360601248",
    "tipo": "comentario",
@@ -140,23 +156,6 @@ window.ALERTAS_DATA = {
    "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
-   "respondida": false,
-   "oculto": false,
-   "desactualizada": false
-  },
-  {
-   "id": "fbc_1102557452530800_1060061603678290",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-10-13T22:10:50+0000",
-   "texto": "Puro cuento",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1094188636939754/?comment_id=1060061603678290",
    "respondida": false,
    "oculto": false,
    "desactualizada": false
@@ -276,7 +275,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 1,
-  "ocultas": 7
+  "ocultas": 5
  },
  "chats_sin_leer": [
   {
@@ -304,11 +303,19 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-13T00:05:37+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
    "no_leidos": 2,
    "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-12T20:21:07+0000",
+   "mas_antiguo": "2026-11-13T00:24:24+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
