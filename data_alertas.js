@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-13 13:11",
+ "generado": "2026-11-13 14:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2313,
+   "revisados": 2315,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 437,
+   "revisados": 435,
    "estado": "ok",
    "nota": null
   },
@@ -307,14 +307,6 @@ window.ALERTAS_DATA = {
  },
  "chats_sin_leer": [
   {
-   "pagina_key": "reclutamiento",
-   "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 20,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-16T19:55:13+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
-  },
-  {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 15,
@@ -323,18 +315,26 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
+   "pagina_key": "reclutamiento",
+   "pagina": "Reclutamiento Equilibrio Total",
+   "no_leidos": 19,
+   "no_leidos_24h": 0,
+   "mas_antiguo": "2026-10-17T21:07:04+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
+  },
+  {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 5,
-   "no_leidos_24h": 0,
+   "no_leidos": 6,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-13T16:19:04+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
