@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-13 07:09",
+ "generado": "2026-11-13 08:42",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 3215,
-   "estado": "ok",
-   "nota": null
+   "revisados": 2303,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 92,
+   "revisados": 94,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 468,
+   "revisados": 470,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,23 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "igc_18130814201311374",
+   "cuenta_ig": "17841469646975606",
+   "tipo": "comentario",
+   "red": "instagram",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-13T13:42:53+0000",
+   "texto": "Mala experiencia",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.instagram.com/p/DfcdhAgslfz/",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122225850746369965_1863676731337135",
    "tipo": "comentario",
@@ -121,7 +138,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1490511666457979",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122150134215112657_1101029299203408",
@@ -269,8 +287,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 4,
-  "ocultas": 148
+  "respondidas": 2,
+  "ocultas": 100
  },
  "chats_sin_leer": [
   {
@@ -304,14 +322,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-13T00:05:37+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-13T00:24:24+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "cuautla",
