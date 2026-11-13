@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-13 14:10",
+ "generado": "2026-11-13 15:29",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2315,
+   "revisados": 2308,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 435,
+   "revisados": 429,
    "estado": "ok",
    "nota": null
   },
@@ -134,7 +134,7 @@ window.ALERTAS_DATA = {
    "texto": "No lo recomiendo \n  En mi caso no me hicieron ningún estudio en mi primera y única cita  \nMala experiencia con el según doctor q me  atendió",
    "categoria": "Trato / atención",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1456524539908955/?comment_id=1800011317708896",
    "respondida": false,
    "oculto": false
@@ -303,14 +303,14 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 100
+  "ocultas": 99
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 15,
-   "no_leidos_24h": 3,
+   "no_leidos": 16,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -325,8 +325,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 6,
-   "no_leidos_24h": 1,
+   "no_leidos": 8,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
@@ -345,6 +345,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-13T16:30:29+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-13T21:08:29+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
