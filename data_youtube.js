@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-13 16:10",
+ "generado": "2026-11-13 17:10",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -8,7 +8,7 @@ window.YOUTUBE_DATA = {
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 8080,
    "vistas_totales": 1838832,
-   "video_count": 94,
+   "video_count": 95,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -458,12 +458,22 @@ window.YOUTUBE_DATA = {
    ],
    "videos": [
     {
+     "id": "1HLp9gBeyjU",
+     "titulo": "La pastilla barata, sale cara...",
+     "fecha": "2026-11-13T23:02:19Z",
+     "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
+     "vistas": 13,
+     "likes": 0,
+     "comentarios": 0
+    },
+    {
      "id": "3K1fuhTHfnY",
      "titulo": "¿Hormigueo en las piernas? ⚡ Neuropatía y acupuntura",
      "fecha": "2026-11-12T20:10:12Z",
      "miniatura": "https://i.ytimg.com/vi/3K1fuhTHfnY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=3K1fuhTHfnY",
-     "vistas": 134,
+     "vistas": 149,
      "likes": 0,
      "comentarios": 0
     },
@@ -646,16 +656,6 @@ window.YOUTUBE_DATA = {
      "vistas": 727,
      "likes": 13,
      "comentarios": 0
-    },
-    {
-     "id": "xS_UjzGvw8A",
-     "titulo": "¿Vives con dolor?🤕",
-     "fecha": "2026-03-11T21:01:07Z",
-     "miniatura": "https://i.ytimg.com/vi/xS_UjzGvw8A/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=xS_UjzGvw8A",
-     "vistas": 864,
-     "likes": 21,
-     "comentarios": 2
     }
    ]
   }
