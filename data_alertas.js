@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 08:54",
+ "generado": "2026-11-14 09:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2310,
+   "revisados": 2311,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 429,
+   "revisados": 427,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1113057204814158_1134348446021515",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-14T14:50:32+0000",
+   "texto": "Esto de la diabetes con tanto charlatan q está saliendo es meramente un buen negocio..mucho dinero deja esto..dinero q al final el karma te cobrará por jugar con la salud de una persona...perdón me ofusque saludos y sonrían mientras dure el negocio",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1113842494343426/?comment_id=1134348446021515",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1075491821904030_1103617439151872",
    "tipo": "comentario",
@@ -309,8 +325,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 20,
-   "no_leidos_24h": 8,
+   "no_leidos": 12,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
