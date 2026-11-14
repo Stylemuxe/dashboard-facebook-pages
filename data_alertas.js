@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-13 18:09",
+ "generado": "2026-11-13 19:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2312,
+   "revisados": 2314,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 87,
+   "revisados": 88,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 423,
+   "revisados": 424,
    "estado": "ok",
    "nota": null
   },
@@ -44,18 +44,19 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_1137999255653286_1623040978959577",
+   "id": "igc_17891823639476362",
+   "cuenta_ig": "17841469646975606",
    "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-13T22:59:07+0000",
-   "texto": "Nomás roban ahí",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
+   "red": "instagram",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-14T01:03:37+0000",
+   "texto": "No lo recomiendo, te dan una medio sobada y después te meten en un cuarto con una disque persona que programa tu rehabilitación y te lo pinta con que son $7,000 mas tu descuento y que no se que el chiste es que son como $6,000 pesos. Casi casi te obligan a dar anticipo para que agendes. Tuve que salir por cuestiones de trabajo, habia dejado 500 pesos y les pregunté si podía mandar a una persona pa",
+   "categoria": "Trato / atención",
+   "nivel": "media",
    "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1681353810442404/?comment_id=1623040978959577",
+   "url": "https://www.instagram.com/p/DfbkGN5M8VV/",
    "respondida": false,
    "oculto": false
   },
@@ -319,14 +320,14 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 99
+  "ocultas": 100
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 16,
-   "no_leidos_24h": 4,
+   "no_leidos": 17,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -357,9 +358,9 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "autonomia",
    "pagina": "Autonomía con Sentido",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-13T16:30:29+0000",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-14T00:59:49+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
  ]
