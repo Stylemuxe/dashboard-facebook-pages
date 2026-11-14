@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 00:24",
+ "generado": "2026-11-14 01:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2317,
+   "revisados": 2318,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 431,
+   "revisados": 430,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1133712572748621_2089273368370086",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-14T06:47:24+0000",
+   "texto": "Pues yo no sé los recomiendo es un lugar donde naddmas quieren sacar el dinero ala gente tonta como yooooo que vamos con la ignorancia y la esperanza de componerse y son muy tontos y la dueña o el personal q se encarga de envolver ala gente para que pague un paquete de $5500 y al fin no dan resultados solo su calor sus toquesitos y no llegan a dónde está el mal.son de lo peor 😡😡😡😡😡😡😡😡😡😡😡😡😡",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/959190326960125/?comment_id=2089273368370086",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "igc_17891823639476362",
    "cuenta_ig": "17841469646975606",
