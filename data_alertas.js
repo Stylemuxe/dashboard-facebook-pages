@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 01:09",
+ "generado": "2026-11-14 02:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2318,
+   "revisados": 2316,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -320,7 +320,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 100
+  "ocultas": 99
  },
  "chats_sin_leer": [
   {
