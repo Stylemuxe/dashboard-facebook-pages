@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 00:09",
+ "generado": "2026-11-14 00:24",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
