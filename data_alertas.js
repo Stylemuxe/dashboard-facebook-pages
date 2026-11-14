@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 08:08",
+ "generado": "2026-11-14 08:28",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -342,18 +342,10 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 8,
-   "no_leidos_24h": 3,
+   "no_leidos": 3,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-18T21:47:31+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 7,
-   "no_leidos_24h": 7,
-   "mas_antiguo": "2026-11-13T16:47:22+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "autonomia",
@@ -370,6 +362,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-14T01:38:54+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-14T04:44:03+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "queretaro",
