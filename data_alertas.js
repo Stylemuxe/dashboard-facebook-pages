@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 07:09",
+ "generado": "2026-11-14 08:08",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2313,
+   "revisados": 2310,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 432,
+   "revisados": 434,
    "estado": "ok",
    "nota": null
   },
@@ -326,8 +326,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 19,
-   "no_leidos_24h": 7,
+   "no_leidos": 20,
+   "no_leidos_24h": 8,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -370,6 +370,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-14T01:38:54+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-14T13:39:41+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
   }
  ]
 };
