@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 09:09",
+ "generado": "2026-11-14 10:10",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2311,
+   "revisados": 2310,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 427,
+   "revisados": 414,
    "estado": "ok",
    "nota": null
   },
@@ -325,8 +325,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 12,
-   "no_leidos_24h": 0,
+   "no_leidos": 13,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-17T18:51:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -347,28 +347,20 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-14T00:59:49+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 5,
-   "no_leidos_24h": 5,
-   "mas_antiguo": "2026-11-14T01:38:54+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
    "pagina_key": "queretaro",
    "pagina": "Equilibrio Total Querétaro",
    "no_leidos": 1,
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-14T13:39:41+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-14T15:08:51+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
