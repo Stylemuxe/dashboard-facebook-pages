@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 04:08",
+ "generado": "2026-11-14 05:08",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,9 +9,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2317,
+   "revisados": 1721,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex"
+   "nota": "No se pudo leer: Equilibrio Total Edomex, Autonomía con Sentido"
   },
   {
    "clave": "ig_comentarios",
@@ -138,7 +138,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1110153595104519_1800011317708896",
@@ -187,7 +188,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -320,7 +322,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 99
+  "ocultas": 89
  },
  "chats_sin_leer": [
   {
