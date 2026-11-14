@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 08:28",
+ "generado": "2026-11-14 08:54",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -16,7 +16,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 88,
+   "revisados": 87,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 434,
+   "revisados": 429,
    "estado": "ok",
    "nota": null
   },
@@ -44,35 +44,18 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_1133712572748621_2089273368370086",
+   "id": "fbc_1075491821904030_1103617439151872",
    "tipo": "comentario",
    "red": "facebook",
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
    "pagina_id": "103426168998997",
-   "fecha": "2026-11-14T06:47:24+0000",
-   "texto": "Pues yo no sé los recomiendo es un lugar donde naddmas quieren sacar el dinero ala gente tonta como yooooo que vamos con la ignorancia y la esperanza de componerse y son muy tontos y la dueña o el personal q se encarga de envolver ala gente para que pague un paquete de $5500 y al fin no dan resultados solo su calor sus toquesitos y no llegan a dónde está el mal.son de lo peor 😡😡😡😡😡😡😡😡😡😡😡😡😡",
-   "categoria": "Trato / atención",
+   "fecha": "2026-11-14T14:45:13+0000",
+   "texto": "Yo  ya fui cuando  estaban en chalco casi junto al soriana y de promoción me lo dejaron en $ 4900 de $7000 y querían que yo les comprara jugos de arandanos para  la circulación de  $800  la botella de 700 mil y fui a las secciones y no se me quito el dormiciento de mi nervio  de pierna y  la verdad a mi no me sirvió",
+   "categoria": "Resultado del tratamiento",
    "nivel": "media",
    "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/959190326960125/?comment_id=2089273368370086",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "igc_17891823639476362",
-   "cuenta_ig": "17841469646975606",
-   "tipo": "comentario",
-   "red": "instagram",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-14T01:03:37+0000",
-   "texto": "No lo recomiendo, te dan una medio sobada y después te meten en un cuarto con una disque persona que programa tu rehabilitación y te lo pinta con que son $7,000 mas tu descuento y que no se que el chiste es que son como $6,000 pesos. Casi casi te obligan a dar anticipo para que agendes. Tuve que salir por cuestiones de trabajo, habia dejado 500 pesos y les pregunté si podía mandar a una persona pa",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.instagram.com/p/DfbkGN5M8VV/",
+   "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1103617439151872",
    "respondida": false,
    "oculto": false
   },
@@ -320,7 +303,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 99
+  "ocultas": 100
  },
  "chats_sin_leer": [
   {
@@ -362,14 +345,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-14T01:38:54+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-14T04:44:03+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "queretaro",
