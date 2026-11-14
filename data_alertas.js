@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 05:08",
+ "generado": "2026-11-14 06:08",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,9 +9,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 1721,
+   "revisados": 2314,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex, Autonomía con Sentido"
+   "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 431,
+   "revisados": 432,
    "estado": "ok",
    "nota": null
   },
@@ -138,8 +138,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1110153595104519_1800011317708896",
@@ -188,8 +187,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -322,7 +320,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 89
+  "ocultas": 99
  },
  "chats_sin_leer": [
   {
@@ -352,8 +350,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 6,
-   "no_leidos_24h": 6,
+   "no_leidos": 7,
+   "no_leidos_24h": 7,
    "mas_antiguo": "2026-11-13T16:47:22+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
