@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 13:09",
+ "generado": "2026-11-14 21:03",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2310,
+   "revisados": 1065,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex"
+   "nota": "No se pudo leer: Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 88,
-   "estado": "ok",
-   "nota": null
+   "revisados": 0,
+   "estado": "error",
+   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 400,
+   "revisados": 278,
    "estado": "ok",
    "nota": null
   },
@@ -105,7 +105,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1627397388927937/?comment_id=1863676731337135",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122214096524369965_1157092360601248",
@@ -121,7 +122,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122226872816369965/posts/122214096524369965?comment_id=1157092360601248",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122149396077112657_1594202318688119",
@@ -137,7 +139,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1110153595104519_1800011317708896",
@@ -186,7 +189,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -202,7 +206,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbr_122225308058444350",
@@ -318,8 +323,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 2,
-  "ocultas": 100
+  "respondidas": 1,
+  "ocultas": 68
  },
  "chats_sin_leer": [
   {
