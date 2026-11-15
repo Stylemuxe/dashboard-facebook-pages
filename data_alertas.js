@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-14 21:03",
+ "generado": "2026-11-15 03:01",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 1065,
+   "revisados": 1341,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "nota": "No se pudo leer: Equilibrio Total Edomex, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 0,
-   "estado": "error",
-   "nota": "No se pudo leer: Equilibrio Total, Equilibrio Total Edomex, Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "revisados": 64,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Ser Humano Beth, Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 278,
+   "revisados": 386,
    "estado": "ok",
    "nota": null
   },
@@ -90,23 +90,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1850139002833477",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_122225850746369965_1863676731337135",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "queretaro",
-   "pagina": "Equilibrio Total Querétaro",
-   "pagina_id": "327573150445283",
-   "fecha": "2026-11-12T23:32:36+0000",
-   "texto": "No ay dinero que alcance es muy caro las consultas podría ser algo más económico",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1627397388927937/?comment_id=1863676731337135",
-   "respondida": false,
-   "oculto": false,
-   "desactualizada": false
   },
   {
    "id": "fbc_122214096524369965_1157092360601248",
@@ -206,8 +189,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbr_122225308058444350",
@@ -323,26 +305,10 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 1,
-  "ocultas": 68
+  "respondidas": 2,
+  "ocultas": 78
  },
  "chats_sin_leer": [
-  {
-   "pagina_key": "reclutamiento",
-   "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 19,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-17T21:07:04+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
-  },
-  {
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 14,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-10-17T23:19:36+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
@@ -352,18 +318,26 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "queretaro",
-   "pagina": "Equilibrio Total Querétaro",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-14T13:39:41+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "no_leidos": 14,
+   "no_leidos_24h": 5,
+   "mas_antiguo": "2026-10-19T15:20:15+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
+  },
+  {
+   "pagina_key": "reclutamiento",
+   "pagina": "Reclutamiento Equilibrio Total",
+   "no_leidos": 16,
+   "no_leidos_24h": 0,
+   "mas_antiguo": "2026-10-24T06:39:25+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 5,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-14T15:08:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
@@ -376,12 +350,12 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   },
   {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-14T19:00:27+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+   "mas_antiguo": "2026-11-15T02:28:16+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   }
  ]
 };
