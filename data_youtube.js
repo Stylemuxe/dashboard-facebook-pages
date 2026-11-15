@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-14 13:09",
+ "generado": "2026-11-14 21:03",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -8,7 +8,7 @@ window.YOUTUBE_DATA = {
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 8100,
    "vistas_totales": 1842164,
-   "video_count": 95,
+   "video_count": 96,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -463,13 +463,23 @@ window.YOUTUBE_DATA = {
    ],
    "videos": [
     {
+     "id": "VGG3L3txVSk",
+     "titulo": "¿Dolor de hombro que \"ya se va a pasar\"?",
+     "fecha": "2026-11-14T20:23:17Z",
+     "miniatura": "https://i.ytimg.com/vi/VGG3L3txVSk/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=VGG3L3txVSk",
+     "vistas": 469,
+     "likes": 1,
+     "comentarios": 0
+    },
+    {
      "id": "1HLp9gBeyjU",
      "titulo": "La pastilla barata, sale cara...",
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1195,
-     "likes": 53,
+     "vistas": 1212,
+     "likes": 55,
      "comentarios": 0
     },
     {
@@ -478,7 +488,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-12T20:10:12Z",
      "miniatura": "https://i.ytimg.com/vi/3K1fuhTHfnY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=3K1fuhTHfnY",
-     "vistas": 179,
+     "vistas": 183,
      "likes": 0,
      "comentarios": 0
     },
@@ -498,7 +508,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:40:49Z",
      "miniatura": "https://i.ytimg.com/vi/6voM94ThUFg/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=6voM94ThUFg",
-     "vistas": 31,
+     "vistas": 32,
      "likes": 3,
      "comentarios": 0
     },
@@ -518,7 +528,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 2145,
+     "vistas": 2146,
      "likes": 26,
      "comentarios": 3
     },
@@ -638,7 +648,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 783,
+     "vistas": 786,
      "likes": 11,
      "comentarios": 4
     },
@@ -650,16 +660,6 @@ window.YOUTUBE_DATA = {
      "url": "https://www.youtube.com/watch?v=y-4nAByhwTs",
      "vistas": 1787,
      "likes": 33,
-     "comentarios": 0
-    },
-    {
-     "id": "me7pMyCBvTY",
-     "titulo": "“No podía destapar el café” ☕️",
-     "fecha": "2026-03-13T21:01:02Z",
-     "miniatura": "https://i.ytimg.com/vi/me7pMyCBvTY/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=me7pMyCBvTY",
-     "vistas": 727,
-     "likes": 13,
      "comentarios": 0
     }
    ]
