@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-15 12:24",
+ "generado": "2026-11-15 12:41",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,7 +9,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2310,
+   "revisados": 2309,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 394,
+   "revisados": 395,
    "estado": "ok",
    "nota": null
   },
@@ -365,8 +365,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 15,
-   "no_leidos_24h": 5,
+   "no_leidos": 16,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-10-19T15:20:15+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
