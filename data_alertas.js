@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-15 22:12",
+ "generado": "2026-11-16 01:20",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2340,
+   "revisados": 2358,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 90,
+   "revisados": 91,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 401,
+   "revisados": 400,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1102557462530799_29799510186405592",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-16T05:00:26+0000",
+   "texto": "No lo recomiendo. Costo de valoración más de $900= y \nSolo te toman la temperatura.",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/3125349210986869/?comment_id=29799510186405592",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122224948460369554_1498385942146945",
    "tipo": "comentario",
@@ -335,14 +351,14 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 97
+  "ocultas": 96
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 19,
-   "no_leidos_24h": 6,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-10-19T15:20:15+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -365,8 +381,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 5,
-   "no_leidos_24h": 4,
+   "no_leidos": 6,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-14T15:08:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
