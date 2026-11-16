@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-15 14:11",
+ "generado": "2026-11-15 22:12",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2363,
+   "revisados": 2340,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 91,
+   "revisados": 90,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 395,
+   "revisados": 401,
    "estado": "ok",
    "nota": null
   },
@@ -335,30 +335,30 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 98
+  "ocultas": 97
  },
  "chats_sin_leer": [
   {
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "no_leidos": 3,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-18T21:47:31+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 16,
-   "no_leidos_24h": 4,
+   "no_leidos": 19,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-10-19T15:20:15+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
+   "pagina_key": "beth",
+   "pagina": "Ser Humano Beth",
+   "no_leidos": 2,
+   "no_leidos_24h": 0,
+   "mas_antiguo": "2026-10-19T16:38:47+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
+  },
+  {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 16,
-   "no_leidos_24h": 0,
+   "no_leidos": 17,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-24T06:39:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
@@ -382,7 +382,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
    "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-15T02:28:16+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
