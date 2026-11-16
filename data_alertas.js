@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-16 07:11",
+ "generado": "2026-11-16 11:09",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2363,
+   "revisados": 2036,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex"
+   "nota": "No se pudo leer: Equilibrio Total Edomex, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 92,
-   "estado": "ok",
-   "nota": null
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 401,
+   "revisados": 340,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1136887152431163_2602850400218597",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-16T16:55:02+0000",
+   "texto": "Y cobran carisimo",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1170796665610588/?comment_id=2602850400218597",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1102557462530799_29799510186405592",
    "tipo": "comentario",
@@ -73,7 +89,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1496372105744084/?comment_id=1498385942146945",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122229513200354647_1910708860096186",
@@ -89,7 +106,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1795321905109647/?comment_id=1910708860096186",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122105974755335379_1830466674764921",
@@ -105,7 +123,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974755335379?comment_id=1830466674764921",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1113057204814158_1134348446021515",
@@ -351,24 +370,16 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 96
+  "ocultas": 89
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 19,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-10-19T15:20:15+0000",
+   "no_leidos_24h": 5,
+   "mas_antiguo": "2026-10-20T01:06:33+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
-  {
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "no_leidos": 2,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-19T16:38:47+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
    "pagina_key": "reclutamiento",
@@ -379,10 +390,18 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
+   "pagina_key": "beth",
+   "pagina": "Ser Humano Beth",
+   "no_leidos": 1,
+   "no_leidos_24h": 0,
+   "mas_antiguo": "2026-11-08T07:18:50+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
+  },
+  {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 6,
-   "no_leidos_24h": 1,
+   "no_leidos": 8,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-14T15:08:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
@@ -406,15 +425,15 @@ window.ALERTAS_DATA = {
    "pagina_key": "autonomia",
    "pagina": "Autonomía con Sentido",
    "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-15T16:46:35+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   },
   {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-15T19:42:00+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
