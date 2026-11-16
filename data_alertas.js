@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-16 01:20",
+ "generado": "2026-11-16 07:11",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2358,
+   "revisados": 2363,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 91,
+   "revisados": 92,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 400,
+   "revisados": 401,
    "estado": "ok",
    "nota": null
   },
@@ -358,7 +358,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 19,
-   "no_leidos_24h": 5,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-10-19T15:20:15+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -382,7 +382,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
    "no_leidos": 6,
-   "no_leidos_24h": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-14T15:08:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
