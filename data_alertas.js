@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-16 11:09",
+ "generado": "2026-11-16 11:13",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2036,
+   "revisados": 2360,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 92,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 340,
+   "revisados": 342,
    "estado": "ok",
    "nota": null
   },
@@ -89,8 +89,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1496372105744084/?comment_id=1498385942146945",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_122229513200354647_1910708860096186",
@@ -106,8 +105,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1795321905109647/?comment_id=1910708860096186",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_122105974755335379_1830466674764921",
@@ -123,8 +121,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974755335379?comment_id=1830466674764921",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1113057204814158_1134348446021515",
@@ -370,7 +367,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 89
+  "ocultas": 98
  },
  "chats_sin_leer": [
   {
