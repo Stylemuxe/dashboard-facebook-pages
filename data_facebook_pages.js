@@ -1,5 +1,5 @@
 window.FB_PAGES_DATA = {
-  "generado": "2026-11-17 08:35",
+  "generado": "2026-11-17 08:56",
   "paginas": {
     "equilibrio_total": {
       "nombre": "Equilibrio Total",
@@ -725,7 +725,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 316
+          "valor": 370
         }
       ],
       "vistas_diario": [
@@ -1447,7 +1447,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 43
+          "valor": 46
         }
       ],
       "video_views_diario": [
@@ -2165,11 +2165,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 72480
+          "valor": 72484
         },
         {
           "fecha": "2026-11-18",
-          "valor": 3712
+          "valor": 4383
         }
       ],
       "video_view_time_horas_diario": [
@@ -2887,11 +2887,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 335.3
+          "valor": 335.4
         },
         {
           "fecha": "2026-11-18",
-          "valor": 17.1
+          "valor": 20.2
         }
       ],
       "calificacion": {
@@ -2908,12 +2908,12 @@ window.FB_PAGES_DATA = {
         "anger": 24
       },
       "mensajes": {
-        "conversaciones_28d": 305,
-        "mensajes_28d": 1663,
-        "no_leidos": 10,
-        "no_leidos_24h": 3,
+        "conversaciones_28d": 307,
+        "mensajes_28d": 1670,
+        "no_leidos": 11,
+        "no_leidos_24h": 4,
         "no_leidos_mas_antiguo": "2026-11-14T15:08:51+0000",
-        "conversaciones_hoy": 2,
+        "conversaciones_hoy": 4,
         "serie_diaria": [
           {
             "fecha": "2026-10-20",
@@ -3025,18 +3025,18 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-11-17",
-            "valor": 2
+            "valor": 4
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:32"
+        "actualizado": "2026-11-17 08:52"
       },
       "mejor_horario": {
         "por_dia": [
           {
             "label": "Viernes",
             "posts": 12,
-            "engagement_prom": 167.9
+            "engagement_prom": 168.1
           },
           {
             "label": "Lunes",
@@ -3083,7 +3083,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mediodía (11-14h)",
             "posts": 13,
-            "engagement_prom": 91.6
+            "engagement_prom": 91.7
           },
           {
             "label": "Noche (18-21h)",
@@ -3111,7 +3111,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Dolor / Padecimiento",
           "posts": 40,
-          "engagement_prom": 103.1
+          "engagement_prom": 103.2
         },
         {
           "label": "Llamado a agendar",
@@ -3182,8 +3182,8 @@ window.FB_PAGES_DATA = {
           "reacciones": 35,
           "comentarios": 6,
           "shares": 3,
-          "clics": 143,
-          "video_views": 12041,
+          "clics": 144,
+          "video_views": 12087,
           "comentarios_preview": [
             {
               "id": "1139185122201366_1451570703817203",
@@ -3252,7 +3252,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 7,
           "shares": 13,
           "clics": 740,
-          "video_views": 10621,
+          "video_views": 10638,
           "comentarios_preview": [
             {
               "id": "1137999255653286_28980926374910250",
@@ -3292,7 +3292,7 @@ window.FB_PAGES_DATA = {
           ],
           "con_pauta": true,
           "pauta": {
-            "reacciones": 154,
+            "reacciones": 157,
             "comentarios": 4,
             "shares": 13
           },
@@ -3330,7 +3330,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 2,
           "shares": 1,
           "clics": 395,
-          "video_views": 5940,
+          "video_views": 5943,
           "comentarios_preview": [
             {
               "id": "1136744032445475_1872777490558049",
@@ -3464,7 +3464,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 6,
           "shares": 6,
           "clics": 588,
-          "video_views": 11349,
+          "video_views": 11354,
           "comentarios_preview": [
             {
               "id": "1133712572748621_1440636360942250",
@@ -3518,7 +3518,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 8,
           "shares": 12,
           "clics": 839,
-          "video_views": 15364,
+          "video_views": 15381,
           "comentarios_preview": [
             {
               "id": "1133708312749047_2149905468967832",
@@ -5589,40 +5589,40 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-11-17",
           "engagement": 5695,
           "vistas": 826,
-          "video_views": 72480,
-          "video_view_time_horas": 335.3,
+          "video_views": 72484,
+          "video_view_time_horas": 335.4,
           "vv_org": 957,
-          "vv_pauta": 71523,
+          "vv_pauta": 71527,
           "sn_org": 8,
           "sn_pauta": 22,
           "vc_org": 3117,
-          "vc_pauta": 298675,
+          "vc_pauta": 298689,
           "seguidores": 26551
         },
         {
           "fecha": "2026-11-18",
-          "engagement": 316,
-          "vistas": 43,
-          "video_views": 3712,
-          "video_view_time_horas": 17.1,
-          "vc_org": 91,
-          "vc_pauta": 13173,
-          "vv_org": 32,
-          "vv_pauta": 3680,
+          "engagement": 370,
+          "vistas": 46,
+          "video_views": 4383,
+          "video_view_time_horas": 20.2,
+          "vc_org": 131,
+          "vc_pauta": 15620,
+          "vv_org": 43,
+          "vv_pauta": 4340,
           "sn_org": 0,
           "sn_pauta": 1
         }
       ],
       "instagram": {
         "username": "equilibriototalmx",
-        "seguidores": 11647,
+        "seguidores": 11651,
         "sigue_a": 5,
         "media_count": 360,
         "reach_diario": [],
-        "profile_views_28d": 5525,
+        "profile_views_28d": 5526,
         "website_clicks_28d": 174,
         "accounts_engaged_28d": 6797,
-        "total_interactions_28d": 8310,
+        "total_interactions_28d": 8315,
         "mejor_horario": {
           "por_dia": [
             {
@@ -5737,8 +5737,8 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 338,
-            "alcance": 250,
+            "video_views": 340,
+            "alcance": 251,
             "guardados": 1,
             "media_type": "VIDEO",
             "comentarios_preview": []
@@ -5752,7 +5752,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 336,
+            "video_views": 337,
             "alcance": 248,
             "guardados": 1,
             "media_type": "VIDEO",
@@ -5767,7 +5767,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 452,
+            "video_views": 453,
             "alcance": 285,
             "guardados": 0,
             "media_type": "VIDEO",
@@ -5782,7 +5782,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 5,
             "clics": 0,
-            "video_views": 2117,
+            "video_views": 2119,
             "alcance": 1823,
             "guardados": 12,
             "media_type": "VIDEO",
@@ -5797,7 +5797,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 2,
             "clics": 0,
-            "video_views": 497,
+            "video_views": 498,
             "alcance": 343,
             "guardados": 1,
             "media_type": "VIDEO",
@@ -5812,8 +5812,8 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 526,
-            "alcance": 349,
+            "video_views": 529,
+            "alcance": 350,
             "guardados": 0,
             "media_type": "VIDEO",
             "comentarios_preview": []
@@ -5827,7 +5827,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 3,
             "shares": 0,
             "clics": 0,
-            "video_views": 530,
+            "video_views": 532,
             "alcance": 361,
             "guardados": 3,
             "media_type": "VIDEO",
@@ -5853,7 +5853,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 679,
+            "video_views": 680,
             "alcance": 433,
             "guardados": 3,
             "media_type": "VIDEO",
@@ -5868,7 +5868,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 1802,
+            "video_views": 1803,
             "alcance": 1328,
             "guardados": 5,
             "media_type": "VIDEO",
@@ -5883,7 +5883,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 1,
             "clics": 0,
-            "video_views": 2090,
+            "video_views": 2091,
             "alcance": 1639,
             "guardados": 8,
             "media_type": "VIDEO",
@@ -5898,7 +5898,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 3,
             "clics": 0,
-            "video_views": 1689,
+            "video_views": 1690,
             "alcance": 1292,
             "guardados": 3,
             "media_type": "VIDEO",
@@ -5913,7 +5913,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 5,
             "clics": 0,
-            "video_views": 1486,
+            "video_views": 1487,
             "alcance": 1096,
             "guardados": 6,
             "media_type": "VIDEO",
@@ -5928,7 +5928,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 0,
             "clics": 0,
-            "video_views": 979,
+            "video_views": 980,
             "alcance": 723,
             "guardados": 8,
             "media_type": "VIDEO",
@@ -5943,7 +5943,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 2,
             "clics": 0,
-            "video_views": 1974,
+            "video_views": 1975,
             "alcance": 792,
             "guardados": 2,
             "media_type": "CAROUSEL_ALBUM",
@@ -5958,7 +5958,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 1,
             "clics": 0,
-            "video_views": 1256,
+            "video_views": 1258,
             "alcance": 556,
             "guardados": 8,
             "media_type": "CAROUSEL_ALBUM",
@@ -6340,7 +6340,7 @@ window.FB_PAGES_DATA = {
           },
           {
             "fecha": "2026-11-17",
-            "seguidores": 11647
+            "seguidores": 11651
           }
         ]
       },
@@ -6775,7 +6775,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 91
+          "valor": 131
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -7205,11 +7205,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 298675
+          "valor": 298689
         },
         {
           "fecha": "2026-11-18",
-          "valor": 13173
+          "valor": 15620
         }
       ],
       "video_views_organico_diario": [
@@ -7639,7 +7639,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 32
+          "valor": 43
         }
       ],
       "video_views_pauta_diario": [
@@ -8065,11 +8065,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 71523
+          "valor": 71527
         },
         {
           "fecha": "2026-11-18",
-          "valor": 3680
+          "valor": 4340
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -9135,13 +9135,13 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-06",
-          "total": 646,
+          "total": 647,
           "organico": 1,
           "con_pauta": true
         },
         {
           "fecha": "2026-11-06",
-          "total": 419,
+          "total": 420,
           "organico": 0,
           "con_pauta": true
         },
@@ -10118,7 +10118,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 322
+          "valor": 398
         }
       ],
       "vistas_diario": [
@@ -10840,7 +10840,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 54
+          "valor": 60
         }
       ],
       "video_views_diario": [
@@ -11558,11 +11558,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 57437
+          "valor": 57439
         },
         {
           "fecha": "2026-11-18",
-          "valor": 5186
+          "valor": 6176
         }
       ],
       "video_view_time_horas_diario": [
@@ -12284,7 +12284,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 23.7
+          "valor": 28.4
         }
       ],
       "calificacion": {
@@ -12422,7 +12422,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:33"
+        "actualizado": "2026-11-17 08:52"
       },
       "mejor_horario": {
         "por_dia": [
@@ -12449,7 +12449,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Sábado",
             "posts": 8,
-            "engagement_prom": 791.0
+            "engagement_prom": 791.1
           },
           {
             "label": "Jueves",
@@ -12466,7 +12466,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Mañana (06-11h)",
             "posts": 16,
-            "engagement_prom": 1258.5
+            "engagement_prom": 1258.6
           },
           {
             "label": "Tarde (14-18h)",
@@ -12514,7 +12514,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Otro / sin clasificar",
           "posts": 10,
-          "engagement_prom": 58.5
+          "engagement_prom": 58.6
         },
         {
           "label": "Educativo / Tips",
@@ -12700,11 +12700,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "Equilibrio Total Chalco 💙\nEn nuestra clínica tienes todo en un solo lugar:\n\n🔹 Fisioterapia, en nuestra planta baja\n🔹 Quiropráctica profesional, en la planta alta\n🔹 Acupuntura clínica, en cubículos privados\n\n👩‍⚕️ Con espe",
           "fecha": "2026-11-07T15:02:19+0000",
           "url": "https://www.facebook.com/reel/2026871808024687/",
-          "reacciones": 325,
+          "reacciones": 326,
           "comentarios": 11,
           "shares": 20,
           "clics": 2097,
-          "video_views": 37248,
+          "video_views": 37279,
           "comentarios_preview": [
             {
               "id": "1129149096597937_1823752632006960",
@@ -12778,7 +12778,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 14,
           "shares": 26,
           "clics": 1548,
-          "video_views": 56907,
+          "video_views": 56948,
           "comentarios_preview": [
             {
               "id": "1128766329969547_2537818886706551",
@@ -12833,7 +12833,7 @@ window.FB_PAGES_DATA = {
           ],
           "con_pauta": true,
           "pauta": {
-            "reacciones": 746,
+            "reacciones": 747,
             "comentarios": 16,
             "shares": 30
           },
@@ -12975,7 +12975,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 2,
           "shares": 5,
           "clics": 365,
-          "video_views": 13027,
+          "video_views": 13028,
           "comentarios_preview": [
             {
               "id": "1113802394799274_1158247716640402",
@@ -15168,26 +15168,26 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-11-17",
           "engagement": 3749,
           "vistas": 691,
-          "video_views": 57437,
+          "video_views": 57439,
           "video_view_time_horas": 272.4,
           "vv_org": 515,
-          "vv_pauta": 56922,
+          "vv_pauta": 56924,
           "sn_org": 7,
           "sn_pauta": 13,
           "vc_org": 1584,
-          "vc_pauta": 287169,
+          "vc_pauta": 287185,
           "seguidores": 16935
         },
         {
           "fecha": "2026-11-18",
-          "engagement": 322,
-          "vistas": 54,
-          "video_views": 5186,
-          "video_view_time_horas": 23.7,
-          "vc_org": 173,
-          "vc_pauta": 22886,
-          "vv_org": 30,
-          "vv_pauta": 5156,
+          "engagement": 398,
+          "vistas": 60,
+          "video_views": 6176,
+          "video_view_time_horas": 28.4,
+          "vc_org": 181,
+          "vc_pauta": 27367,
+          "vv_org": 41,
+          "vv_pauta": 6135,
           "sn_org": 1,
           "sn_pauta": 1
         }
@@ -15198,10 +15198,10 @@ window.FB_PAGES_DATA = {
         "sigue_a": 0,
         "media_count": 39,
         "reach_diario": [],
-        "profile_views_28d": 1958,
+        "profile_views_28d": 1959,
         "website_clicks_28d": 0,
-        "accounts_engaged_28d": 3690,
-        "total_interactions_28d": 4251,
+        "accounts_engaged_28d": 3696,
+        "total_interactions_28d": 4255,
         "mejor_horario": {
           "por_dia": [
             {
@@ -16383,7 +16383,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 173
+          "valor": 181
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -16813,11 +16813,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 287169
+          "valor": 287185
         },
         {
           "fecha": "2026-11-18",
-          "valor": 22886
+          "valor": 27367
         }
       ],
       "video_views_organico_diario": [
@@ -17247,7 +17247,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 30
+          "valor": 41
         }
       ],
       "video_views_pauta_diario": [
@@ -17673,11 +17673,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 56922
+          "valor": 56924
         },
         {
           "fecha": "2026-11-18",
-          "valor": 5156
+          "valor": 6135
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -18677,7 +18677,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-07",
-          "total": 356,
+          "total": 357,
           "organico": 7,
           "con_pauta": true
         },
@@ -19726,7 +19726,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 137
+          "valor": 158
         }
       ],
       "vistas_diario": [
@@ -21166,11 +21166,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 25017
+          "valor": 25018
         },
         {
           "fecha": "2026-11-18",
-          "valor": 1467
+          "valor": 1571
         }
       ],
       "video_view_time_horas_diario": [
@@ -21892,7 +21892,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 6.4
+          "valor": 6.8
         }
       ],
       "calificacion": {
@@ -22030,7 +22030,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:33"
+        "actualizado": "2026-11-17 08:53"
       },
       "mejor_horario": {
         "por_dia": [
@@ -22042,7 +22042,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Lunes",
             "posts": 11,
-            "engagement_prom": 1331.7
+            "engagement_prom": 1331.8
           },
           {
             "label": "Domingo",
@@ -22079,7 +22079,7 @@ window.FB_PAGES_DATA = {
           {
             "label": "Tarde (14-18h)",
             "posts": 10,
-            "engagement_prom": 941.2
+            "engagement_prom": 941.3
           },
           {
             "label": "Mediodía (11-14h)",
@@ -22112,7 +22112,7 @@ window.FB_PAGES_DATA = {
         {
           "label": "Dolor / Padecimiento",
           "posts": 29,
-          "engagement_prom": 912.3
+          "engagement_prom": 912.4
         },
         {
           "label": "Educativo / Tips",
@@ -22151,7 +22151,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 10,
           "shares": 13,
           "clics": 1211,
-          "video_views": 42792,
+          "video_views": 42808,
           "comentarios_preview": [
             {
               "id": "1131589922961176_1622165059688044",
@@ -22206,7 +22206,7 @@ window.FB_PAGES_DATA = {
           ],
           "con_pauta": true,
           "pauta": {
-            "reacciones": 581,
+            "reacciones": 582,
             "comentarios": 6,
             "shares": 14
           },
@@ -22225,7 +22225,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 10,
           "shares": 5,
           "clics": 1754,
-          "video_views": 26482,
+          "video_views": 26502,
           "comentarios_preview": [
             {
               "id": "1131572939629541_1670924117762176",
@@ -22348,7 +22348,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 0,
           "clics": 0,
-          "video_views": 389,
+          "video_views": 390,
           "comentarios_preview": [],
           "con_pauta": false,
           "pauta": null,
@@ -22367,7 +22367,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 12,
           "shares": 14,
           "clics": 3122,
-          "video_views": 61896,
+          "video_views": 61897,
           "comentarios_preview": [
             {
               "id": "1106762378777264_1646996196276690",
@@ -22441,7 +22441,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 1,
           "clics": 6,
-          "video_views": 1124,
+          "video_views": 1125,
           "comentarios_preview": [],
           "con_pauta": false,
           "pauta": null,
@@ -22547,7 +22547,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 73,
           "shares": 123,
           "clics": 15266,
-          "video_views": 308627,
+          "video_views": 308628,
           "comentarios_preview": [
             {
               "id": "1062118273241675_29136987985896049",
@@ -22839,11 +22839,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "¿Eres de Milpa Alta? y ese dolor todavía no desaparece...🌿\nEs momento de atenderlo con un tratamiento integral.\nAquí encontrarás todo lo que necesitas para recuperar tu bienestar en un solo lugar:\n🦵 Fisioterapia.\n🦴 Quiro",
           "fecha": "2026-07-13T20:49:37+0000",
           "url": "https://www.facebook.com/reel/2532981323880740/",
-          "reacciones": 7765,
+          "reacciones": 7766,
           "comentarios": 125,
           "shares": 449,
           "clics": 42508,
-          "video_views": 783841,
+          "video_views": 783914,
           "comentarios_preview": [
             {
               "id": "1026390860147750_1697755202136964",
@@ -24905,26 +24905,26 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-11-17",
           "engagement": 1698,
           "vistas": 224,
-          "video_views": 25017,
+          "video_views": 25018,
           "video_view_time_horas": 114.6,
           "vv_org": 181,
-          "vv_pauta": 24836,
+          "vv_pauta": 24837,
           "sn_org": 2,
           "sn_pauta": 6,
           "vc_org": 576,
-          "vc_pauta": 137964,
+          "vc_pauta": 137971,
           "seguidores": 9789
         },
         {
           "fecha": "2026-11-18",
-          "engagement": 137,
+          "engagement": 158,
           "vistas": 24,
-          "video_views": 1467,
-          "video_view_time_horas": 6.4,
-          "vc_org": 57,
-          "vc_pauta": 6462,
-          "vv_org": 27,
-          "vv_pauta": 1440,
+          "video_views": 1571,
+          "video_view_time_horas": 6.8,
+          "vc_org": 77,
+          "vc_pauta": 7770,
+          "vv_org": 28,
+          "vv_pauta": 1543,
           "sn_org": 0,
           "sn_pauta": 1
         }
@@ -24937,8 +24937,8 @@ window.FB_PAGES_DATA = {
         "reach_diario": [],
         "profile_views_28d": 315,
         "website_clicks_28d": 0,
-        "accounts_engaged_28d": 854,
-        "total_interactions_28d": 931,
+        "accounts_engaged_28d": 855,
+        "total_interactions_28d": 932,
         "mejor_horario": {
           "por_dia": [
             {
@@ -26090,7 +26090,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 57
+          "valor": 77
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -26520,11 +26520,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 137964
+          "valor": 137971
         },
         {
           "fecha": "2026-11-18",
-          "valor": 6462
+          "valor": 7770
         }
       ],
       "video_views_organico_diario": [
@@ -26954,7 +26954,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 27
+          "valor": 28
         }
       ],
       "video_views_pauta_diario": [
@@ -27380,11 +27380,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 24836
+          "valor": 24837
         },
         {
           "fecha": "2026-11-18",
-          "valor": 1440
+          "valor": 1543
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -28431,7 +28431,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-07-13",
-          "total": 8339,
+          "total": 8340,
           "organico": 33,
           "con_pauta": true
         },
@@ -30160,7 +30160,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 6
+          "valor": 12
         }
       ],
       "video_views_diario": [
@@ -30882,7 +30882,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 23
+          "valor": 25
         }
       ],
       "video_view_time_horas_diario": [
@@ -31604,7 +31604,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 0.1
+          "valor": 0.2
         }
       ],
       "calificacion": {
@@ -31718,7 +31718,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:33"
+        "actualizado": "2026-11-17 08:53"
       },
       "mejor_horario": {
         "por_dia": [
@@ -31839,7 +31839,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 0,
           "clics": 1,
-          "video_views": 8,
+          "video_views": 9,
           "comentarios_preview": [],
           "con_pauta": false,
           "pauta": null,
@@ -34106,19 +34106,19 @@ window.FB_PAGES_DATA = {
           "sn_org": 1,
           "sn_pauta": 1,
           "vc_org": 777,
-          "vc_pauta": 3970,
+          "vc_pauta": 3971,
           "seguidores": 2608
         },
         {
           "fecha": "2026-11-18",
           "engagement": 7,
-          "vistas": 6,
-          "video_views": 23,
-          "video_view_time_horas": 0.1,
-          "vc_org": 44,
-          "vc_pauta": 69,
+          "vistas": 12,
+          "video_views": 25,
+          "video_view_time_horas": 0.2,
+          "vc_org": 63,
+          "vc_pauta": 83,
           "vv_org": 13,
-          "vv_pauta": 10,
+          "vv_pauta": 12,
           "sn_org": 0,
           "sn_pauta": 0
         }
@@ -34129,7 +34129,7 @@ window.FB_PAGES_DATA = {
         "sigue_a": 2,
         "media_count": 174,
         "reach_diario": [],
-        "profile_views_28d": 1822,
+        "profile_views_28d": 1825,
         "website_clicks_28d": 128,
         "accounts_engaged_28d": 1207,
         "total_interactions_28d": 1604,
@@ -34148,7 +34148,7 @@ window.FB_PAGES_DATA = {
             {
               "label": "Lunes",
               "posts": 11,
-              "engagement_prom": 18.2
+              "engagement_prom": 18.3
             },
             {
               "label": "Jueves",
@@ -34175,7 +34175,7 @@ window.FB_PAGES_DATA = {
             {
               "label": "Noche tarde (21-24h)",
               "posts": 4,
-              "engagement_prom": 27.2
+              "engagement_prom": 27.5
             },
             {
               "label": "Noche (18-21h)",
@@ -34248,12 +34248,12 @@ window.FB_PAGES_DATA = {
             "mensaje": "🧠🧡 ¿Qué tan buena es tu memoria?\n\nParece sencillo recordar unos cuantos números… pero ¿qué pasa cuando tienes que decirlos al revés? 🤔\n\nPon a prueba tu memoria, atención y concentración con este reto de 3 niveles. 🔢\n\n👇 C",
             "fecha": "2026-11-17T03:00:47+0000",
             "url": "https://www.instagram.com/reel/Df06k6ITZuR/",
-            "reacciones": 47,
+            "reacciones": 48,
             "comentarios": 1,
             "shares": 2,
             "clics": 0,
-            "video_views": 1495,
-            "alcance": 1207,
+            "video_views": 1497,
+            "alcance": 1211,
             "guardados": 1,
             "media_type": "VIDEO",
             "comentarios_preview": [
@@ -34288,7 +34288,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 9,
             "clics": 0,
-            "video_views": 2670,
+            "video_views": 2678,
             "alcance": 2301,
             "guardados": 39,
             "media_type": "VIDEO",
@@ -34303,7 +34303,7 @@ window.FB_PAGES_DATA = {
             "comentarios": 0,
             "shares": 3,
             "clics": 0,
-            "video_views": 2078,
+            "video_views": 2079,
             "alcance": 1591,
             "guardados": 10,
             "media_type": "VIDEO",
@@ -34364,7 +34364,7 @@ window.FB_PAGES_DATA = {
             "shares": 1,
             "clics": 0,
             "video_views": 181,
-            "alcance": 64,
+            "alcance": 65,
             "guardados": 0,
             "media_type": "CAROUSEL_ALBUM",
             "comentarios_preview": []
@@ -35291,7 +35291,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 44
+          "valor": 63
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -35721,11 +35721,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 3970
+          "valor": 3971
         },
         {
           "fecha": "2026-11-18",
-          "valor": 69
+          "valor": 83
         }
       ],
       "video_views_organico_diario": [
@@ -36585,7 +36585,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 10
+          "valor": 12
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -38367,7 +38367,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 23
+          "valor": 24
         }
       ],
       "vistas_diario": [
@@ -39267,7 +39267,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 70
+          "valor": 89
         }
       ],
       "video_view_time_horas_diario": [
@@ -39717,7 +39717,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 0.4
+          "valor": 0.5
         }
       ],
       "calificacion": {
@@ -39819,7 +39819,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:33"
+        "actualizado": "2026-11-17 08:54"
       },
       "mejor_horario": {
         "por_dia": [
@@ -39958,7 +39958,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 9,
           "shares": 15,
           "clics": 4771,
-          "video_views": 56595,
+          "video_views": 56596,
           "comentarios_preview": [
             {
               "id": "122226147092369965_4535440540106399",
@@ -40027,7 +40027,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 5,
           "shares": 6,
           "clics": 1049,
-          "video_views": 19865,
+          "video_views": 19871,
           "comentarios_preview": [
             {
               "id": "122225653478369965_1702682697942708",
@@ -40145,7 +40145,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 31,
           "shares": 35,
           "clics": 6548,
-          "video_views": 172168,
+          "video_views": 172180,
           "comentarios_preview": [
             {
               "id": "122221817720369965_2367801800727728",
@@ -40200,7 +40200,7 @@ window.FB_PAGES_DATA = {
           ],
           "con_pauta": true,
           "pauta": {
-            "reacciones": 1400,
+            "reacciones": 1401,
             "comentarios": 23,
             "shares": 51
           },
@@ -40293,7 +40293,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 127,
           "shares": 144,
           "clics": 16820,
-          "video_views": 267140,
+          "video_views": 267141,
           "comentarios_preview": [
             {
               "id": "122217622538369965_1174660652197930",
@@ -41939,14 +41939,14 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "engagement": 23,
+          "engagement": 24,
           "vistas": 0,
-          "video_views": 70,
-          "video_view_time_horas": 0.4,
-          "vc_org": 3,
-          "vc_pauta": 369,
-          "vv_org": 3,
-          "vv_pauta": 67,
+          "video_views": 89,
+          "video_view_time_horas": 0.5,
+          "vc_org": 5,
+          "vc_pauta": 465,
+          "vv_org": 4,
+          "vv_pauta": 85,
           "sn_org": 0,
           "sn_pauta": 0
         }
@@ -42383,7 +42383,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 3
+          "valor": 5
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -42817,7 +42817,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 369
+          "valor": 465
         }
       ],
       "video_views_organico_diario": [
@@ -43247,7 +43247,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 3
+          "valor": 4
         }
       ],
       "video_views_pauta_diario": [
@@ -43677,7 +43677,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 67
+          "valor": 85
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -45454,7 +45454,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 126
+          "valor": 146
         }
       ],
       "vistas_diario": [
@@ -45904,7 +45904,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 15
+          "valor": 24
         }
       ],
       "video_views_diario": [
@@ -46354,7 +46354,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 2631
+          "valor": 2844
         }
       ],
       "video_view_time_horas_diario": [
@@ -46804,7 +46804,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 10.7
+          "valor": 11.6
         }
       ],
       "calificacion": {
@@ -46925,14 +46925,14 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:34"
+        "actualizado": "2026-11-17 08:54"
       },
       "mejor_horario": {
         "por_dia": [
           {
             "label": "Sábado",
             "posts": 9,
-            "engagement_prom": 676.4
+            "engagement_prom": 676.6
           },
           {
             "label": "Jueves",
@@ -46992,12 +46992,12 @@ window.FB_PAGES_DATA = {
         {
           "label": "Llamado a agendar",
           "posts": 10,
-          "engagement_prom": 609.2
+          "engagement_prom": 609.3
         },
         {
           "label": "Dolor / Padecimiento",
           "posts": 40,
-          "engagement_prom": 162.0
+          "engagement_prom": 162.1
         },
         {
           "label": "Otro / sin clasificar",
@@ -47123,11 +47123,11 @@ window.FB_PAGES_DATA = {
           "mensaje": "Vecinos de Pachuca, ¡los estamos esperando! 📍\nSentir hormigueo diario no es normal. 🛑\nVen a visitarnos a la clínica.\nAgenda tu evaluación física con expertos. 📋\nRecupera tu movilidad con nuestro tratamiento.\nManda mensaj",
           "fecha": "2026-08-08T18:44:35+0000",
           "url": "https://www.facebook.com/reel/1421711170011444/",
-          "reacciones": 5485,
+          "reacciones": 5486,
           "comentarios": 180,
           "shares": 375,
           "clics": 47606,
-          "video_views": 926273,
+          "video_views": 926408,
           "comentarios_preview": [
             {
               "id": "122218881284354647_2432263610853734",
@@ -47201,7 +47201,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 0,
           "clics": 0,
-          "video_views": 794,
+          "video_views": 795,
           "comentarios_preview": [],
           "con_pauta": false,
           "pauta": null,
@@ -47283,7 +47283,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 0,
           "clics": 0,
-          "video_views": 1093,
+          "video_views": 1094,
           "comentarios_preview": [],
           "con_pauta": false,
           "pauta": null,
@@ -47346,7 +47346,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 0,
           "shares": 0,
           "clics": 0,
-          "video_views": 745,
+          "video_views": 746,
           "comentarios_preview": [],
           "con_pauta": false,
           "pauta": null,
@@ -48850,21 +48850,21 @@ window.FB_PAGES_DATA = {
           "sn_org": 0,
           "sn_pauta": 1,
           "vc_org": 231,
-          "vc_pauta": 13504,
+          "vc_pauta": 13505,
           "seguidores": 2935
         },
         {
           "fecha": "2026-11-18",
-          "engagement": 126,
-          "vistas": 15,
-          "video_views": 2631,
-          "video_view_time_horas": 10.7,
-          "vc_org": 18,
-          "vc_pauta": 9488,
-          "vv_org": 6,
-          "vv_pauta": 2625,
+          "engagement": 146,
+          "vistas": 24,
+          "video_views": 2844,
+          "video_view_time_horas": 11.6,
+          "vc_org": 46,
+          "vc_pauta": 10940,
+          "vv_org": 14,
+          "vv_pauta": 2830,
           "sn_org": 0,
-          "sn_pauta": 1
+          "sn_pauta": 2
         }
       ],
       "instagram": null,
@@ -49299,7 +49299,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 18
+          "valor": 46
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -49729,11 +49729,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 13504
+          "valor": 13505
         },
         {
           "fecha": "2026-11-18",
-          "valor": 9488
+          "valor": 10940
         }
       ],
       "video_views_organico_diario": [
@@ -50163,7 +50163,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 6
+          "valor": 14
         }
       ],
       "video_views_pauta_diario": [
@@ -50593,7 +50593,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 2625
+          "valor": 2830
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -51453,7 +51453,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 1
+          "valor": 2
         }
       ],
       "mejor_horario_organico": {
@@ -51570,7 +51570,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-08-08",
-          "total": 6040,
+          "total": 6041,
           "organico": 64,
           "con_pauta": true
         },
@@ -53265,7 +53265,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 17
+          "valor": 19
         }
       ],
       "video_view_time_horas_diario": [
@@ -53832,7 +53832,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:34"
+        "actualizado": "2026-11-17 08:54"
       },
       "mejor_horario": {
         "por_dia": [
@@ -53972,7 +53972,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 2,
           "shares": 11,
           "clics": 443,
-          "video_views": 14453,
+          "video_views": 14454,
           "comentarios_preview": [
             {
               "id": "122239425716373437_1686454406416536",
@@ -55780,12 +55780,12 @@ window.FB_PAGES_DATA = {
           "fecha": "2026-11-18",
           "engagement": 2,
           "vistas": 0,
-          "video_views": 17,
+          "video_views": 19,
           "video_view_time_horas": 0.1,
-          "vc_org": 4,
-          "vc_pauta": 57,
+          "vc_org": 9,
+          "vc_pauta": 67,
           "vv_org": 3,
-          "vv_pauta": 14,
+          "vv_pauta": 16,
           "sn_org": 0,
           "sn_pauta": 0
         }
@@ -56222,7 +56222,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 4
+          "valor": 9
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -56656,7 +56656,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 57
+          "valor": 67
         }
       ],
       "video_views_organico_diario": [
@@ -57516,7 +57516,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 14
+          "valor": 16
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -59298,7 +59298,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 65
+          "valor": 74
         }
       ],
       "vistas_diario": [
@@ -60198,7 +60198,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 1513
+          "valor": 1766
         }
       ],
       "video_view_time_horas_diario": [
@@ -60648,7 +60648,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 7.4
+          "valor": 8.9
         }
       ],
       "calificacion": {
@@ -60754,7 +60754,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:34"
+        "actualizado": "2026-11-17 08:54"
       },
       "mejor_horario": {
         "por_dia": [
@@ -62788,19 +62788,19 @@ window.FB_PAGES_DATA = {
           "sn_org": 0,
           "sn_pauta": 1,
           "vc_org": 114,
-          "vc_pauta": 17221,
+          "vc_pauta": 17223,
           "seguidores": 2394
         },
         {
           "fecha": "2026-11-18",
-          "engagement": 65,
+          "engagement": 74,
           "vistas": 9,
-          "video_views": 1513,
-          "video_view_time_horas": 7.4,
+          "video_views": 1766,
+          "video_view_time_horas": 8.9,
           "vc_org": 9,
-          "vc_pauta": 8450,
+          "vc_pauta": 10022,
           "vv_org": 6,
-          "vv_pauta": 1507,
+          "vv_pauta": 1760,
           "sn_org": 0,
           "sn_pauta": 0
         }
@@ -63667,11 +63667,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 17221
+          "valor": 17223
         },
         {
           "fecha": "2026-11-18",
-          "valor": 8450
+          "valor": 10022
         }
       ],
       "video_views_organico_diario": [
@@ -64531,7 +64531,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 1507
+          "valor": 1760
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -66313,7 +66313,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 75
+          "valor": 98
         }
       ],
       "vistas_diario": [
@@ -66763,7 +66763,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 22
+          "valor": 29
         }
       ],
       "video_views_diario": [
@@ -67213,7 +67213,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 453
+          "valor": 527
         }
       ],
       "video_view_time_horas_diario": [
@@ -67663,7 +67663,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 2.6
+          "valor": 3.0
         }
       ],
       "calificacion": {
@@ -67756,7 +67756,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:34"
+        "actualizado": "2026-11-17 08:55"
       },
       "mejor_horario": {
         "por_dia": [
@@ -67939,7 +67939,7 @@ window.FB_PAGES_DATA = {
           "comentarios": 3,
           "shares": 4,
           "clics": 1048,
-          "video_views": 11247,
+          "video_views": 11263,
           "comentarios_preview": [
             {
               "id": "122121740769335379_2093086997995173",
@@ -69524,19 +69524,19 @@ window.FB_PAGES_DATA = {
           "sn_org": 0,
           "sn_pauta": 1,
           "vc_org": 166,
-          "vc_pauta": 10343,
+          "vc_pauta": 10347,
           "seguidores": 634
         },
         {
           "fecha": "2026-11-18",
-          "engagement": 75,
-          "vistas": 22,
-          "video_views": 453,
-          "video_view_time_horas": 2.6,
-          "vc_org": 29,
-          "vc_pauta": 5097,
+          "engagement": 98,
+          "vistas": 29,
+          "video_views": 527,
+          "video_view_time_horas": 3.0,
+          "vc_org": 30,
+          "vc_pauta": 6396,
           "vv_org": 12,
-          "vv_pauta": 441,
+          "vv_pauta": 515,
           "sn_org": 0,
           "sn_pauta": 0
         }
@@ -69973,7 +69973,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 29
+          "valor": 30
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -70403,11 +70403,11 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-17",
-          "valor": 10343
+          "valor": 10347
         },
         {
           "fecha": "2026-11-18",
-          "valor": 5097
+          "valor": 6396
         }
       ],
       "video_views_organico_diario": [
@@ -71267,7 +71267,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 441
+          "valor": 515
         }
       ],
       "seguidores_nuevos_organico_diario": [
@@ -73156,7 +73156,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 9
+          "valor": 12
         }
       ],
       "video_views_diario": [
@@ -74143,7 +74143,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:34"
+        "actualizado": "2026-11-17 08:55"
       },
       "mejor_horario": {
         "por_dia": [
@@ -76138,11 +76138,11 @@ window.FB_PAGES_DATA = {
         {
           "fecha": "2026-11-18",
           "engagement": 11,
-          "vistas": 9,
+          "vistas": 12,
           "video_views": 0,
           "video_view_time_horas": 0.0,
-          "vc_org": 32,
-          "vc_pauta": 448,
+          "vc_org": 38,
+          "vc_pauta": 535,
           "vv_org": 0,
           "vv_pauta": 0,
           "sn_org": 0,
@@ -76581,7 +76581,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 32
+          "valor": 38
         }
       ],
       "vistas_contenido_pauta_diario": [
@@ -77015,7 +77015,7 @@ window.FB_PAGES_DATA = {
         },
         {
           "fecha": "2026-11-18",
-          "valor": 448
+          "valor": 535
         }
       ],
       "video_views_organico_diario": [
@@ -81015,7 +81015,7 @@ window.FB_PAGES_DATA = {
         "conversaciones_hoy": 0,
         "serie_diaria": [],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:34"
+        "actualizado": "2026-11-17 08:55"
       },
       "mejor_horario": {
         "por_dia": [
@@ -87162,7 +87162,7 @@ window.FB_PAGES_DATA = {
         "conversaciones_hoy": 0,
         "serie_diaria": [],
         "estado": "ok",
-        "actualizado": "2026-11-17 08:35"
+        "actualizado": "2026-11-17 08:55"
       },
       "mejor_horario": {
         "por_dia": [
@@ -91350,21 +91350,21 @@ window.FB_PAGES_DATA = {
       "key": "equilibrio_total",
       "nombre": "Equilibrio Total",
       "seguidores": 26551,
-      "engagement_28d": 193174,
-      "vistas_28d": 32636,
-      "video_views_28d": 2455938,
-      "conversaciones_28d": 305,
-      "no_leidos": 10,
-      "no_leidos_24h": 3,
+      "engagement_28d": 193228,
+      "vistas_28d": 32639,
+      "video_views_28d": 2456613,
+      "conversaciones_28d": 307,
+      "no_leidos": 11,
+      "no_leidos_24h": 4,
       "no_leidos_mas_antiguo": "2026-11-14T15:08:51+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:32",
+      "mensajes_actualizado": "2026-11-17 08:52",
       "rating": 4.6,
       "dias_desde_ultima": 2,
       "ultima_publicacion": "2026-11-16T03:00:29+0000",
-      "ig_seguidores": 11647,
+      "ig_seguidores": 11651,
       "ig_username": "equilibriototalmx",
-      "ig_engagement_28d": 8310,
+      "ig_engagement_28d": 8315,
       "ig_dias_desde_ultima": 2,
       "ig_ultima_publicacion": "2026-11-16T03:01:18+0000"
     },
@@ -91372,21 +91372,21 @@ window.FB_PAGES_DATA = {
       "key": "edomex",
       "nombre": "Equilibrio Total Edomex",
       "seguidores": 16935,
-      "engagement_28d": 163656,
-      "vistas_28d": 27784,
-      "video_views_28d": 2288589,
+      "engagement_28d": 163732,
+      "vistas_28d": 27790,
+      "video_views_28d": 2289581,
       "conversaciones_28d": 243,
       "no_leidos": 20,
       "no_leidos_24h": 3,
       "no_leidos_mas_antiguo": "2026-10-22T22:46:23+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:33",
+      "mensajes_actualizado": "2026-11-17 08:52",
       "rating": 4.2,
       "dias_desde_ultima": 5,
       "ultima_publicacion": "2026-11-12T15:34:32+0000",
       "ig_seguidores": 4759,
       "ig_username": "equilibriototaledomex",
-      "ig_engagement_28d": 4251,
+      "ig_engagement_28d": 4255,
       "ig_dias_desde_ultima": 41,
       "ig_ultima_publicacion": "2026-10-07T22:00:23+0000"
     },
@@ -91394,21 +91394,21 @@ window.FB_PAGES_DATA = {
       "key": "beth",
       "nombre": "Ser Humano Beth",
       "seguidores": 9789,
-      "engagement_28d": 54656,
+      "engagement_28d": 54677,
       "vistas_28d": 7057,
-      "video_views_28d": 802293,
+      "video_views_28d": 802398,
       "conversaciones_28d": 81,
       "no_leidos": 1,
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": "2026-11-08T07:18:50+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:33",
+      "mensajes_actualizado": "2026-11-17 08:53",
       "rating": 4.5,
       "dias_desde_ultima": 11,
       "ultima_publicacion": "2026-11-07T02:00:01+0000",
       "ig_seguidores": 2123,
       "ig_username": "funda_cionserhumano",
-      "ig_engagement_28d": 931,
+      "ig_engagement_28d": 932,
       "ig_dias_desde_ultima": 96,
       "ig_ultima_publicacion": "2026-08-13T17:13:42+0000"
     },
@@ -91417,14 +91417,14 @@ window.FB_PAGES_DATA = {
       "nombre": "Autonomía con Sentido",
       "seguidores": 2608,
       "engagement_28d": 42693,
-      "vistas_28d": 16085,
-      "video_views_28d": 137258,
+      "vistas_28d": 16091,
+      "video_views_28d": 137260,
       "conversaciones_28d": 94,
       "no_leidos": 2,
       "no_leidos_24h": 1,
       "no_leidos_mas_antiguo": "2026-11-15T16:46:35+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:33",
+      "mensajes_actualizado": "2026-11-17 08:53",
       "rating": 5,
       "dias_desde_ultima": 1,
       "ultima_publicacion": "2026-11-17T03:00:22+0000",
@@ -91438,15 +91438,15 @@ window.FB_PAGES_DATA = {
       "key": "queretaro",
       "nombre": "Equilibrio Total Querétaro",
       "seguidores": 3709,
-      "engagement_28d": 19485,
+      "engagement_28d": 19486,
       "vistas_28d": 4212,
-      "video_views_28d": 252649,
+      "video_views_28d": 252668,
       "conversaciones_28d": 31,
       "no_leidos": 0,
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:33",
+      "mensajes_actualizado": "2026-11-17 08:54",
       "rating": 5,
       "dias_desde_ultima": 26,
       "ultima_publicacion": "2026-10-22T21:29:50+0000",
@@ -91460,15 +91460,15 @@ window.FB_PAGES_DATA = {
       "key": "pachuca",
       "nombre": "Equilibrio Total Pachuca",
       "seguidores": 2935,
-      "engagement_28d": 32363,
-      "vistas_28d": 4063,
-      "video_views_28d": 366410,
+      "engagement_28d": 32383,
+      "vistas_28d": 4072,
+      "video_views_28d": 366623,
       "conversaciones_28d": 48,
       "no_leidos": 1,
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": "2026-11-15T02:28:16+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:34",
+      "mensajes_actualizado": "2026-11-17 08:54",
       "rating": null,
       "dias_desde_ultima": 26,
       "ultima_publicacion": "2026-10-22T19:48:43+0000",
@@ -91484,13 +91484,13 @@ window.FB_PAGES_DATA = {
       "seguidores": 2429,
       "engagement_28d": 9998,
       "vistas_28d": 2741,
-      "video_views_28d": 90758,
+      "video_views_28d": 90760,
       "conversaciones_28d": 136,
       "no_leidos": 2,
       "no_leidos_24h": 2,
       "no_leidos_mas_antiguo": "2026-11-16T18:42:30+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:34",
+      "mensajes_actualizado": "2026-11-17 08:54",
       "rating": 4.1,
       "dias_desde_ultima": 6,
       "ultima_publicacion": "2026-11-11T21:33:42+0000",
@@ -91504,15 +91504,15 @@ window.FB_PAGES_DATA = {
       "key": "cuautla",
       "nombre": "Equilibrio Total Cuautla",
       "seguidores": 2394,
-      "engagement_28d": 12084,
+      "engagement_28d": 12093,
       "vistas_28d": 2433,
-      "video_views_28d": 140221,
+      "video_views_28d": 140474,
       "conversaciones_28d": 28,
       "no_leidos": 1,
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": "2026-11-14T16:38:51+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:34",
+      "mensajes_actualizado": "2026-11-17 08:54",
       "rating": 1,
       "dias_desde_ultima": 26,
       "ultima_publicacion": "2026-10-22T19:45:12+0000",
@@ -91526,15 +91526,15 @@ window.FB_PAGES_DATA = {
       "key": "mexico",
       "nombre": "Equilibrio Total México",
       "seguidores": 634,
-      "engagement_28d": 14037,
-      "vistas_28d": 3374,
-      "video_views_28d": 153481,
+      "engagement_28d": 14060,
+      "vistas_28d": 3381,
+      "video_views_28d": 153555,
       "conversaciones_28d": 39,
       "no_leidos": 3,
       "no_leidos_24h": 1,
       "no_leidos_mas_antiguo": "2026-11-15T19:42:00+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:34",
+      "mensajes_actualizado": "2026-11-17 08:55",
       "rating": null,
       "dias_desde_ultima": 6,
       "ultima_publicacion": "2026-11-11T16:13:09+0000",
@@ -91549,14 +91549,14 @@ window.FB_PAGES_DATA = {
       "nombre": "Reclutamiento Equilibrio Total",
       "seguidores": 814,
       "engagement_28d": 4302,
-      "vistas_28d": 1459,
+      "vistas_28d": 1462,
       "video_views_28d": 55,
       "conversaciones_28d": 25,
       "no_leidos": 17,
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": "2026-10-24T06:39:25+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:34",
+      "mensajes_actualizado": "2026-11-17 08:55",
       "rating": 5,
       "dias_desde_ultima": 33,
       "ultima_publicacion": "2026-10-15T16:20:26+0000",
@@ -91578,7 +91578,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:34",
+      "mensajes_actualizado": "2026-11-17 08:55",
       "rating": null,
       "dias_desde_ultima": 181,
       "ultima_publicacion": "2026-05-20T16:21:25+0000",
@@ -91600,7 +91600,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 0,
       "no_leidos_mas_antiguo": null,
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-17 08:35",
+      "mensajes_actualizado": "2026-11-17 08:55",
       "rating": null,
       "dias_desde_ultima": 870,
       "ultima_publicacion": "2024-07-01T00:30:23+0000",
