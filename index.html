@@ -4,12 +4,22 @@
 <!-- PASSWORD GATE -->
 <style>html.locked body>*:not(#pwgate){display:none!important}#pwgate{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#3F7A89;z-index:99999;font-family:'Montserrat',system-ui,sans-serif;padding:20px}#pwgate form{background:#F4EDE3;padding:32px 28px;border-radius:24px;width:min(440px,92vw);text-align:center;box-shadow:0 24px 60px rgba(31,58,95,.45);color:#1F3A5F}#pwgate img{display:block;width:100%;max-width:380px;height:auto;margin:0 auto 18px}#pwgate input{width:100%;padding:13px;margin:14px 0 10px;border:1px solid #DADADA;border-radius:12px;font-size:16px;box-sizing:border-box;background:#fff;color:#1E1E1E}#pwgate button{width:100%;padding:13px;border:0;border-radius:12px;background:#1F3A5F;color:#fff;font-size:16px;font-weight:700;cursor:pointer}#pwgate .err{color:#B0472F;font-size:13px;min-height:16px}</style>
 <script>
-(function(){var H='1901878a89cb346172aa6db75b8b4abd3efac26626a5a13bb21d72899bd14649',K='pwgate_ok';
-try{if(localStorage.getItem(K)===H)return}catch(e){}
+// Se pide la contrasena CADA vez que se abre la pagina (pedido de Irving, 17-nov-2026).
+// Aqui solo vive la huella, nunca la contrasena. Para cambiarla: ETH_Dashboard\cambiar_contrasena_dashboard.py
+(function(){var PW={s:'',i:0,h:'1901878a89cb346172aa6db75b8b4abd3efac26626a5a13bb21d72899bd14649'};
+try{localStorage.removeItem('pwgate_ok');localStorage.removeItem('fbdash_unlocked')}catch(e){}
 document.documentElement.classList.add('locked');
-async function sha(t){var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('')}
+function hex(b){return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('')}
+async function huella(t){var e=new TextEncoder().encode(t);if(!PW.s)return hex(await crypto.subtle.digest('SHA-256',e));
+var k=await crypto.subtle.importKey('raw',e,'PBKDF2',false,['deriveBits']);
+var sal=new Uint8Array(PW.s.match(/../g).map(function(x){return parseInt(x,16)}));
+return hex(await crypto.subtle.deriveBits({name:'PBKDF2',salt:sal,iterations:PW.i,hash:'SHA-256'},k,256))}
+// Si el navegador regresa a la pagina desde su memoria (boton Atras), se vuelve a pedir
+window.addEventListener('pageshow',function(ev){if(ev.persisted)location.reload()});
 document.addEventListener('DOMContentLoaded',function(){var d=document.createElement('div');d.id='pwgate';d.innerHTML='<form><img src="assets/logo-eth-azul.png" alt="Equilibrio Total"><b>Acceso restringido</b><input type="password" placeholder="Contraseña" autofocus><div class="err"></div><button>Entrar</button></form>';document.body.appendChild(d);
-d.querySelector('form').onsubmit=async function(ev){ev.preventDefault();var v=d.querySelector('input').value;if(await sha(v)===H){try{localStorage.setItem(K,H)}catch(e){}document.documentElement.classList.remove('locked');d.remove()}else{d.querySelector('.err').textContent='Contraseña incorrecta'}}})})();
+var f=d.querySelector('form'),inp=d.querySelector('input');
+f.onsubmit=async function(ev){ev.preventDefault();var ok=false;try{ok=(await huella(inp.value))===PW.h}catch(e){}
+if(ok){document.documentElement.classList.remove('locked');d.remove()}else{inp.value='';d.querySelector('.err').textContent='Contraseña incorrecta'}}})})();
 </script>
 <!-- /PASSWORD GATE -->
 <meta charset="UTF-8">
@@ -590,29 +600,6 @@ body.dark-theme .al-mas{color:#0F1D30;background:var(--olive)}
 ::-webkit-scrollbar-thumb{background:var(--border2);border-radius:8px}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
-/* ── Acceso ── */
-body:not(.unlocked) .hero,body:not(.unlocked) .toolbar-wrap,body:not(.unlocked) .tabsbar,body:not(.unlocked) .content{display:none}
-#login{display:none;position:fixed;inset:0;z-index:999;align-items:center;justify-content:center;padding:20px;
-  background:var(--bg);overflow:hidden}
-#login::before{content:'';position:absolute;width:420px;height:420px;right:-120px;top:-140px;border-radius:38%;background:#A7BA8D;opacity:.85;
-  animation:floatA 14s ease-in-out infinite}
-#login::after{content:'';position:absolute;width:520px;height:520px;left:-220px;bottom:-260px;border-radius:50%;background:#3F7A89;opacity:.9;
-  animation:floatB 18s ease-in-out infinite}
-body:not(.unlocked) #login{display:flex}
-#login-card{position:relative;z-index:1;width:100%;max-width:460px;background:var(--surface);border:1px solid var(--border);border-radius:28px;
-  padding:36px 30px 30px;text-align:center;box-shadow:var(--shadow-hover);animation:cardIn .7s var(--ease) both}
-#login-card .logo{display:block;width:100%;max-width:400px;height:auto;margin:0 auto 22px}
-body.dark-theme #login-card .logo{content:url("assets/logo-eth-blanco.png")}
-#login-card h2{font-size:18px;font-weight:700;letter-spacing:-.01em;margin-bottom:4px;color:var(--head)}
-#login-card p{font-size:12.5px;color:var(--text3);margin-bottom:22px}
-#login-card input{width:100%;background:var(--surface2);border:1px solid var(--border2);border-radius:14px;color:var(--text);
-  padding:13px 14px;font-size:14px;text-align:center;outline:none;letter-spacing:2px;margin-bottom:10px;transition:border-color .2s,box-shadow .2s}
-#login-card input:focus{border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 18%,transparent)}
-#login-card button{width:100%;border:none;border-radius:14px;padding:13px 14px;font-size:14px;font-weight:700;color:#FFFFFF;cursor:pointer;
-  background:#1F3A5F;transition:transform .3s var(--spring),filter .2s}
-#login-card button:hover{transform:translateY(-2px);filter:brightness(1.12)}
-#login-err{font-size:12px;color:var(--danger);margin-top:12px;min-height:14px}
-
 /* Alias de los puntos de leyenda viejos (se resuelven con el tema activo) */
 body{--s-teal:var(--m1);--s-orange:var(--m2);--s-violet:var(--m3)}
 
@@ -700,41 +687,6 @@ body.dark-theme #footerLogo{content:url("assets/logo-eth-blanco.png")}
 </style>
 </head>
 <body>
-
-<div id="login">
-  <div id="login-card">
-    <img class="logo" src="assets/logo-eth-azul.png" alt="Equilibrio Total — Todos merecen vivir sin dolor" width="400" height="86">
-    <h2>Dashboard de Redes Sociales</h2>
-    <p>Acceso restringido — Equilibrio Total</p>
-    <input type="password" id="loginClave" placeholder="••••••••" autocomplete="off">
-    <button onclick="intentarLogin()">Entrar</button>
-    <div id="login-err"></div>
-  </div>
-</div>
-
-<script>
-(function(){
-  var CLAVE = "dimelopapi";
-  if(localStorage.getItem('fbdash_unlocked') === '1'){
-    document.body.classList.add('unlocked');
-  }
-  window.intentarLogin = function(){
-    var val = document.getElementById('loginClave').value;
-    if(val === CLAVE){
-      localStorage.setItem('fbdash_unlocked', '1');
-      document.body.classList.add('unlocked');
-    } else {
-      document.getElementById('login-err').textContent = 'Clave incorrecta';
-    }
-  };
-  document.addEventListener('DOMContentLoaded', function(){
-    var input = document.getElementById('loginClave');
-    if(input) input.addEventListener('keydown', function(e){
-      if(e.key === 'Enter') intentarLogin();
-    });
-  });
-})();
-</script>
 
 <div id="updateToast" class="update-toast">🔄 Datos actualizados</div>
 <header class="hero">
@@ -2766,6 +2718,8 @@ function irAAlertas(){
   window.scrollTo({top:0, behavior:'smooth'});
 }
 function alFechaTexto(a){
+  // Google Maps solo dice "hace 2 semanas": esas fechas son aproximadas
+  if(a.fecha_aprox) return `${escHtml(a.fecha_texto || tiempoRelativo(normIso(a.fecha)))}<br>fecha aproximada`;
   const f = new Date(normIso(a.fecha));
   const edad = alEdadDias(a);
   const dia = f.toLocaleDateString('es-MX', edad > 300 ? {day:'numeric', month:'short', year:'numeric'} : {day:'numeric', month:'short'});
@@ -2808,8 +2762,10 @@ function renderAlertas(){
   }
   const todas = (d.alertas || []).filter(alPendiente);
   const v = d.ventanas || {};
-  const at = d.atendidas_30d || {};
-  const ult30 = todas.filter(a => alEdadDias(a) <= 30);
+  // Las tarjetas siguen al filtro de dias (7, 30, 60 o 90)
+  const N = alFiltro.dias;
+  const at = (d.atendidas || {})[String(N)] || (N === 30 ? d.atendidas_30d : null);
+  const ult30 = todas.filter(a => alEdadDias(a) <= N);
   const pend30 = ult30;
   const graves30 = pend30.filter(a => a.nivel === 'alta').length;
   const horasDatos = (Date.now() - new Date(String(d.generado || '').replace(' ', 'T')).getTime()) / 3600000;
@@ -2855,7 +2811,7 @@ function renderAlertas(){
 
   const fuentesHtml = (d.fuentes || []).map(f => {
     const st = f.estado === 'ok' ? 'st-ok' : (f.estado === 'parcial' ? 'st-warn' : 'st-bad');
-    const det = f.estado === 'ok' ? `${fmt(f.revisados)} revisados` : escHtml(f.nota || 'Sin datos');
+    const det = f.estado === 'ok' ? `${fmt(f.revisados)} revisados${f.nota ? ' · ' + escHtml(f.nota) : ''}` : escHtml(f.nota || 'Sin datos');
     return `<div class="al-fuente ${st}"><span class="dot"></span><div><b>${escHtml(f.nombre)}</b>${det}</div></div>`;
   }).join('');
 
@@ -2863,23 +2819,23 @@ function renderAlertas(){
   const listaHtml = lista.length
     ? `<div class="al-grid">${lista.slice(0, alLimite).map(alTarjeta).join('')}</div>
        ${lista.length > alLimite ? `<button type="button" class="al-mas" id="alMas">Ver ${fmt(Math.min(24, lista.length - alLimite))} más · quedan ${fmt(lista.length - alLimite)}</button>` : ''}`
-    : `<div class="al-vacio"><span>🎉</span><b>Nada por aquí</b><p>${vacio}${alFiltro.dias < 365 ? ' Las reseñas más viejas aparecen con “12 meses”.' : ''}</p></div>`;
+    : `<div class="al-vacio"><span>🎉</span><b>Nada por aquí</b><p>${vacio}${alFiltro.dias < 90 ? ' Las más viejas aparecen con “90 días”.' : ''}</p></div>`;
 
   wrap.innerHTML = `
     <div class="sec-title"><span style="white-space:nowrap">🚨 Alertas</span><span class="sec-hint">· lo negativo que hay que atender en redes</span></div>
     <p class="al-intro">Comentarios negativos en publicaciones y anuncios (últimos ${v.comentarios_dias || 30} días), posibles quejas por
-      Messenger (últimos ${v.mensajes_dias || 7} días) y reseñas negativas (último año). Solo aparece lo pendiente: lo que se
+      Messenger (últimos ${v.mensajes_dias || 7} días) y reseñas negativas de Facebook y Google (${(v.resenas_dias || 365) >= 365 ? 'último año' : `últimos ${v.resenas_dias} días`}). Solo aparece lo pendiente: lo que se
       contesta, se oculta o se borra sale solo en la siguiente actualización. Actualizado ${tiempoRelativo(String(d.generado || '').replace(' ', 'T'))}.</p>
     ${horasDatos > 3 ? `<div class="alert-banner warn-banner"><div class="alert-banner-head"><span class="ico">⚠️</span>
       <b>Las alertas no se actualizan desde ${escHtml(d.generado)}. Puede haber algunas que ya se resolvieron o se borraron.</b></div></div>` : ''}
     <div class="kpi-row">
       <div class="kpi-card c1"><span class="kpi-icon">⏳</span>
         <div class="kpi-val ${pend30.length ? 'is-bad' : ''}">${numSpan(pend30.length)}</div>
-        <div class="kpi-label">Sin atender · últimos 30 días</div>
-        <div class="kpi-sub">${(at.respondidas || at.ocultas) ? `ya se atendieron ${fmt((at.respondidas || 0) + (at.ocultas || 0))}: ${fmt(at.respondidas || 0)} respondidas y ${fmt(at.ocultas || 0)} ocultas` : 'ni respondidas ni ocultas'}</div></div>
+        <div class="kpi-label">Sin atender · últimos ${N} días</div>
+        <div class="kpi-sub">${!at ? 'lo ya atendido se cuenta desde la siguiente actualización' : ((at.respondidas || at.ocultas) ? `ya se atendieron ${fmt((at.respondidas || 0) + (at.ocultas || 0))}: ${fmt(at.respondidas || 0)} respondidas y ${fmt(at.ocultas || 0)} ocultas` : 'ni respondidas ni ocultas')}</div></div>
       <div class="kpi-card c2"><span class="kpi-icon">🔴</span>
         <div class="kpi-val ${graves30 ? 'is-bad' : ''}">${numSpan(graves30)}</div>
-        <div class="kpi-label">Graves sin atender</div>
+        <div class="kpi-label">Graves sin atender · ${N} días</div>
         <div class="kpi-sub">fraude o engaño, amenaza legal o daño</div></div>
       <div class="kpi-card c3"><span class="kpi-icon">🆕</span>
         <div class="kpi-val">${numSpan(ult7)}</div>
@@ -2887,14 +2843,14 @@ function renderAlertas(){
         <div class="kpi-sub">${fmt(ult24)} en las últimas 24 h</div></div>
       <div class="kpi-card c4"><span class="kpi-icon">🗂️</span>
         <div class="kpi-val">${numSpan(ult30.length)}</div>
-        <div class="kpi-label">Por tipo · últimos 30 días</div>
+        <div class="kpi-label">Por tipo · últimos ${N} días</div>
         <div class="kpi-sub">💬 ${fmt(cuenta(ult30, 'comentario'))} comentarios · ⭐ ${fmt(cuenta(ult30, 'resena'))} reseñas · ✉️ ${fmt(cuenta(ult30, 'mensaje'))} mensajes</div></div>
     </div>
     ${chatsHtml}
     <div class="al-filtros">
       <div class="range-toggle">${btn('tipo','todas','Todas')}${btn('tipo','comentario','💬 Comentarios')}${btn('tipo','resena','⭐ Reseñas')}${btn('tipo','mensaje','✉️ Mensajes')}</div>
       <div class="range-toggle">${btn('nivel','todas','Todo nivel')}${btn('nivel','alta','🔴 Solo graves')}</div>
-      <div class="range-toggle">${btn('dias',7,'7 días')}${btn('dias',30,'30 días')}${btn('dias',365,'12 meses')}</div>
+      <div class="range-toggle">${btn('dias',7,'7 días')}${btn('dias',30,'30 días')}${btn('dias',60,'60 días')}${btn('dias',90,'90 días')}</div>
       <select class="day-select" id="alPagina" aria-label="Filtrar por página">
         <option value="todas">Todas las páginas</option>
         ${keys.map(k => `<option value="${escHtml(k)}"${alFiltro.pagina === k ? ' selected' : ''}>${escHtml(nombrePag(k))}</option>`).join('')}
