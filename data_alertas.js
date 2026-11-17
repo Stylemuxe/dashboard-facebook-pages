@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-16 11:13",
+ "generado": "2026-11-17 08:45",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,14 +9,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2360,
+   "revisados": 2343,
    "estado": "parcial",
    "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 92,
+   "revisados": 93,
    "estado": "ok",
    "nota": null
   },
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 342,
+   "revisados": 286,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,70 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122234759696373437_1106527922382823",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "pagina_id": "369505499570832",
+   "fecha": "2026-11-17T01:30:47+0000",
+   "texto": "Son puros rateros",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2335862233931829/?comment_id=1106527922382823",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1075491821904030_1454773359409646",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-17T00:24:43+0000",
+   "texto": "Yo solicite Cira y no respondieron.\nAhorita en el buen fin",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1454773359409646",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_122119567515335379_1145944981220157",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "pagina_id": "1090445990823612",
+   "fecha": "2026-11-16T20:10:48+0000",
+   "texto": "Ya mandé mensaje y no me responden",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1128827149723361/?comment_id=1145944981220157",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1137252299061315_2911836859194923",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-16T18:41:35+0000",
+   "texto": "¿Por qué mienten ?  Esos 590 es el precio de todo el año, aparte solo es una consulta de VALORACIÓN, después  de eso te dicen cuantas sesiones segun ellos necesitas para completar la fase .",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/934784239572460/?comment_id=2911836859194923",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1136887152431163_2602850400218597",
    "tipo": "comentario",
@@ -221,38 +285,6 @@ window.ALERTAS_DATA = {
    "desactualizada": false
   },
   {
-   "id": "fbc_122150134215112657_1101029299203408",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "pagina_id": "930200630167541",
-   "fecha": "2026-10-18T11:54:48+0000",
-   "texto": "No se los recomiendo son unos rateros se aprovechan de la gente no son profesionales son estudiantes pinches sesiones de 15 minutos",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1098634959590006_2018208366229360",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "pagina_id": "101140822565542",
-   "fecha": "2026-10-18T11:07:51+0000",
-   "texto": "Esto es un fraude",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbr_122225308058444350",
    "tipo": "resena",
    "red": "facebook",
@@ -367,22 +399,22 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 98
+  "ocultas": 96
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 19,
-   "no_leidos_24h": 5,
-   "mas_antiguo": "2026-10-20T01:06:33+0000",
+   "no_leidos": 20,
+   "no_leidos_24h": 3,
+   "mas_antiguo": "2026-10-22T22:46:23+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 17,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-24T06:39:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
@@ -397,7 +429,7 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 8,
+   "no_leidos": 10,
    "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-14T15:08:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
@@ -421,18 +453,26 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "autonomia",
    "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 0,
+   "no_leidos": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-15T16:46:35+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   },
   {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 3,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-15T19:42:00+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-16T18:42:30+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
