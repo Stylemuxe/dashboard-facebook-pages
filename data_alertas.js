@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-17 10:38",
+ "generado": "2026-11-17 11:15",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2926,
-   "estado": "ok",
-   "nota": null
+   "revisados": 1943,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 94,
-   "estado": "ok",
-   "nota": null
+   "revisados": 69,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Autonomía con Sentido, Equilibrio Total Querétaro, Equilibrio Total Pachuca, Equilibrio Total Tepeyac, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 262,
+   "revisados": 254,
    "estado": "ok",
    "nota": null
   },
@@ -43,6 +43,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1134496819396498_1655313119575817",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-17T02:03:09+0000",
+   "texto": "No me cansaré de decir que no atienden como debe de ser 3. Pacientes a la vez cuando la consulta es cara  y en lo personal a mí me fregaron más o lo hicieron adrede para que contratara otras 10 seciones las cuales salen en 6000 pesos ojo si lo quieres comprobar ve i veras",
+   "categoria": "Daño o negligencia",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1079768021786021/?comment_id=1655313119575817",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122119567515335379_1145944981220157",
    "tipo": "comentario",
@@ -57,23 +73,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1128827149723361/?comment_id=1145944981220157",
    "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1136887152431163_2602850400218597",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-16T16:55:02+0000",
-   "texto": "Y cobran carisimo",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1170796665610588/?comment_id=2602850400218597",
-   "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1131889502990563_2122446671993074",
@@ -84,8 +85,8 @@ window.ALERTAS_DATA = {
    "pagina_id": "110427318472531",
    "fecha": "2026-11-16T04:22:58+0000",
    "texto": "No sirve ojo muy caro y te van llevando para que se tarde más tu reabilitacion a mí me fregaron más después de 11 seciones que me costaron como 7 mil pesos y querían que contratara otras 10 porque en la última seción me amolaron más que cuando llegue nadams les digo aguas aparte atienden 3 a la vez cuando por el costo de seción debería ser personalizada",
-   "categoria": "Precio",
-   "nivel": "baja",
+   "categoria": "Daño o negligencia",
+   "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1110259935187077/?comment_id=2122446671993074",
    "respondida": false,
@@ -105,7 +106,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1496372105744084/?comment_id=1498385942146945",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122229513200354647_1910708860096186",
@@ -121,7 +123,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1795321905109647/?comment_id=1910708860096186",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_1131893876323459_1182627694192035",
@@ -153,23 +156,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974755335379?comment_id=1830466674764921",
    "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1113057204814158_1134348446021515",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-14T14:50:32+0000",
-   "texto": "Esto de la diabetes con tanto charlatan q está saliendo es meramente un buen negocio..mucho dinero deja esto..dinero q al final el karma te cobrará por jugar con la salud de una persona...perdón me ofusque saludos y sonrían mientras dure el negocio",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1113842494343426/?comment_id=1134348446021515",
-   "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122214096524369965_1157092360601248",
@@ -185,7 +173,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122226872816369965/posts/122214096524369965?comment_id=1157092360601248",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbc_122149396077112657_1594202318688119",
@@ -201,7 +190,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": false
   },
   {
    "id": "fbr_122225308058444350",
@@ -317,8 +307,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 4,
-  "ocultas": 141
+  "respondidas": 5,
+  "ocultas": 127
  },
  "chats_sin_leer": [
   {
@@ -332,8 +322,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 17,
-   "no_leidos_24h": 0,
+   "no_leidos": 18,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-24T06:39:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
@@ -348,8 +338,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 13,
-   "no_leidos_24h": 6,
+   "no_leidos": 8,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-14T15:08:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
