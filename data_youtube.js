@@ -1,14 +1,14 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-16 11:13",
+ "generado": "2026-11-17 08:45",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "handle": "EquilibrioTotalmx",
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
-   "seguidores": 8110,
-   "vistas_totales": 1845592,
-   "video_count": 96,
+   "seguidores": 8120,
+   "vistas_totales": 1847593,
+   "video_count": 97,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -469,16 +469,31 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-16",
      "seguidores": 8110,
      "vistas_totales": 1845592
+    },
+    {
+     "fecha": "2026-11-17",
+     "seguidores": 8120,
+     "vistas_totales": 1847593
     }
    ],
    "videos": [
+    {
+     "id": "qIDPUbtu4bA",
+     "titulo": "¿Duele la acupuntura? 👀",
+     "fecha": "2026-11-17T03:00:32Z",
+     "miniatura": "https://i.ytimg.com/vi/qIDPUbtu4bA/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=qIDPUbtu4bA",
+     "vistas": 2,
+     "likes": 0,
+     "comentarios": 0
+    },
     {
      "id": "VGG3L3txVSk",
      "titulo": "¿Dolor de hombro que \"ya se va a pasar\"?",
      "fecha": "2026-11-14T20:23:17Z",
      "miniatura": "https://i.ytimg.com/vi/VGG3L3txVSk/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=VGG3L3txVSk",
-     "vistas": 582,
+     "vistas": 587,
      "likes": 1,
      "comentarios": 0
     },
@@ -488,7 +503,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1249,
+     "vistas": 1262,
      "likes": 56,
      "comentarios": 0
     },
@@ -498,7 +513,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-12T20:10:12Z",
      "miniatura": "https://i.ytimg.com/vi/3K1fuhTHfnY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=3K1fuhTHfnY",
-     "vistas": 194,
+     "vistas": 200,
      "likes": 1,
      "comentarios": 0
     },
@@ -508,7 +523,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:43:58Z",
      "miniatura": "https://i.ytimg.com/vi/zQsZR3Kz8BM/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=zQsZR3Kz8BM",
-     "vistas": 618,
+     "vistas": 620,
      "likes": 2,
      "comentarios": 0
     },
@@ -518,7 +533,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:40:49Z",
      "miniatura": "https://i.ytimg.com/vi/6voM94ThUFg/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=6voM94ThUFg",
-     "vistas": 33,
+     "vistas": 36,
      "likes": 3,
      "comentarios": 0
     },
@@ -528,7 +543,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-02T02:29:22Z",
      "miniatura": "https://i.ytimg.com/vi/vJJRSMtV1BI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=vJJRSMtV1BI",
-     "vistas": 154,
+     "vistas": 158,
      "likes": 8,
      "comentarios": 3
     },
@@ -538,7 +553,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 2151,
+     "vistas": 2153,
      "likes": 26,
      "comentarios": 3
     },
@@ -568,7 +583,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-07-11T15:51:28Z",
      "miniatura": "https://i.ytimg.com/vi/f6euhUlrGE8/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=f6euhUlrGE8",
-     "vistas": 1883,
+     "vistas": 1884,
      "likes": 29,
      "comentarios": 1
     },
@@ -658,19 +673,9 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-15T23:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 789,
+     "vistas": 791,
      "likes": 11,
      "comentarios": 4
-    },
-    {
-     "id": "y-4nAByhwTs",
-     "titulo": "Tu cuerpo te lo agradecerá ✨☺️",
-     "fecha": "2026-03-15T21:00:55Z",
-     "miniatura": "https://i.ytimg.com/vi/y-4nAByhwTs/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=y-4nAByhwTs",
-     "vistas": 1788,
-     "likes": 33,
-     "comentarios": 0
     }
    ]
   }
