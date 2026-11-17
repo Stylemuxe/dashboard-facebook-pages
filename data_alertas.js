@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-17 14:09",
+ "generado": "2026-11-17 15:10",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10207,
+   "revisados": 10208,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 197,
+   "revisados": 198,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 230,
+   "revisados": 219,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122240180228373437_1877331980186450",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "pagina_id": "369505499570832",
+   "fecha": "2026-11-17T20:29:02+0000",
+   "texto": "No se los recomiendo son estudiantes no son profesionales se aprovechan de la gente pinché sesión de 15 minutos vas a la primera después sales y te dicen que las demás sesiones serán 9000 y pagar en las primeras sesiones no caigan",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1477424081018972/?comment_id=1877331980186450",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "gr_018930dd23cf0ddb",
    "tipo": "resena",
@@ -222,7 +238,7 @@ window.ALERTAS_DATA = {
    "texto": "No me contestaron wat ???",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
    "oculto": false
@@ -662,7 +678,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro para ser para personas de la tercera edad",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1663873739084896",
    "respondida": false,
    "oculto": false
@@ -1314,7 +1330,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas": {
   "7": {
-   "respondidas": 4,
+   "respondidas": 3,
    "ocultas": 47
   },
   "30": {
@@ -1374,6 +1390,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-17T19:33:37+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "cuautla",
+   "pagina": "Equilibrio Total Cuautla",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-17T20:20:02+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   }
  ]
 };
