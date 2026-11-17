@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-17 10:11",
+ "generado": "2026-11-17 10:38",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,9 +9,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2339,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex"
+   "revisados": 2926,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 270,
+   "revisados": 262,
    "estado": "ok",
    "nota": null
   },
@@ -44,22 +44,6 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_1075491821904030_1454773359409646",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-17T00:24:43+0000",
-   "texto": "Yo solicite Cira y no respondieron.\nAhorita en el buen fin",
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1454773359409646",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbc_122119567515335379_1145944981220157",
    "tipo": "comentario",
    "red": "facebook",
@@ -72,22 +56,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1128827149723361/?comment_id=1145944981220157",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1137252299061315_2911836859194923",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-16T18:41:35+0000",
-   "texto": "¿Por qué mienten ?  Esos 590 es el precio de todo el año, aparte solo es una consulta de VALORACIÓN, después  de eso te dicen cuantas sesiones segun ellos necesitas para completar la fase .",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/934784239572460/?comment_id=2911836859194923",
    "respondida": false,
    "oculto": false
   },
@@ -108,18 +76,18 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_1102557462530799_29799510186405592",
+   "id": "fbc_1131889502990563_2122446671993074",
    "tipo": "comentario",
    "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-16T05:00:26+0000",
-   "texto": "No lo recomiendo. Costo de valoración más de $900= y \nSolo te toman la temperatura.",
-   "categoria": "Trato / atención",
-   "nivel": "media",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-16T04:22:58+0000",
+   "texto": "No sirve ojo muy caro y te van llevando para que se tarde más tu reabilitacion a mí me fregaron más después de 11 seciones que me costaron como 7 mil pesos y querían que contratara otras 10 porque en la última seción me amolaron más que cuando llegue nadams les digo aguas aparte atienden 3 a la vez cuando por el costo de seción debería ser personalizada",
+   "categoria": "Precio",
+   "nivel": "baja",
    "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/3125349210986869/?comment_id=29799510186405592",
+   "url": "https://www.facebook.com/reel/1110259935187077/?comment_id=2122446671993074",
    "respondida": false,
    "oculto": false
   },
@@ -132,8 +100,8 @@ window.ALERTAS_DATA = {
    "pagina_id": "372206735965326",
    "fecha": "2026-11-15T18:20:08+0000",
    "texto": "No sé los recomiendo, son unos chafas,yo fui y me quemaron mi pie con un topo sigarro",
-   "categoria": "Trato / atención",
-   "nivel": "media",
+   "categoria": "Daño o negligencia",
+   "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1496372105744084/?comment_id=1498385942146945",
    "respondida": false,
@@ -152,6 +120,22 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1795321905109647/?comment_id=1910708860096186",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1131893876323459_1182627694192035",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-15T08:09:04+0000",
+   "texto": "No contestan 🥲",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2239552729941436/?comment_id=1182627694192035",
    "respondida": false,
    "oculto": false
   },
@@ -184,38 +168,6 @@ window.ALERTAS_DATA = {
    "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1113842494343426/?comment_id=1134348446021515",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1075491821904030_1103617439151872",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-14T14:45:13+0000",
-   "texto": "Yo  ya fui cuando  estaban en chalco casi junto al soriana y de promoción me lo dejaron en $ 4900 de $7000 y querían que yo les comprara jugos de arandanos para  la circulación de  $800  la botella de 700 mil y fui a las secciones y no se me quito el dormiciento de mi nervio  de pierna y  la verdad a mi no me sirvió",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1103617439151872",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1075491821904030_1850139002833477",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-13T18:47:59+0000",
-   "texto": "La verdad  no lo recomiendo te quieren cobrar ,mucho por lo poco o nada que te hacen",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1750001459475819/?comment_id=1850139002833477",
    "respondida": false,
    "oculto": false
   },
@@ -365,8 +317,8 @@ window.ALERTAS_DATA = {
   }
  ],
  "atendidas_30d": {
-  "respondidas": 2,
-  "ocultas": 96
+  "respondidas": 4,
+  "ocultas": 141
  },
  "chats_sin_leer": [
   {
