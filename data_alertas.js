@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-17 09:07",
+ "generado": "2026-11-17 09:26",
  "ventanas": {
   "comentarios_dias": 30,
   "mensajes_dias": 7,
@@ -9,16 +9,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 2157,
+   "revisados": 2344,
    "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Edomex, Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "nota": "No se pudo leer: Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 93,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Cuautla, Equilibrio Total México, Reclutamiento Equilibrio Total"
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -30,7 +30,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 287,
+   "revisados": 284,
    "estado": "ok",
    "nota": null
   },
@@ -43,22 +43,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "fbc_122234759696373437_1106527922382823",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "pagina_id": "369505499570832",
-   "fecha": "2026-11-17T01:30:47+0000",
-   "texto": "Son puros rateros",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2335862233931829/?comment_id=1106527922382823",
-   "respondida": false,
-   "oculto": false
-  },
   {
    "id": "fbc_1075491821904030_1454773359409646",
    "tipo": "comentario",
@@ -89,8 +73,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1128827149723361/?comment_id=1145944981220157",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1137252299061315_2911836859194923",
@@ -154,8 +137,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1496372105744084/?comment_id=1498385942146945",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_122229513200354647_1910708860096186",
@@ -187,8 +169,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974755335379?comment_id=1830466674764921",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": false
+   "oculto": false
   },
   {
    "id": "fbc_1113057204814158_1134348446021515",
@@ -402,7 +383,7 @@ window.ALERTAS_DATA = {
  ],
  "atendidas_30d": {
   "respondidas": 2,
-  "ocultas": 92
+  "ocultas": 96
  },
  "chats_sin_leer": [
   {
@@ -432,8 +413,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 11,
-   "no_leidos_24h": 4,
+   "no_leidos": 12,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-14T15:08:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
