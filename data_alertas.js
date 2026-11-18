@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 10:11",
+ "generado": "2026-11-18 11:10",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10271,
+   "revisados": 10265,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 201,
+   "revisados": 190,
    "estado": "ok",
    "nota": null
   },
@@ -1331,7 +1331,7 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 39
+   "ocultas": 38
   },
   "30": {
    "respondidas": 11,
@@ -1339,7 +1339,7 @@ window.ALERTAS_DATA = {
   },
   "60": {
    "respondidas": 33,
-   "ocultas": 277
+   "ocultas": 276
   },
   "90": {
    "respondidas": 49,
@@ -1370,18 +1370,10 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 2,
-   "no_leidos_24h": 1,
+   "no_leidos": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "cuautla",
-   "pagina": "Equilibrio Total Cuautla",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-17T23:40:51+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   },
   {
    "pagina_key": "queretaro",
@@ -1390,6 +1382,22 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-18T15:01:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-18T16:14:45+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-18T16:30:36+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
