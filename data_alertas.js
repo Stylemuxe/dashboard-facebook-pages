@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 08:43",
+ "generado": "2026-11-18 09:14",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10254,
+   "revisados": 10273,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 199,
+   "revisados": 198,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 220,
+   "revisados": 219,
    "estado": "ok",
    "nota": null
   },
@@ -1347,7 +1347,7 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 40
+   "ocultas": 39
   },
   "30": {
    "respondidas": 11,
@@ -1355,11 +1355,11 @@ window.ALERTAS_DATA = {
   },
   "60": {
    "respondidas": 33,
-   "ocultas": 275
+   "ocultas": 277
   },
   "90": {
    "respondidas": 49,
-   "ocultas": 313
+   "ocultas": 315
   }
  },
  "atendidas_30d": {
@@ -1378,8 +1378,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 18,
-   "no_leidos_24h": 1,
+   "no_leidos": 17,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-24T06:39:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
@@ -1390,14 +1390,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-17T22:43:58+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "cuautla",
@@ -1414,6 +1406,22 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-18T02:44:20+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-18T14:46:12+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-18T15:01:59+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
   }
  ]
 };
