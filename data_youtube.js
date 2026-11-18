@@ -1,13 +1,13 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-17 21:00",
+ "generado": "2026-11-18 04:04",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "handle": "EquilibrioTotalmx",
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
-   "seguidores": 8120,
-   "vistas_totales": 1848776,
+   "seguidores": 8130,
+   "vistas_totales": 1849652,
    "video_count": 97,
    "historial_seguidores": [
     {
@@ -474,16 +474,31 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-17",
      "seguidores": 8120,
      "vistas_totales": 1848776
+    },
+    {
+     "fecha": "2026-11-18",
+     "seguidores": 8130,
+     "vistas_totales": 1849652
     }
    ],
    "videos": [
+    {
+     "id": "9CRXUB3XTNY",
+     "titulo": "Hernia discal: no siempre significa cirugía",
+     "fecha": "2026-11-18T04:00:02Z",
+     "miniatura": "https://i.ytimg.com/vi/9CRXUB3XTNY/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=9CRXUB3XTNY",
+     "vistas": 763,
+     "likes": 7,
+     "comentarios": 0
+    },
     {
      "id": "VGG3L3txVSk",
      "titulo": "¿Dolor de hombro que \"ya se va a pasar\"?",
      "fecha": "2026-11-14T20:23:17Z",
      "miniatura": "https://i.ytimg.com/vi/VGG3L3txVSk/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=VGG3L3txVSk",
-     "vistas": 588,
+     "vistas": 593,
      "likes": 1,
      "comentarios": 0
     },
@@ -493,7 +508,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1265,
+     "vistas": 1269,
      "likes": 56,
      "comentarios": 0
     },
@@ -503,7 +518,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-12T20:10:12Z",
      "miniatura": "https://i.ytimg.com/vi/3K1fuhTHfnY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=3K1fuhTHfnY",
-     "vistas": 201,
+     "vistas": 205,
      "likes": 1,
      "comentarios": 0
     },
@@ -513,7 +528,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:43:58Z",
      "miniatura": "https://i.ytimg.com/vi/zQsZR3Kz8BM/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=zQsZR3Kz8BM",
-     "vistas": 621,
+     "vistas": 625,
      "likes": 2,
      "comentarios": 0
     },
@@ -523,7 +538,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:40:49Z",
      "miniatura": "https://i.ytimg.com/vi/6voM94ThUFg/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=6voM94ThUFg",
-     "vistas": 40,
+     "vistas": 41,
      "likes": 3,
      "comentarios": 0
     },
@@ -543,7 +558,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 2153,
+     "vistas": 2155,
      "likes": 26,
      "comentarios": 3
     },
@@ -553,7 +568,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-10-03T19:05:19Z",
      "miniatura": "https://i.ytimg.com/vi/9SHDI0qSN7Y/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=9SHDI0qSN7Y",
-     "vistas": 161,
+     "vistas": 163,
      "likes": 2,
      "comentarios": 0
     },
@@ -563,7 +578,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-07-24T06:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/Gz1N9w7lcAI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Gz1N9w7lcAI",
-     "vistas": 368,
+     "vistas": 370,
      "likes": 3,
      "comentarios": 0
     },
@@ -573,7 +588,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-07-11T15:51:28Z",
      "miniatura": "https://i.ytimg.com/vi/f6euhUlrGE8/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=f6euhUlrGE8",
-     "vistas": 1884,
+     "vistas": 1886,
      "likes": 29,
      "comentarios": 1
     },
@@ -593,7 +608,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-08T23:09:35Z",
      "miniatura": "https://i.ytimg.com/vi/MCcWxjoepeI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=MCcWxjoepeI",
-     "vistas": 1067,
+     "vistas": 1069,
      "likes": 15,
      "comentarios": 13
     },
@@ -603,7 +618,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-30T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/Xufj_Xp8liI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Xufj_Xp8liI",
-     "vistas": 387,
+     "vistas": 389,
      "likes": 10,
      "comentarios": 0
     },
@@ -613,7 +628,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-29T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/OhKv1VJzarI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=OhKv1VJzarI",
-     "vistas": 316,
+     "vistas": 318,
      "likes": 4,
      "comentarios": 0
     },
@@ -623,7 +638,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-28T19:45:05Z",
      "miniatura": "https://i.ytimg.com/vi/qTNYZDArfHI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=qTNYZDArfHI",
-     "vistas": 378,
+     "vistas": 380,
      "likes": 5,
      "comentarios": 0
     },
@@ -633,7 +648,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-27T21:00:21Z",
      "miniatura": "https://i.ytimg.com/vi/LMC_tk0I2fM/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=LMC_tk0I2fM",
-     "vistas": 293,
+     "vistas": 295,
      "likes": 2,
      "comentarios": 0
     },
@@ -643,7 +658,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-26T23:00:15Z",
      "miniatura": "https://i.ytimg.com/vi/L6z50ET7Bp0/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=L6z50ET7Bp0",
-     "vistas": 396,
+     "vistas": 398,
      "likes": 5,
      "comentarios": 0
     },
@@ -653,7 +668,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-03-16T21:00:19Z",
      "miniatura": "https://i.ytimg.com/vi/I5bVg8KWBMY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=I5bVg8KWBMY",
-     "vistas": 1633,
+     "vistas": 1635,
      "likes": 39,
      "comentarios": 0
     },
@@ -666,16 +681,6 @@ window.YOUTUBE_DATA = {
      "vistas": 793,
      "likes": 11,
      "comentarios": 4
-    },
-    {
-     "id": "y-4nAByhwTs",
-     "titulo": "Tu cuerpo te lo agradecerá ✨☺️",
-     "fecha": "2026-03-15T21:00:55Z",
-     "miniatura": "https://i.ytimg.com/vi/y-4nAByhwTs/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=y-4nAByhwTs",
-     "vistas": 1788,
-     "likes": 33,
-     "comentarios": 0
     }
    ]
   }
