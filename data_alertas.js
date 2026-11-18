@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 09:14",
+ "generado": "2026-11-18 10:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10273,
+   "revisados": 10271,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 219,
+   "revisados": 201,
    "estado": "ok",
    "nota": null
   },
@@ -62,22 +62,6 @@ window.ALERTAS_DATA = {
    "nivel": "alta",
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122240180228373437_1877331980186450",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "pagina_id": "369505499570832",
-   "fecha": "2026-11-17T20:29:02+0000",
-   "texto": "No se los recomiendo son estudiantes no son profesionales se aprovechan de la gente pinché sesión de 15 minutos vas a la primera después sales y te dicen que las demás sesiones serán 9000 y pagar en las primeras sesiones no caigan",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1477424081018972/?comment_id=1877331980186450",
    "respondida": false,
    "oculto": false
   },
@@ -1370,8 +1354,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 7,
-   "no_leidos_24h": 1,
+   "no_leidos": 6,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-22T22:46:23+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1398,22 +1382,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-17T23:40:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 5,
-   "no_leidos_24h": 5,
-   "mas_antiguo": "2026-11-18T02:44:20+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-18T14:46:12+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "queretaro",
