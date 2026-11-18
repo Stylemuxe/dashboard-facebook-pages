@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 15:10",
+ "generado": "2026-11-18 16:15",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10545,
+   "revisados": 10550,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 184,
+   "revisados": 186,
    "estado": "ok",
    "nota": null
   },
@@ -49,22 +49,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "fbc_1136883519098193_2210785826509077",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-18T18:38:23+0000",
-   "texto": "No sirve para nada a mi no me sirvio",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1660743982210478/?comment_id=2210785826509077",
-   "respondida": false,
-   "oculto": false
-  },
   {
    "id": "msg_524fa040bacc",
    "tipo": "mensaje",
@@ -1399,20 +1383,20 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 11,
-   "ocultas": 170
+   "ocultas": 171
   },
   "60": {
    "respondidas": 33,
-   "ocultas": 286
+   "ocultas": 287
   },
   "90": {
    "respondidas": 50,
-   "ocultas": 327
+   "ocultas": 328
   }
  },
  "atendidas_30d": {
   "respondidas": 11,
-  "ocultas": 170
+  "ocultas": 171
  },
  "chats_sin_leer": [
   {
@@ -1454,6 +1438,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-18T19:32:07+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-18T22:02:48+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
