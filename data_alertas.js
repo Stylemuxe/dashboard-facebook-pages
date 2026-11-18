@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 11:10",
+ "generado": "2026-11-18 12:10",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10265,
+   "revisados": 10451,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 198,
+   "revisados": 199,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 190,
+   "revisados": 191,
    "estado": "ok",
    "nota": null
   },
@@ -636,6 +636,22 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
+   "id": "fbc_1031215919724589_1121781740781820",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-10-03T08:08:01+0000",
+   "texto": "No sirve para nada y te cobran por adelantado mi ermana ya fue y \n.y no le sirvió tengan cuidado",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1121781740781820",
+   "respondida": false,
+   "oculto": false
+  },
+  {
    "id": "fbc_1062118273241675_1805097207289369",
    "tipo": "comentario",
    "red": "facebook",
@@ -648,6 +664,22 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2077380936506525/?comment_id=1805097207289369",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1031215919724589_1294536916064830",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-10-02T17:02:10+0000",
+   "texto": "Yo no recomiendo la sucursal de Nezahualcóyotl Benito juarez 17. \nMi tía fue a terapias ahí por un dolor de brazo y no le ayudo en nada, obvio tienes que pagar por adelantado y mi tía tuvo una caída y cuando fue no la aceptaron porque según iba cuando no era su cita, o sea y luego te dicen que esa es otro costo y le cobran más porque según esa es otro tipo de terapia",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1294536916064830",
    "respondida": false,
    "oculto": false
   },
@@ -1120,6 +1152,22 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
+   "id": "fbc_1031215919724589_1618546493278972",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-09-02T15:17:53+0000",
+   "texto": "Falso yo fui y pésimo servicio",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1618546493278972",
+   "respondida": false,
+   "oculto": false
+  },
+  {
    "id": "msg_4d46b671cabe",
    "tipo": "mensaje",
    "red": "messenger",
@@ -1335,20 +1383,20 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 11,
-   "ocultas": 164
+   "ocultas": 169
   },
   "60": {
    "respondidas": 33,
-   "ocultas": 276
+   "ocultas": 285
   },
   "90": {
-   "respondidas": 49,
-   "ocultas": 315
+   "respondidas": 50,
+   "ocultas": 326
   }
  },
  "atendidas_30d": {
   "respondidas": 11,
-  "ocultas": 164
+  "ocultas": 169
  },
  "chats_sin_leer": [
   {
@@ -1370,8 +1418,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 1,
-   "no_leidos_24h": 0,
+   "no_leidos": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
@@ -1396,7 +1444,7 @@ window.ALERTAS_DATA = {
    "pagina": "Equilibrio Total Tepeyac",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-18T16:30:36+0000",
+   "mas_antiguo": "2026-11-18T17:56:02+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
