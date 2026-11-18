@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 04:04",
+ "generado": "2026-11-18 04:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,16 +15,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10206,
-   "estado": "parcial",
-   "nota": "Faltó tiempo para 28 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
+   "revisados": 10245,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 199,
-   "estado": "parcial",
-   "nota": "Faltó tiempo para 5 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "fb_resenas",
@@ -79,8 +79,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1477424081018972/?comment_id=1877331980186450",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "gr_018930dd23cf0ddb",
@@ -134,8 +133,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122226872816369965/posts/122214096524369965?comment_id=1157092360601248",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "gr_a0673921d5ecd13f",
@@ -259,8 +257,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "gr_d5ba4b123c516948",
@@ -460,8 +457,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1490511666457979",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122150134215112657_1101029299203408",
@@ -474,11 +470,10 @@ window.ALERTAS_DATA = {
    "texto": "No se los recomiendo son unos rateros se aprovechan de la gente no son profesionales son estudiantes pinches sesiones de 15 minutos",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -494,8 +489,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=2018208366229360",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1106762378777264_1095941673221853",
@@ -511,8 +505,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1772557247287638/?comment_id=1095941673221853",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1102557452530800_1060061603678290",
@@ -544,8 +537,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1539803607395634/?comment_id=2060786601950441",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122216933480369554_1554214976426408",
@@ -561,8 +553,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/914291621334583/?comment_id=1554214976426408",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1083043264541854_1113230824974847",
@@ -578,8 +569,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1113230824974847",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "msg_bd101af280d4",
@@ -611,8 +601,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2025112651532536/?comment_id=1617368656357044",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1083035551209292_1755941682307086",
@@ -628,8 +617,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1755941682307086",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1062118273241675_1634504701597133",
@@ -645,8 +633,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2077380936506525/?comment_id=1634504701597133",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1034657662654113_1323329333096028",
@@ -678,8 +665,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2077380936506525/?comment_id=1805097207289369",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1088233333963212_1424637346281273",
@@ -711,8 +697,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1663873739084896",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1026390860147750_1094202123445067",
@@ -728,8 +713,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2532981323880740/?comment_id=1094202123445067",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_993812133405623_1755375785733833",
@@ -745,8 +729,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1395212242659304/?comment_id=1755375785733833",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122105974647335379_1676987197351620",
@@ -762,8 +745,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974647335379?comment_id=1676987197351620",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_844387018347846_1497911522176755",
@@ -795,8 +777,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1849695323051429",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122105974647335379_1620907092780987",
@@ -812,8 +793,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974647335379?comment_id=1620907092780987",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "igc_17896371120653632",
@@ -830,8 +810,7 @@ window.ALERTAS_DATA = {
    "url": "https://www.instagram.com/p/DdUhjLtgEut/",
    "respondida": false,
    "oculto": false,
-   "cuenta_ig": "17841469646975606",
-   "desactualizada": true
+   "cuenta_ig": "17841469646975606"
   },
   {
    "id": "fbr_122225308058444350",
@@ -895,8 +874,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1784320622884204",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1062118273241675_1786786675846653",
@@ -912,8 +890,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2077380936506525/?comment_id=1786786675846653",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1083035551209292_1900651267986446",
@@ -929,8 +906,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1900651267986446",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "igc_18105461087218702",
@@ -947,8 +923,7 @@ window.ALERTAS_DATA = {
    "url": "https://www.instagram.com/p/DdUhjLtgEut/",
    "respondida": false,
    "oculto": false,
-   "cuenta_ig": "17841469646975606",
-   "desactualizada": true
+   "cuenta_ig": "17841469646975606"
   },
   {
    "id": "gr_11e1de3a37c8e372",
@@ -1110,8 +1085,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/914291621334583/?comment_id=1083931494619302",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122216933480369554_1592489032556576",
@@ -1127,8 +1101,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/914291621334583/?comment_id=1592489032556576",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122143872819112657_1055744770503525",
@@ -1144,8 +1117,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122144789121112657/posts/122152770687112657?comment_id=1055744770503525",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "msg_24f43b75ad33",
@@ -1193,8 +1165,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2532981323880740/?comment_id=1358603366433827",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1030585659727980_2569892543529139",
@@ -1242,8 +1213,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2077380936506525/?comment_id=1748835372906567",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1030585659727980_1204882241847140",
@@ -1371,31 +1341,30 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1484586736538464/?comment_id=3407523616076074",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   }
  ],
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 40
+   "ocultas": 41
   },
   "30": {
    "respondidas": 11,
-   "ocultas": 163
+   "ocultas": 164
   },
   "60": {
    "respondidas": 33,
-   "ocultas": 274
+   "ocultas": 275
   },
   "90": {
    "respondidas": 49,
-   "ocultas": 312
+   "ocultas": 313
   }
  },
  "atendidas_30d": {
   "respondidas": 11,
-  "ocultas": 163
+  "ocultas": 164
  },
  "chats_sin_leer": [
   {
