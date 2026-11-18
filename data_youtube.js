@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-17 16:09",
+ "generado": "2026-11-17 21:00",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -478,22 +478,12 @@ window.YOUTUBE_DATA = {
    ],
    "videos": [
     {
-     "id": "qIDPUbtu4bA",
-     "titulo": "¿Duele la acupuntura? 👀",
-     "fecha": "2026-11-17T03:00:32Z",
-     "miniatura": "https://i.ytimg.com/vi/qIDPUbtu4bA/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=qIDPUbtu4bA",
-     "vistas": 2,
-     "likes": 0,
-     "comentarios": 0
-    },
-    {
      "id": "VGG3L3txVSk",
      "titulo": "¿Dolor de hombro que \"ya se va a pasar\"?",
      "fecha": "2026-11-14T20:23:17Z",
      "miniatura": "https://i.ytimg.com/vi/VGG3L3txVSk/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=VGG3L3txVSk",
-     "vistas": 587,
+     "vistas": 588,
      "likes": 1,
      "comentarios": 0
     },
@@ -503,7 +493,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1263,
+     "vistas": 1265,
      "likes": 56,
      "comentarios": 0
     },
@@ -543,7 +533,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-02T02:29:22Z",
      "miniatura": "https://i.ytimg.com/vi/vJJRSMtV1BI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=vJJRSMtV1BI",
-     "vistas": 160,
+     "vistas": 161,
      "likes": 8,
      "comentarios": 3
     },
@@ -676,6 +666,16 @@ window.YOUTUBE_DATA = {
      "vistas": 793,
      "likes": 11,
      "comentarios": 4
+    },
+    {
+     "id": "y-4nAByhwTs",
+     "titulo": "Tu cuerpo te lo agradecerá ✨☺️",
+     "fecha": "2026-03-15T21:00:55Z",
+     "miniatura": "https://i.ytimg.com/vi/y-4nAByhwTs/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=y-4nAByhwTs",
+     "vistas": 1788,
+     "likes": 33,
+     "comentarios": 0
     }
    ]
   }
