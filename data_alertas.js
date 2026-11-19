@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-19 15:13",
+ "generado": "2026-11-19 16:10",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10659,
+   "revisados": 10665,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 191,
+   "revisados": 192,
    "estado": "ok",
    "nota": null
   },
@@ -94,22 +94,6 @@ window.ALERTAS_DATA = {
    "nivel": "alta",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1531925648767676/?comment_id=40095448523434915",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122240181662373437_1109233538601279",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "pagina_id": "369505499570832",
-   "fecha": "2026-11-19T06:28:27+0000",
-   "texto": "Son unos rateros!!!!",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/4790448707857599/?comment_id=1109233538601279",
    "respondida": false,
    "oculto": false
   },
@@ -318,7 +302,7 @@ window.ALERTAS_DATA = {
    "texto": "No me contestaron wat ???",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
    "oculto": false
@@ -790,7 +774,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro para ser para personas de la tercera edad",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1663873739084896",
    "respondida": false,
    "oculto": false
@@ -1455,7 +1439,7 @@ window.ALERTAS_DATA = {
   },
   "90": {
    "respondidas": 48,
-   "ocultas": 331
+   "ocultas": 330
   }
  },
  "atendidas_30d": {
@@ -1502,6 +1486,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-19T16:42:58+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-19T21:08:16+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
