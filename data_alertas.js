@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-19 11:13",
+ "generado": "2026-11-19 12:12",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10638,
+   "revisados": 10655,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 201,
+   "revisados": 202,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 198,
+   "revisados": 193,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122229195770369965_40095448523434915",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "pagina_id": "327573150445283",
+   "fecha": "2026-11-19T17:53:33+0000",
+   "texto": "No vayan, es mentira, pésimo servicio, ni te valoran, ni te dan la atención que prometen, es tirar el\nDinero",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1531925648767676/?comment_id=40095448523434915",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122240181662373437_1109233538601279",
    "tipo": "comentario",
@@ -1418,8 +1434,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 8,
-   "no_leidos_24h": 2,
+   "no_leidos": 9,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-22T22:46:23+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1448,18 +1464,10 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
   },
   {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-19T08:51:00+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
-  },
-  {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-19T15:44:35+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
