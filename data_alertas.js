@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-19 09:10",
+ "generado": "2026-11-19 09:29",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 199,
+   "revisados": 195,
    "estado": "ok",
    "nota": null
   },
@@ -1418,8 +1418,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 9,
-   "no_leidos_24h": 3,
+   "no_leidos": 6,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-22T22:46:23+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1443,17 +1443,9 @@ window.ALERTAS_DATA = {
    "pagina_key": "queretaro",
    "pagina": "Equilibrio Total Querétaro",
    "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-18T15:01:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 7,
-   "no_leidos_24h": 7,
-   "mas_antiguo": "2026-11-18T22:52:55+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "pachuca",
@@ -1462,14 +1454,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-18T23:35:55+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 4,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-11-19T00:27:06+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "cuautla",
