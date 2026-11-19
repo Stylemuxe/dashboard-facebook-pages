@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-19 13:13",
+ "generado": "2026-11-19 14:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10657,
+   "revisados": 10654,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 207,
+   "revisados": 209,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 190,
+   "revisados": 189,
    "estado": "ok",
    "nota": null
   },
