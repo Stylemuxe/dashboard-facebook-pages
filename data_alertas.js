@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 19:26",
+ "generado": "2026-11-18 20:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10591,
+   "revisados": 10594,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 188,
+   "revisados": 189,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122229195770369965_29795066033432605",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "pagina_id": "327573150445283",
+   "fecha": "2026-11-19T01:25:13+0000",
+   "texto": "No me ayudó mucho",
+   "categoria": "Resultado del tratamiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1531925648767676/?comment_id=29795066033432605",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "msg_524fa040bacc",
    "tipo": "mensaje",
@@ -1391,7 +1407,7 @@ window.ALERTAS_DATA = {
   },
   "90": {
    "respondidas": 50,
-   "ocultas": 328
+   "ocultas": 327
   }
  },
  "atendidas_30d": {
@@ -1402,8 +1418,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 7,
-   "no_leidos_24h": 1,
+   "no_leidos": 8,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-10-22T22:46:23+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1450,8 +1466,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-19T00:27:06+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
