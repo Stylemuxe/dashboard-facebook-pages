@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-19 14:11",
+ "generado": "2026-11-19 15:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10654,
+   "revisados": 10659,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 209,
+   "revisados": 210,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 189,
+   "revisados": 191,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,38 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "msg_faaa5a8e8f31",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-19T20:49:36+0000",
+   "texto": null,
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1083069127812966_1157818209994469",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-19T20:11:06+0000",
+   "texto": "Fui nadie me abrió y nunca me contestaron por whats",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2367058714141185/?comment_id=1157818209994469",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122229195770369965_40095448523434915",
    "tipo": "comentario",
@@ -286,7 +318,7 @@ window.ALERTAS_DATA = {
    "texto": "No me contestaron wat ???",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
    "oculto": false
@@ -758,7 +790,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro para ser para personas de la tercera edad",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1663873739084896",
    "respondida": false,
    "oculto": false
@@ -1411,31 +1443,31 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 38
+   "ocultas": 39
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 168
+   "ocultas": 169
   },
   "60": {
    "respondidas": 32,
-   "ocultas": 290
+   "ocultas": 291
   },
   "90": {
    "respondidas": 48,
-   "ocultas": 330
+   "ocultas": 331
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 168
+  "ocultas": 169
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 9,
-   "no_leidos_24h": 3,
+   "no_leidos": 6,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-22T22:46:23+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1462,14 +1494,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-18T15:01:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-19T15:44:35+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "cuautla",
