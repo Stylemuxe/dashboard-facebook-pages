@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 21:10",
+ "generado": "2026-11-18 22:10",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10603,
+   "revisados": 10609,
    "estado": "ok",
    "nota": null
   },
@@ -1374,28 +1374,12 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=1358651232607476",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_122133307671112657_3407523616076074",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "pagina_id": "930200630167541",
-   "fecha": "2026-08-21T03:54:48+0000",
-   "texto": "Por que no contestan las pregunta??  Donde se ubican?  Y cuanto cuesta la primera consulta,, o es fraude??",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1484586736538464/?comment_id=3407523616076074",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 39
+   "ocultas": 37
   },
   "30": {
    "respondidas": 11,
@@ -1406,7 +1390,7 @@ window.ALERTAS_DATA = {
    "ocultas": 287
   },
   "90": {
-   "respondidas": 50,
+   "respondidas": 49,
    "ocultas": 327
   }
  },
@@ -1470,6 +1454,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-19T00:27:06+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "cuautla",
+   "pagina": "Equilibrio Total Cuautla",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-19T03:20:06+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   }
  ]
 };
