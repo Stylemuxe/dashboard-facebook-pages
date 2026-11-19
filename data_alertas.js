@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-18 22:10",
+ "generado": "2026-11-19 04:14",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10609,
+   "revisados": 10625,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 200,
+   "revisados": 202,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 193,
+   "revisados": 198,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,38 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1084640997655779_904430396013401",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-19T07:59:36+0000",
+   "texto": "Pregunté concretamente si tienen neuro rehabilitación y contestan otra cosa ,no los recomiendo si desde el principio no son claros en la información",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1993305774710615/?comment_id=904430396013401",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_122240181662373437_1109233538601279",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "pagina_id": "369505499570832",
+   "fecha": "2026-11-19T06:28:27+0000",
+   "texto": "Son unos rateros!!!!",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/4790448707857599/?comment_id=1109233538601279",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122229195770369965_29795066033432605",
    "tipo": "comentario",
@@ -1379,11 +1411,11 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 37
+   "ocultas": 36
   },
   "30": {
    "respondidas": 11,
-   "ocultas": 170
+   "ocultas": 169
   },
   "60": {
    "respondidas": 33,
@@ -1396,14 +1428,14 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 11,
-  "ocultas": 170
+  "ocultas": 169
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 8,
-   "no_leidos_24h": 2,
+   "no_leidos": 9,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-10-22T22:46:23+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1434,8 +1466,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 5,
-   "no_leidos_24h": 5,
+   "no_leidos": 6,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-11-18T22:52:55+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
@@ -1450,8 +1482,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-19T00:27:06+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
@@ -1462,6 +1494,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-19T03:20:06+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-19T08:51:00+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
  ]
 };
