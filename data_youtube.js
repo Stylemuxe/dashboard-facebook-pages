@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-18 17:06",
+ "generado": "2026-11-18 19:26",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -488,8 +488,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-18T04:00:02Z",
      "miniatura": "https://i.ytimg.com/vi/9CRXUB3XTNY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=9CRXUB3XTNY",
-     "vistas": 863,
-     "likes": 8,
+     "vistas": 882,
+     "likes": 10,
      "comentarios": 0
     },
     {
@@ -538,7 +538,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:40:49Z",
      "miniatura": "https://i.ytimg.com/vi/6voM94ThUFg/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=6voM94ThUFg",
-     "vistas": 41,
+     "vistas": 43,
      "likes": 3,
      "comentarios": 0
     },
@@ -548,7 +548,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-02T02:29:22Z",
      "miniatura": "https://i.ytimg.com/vi/vJJRSMtV1BI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=vJJRSMtV1BI",
-     "vistas": 164,
+     "vistas": 166,
      "likes": 8,
      "comentarios": 3
     },
@@ -558,7 +558,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 2155,
+     "vistas": 2156,
      "likes": 27,
      "comentarios": 3
     },
@@ -578,8 +578,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-07-24T06:00:06Z",
      "miniatura": "https://i.ytimg.com/vi/Gz1N9w7lcAI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Gz1N9w7lcAI",
-     "vistas": 370,
-     "likes": 3,
+     "vistas": 373,
+     "likes": 4,
      "comentarios": 0
     },
     {
@@ -598,7 +598,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-10T16:00:09Z",
      "miniatura": "https://i.ytimg.com/vi/koNKV9O2q_M/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=koNKV9O2q_M",
-     "vistas": 614,
+     "vistas": 616,
      "likes": 9,
      "comentarios": 0
     },
