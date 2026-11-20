@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-20 04:11",
+ "generado": "2026-11-20 05:10",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10713,
+   "revisados": 10714,
    "estado": "ok",
    "nota": null
   },
