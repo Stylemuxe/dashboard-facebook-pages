@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-20 13:13",
+ "generado": "2026-11-20 14:08",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10734,
+   "revisados": 10737,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 193,
+   "revisados": 200,
    "estado": "ok",
    "nota": null
   },
@@ -1406,22 +1406,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1318194143725021",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1024893150297231_1358651232607476",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-08-22T19:17:48+0000",
-   "texto": "Muy mala experiencia no cumplen con lo ofertado se equivocaron de tratamiento era ciática no neuropatía argumentaron que era terapia alternativa me pusieron trabas para la 4 sesiones restantes cuando ya había pagado el tratamiento completo.",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=1358651232607476",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
@@ -1431,7 +1415,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 171
+   "ocultas": 169
   },
   "60": {
    "respondidas": 31,
@@ -1444,7 +1428,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 171
+  "ocultas": 169
  },
  "chats_sin_leer": [
   {
