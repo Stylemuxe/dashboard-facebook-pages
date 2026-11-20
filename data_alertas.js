@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-20 16:08",
+ "generado": "2026-11-20 17:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10730,
+   "revisados": 10732,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 199,
+   "revisados": 198,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122226474410369965_1169673618981400",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "pagina_id": "327573150445283",
+   "fecha": "2026-11-20T22:57:08+0000",
+   "texto": "No contestan",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "publicacion",
+   "url": "https://www.facebook.com/reel/2239861829893536/?comment_id=1169673618981400",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1108176715361842_1197372652612400",
    "tipo": "comentario",
@@ -318,7 +334,7 @@ window.ALERTAS_DATA = {
    "texto": "No me contestaron wat ???",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
    "oculto": false
@@ -790,7 +806,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro para ser para personas de la tercera edad",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1663873739084896",
    "respondida": false,
    "oculto": false
@@ -1427,11 +1443,11 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 40
+   "ocultas": 38
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 169
+   "ocultas": 168
   },
   "60": {
    "respondidas": 31,
@@ -1444,7 +1460,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 169
+  "ocultas": 168
  },
  "chats_sin_leer": [
   {
