@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-20 10:12",
+ "generado": "2026-11-20 11:13",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -8,7 +8,7 @@ window.YOUTUBE_DATA = {
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 8130,
    "vistas_totales": 1854352,
-   "video_count": 97,
+   "video_count": 96,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -518,7 +518,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1300,
+     "vistas": 1301,
      "likes": 57,
      "comentarios": 0
     },
@@ -528,7 +528,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-12T20:10:12Z",
      "miniatura": "https://i.ytimg.com/vi/3K1fuhTHfnY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=3K1fuhTHfnY",
-     "vistas": 222,
+     "vistas": 223,
      "likes": 2,
      "comentarios": 0
     },
@@ -538,7 +538,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:43:58Z",
      "miniatura": "https://i.ytimg.com/vi/zQsZR3Kz8BM/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=zQsZR3Kz8BM",
-     "vistas": 641,
+     "vistas": 642,
      "likes": 3,
      "comentarios": 0
     },
@@ -553,22 +553,12 @@ window.YOUTUBE_DATA = {
      "comentarios": 0
     },
     {
-     "id": "vJJRSMtV1BI",
-     "titulo": "Ejercicios de brazos para personas mayores | Mejora tu movilidad y mantente activo",
-     "fecha": "2026-11-02T02:29:22Z",
-     "miniatura": "https://i.ytimg.com/vi/vJJRSMtV1BI/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=vJJRSMtV1BI",
-     "vistas": 174,
-     "likes": 8,
-     "comentarios": 3
-    },
-    {
      "id": "clqy_gtFdRw",
      "titulo": "Ejercicios de brazos para personas mayores 💪 |Movilidad y autonomía #ejercicioencasa",
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 2161,
+     "vistas": 2162,
      "likes": 27,
      "comentarios": 3
     },
@@ -691,6 +681,16 @@ window.YOUTUBE_DATA = {
      "vistas": 802,
      "likes": 11,
      "comentarios": 4
+    },
+    {
+     "id": "y-4nAByhwTs",
+     "titulo": "Tu cuerpo te lo agradecerá ✨☺️",
+     "fecha": "2026-03-15T21:00:55Z",
+     "miniatura": "https://i.ytimg.com/vi/y-4nAByhwTs/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=y-4nAByhwTs",
+     "vistas": 1789,
+     "likes": 33,
+     "comentarios": 0
     }
    ]
   }
