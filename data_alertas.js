@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-19 17:11",
+ "generado": "2026-11-19 19:46",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10657,
+   "revisados": 10673,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 208,
+   "revisados": 209,
    "estado": "ok",
    "nota": null
   },
@@ -1411,14 +1411,14 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 40
+   "ocultas": 39
   },
   "30": {
    "respondidas": 10,
    "ocultas": 170
   },
   "60": {
-   "respondidas": 32,
+   "respondidas": 31,
    "ocultas": 292
   },
   "90": {
@@ -1472,12 +1472,28 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
   },
   {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-20T00:41:46+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-19T22:41:54+0000",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-20T01:26:20+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-20T01:30:47+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
 };
