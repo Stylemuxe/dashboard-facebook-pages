@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-20 09:18",
+ "generado": "2026-11-20 10:12",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10726,
+   "revisados": 10732,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 212,
+   "revisados": 211,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 194,
+   "revisados": 193,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122229195770369965_2228351431412975",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "pagina_id": "327573150445283",
+   "fecha": "2026-11-20T15:32:38+0000",
+   "texto": "No vayan, pésimo servicio",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1531925648767676/?comment_id=2228351431412975",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "msg_faaa5a8e8f31",
    "tipo": "mensaje",
@@ -1434,8 +1450,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 6,
-   "no_leidos_24h": 1,
+   "no_leidos": 5,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-23T20:31:14+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1464,27 +1480,19 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
   },
   {
-   "pagina_key": "cuautla",
-   "pagina": "Equilibrio Total Cuautla",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-19T16:42:58+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=372206735965326"
-  },
-  {
    "pagina_key": "autonomia",
    "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-20T00:41:46+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   },
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-20T01:26:20+0000",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-20T15:32:39+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
@@ -1492,7 +1500,7 @@ window.ALERTAS_DATA = {
    "pagina": "Equilibrio Total México",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-20T01:30:47+0000",
+   "mas_antiguo": "2026-11-20T15:48:52+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
