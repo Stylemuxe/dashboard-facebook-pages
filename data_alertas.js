@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-20 14:08",
+ "generado": "2026-11-20 15:09",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10737,
+   "revisados": 10734,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 213,
+   "revisados": 214,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 200,
+   "revisados": 198,
    "estado": "ok",
    "nota": null
   },
@@ -1432,20 +1432,20 @@ window.ALERTAS_DATA = {
  },
  "chats_sin_leer": [
   {
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 5,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-23T20:31:14+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
-  {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 16,
    "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-24T06:39:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
+  },
+  {
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "no_leidos": 4,
+   "no_leidos_24h": 0,
+   "mas_antiguo": "2026-10-25T02:20:43+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "beth",
