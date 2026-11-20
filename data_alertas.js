@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-20 15:09",
+ "generado": "2026-11-20 16:08",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10734,
+   "revisados": 10730,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 214,
+   "revisados": 213,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 198,
+   "revisados": 199,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1108176715361842_1197372652612400",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-20T21:32:08+0000",
+   "texto": "Tanta publicidad pero no son buenos ya fui yo no los recomiendo",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1608951297632707/?comment_id=1197372652612400",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122229195770369965_2228351431412975",
    "tipo": "comentario",
@@ -302,7 +318,7 @@ window.ALERTAS_DATA = {
    "texto": "No me contestaron wat ???",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
    "oculto": false
@@ -774,7 +790,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro para ser para personas de la tercera edad",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1663873739084896",
    "respondida": false,
    "oculto": false
@@ -1478,6 +1494,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-20T15:48:52+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
+  },
+  {
+   "pagina_key": "autonomia",
+   "pagina": "Autonomía con Sentido",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-20T21:21:52+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   }
  ]
 };
