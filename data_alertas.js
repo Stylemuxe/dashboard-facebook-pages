@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-20 11:13",
+ "generado": "2026-11-20 11:50",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10733,
+   "revisados": 10737,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 211,
+   "revisados": 212,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 193,
+   "revisados": 194,
    "estado": "ok",
    "nota": null
   },
@@ -1427,7 +1427,7 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 41
+   "ocultas": 40
   },
   "30": {
    "respondidas": 10,
@@ -1450,8 +1450,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 5,
-   "no_leidos_24h": 0,
+   "no_leidos": 6,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-23T20:31:14+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1466,8 +1466,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 2,
-   "no_leidos_24h": 1,
+   "no_leidos": 3,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
