@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-21 09:31",
+ "generado": "2026-11-21 10:09",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10777,
+   "revisados": 10781,
    "estado": "ok",
    "nota": null
   },
@@ -49,54 +49,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "fbc_1034657662654113_1128311509797145",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-21T14:58:03+0000",
-   "texto": "Muy mala atención, las personas que según deben de atender se la pasan platicando, me tuvieron esperando por 20 minutos y nunca me dijeron nada, nada recomendable",
-   "categoria": "No contestan / seguimiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=1128311509797145",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1135789432540935_1020674930476495",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-21T13:59:56+0000",
-   "texto": "Mala atención además de que te piden estudios carísimos que ya tienen convenidos con laboratorios horrible",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1635815727385555/?comment_id=1020674930476495",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1102687662517779_1478327010492763",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-21T06:59:41+0000",
-   "texto": "NO LOS RECOMIENDO.\nNo tienen empatía por el cliente.\nTe presionan para que contrates terapias anticipadas, y tal vez ni necesites. \nNadie tiene actitud de servicio. \nSon groseras!",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/989838164136908/?comment_id=1478327010492763",
-   "respondida": false,
-   "oculto": false
-  },
   {
    "id": "fbc_122226474410369965_1169673618981400",
    "tipo": "comentario",
@@ -1410,32 +1362,32 @@ window.ALERTAS_DATA = {
  ],
  "atendidas": {
   "7": {
-   "respondidas": 1,
-   "ocultas": 40
+   "respondidas": 0,
+   "ocultas": 42
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 172
+   "ocultas": 175
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 298
+   "ocultas": 301
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 338
+   "ocultas": 341
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 172
+  "ocultas": 175
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 5,
-   "no_leidos_24h": 1,
+   "no_leidos": 4,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-25T02:20:43+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1450,16 +1402,16 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 3,
-   "no_leidos_24h": 2,
+   "no_leidos": 4,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-20T15:32:39+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
@@ -1467,7 +1419,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
    "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-20T15:48:52+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   },
