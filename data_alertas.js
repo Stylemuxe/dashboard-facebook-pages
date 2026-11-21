@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-21 10:09",
+ "generado": "2026-11-21 11:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10781,
+   "revisados": 10843,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 219,
+   "revisados": 223,
    "estado": "ok",
    "nota": null
   },
@@ -1363,24 +1363,24 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 42
+   "ocultas": 43
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 175
+   "ocultas": 176
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 301
+   "ocultas": 303
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 341
+   "ocultas": 345
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 175
+  "ocultas": 176
  },
  "chats_sin_leer": [
   {
@@ -1403,17 +1403,9 @@ window.ALERTAS_DATA = {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
    "no_leidos": 4,
-   "no_leidos_24h": 3,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-20T15:32:39+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "mexico",
