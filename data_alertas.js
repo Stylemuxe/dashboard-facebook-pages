@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-20 17:11",
+ "generado": "2026-11-21 08:22",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10732,
+   "revisados": 10739,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 213,
+   "revisados": 216,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 198,
+   "revisados": 199,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1135789432540935_1020674930476495",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-21T13:59:56+0000",
+   "texto": "Mala atención además de que te piden estudios carísimos que ya tienen convenidos con laboratorios horrible",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1635815727385555/?comment_id=1020674930476495",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122226474410369965_1169673618981400",
    "tipo": "comentario",
@@ -82,22 +98,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_122229195770369965_2228351431412975",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "queretaro",
-   "pagina": "Equilibrio Total Querétaro",
-   "pagina_id": "327573150445283",
-   "fecha": "2026-11-20T15:32:38+0000",
-   "texto": "No vayan, pésimo servicio",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1531925648767676/?comment_id=2228351431412975",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "msg_faaa5a8e8f31",
    "tipo": "mensaje",
    "red": "messenger",
@@ -110,38 +110,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122229195770369965_40095448523434915",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "queretaro",
-   "pagina": "Equilibrio Total Querétaro",
-   "pagina_id": "327573150445283",
-   "fecha": "2026-11-19T17:53:33+0000",
-   "texto": "No vayan, es mentira, pésimo servicio, ni te valoran, ni te dan la atención que prometen, es tirar el\nDinero",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1531925648767676/?comment_id=40095448523434915",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122229195770369965_29795066033432605",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "queretaro",
-   "pagina": "Equilibrio Total Querétaro",
-   "pagina_id": "327573150445283",
-   "fecha": "2026-11-19T01:25:13+0000",
-   "texto": "No me ayudó mucho",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1531925648767676/?comment_id=29795066033432605",
    "respondida": false,
    "oculto": false
   },
@@ -1422,45 +1390,29 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1461610935796706",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1030585659727980_1318194143725021",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-08-23T03:47:21+0000",
-   "texto": "Lo q les interesa es sacarte el dinero tu salud pasa tercer termino parece q te quieren vender un tiempo compartido.",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1318194143725021",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 38
+   "ocultas": 39
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 168
+   "ocultas": 169
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 294
+   "ocultas": 295
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 334
+   "ocultas": 335
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 168
+  "ocultas": 169
  },
  "chats_sin_leer": [
   {
