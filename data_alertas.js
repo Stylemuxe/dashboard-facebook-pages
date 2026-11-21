@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-21 09:14",
+ "generado": "2026-11-21 09:31",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10767,
+   "revisados": 10777,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 195,
+   "revisados": 192,
    "estado": "ok",
    "nota": null
   },
@@ -82,22 +82,6 @@ window.ALERTAS_DATA = {
    "oculto": false
   },
   {
-   "id": "fbc_1108176715361842_1862359815098998",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-21T11:59:23+0000",
-   "texto": "UTA está muy caro solo para revisar ya me imagino las terapias y van a decir que son varias por cobrarnos las perlas de la virgen a mi me alivio un curandero de lumbalgia en solo tres terapias y en total pague mil quinientos por todo",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1608951297632707/?comment_id=1862359815098998",
-   "respondida": false,
-   "oculto": false
-  },
-  {
    "id": "fbc_1102687662517779_1478327010492763",
    "tipo": "comentario",
    "red": "facebook",
@@ -126,22 +110,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2239861829893536/?comment_id=1169673618981400",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1108176715361842_1197372652612400",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-20T21:32:08+0000",
-   "texto": "Tanta publicidad pero no son buenos ya fui yo no los recomiendo",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1608951297632707/?comment_id=1197372652612400",
    "respondida": false,
    "oculto": false
   },
@@ -1443,31 +1411,31 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 38
+   "ocultas": 40
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 170
+   "ocultas": 172
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 296
+   "ocultas": 298
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 336
+   "ocultas": 338
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 170
+  "ocultas": 172
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 6,
-   "no_leidos_24h": 2,
+   "no_leidos": 5,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-10-25T02:20:43+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
