@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-21 08:22",
+ "generado": "2026-11-21 09:14",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10739,
+   "revisados": 10767,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 216,
+   "revisados": 219,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 199,
+   "revisados": 195,
    "estado": "ok",
    "nota": null
   },
@@ -50,6 +50,22 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
+   "id": "fbc_1034657662654113_1128311509797145",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-21T14:58:03+0000",
+   "texto": "Muy mala atención, las personas que según deben de atender se la pasan platicando, me tuvieron esperando por 20 minutos y nunca me dijeron nada, nada recomendable",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2000859271304298/?comment_id=1128311509797145",
+   "respondida": false,
+   "oculto": false
+  },
+  {
    "id": "fbc_1135789432540935_1020674930476495",
    "tipo": "comentario",
    "red": "facebook",
@@ -62,6 +78,38 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1635815727385555/?comment_id=1020674930476495",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1108176715361842_1862359815098998",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-21T11:59:23+0000",
+   "texto": "UTA está muy caro solo para revisar ya me imagino las terapias y van a decir que son varias por cobrarnos las perlas de la virgen a mi me alivio un curandero de lumbalgia en solo tres terapias y en total pague mil quinientos por todo",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1608951297632707/?comment_id=1862359815098998",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1102687662517779_1478327010492763",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-21T06:59:41+0000",
+   "texto": "NO LOS RECOMIENDO.\nNo tienen empatía por el cliente.\nTe presionan para que contrates terapias anticipadas, y tal vez ni necesites. \nNadie tiene actitud de servicio. \nSon groseras!",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/989838164136908/?comment_id=1478327010492763",
    "respondida": false,
    "oculto": false
   },
@@ -1395,41 +1443,41 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 1,
-   "ocultas": 39
+   "ocultas": 38
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 169
+   "ocultas": 170
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 295
+   "ocultas": 296
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 335
+   "ocultas": 336
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 169
+  "ocultas": 170
  },
  "chats_sin_leer": [
+  {
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "no_leidos": 6,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-10-25T02:20:43+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
+  },
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 16,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-24T06:39:25+0000",
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-10-27T08:09:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
-  },
-  {
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 4,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-25T02:20:43+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "beth",
@@ -1440,18 +1488,10 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "queretaro",
-   "pagina": "Equilibrio Total Querétaro",
-   "no_leidos": 1,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-11-18T15:01:59+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=327573150445283"
-  },
-  {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-20T15:32:39+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
@@ -1470,6 +1510,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-20T21:21:52+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
+   "mas_antiguo": "2026-11-21T04:09:37+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
