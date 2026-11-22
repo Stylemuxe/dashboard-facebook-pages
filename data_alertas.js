@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-22 10:10",
+ "generado": "2026-11-22 15:09",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10910,
+   "revisados": 10930,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 227,
+   "revisados": 229,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 206,
+   "revisados": 208,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1143161041803774_1757338619295670",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-22T21:00:22+0000",
+   "texto": "Llegué puntual y me pasaron a un servicio que yo no queria. Me fui decepcionada",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "publicacion",
+   "url": "https://www.facebook.com/reel/1847456909818023/?comment_id=1757338619295670",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122124111597335379_1140590151691257",
    "tipo": "comentario",
@@ -1379,34 +1395,26 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 38
+   "ocultas": 36
   },
   "30": {
    "respondidas": 9,
-   "ocultas": 175
+   "ocultas": 171
   },
   "60": {
    "respondidas": 30,
-   "ocultas": 305
+   "ocultas": 304
   },
   "90": {
-   "respondidas": 47,
+   "respondidas": 46,
    "ocultas": 347
   }
  },
  "atendidas_30d": {
   "respondidas": 9,
-  "ocultas": 175
+  "ocultas": 171
  },
  "chats_sin_leer": [
-  {
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 5,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-10-25T17:11:57+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
@@ -1426,16 +1434,24 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 6,
-   "no_leidos_24h": 6,
+   "no_leidos": 8,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-21T18:10:27+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "no_leidos": 4,
+   "no_leidos_24h": 3,
+   "mas_antiguo": "2026-11-21T21:00:21+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
+  },
+  {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 6,
-   "no_leidos_24h": 6,
+   "no_leidos": 7,
+   "no_leidos_24h": 7,
    "mas_antiguo": "2026-11-21T21:28:29+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
