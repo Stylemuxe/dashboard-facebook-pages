@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-21 11:11",
+ "generado": "2026-11-22 03:06",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10843,
+   "revisados": 10886,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 223,
+   "revisados": 227,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 192,
+   "revisados": 202,
    "estado": "ok",
    "nota": null
   },
@@ -50,18 +50,18 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_122226474410369965_1169673618981400",
+   "id": "fbc_122240182862373437_2097227440958049",
    "tipo": "comentario",
    "red": "facebook",
-   "pagina_key": "queretaro",
-   "pagina": "Equilibrio Total Querétaro",
-   "pagina_id": "327573150445283",
-   "fecha": "2026-11-20T22:57:08+0000",
-   "texto": "No contestan",
-   "categoria": "No contestan / seguimiento",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "pagina_id": "369505499570832",
+   "fecha": "2026-11-21T22:39:40+0000",
+   "texto": "Espero y no atiendan como la de Chalco pésimo servio y no cobran barato atienden con jeta y si llegas tarde se pierde la seción pésimo servicio en equilibrio total",
+   "categoria": "Trato / atención",
    "nivel": "media",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/reel/2239861829893536/?comment_id=1169673618981400",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/2209338043350306/?comment_id=2097227440958049",
    "respondida": false,
    "oculto": false
   },
@@ -1363,73 +1363,73 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 43
+   "ocultas": 39
   },
   "30": {
-   "respondidas": 10,
-   "ocultas": 176
+   "respondidas": 9,
+   "ocultas": 175
   },
   "60": {
-   "respondidas": 31,
-   "ocultas": 303
+   "respondidas": 30,
+   "ocultas": 305
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 345
+   "ocultas": 346
   }
  },
  "atendidas_30d": {
-  "respondidas": 10,
-  "ocultas": 176
+  "respondidas": 9,
+  "ocultas": 175
  },
  "chats_sin_leer": [
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 4,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-25T02:20:43+0000",
+   "no_leidos": 5,
+   "no_leidos_24h": 4,
+   "mas_antiguo": "2026-10-25T17:11:57+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 16,
-   "no_leidos_24h": 1,
+   "no_leidos": 10,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-10-27T08:09:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 4,
-   "no_leidos_24h": 2,
+   "no_leidos": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-11-20T15:48:52+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
-  },
-  {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-20T21:21:52+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 5,
+   "no_leidos_24h": 5,
+   "mas_antiguo": "2026-11-21T18:10:27+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
    "no_leidos": 4,
    "no_leidos_24h": 4,
-   "mas_antiguo": "2026-11-21T04:09:37+0000",
+   "mas_antiguo": "2026-11-21T21:28:29+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-22T07:13:30+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
 };
