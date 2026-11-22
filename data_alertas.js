@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-22 03:06",
+ "generado": "2026-11-22 10:03",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,16 +15,16 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10886,
-   "estado": "ok",
-   "nota": null
+   "revisados": 10903,
+   "estado": "parcial",
+   "nota": "Faltó tiempo para 2 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 227,
-   "estado": "ok",
-   "nota": null
+   "estado": "parcial",
+   "nota": "Faltó tiempo para 1 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
   },
   {
    "clave": "fb_resenas",
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 202,
+   "revisados": 205,
    "estado": "ok",
    "nota": null
   },
@@ -63,7 +63,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2209338043350306/?comment_id=2097227440958049",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "msg_faaa5a8e8f31",
@@ -149,7 +150,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122226872816369965/posts/122214096524369965?comment_id=1157092360601248",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "gr_a0673921d5ecd13f",
@@ -489,7 +491,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1098634959590006_2018208366229360",
@@ -569,7 +572,8 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/914291621334583/?comment_id=1554214976426408",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1083043264541854_1113230824974847",
@@ -793,7 +797,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974647335379?comment_id=1676987197351620",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_844387018347846_1497911522176755",
@@ -841,7 +846,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974647335379?comment_id=1620907092780987",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "igc_17896371120653632",
@@ -1133,7 +1139,8 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/914291621334583/?comment_id=1083931494619302",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_122216933480369554_1592489032556576",
@@ -1149,7 +1156,8 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/914291621334583/?comment_id=1592489032556576",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_122143872819112657_1055744770503525",
@@ -1165,7 +1173,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/122144789121112657/posts/122152770687112657?comment_id=1055744770503525",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "msg_24f43b75ad33",
@@ -1367,7 +1376,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 9,
-   "ocultas": 175
+   "ocultas": 176
   },
   "60": {
    "respondidas": 30,
@@ -1375,12 +1384,12 @@ window.ALERTAS_DATA = {
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 346
+   "ocultas": 347
   }
  },
  "atendidas_30d": {
   "respondidas": 9,
-  "ocultas": 175
+  "ocultas": 176
  },
  "chats_sin_leer": [
   {
