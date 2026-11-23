@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 07:12",
+ "generado": "2026-11-23 08:55",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10938,
+   "revisados": 10937,
    "estado": "ok",
    "nota": null
   },
@@ -36,9 +36,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 167,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Equilibrio Total Tepeyac"
+   "revisados": 217,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "google",
@@ -79,8 +79,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1148893381279297/?comment_id=1042449698867899",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1143161041803774_1757338619295670",
@@ -1427,16 +1426,16 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 8,
-   "no_leidos_24h": 4,
+   "no_leidos": 9,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-21T21:00:21+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 12,
-   "no_leidos_24h": 10,
+   "no_leidos": 13,
+   "no_leidos_24h": 11,
    "mas_antiguo": "2026-11-21T21:28:29+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
