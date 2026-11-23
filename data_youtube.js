@@ -1,12 +1,12 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-22 22:12",
+ "generado": "2026-11-23 00:32",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "handle": "EquilibrioTotalmx",
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
-   "seguidores": 8140,
+   "seguidores": 8150,
    "vistas_totales": 1858654,
    "video_count": 96,
    "historial_seguidores": [
@@ -499,6 +499,11 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-22",
      "seguidores": 8140,
      "vistas_totales": 1858654
+    },
+    {
+     "fecha": "2026-11-23",
+     "seguidores": 8150,
+     "vistas_totales": 1858654
     }
    ],
    "videos": [
@@ -528,7 +533,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1313,
+     "vistas": 1315,
      "likes": 57,
      "comentarios": 0
     },
@@ -538,7 +543,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-12T20:10:12Z",
      "miniatura": "https://i.ytimg.com/vi/3K1fuhTHfnY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=3K1fuhTHfnY",
-     "vistas": 223,
+     "vistas": 224,
      "likes": 2,
      "comentarios": 0
     },
@@ -598,7 +603,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-07-11T15:51:28Z",
      "miniatura": "https://i.ytimg.com/vi/f6euhUlrGE8/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=f6euhUlrGE8",
-     "vistas": 1892,
+     "vistas": 1893,
      "likes": 30,
      "comentarios": 1
     },
@@ -628,7 +633,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-30T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/Xufj_Xp8liI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Xufj_Xp8liI",
-     "vistas": 390,
+     "vistas": 391,
      "likes": 10,
      "comentarios": 0
     },
@@ -648,7 +653,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-28T19:45:05Z",
      "miniatura": "https://i.ytimg.com/vi/qTNYZDArfHI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=qTNYZDArfHI",
-     "vistas": 383,
+     "vistas": 384,
      "likes": 5,
      "comentarios": 0
     },
