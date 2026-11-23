@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-22 22:11",
+ "generado": "2026-11-23 00:33",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10956,
+   "revisados": 10940,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 234,
+   "revisados": 238,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 217,
+   "revisados": 218,
    "estado": "ok",
    "nota": null
   },
@@ -1390,28 +1390,12 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1561893855665137",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1030585659727980_984184144681885",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-08-25T04:37:12+0000",
-   "texto": "No sirven sus terapias a no me funcionaron ademas te cobran de mas",
-   "categoria": "Cobros",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=984184144681885",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 36
+   "ocultas": 34
   },
   "30": {
    "respondidas": 9,
@@ -1419,7 +1403,7 @@ window.ALERTAS_DATA = {
   },
   "60": {
    "respondidas": 30,
-   "ocultas": 306
+   "ocultas": 305
   },
   "90": {
    "respondidas": 46,
@@ -1459,15 +1443,15 @@ window.ALERTAS_DATA = {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 8,
-   "no_leidos_24h": 6,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-21T21:00:21+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 11,
-   "no_leidos_24h": 9,
+   "no_leidos": 12,
+   "no_leidos_24h": 10,
    "mas_antiguo": "2026-11-21T21:28:29+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
