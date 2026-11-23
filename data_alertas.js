@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-22 15:09",
+ "generado": "2026-11-22 19:41",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10930,
-   "estado": "ok",
-   "nota": null
+   "revisados": 10955,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Ser Humano Beth, Equilibrio Total Tepeyac"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 229,
+   "revisados": 232,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 208,
+   "revisados": 214,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1071734515613094_1117776271015414",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-23T00:40:21+0000",
+   "texto": "El hecho de que, a pesar de tantas solicitudes directas, ustedes \"oculten\" el costo deja mucho que desear.",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "publicacion",
+   "url": "https://www.facebook.com/reel/1032293979625275/?comment_id=1117776271015414",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1143161041803774_1757338619295670",
    "tipo": "comentario",
@@ -1374,22 +1390,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=984184144681885",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1030585659727980_1461610935796706",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-08-25T01:31:40+0000",
-   "texto": "Vivir en Azcapotzalco, es lo peor! 🤢🤢🤢🤮",
-   "categoria": "Enojo",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1461610935796706",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
@@ -1403,11 +1403,11 @@ window.ALERTAS_DATA = {
   },
   "60": {
    "respondidas": 30,
-   "ocultas": 304
+   "ocultas": 306
   },
   "90": {
    "respondidas": 46,
-   "ocultas": 347
+   "ocultas": 349
   }
  },
  "atendidas_30d": {
@@ -1426,32 +1426,32 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 1,
-   "no_leidos_24h": 0,
+   "no_leidos": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 8,
-   "no_leidos_24h": 5,
+   "no_leidos": 10,
+   "no_leidos_24h": 7,
    "mas_antiguo": "2026-11-21T18:10:27+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 4,
-   "no_leidos_24h": 3,
+   "no_leidos": 7,
+   "no_leidos_24h": 5,
    "mas_antiguo": "2026-11-21T21:00:21+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 7,
-   "no_leidos_24h": 7,
+   "no_leidos": 10,
+   "no_leidos_24h": 8,
    "mas_antiguo": "2026-11-21T21:28:29+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
