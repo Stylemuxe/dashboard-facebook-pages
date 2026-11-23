@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 09:15",
+ "generado": "2026-11-23 10:08",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10931,
+   "revisados": 10942,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 217,
+   "revisados": 218,
    "estado": "ok",
    "nota": null
   },
@@ -79,22 +79,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1032293979625275/?comment_id=1117776271015414",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1143161041803774_1757338619295670",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-22T21:00:22+0000",
-   "texto": "Llegué puntual y me pasaron a un servicio que yo no queria. Me fui decepcionada",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/reel/1847456909818023/?comment_id=1757338619295670",
    "respondida": false,
    "oculto": false
   },
@@ -1364,24 +1348,24 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 34
+   "ocultas": 36
   },
   "30": {
-   "respondidas": 9,
-   "ocultas": 167
+   "respondidas": 8,
+   "ocultas": 169
   },
   "60": {
    "respondidas": 30,
-   "ocultas": 305
+   "ocultas": 307
   },
   "90": {
    "respondidas": 46,
-   "ocultas": 348
+   "ocultas": 350
   }
  },
  "atendidas_30d": {
-  "respondidas": 9,
-  "ocultas": 167
+  "respondidas": 8,
+  "ocultas": 169
  },
  "chats_sin_leer": [
   {
@@ -1403,26 +1387,18 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 11,
-   "no_leidos_24h": 6,
+   "no_leidos": 10,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-21T18:10:27+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 9,
-   "no_leidos_24h": 5,
+   "no_leidos": 10,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-11-21T21:00:21+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 13,
-   "no_leidos_24h": 11,
-   "mas_antiguo": "2026-11-21T21:28:29+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "mexico",
