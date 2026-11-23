@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-22 19:41",
+ "generado": "2026-11-22 20:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,9 +15,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10955,
-   "estado": "parcial",
-   "nota": "No se pudo leer: Ser Humano Beth, Equilibrio Total Tepeyac"
+   "revisados": 10958,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 214,
+   "revisados": 215,
    "estado": "ok",
    "nota": null
   },
@@ -62,6 +62,22 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1032293979625275/?comment_id=1117776271015414",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_122240181722373437_1042449698867899",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "pagina_id": "369505499570832",
+   "fecha": "2026-11-22T22:20:00+0000",
+   "texto": "El de Chalco es pésimo el servicio solo saben cobrar pedí la devolución del dinero piden adelantado tu si tienes molestia no reduelven",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1148893381279297/?comment_id=1042449698867899",
    "respondida": false,
    "oculto": false
   },
@@ -1434,8 +1450,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 10,
-   "no_leidos_24h": 7,
+   "no_leidos": 11,
+   "no_leidos_24h": 8,
    "mas_antiguo": "2026-11-21T18:10:27+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
@@ -1450,8 +1466,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 10,
-   "no_leidos_24h": 8,
+   "no_leidos": 11,
+   "no_leidos_24h": 9,
    "mas_antiguo": "2026-11-21T21:28:29+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
