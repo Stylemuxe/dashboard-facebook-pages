@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-22 20:13",
+ "generado": "2026-11-22 21:08",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10958,
+   "revisados": 10959,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 232,
+   "revisados": 233,
    "estado": "ok",
    "nota": null
   },
@@ -1415,7 +1415,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 9,
-   "ocultas": 171
+   "ocultas": 170
   },
   "60": {
    "respondidas": 30,
@@ -1428,7 +1428,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 9,
-  "ocultas": 171
+  "ocultas": 170
  },
  "chats_sin_leer": [
   {
@@ -1451,7 +1451,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
    "no_leidos": 11,
-   "no_leidos_24h": 8,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-11-21T18:10:27+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
