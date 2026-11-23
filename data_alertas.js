@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-22 21:08",
+ "generado": "2026-11-22 22:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10959,
+   "revisados": 10956,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 233,
+   "revisados": 234,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 215,
+   "revisados": 217,
    "estado": "ok",
    "nota": null
   },
@@ -1458,8 +1458,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 7,
-   "no_leidos_24h": 5,
+   "no_leidos": 8,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-11-21T21:00:21+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
