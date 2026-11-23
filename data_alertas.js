@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 11:09",
+ "generado": "2026-11-23 13:08",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10945,
+   "revisados": 10943,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 239,
+   "revisados": 237,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 221,
+   "revisados": 224,
    "estado": "ok",
    "nota": null
   },
@@ -65,22 +65,6 @@ window.ALERTAS_DATA = {
    "respondida": false,
    "oculto": false,
    "cuenta_ig": "17841433852185955"
-  },
-  {
-   "id": "fbc_1071734515613094_1117776271015414",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-23T00:40:21+0000",
-   "texto": "El hecho de que, a pesar de tantas solicitudes directas, ustedes \"oculten\" el costo deja mucho que desear.",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/reel/1032293979625275/?comment_id=1117776271015414",
-   "respondida": false,
-   "oculto": false
   },
   {
    "id": "fbc_122124111597335379_1140590151691257",
@@ -1352,7 +1336,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 8,
-   "ocultas": 169
+   "ocultas": 170
   },
   "60": {
    "respondidas": 30,
@@ -1360,12 +1344,12 @@ window.ALERTAS_DATA = {
   },
   "90": {
    "respondidas": 46,
-   "ocultas": 350
+   "ocultas": 351
   }
  },
  "atendidas_30d": {
   "respondidas": 8,
-  "ocultas": 169
+  "ocultas": 170
  },
  "chats_sin_leer": [
   {
