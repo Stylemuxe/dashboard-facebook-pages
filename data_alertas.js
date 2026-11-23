@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 00:33",
+ "generado": "2026-11-23 07:12",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10940,
+   "revisados": 10938,
    "estado": "ok",
    "nota": null
   },
@@ -36,9 +36,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 218,
-   "estado": "ok",
-   "nota": null
+   "revisados": 167,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total Tepeyac"
   },
   {
    "clave": "google",
@@ -79,7 +79,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1148893381279297/?comment_id=1042449698867899",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1143161041803774_1757338619295670",
@@ -1374,22 +1375,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=1042651925174747",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1030585659727980_1561893855665137",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-08-25T12:33:26+0000",
-   "texto": "Yo hice todo el tratamiento y quedé peor,te aseguran que vas a quedar bien y en mi caso no fue así,los medicamentos que te venden no sirven de nada y son carísimos,nada recomendable.",
-   "categoria": "Daño o negligencia",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1561893855665137",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
@@ -1399,7 +1384,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 9,
-   "ocultas": 170
+   "ocultas": 167
   },
   "60": {
    "respondidas": 30,
@@ -1407,12 +1392,12 @@ window.ALERTAS_DATA = {
   },
   "90": {
    "respondidas": 46,
-   "ocultas": 349
+   "ocultas": 348
   }
  },
  "atendidas_30d": {
   "respondidas": 9,
-  "ocultas": 170
+  "ocultas": 167
  },
  "chats_sin_leer": [
   {
@@ -1443,7 +1428,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 8,
-   "no_leidos_24h": 5,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-21T21:00:21+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1459,7 +1444,7 @@ window.ALERTAS_DATA = {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
    "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-22T07:13:30+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
