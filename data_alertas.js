@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 08:55",
+ "generado": "2026-11-23 09:15",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10937,
+   "revisados": 10931,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 238,
+   "revisados": 239,
    "estado": "ok",
    "nota": null
   },
@@ -50,6 +50,23 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
+   "id": "igc_18084719864344995",
+   "tipo": "comentario",
+   "red": "instagram",
+   "pagina_key": "beth",
+   "pagina": "Ser Humano Beth",
+   "pagina_id": "101140822565542",
+   "fecha": "2026-11-23T15:04:04+0000",
+   "texto": "Fui y tome 10 sesiones y no me funciono,  no hubo mejoría, amenos yo no las recomiendo!",
+   "categoria": "Resultado del tratamiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.instagram.com/p/DeCtkcxgt_U/",
+   "respondida": false,
+   "oculto": false,
+   "cuenta_ig": "17841433852185955"
+  },
+  {
    "id": "fbc_1071734515613094_1117776271015414",
    "tipo": "comentario",
    "red": "facebook",
@@ -62,22 +79,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1032293979625275/?comment_id=1117776271015414",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122240181722373437_1042449698867899",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "pagina_id": "369505499570832",
-   "fecha": "2026-11-22T22:20:00+0000",
-   "texto": "El de Chalco es pésimo el servicio solo saben cobrar pedí la devolución del dinero piden adelantado tu si tienes molestia no reduelven",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1148893381279297/?comment_id=1042449698867899",
    "respondida": false,
    "oculto": false
   },
@@ -110,22 +111,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1726690175679171/?comment_id=1140590151691257",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122240182862373437_2097227440958049",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "pagina_id": "369505499570832",
-   "fecha": "2026-11-21T22:39:40+0000",
-   "texto": "Espero y no atiendan como la de Chalco pésimo servio y no cobran barato atienden con jeta y si llegas tarde se pierde la seción pésimo servicio en equilibrio total",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/2209338043350306/?comment_id=2097227440958049",
    "respondida": false,
    "oculto": false
   },
