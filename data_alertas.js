@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 21:35",
+ "generado": "2026-11-23 22:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,9 +15,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10965,
-   "estado": "parcial",
-   "nota": "Faltó tiempo para 6 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
+   "revisados": 10978,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 226,
+   "revisados": 228,
    "estado": "ok",
    "nota": null
   },
@@ -1379,8 +1379,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-24T01:03:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
@@ -1391,6 +1391,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-24T01:58:35+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
+  },
+  {
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-24T04:00:00+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   }
  ]
 };
