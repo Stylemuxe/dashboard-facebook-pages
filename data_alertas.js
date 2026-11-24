@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-24 09:13",
+ "generado": "2026-11-24 09:35",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11000,
+   "revisados": 10999,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 246,
+   "revisados": 247,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 233,
+   "revisados": 231,
    "estado": "ok",
    "nota": null
   },
@@ -335,7 +335,7 @@ window.ALERTAS_DATA = {
    "texto": "No me contestaron wat ???",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
    "oculto": false
@@ -807,7 +807,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro para ser para personas de la tercera edad",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1663873739084896",
    "respondida": false,
    "oculto": false
@@ -1371,18 +1371,10 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 4,
-   "no_leidos_24h": 4,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-23T19:42:40+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 6,
-   "no_leidos_24h": 6,
-   "mas_antiguo": "2026-11-24T01:03:47+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
   {
    "pagina_key": "autonomia",
