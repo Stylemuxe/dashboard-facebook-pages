@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-24 11:13",
+ "generado": "2026-11-24 12:16",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11016,
+   "revisados": 11023,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 248,
+   "revisados": 250,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 225,
+   "revisados": 224,
    "estado": "ok",
    "nota": null
   },
@@ -1323,9 +1323,9 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 9,
+   "no_leidos": 8,
    "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-27T17:39:48+0000",
+   "mas_antiguo": "2026-10-28T02:05:35+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
