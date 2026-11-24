@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-24 09:35",
+ "generado": "2026-11-24 10:12",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10999,
+   "revisados": 11003,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 231,
+   "revisados": 233,
    "estado": "ok",
    "nota": null
   },
@@ -78,22 +78,6 @@ window.ALERTAS_DATA = {
    "nivel": "media",
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=1920866942069791",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1062857773227070_2293643998082846",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-23T23:44:24+0000",
-   "texto": "No sirven te chingan más a mí después de 11 seciones me dejaron peor aguas",
-   "categoria": "Daño o negligencia",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1747393963193442/?comment_id=2293643998082846",
    "respondida": false,
    "oculto": false
   },
@@ -1332,24 +1316,24 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 31
+   "ocultas": 33
   },
   "30": {
    "respondidas": 8,
-   "ocultas": 170
+   "ocultas": 172
   },
   "60": {
    "respondidas": 30,
-   "ocultas": 308
+   "ocultas": 310
   },
   "90": {
    "respondidas": 46,
-   "ocultas": 353
+   "ocultas": 355
   }
  },
  "atendidas_30d": {
   "respondidas": 8,
-  "ocultas": 170
+  "ocultas": 172
  },
  "chats_sin_leer": [
   {
@@ -1367,14 +1351,6 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-23T19:42:40+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "autonomia",
