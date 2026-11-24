@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-23 18:46",
+ "generado": "2026-11-23 19:14",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -7,8 +7,8 @@ window.YOUTUBE_DATA = {
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 8150,
-   "vistas_totales": 1858654,
-   "video_count": 96,
+   "vistas_totales": 1859497,
+   "video_count": 97,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -503,10 +503,20 @@ window.YOUTUBE_DATA = {
     {
      "fecha": "2026-11-23",
      "seguidores": 8150,
-     "vistas_totales": 1858654
+     "vistas_totales": 1859497
     }
    ],
    "videos": [
+    {
+     "id": "F-ceIUqtf8s",
+     "titulo": "¿Amaneciste con dolor de rodilla sin razón aparente? 🦵",
+     "fecha": "2026-11-24T00:57:18Z",
+     "miniatura": "https://i.ytimg.com/vi/F-ceIUqtf8s/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=F-ceIUqtf8s",
+     "vistas": 166,
+     "likes": 2,
+     "comentarios": 0
+    },
     {
      "id": "9CRXUB3XTNY",
      "titulo": "Hernia discal: no siempre significa cirugía",
@@ -696,16 +706,6 @@ window.YOUTUBE_DATA = {
      "vistas": 813,
      "likes": 11,
      "comentarios": 4
-    },
-    {
-     "id": "y-4nAByhwTs",
-     "titulo": "Tu cuerpo te lo agradecerá ✨☺️",
-     "fecha": "2026-03-15T21:00:55Z",
-     "miniatura": "https://i.ytimg.com/vi/y-4nAByhwTs/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=y-4nAByhwTs",
-     "vistas": 1789,
-     "likes": 33,
-     "comentarios": 0
     }
    ]
   }
