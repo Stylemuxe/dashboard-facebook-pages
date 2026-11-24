@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 20:16",
+ "generado": "2026-11-23 21:35",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,9 +15,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10962,
+   "revisados": 10965,
    "estado": "parcial",
-   "nota": "Faltó tiempo para 4 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
+   "nota": "Faltó tiempo para 6 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
   },
   {
    "clave": "ig_comentarios",
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 227,
+   "revisados": 226,
    "estado": "ok",
    "nota": null
   },
@@ -1327,22 +1327,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/2077380936506525/?comment_id=1748835372906567",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1030585659727980_1204882241847140",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-08-26T02:22:47+0000",
-   "texto": "No me gusto ..muy caro",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1204882241847140",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
@@ -1395,8 +1379,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-24T01:03:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
