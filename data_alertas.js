@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 13:08",
+ "generado": "2026-11-23 18:45",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10943,
+   "revisados": 10956,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 237,
+   "revisados": 236,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 224,
+   "revisados": 225,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,54 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122218881284354647_1920866942069791",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
+   "pagina_id": "340314712498666",
+   "fecha": "2026-11-23T23:49:54+0000",
+   "texto": "No lo recomiendo… ni a mi ni a mi mamá nos funcionó, estuvimos 10 sesiones con “cero” avance, a las 5 sesiones hicieron una evaluación y decidieron cambiar el tratamiento, pero solo duró una sola sesión, las demás ya volvieron a las mismas que no funcionaban. Al finalizar me propusieron continuar, y como un favor me mantendrían el precio. Ustedes pagarían por un servicio que ya probaron y no funci",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1421711170011444/?comment_id=1920866942069791",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_1062857773227070_2293643998082846",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-23T23:44:24+0000",
+   "texto": "No sirven te chingan más a mí después de 11 seciones me dejaron peor aguas",
+   "categoria": "Daño o negligencia",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1747393963193442/?comment_id=2293643998082846",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_122217622538369965_2224299765173888",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "queretaro",
+   "pagina": "Equilibrio Total Querétaro",
+   "pagina_id": "327573150445283",
+   "fecha": "2026-11-23T23:14:25+0000",
+   "texto": "Yo les mandé un mje y nunca me contestaron.lo que quieren es es que saquen cita ,y con dinero en mano.",
+   "categoria": "No contestan / seguimiento",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1053096983856767/?comment_id=2224299765173888",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "igc_18084719864344995",
    "tipo": "comentario",
@@ -65,22 +113,6 @@ window.ALERTAS_DATA = {
    "respondida": false,
    "oculto": false,
    "cuenta_ig": "17841433852185955"
-  },
-  {
-   "id": "fbc_122124111597335379_1140590151691257",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "pagina_id": "1090445990823612",
-   "fecha": "2026-11-22T14:50:13+0000",
-   "texto": "No los recomiendo😡",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1726690175679171/?comment_id=1140590151691257",
-   "respondida": false,
-   "oculto": false
   },
   {
    "id": "msg_faaa5a8e8f31",
@@ -1311,45 +1343,29 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=1204882241847140",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1024893150297231_1042651925174747",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-08-25T22:04:37+0000",
-   "texto": "No sirven es carísimo y no hay resultados. Puro pasante",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=1042651925174747",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 33
+   "ocultas": 31
   },
   "30": {
    "respondidas": 8,
-   "ocultas": 170
+   "ocultas": 168
   },
   "60": {
    "respondidas": 30,
-   "ocultas": 307
+   "ocultas": 306
   },
   "90": {
    "respondidas": 46,
-   "ocultas": 351
+   "ocultas": 352
   }
  },
  "atendidas_30d": {
   "respondidas": 8,
-  "ocultas": 170
+  "ocultas": 168
  },
  "chats_sin_leer": [
   {
@@ -1363,34 +1379,18 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 2,
-   "no_leidos_24h": 1,
+   "no_leidos": 1,
+   "no_leidos_24h": 0,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 12,
-   "no_leidos_24h": 5,
-   "mas_antiguo": "2026-11-21T18:10:27+0000",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-23T19:42:40+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
-  },
-  {
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 10,
-   "no_leidos_24h": 6,
-   "mas_antiguo": "2026-11-21T21:00:21+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
-  {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 0,
-   "mas_antiguo": "2026-11-22T07:13:30+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
 };
