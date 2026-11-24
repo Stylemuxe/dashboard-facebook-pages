@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-23 22:13",
+ "generado": "2026-11-24 05:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 10978,
+   "revisados": 10996,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 236,
+   "revisados": 243,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 228,
+   "revisados": 230,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1138532875224532_947783921598535",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "reclutamiento",
+   "pagina": "Reclutamiento Equilibrio Total",
+   "pagina_id": "180328660730418",
+   "fecha": "2026-11-24T07:31:41+0000",
+   "texto": "No los recomiendo son estafadores se aprovechan de la gente",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "publicacion",
+   "url": "https://www.facebook.com/1115433417534478/posts/1138532875224532?comment_id=947783921598535",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_122218881284354647_1920866942069791",
    "tipo": "comentario",
@@ -1311,53 +1327,37 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/110427318472531/reviews",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1062118273241675_1748835372906567",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "pagina_id": "101140822565542",
-   "fecha": "2026-08-26T10:15:53+0000",
-   "texto": "Ojo siempre sale.  No sus descuentos en tantas te tapias sin resultados",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/reel/2077380936506525/?comment_id=1748835372906567",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 30
+   "ocultas": 31
   },
   "30": {
    "respondidas": 8,
-   "ocultas": 168
+   "ocultas": 170
   },
   "60": {
    "respondidas": 30,
-   "ocultas": 306
+   "ocultas": 308
   },
   "90": {
    "respondidas": 46,
-   "ocultas": 352
+   "ocultas": 353
   }
  },
  "atendidas_30d": {
   "respondidas": 8,
-  "ocultas": 168
+  "ocultas": 170
  },
  "chats_sin_leer": [
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 10,
+   "no_leidos": 9,
    "no_leidos_24h": 0,
-   "mas_antiguo": "2026-10-27T08:09:47+0000",
+   "mas_antiguo": "2026-10-27T17:39:48+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
@@ -1371,16 +1371,16 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-23T19:42:40+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-24T01:03:47+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
@@ -1395,8 +1395,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-24T04:00:00+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   }
