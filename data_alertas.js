@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-24 15:14",
+ "generado": "2026-11-24 16:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,9 +15,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11034,
-   "estado": "parcial",
-   "nota": "Faltó tiempo para 1 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
+   "revisados": 11033,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 266,
+   "revisados": 337,
    "estado": "ok",
    "nota": null
   },
@@ -1337,18 +1337,10 @@ window.ALERTAS_DATA = {
  },
  "chats_sin_leer": [
   {
-   "pagina_key": "reclutamiento",
-   "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 9,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-10-28T02:05:35+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
-  },
-  {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 2,
-   "no_leidos_24h": 1,
+   "no_leidos": 3,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
@@ -1369,20 +1361,28 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-24T20:08:17+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-24T20:22:48+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
+  },
+  {
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-24T21:07:11+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
+  },
+  {
+   "pagina_key": "reclutamiento",
+   "pagina": "Reclutamiento Equilibrio Total",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-24T21:58:04+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   }
  ]
 };
