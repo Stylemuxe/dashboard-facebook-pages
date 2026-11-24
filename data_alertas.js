@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-24 13:13",
+ "generado": "2026-11-24 14:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11024,
+   "revisados": 11028,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 328,
+   "revisados": 288,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "msg_c4bd4f6f9fc0",
+   "tipo": "mensaje",
+   "red": "messenger",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-24T20:06:31+0000",
+   "texto": null,
+   "categoria": "Legal",
+   "nivel": "alta",
+   "origen": null,
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1138532875224532_947783921598535",
    "tipo": "comentario",
@@ -1308,7 +1324,7 @@ window.ALERTAS_DATA = {
   },
   "60": {
    "respondidas": 30,
-   "ocultas": 312
+   "ocultas": 311
   },
   "90": {
    "respondidas": 45,
@@ -1337,36 +1353,12 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
   },
   {
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-24T18:13:37+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-24T18:40:37+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
    "pagina_key": "autonomia",
    "pagina": "Autonomía con Sentido",
    "no_leidos": 1,
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-24T18:41:15+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-24T18:45:31+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
