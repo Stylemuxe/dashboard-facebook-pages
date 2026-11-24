@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-24 08:44",
+ "generado": "2026-11-24 09:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11004,
+   "revisados": 11000,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 234,
+   "revisados": 233,
    "estado": "ok",
    "nota": null
   },
@@ -335,7 +335,7 @@ window.ALERTAS_DATA = {
    "texto": "No me contestaron wat ???",
    "categoria": "No contestan / seguimiento",
    "nivel": "media",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1594202318688119",
    "respondida": false,
    "oculto": false
@@ -807,7 +807,7 @@ window.ALERTAS_DATA = {
    "texto": "Muy caro para ser para personas de la tercera edad",
    "categoria": "Precio",
    "nivel": "baja",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/2241215039946920/?comment_id=1663873739084896",
    "respondida": false,
    "oculto": false
@@ -1371,8 +1371,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
-   "no_leidos": 5,
-   "no_leidos_24h": 5,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-23T19:42:40+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
