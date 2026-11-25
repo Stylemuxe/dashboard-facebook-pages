@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-24 21:28",
+ "generado": "2026-11-24 22:14",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11044,
+   "revisados": 11048,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 253,
+   "revisados": 254,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 246,
+   "revisados": 238,
    "estado": "ok",
    "nota": null
   },
@@ -1320,7 +1320,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 8,
-   "ocultas": 173
+   "ocultas": 171
   },
   "60": {
    "respondidas": 30,
@@ -1333,7 +1333,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 8,
-  "ocultas": 173
+  "ocultas": 171
  },
  "chats_sin_leer": [
   {
