@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-25 06:16",
+ "generado": "2026-11-25 09:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,9 +15,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11056,
-   "estado": "ok",
-   "nota": null
+   "revisados": 11055,
+   "estado": "parcial",
+   "nota": "Faltó tiempo para 3 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
   },
   {
    "clave": "ig_comentarios",
@@ -29,14 +29,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_resenas",
    "nombre": "Reseñas de Facebook",
-   "revisados": 3,
+   "revisados": 2,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 253,
+   "revisados": 262,
    "estado": "ok",
    "nota": null
   },
@@ -522,8 +522,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1490511666457979",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122150134215112657_1101029299203408",
@@ -603,8 +602,7 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1539803607395634/?comment_id=2060786601950441",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122216933480369554_1554214976426408",
@@ -636,8 +634,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1113230824974847",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "msg_bd101af280d4",
@@ -685,8 +682,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1755941682307086",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1062118273241675_1634504701597133",
@@ -734,8 +730,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1121781740781820",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1062118273241675_1805097207289369",
@@ -767,8 +762,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1294536916064830",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1088233333963212_1424637346281273",
@@ -880,8 +874,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1849695323051429",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_122105974647335379_1620907092780987",
@@ -914,8 +907,7 @@ window.ALERTAS_DATA = {
    "url": "https://www.instagram.com/p/DdUhjLtgEut/",
    "respondida": false,
    "oculto": false,
-   "cuenta_ig": "17841469646975606",
-   "desactualizada": true
+   "cuenta_ig": "17841469646975606"
   },
   {
    "id": "fbr_122225308058444350",
@@ -979,8 +971,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1784320622884204",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "fbc_1062118273241675_1786786675846653",
@@ -1012,8 +1003,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1900651267986446",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "igc_18105461087218702",
@@ -1030,8 +1020,7 @@ window.ALERTAS_DATA = {
    "url": "https://www.instagram.com/p/DdUhjLtgEut/",
    "respondida": false,
    "oculto": false,
-   "cuenta_ig": "17841469646975606",
-   "desactualizada": true
+   "cuenta_ig": "17841469646975606"
   },
   {
    "id": "gr_11e1de3a37c8e372",
@@ -1257,8 +1246,7 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1618546493278972",
    "respondida": false,
-   "oculto": false,
-   "desactualizada": true
+   "oculto": false
   },
   {
    "id": "msg_4d46b671cabe",
@@ -1307,51 +1295,35 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=2569892543529139",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbr_3122181467991539",
-   "tipo": "resena",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-08-27T14:59:57+0000",
-   "texto": "Cero recomendable solo es una sacadera de dinero \nTodos son jóvenes y solo te medio soban y te bajan a oficinas a darte un buen de cosas por pagar y casi casi te obligan a tener más sesiones \nnosotros no regresamos pesimo",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": null,
-   "url": "https://www.facebook.com/110427318472531/reviews",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 34
+   "ocultas": 35
   },
   "30": {
    "respondidas": 8,
-   "ocultas": 171
+   "ocultas": 172
   },
   "60": {
-   "respondidas": 30,
+   "respondidas": 29,
    "ocultas": 311
   },
   "90": {
    "respondidas": 45,
-   "ocultas": 357
+   "ocultas": 358
   }
  },
  "atendidas_30d": {
   "respondidas": 8,
-  "ocultas": 171
+  "ocultas": 172
  },
  "chats_sin_leer": [
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 4,
+   "no_leidos": 5,
    "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
@@ -1407,8 +1379,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-25T05:56:35+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
