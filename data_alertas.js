@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-24 20:14",
+ "generado": "2026-11-24 21:28",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,9 +15,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11043,
-   "estado": "parcial",
-   "nota": "Faltó tiempo para 2 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
+   "revisados": 11044,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 244,
+   "revisados": 246,
    "estado": "ok",
    "nota": null
   },
@@ -1355,8 +1355,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
+   "no_leidos": 4,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-24T20:07:22+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
@@ -1371,8 +1371,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "pachuca",
    "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
    "mas_antiguo": "2026-11-24T21:07:11+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
