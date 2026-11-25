@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-24 16:11",
+ "generado": "2026-11-24 19:44",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -8,7 +8,7 @@ window.YOUTUBE_DATA = {
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 8150,
    "vistas_totales": 1862358,
-   "video_count": 97,
+   "video_count": 98,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -513,12 +513,22 @@ window.YOUTUBE_DATA = {
    ],
    "videos": [
     {
+     "id": "tPoZoRFFUdc",
+     "titulo": "¿Te dejarías enterrar agujas… gratis? 😅",
+     "fecha": "2026-11-25T01:40:46Z",
+     "miniatura": "https://i.ytimg.com/vi/tPoZoRFFUdc/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tPoZoRFFUdc",
+     "vistas": 0,
+     "likes": 0,
+     "comentarios": 0
+    },
+    {
      "id": "F-ceIUqtf8s",
      "titulo": "¿Amaneciste con dolor de rodilla sin razón aparente? 🦵",
      "fecha": "2026-11-24T00:57:18Z",
      "miniatura": "https://i.ytimg.com/vi/F-ceIUqtf8s/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=F-ceIUqtf8s",
-     "vistas": 1531,
+     "vistas": 1563,
      "likes": 10,
      "comentarios": 0
     },
@@ -528,7 +538,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-18T04:00:02Z",
      "miniatura": "https://i.ytimg.com/vi/9CRXUB3XTNY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=9CRXUB3XTNY",
-     "vistas": 1254,
+     "vistas": 1255,
      "likes": 14,
      "comentarios": 0
     },
@@ -548,7 +558,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1344,
+     "vistas": 1346,
      "likes": 57,
      "comentarios": 0
     },
@@ -578,7 +588,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:40:49Z",
      "miniatura": "https://i.ytimg.com/vi/6voM94ThUFg/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=6voM94ThUFg",
-     "vistas": 59,
+     "vistas": 70,
      "likes": 3,
      "comentarios": 0
     },
@@ -588,7 +598,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-01T15:00:12Z",
      "miniatura": "https://i.ytimg.com/vi/clqy_gtFdRw/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=clqy_gtFdRw",
-     "vistas": 2175,
+     "vistas": 2176,
      "likes": 27,
      "comentarios": 3
     },
@@ -628,7 +638,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-10T16:00:09Z",
      "miniatura": "https://i.ytimg.com/vi/koNKV9O2q_M/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=koNKV9O2q_M",
-     "vistas": 631,
+     "vistas": 633,
      "likes": 9,
      "comentarios": 0
     },
@@ -648,7 +658,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-30T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/Xufj_Xp8liI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Xufj_Xp8liI",
-     "vistas": 393,
+     "vistas": 397,
      "likes": 10,
      "comentarios": 0
     },
@@ -701,16 +711,6 @@ window.YOUTUBE_DATA = {
      "vistas": 1635,
      "likes": 39,
      "comentarios": 0
-    },
-    {
-     "id": "aNONVOmvrOY",
-     "titulo": "¿Por Qué Te Duele? 3 Especialistas Explican 4 Lesiones Comunes | Equilibrio al Aire",
-     "fecha": "2026-03-15T23:00:06Z",
-     "miniatura": "https://i.ytimg.com/vi/aNONVOmvrOY/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=aNONVOmvrOY",
-     "vistas": 817,
-     "likes": 11,
-     "comentarios": 4
     }
    ]
   }
