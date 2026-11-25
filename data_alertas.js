@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-25 09:13",
+ "generado": "2026-11-25 10:12",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11055,
-   "estado": "parcial",
-   "nota": "Faltó tiempo para 3 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
+   "revisados": 11052,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 253,
+   "revisados": 252,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 262,
+   "revisados": 260,
    "estado": "ok",
    "nota": null
   },
@@ -1300,15 +1300,15 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 0,
-   "ocultas": 35
+   "ocultas": 36
   },
   "30": {
    "respondidas": 8,
-   "ocultas": 172
+   "ocultas": 173
   },
   "60": {
    "respondidas": 29,
-   "ocultas": 311
+   "ocultas": 312
   },
   "90": {
    "respondidas": 45,
@@ -1317,7 +1317,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 8,
-  "ocultas": 172
+  "ocultas": 173
  },
  "chats_sin_leer": [
   {
