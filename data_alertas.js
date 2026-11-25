@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-25 10:12",
+ "generado": "2026-11-25 17:25",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,40 +15,56 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11052,
-   "estado": "ok",
-   "nota": null
+   "revisados": 11056,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México (2), Equilibrio Total Pachuca (2), Equilibrio Total Edomex"
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
    "revisados": 252,
-   "estado": "ok",
-   "nota": null
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México (2), Equilibrio Total Pachuca (2), Equilibrio Total Edomex"
   },
   {
    "clave": "fb_resenas",
    "nombre": "Reseñas de Facebook",
    "revisados": 2,
-   "estado": "ok",
-   "nota": null
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México (2), Equilibrio Total Pachuca (2), Equilibrio Total Edomex"
   },
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 260,
-   "estado": "ok",
-   "nota": null
+   "revisados": 206,
+   "estado": "parcial",
+   "nota": "No se pudo leer: Equilibrio Total México (2), Equilibrio Total Pachuca (2), Equilibrio Total Edomex"
   },
   {
    "clave": "google",
    "nombre": "Reseñas de Google",
-   "estado": "ok",
+   "estado": "parcial",
    "revisados": 418,
-   "nota": "captura manual en Google Maps del 17/11/2026 13:04"
+   "nota": "captura manual en Google Maps del 17/11/2026 13:04 (ya es vieja: conviene pedir otra)"
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1024893150297231_2034477610559643",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-25T18:05:17+0000",
+   "texto": "Yo acudí por dolor de hombro, y me ayudaron mucho con el dolor, y nunca me lastimaron son muy cuidadosos, aún no termino pero ya tengo mayor movilidad y además tooodos son SUUUUPER amables desde las chicas de la recepción, los super recomiendo !",
+   "categoria": "Daño o negligencia",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=2034477610559643",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "msg_c4bd4f6f9fc0",
    "tipo": "mensaje",
@@ -63,7 +79,8 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1138532875224532_947783921598535",
@@ -96,23 +113,6 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/1053096983856767/?comment_id=2224299765173888",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "igc_18084719864344995",
-   "tipo": "comentario",
-   "red": "instagram",
-   "pagina_key": "beth",
-   "pagina": "Ser Humano Beth",
-   "pagina_id": "101140822565542",
-   "fecha": "2026-11-23T15:04:04+0000",
-   "texto": "Fui y tome 10 sesiones y no me funciono,  no hubo mejoría, amenos yo no las recomiendo!",
-   "categoria": "Resultado del tratamiento",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.instagram.com/p/DeCtkcxgt_U/",
-   "respondida": false,
-   "oculto": false,
-   "cuenta_ig": "17841433852185955"
   },
   {
    "id": "msg_faaa5a8e8f31",
@@ -252,7 +252,8 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "msg_9ce31ed27aeb",
@@ -268,7 +269,8 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "gr_c0abc8fb6b98cb38",
@@ -449,7 +451,8 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "gr_1f0e3aefce196185",
@@ -522,7 +525,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2580101852432627/?comment_id=1490511666457979",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_122150134215112657_1101029299203408",
@@ -602,7 +606,8 @@ window.ALERTAS_DATA = {
    "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1539803607395634/?comment_id=2060786601950441",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_122216933480369554_1554214976426408",
@@ -634,7 +639,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1113230824974847",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "msg_bd101af280d4",
@@ -682,7 +688,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1755941682307086",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1062118273241675_1634504701597133",
@@ -730,7 +737,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1121781740781820",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1062118273241675_1805097207289369",
@@ -762,7 +770,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1294536916064830",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1088233333963212_1424637346281273",
@@ -874,7 +883,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1849695323051429",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_122105974647335379_1620907092780987",
@@ -907,7 +917,8 @@ window.ALERTAS_DATA = {
    "url": "https://www.instagram.com/p/DdUhjLtgEut/",
    "respondida": false,
    "oculto": false,
-   "cuenta_ig": "17841469646975606"
+   "cuenta_ig": "17841469646975606",
+   "desactualizada": true
   },
   {
    "id": "fbr_122225308058444350",
@@ -971,7 +982,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2481321362392877/?comment_id=1784320622884204",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1062118273241675_1786786675846653",
@@ -1003,7 +1015,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1086098527131569/?comment_id=1900651267986446",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "igc_18105461087218702",
@@ -1020,7 +1033,8 @@ window.ALERTAS_DATA = {
    "url": "https://www.instagram.com/p/DdUhjLtgEut/",
    "respondida": false,
    "oculto": false,
-   "cuenta_ig": "17841469646975606"
+   "cuenta_ig": "17841469646975606",
+   "desactualizada": true
   },
   {
    "id": "gr_11e1de3a37c8e372",
@@ -1230,7 +1244,8 @@ window.ALERTAS_DATA = {
    "origen": null,
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "fbc_1031215919724589_1618546493278972",
@@ -1246,7 +1261,8 @@ window.ALERTAS_DATA = {
    "origen": "anuncio",
    "url": "https://www.facebook.com/reel/2262501294521641/?comment_id=1618546493278972",
    "respondida": false,
-   "oculto": false
+   "oculto": false,
+   "desactualizada": true
   },
   {
    "id": "msg_4d46b671cabe",
@@ -1299,90 +1315,50 @@ window.ALERTAS_DATA = {
  ],
  "atendidas": {
   "7": {
-   "respondidas": 0,
-   "ocultas": 36
+   "respondidas": 1,
+   "ocultas": 35
   },
   "30": {
-   "respondidas": 8,
+   "respondidas": 9,
    "ocultas": 173
   },
   "60": {
-   "respondidas": 29,
-   "ocultas": 312
+   "respondidas": 30,
+   "ocultas": 313
   },
   "90": {
-   "respondidas": 45,
-   "ocultas": 358
+   "respondidas": 46,
+   "ocultas": 359
   }
  },
  "atendidas_30d": {
-  "respondidas": 8,
+  "respondidas": 9,
   "ocultas": 173
  },
  "chats_sin_leer": [
   {
    "pagina_key": "beth",
    "pagina": "Ser Humano Beth",
-   "no_leidos": 5,
-   "no_leidos_24h": 3,
+   "no_leidos": 2,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-08T07:18:50+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=101140822565542"
-  },
-  {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-24T18:41:15+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
-  },
-  {
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 5,
-   "no_leidos_24h": 5,
-   "mas_antiguo": "2026-11-24T20:07:22+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 7,
-   "no_leidos_24h": 7,
-   "mas_antiguo": "2026-11-24T20:22:48+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
-  },
-  {
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "no_leidos": 4,
-   "no_leidos_24h": 4,
-   "mas_antiguo": "2026-11-24T21:07:11+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=340314712498666"
   },
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
    "no_leidos": 6,
-   "no_leidos_24h": 6,
+   "no_leidos_24h": 4,
    "mas_antiguo": "2026-11-24T22:06:11+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-24T23:42:34+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-25T05:56:35+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+   "mas_antiguo": "2026-11-25T20:32:19+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
