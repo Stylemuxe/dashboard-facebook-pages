@@ -6008,7 +6008,7 @@ window.FB_PAGES_DATA = {
             "shares": 0,
             "clics": 0,
             "video_views": 662,
-            "alcance": 473,
+            "alcance": 471,
             "guardados": 3,
             "media_type": "VIDEO",
             "comentarios_preview": [
@@ -22615,7 +22615,7 @@ window.FB_PAGES_DATA = {
           }
         ],
         "estado": "ok",
-        "actualizado": "2026-11-25 00:47"
+        "actualizado": "2026-11-25 00:46"
       },
       "mejor_horario": {
         "por_dia": [
@@ -95955,7 +95955,7 @@ window.FB_PAGES_DATA = {
       "no_leidos_24h": 3,
       "no_leidos_mas_antiguo": "2026-11-08T07:18:50+0000",
       "mensajes_estado": "ok",
-      "mensajes_actualizado": "2026-11-25 00:47",
+      "mensajes_actualizado": "2026-11-25 00:46",
       "rating": 4.5,
       "dias_desde_ultima": 19,
       "ultima_publicacion": "2026-11-07T02:00:01+0000",
