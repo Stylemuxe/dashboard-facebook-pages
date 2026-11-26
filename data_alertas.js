@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-26 11:13",
+ "generado": "2026-11-26 12:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11077,
+   "revisados": 11072,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 255,
+   "revisados": 256,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 383,
+   "revisados": 265,
    "estado": "ok",
    "nota": null
   },
@@ -1267,7 +1267,7 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 35
+   "ocultas": 34
   },
   "30": {
    "respondidas": 10,
@@ -1275,7 +1275,7 @@ window.ALERTAS_DATA = {
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 310
+   "ocultas": 309
   },
   "90": {
    "respondidas": 47,
@@ -1314,8 +1314,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-26T16:22:25+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
