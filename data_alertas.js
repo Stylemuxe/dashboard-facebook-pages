@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-25 23:15",
+ "generado": "2026-11-26 00:13",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,9 +15,9 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11042,
-   "estado": "parcial",
-   "nota": "Faltó tiempo para 2 publicaciones con comentarios nuevos: se leen en la siguiente actualización"
+   "revisados": 11058,
+   "estado": "ok",
+   "nota": null
   },
   {
    "clave": "ig_comentarios",
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 235,
+   "revisados": 963,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1131894112990102_919882161214326",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-26T05:30:48+0000",
+   "texto": "Es una porquería me robaron más de 10,000 pesos junto con mi esposa",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1084364987990748/?comment_id=919882161214326",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1087461024100078_29283740374615005",
    "tipo": "comentario",
