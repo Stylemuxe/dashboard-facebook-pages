@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-26 09:14",
+ "generado": "2026-11-26 09:37",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11070,
+   "revisados": 11071,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 489,
+   "revisados": 613,
    "estado": "ok",
    "nota": null
   },
@@ -550,7 +550,7 @@ window.ALERTAS_DATA = {
    "texto": "No se los recomiendo son unos rateros se aprovechan de la gente no son profesionales son estudiantes pinches sesiones de 15 minutos",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
-   "origen": "anuncio",
+   "origen": "publicacion",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
    "oculto": false
@@ -1319,7 +1319,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 169
+   "ocultas": 167
   },
   "60": {
    "respondidas": 31,
@@ -1332,7 +1332,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 169
+  "ocultas": 167
  },
  "chats_sin_leer": [
   {
@@ -1360,12 +1360,12 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
   },
   {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 3,
-   "no_leidos_24h": 3,
-   "mas_antiguo": "2026-11-26T06:18:11+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-26T15:20:20+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
