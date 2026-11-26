@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-26 14:03",
+ "generado": "2026-11-26 15:16",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11084,
+   "revisados": 11092,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 256,
+   "revisados": 255,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 596,
+   "revisados": 227,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,38 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_1129149096597937_1175020138319655",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "edomex",
+   "pagina": "Equilibrio Total Edomex",
+   "pagina_id": "110427318472531",
+   "fecha": "2026-11-26T21:05:39+0000",
+   "texto": "No los recomiendo son unos  rateros te venden un cosa y después te salen con más cosas pero todo es dinero",
+   "categoria": "Fraude o engaño",
+   "nivel": "alta",
+   "origen": "publicacion",
+   "url": "https://www.facebook.com/reel/2026871808024687/?comment_id=1175020138319655",
+   "respondida": false,
+   "oculto": false
+  },
+  {
+   "id": "fbc_122214636896354647_1668757638181906",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "pachuca",
+   "pagina": "Equilibrio Total Pachuca",
+   "pagina_id": "340314712498666",
+   "fecha": "2026-11-26T20:24:55+0000",
+   "texto": "No los recomiendo no tienen el aparato para según escanear la espalda \nTe mandan a hacerte radiografías \nY te dicen que necesitas 20 sesiones de $500 x semana. Están estúpidos",
+   "categoria": "Trato / atención",
+   "nivel": "media",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/reel/1132516886234459/?comment_id=1668757638181906",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "msg_c4bd4f6f9fc0",
    "tipo": "mensaje",
@@ -1267,7 +1299,7 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 33
+   "ocultas": 31
   },
   "30": {
    "respondidas": 10,
@@ -1298,18 +1330,10 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 7,
-   "no_leidos_24h": 1,
+   "no_leidos": 8,
+   "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-24T22:06:11+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
-  },
-  {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-26T16:22:25+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
   }
  ]
 };
