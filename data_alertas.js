@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-26 08:39",
+ "generado": "2026-11-26 09:14",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 257,
+   "revisados": 489,
    "estado": "ok",
    "nota": null
   },
@@ -78,22 +78,6 @@ window.ALERTAS_DATA = {
    "nivel": "baja",
    "origen": "anuncio",
    "url": "https://www.facebook.com/1038826695630178/posts/1087461024100078?comment_id=29283740374615005",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1024893150297231_2034477610559643",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-25T18:05:17+0000",
-   "texto": "Yo acudí por dolor de hombro, y me ayudaron mucho con el dolor, y nunca me lastimaron son muy cuidadosos, aún no termino pero ya tengo mayor movilidad y además tooodos son SUUUUPER amables desde las chicas de la recepción, los super recomiendo !",
-   "categoria": "Daño o negligencia",
-   "nivel": "alta",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1530633401878773/?comment_id=2034477610559643",
    "respondida": false,
    "oculto": false
   },
@@ -1330,24 +1314,24 @@ window.ALERTAS_DATA = {
  ],
  "atendidas": {
   "7": {
-   "respondidas": 1,
+   "respondidas": 2,
    "ocultas": 33
   },
   "30": {
-   "respondidas": 9,
+   "respondidas": 10,
    "ocultas": 169
   },
   "60": {
-   "respondidas": 30,
-   "ocultas": 312
+   "respondidas": 31,
+   "ocultas": 310
   },
   "90": {
-   "respondidas": 46,
+   "respondidas": 47,
    "ocultas": 359
   }
  },
  "atendidas_30d": {
-  "respondidas": 9,
+  "respondidas": 10,
   "ocultas": 169
  },
  "chats_sin_leer": [
@@ -1368,20 +1352,20 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-25T20:32:19+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
-  },
-  {
    "pagina_key": "edomex",
    "pagina": "Equilibrio Total Edomex",
    "no_leidos": 1,
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-26T02:58:14+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
+  },
+  {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 3,
+   "no_leidos_24h": 3,
+   "mas_antiguo": "2026-11-26T06:18:11+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   }
  ]
 };
