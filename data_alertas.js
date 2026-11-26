@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-26 16:13",
+ "generado": "2026-11-26 17:04",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11094,
+   "revisados": 11096,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 227,
+   "revisados": 226,
    "estado": "ok",
    "nota": null
   },
@@ -49,6 +49,22 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
+  {
+   "id": "fbc_122105974755335379_1403200708316275",
+   "tipo": "comentario",
+   "red": "facebook",
+   "pagina_key": "mexico",
+   "pagina": "Equilibrio Total México",
+   "pagina_id": "1090445990823612",
+   "fecha": "2026-11-26T22:56:34+0000",
+   "texto": "Demasiado caro para lo que hacen fui a una consulta y nada más porque no conseguí cita a donde siempre voy fui ahí para probar y me hicieron lo mismo y a donde voy me cobran mucho mas barato",
+   "categoria": "Precio",
+   "nivel": "baja",
+   "origen": "anuncio",
+   "url": "https://www.facebook.com/122122446681335379/posts/122105974755335379?comment_id=1403200708316275",
+   "respondida": false,
+   "oculto": false
+  },
   {
    "id": "fbc_1129149096597937_1175020138319655",
    "tipo": "comentario",
@@ -1303,7 +1319,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 169
+   "ocultas": 168
   },
   "60": {
    "respondidas": 31,
@@ -1316,7 +1332,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 169
+  "ocultas": 168
  },
  "chats_sin_leer": [
   {
@@ -1334,6 +1350,14 @@ window.ALERTAS_DATA = {
    "no_leidos_24h": 2,
    "mas_antiguo": "2026-11-24T22:06:11+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
+  },
+  {
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "no_leidos": 1,
+   "no_leidos_24h": 1,
+   "mas_antiguo": "2026-11-26T22:22:41+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
