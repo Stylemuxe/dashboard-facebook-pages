@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-26 12:13",
+ "generado": "2026-11-26 14:03",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11072,
+   "revisados": 11084,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 265,
+   "revisados": 596,
    "estado": "ok",
    "nota": null
   },
@@ -1267,7 +1267,7 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 34
+   "ocultas": 33
   },
   "30": {
    "respondidas": 10,
@@ -1275,7 +1275,7 @@ window.ALERTAS_DATA = {
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 309
+   "ocultas": 308
   },
   "90": {
    "respondidas": 47,
@@ -1298,18 +1298,10 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "reclutamiento",
    "pagina": "Reclutamiento Equilibrio Total",
-   "no_leidos": 6,
-   "no_leidos_24h": 0,
+   "no_leidos": 7,
+   "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-24T22:06:11+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
-  },
-  {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-26T16:10:04+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   },
   {
    "pagina_key": "mexico",
