@@ -1,12 +1,12 @@
 window.TIKTOK_DATA = {
- "generado": "2026-11-26 23:41",
+ "generado": "2026-11-27 00:26",
  "cuentas": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "username": "equilibriototalmx",
-   "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/38fd2885620e42a30d6f413d3ce11208~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=1d72ee28&x-expires=1795928400&x-signature=yt6QnSOwwfrW417uV%2BdFnsxHW%2FI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+   "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/38fd2885620e42a30d6f413d3ce11208~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=876f4527&x-expires=1795932000&x-signature=HwbHzNAKkI%2BKoSWIxBVD1Aa5pzQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
    "seguidores": 27482,
-   "likes_totales": 148509,
+   "likes_totales": 148515,
    "video_count": 266,
    "historial_seguidores": [
     {
@@ -513,15 +513,20 @@ window.TIKTOK_DATA = {
      "fecha": "2026-11-26",
      "seguidores": 27482,
      "likes_totales": 148509
+    },
+    {
+     "fecha": "2026-11-27",
+     "seguidores": 27482,
+     "likes_totales": 148515
     }
    ],
    "videos": [
     {
      "id": "7712636313849072902",
      "titulo": "¿Te duele la espalda y crees que necesitas un ajuste? 👀  La quiropráctica no es solo tronar huesos y tiene límites: con fractura, esguince, contusión, infección o postoperatorio no se debe ajustar.  Mándaselo a quien lo necesita.  #quiropractica #dolordeespalda #equilibriototal",
-     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oo1AEI4BABirTwAA4yyBviPyRAOAeIMUKGhuOA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=0d21fdda&x-expires=1795842000&x-signature=EizjsQ%2FcZq1jpwntKWfMZBezLAA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oo1AEI4BABirTwAA4yyBviPyRAOAeIMUKGhuOA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=8f26bc8d&x-expires=1795845600&x-signature=sQFCahp%2B8r5ipksYZAg0zzzzEPo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7712636313849072902?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 412,
+     "vistas": 450,
      "likes": 16,
      "comentarios": 0,
      "shares": 1,
@@ -530,9 +535,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7712272534216936705",
      "titulo": "¿Uno de tus hombros está más abajo que el otro? 🪞 Puede ser una señal de escoliosis, pero solo una evaluación lo confirma. Mándaselo a quien siempre tiene un hombro más abajo. #escoliosis #columna #postura #equilibriototal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYdOL5ADeAIV7sAxAGrW2YESfID4LEAcevAQbl~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=dfd19403&x-expires=1795842000&x-signature=ZOgO0SVuhATPSaMMtD42ijXxAGM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYdOL5ADeAIV7sAxAGrW2YESfID4LEAcevAQbl~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=388c468c&x-expires=1795845600&x-signature=VT0BNhzL7mQJJK0Pek0W7fWQcYE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7712272534216936705?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 577,
+     "vistas": 582,
      "likes": 26,
      "comentarios": 0,
      "shares": 1,
@@ -541,10 +546,10 @@ window.TIKTOK_DATA = {
     {
      "id": "7711964385308101909",
      "titulo": "¿Te dejarías enterrar agujas… gratis? 😅 Salimos a la calle a regalar una sesión de acupuntura y casi todos nos dijeron que no. Hasta que una señora se animó. Lo que casi nadie sabe: las agujas de acupuntura son muy finitas, mucho más que las de una inyección. Esta es la parte 1. En la parte 2 te contamos lo que sintió después 👀 Mándaselo a ese amigo que le tiene pavor a las agujas 📲 #acupuntura #entrevistacallejera #agujas #retocallejero #equilibriototal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o08zaHH0WID2fweMCJLIAbGtIDAjKs7QQneK4M~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=138ac7ac&x-expires=1795842000&x-signature=5fNbL8Fh0LRdj%2FhWOEaqsXbUKpg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o08zaHH0WID2fweMCJLIAbGtIDAjKs7QQneK4M~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=ce64f469&x-expires=1795845600&x-signature=OvJ5FKpYswPE7MQHYwWjaIFklUI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7711964385308101909?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 9254,
-     "likes": 204,
+     "vistas": 9537,
+     "likes": 210,
      "comentarios": 14,
      "shares": 25,
      "fecha": "2026-11-25T04:40:37+0000"
@@ -552,7 +557,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7711530244766813460",
      "titulo": "¿Dolor de rodilla sin razón aparente? 🦵 Cojear o pasar horas sentado pueden ser algunas causas. Si tú o algún familiar hace esto, mándale este video. #dolorderodilla #rodilla #fisioterapiapelvica #equilibriototal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIx0AEAiOeEpBADrAJAIR4KilfAJL0EcBB3Cg9~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=a2642aa6&x-expires=1795842000&x-signature=UbQ%2B2Yt%2BoZGy8FXwiwBkBD59UOY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIx0AEAiOeEpBADrAJAIR4KilfAJL0EcBB3Cg9~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=61bf7951&x-expires=1795845600&x-signature=quvjwt7aUk8C3g4paSrTYeEkXwU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7711530244766813460?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 735,
      "likes": 29,
@@ -563,7 +568,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7710716690711072008",
      "titulo": "¿Qué es ese \"crack\" cuando te ajustan la espalda? 😱  No es un hueso: se asocia a una burbuja de gas en la articulación.  Pregunta por quiropráctica con un especialista.  Mándaselo a quien dice \"a mí no me truenen la espalda\".  #quiropractica #dolordeespalda #equilibriototal",
-     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAQsBADtEGJEAAzXfJAAILAFfeBS0Ukf9VqWw9~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=5584bfe2&x-expires=1795842000&x-signature=HUqmLb5YJFngO6T9QwxZB8iBF%2Fo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAQsBADtEGJEAAzXfJAAILAFfeBS0Ukf9VqWw9~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=b2e66747&x-expires=1795845600&x-signature=Ro6UgGsi3%2BDPk%2BF0hgKSQ9Ja81A%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7710716690711072008?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 524,
      "likes": 13,
@@ -574,7 +579,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7710716173679168775",
      "titulo": "¿Normalizaste el dolor de cabeza? 🤕  No esperes a sentirte peor para atenderte.  La acupuntura trabaja con agujas en cuello, brazos o cabeza.  Mándaselo a quien siempre dice que le duele la cabeza.  #dolordecabeza #acupunturachina #equilibriototal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIJxeIIAwTAFOEe7AAWIrBfTAeD2GJAQKAxs5D~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=1cdc3822&x-expires=1795842000&x-signature=uiSy7NJf5s2Sg2tkbX9SNPeXkK0%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIJxeIIAwTAFOEe7AAWIrBfTAeD2GJAQKAxs5D~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=ef9b4e0a&x-expires=1795845600&x-signature=zzAGga36vC73sMcckqo1m1tTEIA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7710716173679168775?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1344,
      "likes": 24,
@@ -585,9 +590,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7710454502188551444",
      "titulo": "¿Se te vuelve a torcer el mismo tobillo? 🦶 Que ya no duela no significa que ya esté listo. Pregunta por fisioterapia con un especialista. Mándaselo a ese que siempre se tuerce el tobillo. #fisioterapia #esguince #equilibriototal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oo2ECAFAeEDCJ6AAmrAgfBE5rBImRIZBcAYQCC~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=2bea64f3&x-expires=1795842000&x-signature=COI90UGmxsMjQl6Jnia2%2BRplW%2FQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oo2ECAFAeEDCJ6AAmrAgfBE5rBImRIZBcAYQCC~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=151ef87d&x-expires=1795845600&x-signature=rPflgSuGcW6UWrpeX%2BoUr0JqHU4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7710454502188551444?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 547,
+     "vistas": 548,
      "likes": 23,
      "comentarios": 1,
      "shares": 0,
@@ -596,7 +601,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7710031085048057096",
      "titulo": "Salió el GTA 6… y Toño ya perdió contra un poste 😂📱 Misión: Equilibrio Total ✅ #GTA6 #GTAVI #GTA6Memes #GrandTheftAuto6 #ViceCity #GTA6Gameplay #DolorDeEspalda #Fisioterapia #EquilibrioTotal #HumorMexicano",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQI5XAWJQGAeIgPfArAAWYKTwJLCNEfGx4ePXA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=bd27cb96&x-expires=1795842000&x-signature=PDS5C4YigofQCAWsByIMyTCVgzM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQI5XAWJQGAeIgPfArAAWYKTwJLCNEfGx4ePXA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=14efd5dc&x-expires=1795845600&x-signature=%2FdOiLOq0l3rOd9KWhI1kEwHa8Ng%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7710031085048057096?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 636,
      "likes": 22,
@@ -607,7 +612,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7709670909157592338",
      "titulo": "¿Primera vez en terapia?  Esto pasa en tu primera valoración 👇  Entrevista, historial médico, examen físico y pruebas de postura.  Mándaselo a quien le da miedo ir por primera vez.  #primeravaloracion #salud #equilibriototal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIIoYrEVMfeP8FBEomHDyAAEogDfAmqAIQAqEj~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=c2f795ce&x-expires=1795842000&x-signature=upLDl6E8HnJruP%2BRIPXY2G7%2BKBA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIIoYrEVMfeP8FBEomHDyAAEogDfAmqAIQAqEj~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=86b4d10e&x-expires=1795845600&x-signature=XdXA9z1mnVN%2BErw958mDNWcdN8w%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7709670909157592338?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 449,
      "likes": 15,
@@ -618,9 +623,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7709286054615928072",
      "titulo": "Hernia discal: no siempre significa cirugía.  Valoración, resonancia y fisioterapia: así se trabaja en Equilibrio Total.  Mándaselo a quien tiene dolor de espalda con hormigueo.  #herniadiscal #fisioterapia #dolordeespalda #equilibriototal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYSAGDfEtAfsVOK4nIELrZAoAVE6FOEADeDO48~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=c017b568&x-expires=1795842000&x-signature=2MBvMtnGvIIK%2F8OAm0wgRLhHZjY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYSAGDfEtAfsVOK4nIELrZAoAVE6FOEADeDO48~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=775025d7&x-expires=1795845600&x-signature=pQzsAk3uUcsxzxv2U9JLCr3%2B5u0%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7709286054615928072?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 1528,
+     "vistas": 1529,
      "likes": 33,
      "comentarios": 2,
      "shares": 1,
@@ -629,7 +634,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7708124084118293778",
      "titulo": "¿Dolor de hombro que \"ya se va a pasar\"?  Él cargaba +50 kg en su trabajo y terminó con lesión de manguito rotador.  Mándaselo a quien levanta cosas pesadas.  #manguitorotador #dolordehombro #lesiondehombro #equilibriototal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUexrVAW8HfQEgWgDAQAxlP8JMRAdWIMAqoEeY~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=2b6c0205&x-expires=1795842000&x-signature=TemzOwUEsYUi7idxn5YjqroRy2k%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUexrVAW8HfQEgWgDAQAxlP8JMRAdWIMAqoEeY~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=1cf31d3d&x-expires=1795845600&x-signature=cheqnd8uT%2FVaIaC6Uj%2FNQ9aztWs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7708124084118293778?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 12397,
      "likes": 96,
@@ -640,7 +645,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7708122702275530002",
      "titulo": "1 de cada 3 personas mayores en México vive con diabetes, y casi 1 de cada 5 no lo sabe. En la vejez no es solo azúcar: también es memoria, músculo y compañía. Mándaselo a tu mamá o papá 💛 #DíaMundialDeLaDiabetes #Diabetes",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4AVAfN7DDDVFA5ER4EwM3ENeEoIBDfAvErJDA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=9115ff92&x-expires=1795842000&x-signature=g6sy7Ks9SwFCq%2FDXp%2FrZDIKhfwk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4AVAfN7DDDVFA5ER4EwM3ENeEoIBDfAvErJDA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=ce96beaf&x-expires=1795845600&x-signature=Y5MTElHvLdRCobwstMceo72uIJs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7708122702275530002?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 398,
      "likes": 5,
@@ -651,7 +656,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7707794194416291090",
      "titulo": "La pastilla apaga la alarma, no el fuego 🔥 Cuando algo duele, lo más fácil es tomar una pastilla. Pero si el dolor te hace dejar de moverte, los músculos también se van: en un estudio, 10 días en cama bastaron para que adultos mayores sanos perdieran casi 1 kg de masa muscular de las piernas. Los antiinflamatorios de todos los días también tienen riesgos: la FDA advierte de sangrado de estómago, infarto y daño al riñón. Y para el dolor de espalda que dura más de 3 meses, la OMS recomienda ejercicio y terapias, no solo medicamentos. No te automediques. Si te duele seguido, acude con un especialista. Mándaselo a quien siempre se toma una pastilla para todo 💊 Todos merecen vivir sin dolor. #DolorDeEspalda #DolorCrónico #EquilibrioTotal",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAlCsEODg5ACAYXFfAqVBAAeEa3Eg9I25FWDyc~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=0842b8a9&x-expires=1795842000&x-signature=WCjt4T1xaf24yOmQXArUB1c7PRo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAlCsEODg5ACAYXFfAqVBAAeEa3Eg9I25FWDyc~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=e60cf6de&x-expires=1795845600&x-signature=DRnVGQhuLXDxRBNqSOTHHf31LvM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7707794194416291090?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 775,
      "likes": 23,
@@ -662,7 +667,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7707380204083137812",
      "titulo": "⚡ ¿Sientes hormigueo, ardor o dolor en las piernas? ¡No lo ignores! 👀 Podría estar relacionado con una neuropatía. 💙 Descubre qué debes saber sobre la acupuntura y sus cuidados. ¿Has sentido alguno de estos síntomas? 👇 #Neuropatía #Acupuntura #EquilibrioTotal #Salud",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8zHWAA3qDB64Dd2C7iig6B1CeAVGsAIEIf6cw~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=0ba49f61&x-expires=1795842000&x-signature=KVlYdJAqpclVLnmXOp69PObj%2BGY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8zHWAA3qDB64Dd2C7iig6B1CeAVGsAIEIf6cw~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=1cae6df4&x-expires=1795845600&x-signature=RMUPJ%2Bo5SNo3R6mwehTWcNmbs5c%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7707380204083137812?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1811,
      "likes": 49,
@@ -673,7 +678,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7707048887575465224",
      "titulo": "💙 ¿Dolor en la espalda baja que se extiende hacia el glúteo o la pierna? 😣 Podría estar relacionado con la ciática, una molestia que puede afectar actividades tan sencillas como caminar, sentarte o levantarte. En Equilibrio Total, nuestros especialistas te explican cómo identificar las molestias y qué opciones de rehabilitación pueden ayudarte a mejorar tu movilidad. 🙌 💬 Cuéntanos, ¿en qué parte sientes más dolor? #EquilibrioTotal #Ciática #DolorDeEspalda #Fisioterapia #RehabilitaciónFísica",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owz0engIEXDA9UcFPSCTDq8A7AQBVCAAEBBrfq~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=9145159e&x-expires=1795842000&x-signature=4Na8HQPQu5NmK3yJlW3KzrA6tmY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owz0engIEXDA9UcFPSCTDq8A7AQBVCAAEBBrfq~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=2d5783a3&x-expires=1795845600&x-signature=D3Zd9FSAczQD51sxb%2F5sUPrtyL8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7707048887575465224?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1003,
      "likes": 24,
@@ -684,7 +689,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7706709825798900993",
      "titulo": "Un movimiento brusco en el trabajo cambió la rutina del señor Juan. El dolor era tan intenso que incluso le impedía dormir. En Equilibrio Total 💙, nuestros especialistas en fisioterapia y quiropráctica nos cuentan cómo abordaron su caso y qué trabajaron durante sus primeras sesiones de rehabilitación. 🎥 ¿Quieres conocer su historia completa y cómo ha sido su proceso? ▶️ Mira el video completo en nuestro canal de YouTube: @EquilibrioTotalmx. 🔔 ¡Suscríbete para conocer más testimonios reales y consejos de nuestros especialistas! #EquilibrioTotal #DolorDeHombro #Fisioterapia #RehabilitaciónFísica #TestimoniosReales",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8FtvAeq8A9CBj4AE1F7HVdCcBnfQiSAC92gID~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=9fe39384&x-expires=1795842000&x-signature=1dTTFpIicnSrYc18dj%2FafSvn5Bg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8FtvAeq8A9CBj4AE1F7HVdCcBnfQiSAC92gID~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=a8bf366f&x-expires=1795845600&x-signature=XnU%2FM2oqosBEz4QAYQx%2BrFjRAes%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7706709825798900993?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 868,
      "likes": 20,
@@ -695,7 +700,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7704817275387350292",
      "titulo": "💙 Hay historias que nos recuerdan por qué amamos lo que hacemos. Porque detrás de cada movimiento hay una persona, una historia y un sueño que merece seguir adelante. ✨ En Equilibrio Total no solo trabajamos por tu movilidad, también te acompañamos a recuperar la confianza para seguir haciendo lo que amas. 💙 💬 Cuéntanos, ¿qué te gustaría volver a hacer sin que el dolor te detenga? #EquilibrioTotal #RehabilitaciónFísica #Fisioterapia #Movilidad #CalidadDeVida",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMB5gpCVDALgjfjwoIeReQ6AaZ1G2LcTgomBrI~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=5c9d6c34&x-expires=1795842000&x-signature=CNuOAmyDXNwcGuAFbolicy5X%2BuA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMB5gpCVDALgjfjwoIeReQ6AaZ1G2LcTgomBrI~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=ec586616&x-expires=1795845600&x-signature=VjZVXMEPkChmKvxmmFlkDrBp8Ew%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7704817275387350292?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 870,
      "likes": 21,
@@ -706,9 +711,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7704485299987942677",
      "titulo": "💙¿Sabías que no todas las molestias se tratan de la misma manera? En Equilibrio Total contamos con especialistas en fisioterapia, quiropráctica, acupuntura y rehabilitación física para brindarte una atención de acuerdo con tus necesidades. 🙌 💬 Cuéntanos en los comentarios: ¿Qué especialidad te gustaría conocer más? #EquilibrioTotal #Fisioterapia #RehabilitaciónFísica #Quiropráctica #Acupuntura #Bienestar",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAW0jAAQqDBI8trrCeFEgIDwC6AVRDAIEVfzc9~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=4c2130f6&x-expires=1795842000&x-signature=yMfPT1qwA4Q83q0d%2BbESffwDrKY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAW0jAAQqDBI8trrCeFEgIDwC6AVRDAIEVfzc9~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=07bc7786&x-expires=1795845600&x-signature=vXnf2vl8Nh2jdIaf8Ew21ZZoN2Q%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7704485299987942677?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 5319,
+     "vistas": 5321,
      "likes": 254,
      "comentarios": 0,
      "shares": 24,
@@ -717,7 +722,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7703397443580300564",
      "titulo": "💙 ¡Moverte hoy es invertir en tu bienestar! En Equilibrio Total sabemos que mantener la movilidad es importante para disfrutar de una mejor calidad de vida. 💪 🎥 ¿Quieres conocer más? Mira el video completo en nuestro canal de YouTube. 👉 Búscanos como Equilibrio Total en YouTube y descubre el video completo. #EquilibrioTotal #Fisioterapia #RehabilitaciónFísica #Movilidad #Bienestar",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0EAnVGEcEfA1ArfjkIADFEDb9DWXzAuQfu7v4~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=74c9d9d6&x-expires=1795842000&x-signature=gCnE8GuiKEn9kyNrEgZKWF82d60%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0EAnVGEcEfA1ArfjkIADFEDb9DWXzAuQfu7v4~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=bf7a9cf4&x-expires=1795845600&x-signature=Wv3C5PMrkcTMEs41OXKl%2Fgm94mU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7703397443580300564?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1419,
      "likes": 49,
@@ -728,7 +733,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7701901370240060724",
      "titulo": "Fisioterapeuta reacciona a hueseros: ¿esto es seguro? Mándaselo a alguien que se deja tronar la espalda 👀 #fisioterapia #huesero #reaccion ",
-     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUaFfJjQQfG8HgfggFXrATfMAwwvQGyR8piRIq~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=81a28a5d&x-expires=1795842000&x-signature=X1OAVKRJ8o%2B8wY0qmgNPe%2FkSrLE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUaFfJjQQfG8HgfggFXrATfMAwwvQGyR8piRIq~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=ef9c343e&x-expires=1795845600&x-signature=rrurFA%2F4FGPd9qijnM5pLKetXoQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@equilibriototalmx/video/7701901370240060724?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 594,
      "likes": 10,
@@ -741,7 +746,7 @@ window.TIKTOK_DATA = {
   "autonomia": {
    "nombre": "Autonomía con Sentido",
    "username": "Autonomía con Sentido",
-   "avatar": "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/cf4ce16630c8170fe1bba4e224cd8d98~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=33acbc72&x-expires=1795928400&x-signature=X0RrRd4sG5noxFrpauJsz12qMXw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+   "avatar": "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/cf4ce16630c8170fe1bba4e224cd8d98~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=090d9166&x-expires=1795932000&x-signature=1qOcnCbM%2B6WwtWwwCYsbHxzww%2FY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
    "seguidores": 575,
    "likes_totales": 3949,
    "video_count": 97,
@@ -905,15 +910,20 @@ window.TIKTOK_DATA = {
      "fecha": "2026-11-26",
      "seguidores": 575,
      "likes_totales": 3949
+    },
+    {
+     "fecha": "2026-11-27",
+     "seguidores": 575,
+     "likes_totales": 3949
     }
    ],
    "videos": [
     {
      "id": "7712673100046929173",
      "titulo": "Cumplimos un año y lo celebramos como más nos gusta: bailando💃🏽. Gracias por compartir con nosotros sus ganas de seguir soñando y viviendo con autonomía .🫶🏼",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8ivcAICEAAf1IAIA1Awli8UOBiWG6hBHxZth5~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=9ab163e6&x-expires=1795842000&x-signature=tfdVyFL79aysW%2FxEdywbTuOmm1Y%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8ivcAICEAAf1IAIA1Awli8UOBiWG6hBHxZth5~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=aaaf2ebd&x-expires=1795845600&x-signature=PDJ46lPsve4hicwSyok2iu8%2Fco4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7712673100046929173?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 168,
+     "vistas": 193,
      "likes": 15,
      "comentarios": 1,
      "shares": 6,
@@ -922,7 +932,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7711534734060326164",
      "titulo": "¿Bailar ayuda a tu memoria? De casi todo el ejercicio físico, fue el que mejor salió. Mándaselo a la persona con la que bailarías. #personasmayores #baile #memoria #gerontologia ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYA9EWhUgBpADAAwMDAEPiEAiBwiaI4AnYTAB~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=208f08b8&x-expires=1795842000&x-signature=F1k0g79LwpEN1f9vYgAlTIHjx%2FA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYA9EWhUgBpADAAwMDAEPiEAiBwiaI4AnYTAB~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=d4e02ac0&x-expires=1795845600&x-signature=kBAx4mJakMhTni%2FOpIaUafB6aRE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7711534734060326164?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 520,
      "likes": 43,
@@ -933,7 +943,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7711393652811074836",
      "titulo": "¿Tener amigos puede ayudarte a vivir más? 👀🧡 Resulta que las amistades no solo nos alegran la vida, también pueden ayudarnos a vivir mejor. Así que ya sabes… ¡no pierdas de vista a tus amigos! 📲 Mándale este video a ese amigo con quien quieres llegar a los 90. #Amistad  #personasmayores #autonomia ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oo6LgDCrIAovBAAIrDXES4eA8EAjAAFeWEEXvf~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=02a408d9&x-expires=1795842000&x-signature=QcE86QAvYjJl4W2%2FVcWXTPjmWAw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oo6LgDCrIAovBAAIrDXES4eA8EAjAAFeWEEXvf~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=884afdd4&x-expires=1795845600&x-signature=M%2F3vadlVR7wd0KrsYQOZccIrxjU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7711393652811074836?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 521,
      "likes": 30,
@@ -944,9 +954,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7710783068365196564",
      "titulo": "Un poquito de actividad, muchas risas y uno que otro chismecito. 🤭🧡 #autonomíaconsentido #ClubGerontológico #personasmayores ",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okXJSB2w0vbEZNIa04Id6BACii4NIYHAGIwCG~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=250bf36a&x-expires=1795842000&x-signature=RKAf0Mz%2BsNNlJ4w2gA0dpVCGCSU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okXJSB2w0vbEZNIa04Id6BACii4NIYHAGIwCG~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=fd3a2b7b&x-expires=1795845600&x-signature=k1219TlvXq%2FDCnY0KmhpuHVWJ%2Bw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7710783068365196564?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 614,
+     "vistas": 615,
      "likes": 22,
      "comentarios": 0,
      "shares": 0,
@@ -955,9 +965,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7710454292179750164",
      "titulo": "La autonomía no se trata solo de hacer las cosas por ti mismo, sino de seguir teniendo la libertad de decidir cómo quieres vivir. 🧡 #AutonomíaConSentido #Gerontología #personasmayores ",
-     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4A7EivVqwYqBCBAJnhaBVEAAg2EAW1MAIiPV~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=92bdd54d&x-expires=1795842000&x-signature=MB3cX2ma3P9A6gFXNmVOgd58KcU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4A7EivVqwYqBCBAJnhaBVEAAg2EAW1MAIiPV~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=620f93ae&x-expires=1795845600&x-signature=GUxpWBGo%2F1GuGUm8lF6JqYIR45M%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7710454292179750164?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 762,
+     "vistas": 766,
      "likes": 49,
      "comentarios": 2,
      "shares": 0,
@@ -966,7 +976,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7710028061709831442",
      "titulo": "¿Se puede ganar músculo a los 90 años? 💪  En un estudio con personas de 90, con pesas supervisadas, su fuerza casi se triplicó en 8 semanas.  Antes de empezar, que un profesional te valore. Mándaselo a tu mamá o papá.  #autonomiaconsentido #personasmayores #fuerza",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oArPQffJAMQjjAAAoCeJ8X25tGQypgLwWwfRJA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=a710bebb&x-expires=1795842000&x-signature=Yqz1IrZZEnX3Oz526u3EW3lwgng%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oArPQffJAMQjjAAAoCeJ8X25tGQypgLwWwfRJA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=d004cc58&x-expires=1795845600&x-signature=u8I5MOGb4ZGqRa%2FkOO0vUjsx%2B0Q%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7710028061709831442?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 556,
      "likes": 31,
@@ -977,7 +987,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7709671144542063924",
      "titulo": "💃 ¡Una hora completa de baile adaptado para personas mayores, por solo $50! 🎶 La clase de Luis en Coacalco estuvo llena: llegó muchísima gente y entre pasos y música se juntaron, platicaron y hasta hicieron amigos. 💙 Cualquier persona puede ir. Te inscribes el mismo día, tomas la clase y bailas con nosotros. Si te gusta bailar, o quieres probar algo nuevo, esta es tu oportunidad. ✨ Mándaselo a tu mamá o papá y anímenlos a ir. 🕺 Información general. Consulta con un profesional si tienes dudas sobre qué actividad es adecuada para ti. #AutonomíaConSentido #BaileAdaptado #PersonasMayores #Coacalco",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooJ8gnIAQ3ALcIIQHNWnffenAIGhGJAQVARrye~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=0d5e51a8&x-expires=1795842000&x-signature=U9WxB7lbrjMX0jHzNieOXIPGaqM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooJ8gnIAQ3ALcIIQHNWnffenAIGhGJAQVARrye~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=a565fb58&x-expires=1795845600&x-signature=VW77lK%2Fzbku3wEeBe0CK049TAbA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7709671144542063924?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 634,
      "likes": 32,
@@ -988,7 +998,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7708271813079420181",
      "titulo": "🧠🧡 ¿Qué tan buena es tu memoria? Parece sencillo recordar unos cuantos números… pero ¿qué pasa cuando tienes que decirlos al revés? 🤔 Pon a prueba tu memoria, atención y concentración con este reto de 3 niveles. 🔢 👇 Cuéntanos en los comentarios: ¿hasta qué nivel lograste llegar? #AutonomíaConSentido #MemoriaActiva #EstimulaciónCognitiva #PersonasMayores",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogDUAE3AhQkeDFPEH4YfH9fIXZA8ErAWyVIUAD~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=3a9d39a2&x-expires=1795842000&x-signature=UUlArey%2BQMUD0y8opOUH3DdKkDg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogDUAE3AhQkeDFPEH4YfH9fIXZA8ErAWyVIUAD~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=52f32c31&x-expires=1795845600&x-signature=kkG667SvV6NfDAPzM8Tb7%2F0UZOw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7708271813079420181?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 543,
      "likes": 20,
@@ -999,7 +1009,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7708131489984072967",
      "titulo": "🎾🧡 ¡Aquí los reflejos también se entrenan! ¿Quién dijo que ejercitarse tenía que ser aburrido? 😏 Ponemos a prueba la coordinación, la concentración y los reflejos con actividades que nos mantienen en movimiento, mientras nos divertimos. 💪✨ 💬 ¿Tú qué tal andas de reflejos? ¿Te animarías a intentarlo? #AutonomíaConSentido #PersonasMayores #Coordinación #VidaActiva #autonomiaconsentido",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okkECImGA0AE4CBLeAVrDAAfIux6L8QeZ5nHpo~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=a57433d6&x-expires=1795842000&x-signature=rQWhIv4iw4AQ7aF4niPoe2ABMY0%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okkECImGA0AE4CBLeAVrDAAfIux6L8QeZ5nHpo~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=0b646485&x-expires=1795845600&x-signature=2Oe4Hp2kjUt2YFjlIU0v1vrhDl8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7708131489984072967?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1005,
      "likes": 56,
@@ -1010,7 +1020,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7708265192706067713",
      "titulo": "Hoy te retamos a poner a prueba tu memoria, atención y orientación con un ejercicio divertido que te hará pensar. 💪✨ 👇 Cuéntanos en los comentarios: ¿cuántos niveles lograste superar? ▶️ Descubre más ejercicios en nuestro canal de YouTube. #AutonomíaConSentido #MemoriaActiva #EstimulaciónCognitiva #PersonasMayores",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQZQPyJ6GGC5IwTlXQLPAjgIWAWeAefeJAJrAQ~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=2a737b9b&x-expires=1795842000&x-signature=2dpu8pcPYIEe2w%2BT%2BtCfgRhnJ34%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQZQPyJ6GGC5IwTlXQLPAjgIWAWeAefeJAJrAQ~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=8d810e7a&x-expires=1795845600&x-signature=SvaKs4Q%2BurQKfwbpm32qJJKYzcU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7708265192706067713?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 759,
      "likes": 36,
@@ -1021,7 +1031,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7707797881410882823",
      "titulo": "\"Una sonrisa no te quita nada\" 😊  Así vive el club una de nuestras integrantes.  El video completo está en YouTube.  Mándaselo a tu mamá o papá.  #autonomiaconsentido #testimonio #personasmayores #sonrisa",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okVrvA4pQ3AAxZWeJjA9CCtgJJAbAreWYeGmJf~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=dd0137bf&x-expires=1795842000&x-signature=GQGMJrumShGXKRX5cyixRZTCT1g%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okVrvA4pQ3AAxZWeJjA9CCtgJJAbAreWYeGmJf~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=192ea92c&x-expires=1795845600&x-signature=7sbxJNf6An5gDkghg2%2BmnA4sUkE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7707797881410882823?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 664,
      "likes": 25,
@@ -1032,7 +1042,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7707405968266513684",
      "titulo": "Suelta el palo, deja pasar el cono y atrápalo 😅 Un juego de reflejos y coordinación mano-ojo que probamos en Autonomía con Sentido. Jugamos personas mayores y gente que todavía no lo es, y a todos nos costó 😂 Es un buen pretexto para reírse en familia. Eso sí, es solo un juego, no una prueba médica. Mándaselo a tu mamá o papá y reten a ver quién lo logra 😏 #AutonomíaConSentido #RetoDeReflejos #Coordinación #PersonasMayores",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ok6PfABe5NDBMiVxqY6npApCgEp2Co8IAA1xit~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=f3ab08b6&x-expires=1795842000&x-signature=%2FMnf5LpP2NVlQ3vevUDDjvWlK%2BI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ok6PfABe5NDBMiVxqY6npApCgEp2Co8IAA1xit~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=a8069d9c&x-expires=1795845600&x-signature=IPvXrzpzk2dTuxzqzB8dj8cF4V4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7707405968266513684?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 1454,
      "likes": 54,
@@ -1043,9 +1053,9 @@ window.TIKTOK_DATA = {
     {
      "id": "7707052328364346632",
      "titulo": "🧡 ¿Cuándo fue la última vez que te preguntaste qué tan independiente eres? La autonomía no solo se trata de poder hacer las cosas por nuestra cuenta, sino de mantener las capacidades que nos permiten disfrutar cada etapa de la vida. ✨ En Autonomía con Sentido, nuestra valoración gerontológica nos ayuda a conocer las capacidades físicas, cognitivas y funcionales de las personas mayores para identificar sus necesidades y acompañarlas a conservar su independencia. 💬 Porque envejecer no significa dejar de hacer lo que nos gusta. #AutonomíaConSentido #PersonasMayores #EnvejecimientoActivo #Gerontología #CalidadDeVida",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooN9Df4HCEFcQo5jkAqgFCcpIyVPAAkOHBeAlk~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=77bfd507&x-expires=1795842000&x-signature=msMBsomIpAcjxFsDleFDR1Xxhuk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooN9Df4HCEFcQo5jkAqgFCcpIyVPAAkOHBeAlk~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=34389a35&x-expires=1795845600&x-signature=NYouHYd8g0Xyb4QP6oYbDrqDn7o%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7707052328364346632?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
-     "vistas": 790,
+     "vistas": 791,
      "likes": 35,
      "comentarios": 2,
      "shares": 1,
@@ -1054,7 +1064,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7706927641483283730",
      "titulo": "🧡 Hay historias que merecen ser escuchadas completas. Detrás de cada persona mayor hay experiencias, emociones y momentos que nos recuerdan la importancia de seguir compartiendo la vida. ✨ Esta es solo una pequeña parte de una historia que vale la pena conocer. 🎥 Mira el video completo en nuestro canal de YouTube: Autonomía con Sentido. #AutonomíaConSentido #PersonasMayores #EnvejecimientoActivo",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0gEbiPBgsACGDhifAqRBAA4Ej0ydeI2kv8DjU~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=afabef2e&x-expires=1795842000&x-signature=pIByfvnv6epemYKW%2FiZ%2BAAogc2A%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0gEbiPBgsACGDhifAqRBAA4Ej0ydeI2kv8DjU~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=59936d2e&x-expires=1795845600&x-signature=XR7UJ%2Bb4%2Fgnxk5NYAQrDlS54dk4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7706927641483283730?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 691,
      "likes": 34,
@@ -1065,7 +1075,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7706315432705281287",
      "titulo": "🥹🎶 ¿Y si una canción pudiera llevarte de vuelta a uno de los momentos más felices de tu vida? La música tiene algo especial: puede despertar emociones y recuerdos que parecían dormidos. ❤️ A veces, una melodía dice más que mil palabras. 👵🏻🎵 ¿Qué canción te recuerda a tus abuelos? #Abuelos #Recuerdos #Alzheimer #Música #PersonasMayores",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEiVi7Iy2DdwAgBACgfiiQAcADE8ZAmMBTeqYC~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=86df2416&x-expires=1795842000&x-signature=RWXkKrBMJnNGUeBEoUKhGKDqti8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEiVi7Iy2DdwAgBACgfiiQAcADE8ZAmMBTeqYC~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=055cca95&x-expires=1795845600&x-signature=Zhk4PaZ9w1Qxvzz8naz1cIhPw0E%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7706315432705281287?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 756,
      "likes": 57,
@@ -1076,7 +1086,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7705201347364244754",
      "titulo": "¿Llegas a la trampa sin fallar? 🧠 Dime cuántas sacaste de 4 y mándaselo a tu mamá o a tu papá 👀  #RetoDeMemoria #RetoMental #PersonasMayores #MemoriaActiva #AutonomíaConSentido",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEXLVDI3eABYAGAfE8DEEbGuxoi7r3aixAYUfA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=47b41aa0&x-expires=1795842000&x-signature=s8WVcVKlRnFZLxCIDdAwZg0NzWw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEXLVDI3eABYAGAfE8DEEbGuxoi7r3aixAYUfA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=dd0338eb&x-expires=1795845600&x-signature=%2FVRMrsGRNuWmzjOH4HGywsIPG3U%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7705201347364244754?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 662,
      "likes": 22,
@@ -1087,7 +1097,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7704823745093078279",
      "titulo": "🧡 Cuidar también cansa, aunque se haga con todo el amor del mundo. Detrás del bienestar de muchas personas mayores hay alguien que acompaña, escucha y dedica gran parte de su vida a cuidar. En Autonomía con Sentido creemos que cuidar a quienes cuidan también es parte del bienestar. 🧡 💬 ¿Conoces a alguien que dedica su vida a cuidar? Etiquétalo y recuérdale que también merece tiempo para sí mismo. #personascuidadoras #AutonomíaConSentido #PersonasMayores #Bienestar",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMZappfEAPrMAQkIPEFVADHDA6oSADlefg2E65~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=75724eaf&x-expires=1795842000&x-signature=CScZbTiuF9Qvco00AFcjrqmDI%2BI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMZappfEAPrMAQkIPEFVADHDA6oSADlefg2E65~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=d5dc0479&x-expires=1795845600&x-signature=zE1K79zdT8gPxy2v8IqImtmH2v8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7704823745093078279?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 321,
      "likes": 9,
@@ -1098,7 +1108,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7704481984923405574",
      "titulo": "🧡 ¡Don Ángel nos recuerda lo bonito que es disfrutar la vida y seguir siendo independientes! Nos encanta escucharlo compartir su experiencia y saber que en Autonomía con Sentido ha encontrado un espacio para mantenerse activo, convivir y disfrutar cada momento. 🥹 💬 Y tú, ¿qué es lo que más disfrutas hacer para sentirte activo e independiente? #AutonomíaConSentido #PersonasMayores #CalidadDeVida",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMDiQ0MSE98CcM6CSrOBfBjViRAiAAegANtqI2~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=e4afd1e9&x-expires=1795842000&x-signature=n%2B8JxcFqzNeQBvFdJ%2FKZELAGoFU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMDiQ0MSE98CcM6CSrOBfBjViRAiAAegANtqI2~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=e4090aef&x-expires=1795845600&x-signature=7Au1PIiyh4zrev3Xlp2cxHl0HsM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7704481984923405574?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 762,
      "likes": 34,
@@ -1109,7 +1119,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7702969233461759252",
      "titulo": "♥️ ¡La alegría se contagia y las ganas de disfrutar la vida también! Porque no hay edad para sonreír, celebrar, hacer nuevas amistades y seguir viviendo momentos que nos llenan de energía. ☀️ 🙌 ¡Que nunca nos falten motivos para aplaudirle a la vida! #AutonomíaConSentido #PersonasMayores #fypage",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8iAIOZvzP7EljBKecc1gAihOAaBnDwAAF7rmB~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=3f0e19d4&x-expires=1795842000&x-signature=i3N3253Ef%2FhNqtEKM8AKnhXNABY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8iAIOZvzP7EljBKecc1gAihOAaBnDwAAF7rmB~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=513d422a&x-expires=1795845600&x-signature=BhG27zGDK92J0ZKjGCIm9rnn0B4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7702969233461759252?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 868,
      "likes": 29,
@@ -1120,7 +1130,7 @@ window.TIKTOK_DATA = {
     {
      "id": "7702625305290231061",
      "titulo": "¡Dicen que recordar es volver a vivir, pero yo digo que hay que seguir creando recuerdos! 🧡✨ Entre risas, baile y una buena plática, nos fuimos a Xochimilco y comprobamos que nunca es tarde para hacer amigos, disfrutar y vivir nuevas experiencias. 🚣‍♀️💃 Porque la autonomía también es salir, convivir, decidir y seguir haciendo lo que nos hace felices. ¡Que nunca nos falten las ganas de disfrutar la vida! #PensemosEnGrandes #AutonomíaConSentido #PersonasMayores",
-     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYGq5ADvIBCEAHpIfCAgQOAF1TKZB8ZhLeaVcc~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=3c420616&x-expires=1795842000&x-signature=ep2pkRzoAvd94jVFSDLkj4QyCvo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+     "miniatura": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYGq5ADvIBCEAHpIfCAgQOAF1TKZB8ZhLeaVcc~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=2f2e8ff9&x-expires=1795845600&x-signature=imv0jivbfSisQbwqRZunm9ljh00%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
      "url": "https://www.tiktok.com/@autonomiaconsentido/video/7702625305290231061?utm_campaign=tt4d_open_api&utm_source=sbawqy7vldfmks4hg9",
      "vistas": 996,
      "likes": 43,
