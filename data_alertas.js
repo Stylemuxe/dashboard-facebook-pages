@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-27 08:51",
+ "generado": "2026-11-27 09:14",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11112,
+   "revisados": 11111,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 263,
+   "revisados": 264,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 227,
+   "revisados": 226,
    "estado": "ok",
    "nota": null
   },
@@ -62,22 +62,6 @@ window.ALERTAS_DATA = {
    "nivel": "baja",
    "origen": "anuncio",
    "url": "https://www.facebook.com/122122446681335379/posts/122105974755335379?comment_id=1403200708316275",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_1129149096597937_1175020138319655",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "pagina_id": "110427318472531",
-   "fecha": "2026-11-26T21:05:39+0000",
-   "texto": "No los recomiendo son unos  rateros te venden un cosa y después te salen con más cosas pero todo es dinero",
-   "categoria": "Fraude o engaño",
-   "nivel": "alta",
-   "origen": "publicacion",
-   "url": "https://www.facebook.com/reel/2026871808024687/?comment_id=1175020138319655",
    "respondida": false,
    "oculto": false
   },
@@ -1299,24 +1283,24 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 29
+   "ocultas": 30
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 165
+   "ocultas": 166
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 307
+   "ocultas": 308
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 362
+   "ocultas": 363
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 165
+  "ocultas": 166
  },
  "chats_sin_leer": [
   {
@@ -1336,36 +1320,12 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "no_leidos": 2,
-   "no_leidos_24h": 2,
-   "mas_antiguo": "2026-11-26T22:22:41+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
-  },
-  {
    "pagina_key": "mexico",
    "pagina": "Equilibrio Total México",
    "no_leidos": 1,
    "no_leidos_24h": 1,
    "mas_antiguo": "2026-11-26T23:36:06+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
-  },
-  {
-   "pagina_key": "tepeyac",
-   "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 7,
-   "no_leidos_24h": 7,
-   "mas_antiguo": "2026-11-27T00:26:59+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
-  },
-  {
-   "pagina_key": "autonomia",
-   "pagina": "Autonomía con Sentido",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-27T04:02:54+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=930200630167541"
   },
   {
    "pagina_key": "edomex",
