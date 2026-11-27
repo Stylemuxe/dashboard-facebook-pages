@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-27 09:14",
+ "generado": "2026-11-27 10:12",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11111,
+   "revisados": 11116,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 264,
+   "revisados": 265,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 226,
+   "revisados": 220,
    "estado": "ok",
    "nota": null
   },
@@ -50,34 +50,18 @@ window.ALERTAS_DATA = {
  ],
  "alertas": [
   {
-   "id": "fbc_122105974755335379_1403200708316275",
+   "id": "fbc_1023271927126020_1456403486703215",
    "tipo": "comentario",
    "red": "facebook",
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
-   "pagina_id": "1090445990823612",
-   "fecha": "2026-11-26T22:56:34+0000",
-   "texto": "Demasiado caro para lo que hacen fui a una consulta y nada más porque no conseguí cita a donde siempre voy fui ahí para probar y me hicieron lo mismo y a donde voy me cobran mucho mas barato",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
+   "pagina_id": "103426168998997",
+   "fecha": "2026-11-27T15:30:38+0000",
+   "texto": "Un chasco total y carísimo.¡!",
    "categoria": "Precio",
    "nivel": "baja",
    "origen": "anuncio",
-   "url": "https://www.facebook.com/122122446681335379/posts/122105974755335379?comment_id=1403200708316275",
-   "respondida": false,
-   "oculto": false
-  },
-  {
-   "id": "fbc_122214636896354647_1668757638181906",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "pachuca",
-   "pagina": "Equilibrio Total Pachuca",
-   "pagina_id": "340314712498666",
-   "fecha": "2026-11-26T20:24:55+0000",
-   "texto": "No los recomiendo no tienen el aparato para según escanear la espalda \nTe mandan a hacerte radiografías \nY te dicen que necesitas 20 sesiones de $500 x semana. Están estúpidos",
-   "categoria": "Trato / atención",
-   "nivel": "media",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1132516886234459/?comment_id=1668757638181906",
+   "url": "https://www.facebook.com/reel/1695518899246050/?comment_id=1456403486703215",
    "respondida": false,
    "oculto": false
   },
@@ -1283,24 +1267,24 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 30
+   "ocultas": 31
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 166
+   "ocultas": 167
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 308
+   "ocultas": 310
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 363
+   "ocultas": 365
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 166
+  "ocultas": 167
  },
  "chats_sin_leer": [
   {
@@ -1320,20 +1304,12 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
-   "pagina_key": "mexico",
-   "pagina": "Equilibrio Total México",
+   "pagina_key": "equilibrio_total",
+   "pagina": "Equilibrio Total",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-26T23:36:06+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=1090445990823612"
-  },
-  {
-   "pagina_key": "edomex",
-   "pagina": "Equilibrio Total Edomex",
-   "no_leidos": 1,
-   "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-27T04:29:10+0000",
-   "url": "https://business.facebook.com/latest/inbox/all?asset_id=110427318472531"
+   "mas_antiguo": "2026-11-27T15:41:49+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
 };
