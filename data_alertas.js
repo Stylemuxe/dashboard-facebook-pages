@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-27 03:11",
+ "generado": "2026-11-27 04:12",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -22,7 +22,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 260,
+   "revisados": 259,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 226,
+   "revisados": 227,
    "estado": "ok",
    "nota": null
   },
@@ -1354,8 +1354,8 @@ window.ALERTAS_DATA = {
   {
    "pagina_key": "tepeyac",
    "pagina": "Equilibrio Total Tepeyac",
-   "no_leidos": 5,
-   "no_leidos_24h": 5,
+   "no_leidos": 6,
+   "no_leidos_24h": 6,
    "mas_antiguo": "2026-11-27T00:26:59+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
   },
