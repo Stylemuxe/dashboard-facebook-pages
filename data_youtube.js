@@ -1,5 +1,5 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-26 17:04",
+ "generado": "2026-11-26 23:40",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
@@ -7,8 +7,8 @@ window.YOUTUBE_DATA = {
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
    "seguidores": 8270,
-   "vistas_totales": 1911168,
-   "video_count": 98,
+   "vistas_totales": 1940045,
+   "video_count": 99,
    "historial_seguidores": [
     {
      "fecha": "2026-08-17",
@@ -518,19 +518,29 @@ window.YOUTUBE_DATA = {
     {
      "fecha": "2026-11-26",
      "seguidores": 8270,
-     "vistas_totales": 1911168
+     "vistas_totales": 1940045
     }
    ],
    "videos": [
+    {
+     "id": "JfbteJOvUHg",
+     "titulo": "¿Te duele la espalda y crees que necesitas un ajuste? 👀",
+     "fecha": "2026-11-27T00:16:40Z",
+     "miniatura": "https://i.ytimg.com/vi/JfbteJOvUHg/mqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JfbteJOvUHg",
+     "vistas": 1209,
+     "likes": 20,
+     "comentarios": 0
+    },
     {
      "id": "tPoZoRFFUdc",
      "titulo": "¿Te dejarías enterrar agujas… gratis? 😅",
      "fecha": "2026-11-25T01:40:46Z",
      "miniatura": "https://i.ytimg.com/vi/tPoZoRFFUdc/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=tPoZoRFFUdc",
-     "vistas": 71058,
-     "likes": 1424,
-     "comentarios": 6
+     "vistas": 78726,
+     "likes": 1473,
+     "comentarios": 7
     },
     {
      "id": "F-ceIUqtf8s",
@@ -538,8 +548,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-24T00:57:18Z",
      "miniatura": "https://i.ytimg.com/vi/F-ceIUqtf8s/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=F-ceIUqtf8s",
-     "vistas": 2084,
-     "likes": 18,
+     "vistas": 2142,
+     "likes": 19,
      "comentarios": 0
     },
     {
@@ -548,7 +558,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-18T04:00:02Z",
      "miniatura": "https://i.ytimg.com/vi/9CRXUB3XTNY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=9CRXUB3XTNY",
-     "vistas": 1266,
+     "vistas": 1271,
      "likes": 14,
      "comentarios": 0
     },
@@ -558,7 +568,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-14T20:23:17Z",
      "miniatura": "https://i.ytimg.com/vi/VGG3L3txVSk/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=VGG3L3txVSk",
-     "vistas": 615,
+     "vistas": 619,
      "likes": 2,
      "comentarios": 0
     },
@@ -568,7 +578,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1377,
+     "vistas": 1380,
      "likes": 58,
      "comentarios": 0
     },
@@ -578,7 +588,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-12T20:10:12Z",
      "miniatura": "https://i.ytimg.com/vi/3K1fuhTHfnY/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=3K1fuhTHfnY",
-     "vistas": 233,
+     "vistas": 237,
      "likes": 2,
      "comentarios": 0
     },
@@ -598,7 +608,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-11T00:40:49Z",
      "miniatura": "https://i.ytimg.com/vi/6voM94ThUFg/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=6voM94ThUFg",
-     "vistas": 77,
+     "vistas": 78,
      "likes": 3,
      "comentarios": 0
     },
@@ -638,7 +648,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-07-11T15:51:28Z",
      "miniatura": "https://i.ytimg.com/vi/f6euhUlrGE8/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=f6euhUlrGE8",
-     "vistas": 1898,
+     "vistas": 1899,
      "likes": 30,
      "comentarios": 1
     },
@@ -658,7 +668,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-06-08T23:09:35Z",
      "miniatura": "https://i.ytimg.com/vi/MCcWxjoepeI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=MCcWxjoepeI",
-     "vistas": 1073,
+     "vistas": 1074,
      "likes": 15,
      "comentarios": 13
     },
@@ -668,7 +678,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-30T21:45:02Z",
      "miniatura": "https://i.ytimg.com/vi/Xufj_Xp8liI/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=Xufj_Xp8liI",
-     "vistas": 400,
+     "vistas": 401,
      "likes": 10,
      "comentarios": 0
     },
@@ -708,18 +718,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-04-26T23:00:15Z",
      "miniatura": "https://i.ytimg.com/vi/L6z50ET7Bp0/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=L6z50ET7Bp0",
-     "vistas": 403,
+     "vistas": 404,
      "likes": 5,
-     "comentarios": 0
-    },
-    {
-     "id": "I5bVg8KWBMY",
-     "titulo": "Manguito rotador | Lesión y tratamiento integral",
-     "fecha": "2026-03-16T21:00:19Z",
-     "miniatura": "https://i.ytimg.com/vi/I5bVg8KWBMY/mqdefault.jpg",
-     "url": "https://www.youtube.com/watch?v=I5bVg8KWBMY",
-     "vistas": 1640,
-     "likes": 39,
      "comentarios": 0
     }
    ]
