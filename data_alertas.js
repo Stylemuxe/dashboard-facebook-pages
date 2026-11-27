@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-26 17:04",
+ "generado": "2026-11-26 23:39",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11096,
+   "revisados": 11100,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 256,
+   "revisados": 260,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 226,
+   "revisados": 212,
    "estado": "ok",
    "nota": null
   },
@@ -1294,36 +1294,20 @@ window.ALERTAS_DATA = {
    "url": "https://www.facebook.com/reel/2532981323880740/?comment_id=1358603366433827",
    "respondida": false,
    "oculto": false
-  },
-  {
-   "id": "fbc_1030585659727980_2569892543529139",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-08-29T00:40:32+0000",
-   "texto": "Demasiado caro...no son medicos especialistas y cobran como tal...",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1020316420810443/?comment_id=2569892543529139",
-   "respondida": false,
-   "oculto": false
   }
  ],
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 31
+   "ocultas": 29
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 168
+   "ocultas": 166
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 308
+   "ocultas": 307
   },
   "90": {
    "respondidas": 47,
@@ -1332,7 +1316,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 168
+  "ocultas": 166
  },
  "chats_sin_leer": [
   {
