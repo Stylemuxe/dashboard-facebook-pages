@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-27 11:13",
+ "generado": "2026-11-27 12:12",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,14 +15,14 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11128,
+   "revisados": 11127,
    "estado": "ok",
    "nota": null
   },
   {
    "clave": "ig_comentarios",
    "nombre": "Comentarios de Instagram",
-   "revisados": 265,
+   "revisados": 266,
    "estado": "ok",
    "nota": null
   },
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 219,
+   "revisados": 220,
    "estado": "ok",
    "nota": null
   },
@@ -49,22 +49,6 @@ window.ALERTAS_DATA = {
   }
  ],
  "alertas": [
-  {
-   "id": "fbc_1023271927126020_1456403486703215",
-   "tipo": "comentario",
-   "red": "facebook",
-   "pagina_key": "equilibrio_total",
-   "pagina": "Equilibrio Total",
-   "pagina_id": "103426168998997",
-   "fecha": "2026-11-27T15:30:38+0000",
-   "texto": "Un chasco total y carísimo.¡!",
-   "categoria": "Precio",
-   "nivel": "baja",
-   "origen": "anuncio",
-   "url": "https://www.facebook.com/reel/1695518899246050/?comment_id=1456403486703215",
-   "respondida": false,
-   "oculto": false
-  },
   {
    "id": "msg_c4bd4f6f9fc0",
    "tipo": "mensaje",
@@ -1267,24 +1251,24 @@ window.ALERTAS_DATA = {
  "atendidas": {
   "7": {
    "respondidas": 2,
-   "ocultas": 31
+   "ocultas": 32
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 167
+   "ocultas": 168
   },
   "60": {
    "respondidas": 31,
-   "ocultas": 310
+   "ocultas": 311
   },
   "90": {
    "respondidas": 47,
-   "ocultas": 365
+   "ocultas": 366
   }
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 167
+  "ocultas": 168
  },
  "chats_sin_leer": [
   {
@@ -1304,11 +1288,19 @@ window.ALERTAS_DATA = {
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=180328660730418"
   },
   {
+   "pagina_key": "tepeyac",
+   "pagina": "Equilibrio Total Tepeyac",
+   "no_leidos": 2,
+   "no_leidos_24h": 2,
+   "mas_antiguo": "2026-11-27T17:40:20+0000",
+   "url": "https://business.facebook.com/latest/inbox/all?asset_id=369505499570832"
+  },
+  {
    "pagina_key": "equilibrio_total",
    "pagina": "Equilibrio Total",
    "no_leidos": 1,
    "no_leidos_24h": 1,
-   "mas_antiguo": "2026-11-27T15:41:49+0000",
+   "mas_antiguo": "2026-11-27T17:42:51+0000",
    "url": "https://business.facebook.com/latest/inbox/all?asset_id=103426168998997"
   }
  ]
