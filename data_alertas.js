@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-27 02:11",
+ "generado": "2026-11-27 03:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -36,7 +36,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "messenger",
    "nombre": "Mensajes de Messenger",
-   "revisados": 227,
+   "revisados": 226,
    "estado": "ok",
    "nota": null
   },
