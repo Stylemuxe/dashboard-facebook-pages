@@ -1,13 +1,13 @@
 window.YOUTUBE_DATA = {
- "generado": "2026-11-27 11:14",
+ "generado": "2026-11-27 12:12",
  "canales": {
   "equilibrio_total": {
    "nombre": "Equilibrio Total MX",
    "handle": "EquilibrioTotalmx",
    "channel_id": "UCn6XCXHFXnr5-UqiH4s9QMA",
    "thumbnail": "https://yt3.ggpht.com/29LSxcHJOorUyrR0Aoz5TW4C_sUrwI6iLarJTG_f2pzFMhl2mrBxlhw91EY-MYKP0n5yi1Ip=s240-c-k-c0x00ffffff-no-rj",
-   "seguidores": 8270,
-   "vistas_totales": 1940045,
+   "seguidores": 8280,
+   "vistas_totales": 1948747,
    "video_count": 99,
    "historial_seguidores": [
     {
@@ -522,8 +522,8 @@ window.YOUTUBE_DATA = {
     },
     {
      "fecha": "2026-11-27",
-     "seguidores": 8270,
-     "vistas_totales": 1940045
+     "seguidores": 8280,
+     "vistas_totales": 1948747
     }
    ],
    "videos": [
@@ -533,8 +533,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-27T00:16:40Z",
      "miniatura": "https://i.ytimg.com/vi/JfbteJOvUHg/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=JfbteJOvUHg",
-     "vistas": 1255,
-     "likes": 20,
+     "vistas": 1259,
+     "likes": 21,
      "comentarios": 0
     },
     {
@@ -543,8 +543,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-25T01:40:46Z",
      "miniatura": "https://i.ytimg.com/vi/tPoZoRFFUdc/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=tPoZoRFFUdc",
-     "vistas": 79660,
-     "likes": 1471,
+     "vistas": 79729,
+     "likes": 1473,
      "comentarios": 10
     },
     {
@@ -553,8 +553,8 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-24T00:57:18Z",
      "miniatura": "https://i.ytimg.com/vi/F-ceIUqtf8s/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=F-ceIUqtf8s",
-     "vistas": 2181,
-     "likes": 19,
+     "vistas": 2182,
+     "likes": 20,
      "comentarios": 0
     },
     {
@@ -583,7 +583,7 @@ window.YOUTUBE_DATA = {
      "fecha": "2026-11-13T23:02:19Z",
      "miniatura": "https://i.ytimg.com/vi/1HLp9gBeyjU/mqdefault.jpg",
      "url": "https://www.youtube.com/watch?v=1HLp9gBeyjU",
-     "vistas": 1389,
+     "vistas": 1388,
      "likes": 58,
      "comentarios": 0
     },
