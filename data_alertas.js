@@ -1,5 +1,5 @@
 window.ALERTAS_DATA = {
- "generado": "2026-11-27 01:13",
+ "generado": "2026-11-27 02:11",
  "ventanas": {
   "comentarios_dias": 90,
   "mensajes_dias": 90,
@@ -15,7 +15,7 @@ window.ALERTAS_DATA = {
   {
    "clave": "fb_comentarios",
    "nombre": "Comentarios de Facebook",
-   "revisados": 11103,
+   "revisados": 11105,
    "estado": "ok",
    "nota": null
   },
@@ -566,7 +566,7 @@ window.ALERTAS_DATA = {
    "texto": "No se los recomiendo son unos rateros se aprovechan de la gente no son profesionales son estudiantes pinches sesiones de 15 minutos",
    "categoria": "Fraude o engaño",
    "nivel": "alta",
-   "origen": "publicacion",
+   "origen": "anuncio",
    "url": "https://www.facebook.com/reel/1966039830735551/?comment_id=1101029299203408",
    "respondida": false,
    "oculto": false
@@ -1303,7 +1303,7 @@ window.ALERTAS_DATA = {
   },
   "30": {
    "respondidas": 10,
-   "ocultas": 166
+   "ocultas": 165
   },
   "60": {
    "respondidas": 31,
@@ -1316,7 +1316,7 @@ window.ALERTAS_DATA = {
  },
  "atendidas_30d": {
   "respondidas": 10,
-  "ocultas": 166
+  "ocultas": 165
  },
  "chats_sin_leer": [
   {
